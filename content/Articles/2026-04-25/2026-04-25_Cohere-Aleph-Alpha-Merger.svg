@@ -1,0 +1,184 @@
+<svg viewBox="0 0 1400 1050" xmlns="http://www.w3.org/2000/svg" font-family="-apple-system,'Hiragino Sans','Yu Gothic',sans-serif">
+  <defs>
+    <filter id="softShadow" x="-5%" y="-5%" width="115%" height="115%">
+      <feDropShadow dx="2" dy="3" stdDeviation="4" flood-color="#00000022"/>
+    </filter>
+    <filter id="stickyShadow" x="-10%" y="-10%" width="130%" height="130%">
+      <feDropShadow dx="3" dy="4" stdDeviation="6" flood-color="#00000033"/>
+    </filter>
+    <pattern id="paperTexture" patternUnits="userSpaceOnUse" width="4" height="4">
+      <rect width="4" height="4" fill="#FBF8F1"/>
+      <circle cx="1" cy="1" r="0.4" fill="#E8E2D3" opacity="0.5"/>
+      <circle cx="3" cy="3" r="0.3" fill="#D5CDBA" opacity="0.4"/>
+    </pattern>
+  </defs>
+  <rect width="1400" height="1050" fill="url(#paperTexture)"/>
+  <rect x="0" y="0" width="48" height="1050" fill="#E8E2D3" stroke="#D0C9B8" stroke-width="1"/>
+  <circle cx="24" cy="120" r="14" fill="#FBF8F1" stroke="#C8BFA8" stroke-width="2"/>
+  <circle cx="24" cy="120" r="7" fill="#E0D8C8" stroke="#B8AFA0" stroke-width="1.5"/>
+  <circle cx="24" cy="280" r="14" fill="#FBF8F1" stroke="#C8BFA8" stroke-width="2"/>
+  <circle cx="24" cy="280" r="7" fill="#E0D8C8" stroke="#B8AFA0" stroke-width="1.5"/>
+  <circle cx="24" cy="440" r="14" fill="#FBF8F1" stroke="#C8BFA8" stroke-width="2"/>
+  <circle cx="24" cy="440" r="7" fill="#E0D8C8" stroke="#B8AFA0" stroke-width="1.5"/>
+  <circle cx="24" cy="600" r="14" fill="#FBF8F1" stroke="#C8BFA8" stroke-width="2"/>
+  <circle cx="24" cy="600" r="7" fill="#E0D8C8" stroke="#B8AFA0" stroke-width="1.5"/>
+  <circle cx="24" cy="760" r="14" fill="#FBF8F1" stroke="#C8BFA8" stroke-width="2"/>
+  <circle cx="24" cy="760" r="7" fill="#E0D8C8" stroke="#B8AFA0" stroke-width="1.5"/>
+  <circle cx="24" cy="920" r="14" fill="#FBF8F1" stroke="#C8BFA8" stroke-width="2"/>
+  <circle cx="24" cy="920" r="7" fill="#E0D8C8" stroke="#B8AFA0" stroke-width="1.5"/>
+  <!-- Category tape -->
+  <g transform="translate(1270,0) rotate(3)">
+    <rect x="0" y="-10" width="175" height="44" fill="#5CA46E" stroke="#1A1D24" stroke-width="2"/>
+    <text x="87" y="18" text-anchor="middle" font-size="16" font-weight="700" fill="white">#ビジネス</text>
+  </g>
+  <!-- Date badge -->
+  <rect x="68" y="22" width="170" height="38" rx="6" fill="#2F3842" filter="url(#softShadow)"/>
+  <text x="153" y="47" text-anchor="middle" font-size="16" font-weight="700" fill="white">2026-04-25</text>
+  <!-- Impact stars -->
+  <text x="260" y="52" font-size="24" fill="#F5C518">⭐⭐⭐</text>
+  <!-- Hero icon -->
+  <g transform="translate(1250,120)">
+    <circle cx="0" cy="0" r="52" fill="#E8F5E9" stroke="#5CA46E" stroke-width="3"/>
+    <text x="0" y="0" text-anchor="middle" dominant-baseline="central" font-size="46">🌉</text>
+  </g>
+  <!-- Title -->
+  <text x="68" y="108" font-size="36" font-weight="900" fill="#1A1D24">Cohere × Aleph Alpha 合併</text>
+  <text x="68" y="150" font-size="24" font-weight="700" fill="#5CA46E">$20B 欧州主権AI連合の誕生</text>
+  <text x="68" y="183" font-size="15" fill="#666">TechCrunch · 2026-04-25 · #M&amp;A #欧州AI #主権AI</text>
+  <line x1="68" y1="200" x2="1340" y2="200" stroke="#1A1D24" stroke-width="2.5"/>
+
+  <!-- Key Numbers -->
+  <rect x="68" y="215" width="280" height="105" rx="8" fill="white" stroke="#1A1D24" stroke-width="2.5" filter="url(#softShadow)"/>
+  <rect x="68" y="215" width="280" height="10" rx="4" fill="#5CA46E"/>
+  <text x="208" y="265" text-anchor="middle" font-size="44" font-weight="900" fill="#1A1D24">$20B</text>
+  <text x="208" y="292" text-anchor="middle" font-size="13" fill="#666">統合後企業評価額</text>
+  <text x="208" y="310" text-anchor="middle" font-size="11" fill="#999">Handelsblatt / Axios報道</text>
+
+  <rect x="368" y="215" width="280" height="105" rx="8" fill="white" stroke="#1A1D24" stroke-width="2.5" filter="url(#softShadow)"/>
+  <rect x="368" y="215" width="280" height="10" rx="4" fill="#5CA46E"/>
+  <text x="508" y="265" text-anchor="middle" font-size="44" font-weight="900" fill="#1A1D24">€500M</text>
+  <text x="508" y="292" text-anchor="middle" font-size="13" fill="#666">Schwarz Group構造化融資</text>
+  <text x="508" y="310" text-anchor="middle" font-size="11" fill="#999">Lidl親会社・Stackit付帯</text>
+
+  <rect x="668" y="215" width="280" height="105" rx="8" fill="white" stroke="#1A1D24" stroke-width="2.5" filter="url(#softShadow)"/>
+  <rect x="668" y="215" width="280" height="10" rx="4" fill="#5CA46E"/>
+  <text x="808" y="265" text-anchor="middle" font-size="44" font-weight="900" fill="#1A1D24">2国</text>
+  <text x="808" y="292" text-anchor="middle" font-size="13" fill="#666">カナダ＋ドイツ本社拠点</text>
+  <text x="808" y="310" text-anchor="middle" font-size="11" fill="#999">トランスアトランティック構造</text>
+
+  <rect x="968" y="215" width="280" height="105" rx="8" fill="white" stroke="#1A1D24" stroke-width="2.5" filter="url(#softShadow)"/>
+  <rect x="968" y="215" width="280" height="10" rx="4" fill="#5CA46E"/>
+  <text x="1108" y="265" text-anchor="middle" font-size="38" font-weight="900" fill="#1A1D24">7分野</text>
+  <text x="1108" y="292" text-anchor="middle" font-size="13" fill="#666">公共・金融・防衛・医療等</text>
+  <text x="1108" y="310" text-anchor="middle" font-size="11" fill="#999">高規制ターゲットセクター</text>
+
+  <!-- Main Visual: Merger Structure -->
+  <rect x="68" y="338" width="700" height="310" rx="8" fill="white" stroke="#1A1D24" stroke-width="2.5" filter="url(#softShadow)"/>
+  <text x="88" y="368" font-size="16" font-weight="700" fill="#1A1D24">🏗️ 統合構造図</text>
+  <line x1="88" y1="376" x2="750" y2="376" stroke="#E0D8C8" stroke-width="1"/>
+  <!-- Cohere box -->
+  <rect x="100" y="395" width="200" height="80" rx="8" fill="#E8F5E9" stroke="#5CA46E" stroke-width="2.5"/>
+  <text x="200" y="430" text-anchor="middle" font-size="18" font-weight="700" fill="#1A1D24">Cohere</text>
+  <text x="200" y="452" text-anchor="middle" font-size="12" fill="#555">カナダ・B2B API特化</text>
+  <text x="200" y="466" text-anchor="middle" font-size="11" fill="#888">Aidan Gomez CEO</text>
+  <!-- Arrow -->
+  <line x1="300" y1="435" x2="370" y2="435" stroke="#1A1D24" stroke-width="3"/>
+  <polygon points="370,428 385,435 370,442" fill="#1A1D24"/>
+  <text x="335" y="425" text-anchor="middle" font-size="14" font-weight="700" fill="#5CA46E">合併</text>
+  <!-- Aleph Alpha box -->
+  <rect x="385" y="395" width="200" height="80" rx="8" fill="#E3F2FD" stroke="#5B8DEF" stroke-width="2.5"/>
+  <text x="485" y="430" text-anchor="middle" font-size="18" font-weight="700" fill="#1A1D24">Aleph Alpha</text>
+  <text x="485" y="452" text-anchor="middle" font-size="12" fill="#555">ドイツ・政府機関特化</text>
+  <text x="485" y="466" text-anchor="middle" font-size="11" fill="#888">Heidelberg創業</text>
+  <!-- Combined -->
+  <rect x="200" y="520" width="250" height="70" rx="8" fill="#F0FBF2" stroke="#1A1D24" stroke-width="3"/>
+  <text x="325" y="550" text-anchor="middle" font-size="16" font-weight="700" fill="#1A1D24">Cohere（統合後）</text>
+  <text x="325" y="572" text-anchor="middle" font-size="12" fill="#5CA46E">EU主権AIプラットフォーム</text>
+  <!-- Lines to combined -->
+  <line x1="200" y1="475" x2="290" y2="520" stroke="#888" stroke-width="1.5" stroke-dasharray="4,3"/>
+  <line x1="485" y1="475" x2="360" y2="520" stroke="#888" stroke-width="1.5" stroke-dasharray="4,3"/>
+  <!-- Schwarz Group -->
+  <rect x="620" y="415" width="120" height="60" rx="6" fill="#FFF8E1" stroke="#F5C518" stroke-width="2"/>
+  <text x="680" y="442" text-anchor="middle" font-size="13" font-weight="700" fill="#1A1D24">Schwarz</text>
+  <text x="680" y="458" text-anchor="middle" font-size="11" fill="#888">€500M融資</text>
+  <line x1="620" y1="445" x2="450" y2="460" stroke="#F5C518" stroke-width="1.5" stroke-dasharray="3,3"/>
+
+  <!-- Right panel: Target sectors -->
+  <rect x="788" y="338" width="540" height="310" rx="8" fill="white" stroke="#1A1D24" stroke-width="2.5" filter="url(#softShadow)"/>
+  <text x="808" y="368" font-size="16" font-weight="700" fill="#1A1D24">🎯 ターゲットセクター（高規制領域）</text>
+  <line x1="808" y1="376" x2="1310" y2="376" stroke="#E0D8C8" stroke-width="1"/>
+  <!-- Sector bars -->
+  <text x="808" y="405" font-size="13" fill="#555">🏛️ 公共・政府</text>
+  <rect x="960" y="390" width="300" height="20" rx="3" fill="#5CA46E" stroke="#1A1D24" stroke-width="1.5"/>
+  <text x="1268" y="405" font-size="12" fill="#1A1D24"> 最重点</text>
+  <text x="808" y="436" font-size="13" fill="#555">💊 医療・製薬</text>
+  <rect x="960" y="421" width="250" height="20" rx="3" fill="#5CA46E" opacity="0.8" stroke="#1A1D24" stroke-width="1.5"/>
+  <text x="808" y="467" font-size="13" fill="#555">🏦 金融・Fintech</text>
+  <rect x="960" y="452" width="240" height="20" rx="3" fill="#5CA46E" opacity="0.75" stroke="#1A1D24" stroke-width="1.5"/>
+  <text x="808" y="498" font-size="13" fill="#555">🛡️ 防衛・安全保障</text>
+  <rect x="960" y="483" width="220" height="20" rx="3" fill="#5CA46E" opacity="0.7" stroke="#1A1D24" stroke-width="1.5"/>
+  <text x="808" y="529" font-size="13" fill="#555">⚡ エネルギー</text>
+  <rect x="960" y="514" width="190" height="20" rx="3" fill="#5CA46E" opacity="0.6" stroke="#1A1D24" stroke-width="1.5"/>
+  <text x="808" y="560" font-size="13" fill="#555">🏭 製造・インダストリアル</text>
+  <rect x="960" y="545" width="170" height="20" rx="3" fill="#5CA46E" opacity="0.55" stroke="#1A1D24" stroke-width="1.5"/>
+  <text x="808" y="591" font-size="13" fill="#555">📡 通信・インフラ</text>
+  <rect x="960" y="576" width="150" height="20" rx="3" fill="#5CA46E" opacity="0.5" stroke="#1A1D24" stroke-width="1.5"/>
+  <!-- USP label -->
+  <rect x="808" y="610" width="500" height="28" rx="4" fill="#F0FBF2" stroke="#5CA46E" stroke-width="1.5"/>
+  <text x="1058" y="630" text-anchor="middle" font-size="13" font-weight="700" fill="#5CA46E">Key USP: GDPR準拠オンプレ展開 + EU政府機関ネットワーク</text>
+
+  <!-- Competitor comparison -->
+  <rect x="68" y="668" width="530" height="200" rx="8" fill="white" stroke="#1A1D24" stroke-width="2.5" filter="url(#softShadow)"/>
+  <text x="88" y="698" font-size="15" font-weight="700" fill="#1A1D24">🆚 競合ポジション比較</text>
+  <line x1="88" y1="706" x2="580" y2="706" stroke="#E0D8C8" stroke-width="1"/>
+  <text x="110" y="730" font-size="12" fill="#888">企業</text>
+  <text x="230" y="730" font-size="12" fill="#888">EU主権保証</text>
+  <text x="360" y="730" font-size="12" fill="#888">企業特化度</text>
+  <text x="490" y="730" font-size="12" fill="#888">評価額</text>
+  <line x1="88" y1="735" x2="580" y2="735" stroke="#E0D8C8" stroke-width="1"/>
+  <text x="110" y="756" font-size="13" font-weight="700" fill="#5CA46E">Cohere+Aleph</text>
+  <text x="245" y="756" text-anchor="middle" font-size="13" fill="#5CA46E">◎（EU/CA）</text>
+  <text x="385" y="756" text-anchor="middle" font-size="13" fill="#5CA46E">◎</text>
+  <text x="505" y="756" text-anchor="middle" font-size="13" fill="#1A1D24">$20B</text>
+  <text x="110" y="780" font-size="13" fill="#555">OpenAI</text>
+  <text x="245" y="780" text-anchor="middle" font-size="13" fill="#E57373">△（US Cloud）</text>
+  <text x="385" y="780" text-anchor="middle" font-size="13" fill="#555">○</text>
+  <text x="505" y="780" text-anchor="middle" font-size="13" fill="#555">$880B</text>
+  <text x="110" y="804" font-size="13" fill="#555">Anthropic</text>
+  <text x="245" y="804" text-anchor="middle" font-size="13" fill="#E57373">△（US Cloud）</text>
+  <text x="385" y="804" text-anchor="middle" font-size="13" fill="#555">○</text>
+  <text x="505" y="804" text-anchor="middle" font-size="13" fill="#555">$1T+</text>
+  <text x="110" y="828" font-size="13" fill="#555">Mistral</text>
+  <text x="245" y="828" text-anchor="middle" font-size="13" fill="#81C784">○（仏）</text>
+  <text x="385" y="828" text-anchor="middle" font-size="13" fill="#555">△</text>
+  <text x="505" y="828" text-anchor="middle" font-size="13" fill="#555">~$6B</text>
+
+  <!-- Sticky notes -->
+  <g transform="translate(618,668) rotate(-1.2)">
+    <rect width="240" height="120" rx="4" fill="#FFFDE7" stroke="#1A1D24" stroke-width="2" filter="url(#stickyShadow)"/>
+    <text x="120" y="28" text-anchor="middle" font-size="13" font-weight="700" fill="#1A1D24">🔑 差別化の核心</text>
+    <text x="14" y="52" font-size="12" fill="#333">技術力ではなく機関ネットワーク</text>
+    <text x="14" y="70" font-size="12" fill="#333">Aleph Alphaのドイツ政府との</text>
+    <text x="14" y="88" font-size="12" fill="#333">長年の信頼関係が本質的価値</text>
+    <text x="14" y="106" font-size="11" fill="#888">Luminousは失敗→Pivot成功</text>
+  </g>
+  <g transform="translate(878,668) rotate(1.0)">
+    <rect width="240" height="120" rx="4" fill="#E8F5E9" stroke="#1A1D24" stroke-width="2" filter="url(#stickyShadow)"/>
+    <text x="120" y="28" text-anchor="middle" font-size="13" font-weight="700" fill="#1A1D24">⚠️ 注意点</text>
+    <text x="14" y="52" font-size="12" fill="#333">€500M は純株式でなく</text>
+    <text x="14" y="70" font-size="12" fill="#333">「構造化融資」—優先返済条項</text>
+    <text x="14" y="88" font-size="12" fill="#333">の可能性あり。$20B評価は</text>
+    <text x="14" y="106" font-size="11" fill="#888">完全希薄化後か要確認</text>
+  </g>
+  <g transform="translate(1138,668) rotate(-0.8)">
+    <rect width="200" height="120" rx="4" fill="#FCE4EC" stroke="#1A1D24" stroke-width="2" filter="url(#stickyShadow)"/>
+    <text x="100" y="28" text-anchor="middle" font-size="13" font-weight="700" fill="#1A1D24">🗓️ 次の焦点</text>
+    <text x="14" y="52" font-size="12" fill="#333">規制当局承認</text>
+    <text x="14" y="70" font-size="12" fill="#333">→SAP/Siemens/Deutsche</text>
+    <text x="14" y="88" font-size="12" fill="#333">Telekomの調達動向</text>
+    <text x="14" y="106" font-size="11" fill="#888">EU-AI連合の触媒効果へ</text>
+  </g>
+
+  <!-- Footer -->
+  <text x="700" y="1038" text-anchor="middle" font-size="13" fill="#999" font-style="italic">AI News · 2026-04-25 · Cohere Aleph Alpha Merger — Transatlantic Sovereign AI Alliance</text>
+</svg>

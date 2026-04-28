@@ -1,0 +1,274 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1400 1050" font-family="-apple-system, 'Hiragino Sans', 'Yu Gothic', 'Segoe UI', sans-serif">
+  <defs>
+    <pattern id="paperTex" patternUnits="userSpaceOnUse" width="100" height="100">
+      <rect width="100" height="100" fill="#F5EAD2"/>
+      <circle cx="22" cy="14" r="0.4" fill="#C4B389" opacity="0.3"/>
+      <circle cx="54" cy="62" r="0.5" fill="#C4B389" opacity="0.3"/>
+      <circle cx="81" cy="35" r="0.3" fill="#C4B389" opacity="0.3"/>
+    </pattern>
+    <filter id="stickyShadow" x="-10%" y="-10%" width="125%" height="125%">
+      <feGaussianBlur in="SourceAlpha" stdDeviation="3"/>
+      <feOffset dx="2" dy="3" result="ob"/>
+      <feComponentTransfer><feFuncA type="linear" slope="0.25"/></feComponentTransfer>
+      <feMerge><feMergeNode/><feMergeNode in="SourceGraphic"/></feMerge>
+    </filter>
+    <filter id="softShadow" x="-10%" y="-10%" width="120%" height="120%">
+      <feGaussianBlur in="SourceAlpha" stdDeviation="2"/>
+      <feOffset dx="1" dy="2" result="ob"/>
+      <feComponentTransfer><feFuncA type="linear" slope="0.18"/></feComponentTransfer>
+      <feMerge><feMergeNode/><feMergeNode in="SourceGraphic"/></feMerge>
+    </filter>
+    <linearGradient id="purpleGrad" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#8B7DB8"/>
+      <stop offset="100%" stop-color="#6A5D9A"/>
+    </linearGradient>
+    <linearGradient id="purpleBar" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0%" stop-color="#8B7DB8"/>
+      <stop offset="100%" stop-color="#6A5D9A"/>
+    </linearGradient>
+    <linearGradient id="grayBar" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0%" stop-color="#9BA8B5"/>
+      <stop offset="100%" stop-color="#7A8A98"/>
+    </linearGradient>
+  </defs>
+
+  <!-- Background -->
+  <rect width="1400" height="1050" fill="url(#paperTex)"/>
+  <rect x="0" y="0" width="44" height="1050" fill="#EDE0C4" opacity="0.7" stroke="#D5C9A8" stroke-width="1"/>
+  <circle cx="22" cy="140" r="13" fill="#F5EAD2" stroke="#C4B389" stroke-width="1.5"/>
+  <circle cx="22" cy="290" r="13" fill="#F5EAD2" stroke="#C4B389" stroke-width="1.5"/>
+  <circle cx="22" cy="440" r="13" fill="#F5EAD2" stroke="#C4B389" stroke-width="1.5"/>
+  <circle cx="22" cy="600" r="13" fill="#F5EAD2" stroke="#C4B389" stroke-width="1.5"/>
+  <circle cx="22" cy="760" r="13" fill="#F5EAD2" stroke="#C4B389" stroke-width="1.5"/>
+  <circle cx="22" cy="910" r="13" fill="#F5EAD2" stroke="#C4B389" stroke-width="1.5"/>
+
+  <!-- Category tape -->
+  <g transform="translate(1192, 26) rotate(-3)">
+    <rect x="0" y="0" width="175" height="38" rx="3" fill="#8B7DB8" opacity="0.88" stroke="#1A1D24" stroke-width="1.5"/>
+    <text x="87" y="25" text-anchor="middle" fill="white" font-size="16" font-weight="700" letter-spacing="1">#論文</text>
+  </g>
+
+  <!-- Impact stars -->
+  <text x="1330" y="85" text-anchor="middle" fill="#2F3842" font-size="22">⭐⭐</text>
+
+  <!-- Date badge -->
+  <rect x="58" y="20" width="160" height="34" rx="4" fill="#2F3842" filter="url(#softShadow)"/>
+  <text x="138" y="42" text-anchor="middle" fill="#F5EAD2" font-size="15" font-weight="600">2026-04-23</text>
+
+  <!-- Header -->
+  <line x1="58" y1="72" x2="1360" y2="72" stroke="#1A1D24" stroke-width="2.5"/>
+  <text x="58" y="116" fill="#1A1D24" font-size="36" font-weight="900">🧠 TEMPO：推論時に自己改善し続けるLRM</text>
+  <text x="58" y="155" fill="#1A1D24" font-size="30" font-weight="900">OLMO3-7B AIME 33%→51%、Qwen3-14B 42%→66%——EM理論で停滞を突破</text>
+  <rect x="58" y="167" width="780" height="22" rx="2" fill="#8B7DB8" opacity="0.18"/>
+  <text x="66" y="183" fill="#2F3842" font-size="14" font-weight="500">arXiv:2604.19295  ·  2026-04-22  ·  #論文  ·  #テスト時学習  ·  #推論モデル  ·  #AIME  ·  #自己改善</text>
+  <line x1="58" y1="198" x2="1360" y2="198" stroke="#1A1D24" stroke-width="1.5"/>
+
+  <!-- Hero: Brain with growth arrow -->
+  <g transform="translate(62, 210)" filter="url(#softShadow)">
+    <!-- Brain shape -->
+    <ellipse cx="100" cy="90" rx="65" ry="75" fill="#EDE0C4" stroke="#1A1D24" stroke-width="2.5"/>
+    <!-- Brain folds -->
+    <path d="M 55 70 Q 65 55 80 65 Q 90 50 105 60 Q 115 45 130 58 Q 142 50 150 65" fill="none" stroke="#8B7DB8" stroke-width="2" stroke-linecap="round"/>
+    <path d="M 50 90 Q 60 80 75 85 Q 85 75 100 80 Q 112 70 125 78 Q 138 70 150 82" fill="none" stroke="#8B7DB8" stroke-width="2" stroke-linecap="round"/>
+    <path d="M 55 110 Q 70 100 85 108 Q 100 98 115 106 Q 130 97 145 108" fill="none" stroke="#8B7DB8" stroke-width="2" stroke-linecap="round"/>
+    <!-- TEMPO label -->
+    <text x="100" y="145" text-anchor="middle" fill="#8B7DB8" font-size="14" font-weight="900">TEMPO</text>
+    <!-- EM cycle arrow -->
+    <circle cx="100" cy="90" r="30" fill="none" stroke="#8B7DB8" stroke-width="2" stroke-dasharray="5,3"/>
+    <!-- Up arrow for growth -->
+    <path d="M 185 120 L 185 30 M 185 30 L 175 45 M 185 30 L 195 45" stroke="#5CA46E" stroke-width="3" fill="none" stroke-linecap="round"/>
+    <text x="185" y="145" text-anchor="middle" fill="#5CA46E" font-size="12" font-weight="800">無限成長</text>
+    <!-- ↑ label -->
+    <text x="100" y="185" text-anchor="middle" fill="#8B7DB8" font-size="13" font-weight="700">arXiv:2604.19295</text>
+    <text x="100" y="203" text-anchor="middle" fill="#8A8A8A" font-size="10">test-time training</text>
+  </g>
+
+  <!-- Key number blocks -->
+  <rect x="310" y="210" width="180" height="128" rx="6" fill="white" stroke="#1A1D24" stroke-width="2.5" filter="url(#softShadow)"/>
+  <rect x="310" y="210" width="180" height="8" rx="3" fill="#8B7DB8"/>
+  <text x="400" y="250" text-anchor="middle" fill="#8B7DB8" font-size="34" font-weight="900">33%→51%</text>
+  <text x="400" y="272" text-anchor="middle" fill="#2F3842" font-size="12" font-weight="600">OLMO3-7B (AIME 2024)</text>
+  <text x="400" y="290" text-anchor="middle" fill="#8A8A8A" font-size="10">+18.1ポイント</text>
+  <text x="400" y="308" text-anchor="middle" fill="#8A8A8A" font-size="10">350ステップで上昇継続</text>
+  <text x="400" y="326" text-anchor="middle" fill="#8B7DB8" font-size="10" font-weight="700">ベースラインは頭打ち</text>
+
+  <rect x="503" y="210" width="180" height="128" rx="6" fill="white" stroke="#1A1D24" stroke-width="2.5" filter="url(#softShadow)"/>
+  <rect x="503" y="210" width="180" height="8" rx="3" fill="#8B7DB8"/>
+  <text x="593" y="250" text-anchor="middle" fill="#8B7DB8" font-size="34" font-weight="900">42%→66%</text>
+  <text x="593" y="272" text-anchor="middle" fill="#2F3842" font-size="12" font-weight="600">Qwen3-14B (AIME 2024)</text>
+  <text x="593" y="290" text-anchor="middle" fill="#8A8A8A" font-size="10">+23.5ポイント</text>
+  <text x="593" y="308" text-anchor="middle" fill="#8A8A8A" font-size="10">pass@kの多様性維持</text>
+  <text x="593" y="326" text-anchor="middle" fill="#8B7DB8" font-size="10" font-weight="700">スケールで加速</text>
+
+  <rect x="696" y="210" width="180" height="128" rx="6" fill="white" stroke="#1A1D24" stroke-width="2.5" filter="url(#softShadow)"/>
+  <rect x="696" y="210" width="180" height="8" rx="3" fill="#5CA46E"/>
+  <text x="786" y="258" text-anchor="middle" fill="#5CA46E" font-size="28" font-weight="900">350 Steps</text>
+  <text x="786" y="278" text-anchor="middle" fill="#2F3842" font-size="12" font-weight="600">上昇継続（限界未確認）</text>
+  <text x="786" y="296" text-anchor="middle" fill="#8A8A8A" font-size="10">ベースライン: 同ステップで停滞</text>
+  <text x="786" y="314" text-anchor="middle" fill="#8A8A8A" font-size="10">多様性(pass@k): 崩壊なし</text>
+
+  <rect x="889" y="210" width="180" height="128" rx="6" fill="white" stroke="#1A1D24" stroke-width="2.5" filter="url(#softShadow)"/>
+  <rect x="889" y="210" width="180" height="8" rx="3" fill="#8B7DB8"/>
+  <text x="979" y="252" text-anchor="middle" fill="#8B7DB8" font-size="26" font-weight="900">EM Algorithm</text>
+  <text x="979" y="272" text-anchor="middle" fill="#2F3842" font-size="12" font-weight="600">E-step + M-step交互実行</text>
+  <text x="979" y="292" text-anchor="middle" fill="#8A8A8A" font-size="10">Critic Drift を防止</text>
+  <text x="979" y="310" text-anchor="middle" fill="#8A8A8A" font-size="10">既存TTTはM-step省略が問題</text>
+
+  <!-- Left: Performance chart -->
+  <rect x="58" y="360" width="600" height="310" rx="6" fill="white" stroke="#1A1D24" stroke-width="2" filter="url(#softShadow)"/>
+  <rect x="58" y="360" width="600" height="6" rx="3" fill="#8B7DB8"/>
+  <text x="75" y="390" fill="#1A1D24" font-size="15" font-weight="800">📊 AIME 2024 スコア推移（ステップ数 vs 正答率）</text>
+  <line x1="75" y1="398" x2="640" y2="398" stroke="#E0D8C8" stroke-width="1"/>
+
+  <!-- Y axis -->
+  <text x="108" y="430" text-anchor="end" fill="#8A8A8A" font-size="10">70%</text>
+  <line x1="112" y1="424" x2="630" y2="424" stroke="#E0D8C8" stroke-width="1" stroke-dasharray="4,3"/>
+  <text x="108" y="468" text-anchor="end" fill="#8A8A8A" font-size="10">60%</text>
+  <line x1="112" y1="462" x2="630" y2="462" stroke="#E0D8C8" stroke-width="1" stroke-dasharray="4,3"/>
+  <text x="108" y="506" text-anchor="end" fill="#8A8A8A" font-size="10">50%</text>
+  <line x1="112" y1="500" x2="630" y2="500" stroke="#E0D8C8" stroke-width="1" stroke-dasharray="4,3"/>
+  <text x="108" y="544" text-anchor="end" fill="#8A8A8A" font-size="10">40%</text>
+  <line x1="112" y1="538" x2="630" y2="538" stroke="#E0D8C8" stroke-width="1" stroke-dasharray="4,3"/>
+  <text x="108" y="580" text-anchor="end" fill="#8A8A8A" font-size="10">30%</text>
+  <line x1="112" y1="574" x2="630" y2="574" stroke="#1A1D24" stroke-width="1"/>
+
+  <!-- X axis labels -->
+  <text x="135" y="596" text-anchor="middle" fill="#8A8A8A" font-size="10">0</text>
+  <text x="245" y="596" text-anchor="middle" fill="#8A8A8A" font-size="10">100</text>
+  <text x="355" y="596" text-anchor="middle" fill="#8A8A8A" font-size="10">200</text>
+  <text x="465" y="596" text-anchor="middle" fill="#8A8A8A" font-size="10">300</text>
+  <text x="575" y="596" text-anchor="middle" fill="#8A8A8A" font-size="10">350+</text>
+  <text x="380" y="613" text-anchor="middle" fill="#8A8A8A" font-size="11">ステップ数 →</text>
+
+  <!-- TEMPO Qwen3-14B line (grows continuously) -->
+  <polyline points="135,538 245,500 355,462 465,440 575,424" fill="none" stroke="#8B7DB8" stroke-width="3" stroke-linecap="round"/>
+  <!-- TEMPO OLMO3-7B line -->
+  <polyline points="135,574 245,545 355,515 465,499 575,488" fill="none" stroke="#5CA46E" stroke-width="3" stroke-linecap="round"/>
+  <!-- Baseline Qwen line (plateaus) -->
+  <polyline points="135,538 200,530 265,525 330,522 400,521 575,520" fill="none" stroke="#8B7DB8" stroke-width="2" stroke-dasharray="6,3" opacity="0.5"/>
+  <!-- Baseline OLMO line (plateaus) -->
+  <polyline points="135,574 200,570 265,567 330,565 400,564 575,563" fill="none" stroke="#5CA46E" stroke-width="2" stroke-dasharray="6,3" opacity="0.5"/>
+
+  <!-- Legend -->
+  <line x1="120" y1="638" x2="155" y2="638" stroke="#8B7DB8" stroke-width="3"/>
+  <text x="160" y="642" fill="#2F3842" font-size="11">TEMPO Qwen3-14B</text>
+  <line x1="300" y1="638" x2="335" y2="638" stroke="#8B7DB8" stroke-width="2" stroke-dasharray="6,3" opacity="0.5"/>
+  <text x="340" y="642" fill="#8A8A8A" font-size="11">ベースライン Qwen3-14B</text>
+  <line x1="120" y1="655" x2="155" y2="655" stroke="#5CA46E" stroke-width="3"/>
+  <text x="160" y="659" fill="#2F3842" font-size="11">TEMPO OLMO3-7B</text>
+  <line x1="300" y1="655" x2="335" y2="655" stroke="#5CA46E" stroke-width="2" stroke-dasharray="6,3" opacity="0.5"/>
+  <text x="340" y="659" fill="#8A8A8A" font-size="11">ベースライン OLMO3-7B</text>
+
+  <!-- Right: EM cycle diagram -->
+  <rect x="672" y="360" width="693" height="310" rx="6" fill="white" stroke="#1A1D24" stroke-width="2" filter="url(#softShadow)"/>
+  <rect x="672" y="360" width="693" height="6" rx="3" fill="#8B7DB8"/>
+  <text x="689" y="390" fill="#1A1D24" font-size="15" font-weight="800">🔄 TEMPO の仕組み：EM アルゴリズム適用</text>
+  <line x1="689" y1="398" x2="1347" y2="398" stroke="#E0D8C8" stroke-width="1"/>
+
+  <!-- E-step box -->
+  <rect x="700" y="415" width="220" height="80" rx="6" fill="#E8E4F5" stroke="#8B7DB8" stroke-width="2.5"/>
+  <text x="810" y="445" text-anchor="middle" fill="#6A5D9A" font-size="16" font-weight="800">E-Step</text>
+  <text x="810" y="465" text-anchor="middle" fill="#2F3842" font-size="12">方策モデルの更新</text>
+  <text x="810" y="482" text-anchor="middle" fill="#6A6A6A" font-size="11">ラベルなしデータで自己改善</text>
+
+  <!-- M-step box -->
+  <rect x="700" y="520" width="220" height="80" rx="6" fill="#E4F5E8" stroke="#5CA46E" stroke-width="2.5"/>
+  <text x="810" y="550" text-anchor="middle" fill="#3D8050" font-size="16" font-weight="800">M-Step</text>
+  <text x="810" y="570" text-anchor="middle" fill="#2F3842" font-size="12">報酬モデルの再調整</text>
+  <text x="810" y="587" text-anchor="middle" fill="#6A6A6A" font-size="11">小規模ラベルデータで再校正</text>
+
+  <!-- Arrows between E and M -->
+  <path d="M 810 495 L 810 520" stroke="#1A1D24" stroke-width="2" marker-end="url(#arrowb)"/>
+  <path d="M 920 560 Q 960 560 960 455 Q 960 415 920 415" stroke="#8B7DB8" stroke-width="2" fill="none"/>
+  <text x="975" y="460" fill="#8B7DB8" font-size="12">交互</text>
+  <text x="975" y="476" fill="#8B7DB8" font-size="12">繰り返し</text>
+
+  <!-- Problem: Critic Drift -->
+  <rect x="1050" y="415" width="280" height="185" rx="6" fill="#FFF5F5" stroke="#E86B3B" stroke-width="2"/>
+  <text x="1190" y="440" text-anchor="middle" fill="#E86B3B" font-size="14" font-weight="800">⚠️ 従来TTTの問題点</text>
+  <text x="1190" y="462" text-anchor="middle" fill="#2F3842" font-size="11">「Critic Drift」</text>
+  <text x="1190" y="480" text-anchor="middle" fill="#5A5A5A" font-size="11">報酬モデルが方策モデルの</text>
+  <text x="1190" y="496" text-anchor="middle" fill="#5A5A5A" font-size="11">進化についていけず</text>
+  <text x="1190" y="512" text-anchor="middle" fill="#5A5A5A" font-size="11">M-Stepを省略するため</text>
+  <text x="1190" y="528" text-anchor="middle" fill="#5A5A5A" font-size="11">→ 性能停滞 + 多様性崩壊</text>
+  <line x1="1070" y1="545" x2="1310" y2="545" stroke="#E86B3B" stroke-width="1"/>
+  <text x="1190" y="565" text-anchor="middle" fill="#5CA46E" font-size="12" font-weight="700">✅ TEMPOはM-stepで解決</text>
+  <text x="1190" y="582" text-anchor="middle" fill="#5A5A5A" font-size="11">ELBO最大化で理論保証</text>
+
+  <!-- Feature cards -->
+  <rect x="58" y="690" width="200" height="110" rx="6" fill="white" stroke="#1A1D24" stroke-width="2" filter="url(#softShadow)"/>
+  <rect x="58" y="690" width="200" height="6" rx="3" fill="#8B7DB8"/>
+  <text x="158" y="720" text-anchor="middle" fill="#1A1D24" font-size="14" font-weight="800">🎯 何を改善するか</text>
+  <text x="158" y="742" text-anchor="middle" fill="#5A5A5A" font-size="11">数学推論（AIME等）</text>
+  <text x="158" y="758" text-anchor="middle" fill="#5A5A5A" font-size="11">論理・コーディング推論</text>
+  <text x="158" y="774" text-anchor="middle" fill="#5A5A5A" font-size="11">ラベルなしデータ活用</text>
+  <text x="158" y="790" text-anchor="middle" fill="#8B7DB8" font-size="11" font-weight="700">汎化性能も確認済み</text>
+
+  <rect x="272" y="690" width="200" height="110" rx="6" fill="white" stroke="#1A1D24" stroke-width="2" filter="url(#softShadow)"/>
+  <rect x="272" y="690" width="200" height="6" rx="3" fill="#5CA46E"/>
+  <text x="372" y="720" text-anchor="middle" fill="#1A1D24" font-size="14" font-weight="800">💰 コスト優位性</text>
+  <text x="372" y="742" text-anchor="middle" fill="#5A5A5A" font-size="11">7Bモデルで50%+ 達成</text>
+  <text x="372" y="758" text-anchor="middle" fill="#5A5A5A" font-size="11">大モデル不要で高性能</text>
+  <text x="372" y="774" text-anchor="middle" fill="#5A5A5A" font-size="11">既存パイプライン追加可</text>
+  <text x="372" y="790" text-anchor="middle" fill="#5CA46E" font-size="11" font-weight="700">インフラコスト削減可能</text>
+
+  <rect x="486" y="690" width="200" height="110" rx="6" fill="white" stroke="#1A1D24" stroke-width="2" filter="url(#softShadow)"/>
+  <rect x="486" y="690" width="200" height="6" rx="3" fill="#8B7DB8"/>
+  <text x="586" y="720" text-anchor="middle" fill="#1A1D24" font-size="14" font-weight="800">⚖️ 課題・制限</text>
+  <text x="586" y="742" text-anchor="middle" fill="#5A5A5A" font-size="11">推論時の追加計算コスト</text>
+  <text x="586" y="758" text-anchor="middle" fill="#5A5A5A" font-size="11">更新による挙動変化リスク</text>
+  <text x="586" y="774" text-anchor="middle" fill="#5A5A5A" font-size="11">非数学タスクの汎化は限定</text>
+  <text x="586" y="790" text-anchor="middle" fill="#E86B3B" font-size="11" font-weight="700">本番安定性は未検証</text>
+
+  <rect x="700" y="690" width="200" height="110" rx="6" fill="white" stroke="#1A1D24" stroke-width="2" filter="url(#softShadow)"/>
+  <rect x="700" y="690" width="200" height="6" rx="3" fill="#9BA8B5"/>
+  <text x="800" y="720" text-anchor="middle" fill="#1A1D24" font-size="14" font-weight="800">🔬 先行研究との差</text>
+  <text x="800" y="742" text-anchor="middle" fill="#5A5A5A" font-size="11">TTRL: M-step省略→停滞</text>
+  <text x="800" y="758" text-anchor="middle" fill="#5A5A5A" font-size="11">TurboQuant: 効率最適化</text>
+  <text x="800" y="774" text-anchor="middle" fill="#5A5A5A" font-size="11">TEMPO: 能力向上が目的</text>
+  <text x="800" y="790" text-anchor="middle" fill="#8B7DB8" font-size="11" font-weight="700">理論的統一フレームワーク</text>
+
+  <rect x="914" y="690" width="451" height="110" rx="6" fill="white" stroke="#1A1D24" stroke-width="2" filter="url(#softShadow)"/>
+  <rect x="914" y="690" width="451" height="6" rx="3" fill="#2F3842"/>
+  <text x="1139" y="720" text-anchor="middle" fill="#1A1D24" font-size="14" font-weight="800">🚀 実用化への道</text>
+  <text x="1139" y="742" text-anchor="middle" fill="#5A5A5A" font-size="12">最有力応用: エッジAI / オンデバイス推論（医療・法務・財務）</text>
+  <text x="1139" y="762" text-anchor="middle" fill="#5A5A5A" font-size="12">1年以内にllama.cpp・MLXへの統合試験が進む見込み</text>
+  <text x="1139" y="782" text-anchor="middle" fill="#5A5A5A" font-size="12">プライバシー保護+継続改善の両立が新しい市場を開く</text>
+
+  <!-- Sticky notes -->
+  <g transform="translate(58, 820) rotate(-1.2)" filter="url(#stickyShadow)">
+    <rect width="290" height="100" rx="4" fill="#FFF9C4" stroke="#1A1D24" stroke-width="1.5"/>
+    <text x="145" y="28" text-anchor="middle" fill="#1A1D24" font-size="13" font-weight="800">🤔 「学習の終わり」が消える</text>
+    <text x="145" y="48" text-anchor="middle" fill="#2F3842" font-size="11">訓練→推論という従来の境界が崩れる。</text>
+    <text x="145" y="64" text-anchor="middle" fill="#2F3842" font-size="11">テスト時に自己改善するモデルは</text>
+    <text x="145" y="80" text-anchor="middle" fill="#2F3842" font-size="11">「使えば使うほど賢くなる」を実現。</text>
+  </g>
+
+  <g transform="translate(365, 815) rotate(0.9)" filter="url(#stickyShadow)">
+    <rect width="290" height="100" rx="4" fill="#E8E4F5" stroke="#1A1D24" stroke-width="1.5"/>
+    <text x="145" y="28" text-anchor="middle" fill="#1A1D24" font-size="13" font-weight="800">💡 EMの妙技</text>
+    <text x="145" y="48" text-anchor="middle" fill="#2F3842" font-size="11">最適化理論の古典であるEMを</text>
+    <text x="145" y="64" text-anchor="middle" fill="#2F3842" font-size="11">LLMのTTTに適用した見事な発想。</text>
+    <text x="145" y="80" text-anchor="middle" fill="#2F3842" font-size="11">理論的保証と実用性が同居。</text>
+  </g>
+
+  <g transform="translate(672, 820) rotate(-0.7)" filter="url(#stickyShadow)">
+    <rect width="290" height="100" rx="4" fill="#C8F7C5" stroke="#1A1D24" stroke-width="1.5"/>
+    <text x="145" y="28" text-anchor="middle" fill="#1A1D24" font-size="13" font-weight="800">🔭 1年後の展望</text>
+    <text x="145" y="48" text-anchor="middle" fill="#2F3842" font-size="11">TEMPO + TurboQuant の組み合わせで</text>
+    <text x="145" y="64" text-anchor="middle" fill="#2F3842" font-size="11">「高性能・低コスト・継続成長」の</text>
+    <text x="145" y="80" text-anchor="middle" fill="#2F3842" font-size="11">三拍子を満たすモデルが登場か。</text>
+  </g>
+
+  <g transform="translate(979, 815) rotate(1.3)" filter="url(#stickyShadow)">
+    <rect width="290" height="100" rx="4" fill="#FFE0D0" stroke="#1A1D24" stroke-width="1.5"/>
+    <text x="145" y="28" text-anchor="middle" fill="#1A1D24" font-size="13" font-weight="800">⚠️ HNの懸念点</text>
+    <text x="145" y="48" text-anchor="middle" fill="#2F3842" font-size="11">「ユーザーごとにTTTすると</text>
+    <text x="145" y="64" text-anchor="middle" fill="#2F3842" font-size="11">サービスコストが爆発する」</text>
+    <text x="145" y="80" text-anchor="middle" fill="#2F3842" font-size="11">バッチ更新の設計が鍵になる。</text>
+  </g>
+
+  <!-- Footer -->
+  <line x1="58" y1="1022" x2="1360" y2="1022" stroke="#1A1D24" stroke-width="1"/>
+  <text x="709" y="1040" text-anchor="middle" fill="#8A8A8A" font-size="12" font-style="italic">AI News · 2026-04-23 · TEMPO: Scaling Test-time Training for Large Reasoning Models (arXiv:2604.19295)</text>
+</svg>

@@ -1,0 +1,275 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1400 1050" font-family="-apple-system, 'Hiragino Sans', 'Yu Gothic', 'Segoe UI', sans-serif">
+  <defs>
+    <pattern id="paperTex" patternUnits="userSpaceOnUse" width="100" height="100">
+      <rect width="100" height="100" fill="#F5EAD2"/>
+      <circle cx="22" cy="14" r="0.4" fill="#C4B389" opacity="0.3"/>
+      <circle cx="54" cy="62" r="0.5" fill="#C4B389" opacity="0.3"/>
+      <circle cx="81" cy="35" r="0.3" fill="#C4B389" opacity="0.3"/>
+    </pattern>
+    <filter id="stickyShadow" x="-10%" y="-10%" width="125%" height="125%">
+      <feGaussianBlur in="SourceAlpha" stdDeviation="3"/>
+      <feOffset dx="2" dy="3" result="ob"/>
+      <feComponentTransfer><feFuncA type="linear" slope="0.25"/></feComponentTransfer>
+      <feMerge><feMergeNode/><feMergeNode in="SourceGraphic"/></feMerge>
+    </filter>
+    <filter id="softShadow" x="-10%" y="-10%" width="120%" height="120%">
+      <feGaussianBlur in="SourceAlpha" stdDeviation="2"/>
+      <feOffset dx="1" dy="2" result="ob"/>
+      <feComponentTransfer><feFuncA type="linear" slope="0.18"/></feComponentTransfer>
+      <feMerge><feMergeNode/><feMergeNode in="SourceGraphic"/></feMerge>
+    </filter>
+    <linearGradient id="greenGrad" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#5CA46E"/>
+      <stop offset="100%" stop-color="#3D8050"/>
+    </linearGradient>
+    <linearGradient id="blueGrad" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#5B8DEF"/>
+      <stop offset="100%" stop-color="#3A6BC8"/>
+    </linearGradient>
+    <linearGradient id="grayGrad" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#9BA8B5"/>
+      <stop offset="100%" stop-color="#7A8A98"/>
+    </linearGradient>
+  </defs>
+
+  <!-- Background -->
+  <rect width="1400" height="1050" fill="url(#paperTex)"/>
+  <rect x="0" y="0" width="44" height="1050" fill="#EDE0C4" opacity="0.7" stroke="#D5C9A8" stroke-width="1"/>
+  <circle cx="22" cy="140" r="13" fill="#F5EAD2" stroke="#C4B389" stroke-width="1.5"/>
+  <circle cx="22" cy="290" r="13" fill="#F5EAD2" stroke="#C4B389" stroke-width="1.5"/>
+  <circle cx="22" cy="440" r="13" fill="#F5EAD2" stroke="#C4B389" stroke-width="1.5"/>
+  <circle cx="22" cy="600" r="13" fill="#F5EAD2" stroke="#C4B389" stroke-width="1.5"/>
+  <circle cx="22" cy="760" r="13" fill="#F5EAD2" stroke="#C4B389" stroke-width="1.5"/>
+  <circle cx="22" cy="910" r="13" fill="#F5EAD2" stroke="#C4B389" stroke-width="1.5"/>
+
+  <!-- Category tape -->
+  <g transform="translate(1185, 26) rotate(-3)">
+    <rect x="0" y="0" width="190" height="38" rx="3" fill="#5CA46E" opacity="0.88" stroke="#1A1D24" stroke-width="1.5"/>
+    <text x="95" y="25" text-anchor="middle" fill="white" font-size="16" font-weight="700" letter-spacing="1">#ビジネス</text>
+  </g>
+
+  <!-- Impact stars -->
+  <text x="1330" y="85" text-anchor="middle" fill="#2F3842" font-size="22">⭐⭐⭐</text>
+
+  <!-- Date badge -->
+  <rect x="58" y="20" width="160" height="34" rx="4" fill="#2F3842" filter="url(#softShadow)"/>
+  <text x="138" y="42" text-anchor="middle" fill="#F5EAD2" font-size="15" font-weight="600">2026-04-23</text>
+
+  <!-- Header -->
+  <line x1="58" y1="72" x2="1360" y2="72" stroke="#1A1D24" stroke-width="2.5"/>
+  <text x="58" y="116" fill="#1A1D24" font-size="36" font-weight="900">🔧 Anthropic × Broadcom × Alphabet：100万 Ironwood TPU確保</text>
+  <text x="58" y="155" fill="#1A1D24" font-size="30" font-weight="900">$52B規模・3.5GW計算能力・2031年まで——NVIDIA依存削減のインフラ戦略</text>
+  <rect x="58" y="167" width="780" height="22" rx="2" fill="#5CA46E" opacity="0.18"/>
+  <text x="66" y="183" fill="#2F3842" font-size="14" font-weight="500">Motley Fool / TechCrunch / SemiAnalysis  ·  2026-04-22〜23  ·  #ビジネス  ·  #TPU  ·  #Broadcom  ·  #半導体</text>
+  <line x1="58" y1="198" x2="1360" y2="198" stroke="#1A1D24" stroke-width="1.5"/>
+
+  <!-- Hero: Chip/TPU icon -->
+  <g transform="translate(62, 210)" filter="url(#softShadow)">
+    <!-- Chip body -->
+    <rect x="50" y="40" width="100" height="100" rx="8" fill="#2F3842" stroke="#1A1D24" stroke-width="2.5"/>
+    <!-- Inner die -->
+    <rect x="65" y="55" width="70" height="70" rx="4" fill="#5CA46E" opacity="0.8"/>
+    <!-- Circuit lines -->
+    <line x1="75" y1="70" x2="125" y2="70" stroke="#1A1D24" stroke-width="1.5" opacity="0.5"/>
+    <line x1="75" y1="90" x2="125" y2="90" stroke="#1A1D24" stroke-width="1.5" opacity="0.5"/>
+    <line x1="75" y1="110" x2="125" y2="110" stroke="#1A1D24" stroke-width="1.5" opacity="0.5"/>
+    <line x1="85" y1="60" x2="85" y2="120" stroke="#1A1D24" stroke-width="1.5" opacity="0.5"/>
+    <line x1="105" y1="60" x2="105" y2="120" stroke="#1A1D24" stroke-width="1.5" opacity="0.5"/>
+    <!-- Pins -->
+    <rect x="45" y="60" width="8" height="6" rx="1" fill="#5CA46E"/>
+    <rect x="45" y="75" width="8" height="6" rx="1" fill="#5CA46E"/>
+    <rect x="45" y="90" width="8" height="6" rx="1" fill="#5CA46E"/>
+    <rect x="45" y="105" width="8" height="6" rx="1" fill="#5CA46E"/>
+    <rect x="147" y="60" width="8" height="6" rx="1" fill="#5CA46E"/>
+    <rect x="147" y="75" width="8" height="6" rx="1" fill="#5CA46E"/>
+    <rect x="147" y="90" width="8" height="6" rx="1" fill="#5CA46E"/>
+    <rect x="147" y="105" width="8" height="6" rx="1" fill="#5CA46E"/>
+    <rect x="70" y="37" width="6" height="8" rx="1" fill="#5CA46E"/>
+    <rect x="90" y="37" width="6" height="8" rx="1" fill="#5CA46E"/>
+    <rect x="110" y="37" width="6" height="8" rx="1" fill="#5CA46E"/>
+    <rect x="70" y="140" width="6" height="8" rx="1" fill="#5CA46E"/>
+    <rect x="90" y="140" width="6" height="8" rx="1" fill="#5CA46E"/>
+    <rect x="110" y="140" width="6" height="8" rx="1" fill="#5CA46E"/>
+    <!-- Label -->
+    <text x="100" y="97" text-anchor="middle" fill="white" font-size="13" font-weight="900">Ironwood</text>
+    <text x="100" y="114" text-anchor="middle" fill="white" font-size="11">TPU v7</text>
+    <text x="100" y="175" text-anchor="middle" fill="#5CA46E" font-size="13" font-weight="800">1M Units</text>
+    <text x="100" y="193" text-anchor="middle" fill="#8A8A8A" font-size="10">Broadcom製 / Google設計</text>
+  </g>
+
+  <!-- Key number blocks -->
+  <rect x="310" y="210" width="175" height="128" rx="6" fill="white" stroke="#1A1D24" stroke-width="2.5" filter="url(#softShadow)"/>
+  <rect x="310" y="210" width="175" height="8" rx="3" fill="url(#greenGrad)"/>
+  <text x="397" y="258" text-anchor="middle" fill="#5CA46E" font-size="44" font-weight="900">1M</text>
+  <text x="397" y="280" text-anchor="middle" fill="#2F3842" font-size="12" font-weight="600">Ironwood TPU総数</text>
+  <text x="397" y="298" text-anchor="middle" fill="#8A8A8A" font-size="10">40万直接購入 + 60万 GCP</text>
+  <text x="397" y="316" text-anchor="middle" fill="#8A8A8A" font-size="10">2031年まで</text>
+
+  <rect x="498" y="210" width="175" height="128" rx="6" fill="white" stroke="#1A1D24" stroke-width="2.5" filter="url(#softShadow)"/>
+  <rect x="498" y="210" width="175" height="8" rx="3" fill="url(#greenGrad)"/>
+  <text x="585" y="258" text-anchor="middle" fill="#5CA46E" font-size="44" font-weight="900">$10B</text>
+  <text x="585" y="280" text-anchor="middle" fill="#2F3842" font-size="12" font-weight="600">直接購入（ラック価格）</text>
+  <text x="585" y="298" text-anchor="middle" fill="#8A8A8A" font-size="10">40万ユニット Broadcomから</text>
+  <text x="585" y="316" text-anchor="middle" fill="#8A8A8A" font-size="10">フェーズ1</text>
+
+  <rect x="686" y="210" width="175" height="128" rx="6" fill="white" stroke="#1A1D24" stroke-width="2.5" filter="url(#softShadow)"/>
+  <rect x="686" y="210" width="175" height="8" rx="3" fill="url(#blueGrad)"/>
+  <text x="773" y="258" text-anchor="middle" fill="#5B8DEF" font-size="44" font-weight="900">$42B</text>
+  <text x="773" y="280" text-anchor="middle" fill="#2F3842" font-size="12" font-weight="600">GCP RPO（予約）</text>
+  <text x="773" y="298" text-anchor="middle" fill="#8A8A8A" font-size="10">60万ユニット GCP経由</text>
+  <text x="773" y="316" text-anchor="middle" fill="#8A8A8A" font-size="10">合計 $52B 規模</text>
+
+  <rect x="874" y="210" width="175" height="128" rx="6" fill="white" stroke="#1A1D24" stroke-width="2.5" filter="url(#softShadow)"/>
+  <rect x="874" y="210" width="175" height="8" rx="3" fill="url(#greenGrad)"/>
+  <text x="961" y="258" text-anchor="middle" fill="#5CA46E" font-size="44" font-weight="900">3.5GW</text>
+  <text x="961" y="280" text-anchor="middle" fill="#2F3842" font-size="12" font-weight="600">計算容量相当</text>
+  <text x="961" y="298" text-anchor="middle" fill="#8A8A8A" font-size="10">核発電所2〜3基分</text>
+  <text x="961" y="316" text-anchor="middle" fill="#8A8A8A" font-size="10">2027年以降段階的活性化</text>
+
+  <!-- Triangle partnership diagram -->
+  <rect x="58" y="360" width="580" height="310" rx="6" fill="white" stroke="#1A1D24" stroke-width="2" filter="url(#softShadow)"/>
+  <rect x="58" y="360" width="580" height="6" rx="3" fill="url(#greenGrad)"/>
+  <text x="75" y="390" fill="#1A1D24" font-size="15" font-weight="800">🔺 三者間パートナーシップ構造</text>
+  <line x1="75" y1="398" x2="620" y2="398" stroke="#E0D8C8" stroke-width="1"/>
+
+  <!-- Anthropic box -->
+  <rect x="265" y="412" width="140" height="60" rx="6" fill="#FFF8F0" stroke="#E8A87C" stroke-width="2.5"/>
+  <text x="335" y="438" text-anchor="middle" fill="#C87840" font-size="14" font-weight="800">Anthropic</text>
+  <text x="335" y="458" text-anchor="middle" fill="#5A5A5A" font-size="11">AI学習・推論</text>
+
+  <!-- Broadcom box -->
+  <rect x="90" y="530" width="140" height="60" rx="6" fill="#E8F0FD" stroke="#5B8DEF" stroke-width="2.5"/>
+  <text x="160" y="556" text-anchor="middle" fill="#3A6BC8" font-size="14" font-weight="800">Broadcom</text>
+  <text x="160" y="576" text-anchor="middle" fill="#5A5A5A" font-size="11">シリコン設計・製造</text>
+
+  <!-- Alphabet box -->
+  <rect x="440" y="530" width="140" height="60" rx="6" fill="#E8F5E9" stroke="#5CA46E" stroke-width="2.5"/>
+  <text x="510" y="556" text-anchor="middle" fill="#3D8050" font-size="14" font-weight="800">Alphabet</text>
+  <text x="510" y="576" text-anchor="middle" fill="#5A5A5A" font-size="11">GCPインフラ運用</text>
+
+  <!-- Connection lines with labels -->
+  <!-- Anthropic ↔ Broadcom -->
+  <line x1="265" y1="455" x2="230" y2="530" stroke="#5B8DEF" stroke-width="2" stroke-dasharray="6,3"/>
+  <text x="230" y="498" fill="#3A6BC8" font-size="11" font-weight="700">$10B購入</text>
+
+  <!-- Anthropic ↔ Alphabet -->
+  <line x1="405" y1="455" x2="440" y2="530" stroke="#5CA46E" stroke-width="2" stroke-dasharray="6,3"/>
+  <text x="430" y="498" fill="#3D8050" font-size="11" font-weight="700">$42B RPO</text>
+
+  <!-- Broadcom ↔ Alphabet (TPU supply) -->
+  <line x1="230" y1="560" x2="440" y2="560" stroke="#1A1D24" stroke-width="2"/>
+  <text x="335" y="555" text-anchor="middle" fill="#2F3842" font-size="11" font-weight="700">TPU設計・供給</text>
+
+  <!-- NVIDIA comparison -->
+  <rect x="80" y="618" width="510" height="36" rx="4" fill="#2F3842" opacity="0.07" stroke="#1A1D24" stroke-width="1.5"/>
+  <text x="335" y="636" text-anchor="middle" fill="#2F3842" font-size="12" font-weight="700">⚡ NVIDIA依存分散戦略：カスタムTPUでH100/H200の代替確保</text>
+  <text x="335" y="652" text-anchor="middle" fill="#5A5A5A" font-size="11">BroadcomはNVIDIAへの代替として2031年まで安定収益源を確保</text>
+
+  <!-- Deal breakdown chart -->
+  <rect x="652" y="360" width="713" height="310" rx="6" fill="white" stroke="#1A1D24" stroke-width="2" filter="url(#softShadow)"/>
+  <rect x="652" y="360" width="713" height="6" rx="3" fill="url(#greenGrad)"/>
+  <text x="669" y="390" fill="#1A1D24" font-size="15" font-weight="800">💰 $52B 投資内訳と比較</text>
+  <line x1="669" y1="398" x2="1347" y2="398" stroke="#E0D8C8" stroke-width="1"/>
+
+  <!-- Bar comparison -->
+  <text x="770" y="428" text-anchor="end" fill="#2F3842" font-size="12" font-weight="700">直接購入 (40万台)</text>
+  <rect x="778" y="415" width="120" height="26" rx="3" fill="url(#blueGrad)" stroke="#1A1D24" stroke-width="1.5"/>
+  <text x="908" y="432" fill="#1A1D24" font-size="13" font-weight="700">$10B</text>
+
+  <text x="770" y="468" text-anchor="end" fill="#2F3842" font-size="12" font-weight="700">GCP RPO (60万台)</text>
+  <rect x="778" y="455" width="504" height="26" rx="3" fill="url(#greenGrad)" stroke="#1A1D24" stroke-width="1.5"/>
+  <text x="1290" y="472" fill="#1A1D24" font-size="13" font-weight="700">$42B</text>
+
+  <text x="770" y="508" text-anchor="end" fill="#2F3842" font-size="12" font-weight="700">合計</text>
+  <rect x="778" y="495" width="624" height="26" rx="3" fill="#2F3842" stroke="#1A1D24" stroke-width="2"/>
+  <text x="1345" y="512" fill="white" font-size="14" font-weight="900">$52B</text>
+
+  <!-- Comparison with other investments -->
+  <line x1="669" y1="538" x2="1347" y2="538" stroke="#E0D8C8" stroke-width="1"/>
+  <text x="669" y="558" fill="#2F3842" font-size="13" font-weight="700">他のAI計算投資との比較:</text>
+  <text x="779" y="582" fill="#8A8A8A" font-size="11">Amazon × Anthropic (AWS)</text>
+  <text x="1100" y="582" fill="#5CA46E" font-size="12" font-weight="700">$33B (累計最大)</text>
+  <text x="779" y="602" fill="#8A8A8A" font-size="11">Anthropic 10年AWSコミット</text>
+  <text x="1100" y="602" fill="#5CA46E" font-size="12" font-weight="700">$100B</text>
+  <text x="779" y="622" fill="#8A8A8A" font-size="11">今回 Broadcom+GCP</text>
+  <text x="1100" y="622" fill="#5CA46E" font-size="12" font-weight="700">$52B (through 2031)</text>
+  <text x="779" y="648" fill="#2F3842" font-size="11" font-weight="700">合計確保済み計算資源</text>
+  <text x="1100" y="648" fill="#E86B3B" font-size="13" font-weight="800">$185B+ 規模!</text>
+
+  <!-- Feature cards -->
+  <rect x="58" y="690" width="200" height="110" rx="6" fill="white" stroke="#1A1D24" stroke-width="2" filter="url(#softShadow)"/>
+  <rect x="58" y="690" width="200" height="6" rx="3" fill="url(#greenGrad)"/>
+  <text x="158" y="720" text-anchor="middle" fill="#1A1D24" font-size="14" font-weight="800">🔩 Ironwood TPU v7</text>
+  <text x="158" y="742" text-anchor="middle" fill="#5A5A5A" font-size="11">Google第7世代TPU</text>
+  <text x="158" y="758" text-anchor="middle" fill="#5A5A5A" font-size="11">Broadcomがシリコン担当</text>
+  <text x="158" y="774" text-anchor="middle" fill="#5A5A5A" font-size="11">v8・v9もロードマップ入り</text>
+  <text x="158" y="790" text-anchor="middle" fill="#5CA46E" font-size="11" font-weight="700">2031年まで供給保証</text>
+
+  <rect x="272" y="690" width="200" height="110" rx="6" fill="white" stroke="#1A1D24" stroke-width="2" filter="url(#softShadow)"/>
+  <rect x="272" y="690" width="200" height="6" rx="3" fill="#9BA8B5"/>
+  <text x="372" y="720" text-anchor="middle" fill="#1A1D24" font-size="14" font-weight="800">⚔️ NVIDIA代替</text>
+  <text x="372" y="742" text-anchor="middle" fill="#5A5A5A" font-size="11">H100/H200の需給逼迫を回避</text>
+  <text x="372" y="758" text-anchor="middle" fill="#5A5A5A" font-size="11">コスト安定化のメリット</text>
+  <text x="372" y="774" text-anchor="middle" fill="#5A5A5A" font-size="11">Google・Meta・Amazonも同様</text>
+  <text x="372" y="790" text-anchor="middle" fill="#4A6070" font-size="11" font-weight="700">NVIDIA一強体制に亀裂</text>
+
+  <rect x="486" y="690" width="200" height="110" rx="6" fill="white" stroke="#1A1D24" stroke-width="2" filter="url(#softShadow)"/>
+  <rect x="486" y="690" width="200" height="6" rx="3" fill="url(#blueGrad)"/>
+  <text x="586" y="720" text-anchor="middle" fill="#1A1D24" font-size="14" font-weight="800">⚡ 電力3.5GWの意味</text>
+  <text x="586" y="742" text-anchor="middle" fill="#5A5A5A" font-size="11">原子力2〜3基分に相当</text>
+  <text x="586" y="758" text-anchor="middle" fill="#5A5A5A" font-size="11">AI電力消費が国家政策へ</text>
+  <text x="586" y="774" text-anchor="middle" fill="#5A5A5A" font-size="11">再生可能エネルギー優先</text>
+  <text x="586" y="790" text-anchor="middle" fill="#E86B3B" font-size="11" font-weight="700">エネルギー問題が核心</text>
+
+  <rect x="700" y="690" width="200" height="110" rx="6" fill="white" stroke="#1A1D24" stroke-width="2" filter="url(#softShadow)"/>
+  <rect x="700" y="690" width="200" height="6" rx="3" fill="url(#greenGrad)"/>
+  <text x="800" y="720" text-anchor="middle" fill="#1A1D24" font-size="14" font-weight="800">📊 Broadcom株への影響</text>
+  <text x="800" y="742" text-anchor="middle" fill="#5A5A5A" font-size="11">契約確定で株価+6%以上</text>
+  <text x="800" y="758" text-anchor="middle" fill="#5A5A5A" font-size="11">「2031年安定顧客確保」</text>
+  <text x="800" y="774" text-anchor="middle" fill="#5A5A5A" font-size="11">シリコン設計への需要増加</text>
+  <text x="800" y="790" text-anchor="middle" fill="#5CA46E" font-size="11" font-weight="700">NVIDIAの代替株として</text>
+
+  <rect x="914" y="690" width="451" height="110" rx="6" fill="white" stroke="#1A1D24" stroke-width="2" filter="url(#softShadow)"/>
+  <rect x="914" y="690" width="451" height="6" rx="3" fill="#2F3842"/>
+  <text x="1139" y="720" text-anchor="middle" fill="#1A1D24" font-size="14" font-weight="800">🔮 ARR成長との算術</text>
+  <text x="1139" y="742" text-anchor="middle" fill="#5A5A5A" font-size="12">ARR $30B → $52B計算資源確保 = 3〜5年での回収を前提</text>
+  <text x="1139" y="762" text-anchor="middle" fill="#5A5A5A" font-size="12">ARR $100Bに達すれば、この投資規模は「妥当」以上になる</text>
+  <text x="1139" y="782" text-anchor="middle" fill="#5CA46E" font-size="12" font-weight="700">「成長を確信しているからこそ$52Bをコミットできる」</text>
+
+  <!-- Sticky notes -->
+  <g transform="translate(58, 820) rotate(-1.2)" filter="url(#stickyShadow)">
+    <rect width="290" height="100" rx="4" fill="#FFF9C4" stroke="#1A1D24" stroke-width="1.5"/>
+    <text x="145" y="28" text-anchor="middle" fill="#1A1D24" font-size="13" font-weight="800">🤔 Amazon×Anthropicとの違い</text>
+    <text x="145" y="48" text-anchor="middle" fill="#2F3842" font-size="11">AWSは既存NVIDIAクラスタ提供。</text>
+    <text x="145" y="64" text-anchor="middle" fill="#2F3842" font-size="11">Broadcom×Alphabetは「カスタムTPU」専用。</text>
+    <text x="145" y="80" text-anchor="middle" fill="#2F3842" font-size="11">Anthropicは両軸で計算資源を確保。</text>
+  </g>
+
+  <g transform="translate(365, 815) rotate(0.9)" filter="url(#stickyShadow)">
+    <rect width="290" height="100" rx="4" fill="#C8F7C5" stroke="#1A1D24" stroke-width="1.5"/>
+    <text x="145" y="28" text-anchor="middle" fill="#1A1D24" font-size="13" font-weight="800">💡 シリコン建築家の誕生</text>
+    <text x="145" y="48" text-anchor="middle" fill="#2F3842" font-size="11">SemiAnalysisは「AnthropicはAI企業から</text>
+    <text x="145" y="64" text-anchor="middle" fill="#2F3842" font-size="11">シリコンアーキテクトに役割が変わった」と分析。</text>
+    <text x="145" y="80" text-anchor="middle" fill="#2F3842" font-size="11">ただ使う側から、設計に関与する側へ。</text>
+  </g>
+
+  <g transform="translate(672, 820) rotate(-0.7)" filter="url(#stickyShadow)">
+    <rect width="290" height="100" rx="4" fill="#D4E8FF" stroke="#1A1D24" stroke-width="1.5"/>
+    <text x="145" y="28" text-anchor="middle" fill="#1A1D24" font-size="13" font-weight="800">🔭 2031年のAIインフラ</text>
+    <text x="145" y="48" text-anchor="middle" fill="#2F3842" font-size="11">v7→v8→v9で1万倍以上の性能向上？</text>
+    <text x="145" y="64" text-anchor="middle" fill="#2F3842" font-size="11">2031年のモデルは今とは別次元になる。</text>
+    <text x="145" y="80" text-anchor="middle" fill="#2F3842" font-size="11">その時Anthropicが持つ優位は何か。</text>
+  </g>
+
+  <g transform="translate(979, 815) rotate(1.3)" filter="url(#stickyShadow)">
+    <rect width="290" height="100" rx="4" fill="#FFE0D0" stroke="#1A1D24" stroke-width="1.5"/>
+    <text x="145" y="28" text-anchor="middle" fill="#1A1D24" font-size="13" font-weight="800">⚠️ リスク：電力調達</text>
+    <text x="145" y="48" text-anchor="middle" fill="#2F3842" font-size="11">3.5GWは再エネだけでは賄えない。</text>
+    <text x="145" y="64" text-anchor="middle" fill="#2F3842" font-size="11">グリッドの安定性・電力コスト上昇が</text>
+    <text x="145" y="80" text-anchor="middle" fill="#2F3842" font-size="11">$52B投資の収益性を左右する。</text>
+  </g>
+
+  <!-- Footer -->
+  <line x1="58" y1="1022" x2="1360" y2="1022" stroke="#1A1D24" stroke-width="1"/>
+  <text x="709" y="1040" text-anchor="middle" fill="#8A8A8A" font-size="12" font-style="italic">AI News · 2026-04-23 · Anthropic Secures 1M Ironwood TPU Units in $52B Broadcom-Alphabet Deal Through 2031</text>
+</svg>

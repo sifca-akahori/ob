@@ -1,0 +1,161 @@
+<svg viewBox="0 0 1400 1050" xmlns="http://www.w3.org/2000/svg" font-family="-apple-system,'Hiragino Sans','Yu Gothic',sans-serif">
+  <defs>
+    <filter id="softShadow" x="-5%" y="-5%" width="115%" height="115%">
+      <feDropShadow dx="2" dy="3" stdDeviation="4" flood-color="#00000022"/>
+    </filter>
+    <filter id="stickyShadow" x="-10%" y="-10%" width="130%" height="130%">
+      <feDropShadow dx="3" dy="4" stdDeviation="6" flood-color="#00000033"/>
+    </filter>
+    <pattern id="paperTexture" patternUnits="userSpaceOnUse" width="4" height="4">
+      <rect width="4" height="4" fill="#FBF8F1"/>
+      <circle cx="1" cy="1" r="0.4" fill="#E8E2D3" opacity="0.5"/>
+      <circle cx="3" cy="3" r="0.3" fill="#D5CDBA" opacity="0.4"/>
+    </pattern>
+  </defs>
+  <rect width="1400" height="1050" fill="url(#paperTexture)"/>
+  <rect x="0" y="0" width="48" height="1050" fill="#E8E2D3" stroke="#D0C9B8" stroke-width="1"/>
+  <circle cx="24" cy="120" r="14" fill="#FBF8F1" stroke="#C8BFA8" stroke-width="2"/>
+  <circle cx="24" cy="120" r="7" fill="#E0D8C8" stroke="#B8AFA0" stroke-width="1.5"/>
+  <circle cx="24" cy="280" r="14" fill="#FBF8F1" stroke="#C8BFA8" stroke-width="2"/>
+  <circle cx="24" cy="280" r="7" fill="#E0D8C8" stroke="#B8AFA0" stroke-width="1.5"/>
+  <circle cx="24" cy="440" r="14" fill="#FBF8F1" stroke="#C8BFA8" stroke-width="2"/>
+  <circle cx="24" cy="440" r="7" fill="#E0D8C8" stroke="#B8AFA0" stroke-width="1.5"/>
+  <circle cx="24" cy="600" r="14" fill="#FBF8F1" stroke="#C8BFA8" stroke-width="2"/>
+  <circle cx="24" cy="600" r="7" fill="#E0D8C8" stroke="#B8AFA0" stroke-width="1.5"/>
+  <circle cx="24" cy="760" r="14" fill="#FBF8F1" stroke="#C8BFA8" stroke-width="2"/>
+  <circle cx="24" cy="760" r="7" fill="#E0D8C8" stroke="#B8AFA0" stroke-width="1.5"/>
+  <circle cx="24" cy="920" r="14" fill="#FBF8F1" stroke="#C8BFA8" stroke-width="2"/>
+  <circle cx="24" cy="920" r="7" fill="#E0D8C8" stroke="#B8AFA0" stroke-width="1.5"/>
+  <g transform="translate(1270,0) rotate(3)">
+    <rect x="0" y="-10" width="175" height="44" fill="#5CA46E" stroke="#1A1D24" stroke-width="2"/>
+    <text x="87" y="18" text-anchor="middle" font-size="16" font-weight="700" fill="white">#ビジネス</text>
+  </g>
+  <rect x="68" y="22" width="170" height="38" rx="6" fill="#2F3842" filter="url(#softShadow)"/>
+  <text x="153" y="47" text-anchor="middle" font-size="16" font-weight="700" fill="white">2026-04-25</text>
+  <text x="260" y="52" font-size="24" fill="#F5C518">⭐⭐⭐</text>
+  <g transform="translate(1250,120)">
+    <circle cx="0" cy="0" r="52" fill="#E8F5E9" stroke="#5CA46E" stroke-width="3"/>
+    <text x="0" y="0" text-anchor="middle" dominant-baseline="central" font-size="46">💰</text>
+  </g>
+  <text x="68" y="108" font-size="36" font-weight="900" fill="#1A1D24">Cognition AI（Devin）$25B調達交渉</text>
+  <text x="68" y="150" font-size="24" font-weight="700" fill="#5CA46E">18ヶ月で評価額6.25倍——AIコーディング狂乱の象徴</text>
+  <text x="68" y="183" font-size="15" fill="#666">Bloomberg · 2026-04-23 · #Cognition #Devin #AIコーディング</text>
+  <line x1="68" y1="200" x2="1340" y2="200" stroke="#1A1D24" stroke-width="2.5"/>
+
+  <!-- Key Numbers -->
+  <rect x="68" y="215" width="280" height="105" rx="8" fill="white" stroke="#1A1D24" stroke-width="2.5" filter="url(#softShadow)"/>
+  <rect x="68" y="215" width="280" height="10" rx="4" fill="#5CA46E"/>
+  <text x="208" y="263" text-anchor="middle" font-size="44" font-weight="900" fill="#1A1D24">$25B</text>
+  <text x="208" y="290" text-anchor="middle" font-size="13" fill="#666">現在の調達交渉評価額</text>
+  <text x="208" y="310" text-anchor="middle" font-size="11" fill="#999">Bloomberg情報源（条件流動的）</text>
+
+  <rect x="368" y="215" width="280" height="105" rx="8" fill="white" stroke="#1A1D24" stroke-width="2.5" filter="url(#softShadow)"/>
+  <rect x="368" y="215" width="280" height="10" rx="4" fill="#5CA46E"/>
+  <text x="508" y="263" text-anchor="middle" font-size="44" font-weight="900" fill="#1A1D24">6.25x</text>
+  <text x="508" y="290" text-anchor="middle" font-size="13" fill="#666">18ヶ月での評価膨張倍率</text>
+  <text x="508" y="310" text-anchor="middle" font-size="11" fill="#999">$4B(Mar25)→$25B(Apr26)</text>
+
+  <rect x="668" y="215" width="280" height="105" rx="8" fill="white" stroke="#1A1D24" stroke-width="2.5" filter="url(#softShadow)"/>
+  <rect x="668" y="215" width="280" height="10" rx="4" fill="#5CA46E"/>
+  <text x="808" y="263" text-anchor="middle" font-size="44" font-weight="900" fill="#1A1D24">$73M</text>
+  <text x="808" y="290" text-anchor="middle" font-size="13" fill="#666">ARR（2025年6月）</text>
+  <text x="808" y="310" text-anchor="middle" font-size="11" fill="#999">$1M(Sep24)から73倍増</text>
+
+  <rect x="968" y="215" width="280" height="105" rx="8" fill="white" stroke="#1A1D24" stroke-width="2.5" filter="url(#softShadow)"/>
+  <rect x="968" y="215" width="280" height="10" rx="4" fill="#5CA46E"/>
+  <text x="1108" y="263" text-anchor="middle" font-size="38" font-weight="900" fill="#1A1D24">342x</text>
+  <text x="1108" y="290" text-anchor="middle" font-size="13" fill="#666">ARR倍率（$25B÷$73M）</text>
+  <text x="1108" y="310" text-anchor="middle" font-size="11" fill="#999">SaaS標準30〜50倍の約10倍</text>
+
+  <!-- Valuation timeline chart -->
+  <rect x="68" y="338" width="650" height="310" rx="8" fill="white" stroke="#1A1D24" stroke-width="2.5" filter="url(#softShadow)"/>
+  <text x="88" y="368" font-size="16" font-weight="700" fill="#1A1D24">📈 バリュエーション推移タイムライン</text>
+  <line x1="88" y1="376" x2="700" y2="376" stroke="#E0D8C8" stroke-width="1"/>
+  <!-- Y-axis labels -->
+  <text x="130" y="405" font-size="11" fill="#888">$25B</text>
+  <line x1="160" y1="400" x2="680" y2="400" stroke="#E0D8C8" stroke-width="0.5" stroke-dasharray="3,3"/>
+  <text x="130" y="455" font-size="11" fill="#888">$20B</text>
+  <line x1="160" y1="450" x2="680" y2="450" stroke="#E0D8C8" stroke-width="0.5" stroke-dasharray="3,3"/>
+  <text x="130" y="505" font-size="11" fill="#888">$15B</text>
+  <line x1="160" y1="500" x2="680" y2="500" stroke="#E0D8C8" stroke-width="0.5" stroke-dasharray="3,3"/>
+  <text x="130" y="555" font-size="11" fill="#888">$10B</text>
+  <line x1="160" y1="550" x2="680" y2="550" stroke="#E0D8C8" stroke-width="0.5" stroke-dasharray="3,3"/>
+  <text x="130" y="605" font-size="11" fill="#888">$5B</text>
+  <line x1="160" y1="600" x2="680" y2="600" stroke="#E0D8C8" stroke-width="0.5" stroke-dasharray="3,3"/>
+  <text x="130" y="635" font-size="11" fill="#888">$0</text>
+  <line x1="160" y1="630" x2="680" y2="630" stroke="#1A1D24" stroke-width="1"/>
+  <!-- Data points -->
+  <circle cx="200" cy="620" r="8" fill="#5CA46E" stroke="#1A1D24" stroke-width="2"/>
+  <text x="200" y="648" text-anchor="middle" font-size="11" fill="#555">Mar'25</text>
+  <text x="200" y="660" text-anchor="middle" font-size="10" fill="#888">$4B</text>
+  <circle cx="340" cy="594" r="8" fill="#5CA46E" stroke="#1A1D24" stroke-width="2"/>
+  <text x="340" y="648" text-anchor="middle" font-size="11" fill="#555">Sep'25</text>
+  <text x="340" y="660" text-anchor="middle" font-size="10" fill="#888">$10.2B</text>
+  <circle cx="560" cy="400" r="10" fill="#F5C518" stroke="#1A1D24" stroke-width="2.5"/>
+  <text x="560" y="648" text-anchor="middle" font-size="11" fill="#555">Apr'26</text>
+  <text x="560" y="660" text-anchor="middle" font-size="10" fill="#888">$25B(交渉中)</text>
+  <!-- Line connecting -->
+  <polyline points="200,620 340,594 560,400" fill="none" stroke="#5CA46E" stroke-width="3"/>
+
+  <!-- Right panel: ARR growth -->
+  <rect x="738" y="338" width="590" height="310" rx="8" fill="white" stroke="#1A1D24" stroke-width="2.5" filter="url(#softShadow)"/>
+  <text x="758" y="368" font-size="16" font-weight="700" fill="#1A1D24">💹 ARR成長とバリュエーション倍率</text>
+  <line x1="758" y1="376" x2="1310" y2="376" stroke="#E0D8C8" stroke-width="1"/>
+  <!-- ARR bars -->
+  <text x="758" y="412" font-size="13" fill="#555">ARR（$M）</text>
+  <text x="900" y="412" font-size="12" fill="#888">Sep 2024</text>
+  <rect x="980" y="395" width="6" height="22" rx="2" fill="#5CA46E" stroke="#1A1D24" stroke-width="1.5"/>
+  <text x="992" y="412" font-size="12" fill="#333">$1M</text>
+  <text x="900" y="447" font-size="12" fill="#888">Jun 2025</text>
+  <rect x="980" y="430" width="220" height="22" rx="2" fill="#5CA46E" stroke="#1A1D24" stroke-width="1.5"/>
+  <text x="1206" y="447" font-size="12" fill="#333">$73M (+73x)</text>
+
+  <line x1="758" y1="470" x2="1310" y2="470" stroke="#E0D8C8" stroke-width="1"/>
+  <text x="758" y="498" font-size="14" font-weight="700" fill="#1A1D24">🔢 ARR倍率比較（業界基準 vs Cognition）</text>
+  <rect x="758" y="510" width="110" height="55" rx="4" fill="#E8F5E9" stroke="#5CA46E" stroke-width="1.5"/>
+  <text x="813" y="532" text-anchor="middle" font-size="11" fill="#555">SaaS標準</text>
+  <text x="813" y="553" text-anchor="middle" font-size="18" font-weight="700" fill="#5CA46E">30-50x</text>
+  <rect x="888" y="510" width="110" height="55" rx="4" fill="#E3F2FD" stroke="#5B8DEF" stroke-width="1.5"/>
+  <text x="943" y="532" text-anchor="middle" font-size="11" fill="#555">AI SaaS</text>
+  <text x="943" y="553" text-anchor="middle" font-size="18" font-weight="700" fill="#5B8DEF">80-150x</text>
+  <rect x="1018" y="510" width="130" height="55" rx="4" fill="#FFF3E0" stroke="#FF9800" stroke-width="1.5"/>
+  <text x="1083" y="532" text-anchor="middle" font-size="11" fill="#555">Cognition現在</text>
+  <text x="1083" y="553" text-anchor="middle" font-size="20" font-weight="700" fill="#FF9800">342x</text>
+  <text x="758" y="590" font-size="12" fill="#888">※ $25B ÷ 直近ARR $73M で試算。2026年ARR不明のため実態は異なる可能性あり</text>
+
+  <!-- Comparable deal -->
+  <rect x="758" y="608" width="550" height="30" rx="4" fill="#FFF9C4" stroke="#F5C518" stroke-width="1.5"/>
+  <text x="1033" y="629" text-anchor="middle" font-size="13" font-weight="700" fill="#1A1D24">参照: SpaceX Cursor $60B買収オプション (4/23) がAIコーディングバリュ全体を押上げ</text>
+
+  <!-- Sticky notes -->
+  <g transform="translate(68,668) rotate(-1.5)">
+    <rect width="260" height="105" rx="4" fill="#FFFDE7" stroke="#1A1D24" stroke-width="2" filter="url(#stickyShadow)"/>
+    <text x="130" y="26" text-anchor="middle" font-size="13" font-weight="700" fill="#1A1D24">🤔 Devinの本当の強み</text>
+    <text x="14" y="50" font-size="12" fill="#333">直接コード生成よりも</text>
+    <text x="14" y="68" font-size="12" fill="#333">「エンタープライズ向けAI</text>
+    <text x="14" y="86" font-size="12" fill="#333">エージェント基盤」への転換</text>
+  </g>
+  <g transform="translate(348,668) rotate(1.0)">
+    <rect width="260" height="105" rx="4" fill="#E8F5E9" stroke="#1A1D24" stroke-width="2" filter="url(#stickyShadow)"/>
+    <text x="130" y="26" text-anchor="middle" font-size="13" font-weight="700" fill="#1A1D24">💭 競合構図</text>
+    <text x="14" y="50" font-size="12" fill="#333">OpenAI Codex Enterprise</text>
+    <text x="14" y="68" font-size="12" fill="#333">GitHub Copilot / Cursor</text>
+    <text x="14" y="86" font-size="12" fill="#333">のどれかに買収される？</text>
+  </g>
+  <g transform="translate(628,668) rotate(-0.5)">
+    <rect width="260" height="105" rx="4" fill="#FCE4EC" stroke="#1A1D24" stroke-width="2" filter="url(#stickyShadow)"/>
+    <text x="130" y="26" text-anchor="middle" font-size="13" font-weight="700" fill="#1A1D24">🚀 出口戦略予測</text>
+    <text x="14" y="50" font-size="12" fill="#333">IPO（2027年以降）or</text>
+    <text x="14" y="68" font-size="12" fill="#333">Microsoft買収($25B)が</text>
+    <text x="14" y="86" font-size="12" fill="#333">最有力シナリオ</text>
+  </g>
+  <g transform="translate(908,668) rotate(1.2)">
+    <rect width="260" height="105" rx="4" fill="#E3F2FD" stroke="#1A1D24" stroke-width="2" filter="url(#stickyShadow)"/>
+    <text x="130" y="26" text-anchor="middle" font-size="13" font-weight="700" fill="#1A1D24">⚡ バブルリスク</text>
+    <text x="14" y="50" font-size="12" fill="#333">実証できないビジョン倍率。</text>
+    <text x="14" y="68" font-size="12" fill="#333">ARRが2026年も続伸しなければ</text>
+    <text x="14" y="86" font-size="12" fill="#333">valuationは急落する可能性</text>
+  </g>
+
+  <text x="700" y="1038" text-anchor="middle" font-size="13" fill="#999" font-style="italic">AI News · 2026-04-25 · Cognition AI Devin $25B Funding — AI Coding Valuation Frenzy</text>
+</svg>

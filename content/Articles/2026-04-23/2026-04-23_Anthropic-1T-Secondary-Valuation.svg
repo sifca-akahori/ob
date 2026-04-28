@@ -1,0 +1,267 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1400 1050" font-family="-apple-system, 'Hiragino Sans', 'Yu Gothic', 'Segoe UI', sans-serif">
+  <defs>
+    <pattern id="paperTex" patternUnits="userSpaceOnUse" width="100" height="100">
+      <rect width="100" height="100" fill="#F5EAD2"/>
+      <circle cx="22" cy="14" r="0.4" fill="#C4B389" opacity="0.3"/>
+      <circle cx="54" cy="62" r="0.5" fill="#C4B389" opacity="0.3"/>
+      <circle cx="81" cy="35" r="0.3" fill="#C4B389" opacity="0.3"/>
+      <circle cx="37" cy="88" r="0.4" fill="#C4B389" opacity="0.3"/>
+    </pattern>
+    <filter id="stickyShadow" x="-10%" y="-10%" width="125%" height="125%">
+      <feGaussianBlur in="SourceAlpha" stdDeviation="3"/>
+      <feOffset dx="2" dy="3" result="ob"/>
+      <feComponentTransfer><feFuncA type="linear" slope="0.25"/></feComponentTransfer>
+      <feMerge><feMergeNode/><feMergeNode in="SourceGraphic"/></feMerge>
+    </filter>
+    <filter id="softShadow" x="-10%" y="-10%" width="120%" height="120%">
+      <feGaussianBlur in="SourceAlpha" stdDeviation="2"/>
+      <feOffset dx="1" dy="2" result="ob"/>
+      <feComponentTransfer><feFuncA type="linear" slope="0.18"/></feComponentTransfer>
+      <feMerge><feMergeNode/><feMergeNode in="SourceGraphic"/></feMerge>
+    </filter>
+    <linearGradient id="goldGrad" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#F5C842"/>
+      <stop offset="100%" stop-color="#D4A017"/>
+    </linearGradient>
+    <linearGradient id="greenGrad" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#5CA46E"/>
+      <stop offset="100%" stop-color="#3D8050"/>
+    </linearGradient>
+    <linearGradient id="grayGrad" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#9BA8B5"/>
+      <stop offset="100%" stop-color="#7A8A98"/>
+    </linearGradient>
+  </defs>
+
+  <!-- Background -->
+  <rect width="1400" height="1050" fill="url(#paperTex)"/>
+  <rect x="0" y="0" width="44" height="1050" fill="#EDE0C4" opacity="0.7" stroke="#D5C9A8" stroke-width="1"/>
+  <circle cx="22" cy="140" r="13" fill="#F5EAD2" stroke="#C4B389" stroke-width="1.5"/>
+  <circle cx="22" cy="290" r="13" fill="#F5EAD2" stroke="#C4B389" stroke-width="1.5"/>
+  <circle cx="22" cy="440" r="13" fill="#F5EAD2" stroke="#C4B389" stroke-width="1.5"/>
+  <circle cx="22" cy="600" r="13" fill="#F5EAD2" stroke="#C4B389" stroke-width="1.5"/>
+  <circle cx="22" cy="760" r="13" fill="#F5EAD2" stroke="#C4B389" stroke-width="1.5"/>
+  <circle cx="22" cy="910" r="13" fill="#F5EAD2" stroke="#C4B389" stroke-width="1.5"/>
+
+  <!-- Category tape -->
+  <g transform="translate(1185, 26) rotate(-3)">
+    <rect x="0" y="0" width="190" height="38" rx="3" fill="#5CA46E" opacity="0.88" stroke="#1A1D24" stroke-width="1.5"/>
+    <text x="95" y="25" text-anchor="middle" fill="white" font-size="16" font-weight="700" letter-spacing="1">#ビジネス</text>
+  </g>
+
+  <!-- Impact stars -->
+  <text x="1330" y="85" text-anchor="middle" fill="#2F3842" font-size="22">⭐⭐⭐</text>
+
+  <!-- Date badge -->
+  <rect x="58" y="20" width="160" height="34" rx="4" fill="#2F3842" filter="url(#softShadow)"/>
+  <text x="138" y="42" text-anchor="middle" fill="#F5EAD2" font-size="15" font-weight="600">2026-04-23</text>
+
+  <!-- Header -->
+  <line x1="58" y1="72" x2="1360" y2="72" stroke="#1A1D24" stroke-width="2.5"/>
+  <text x="58" y="116" fill="#1A1D24" font-size="36" font-weight="900">💰 Anthropic、二次市場で$1兆ドル突破</text>
+  <text x="58" y="155" fill="#1A1D24" font-size="30" font-weight="900">OpenAI ($880B) を上回り、初のAI兆ドル企業へ・ARR 233%増</text>
+  <rect x="58" y="167" width="780" height="22" rx="2" fill="#5CA46E" opacity="0.18"/>
+  <text x="66" y="183" fill="#2F3842" font-size="14" font-weight="500">TechFundingNews / Yahoo Finance  ·  2026-04-23  ·  #ビジネス  ·  #Anthropic  ·  #バリュエーション  ·  #ClaudeCode</text>
+  <line x1="58" y1="198" x2="1360" y2="198" stroke="#1A1D24" stroke-width="1.5"/>
+
+  <!-- Hero: Trophy / Dollar sign -->
+  <g transform="translate(62, 210)" filter="url(#softShadow)">
+    <!-- Trophy cup -->
+    <path d="M 60 40 Q 50 80 70 100 L 90 100 L 110 100 Q 130 80 120 40 Z" fill="url(#goldGrad)" stroke="#1A1D24" stroke-width="2.5"/>
+    <!-- Trophy handles -->
+    <path d="M 60 55 Q 38 55 38 75 Q 38 90 60 85" fill="none" stroke="#1A1D24" stroke-width="2.5"/>
+    <path d="M 120 55 Q 142 55 142 75 Q 142 90 120 85" fill="none" stroke="#1A1D24" stroke-width="2.5"/>
+    <!-- Trophy base -->
+    <rect x="75" y="100" width="30" height="12" rx="2" fill="#D4A017" stroke="#1A1D24" stroke-width="2"/>
+    <rect x="65" y="112" width="50" height="10" rx="2" fill="#D4A017" stroke="#1A1D24" stroke-width="2"/>
+    <!-- $1T text on trophy -->
+    <text x="90" y="82" text-anchor="middle" fill="#1A1D24" font-size="22" font-weight="900">$1T</text>
+    <!-- Star burst -->
+    <polygon points="90,-10 97,5 113,5 100,15 105,32 90,23 75,32 80,15 67,5 83,5" fill="#FFD700" stroke="#1A1D24" stroke-width="1.5"/>
+    <!-- Anthropic label -->
+    <text x="90" y="148" text-anchor="middle" fill="#5CA46E" font-size="14" font-weight="800">Anthropic</text>
+    <text x="90" y="166" text-anchor="middle" fill="#8A8A8A" font-size="11">二次市場評価額</text>
+  </g>
+
+  <!-- Key number blocks -->
+  <rect x="310" y="210" width="185" height="128" rx="6" fill="white" stroke="#1A1D24" stroke-width="2.5" filter="url(#softShadow)"/>
+  <rect x="310" y="210" width="185" height="8" rx="3" fill="url(#goldGrad)"/>
+  <text x="403" y="256" text-anchor="middle" fill="#D4A017" font-size="42" font-weight="900">$1.0T</text>
+  <text x="403" y="278" text-anchor="middle" fill="#2F3842" font-size="12" font-weight="600">Anthropic 含意評価額</text>
+  <text x="403" y="296" text-anchor="middle" fill="#8A8A8A" font-size="10">Forge Global 二次市場</text>
+  <text x="403" y="314" text-anchor="middle" fill="#8A8A8A" font-size="10">OpenAI比較: $880B → 上回る</text>
+
+  <rect x="508" y="210" width="185" height="128" rx="6" fill="white" stroke="#1A1D24" stroke-width="2.5" filter="url(#softShadow)"/>
+  <rect x="508" y="210" width="185" height="8" rx="3" fill="#5CA46E"/>
+  <text x="600" y="256" text-anchor="middle" fill="#5CA46E" font-size="42" font-weight="900">+233%</text>
+  <text x="600" y="278" text-anchor="middle" fill="#2F3842" font-size="12" font-weight="600">ARR成長率（1四半期）</text>
+  <text x="600" y="296" text-anchor="middle" fill="#8A8A8A" font-size="10">$9B (2025末) → $30B (2026/3)</text>
+  <text x="600" y="314" text-anchor="middle" fill="#8A8A8A" font-size="10">AI企業史上最速クラス</text>
+
+  <rect x="706" y="210" width="185" height="128" rx="6" fill="white" stroke="#1A1D24" stroke-width="2.5" filter="url(#softShadow)"/>
+  <rect x="706" y="210" width="185" height="8" rx="3" fill="#5CA46E"/>
+  <text x="798" y="256" text-anchor="middle" fill="#5CA46E" font-size="42" font-weight="900">$2.5B</text>
+  <text x="798" y="278" text-anchor="middle" fill="#2F3842" font-size="12" font-weight="600">ClaudeCode ARR</text>
+  <text x="798" y="296" text-anchor="middle" fill="#8A8A8A" font-size="10">$30B全体ARRの1/12</text>
+  <text x="798" y="314" text-anchor="middle" fill="#8A8A8A" font-size="10">開発者ツール市場を席巻</text>
+
+  <rect x="904" y="210" width="185" height="128" rx="6" fill="white" stroke="#1A1D24" stroke-width="2.5" filter="url(#softShadow)"/>
+  <rect x="904" y="210" width="185" height="8" rx="3" fill="#9BA8B5"/>
+  <text x="996" y="256" text-anchor="middle" fill="#4A6070" font-size="42" font-weight="900">$880B</text>
+  <text x="996" y="278" text-anchor="middle" fill="#2F3842" font-size="12" font-weight="600">OpenAI 二次評価額</text>
+  <text x="996" y="296" text-anchor="middle" fill="#8A8A8A" font-size="10">同プラットフォーム</text>
+  <text x="996" y="314" text-anchor="middle" fill="#8A8A8A" font-size="10">Anthropicに首位を明け渡す</text>
+
+  <!-- ARR growth chart -->
+  <rect x="58" y="360" width="560" height="310" rx="6" fill="white" stroke="#1A1D24" stroke-width="2" filter="url(#softShadow)"/>
+  <rect x="58" y="360" width="560" height="6" rx="3" fill="url(#goldGrad)"/>
+  <text x="75" y="390" fill="#1A1D24" font-size="15" font-weight="800">📈 Anthropic ARR 成長軌跡（2025〜2026）</text>
+  <line x1="75" y1="398" x2="600" y2="398" stroke="#E0D8C8" stroke-width="1"/>
+
+  <!-- Y axis labels -->
+  <text x="110" y="435" text-anchor="end" fill="#8A8A8A" font-size="11">$30B</text>
+  <line x1="115" y1="428" x2="595" y2="428" stroke="#E0D8C8" stroke-width="1" stroke-dasharray="4,3"/>
+  <text x="110" y="483" text-anchor="end" fill="#8A8A8A" font-size="11">$20B</text>
+  <line x1="115" y1="476" x2="595" y2="476" stroke="#E0D8C8" stroke-width="1" stroke-dasharray="4,3"/>
+  <text x="110" y="531" text-anchor="end" fill="#8A8A8A" font-size="11">$10B</text>
+  <line x1="115" y1="524" x2="595" y2="524" stroke="#E0D8C8" stroke-width="1" stroke-dasharray="4,3"/>
+  <text x="110" y="580" text-anchor="end" fill="#8A8A8A" font-size="11">$0</text>
+  <line x1="115" y1="572" x2="595" y2="572" stroke="#1A1D24" stroke-width="1"/>
+
+  <!-- Bars -->
+  <!-- 2025 Q1 ~$2B -->
+  <rect x="135" y="554" width="55" height="18" rx="2" fill="url(#grayGrad)" stroke="#1A1D24" stroke-width="1.5"/>
+  <text x="162" y="581" text-anchor="middle" fill="#6A6A6A" font-size="10">2025 Q1</text>
+  <text x="162" y="548" text-anchor="middle" fill="#6A6A6A" font-size="9">~$2B</text>
+
+  <!-- 2025 Q2 ~$4B -->
+  <rect x="210" y="534" width="55" height="38" rx="2" fill="url(#grayGrad)" stroke="#1A1D24" stroke-width="1.5"/>
+  <text x="237" y="581" text-anchor="middle" fill="#6A6A6A" font-size="10">2025 Q2</text>
+  <text x="237" y="527" text-anchor="middle" fill="#6A6A6A" font-size="9">~$4B</text>
+
+  <!-- 2025 Q3 ~$6B -->
+  <rect x="285" y="514" width="55" height="58" rx="2" fill="url(#grayGrad)" stroke="#1A1D24" stroke-width="1.5"/>
+  <text x="312" y="581" text-anchor="middle" fill="#6A6A6A" font-size="10">2025 Q3</text>
+  <text x="312" y="507" text-anchor="middle" fill="#6A6A6A" font-size="9">~$6B</text>
+
+  <!-- 2025 Q4 $9B -->
+  <rect x="360" y="476" width="55" height="96" rx="2" fill="url(#grayGrad)" stroke="#1A1D24" stroke-width="1.5"/>
+  <text x="387" y="581" text-anchor="middle" fill="#6A6A6A" font-size="10">2025 Q4</text>
+  <text x="387" y="469" text-anchor="middle" fill="#6A6A6A" font-size="9">$9B</text>
+
+  <!-- 2026 Q1 $30B (highlight!) -->
+  <rect x="460" y="428" width="70" height="144" rx="3" fill="url(#goldGrad)" stroke="#1A1D24" stroke-width="2.5"/>
+  <text x="495" y="581" text-anchor="middle" fill="#1A1D24" font-size="11" font-weight="800">2026 Q1</text>
+  <text x="495" y="420" text-anchor="middle" fill="#D4A017" font-size="16" font-weight="900">$30B</text>
+  <text x="495" y="436" text-anchor="middle" fill="#2F3842" font-size="9" font-weight="700">+233%!</text>
+
+  <!-- Arrow annotation -->
+  <path d="M 420 500 Q 440 470 458 455" stroke="#E86B3B" stroke-width="2" fill="none" marker-end="url(#arrowRed)"/>
+  <text x="390" y="510" fill="#E86B3B" font-size="11" font-weight="700">1Q で</text>
+  <text x="390" y="524" fill="#E86B3B" font-size="11" font-weight="700">3.3倍!</text>
+
+  <!-- Valuation comparison chart -->
+  <rect x="632" y="360" width="733" height="310" rx="6" fill="white" stroke="#1A1D24" stroke-width="2" filter="url(#softShadow)"/>
+  <rect x="632" y="360" width="733" height="6" rx="3" fill="url(#goldGrad)"/>
+  <text x="649" y="390" fill="#1A1D24" font-size="15" font-weight="800">⚖️ AI企業 二次市場バリュエーション比較</text>
+  <line x1="649" y1="398" x2="1347" y2="398" stroke="#E0D8C8" stroke-width="1"/>
+
+  <!-- Anthropic bar -->
+  <text x="770" y="430" text-anchor="end" fill="#1A1D24" font-size="13" font-weight="800">Anthropic</text>
+  <rect x="778" y="415" width="500" height="30" rx="4" fill="url(#goldGrad)" stroke="#1A1D24" stroke-width="2"/>
+  <text x="1288" y="435" fill="#1A1D24" font-size="14" font-weight="900">$1.0T 🥇</text>
+
+  <!-- OpenAI bar -->
+  <text x="770" y="480" text-anchor="end" fill="#2F3842" font-size="13">OpenAI</text>
+  <rect x="778" y="465" width="440" height="30" rx="4" fill="url(#grayGrad)" stroke="#1A1D24" stroke-width="1.5"/>
+  <text x="1228" y="485" fill="#1A1D24" font-size="13" font-weight="700">$880B</text>
+
+  <!-- xAI bar -->
+  <text x="770" y="530" text-anchor="end" fill="#2F3842" font-size="13">xAI (SpaceX統合)</text>
+  <rect x="778" y="515" width="375" height="30" rx="4" fill="url(#grayGrad)" stroke="#1A1D24" stroke-width="1.5" opacity="0.7"/>
+  <text x="1163" y="535" fill="#1A1D24" font-size="13" font-weight="700">~$750B</text>
+
+  <!-- Margin annotations -->
+  <rect x="649" y="560" width="698" height="94" rx="5" fill="#FFFDF5" stroke="#D4A017" stroke-width="2"/>
+  <text x="998" y="582" text-anchor="middle" fill="#2F3842" font-size="13" font-weight="800">📌 二次市場バリュエーションの重要な注意点</text>
+  <text x="998" y="604" text-anchor="middle" fill="#5A5A5A" font-size="12">• 流動性のない少数株式の買い手が支払う価格（一次調達とは異なる）</text>
+  <text x="998" y="622" text-anchor="middle" fill="#5A5A5A" font-size="12">• Series G（2026/2月）の一次評価額は$380B — 二次価格はその2.6倍</text>
+  <text x="998" y="640" text-anchor="middle" fill="#5A5A5A" font-size="12">• 「$1T = IPO価格」ではない。供給不足が価格を押し上げるバイアスあり</text>
+
+  <!-- Feature cards -->
+  <rect x="58" y="690" width="200" height="110" rx="6" fill="white" stroke="#1A1D24" stroke-width="2" filter="url(#softShadow)"/>
+  <rect x="58" y="690" width="200" height="6" rx="3" fill="url(#goldGrad)"/>
+  <text x="158" y="720" text-anchor="middle" fill="#1A1D24" font-size="14" font-weight="800">💼 Series G 比較</text>
+  <text x="158" y="742" text-anchor="middle" fill="#5A5A5A" font-size="11">一次評価額: $380B</text>
+  <text x="158" y="758" text-anchor="middle" fill="#5A5A5A" font-size="11">二次評価額: $1T</text>
+  <text x="158" y="774" text-anchor="middle" fill="#D4A017" font-size="11" font-weight="700">2ヶ月で2.6倍!</text>
+  <text x="158" y="790" text-anchor="middle" fill="#8A8A8A" font-size="10">2026年2月調達</text>
+
+  <rect x="272" y="690" width="200" height="110" rx="6" fill="white" stroke="#1A1D24" stroke-width="2" filter="url(#softShadow)"/>
+  <rect x="272" y="690" width="200" height="6" rx="3" fill="#5CA46E"/>
+  <text x="372" y="720" text-anchor="middle" fill="#1A1D24" font-size="14" font-weight="800">📊 ARR 内訳</text>
+  <text x="372" y="742" text-anchor="middle" fill="#5A5A5A" font-size="11">ClaudeCode: $2.5B</text>
+  <text x="372" y="758" text-anchor="middle" fill="#5A5A5A" font-size="11">エンタープライズAPI</text>
+  <text x="372" y="774" text-anchor="middle" fill="#5A5A5A" font-size="11">Claude.ai Pro サブスク</text>
+  <text x="372" y="790" text-anchor="middle" fill="#2F3842" font-size="10" font-weight="700">計 $30B ARR</text>
+
+  <rect x="486" y="690" width="200" height="110" rx="6" fill="white" stroke="#1A1D24" stroke-width="2" filter="url(#softShadow)"/>
+  <rect x="486" y="690" width="200" height="6" rx="3" fill="#5CA46E"/>
+  <text x="586" y="720" text-anchor="middle" fill="#1A1D24" font-size="14" font-weight="800">🔑 成長ドライバー</text>
+  <text x="586" y="742" text-anchor="middle" fill="#5A5A5A" font-size="11">ClaudeCodeの企業採用急増</text>
+  <text x="586" y="758" text-anchor="middle" fill="#5A5A5A" font-size="11">Snap: AI生成コード65%</text>
+  <text x="586" y="774" text-anchor="middle" fill="#5A5A5A" font-size="11">大企業エンタープライズ拡大</text>
+  <text x="586" y="790" text-anchor="middle" fill="#5CA46E" font-size="10" font-weight="700">コーディングAI市場首位</text>
+
+  <rect x="700" y="690" width="200" height="110" rx="6" fill="white" stroke="#1A1D24" stroke-width="2" filter="url(#softShadow)"/>
+  <rect x="700" y="690" width="200" height="6" rx="3" fill="#9BA8B5"/>
+  <text x="800" y="720" text-anchor="middle" fill="#1A1D24" font-size="14" font-weight="800">⚔️ 競合構図</text>
+  <text x="800" y="742" text-anchor="middle" fill="#5A5A5A" font-size="11">OpenAI Codex Labs</text>
+  <text x="800" y="758" text-anchor="middle" fill="#5A5A5A" font-size="11">GitHub Copilot (~$2B ARR)</text>
+  <text x="800" y="774" text-anchor="middle" fill="#5A5A5A" font-size="11">Google Gemini Code Assist</text>
+  <text x="800" y="790" text-anchor="middle" fill="#E86B3B" font-size="10" font-weight="700">三つ巴の競争激化</text>
+
+  <rect x="914" y="690" width="450" height="110" rx="6" fill="white" stroke="#1A1D24" stroke-width="2" filter="url(#softShadow)"/>
+  <rect x="914" y="690" width="450" height="6" rx="3" fill="#2F3842"/>
+  <text x="1139" y="720" text-anchor="middle" fill="#1A1D24" font-size="14" font-weight="800">🔮 IPO展望</text>
+  <text x="1139" y="742" text-anchor="middle" fill="#5A5A5A" font-size="12">2027年前後のIPO観測が有力。二次市場$1T が一次調達での基準線に。</text>
+  <text x="1139" y="762" text-anchor="middle" fill="#5A5A5A" font-size="12">ARR $30B → $60B以上でIPO評価$2T超も視野。供給制限が続く限り</text>
+  <text x="1139" y="782" text-anchor="middle" fill="#5A5A5A" font-size="12">二次市場プレミアムは維持されるが、競合圧力が逆風リスク。</text>
+
+  <!-- Sticky notes -->
+  <g transform="translate(58, 820) rotate(-1.0)" filter="url(#stickyShadow)">
+    <rect width="290" height="100" rx="4" fill="#FFF9C4" stroke="#1A1D24" stroke-width="1.5"/>
+    <text x="145" y="28" text-anchor="middle" fill="#1A1D24" font-size="13" font-weight="800">🤔 1四半期で3.3倍の驚異</text>
+    <text x="145" y="48" text-anchor="middle" fill="#2F3842" font-size="11">Q4 $9B → Q1 $30Bは前例のない速度。</text>
+    <text x="145" y="64" text-anchor="middle" fill="#2F3842" font-size="11">エンタープライズ向けClaudeCodeが</text>
+    <text x="145" y="80" text-anchor="middle" fill="#2F3842" font-size="11">「爆発フェーズ」に入ったことを示す。</text>
+  </g>
+
+  <g transform="translate(365, 815) rotate(1.1)" filter="url(#stickyShadow)">
+    <rect width="290" height="100" rx="4" fill="#C8F7C5" stroke="#1A1D24" stroke-width="1.5"/>
+    <text x="145" y="28" text-anchor="middle" fill="#1A1D24" font-size="13" font-weight="800">💡 ClaudeCode $2.5B の意味</text>
+    <text x="145" y="48" text-anchor="middle" fill="#2F3842" font-size="11">GitHub Copilot の推定ARRは$2B前後。</text>
+    <text x="145" y="64" text-anchor="middle" fill="#2F3842" font-size="11">ClaudeCodeはすでに超えている計算で、</text>
+    <text x="145" y="80" text-anchor="middle" fill="#2F3842" font-size="11">コーディングAI市場の再編が始まった。</text>
+  </g>
+
+  <g transform="translate(672, 820) rotate(-0.5)" filter="url(#stickyShadow)">
+    <rect width="290" height="100" rx="4" fill="#D4E8FF" stroke="#1A1D24" stroke-width="1.5"/>
+    <text x="145" y="28" text-anchor="middle" fill="#1A1D24" font-size="13" font-weight="800">⚠️ 二次市場の罠</text>
+    <text x="145" y="48" text-anchor="middle" fill="#2F3842" font-size="11">$1Tは「流動性プレミアム」含む。</text>
+    <text x="145" y="64" text-anchor="middle" fill="#2F3842" font-size="11">ARR成長が鈍化した場合、二次価格は</text>
+    <text x="145" y="80" text-anchor="middle" fill="#2F3842" font-size="11">急落するリスクがある。収益持続が鍵。</text>
+  </g>
+
+  <g transform="translate(979, 815) rotate(1.4)" filter="url(#stickyShadow)">
+    <rect width="290" height="100" rx="4" fill="#FFE0D0" stroke="#1A1D24" stroke-width="1.5"/>
+    <text x="145" y="28" text-anchor="middle" fill="#1A1D24" font-size="13" font-weight="800">🔭 次の節目：$50B ARR</text>
+    <text x="145" y="48" text-anchor="middle" fill="#2F3842" font-size="11">ClaudeCodeが100%成長維持なら</text>
+    <text x="145" y="64" text-anchor="middle" fill="#2F3842" font-size="11">2026末ClaudeCode単体$5B。全体で</text>
+    <text x="145" y="80" text-anchor="middle" fill="#2F3842" font-size="11">$50〜60B ARRが射程に入る。</text>
+  </g>
+
+  <!-- Footer -->
+  <line x1="58" y1="1022" x2="1360" y2="1022" stroke="#1A1D24" stroke-width="1"/>
+  <text x="709" y="1040" text-anchor="middle" fill="#8A8A8A" font-size="12" font-style="italic">AI News · 2026-04-23 · Anthropic Hits $1 Trillion Implied Valuation on Secondary Markets, Overtaking OpenAI</text>
+</svg>

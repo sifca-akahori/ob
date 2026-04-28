@@ -1,0 +1,301 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1400 1050" font-family="'-apple-system', 'Hiragino Sans', 'Yu Gothic', 'Segoe UI', sans-serif">
+  <defs>
+    <pattern id="paperTex" patternUnits="userSpaceOnUse" width="100" height="100">
+      <rect width="100" height="100" fill="#F5EAD2"/>
+      <circle cx="12" cy="18" r="0.4" fill="#C4B389" opacity="0.3"/>
+      <circle cx="64" cy="42" r="0.5" fill="#C4B389" opacity="0.3"/>
+      <circle cx="31" cy="75" r="0.3" fill="#C4B389" opacity="0.3"/>
+      <circle cx="85" cy="85" r="0.4" fill="#C4B389" opacity="0.3"/>
+    </pattern>
+    <filter id="stickyShadow" x="-10%" y="-10%" width="125%" height="125%">
+      <feGaussianBlur in="SourceAlpha" stdDeviation="3"/>
+      <feOffset dx="2" dy="3" result="ob"/>
+      <feComponentTransfer><feFuncA type="linear" slope="0.25"/></feComponentTransfer>
+      <feMerge><feMergeNode/><feMergeNode in="SourceGraphic"/></feMerge>
+    </filter>
+    <filter id="softShadow" x="-10%" y="-10%" width="120%" height="120%">
+      <feGaussianBlur in="SourceAlpha" stdDeviation="2"/>
+      <feOffset dx="1" dy="2" result="ob"/>
+      <feComponentTransfer><feFuncA type="linear" slope="0.18"/></feComponentTransfer>
+      <feMerge><feMergeNode/><feMergeNode in="SourceGraphic"/></feMerge>
+    </filter>
+    <linearGradient id="barGreen" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#5CA46E"/>
+      <stop offset="100%" stop-color="#3D8052"/>
+    </linearGradient>
+    <linearGradient id="barBlue" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#5B8DEF"/>
+      <stop offset="100%" stop-color="#3D6DC4"/>
+    </linearGradient>
+  </defs>
+
+  <!-- Background -->
+  <rect width="1400" height="1050" fill="url(#paperTex)"/>
+  <rect x="0" y="0" width="44" height="1050" fill="#EDE0C4" opacity="0.7" stroke="#D5C9A8" stroke-width="1"/>
+  <circle cx="22" cy="140"  r="13" fill="#F5EAD2" stroke="#C4B389" stroke-width="1.5"/>
+  <circle cx="22" cy="290"  r="13" fill="#F5EAD2" stroke="#C4B389" stroke-width="1.5"/>
+  <circle cx="22" cy="440"  r="13" fill="#F5EAD2" stroke="#C4B389" stroke-width="1.5"/>
+  <circle cx="22" cy="600"  r="13" fill="#F5EAD2" stroke="#C4B389" stroke-width="1.5"/>
+  <circle cx="22" cy="760"  r="13" fill="#F5EAD2" stroke="#C4B389" stroke-width="1.5"/>
+  <circle cx="22" cy="910"  r="13" fill="#F5EAD2" stroke="#C4B389" stroke-width="1.5"/>
+
+  <!-- Category tape -->
+  <g transform="translate(1185, 28) rotate(-3)">
+    <rect x="0" y="0" width="200" height="38" rx="3" fill="#5CA46E" opacity="0.88" stroke="#1A1D24" stroke-width="1.5"/>
+    <text x="100" y="25" text-anchor="middle" fill="white" font-size="16" font-weight="700" letter-spacing="1">#ビジネス</text>
+  </g>
+
+  <!-- Date badge -->
+  <rect x="58" y="20" width="160" height="34" rx="4" fill="#2F3842" filter="url(#softShadow)"/>
+  <text x="138" y="42" text-anchor="middle" fill="#F5EAD2" font-size="15" font-weight="600">2026-04-22</text>
+
+  <!-- Header -->
+  <line x1="58" y1="72" x2="1360" y2="72" stroke="#1A1D24" stroke-width="2.5"/>
+  <text x="58" y="116" fill="#1A1D24" font-size="36" font-weight="900">🤖 Mira MuratiのThinking Machines Lab</text>
+  <text x="58" y="155" fill="#1A1D24" font-size="34" font-weight="900">Google Cloudと数十億ドル契約 — GB300で強化学習を加速</text>
+  <rect x="58" y="167" width="700" height="22" rx="2" fill="#5CA46E" opacity="0.18"/>
+  <text x="66" y="183" fill="#2F3842" font-size="14" font-weight="500">TechCrunch Exclusive  ·  2026-04-22  ·  #ビジネス  ·  #強化学習  ·  #GB300  ·  #スタートアップ</text>
+  <line x1="58" y1="198" x2="1360" y2="198" stroke="#1A1D24" stroke-width="1.5"/>
+
+  <!-- Hero: Brain/Robot icon -->
+  <g transform="translate(68, 215)" filter="url(#softShadow)">
+    <!-- Brain outline -->
+    <ellipse cx="115" cy="90" rx="70" ry="55" fill="#EAF5E8" stroke="#1A1D24" stroke-width="3"/>
+    <!-- Brain details -->
+    <path d="M 75 75 Q 95 55 115 75 Q 135 55 155 75" fill="none" stroke="#5CA46E" stroke-width="2.5"/>
+    <path d="M 70 95 Q 90 80 115 95 Q 140 80 160 95" fill="none" stroke="#5CA46E" stroke-width="2"/>
+    <path d="M 80 115 Q 100 105 115 115 Q 130 105 150 115" fill="none" stroke="#5CA46E" stroke-width="2"/>
+    <!-- RL label -->
+    <rect x="90" y="78" width="50" height="24" rx="3" fill="#5CA46E" stroke="#1A1D24" stroke-width="1.5"/>
+    <text x="115" y="94" text-anchor="middle" fill="white" font-size="11" font-weight="800">RL 強化学習</text>
+    <!-- Neural connections -->
+    <circle cx="58" cy="80" r="8" fill="#EDE0C4" stroke="#1A1D24" stroke-width="2"/>
+    <circle cx="172" cy="80" r="8" fill="#EDE0C4" stroke="#1A1D24" stroke-width="2"/>
+    <circle cx="115" cy="165" r="8" fill="#EDE0C4" stroke="#1A1D24" stroke-width="2"/>
+    <line x1="66" y1="82" x2="78" y2="84" stroke="#5CA46E" stroke-width="2"/>
+    <line x1="164" y1="82" x2="152" y2="84" stroke="#5CA46E" stroke-width="2"/>
+    <line x1="115" y1="145" x2="115" y2="157" stroke="#5CA46E" stroke-width="2"/>
+    <!-- Labels -->
+    <text x="115" y="192" text-anchor="middle" fill="#5CA46E" font-size="14" font-weight="800">Thinking Machines</text>
+    <text x="115" y="210" text-anchor="middle" fill="#5A5A5A" font-size="11">Mira Murati (元OpenAI CTO)</text>
+  </g>
+
+  <!-- Key number blocks -->
+  <rect x="320" y="210" width="175" height="130" rx="6" fill="white" stroke="#1A1D24" stroke-width="2.5" filter="url(#softShadow)"/>
+  <rect x="320" y="210" width="175" height="8" rx="3" fill="#5CA46E"/>
+  <text x="407" y="256" text-anchor="middle" fill="#5CA46E" font-size="40" font-weight="900">$12B</text>
+  <text x="407" y="278" text-anchor="middle" fill="#2F3842" font-size="12" font-weight="600">シードバリュエーション</text>
+  <text x="407" y="296" text-anchor="middle" fill="#8A8A8A" font-size="10">$2Bシードラウンド</text>
+  <text x="407" y="314" text-anchor="middle" fill="#8A8A8A" font-size="10">2025年調達</text>
+
+  <rect x="508" y="210" width="175" height="130" rx="6" fill="white" stroke="#1A1D24" stroke-width="2.5" filter="url(#softShadow)"/>
+  <rect x="508" y="210" width="175" height="8" rx="3" fill="#5CA46E"/>
+  <text x="595" y="260" text-anchor="middle" fill="#5CA46E" font-size="32" font-weight="900">$XB Deal</text>
+  <text x="595" y="282" text-anchor="middle" fill="#2F3842" font-size="12" font-weight="600">Google Cloud契約規模</text>
+  <text x="595" y="300" text-anchor="middle" fill="#8A8A8A" font-size="10">単桁十億ドル規模</text>
+  <text x="595" y="318" text-anchor="middle" fill="#8A8A8A" font-size="10">(single-digit billions)</text>
+
+  <rect x="696" y="210" width="175" height="130" rx="6" fill="white" stroke="#1A1D24" stroke-width="2.5" filter="url(#softShadow)"/>
+  <rect x="696" y="210" width="175" height="8" rx="3" fill="#5CA46E"/>
+  <text x="783" y="262" text-anchor="middle" fill="#5CA46E" font-size="40" font-weight="900">2×</text>
+  <text x="783" y="286" text-anchor="middle" fill="#2F3842" font-size="12" font-weight="600">GB300 学習・推論速度</text>
+  <text x="783" y="304" text-anchor="middle" fill="#8A8A8A" font-size="10">前世代GPU比</text>
+  <text x="783" y="322" text-anchor="middle" fill="#8A8A8A" font-size="10">Google Cloud GB300</text>
+
+  <!-- Main visual: Company timeline -->
+  <rect x="58" y="360" width="880" height="240" rx="6" fill="white" stroke="#1A1D24" stroke-width="2" filter="url(#softShadow)"/>
+  <text x="78" y="392" fill="#1A1D24" font-size="16" font-weight="800">📅 Thinking Machines Lab 企業タイムライン</text>
+  <line x1="78" y1="400" x2="920" y2="400" stroke="#1A1D24" stroke-width="1.5"/>
+
+  <!-- Timeline line -->
+  <line x1="100" y1="460" x2="900" y2="460" stroke="#1A1D24" stroke-width="3"/>
+
+  <!-- Events -->
+  <!-- Feb 2025: Founded -->
+  <circle cx="130" cy="460" r="12" fill="#5CA46E" stroke="#1A1D24" stroke-width="2"/>
+  <text x="130" y="465" text-anchor="middle" fill="white" font-size="9" font-weight="700">創業</text>
+  <text x="130" y="440" text-anchor="middle" fill="#444" font-size="10" font-weight="700">2025-02</text>
+  <text x="130" y="490" text-anchor="middle" fill="#666" font-size="10">Mira Murati</text>
+  <text x="130" y="503" text-anchor="middle" fill="#666" font-size="10">OpenAIを退社</text>
+  <text x="130" y="516" text-anchor="middle" fill="#666" font-size="10">TML設立</text>
+
+  <!-- 2025 mid: Seed round -->
+  <circle cx="300" cy="460" r="12" fill="#5CA46E" stroke="#1A1D24" stroke-width="2"/>
+  <text x="300" y="465" text-anchor="middle" fill="white" font-size="9" font-weight="700">調達</text>
+  <text x="300" y="440" text-anchor="middle" fill="#444" font-size="10" font-weight="700">2025 中頃</text>
+  <text x="300" y="490" text-anchor="middle" fill="#666" font-size="10">$2Bシード</text>
+  <text x="300" y="503" text-anchor="middle" fill="#666" font-size="10">$12Bバリュ</text>
+  <text x="300" y="516" text-anchor="middle" fill="#666" font-size="10">エーション</text>
+
+  <!-- Oct 2025: Tinker -->
+  <circle cx="480" cy="460" r="12" fill="#5CA46E" stroke="#1A1D24" stroke-width="2"/>
+  <text x="480" y="465" text-anchor="middle" fill="white" font-size="9" font-weight="700">製品</text>
+  <text x="480" y="440" text-anchor="middle" fill="#444" font-size="10" font-weight="700">2025-10</text>
+  <text x="480" y="490" text-anchor="middle" fill="#666" font-size="10">Tinker</text>
+  <text x="480" y="503" text-anchor="middle" fill="#666" font-size="10">初製品を</text>
+  <text x="480" y="516" text-anchor="middle" fill="#666" font-size="10">公開</text>
+
+  <!-- Jan 2026: Co-founders leave -->
+  <circle cx="640" cy="460" r="12" fill="#E88888" stroke="#1A1D24" stroke-width="2"/>
+  <text x="640" y="465" text-anchor="middle" fill="white" font-size="9" font-weight="700">離脱</text>
+  <text x="640" y="440" text-anchor="middle" fill="#444" font-size="10" font-weight="700">2026-01</text>
+  <text x="640" y="490" text-anchor="middle" fill="#666" font-size="10">共同創業者</text>
+  <text x="640" y="503" text-anchor="middle" fill="#666" font-size="10">2名がOpenAI</text>
+  <text x="640" y="516" text-anchor="middle" fill="#666" font-size="10">へ移籍</text>
+
+  <!-- Mar 2026: NVIDIA investment -->
+  <circle cx="780" cy="460" r="12" fill="#5B8DEF" stroke="#1A1D24" stroke-width="2"/>
+  <text x="780" y="465" text-anchor="middle" fill="white" font-size="9" font-weight="700">NVDA</text>
+  <text x="780" y="440" text-anchor="middle" fill="#444" font-size="10" font-weight="700">2026-03</text>
+  <text x="780" y="490" text-anchor="middle" fill="#666" font-size="10">NVIDIA</text>
+  <text x="780" y="503" text-anchor="middle" fill="#666" font-size="10">significant</text>
+  <text x="780" y="516" text-anchor="middle" fill="#666" font-size="10">investment</text>
+
+  <!-- Apr 2026: Google deal -->
+  <circle cx="880" cy="460" r="14" fill="#2F3842" stroke="#1A1D24" stroke-width="2.5"/>
+  <text x="880" y="465" text-anchor="middle" fill="white" font-size="9" font-weight="700">今回</text>
+  <text x="880" y="440" text-anchor="middle" fill="#444" font-size="10" font-weight="700">2026-04</text>
+  <text x="880" y="490" text-anchor="middle" fill="#1A1D24" font-size="10" font-weight="700">Google Cloud</text>
+  <text x="880" y="503" text-anchor="middle" fill="#1A1D24" font-size="10" font-weight="700">数十億ドル</text>
+  <text x="880" y="516" text-anchor="middle" fill="#1A1D24" font-size="10" font-weight="700">契約締結</text>
+
+  <text x="78" y="550" fill="#888" font-size="11">出典: TechCrunch 2026-04-22 · CNBC 2026-03-10 · Wikipedia (Thinking Machines Lab)</text>
+  <text x="78" y="567" fill="#5CA46E" font-size="11" font-weight="600">🔑 GB300: 前世代GPU比2×の学習・推論速度。強化学習の大規模実行に特に有効。TMLがGoogle Cloud初期アクセス顧客に。</text>
+
+  <!-- Feature cards -->
+  <!-- Card 1 -->
+  <rect x="58"  y="618" width="272" height="105" rx="5" fill="white" stroke="#1A1D24" stroke-width="2" filter="url(#softShadow)"/>
+  <rect x="58"  y="618" width="272" height="6" rx="3" fill="#5CA46E"/>
+  <text x="78"  y="644" fill="#5CA46E" font-size="18">🧠</text>
+  <text x="105" y="644" fill="#1A1D24" font-size="13" font-weight="700">強化学習（RL）中心</text>
+  <text x="78"  y="663" fill="#444" font-size="11">TMLのTinkerはRL特化の</text>
+  <text x="78"  y="678" fill="#444" font-size="11">アーキテクチャ。DeepMind・</text>
+  <text x="78"  y="693" fill="#444" font-size="11">OpenAIのo3系と同思想。</text>
+  <text x="78"  y="712" fill="#5CA46E" font-size="10">高度推論特化モデルへの布石か</text>
+
+  <!-- Card 2 -->
+  <rect x="346" y="618" width="272" height="105" rx="5" fill="white" stroke="#1A1D24" stroke-width="2" filter="url(#softShadow)"/>
+  <rect x="346" y="618" width="272" height="6" rx="3" fill="#5CA46E"/>
+  <text x="366" y="644" fill="#5CA46E" font-size="18">🚀</text>
+  <text x="393" y="644" fill="#1A1D24" font-size="13" font-weight="700">GB300ファーストアクセス</text>
+  <text x="366" y="663" fill="#444" font-size="11">Google Cloud GB300の</text>
+  <text x="366" y="678" fill="#444" font-size="11">初期アクセス顧客に選定。</text>
+  <text x="366" y="693" fill="#444" font-size="11">前世代比2倍の学習・推論速度。</text>
+  <text x="366" y="712" fill="#5CA46E" font-size="10">RL workload対応が選定理由</text>
+
+  <!-- Card 3 -->
+  <rect x="634" y="618" width="272" height="105" rx="5" fill="white" stroke="#1A1D24" stroke-width="2" filter="url(#softShadow)"/>
+  <rect x="634" y="618" width="272" height="6" rx="3" fill="#5CA46E"/>
+  <text x="654" y="644" fill="#5CA46E" font-size="18">💰</text>
+  <text x="681" y="644" fill="#1A1D24" font-size="13" font-weight="700">三者の資本関係</text>
+  <text x="654" y="663" fill="#444" font-size="11">NVIDIA（資本投資）+</text>
+  <text x="654" y="678" fill="#444" font-size="11">Google（インフラ契約）が</text>
+  <text x="654" y="693" fill="#444" font-size="11">TMLを支えるダブル構造。</text>
+  <text x="654" y="712" fill="#5CA46E" font-size="10">GPU + Equity モデルが定着</text>
+
+  <!-- Card 4 -->
+  <rect x="58"  y="738" width="272" height="105" rx="5" fill="white" stroke="#1A1D24" stroke-width="2" filter="url(#softShadow)"/>
+  <rect x="58"  y="738" width="272" height="6" rx="3" fill="#5CA46E"/>
+  <text x="78"  y="764" fill="#5CA46E" font-size="18">🔍</text>
+  <text x="105" y="764" fill="#1A1D24" font-size="13" font-weight="700">謎のTinker</text>
+  <text x="78"  y="783" fill="#444" font-size="11">2025-10に初公開も詳細非公開。</text>
+  <text x="78"  y="798" fill="#444" font-size="11">名前から「試行錯誤型AI」の</text>
+  <text x="78"  y="813" fill="#444" font-size="11">方向性が示唆される。</text>
+  <text x="78"  y="832" fill="#5CA46E" font-size="10">正体公開が次の評価分岐点</text>
+
+  <!-- Card 5 -->
+  <rect x="346" y="738" width="272" height="105" rx="5" fill="white" stroke="#1A1D24" stroke-width="2" filter="url(#softShadow)"/>
+  <rect x="346" y="738" width="272" height="6" rx="3" fill="#5CA46E"/>
+  <text x="366" y="764" fill="#5CA46E" font-size="18">👩‍💼</text>
+  <text x="393" y="764" fill="#1A1D24" font-size="13" font-weight="700">Mira Murati の軌跡</text>
+  <text x="366" y="783" fill="#444" font-size="11">OpenAI CTO→独立→創業。</text>
+  <text x="366" y="798" fill="#444" font-size="11">2025にCNBC Changemaker選定。</text>
+  <text x="366" y="813" fill="#444" font-size="11">共同創業者2名がOpenAIへ戻るも継続。</text>
+  <text x="366" y="832" fill="#5CA46E" font-size="10">AI業界の引力関係を体現</text>
+
+  <!-- Card 6 -->
+  <rect x="634" y="738" width="272" height="105" rx="5" fill="white" stroke="#1A1D24" stroke-width="2" filter="url(#softShadow)"/>
+  <rect x="634" y="738" width="272" height="6" rx="3" fill="#5CA46E"/>
+  <text x="654" y="764" fill="#5CA46E" font-size="18">☁️</text>
+  <text x="681" y="764" fill="#1A1D24" font-size="13" font-weight="700">クラウドVC化戦略</text>
+  <text x="654" y="783" fill="#444" font-size="11">GoogleがTMLをシードから</text>
+  <text x="654" y="798" fill="#444" font-size="11">支援。GCPのリファレンス</text>
+  <text x="654" y="813" fill="#444" font-size="11">ケース獲得が目的。</text>
+  <text x="654" y="832" fill="#5CA46E" font-size="10">AWS/Azure/GCPの囲い込み加速</text>
+
+  <!-- Sticky notes -->
+  <!-- Note 1 -->
+  <g transform="translate(960, 218) rotate(-1.2)" filter="url(#stickyShadow)">
+    <rect width="175" height="175" rx="3" fill="#FFF7E0" stroke="#E8D88A" stroke-width="1"/>
+    <text x="12" y="22" fill="#5B5B3A" font-size="11" font-weight="800">RLが示す技術方向性</text>
+    <line x1="8" y1="28" x2="165" y2="28" stroke="#E8D88A" stroke-width="1"/>
+    <text x="10" y="46" fill="#444" font-size="10">RL特化はスケーリング則より</text>
+    <text x="10" y="60" fill="#444" font-size="10">「エージェント的推論獲得」</text>
+    <text x="10" y="74" fill="#444" font-size="10">を優先する思想。DeepMind</text>
+    <text x="10" y="88" fill="#444" font-size="10">AlphaCodeやo3系と同じ</text>
+    <text x="10" y="102" fill="#444" font-size="10">アーキテクチャ哲学。</text>
+    <text x="10" y="130" fill="#5CA46E" font-size="10">→ 高度推論特化モデルへの</text>
+    <text x="10" y="144" fill="#5CA46E" font-size="10">　布石の可能性</text>
+    <text x="10" y="162" fill="#888" font-size="9">📎 Tinkerの技術的核心</text>
+  </g>
+
+  <!-- Note 2 -->
+  <g transform="translate(1155, 230) rotate(1.5)" filter="url(#stickyShadow)">
+    <rect width="175" height="175" rx="3" fill="#E8F0FD" stroke="#9BBDE8" stroke-width="1"/>
+    <text x="12" y="22" fill="#2B3A5A" font-size="11" font-weight="800">OpenAIとの関係</text>
+    <line x1="8" y1="28" x2="165" y2="28" stroke="#9BBDE8" stroke-width="1"/>
+    <text x="10" y="46" fill="#444" font-size="10">CTO退社→起業、その後</text>
+    <text x="10" y="60" fill="#444" font-size="10">共同創業者2名がOpenAI</text>
+    <text x="10" y="74" fill="#444" font-size="10">に戻るという流れは</text>
+    <text x="10" y="88" fill="#444" font-size="10">OpenAIの人材磁力の</text>
+    <text x="10" y="102" fill="#444" font-size="10">強さを示す逆説的証拠。</text>
+    <text x="10" y="130" fill="#5B8DEF" font-size="10">→ 競合というより</text>
+    <text x="10" y="144" fill="#5B8DEF" font-size="10">　相補ニッチを狙う?</text>
+    <text x="10" y="162" fill="#888" font-size="9">📎 AI人材の引力関係</text>
+  </g>
+
+  <!-- Note 3 -->
+  <g transform="translate(960, 418) rotate(1.0)" filter="url(#stickyShadow)">
+    <rect width="175" height="175" rx="3" fill="#EAF5E8" stroke="#8BC98A" stroke-width="1"/>
+    <text x="12" y="22" fill="#2A4A28" font-size="11" font-weight="800">インフラVC戦略</text>
+    <line x1="8" y1="28" x2="165" y2="28" stroke="#8BC98A" stroke-width="1"/>
+    <text x="10" y="46" fill="#444" font-size="10">AWS→Anthropic、Azure→OpenAI</text>
+    <text x="10" y="60" fill="#444" font-size="10">と同じ構図でGCP→TML。</text>
+    <text x="10" y="74" fill="#444" font-size="10">クラウドが事実上の</text>
+    <text x="10" y="88" fill="#444" font-size="10">インフラVCとして機能。</text>
+    <text x="10" y="102" fill="#444" font-size="10">どのクラウドに乗るかが</text>
+    <text x="10" y="116" fill="#444" font-size="10">バリュエーションに影響。</text>
+    <text x="10" y="144" fill="#5CA46E" font-size="10">→ クラウド三択が業界再編の</text>
+    <text x="10" y="158" fill="#5CA46E" font-size="10">　軸に</text>
+    <text x="10" y="172" fill="#888" font-size="9">📎 AI産業構造の変容</text>
+  </g>
+
+  <!-- Note 4 -->
+  <g transform="translate(1155, 430) rotate(-1.5)" filter="url(#stickyShadow)">
+    <rect width="175" height="175" rx="3" fill="#FAEDE8" stroke="#E8B0A0" stroke-width="1"/>
+    <text x="12" y="22" fill="#4A2A20" font-size="11" font-weight="800">謎のTinker考察</text>
+    <line x1="8" y1="28" x2="165" y2="28" stroke="#E8B0A0" stroke-width="1"/>
+    <text x="10" y="46" fill="#444" font-size="10">DeepMind黎明期やOpenAI</text>
+    <text x="10" y="60" fill="#444" font-size="10">2015〜17年と似た「謎めいた</text>
+    <text x="10" y="74" fill="#444" font-size="10">研究フェーズ」が続く。</text>
+    <text x="10" y="88" fill="#444" font-size="10">$12Bバリュと巨大インフラを</text>
+    <text x="10" y="102" fill="#444" font-size="10">持ちながら製品詳細非公開。</text>
+    <text x="10" y="130" fill="#C04040" font-size="10">→ Tinker公開タイミングが</text>
+    <text x="10" y="144" fill="#C04040" font-size="10">　実力評価の分岐点</text>
+    <text x="10" y="162" fill="#888" font-size="9">📎 ステルス戦略の是非</text>
+  </g>
+
+  <!-- Footer section -->
+  <line x1="58" y1="858" x2="1360" y2="858" stroke="#CCCCCC" stroke-width="1"/>
+  <rect x="58" y="868" width="870" height="150" rx="6" fill="white" stroke="#1A1D24" stroke-width="1.5"/>
+  <text x="78" y="892" fill="#1A1D24" font-size="14" font-weight="700">Thinking Machines Lab プロファイル（2026-04-22時点）</text>
+  <line x1="78" y1="898" x2="910" y2="898" stroke="#CCCCCC" stroke-width="1"/>
+  <text x="78" y="918" fill="#444" font-size="13">• 創業: 2025-02  /  創業者: Mira Murati（元OpenAI CTO）</text>
+  <text x="78" y="938" fill="#444" font-size="13">• 調達: $2B シード @ $12B バリュエーション  /  NVIDIA「significant investment」（2026-03）</text>
+  <text x="78" y="958" fill="#444" font-size="13">• 製品: Tinker（2025-10公開、詳細非公開）  /  RL特化アーキテクチャ</text>
+  <text x="78" y="978" fill="#444" font-size="13">• Google Cloud Deal: 単桁十億ドル規模  /  GB300ファーストアクセス  /  RL workload対応</text>
+  <text x="78" y="1002" fill="#888" font-size="11">出典: TechCrunch 2026-04-22 (Exclusive) · Wikipedia · CNBC 2026-03-10 · newsbytesapp.com</text>
+
+  <line x1="58" y1="1028" x2="1360" y2="1028" stroke="#1A1D24" stroke-width="1.5"/>
+  <text x="58" y="1045" fill="#888" font-size="12" font-style="italic">AI News · 2026-04-22 · Mira Murati's Thinking Machines Lab Signs Multi-Billion Deal with Google Cloud for GB300 + RL Workloads</text>
+</svg>

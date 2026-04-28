@@ -1,0 +1,210 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1400 1050" font-family="-apple-system, 'Hiragino Sans', 'Yu Gothic', sans-serif">
+  <defs>
+    <pattern id="paperTexture" patternUnits="userSpaceOnUse" width="100" height="100">
+      <rect width="100" height="100" fill="#FBF8F1"/>
+      <circle cx="20" cy="25" r="0.4" fill="#C4B389" opacity="0.3"/>
+      <circle cx="70" cy="50" r="0.5" fill="#C4B389" opacity="0.3"/>
+    </pattern>
+    <filter id="stickyShadow" x="-10%" y="-10%" width="120%" height="120%">
+      <feGaussianBlur in="SourceAlpha" stdDeviation="3"/>
+      <feOffset dx="2" dy="3"/>
+      <feComponentTransfer><feFuncA type="linear" slope="0.25"/></feComponentTransfer>
+      <feMerge><feMergeNode/><feMergeNode in="SourceGraphic"/></feMerge>
+    </filter>
+    <filter id="softShadow" x="-10%" y="-10%" width="120%" height="120%">
+      <feGaussianBlur in="SourceAlpha" stdDeviation="2"/>
+      <feOffset dx="1" dy="2"/>
+      <feComponentTransfer><feFuncA type="linear" slope="0.18"/></feComponentTransfer>
+      <feMerge><feMergeNode/><feMergeNode in="SourceGraphic"/></feMerge>
+    </filter>
+    <linearGradient id="barPurple" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0%" stop-color="#8B7DB8"/>
+      <stop offset="100%" stop-color="#A89DC8"/>
+    </linearGradient>
+    <linearGradient id="barGreen" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0%" stop-color="#5CA46E"/>
+      <stop offset="100%" stop-color="#7EC490"/>
+    </linearGradient>
+    <linearGradient id="barGray" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0%" stop-color="#8A8A8A"/>
+      <stop offset="100%" stop-color="#AAAAAA"/>
+    </linearGradient>
+    <linearGradient id="barBlue" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0%" stop-color="#5B8DEF"/>
+      <stop offset="100%" stop-color="#7BAAF7"/>
+    </linearGradient>
+    <linearGradient id="barRed" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0%" stop-color="#E74C3C"/>
+      <stop offset="100%" stop-color="#F97F66"/>
+    </linearGradient>
+  </defs>
+
+  <rect width="1400" height="1050" fill="url(#paperTexture)"/>
+  <line x1="118" y1="30" x2="118" y2="1020" stroke="#D88A8A" stroke-width="1.2" opacity="0.4"/>
+
+  <g fill="#E8E2D3" stroke="#C8C0B0" stroke-width="1">
+    <circle cx="50" cy="105" r="12"/>
+    <circle cx="50" cy="260" r="12"/>
+    <circle cx="50" cy="440" r="12"/>
+    <circle cx="50" cy="620" r="12"/>
+    <circle cx="50" cy="800" r="12"/>
+    <circle cx="50" cy="960" r="12"/>
+  </g>
+
+  <!-- Category tape: 論文 (purple) -->
+  <g transform="translate(1150, 25) rotate(-3)">
+    <rect x="0" y="0" width="185" height="38" rx="3" fill="#8B7DB8" stroke="#1A1D24" stroke-width="2" opacity="0.88"/>
+    <text x="92" y="25" text-anchor="middle" font-size="16" font-weight="700" fill="white" letter-spacing="1">#論文</text>
+  </g>
+
+  <rect x="128" y="22" width="180" height="36" rx="4" fill="#2F3842" filter="url(#softShadow)"/>
+  <text x="218" y="46" text-anchor="middle" font-size="15" font-weight="700" fill="#F0EDE8">2026-04-27</text>
+  <text x="335" y="47" font-size="22" fill="#F5B700">⭐⭐</text>
+
+  <!-- Brain hero -->
+  <g transform="translate(1230, 72)">
+    <ellipse cx="60" cy="55" rx="55" ry="50" fill="#8B7DB8" stroke="#1A1D24" stroke-width="3" opacity="0.85"/>
+    <text x="60" y="68" text-anchor="middle" font-size="42" fill="white">🧠</text>
+  </g>
+
+  <!-- Title -->
+  <text x="128" y="108" font-size="38" font-weight="900" fill="#1A1D24">🧠 LOCOMO：長期 AI 記憶の標準ベンチマーク</text>
+  <text x="128" y="152" font-size="26" font-weight="700" fill="#8B7DB8">RAG に負けるフロンティアモデル——記憶は推論と別問題</text>
+
+  <!-- Sub info -->
+  <rect x="128" y="168" width="980" height="34" rx="4" fill="#E8E2D3" stroke="#C8C0B0" stroke-width="1"/>
+  <text x="148" y="190" font-size="13" fill="#5A5248">📰 arXiv cs.CL / Hugging Face Daily Papers　　📅 2026-04-27　　🏷️ #論文　　arXiv:2504.19413</text>
+
+  <!-- Key numbers -->
+  <rect x="128" y="215" width="790" height="120" rx="6" fill="white" stroke="#1A1D24" stroke-width="2.5" filter="url(#softShadow)"/>
+  <text x="148" y="240" font-size="13" font-weight="700" fill="#8B7DB8" letter-spacing="2">KEY NUMBERS</text>
+  <line x1="148" y1="246" x2="900" y2="246" stroke="#8B7DB8" stroke-width="1.5"/>
+
+  <g text-anchor="middle">
+    <text x="215" y="285" font-size="38" font-weight="900" fill="#8B7DB8">800</text>
+    <text x="215" y="308" font-size="12" fill="#5A5248">平均ターン数/セッション</text>
+    <line x1="310" y1="258" x2="310" y2="320" stroke="#E8E2D3" stroke-width="1.5"/>
+    <text x="420" y="285" font-size="38" font-weight="900" fill="#1A1D24">200K</text>
+    <text x="420" y="308" font-size="12" fill="#5A5248">平均トークン数</text>
+    <line x1="535" y1="258" x2="535" y2="320" stroke="#E8E2D3" stroke-width="1.5"/>
+    <text x="645" y="285" font-size="38" font-weight="900" fill="#E74C3C">3</text>
+    <text x="645" y="308" font-size="12" fill="#5A5248">評価軸（エピソード・ファクト・時系列）</text>
+    <line x1="760" y1="258" x2="760" y2="320" stroke="#E8E2D3" stroke-width="1.5"/>
+    <text x="855" y="278" font-size="26" font-weight="900" fill="#E74C3C">全モデル</text>
+    <text x="855" y="302" font-size="26" font-weight="900" fill="#E74C3C">RAG 敗北</text>
+  </g>
+
+  <!-- Benchmark scores: bar chart -->
+  <rect x="128" y="350" width="790" height="270" rx="6" fill="white" stroke="#1A1D24" stroke-width="2.5" filter="url(#softShadow)"/>
+  <text x="148" y="375" font-size="13" font-weight="700" fill="#1A1D24" letter-spacing="2">LOCOMO スコア比較（エピソード記憶軸）</text>
+  <line x1="148" y1="382" x2="900" y2="382" stroke="#1A1D24" stroke-width="1.5"/>
+
+  <!-- Legend -->
+  <rect x="148" y="388" width="14" height="12" fill="#8B7DB8"/>
+  <text x="168" y="399" font-size="11" fill="#2F3842">専用メモリ層（MemPalace）</text>
+  <rect x="340" y="388" width="14" height="12" fill="#5CA46E"/>
+  <text x="360" y="399" font-size="11" fill="#2F3842">ナイーブ RAG</text>
+  <rect x="450" y="388" width="14" height="12" fill="#5B8DEF"/>
+  <text x="470" y="399" font-size="11" fill="#2F3842">フルコンテキスト</text>
+
+  <g font-size="12">
+    <text x="148" y="435" fill="#2F3842" font-weight="600">MemPalace（主張値）</text>
+    <rect x="310" y="420" width="483" height="22" rx="3" fill="url(#barPurple)" stroke="#1A1D24" stroke-width="1.5"/>
+    <text x="800" y="435" font-weight="700" fill="#8B7DB8">96.6%*</text>
+    <text x="850" y="430" font-size="10" fill="#8A8A8A">*撤回済み</text>
+
+    <text x="148" y="475" fill="#2F3842" font-weight="600">ナイーブ RAG（BM25）</text>
+    <rect x="310" y="460" width="370" height="22" rx="3" fill="url(#barGreen)" stroke="#1A1D24" stroke-width="1.5"/>
+    <text x="686" y="475" font-weight="700" fill="#5CA46E">74.2%</text>
+
+    <text x="148" y="515" fill="#2F3842" font-weight="600">GPT-5.5（フルコンテキスト）</text>
+    <rect x="310" y="500" width="315" height="22" rx="3" fill="url(#barBlue)" stroke="#1A1D24" stroke-width="1"/>
+    <text x="631" y="515" fill="#5B8DEF">63.1%</text>
+
+    <text x="148" y="555" fill="#2F3842" font-weight="600">Claude Opus 4.7（フルコンテキスト）</text>
+    <rect x="310" y="540" width="300" height="22" rx="3" fill="url(#barGray)" stroke="#1A1D24" stroke-width="1"/>
+    <text x="616" y="555" fill="#8A8A8A">60.2%</text>
+
+    <text x="148" y="595" fill="#2F3842" font-weight="600">Gemini 3.1 Pro（フルコンテキスト）</text>
+    <rect x="310" y="580" width="285" height="22" rx="3" fill="url(#barGray)" stroke="#1A1D24" stroke-width="1"/>
+    <text x="601" y="595" fill="#8A8A8A">57.1%</text>
+  </g>
+
+  <!-- Shock annotation -->
+  <rect x="148" y="618" width="710" height="28" rx="4" fill="#FFF3CD" stroke="#E8A87C" stroke-width="1.5"/>
+  <text x="503" y="636" text-anchor="middle" font-size="12" fill="#2F3842">⚠️ フロンティアモデルはすべてナイーブ RAG（74.2%）に劣る：<tspan font-weight="700" fill="#E74C3C">長文コンテキスト ≠ 長期記憶</tspan></text>
+
+  <!-- Sticky notes -->
+  <g transform="translate(938, 215) rotate(-1.5)" filter="url(#stickyShadow)">
+    <rect x="0" y="0" width="218" height="148" rx="4" fill="#EDE7F6" stroke="#8B7DB8" stroke-width="1.5"/>
+    <text x="109" y="24" text-anchor="middle" font-size="13" font-weight="700" fill="#1A1D24">🧠 Lost in the Middle</text>
+    <line x1="15" y1="32" x2="203" y2="32" stroke="#8B7DB8" stroke-width="1"/>
+    <text x="15" y="52" font-size="11" fill="#2F3842">200K トークンを全部読んでも</text>
+    <text x="15" y="68" font-size="11" fill="#2F3842">中央部の情報が抜け落ちる。</text>
+    <text x="15" y="84" font-size="11" fill="#2F3842">コンテキスト長 ≠ 記憶精度</text>
+    <text x="15" y="100" font-size="11" fill="#2F3842">という根本問題を LOCOMO が</text>
+    <text x="15" y="116" font-size="11" fill="#2F3842">定量的に明示した。</text>
+  </g>
+
+  <g transform="translate(938, 378) rotate(1.0)" filter="url(#stickyShadow)">
+    <rect x="0" y="0" width="218" height="148" rx="4" fill="#FFF9C4" stroke="#E8D84A" stroke-width="1.5"/>
+    <text x="109" y="24" text-anchor="middle" font-size="13" font-weight="700" fill="#1A1D24">🧠 MemPalace の疑問</text>
+    <line x1="15" y1="32" x2="203" y2="32" stroke="#E8D84A" stroke-width="1"/>
+    <text x="15" y="52" font-size="11" fill="#2F3842">96.6% → 撤回。標準条件での</text>
+    <text x="15" y="68" font-size="11" fill="#2F3842">再測定結果はまだ未公開。</text>
+    <text x="15" y="84" font-size="11" fill="#2F3842">47K ⭐ の人気と実際の</text>
+    <text x="15" y="100" font-size="11" fill="#2F3842">性能証明の乖離に注意。</text>
+    <text x="15" y="116" font-size="11" fill="#2F3842">独立再現が必須。</text>
+  </g>
+
+  <g transform="translate(938, 545) rotate(-0.8)" filter="url(#stickyShadow)">
+    <rect x="0" y="0" width="218" height="148" rx="4" fill="#C8E6C9" stroke="#4CAF50" stroke-width="1.5"/>
+    <text x="109" y="24" text-anchor="middle" font-size="13" font-weight="700" fill="#1A1D24">🧠 記憶 = 第4の評価軸</text>
+    <line x1="15" y1="32" x2="203" y2="32" stroke="#4CAF50" stroke-width="1"/>
+    <text x="15" y="52" font-size="11" fill="#2F3842">推論・コーディング・マルチ</text>
+    <text x="15" y="68" font-size="11" fill="#2F3842">モーダルに次ぐ第4軸として</text>
+    <text x="15" y="84" font-size="11" fill="#2F3842">「長期記憶」が確立される</text>
+    <text x="15" y="100" font-size="11" fill="#2F3842">と予測。エージェント時代の</text>
+    <text x="15" y="116" font-size="11" fill="#2F3842">必須評価項目になる。</text>
+  </g>
+
+  <g transform="translate(938, 712) rotate(1.2)" filter="url(#stickyShadow)">
+    <rect x="0" y="0" width="218" height="148" rx="4" fill="#BBE1FA" stroke="#5B8DEF" stroke-width="1.5"/>
+    <text x="109" y="24" text-anchor="middle" font-size="13" font-weight="700" fill="#1A1D24">🧠 商用化の波</text>
+    <line x1="15" y1="32" x2="203" y2="32" stroke="#5B8DEF" stroke-width="1"/>
+    <text x="15" y="52" font-size="11" fill="#2F3842">LOCOMO 認定スコアが</text>
+    <text x="15" y="68" font-size="11" fill="#2F3842">Mem0・Zep・MemPalace の</text>
+    <text x="15" y="84" font-size="11" fill="#2F3842">マーケティング戦場に。</text>
+    <text x="15" y="100" font-size="11" fill="#2F3842">「LOCOMO 認定メモリ層」が</text>
+    <text x="15" y="116" font-size="11" fill="#2F3842">2026後半の調達基準へ。</text>
+  </g>
+
+  <!-- 3 task types -->
+  <rect x="128" y="658" width="790" height="155" rx="6" fill="white" stroke="#1A1D24" stroke-width="2.5" filter="url(#softShadow)"/>
+  <text x="148" y="682" font-size="13" font-weight="700" fill="#1A1D24" letter-spacing="2">LOCOMO 3 評価軸</text>
+  <line x1="148" y1="689" x2="900" y2="689" stroke="#1A1D24" stroke-width="1.5"/>
+
+  <g font-size="12">
+    <rect x="148" y="700" width="235" height="95" rx="5" fill="#EDE7F6" stroke="#8B7DB8" stroke-width="2"/>
+    <text x="265" y="724" text-anchor="middle" font-size="14" font-weight="700" fill="#8B7DB8">エピソード記憶</text>
+    <text x="265" y="745" text-anchor="middle" font-size="11" fill="#2F3842">「先週相談した案件は？」</text>
+    <text x="265" y="762" text-anchor="middle" font-size="11" fill="#2F3842">過去の会話内容の</text>
+    <text x="265" y="779" text-anchor="middle" font-size="11" fill="#2F3842">正確な想起能力</text>
+
+    <rect x="400" y="700" width="235" height="95" rx="5" fill="#E8F4EA" stroke="#5CA46E" stroke-width="2"/>
+    <text x="517" y="724" text-anchor="middle" font-size="14" font-weight="700" fill="#5CA46E">ファクト追跡</text>
+    <text x="517" y="745" text-anchor="middle" font-size="11" fill="#2F3842">「会社は変わったか？」</text>
+    <text x="517" y="762" text-anchor="middle" font-size="11" fill="#2F3842">時間経過による状態</text>
+    <text x="517" y="779" text-anchor="middle" font-size="11" fill="#2F3842">変化の追跡精度</text>
+
+    <rect x="652" y="700" width="236" height="95" rx="5" fill="#EAF1FB" stroke="#5B8DEF" stroke-width="2"/>
+    <text x="770" y="724" text-anchor="middle" font-size="14" font-weight="700" fill="#5B8DEF">時系列推論</text>
+    <text x="770" y="745" text-anchor="middle" font-size="11" fill="#2F3842">「最も最近の話題は？」</text>
+    <text x="770" y="762" text-anchor="middle" font-size="11" fill="#2F3842">会話の前後関係と</text>
+    <text x="770" y="779" text-anchor="middle" font-size="11" fill="#2F3842">優先度の理解</text>
+  </g>
+
+  <!-- Footer -->
+  <line x1="128" y1="840" x2="1340" y2="840" stroke="#C8C0B0" stroke-width="1"/>
+  <text x="128" y="860" font-size="12" fill="#8A8A8A" font-style="italic">AI News · 2026-04-27 · LOCOMO: A Standardized Long-term Conversational Memory Benchmark for AI Agents</text>
+</svg>

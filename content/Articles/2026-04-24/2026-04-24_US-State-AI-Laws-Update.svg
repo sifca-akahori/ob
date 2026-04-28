@@ -1,0 +1,186 @@
+<svg viewBox="0 0 1400 1050" xmlns="http://www.w3.org/2000/svg" font-family="-apple-system,'Hiragino Sans','Yu Gothic',sans-serif">
+  <defs>
+    <filter id="softShadow"><feDropShadow dx="2" dy="3" stdDeviation="4" flood-color="#00000022"/></filter>
+    <filter id="stickyShadow"><feDropShadow dx="3" dy="4" stdDeviation="6" flood-color="#00000033"/></filter>
+    <pattern id="paperTexture" patternUnits="userSpaceOnUse" width="4" height="4">
+      <rect width="4" height="4" fill="#FBF8F1"/>
+      <circle cx="1" cy="1" r="0.4" fill="#E8E2D3" opacity="0.5"/>
+      <circle cx="3" cy="3" r="0.3" fill="#D5CDBA" opacity="0.4"/>
+    </pattern>
+  </defs>
+  <rect width="1400" height="1050" fill="url(#paperTexture)"/>
+  <rect x="0" y="0" width="48" height="1050" fill="#E8E2D3" stroke="#D0C9B8" stroke-width="1"/>
+  <circle cx="24" cy="120" r="14" fill="#FBF8F1" stroke="#C8BFA8" stroke-width="2"/><circle cx="24" cy="120" r="7" fill="#E0D8C8" stroke="#B8AFA0" stroke-width="1.5"/>
+  <circle cx="24" cy="280" r="14" fill="#FBF8F1" stroke="#C8BFA8" stroke-width="2"/><circle cx="24" cy="280" r="7" fill="#E0D8C8" stroke="#B8AFA0" stroke-width="1.5"/>
+  <circle cx="24" cy="440" r="14" fill="#FBF8F1" stroke="#C8BFA8" stroke-width="2"/><circle cx="24" cy="440" r="7" fill="#E0D8C8" stroke="#B8AFA0" stroke-width="1.5"/>
+  <circle cx="24" cy="600" r="14" fill="#FBF8F1" stroke="#C8BFA8" stroke-width="2"/><circle cx="24" cy="600" r="7" fill="#E0D8C8" stroke="#B8AFA0" stroke-width="1.5"/>
+  <circle cx="24" cy="760" r="14" fill="#FBF8F1" stroke="#C8BFA8" stroke-width="2"/><circle cx="24" cy="760" r="7" fill="#E0D8C8" stroke="#B8AFA0" stroke-width="1.5"/>
+  <circle cx="24" cy="920" r="14" fill="#FBF8F1" stroke="#C8BFA8" stroke-width="2"/><circle cx="24" cy="920" r="7" fill="#E0D8C8" stroke="#B8AFA0" stroke-width="1.5"/>
+
+  <g transform="translate(1275,0) rotate(3)">
+    <rect x="0" y="-10" width="175" height="44" fill="#5B8DEF" stroke="#1A1D24" stroke-width="2"/>
+    <text x="87" y="18" text-anchor="middle" font-size="16" font-weight="700" fill="white">#ビジネス</text>
+  </g>
+  <rect x="68" y="22" width="170" height="38" rx="6" fill="#2F3842" filter="url(#softShadow)"/>
+  <text x="153" y="47" text-anchor="middle" font-size="16" font-weight="700" fill="white">2026-04-24</text>
+  <text x="260" y="52" font-size="24" fill="#F5C518">⭐⭐</text>
+
+  <g transform="translate(1250,120)">
+    <circle cx="0" cy="0" r="52" fill="#EEF2FF" stroke="#5B8DEF" stroke-width="3"/>
+    <text x="0" y="0" text-anchor="middle" dominant-baseline="central" font-size="46">⚖️</text>
+  </g>
+
+  <text x="68" y="110" font-size="36" font-weight="900" fill="#1A1D24">米AI法制バトル：連邦 vs 州 2026年4月最前線</text>
+  <text x="68" y="155" font-size="24" font-weight="700" fill="#5B8DEF">40州が審議中・EU AI Act 8/2施行まで100日・企業は矛盾規制に直面</text>
+  <text x="68" y="188" font-size="16" fill="#666">Cooley LLP · 2026-04-24 · #規制 #AI政策 #米国 #EU-AI-Act</text>
+  <line x1="68" y1="205" x2="1340" y2="205" stroke="#1A1D24" stroke-width="2.5"/>
+
+  <!-- Key Numbers -->
+  <rect x="68" y="220" width="270" height="110" rx="8" fill="white" stroke="#1A1D24" stroke-width="2.5" filter="url(#softShadow)"/>
+  <rect x="68" y="220" width="270" height="10" rx="4" fill="#5B8DEF"/>
+  <text x="203" y="272" text-anchor="middle" font-size="44" font-weight="900" fill="#1A1D24">40+</text>
+  <text x="203" y="300" text-anchor="middle" font-size="14" fill="#666">州が独自AI法案を審議中</text>
+  <text x="203" y="320" text-anchor="middle" font-size="12" fill="#999">Cooley 4/24更新</text>
+
+  <rect x="358" y="220" width="270" height="110" rx="8" fill="white" stroke="#1A1D24" stroke-width="2.5" filter="url(#softShadow)"/>
+  <rect x="358" y="220" width="270" height="10" rx="4" fill="#5B8DEF"/>
+  <text x="493" y="272" text-anchor="middle" font-size="44" font-weight="900" fill="#1A1D24">100日</text>
+  <text x="493" y="300" text-anchor="middle" font-size="14" fill="#666">EU AI Act 高リスク施行まで</text>
+  <text x="493" y="320" text-anchor="middle" font-size="12" fill="#999">2026年8月2日</text>
+
+  <rect x="648" y="220" width="270" height="110" rx="8" fill="white" stroke="#1A1D24" stroke-width="2.5" filter="url(#softShadow)"/>
+  <rect x="648" y="220" width="270" height="10" rx="4" fill="#5B8DEF"/>
+  <text x="783" y="272" text-anchor="middle" font-size="44" font-weight="900" fill="#1A1D24">€35M</text>
+  <text x="783" y="300" text-anchor="middle" font-size="14" fill="#666">EU AI Act 違反最大罰則 or 売上7%</text>
+  <text x="783" y="320" text-anchor="middle" font-size="12" fill="#999">高リスクAIカテゴリ</text>
+
+  <rect x="938" y="220" width="340" height="110" rx="8" fill="white" stroke="#1A1D24" stroke-width="2.5" filter="url(#softShadow)"/>
+  <rect x="938" y="220" width="340" height="10" rx="4" fill="#5B8DEF"/>
+  <text x="1108" y="272" text-anchor="middle" font-size="44" font-weight="900" fill="#1A1D24">2027-28</text>
+  <text x="1108" y="300" text-anchor="middle" font-size="14" fill="#666">EU一部要件先送り検討（Digital Omnibus）</text>
+  <text x="1108" y="320" text-anchor="middle" font-size="12" fill="#999">8/2の当初期限は変更なし</text>
+
+  <!-- Main: Regulatory Landscape -->
+  <rect x="68" y="348" width="780" height="310" rx="8" fill="white" stroke="#1A1D24" stroke-width="2.5" filter="url(#softShadow)"/>
+  <text x="88" y="378" font-size="16" font-weight="700" fill="#1A1D24">🗺️ 規制ランドスケープ マップ</text>
+  <line x1="88" y1="385" x2="830" y2="385" stroke="#E0D8C8" stroke-width="1"/>
+
+  <!-- Federal Level -->
+  <rect x="88" y="395" width="740" height="55" rx="6" fill="#EEF2FF" stroke="#5B8DEF" stroke-width="2"/>
+  <text x="108" y="415" font-size="14" font-weight="700" fill="#5B8DEF">🏛️ 連邦レベル（ホワイトハウス）</text>
+  <text x="108" y="435" font-size="12" fill="#333">3/20 国家AIポリシーフレームワーク発表 → 議会に「広範な連邦プリエンプション」要請（拘束力なし）</text>
+
+  <!-- State Level -->
+  <rect x="88" y="460" width="355" height="100" rx="6" fill="#FFF0F0" stroke="#CC4444" stroke-width="1.5"/>
+  <text x="108" y="480" font-size="13" font-weight="700" fill="#CC4444">🗽 ニューヨーク RAISE Act</text>
+  <text x="108" y="498" font-size="12" fill="#333">3/27 Hochul署名。当初の包括義務から</text>
+  <text x="108" y="515" font-size="12" fill="#333">「透明性・報告ベース」へ後退</text>
+  <text x="108" y="533" font-size="12" fill="#666">→ 業界ロビーで骨抜き化のパターン</text>
+
+  <rect x="453" y="460" width="375" height="100" rx="6" fill="#FFF8E0" stroke="#CC8800" stroke-width="1.5"/>
+  <text x="473" y="480" font-size="13" font-weight="700" fill="#CC8800">🌴 カリフォルニア N-5-26</text>
+  <text x="473" y="498" font-size="12" fill="#333">3/30 Newsom行政命令。州機関向け</text>
+  <text x="473" y="515" font-size="12" fill="#333">AI安全要件策定指示（法的拘束力なし）</text>
+  <text x="473" y="533" font-size="12" fill="#666">→ SB-1047廃案後の代替策</text>
+
+  <!-- EU Level -->
+  <rect x="88" y="570" width="740" height="70" rx="6" fill="#E8F0E8" stroke="#5CA46E" stroke-width="2"/>
+  <text x="108" y="590" font-size="14" font-weight="700" fill="#5CA46E">🇪🇺 EU AI Act（2026年8月2日 高リスク規制全面施行）</text>
+  <text x="108" y="610" font-size="12" fill="#333">採用AI・医療AI・信用スコア等 = リスク管理・技術文書・人間監視が必須 / 違反 €35M or 売上7%</text>
+  <text x="108" y="628" font-size="12" fill="#666">Digital Omnibus で一部2027-28先送り検討中（8/2の当初期限は変更なし）</text>
+
+  <text x="88" y="650" font-size="12" fill="#999">* 日本・韓国・台湾企業も EU域内ユーザー持てば適用対象。各社の適合性評価急務。</text>
+
+  <!-- Right: Timeline -->
+  <rect x="868" y="348" width="470" height="310" rx="8" fill="white" stroke="#1A1D24" stroke-width="2.5" filter="url(#softShadow)"/>
+  <text x="888" y="378" font-size="16" font-weight="700" fill="#1A1D24">📅 規制施行タイムライン</text>
+  <line x1="888" y1="385" x2="1320" y2="385" stroke="#E0D8C8" stroke-width="1"/>
+
+  <line x1="930" y1="400" x2="930" y2="640" stroke="#1A1D24" stroke-width="2"/>
+
+  <circle cx="930" cy="415" r="7" fill="#CC4444"/>
+  <text x="948" y="420" font-size="12" font-weight="700" fill="#CC4444">2026-03-27</text>
+  <text x="948" y="436" font-size="12" fill="#333">NY RAISE Act署名（透明性ベースに修正）</text>
+
+  <circle cx="930" cy="460" r="7" fill="#CC8800"/>
+  <text x="948" y="465" font-size="12" font-weight="700" fill="#CC8800">2026-03-30</text>
+  <text x="948" y="481" font-size="12" fill="#333">CA Governor N-5-26 行政命令</text>
+
+  <circle cx="930" cy="505" r="7" fill="#5B8DEF"/>
+  <text x="948" y="510" font-size="12" font-weight="700" fill="#5B8DEF">2026-04-24</text>
+  <text x="948" y="526" font-size="12" fill="#333">Cooley 州AI法最新レポート（40+州）</text>
+
+  <circle cx="930" cy="555" r="8" fill="#5CA46E" stroke="#1A1D24" stroke-width="1.5"/>
+  <text x="948" y="560" font-size="13" font-weight="900" fill="#5CA46E">2026-08-02 ★</text>
+  <text x="948" y="578" font-size="12" fill="#333">EU AI Act 高リスク規制 全面施行</text>
+
+  <circle cx="930" cy="615" r="7" fill="#999"/>
+  <text x="948" y="620" font-size="12" fill="#666">2027-2028 (予定)</text>
+  <text x="948" y="636" font-size="12" fill="#666">EU 一部要件先送り（Digital Omnibus）</text>
+
+  <!-- Feature Cards -->
+  <rect x="68" y="678" width="300" height="150" rx="8" fill="#EEF2FF" stroke="#1A1D24" stroke-width="2" filter="url(#softShadow)"/>
+  <text x="218" y="704" text-anchor="middle" font-size="14" font-weight="700" fill="#5B8DEF">🏛️ 連邦プリエンプションの現実</text>
+  <text x="88" y="725" font-size="12" fill="#333">• 共和党賛成、民主党は慎重</text>
+  <text x="88" y="743" font-size="12" fill="#333">• 中間選挙まで法案通過は困難</text>
+  <text x="88" y="761" font-size="12" fill="#333">• 企業は2年以上の州法乱立を前提に</text>
+  <text x="88" y="779" font-size="12" fill="#333">• 拘束力のない「勧告」に過ぎない</text>
+  <text x="88" y="797" font-size="12" fill="#333">• カーブアウト（児童・消費者保護）有り</text>
+
+  <rect x="388" y="678" width="300" height="150" rx="8" fill="#EEF2FF" stroke="#1A1D24" stroke-width="2" filter="url(#softShadow)"/>
+  <text x="538" y="704" text-anchor="middle" font-size="14" font-weight="700" fill="#5B8DEF">💰 コンプライアンスコスト</text>
+  <text x="408" y="725" font-size="12" fill="#333">• 大手テック: 法務チームで対応可</text>
+  <text x="408" y="743" font-size="12" fill="#333">• スタートアップ: 実質的参入障壁</text>
+  <text x="408" y="761" font-size="12" fill="#333">• AIコンプライアンス専門業が急成長</text>
+  <text x="408" y="779" font-size="12" fill="#333">• 規制追跡LegalTech需要増</text>
+  <text x="408" y="797" font-size="12" fill="#333">• 非対称性が競争構造を歪める</text>
+
+  <rect x="708" y="678" width="300" height="150" rx="8" fill="#EEF2FF" stroke="#1A1D24" stroke-width="2" filter="url(#softShadow)"/>
+  <text x="858" y="704" text-anchor="middle" font-size="14" font-weight="700" fill="#5B8DEF">🇯🇵 日本企業への影響</text>
+  <text x="728" y="725" font-size="12" fill="#333">• EU域内ユーザー → EU AI Act適用</text>
+  <text x="728" y="743" font-size="12" fill="#333">• 採用AI・医療AI・信用等は高リスク</text>
+  <text x="728" y="761" font-size="12" fill="#333">• 技術文書・人間監視機構の整備要</text>
+  <text x="728" y="779" font-size="12" fill="#333">• 2026年秋 日本AI基本法修正予定</text>
+  <text x="728" y="797" font-size="12" fill="#333">• グローバル対応プレイブック急務</text>
+
+  <rect x="1028" y="678" width="310" height="150" rx="8" fill="#EEF2FF" stroke="#1A1D24" stroke-width="2" filter="url(#softShadow)"/>
+  <text x="1183" y="704" text-anchor="middle" font-size="14" font-weight="700" fill="#5B8DEF">🔮 1年後予測</text>
+  <text x="1048" y="725" font-size="12" fill="#333">①連邦AI法一部可決（透明性最低基準）</text>
+  <text x="1048" y="743" font-size="12" fill="#333">②州法一部統一化（モデル州法）</text>
+  <text x="1048" y="761" font-size="12" fill="#333">③EU AI Act適用範囲段階拡大</text>
+  <text x="1048" y="779" font-size="12" fill="#333">④日本AI基本法修正</text>
+  <text x="1048" y="797" font-size="12" fill="#333">⑤中間選挙後に振り子が戻る可能性</text>
+
+  <!-- Sticky Notes -->
+  <g transform="translate(68, 848) rotate(-1.0)">
+    <rect width="265" height="90" rx="4" fill="#FFFDE7" stroke="#1A1D24" stroke-width="1.5" filter="url(#stickyShadow)"/>
+    <text x="132" y="22" text-anchor="middle" font-size="13" font-weight="700">🏭 NY RAISE 骨抜きパターン</text>
+    <text x="14" y="42" font-size="11" fill="#333">CA SB-1047廃案と同じ軌跡。</text>
+    <text x="14" y="57" font-size="11" fill="#333">強い業界ロビーが規制を形骸化。</text>
+    <text x="14" y="72" font-size="11" fill="#333">次の選挙で振り子が戻る可能性</text>
+  </g>
+  <g transform="translate(360, 855) rotate(1.2)">
+    <rect width="265" height="90" rx="4" fill="#E8F5E9" stroke="#1A1D24" stroke-width="1.5" filter="url(#stickyShadow)"/>
+    <text x="132" y="22" text-anchor="middle" font-size="13" font-weight="700">🎯 「何もしない」がリスク</text>
+    <text x="14" y="42" font-size="11" fill="#333">矛盾規制群への対応は</text>
+    <text x="14" y="57" font-size="11" fill="#333">先送りするほどコストが増加。</text>
+    <text x="14" y="72" font-size="11" fill="#333">早期着手が最善策</text>
+  </g>
+  <g transform="translate(658, 848) rotate(-1.3)">
+    <rect width="275" height="90" rx="4" fill="#F3E5F5" stroke="#1A1D24" stroke-width="1.5" filter="url(#stickyShadow)"/>
+    <text x="137" y="22" text-anchor="middle" font-size="13" font-weight="700">🌏 新たなビジネス機会</text>
+    <text x="14" y="42" font-size="11" fill="#333">多管轄AIコンプライアンスSaaSが</text>
+    <text x="14" y="57" font-size="11" fill="#333">急成長中。規制の複雑さが</text>
+    <text x="14" y="72" font-size="11" fill="#333">LegalTechの市場を生む</text>
+  </g>
+  <g transform="translate(960, 851) rotate(0.8)">
+    <rect width="275" height="90" rx="4" fill="#FFF3E0" stroke="#1A1D24" stroke-width="1.5" filter="url(#stickyShadow)"/>
+    <text x="137" y="22" text-anchor="middle" font-size="13" font-weight="700">⚠️ 8/2 カウントダウン</text>
+    <text x="14" y="42" font-size="11" fill="#333">EU AI Act高リスク施行まで</text>
+    <text x="14" y="57" font-size="11" fill="#333">残り100日。先送り交渉中だが</text>
+    <text x="14" y="72" font-size="11" fill="#333">当初期限は変わらない</text>
+  </g>
+
+  <line x1="68" y1="970" x2="1340" y2="970" stroke="#C8BFA8" stroke-width="1"/>
+  <text x="704" y="992" text-anchor="middle" font-size="13" fill="#999" font-style="italic">AI News · 2026-04-24 · US State AI Laws April Update — Federal Preemption vs. 40+ State Bills, EU AI Act 100-Day Warning</text>
+</svg>

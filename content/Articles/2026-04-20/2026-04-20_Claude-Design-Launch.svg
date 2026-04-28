@@ -1,0 +1,361 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1400 1050" font-family="'Comic Sans MS', 'Hiragino Maru Gothic ProN', 'Yu Gothic', sans-serif">
+  <defs>
+    <pattern id="paperTexture" patternUnits="userSpaceOnUse" width="100" height="100">
+      <rect width="100" height="100" fill="#F5EAD2"/>
+      <circle cx="15" cy="22" r="0.4" fill="#C4B389" opacity="0.3"/>
+      <circle cx="67" cy="44" r="0.5" fill="#C4B389" opacity="0.3"/>
+      <circle cx="33" cy="78" r="0.3" fill="#C4B389" opacity="0.3"/>
+      <circle cx="88" cy="88" r="0.4" fill="#C4B389" opacity="0.3"/>
+    </pattern>
+    <linearGradient id="highlighterGreen" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#B8E4C2" stop-opacity="0.9"/>
+      <stop offset="100%" stop-color="#9FD1AC" stop-opacity="0.8"/>
+    </linearGradient>
+    <linearGradient id="washiGreen" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0%" stop-color="#8FD49E" stop-opacity="0.8"/>
+      <stop offset="100%" stop-color="#6FAE75" stop-opacity="0.9"/>
+    </linearGradient>
+    <linearGradient id="washiOrange" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0%" stop-color="#F5B483" stop-opacity="0.8"/>
+      <stop offset="100%" stop-color="#E8A87C" stop-opacity="0.9"/>
+    </linearGradient>
+    <filter id="stickyShadow" x="-10%" y="-10%" width="120%" height="120%">
+      <feGaussianBlur in="SourceAlpha" stdDeviation="3"/>
+      <feOffset dx="2" dy="3" result="offsetblur"/>
+      <feComponentTransfer><feFuncA type="linear" slope="0.25"/></feComponentTransfer>
+      <feMerge><feMergeNode/><feMergeNode in="SourceGraphic"/></feMerge>
+    </filter>
+    <filter id="softShadow" x="-10%" y="-10%" width="120%" height="120%">
+      <feGaussianBlur in="SourceAlpha" stdDeviation="2"/>
+      <feOffset dx="1" dy="2" result="offsetblur"/>
+      <feComponentTransfer><feFuncA type="linear" slope="0.18"/></feComponentTransfer>
+      <feMerge><feMergeNode/><feMergeNode in="SourceGraphic"/></feMerge>
+    </filter>
+  </defs>
+
+  <rect width="1400" height="1050" fill="url(#paperTexture)"/>
+
+  <g opacity="0.12" stroke="#8B7A5A" stroke-width="0.6">
+    <line x1="80" y1="180" x2="1320" y2="180"/>
+    <line x1="80" y1="220" x2="1320" y2="220"/>
+  </g>
+  <line x1="110" y1="30" x2="110" y2="1020" stroke="#D88A8A" stroke-width="1.2" opacity="0.45"/>
+  <g fill="#D4C494" opacity="0.55">
+    <circle cx="50" cy="100" r="11"/>
+    <circle cx="50" cy="340" r="11"/>
+    <circle cx="50" cy="580" r="11"/>
+    <circle cx="50" cy="820" r="11"/>
+  </g>
+  <g fill="#F5EAD2">
+    <circle cx="50" cy="100" r="8"/>
+    <circle cx="50" cy="340" r="8"/>
+    <circle cx="50" cy="580" r="8"/>
+    <circle cx="50" cy="820" r="8"/>
+  </g>
+
+  <g transform="rotate(-4 200 45)">
+    <rect x="130" y="25" width="180" height="40" fill="url(#washiGreen)"/>
+    <g opacity="0.4" fill="#FFFFFF">
+      <circle cx="165" cy="42" r="3"/>
+      <circle cx="205" cy="48" r="2.5"/>
+      <circle cx="245" cy="40" r="3"/>
+      <circle cx="285" cy="46" r="2.5"/>
+    </g>
+  </g>
+  <g transform="rotate(3 1200 50)">
+    <rect x="1120" y="28" width="160" height="36" fill="url(#washiOrange)"/>
+    <g opacity="0.4" fill="#FFFFFF">
+      <path d="M 1145 40 l 10 0 l 0 -3 l 6 5 l -6 5 l 0 -3 l -10 0 z"/>
+      <path d="M 1200 40 l 10 0 l 0 -3 l 6 5 l -6 5 l 0 -3 l -10 0 z"/>
+    </g>
+  </g>
+
+  <g transform="translate(1180 90)">
+    <rect x="0" y="0" width="140" height="48" fill="#FFFFFF" stroke="#2C2416" stroke-width="1.5" rx="4" opacity="0.9"/>
+    <rect x="6" y="6" width="128" height="36" fill="none" stroke="#2C2416" stroke-width="1" stroke-dasharray="3,2" rx="2"/>
+    <text x="70" y="22" text-anchor="middle" font-size="11" fill="#8B6F47" font-weight="bold">— 2026.04.17 —</text>
+    <text x="70" y="37" text-anchor="middle" font-size="13" fill="#2C2416" font-weight="bold">#ビジネス</text>
+  </g>
+
+  <path d="M 150 118 Q 230 113, 350 115 Q 520 118, 700 114 Q 880 112, 1020 116 L 1020 168 Q 870 164, 700 168 Q 520 172, 345 168 Q 230 166, 150 168 Z"
+        fill="url(#highlighterGreen)" opacity="0.8"/>
+  <text x="165" y="158" font-size="44" font-weight="bold" fill="#2C2416">Claude Design 発表</text>
+  <text x="165" y="198" font-size="18" fill="#6B5D3F" font-style="italic">Anthropic、ビジュアル生成プロダクトで Canvas / Gems に本格対抗</text>
+
+  <!-- Paintbrush icon -->
+  <g transform="translate(1050 130) rotate(-20)">
+    <rect x="0" y="5" width="60" height="10" fill="#8B6F47" stroke="#2C2416" stroke-width="1.5"/>
+    <rect x="55" y="0" width="25" height="20" fill="#C0C0C0" stroke="#2C2416" stroke-width="1.5"/>
+    <path d="M 78 0 L 110 5 L 110 15 L 78 20 Z" fill="#6FAE75" stroke="#2C2416" stroke-width="1.5"/>
+    <path d="M 110 5 Q 120 8, 125 12 Q 120 17, 110 15" fill="#6FAE75" opacity="0.6"/>
+  </g>
+
+  <!-- HERO ZONE -->
+  <g transform="translate(140 240)">
+    <rect x="0" y="0" width="1140" height="130" fill="#FFFFFF" stroke="#2C2416" stroke-width="2" rx="8" filter="url(#softShadow)" opacity="0.95"/>
+    <rect x="0" y="0" width="8" height="130" fill="#6FAE75"/>
+
+    <!-- Canvas/Easel mascot -->
+    <g transform="translate(30 22)">
+      <line x1="45" y1="85" x2="20" y2="95" stroke="#8B6F47" stroke-width="3"/>
+      <line x1="45" y1="85" x2="70" y2="95" stroke="#8B6F47" stroke-width="3"/>
+      <line x1="45" y1="85" x2="45" y2="50" stroke="#8B6F47" stroke-width="3"/>
+      <rect x="10" y="5" width="70" height="55" fill="#FFFFFF" stroke="#2C2416" stroke-width="2" rx="2"/>
+      <!-- artwork preview -->
+      <rect x="15" y="10" width="25" height="8" fill="#5B8DEF" opacity="0.7"/>
+      <rect x="15" y="22" width="35" height="5" fill="#6FAE75" opacity="0.7"/>
+      <rect x="15" y="30" width="20" height="5" fill="#E8A87C" opacity="0.7"/>
+      <circle cx="60" cy="40" r="10" fill="#F5D061" opacity="0.7" stroke="#2C2416" stroke-width="1"/>
+      <text x="45" y="105" text-anchor="middle" font-size="10" fill="#2C2416" font-weight="bold">CLAUDE DESIGN</text>
+    </g>
+
+    <g transform="translate(165 25)">
+      <text x="0" y="18" font-size="16" fill="#2C2416" font-weight="bold">✨ 2種類のアップデート</text>
+
+      <g transform="translate(0 35)">
+        <rect x="0" y="0" width="175" height="70" fill="#EEF5EE" stroke="#6FAE75" stroke-width="1.5" rx="6"/>
+        <text x="87" y="18" text-anchor="middle" font-size="12" font-weight="bold" fill="#4A8553">① 新プロダクト</text>
+        <text x="10" y="36" font-size="11" fill="#2C2416">Anthropic Labs から</text>
+        <text x="10" y="52" font-size="11" fill="#2C2416">Claude Design 公開</text>
+        <text x="10" y="65" font-size="10" fill="#3B6943" font-style="italic">→ デザイン特化</text>
+      </g>
+
+      <g transform="translate(190 35)">
+        <rect x="0" y="0" width="175" height="70" fill="#FAEFE7" stroke="#E8A87C" stroke-width="1.5" rx="6"/>
+        <text x="87" y="18" text-anchor="middle" font-size="12" font-weight="bold" fill="#B07548">② 既存Claude更新</text>
+        <text x="10" y="36" font-size="11" fill="#2C2416">応答中の図表・</text>
+        <text x="10" y="52" font-size="11" fill="#2C2416">チャートをインライン生成</text>
+        <text x="10" y="65" font-size="10" fill="#8B5333" font-style="italic">→ 日常影響大</text>
+      </g>
+    </g>
+
+    <line x1="575" y1="20" x2="575" y2="110" stroke="#2C2416" stroke-width="1" stroke-dasharray="4,3" opacity="0.4"/>
+
+    <g transform="translate(605 25)">
+      <text x="0" y="15" font-size="16" font-weight="bold" fill="#2C2416">🎯 差別化の核</text>
+      <g transform="translate(0 30)">
+        <circle cx="8" cy="8" r="7" fill="#6FAE75"/>
+        <text x="6.5" y="12" font-size="10" fill="#FFFFFF" font-weight="bold">★</text>
+        <text x="22" y="12" font-size="13" fill="#2C2416">デザイン成果物"特化"</text>
+      </g>
+      <g transform="translate(0 55)">
+        <circle cx="8" cy="8" r="7" fill="#6FAE75"/>
+        <text x="6.5" y="12" font-size="10" fill="#FFFFFF" font-weight="bold">★</text>
+        <text x="22" y="12" font-size="13" fill="#2C2416">非エンジニア向けUX</text>
+      </g>
+      <g transform="translate(0 80)">
+        <circle cx="8" cy="8" r="7" fill="#6FAE75"/>
+        <text x="6.5" y="12" font-size="10" fill="#FFFFFF" font-weight="bold">★</text>
+        <text x="22" y="12" font-size="13" fill="#2C2416">Cowork/Platform連携</text>
+      </g>
+    </g>
+  </g>
+
+  <!-- OUTPUT TYPES -->
+  <g transform="translate(140 400)">
+    <rect x="0" y="0" width="560" height="38" fill="#2C2416" rx="4"/>
+    <text x="15" y="25" font-size="18" font-weight="bold" fill="#F5EAD2">🧩 作れるもの（4カテゴリ）</text>
+
+    <g transform="translate(0 55)">
+      <rect x="0" y="0" width="270" height="130" fill="#FFFFFF" stroke="#2C2416" stroke-width="2" rx="8" filter="url(#softShadow)"/>
+      <rect x="0" y="0" width="270" height="32" fill="#6FAE75" rx="8"/>
+      <rect x="0" y="24" width="270" height="8" fill="#6FAE75"/>
+      <text x="14" y="22" font-size="14" fill="#FFFFFF" font-weight="bold">🎨 デザイン案</text>
+      <g transform="translate(18 48)">
+        <rect x="0" y="0" width="50" height="65" fill="#F0E8D0" stroke="#2C2416" stroke-width="1.5"/>
+        <circle cx="25" cy="20" r="8" fill="#E8A87C"/>
+        <rect x="5" y="35" width="40" height="4" fill="#2C2416"/>
+        <rect x="5" y="43" width="30" height="3" fill="#6B5D3F"/>
+        <rect x="5" y="50" width="35" height="3" fill="#6B5D3F"/>
+      </g>
+      <text x="85" y="70" font-size="11" fill="#6B5D3F">コンセプト資料</text>
+      <text x="85" y="88" font-size="11" fill="#6B5D3F">ムードボード</text>
+      <text x="85" y="106" font-size="11" fill="#6B5D3F">バナー等</text>
+    </g>
+
+    <g transform="translate(280 55)">
+      <rect x="0" y="0" width="270" height="130" fill="#FFFFFF" stroke="#2C2416" stroke-width="2" rx="8" filter="url(#softShadow)"/>
+      <rect x="0" y="0" width="270" height="32" fill="#5B8DEF" rx="8"/>
+      <rect x="0" y="24" width="270" height="8" fill="#5B8DEF"/>
+      <text x="14" y="22" font-size="14" fill="#FFFFFF" font-weight="bold">📱 プロトタイプ</text>
+      <g transform="translate(18 48)">
+        <rect x="0" y="0" width="35" height="65" rx="4" fill="#2C2416"/>
+        <rect x="2" y="5" width="31" height="55" fill="#5B8DEF"/>
+        <circle cx="17.5" cy="62" r="2" fill="#FFFFFF"/>
+        <rect x="5" y="10" width="25" height="3" fill="#FFFFFF"/>
+        <rect x="5" y="17" width="20" height="2" fill="#FFFFFF" opacity="0.7"/>
+        <rect x="5" y="25" width="25" height="8" fill="#FFFFFF" opacity="0.3"/>
+        <rect x="5" y="37" width="25" height="8" fill="#FFFFFF" opacity="0.3"/>
+      </g>
+      <text x="70" y="70" font-size="11" fill="#6B5D3F">モバイルUI案</text>
+      <text x="70" y="88" font-size="11" fill="#6B5D3F">Webワイヤフレーム</text>
+      <text x="70" y="106" font-size="11" fill="#6B5D3F">インタラクション</text>
+    </g>
+
+    <g transform="translate(0 200)">
+      <rect x="0" y="0" width="270" height="130" fill="#FFFFFF" stroke="#2C2416" stroke-width="2" rx="8" filter="url(#softShadow)"/>
+      <rect x="0" y="0" width="270" height="32" fill="#9B7EC9" rx="8"/>
+      <rect x="0" y="24" width="270" height="8" fill="#9B7EC9"/>
+      <text x="14" y="22" font-size="14" fill="#FFFFFF" font-weight="bold">📊 スライド</text>
+      <g transform="translate(18 48)">
+        <rect x="0" y="0" width="65" height="45" fill="#FFFFFF" stroke="#2C2416" stroke-width="1.5"/>
+        <rect x="5" y="5" width="35" height="4" fill="#2C2416"/>
+        <rect x="5" y="12" width="25" height="2" fill="#9B7EC9"/>
+        <rect x="5" y="18" width="30" height="18" fill="#EBE0F2"/>
+        <rect x="40" y="18" width="20" height="18" fill="#F5D8B0"/>
+      </g>
+      <text x="95" y="70" font-size="11" fill="#6B5D3F">プレゼン資料</text>
+      <text x="95" y="88" font-size="11" fill="#6B5D3F">提案書ドラフト</text>
+      <text x="95" y="106" font-size="11" fill="#6B5D3F">KPIダッシュボード</text>
+    </g>
+
+    <g transform="translate(280 200)">
+      <rect x="0" y="0" width="270" height="130" fill="#FFFFFF" stroke="#2C2416" stroke-width="2" rx="8" filter="url(#softShadow)"/>
+      <rect x="0" y="0" width="270" height="32" fill="#E8A87C" rx="8"/>
+      <rect x="0" y="24" width="270" height="8" fill="#E8A87C"/>
+      <text x="14" y="22" font-size="14" fill="#FFFFFF" font-weight="bold">📄 ワンページャー</text>
+      <g transform="translate(18 48)">
+        <rect x="0" y="0" width="45" height="65" fill="#FFFFFF" stroke="#2C2416" stroke-width="1.5"/>
+        <rect x="3" y="4" width="39" height="3" fill="#E8A87C"/>
+        <rect x="3" y="11" width="25" height="2" fill="#2C2416"/>
+        <rect x="3" y="17" width="39" height="1.5" fill="#8B6F47"/>
+        <rect x="3" y="22" width="39" height="1.5" fill="#8B6F47"/>
+        <rect x="3" y="27" width="30" height="1.5" fill="#8B6F47"/>
+        <rect x="3" y="34" width="39" height="12" fill="#FAEFE7"/>
+        <rect x="3" y="50" width="39" height="1.5" fill="#8B6F47"/>
+        <rect x="3" y="55" width="39" height="1.5" fill="#8B6F47"/>
+      </g>
+      <text x="75" y="70" font-size="11" fill="#6B5D3F">サマリー資料</text>
+      <text x="75" y="88" font-size="11" fill="#6B5D3F">広報用1枚</text>
+      <text x="75" y="106" font-size="11" fill="#6B5D3F">プロジェクト概要</text>
+    </g>
+  </g>
+
+  <!-- COMPETITIVE COMPARISON -->
+  <g transform="translate(740 400)">
+    <rect x="0" y="0" width="540" height="38" fill="#2C2416" rx="4"/>
+    <text x="15" y="25" font-size="18" font-weight="bold" fill="#F5EAD2">⚔️ 競合比較マトリクス</text>
+
+    <rect x="0" y="45" width="540" height="275" fill="#FFFFFF" stroke="#2C2416" stroke-width="2" rx="6" filter="url(#softShadow)"/>
+
+    <!-- Table header -->
+    <g transform="translate(15 65)">
+      <rect x="0" y="0" width="510" height="28" fill="#F0E8D0" rx="3"/>
+      <text x="10" y="19" font-size="11" fill="#2C2416" font-weight="bold">観点</text>
+      <text x="160" y="19" font-size="11" fill="#2C2416" font-weight="bold">Claude Design</text>
+      <text x="295" y="19" font-size="11" fill="#2C2416" font-weight="bold">ChatGPT Canvas</text>
+      <text x="425" y="19" font-size="11" fill="#2C2416" font-weight="bold">Gemini Gems</text>
+
+      <!-- Row 1 -->
+      <text x="10" y="53" font-size="10.5" fill="#6B5D3F">主な出力</text>
+      <text x="160" y="53" font-size="10.5" fill="#4A8553" font-weight="bold">ビジュアル</text>
+      <text x="295" y="53" font-size="10.5" fill="#2C2416">テキスト+コード</text>
+      <text x="425" y="53" font-size="10.5" fill="#2C2416">カスタムAgent</text>
+      <line x1="0" y1="60" x2="510" y2="60" stroke="#E9DFC0"/>
+
+      <!-- Row 2 -->
+      <text x="10" y="83" font-size="10.5" fill="#6B5D3F">ターゲット</text>
+      <text x="160" y="83" font-size="10.5" fill="#4A8553" font-weight="bold">非エンジニア◎</text>
+      <text x="295" y="83" font-size="10.5" fill="#2C2416">開発者寄り</text>
+      <text x="425" y="83" font-size="10.5" fill="#2C2416">パワーユーザー</text>
+      <line x1="0" y1="90" x2="510" y2="90" stroke="#E9DFC0"/>
+
+      <!-- Row 3 -->
+      <text x="10" y="113" font-size="10.5" fill="#6B5D3F">連携先</text>
+      <text x="160" y="113" font-size="10.5" fill="#4A8553" font-weight="bold">Platform/Cowork</text>
+      <text x="295" y="113" font-size="10.5" fill="#2C2416">ChatGPT内</text>
+      <text x="425" y="113" font-size="10.5" fill="#2C2416">Workspace</text>
+      <line x1="0" y1="120" x2="510" y2="120" stroke="#E9DFC0"/>
+
+      <!-- Row 4 -->
+      <text x="10" y="143" font-size="10.5" fill="#6B5D3F">成果物の保存</text>
+      <text x="160" y="143" font-size="10.5" fill="#4A8553" font-weight="bold">プロジェクト統合</text>
+      <text x="295" y="143" font-size="10.5" fill="#2C2416">会話に紐付け</text>
+      <text x="425" y="143" font-size="10.5" fill="#2C2416">Gemにパッケージ</text>
+      <line x1="0" y1="150" x2="510" y2="150" stroke="#E9DFC0"/>
+
+      <!-- Row 5 -->
+      <text x="10" y="173" font-size="10.5" fill="#6B5D3F">ブランドキット</text>
+      <text x="160" y="173" font-size="10.5" fill="#B85070" font-weight="bold">△ 未対応（次回?）</text>
+      <text x="295" y="173" font-size="10.5" fill="#2C2416">限定的</text>
+      <text x="425" y="173" font-size="10.5" fill="#2C2416">△ 限定的</text>
+      <line x1="0" y1="180" x2="510" y2="180" stroke="#E9DFC0"/>
+
+      <!-- Row 6 -->
+      <text x="10" y="203" font-size="10.5" fill="#6B5D3F">差別化</text>
+      <text x="160" y="203" font-size="10.5" fill="#4A8553" font-weight="bold">デザイン特化</text>
+      <text x="295" y="203" font-size="10.5" fill="#2C2416">コード実行</text>
+      <text x="425" y="203" font-size="10.5" fill="#2C2416">Agent 化</text>
+    </g>
+  </g>
+
+  <!-- STICKY NOTES -->
+  <g transform="translate(140 790)">
+    <text x="0" y="-8" font-size="15" font-weight="bold" fill="#6B5D3F">💭 分析メモ</text>
+    <line x1="0" y1="-3" x2="100" y2="-3" stroke="#6FAE75" stroke-width="3" stroke-linecap="round"/>
+
+    <g transform="translate(0 10) rotate(-2)" filter="url(#stickyShadow)">
+      <rect x="0" y="0" width="275" height="175" fill="#FFF2A8" stroke="#D4C268" stroke-width="1"/>
+      <rect x="100" y="-7" width="75" height="18" fill="#F8DB99" opacity="0.85" transform="rotate(-3 137 2)"/>
+      <text x="15" y="28" font-size="14" font-weight="bold" fill="#2C2416">💡 活用シーン</text>
+      <line x1="15" y1="35" x2="135" y2="35" stroke="#D4A147" stroke-width="1.5"/>
+      <text x="15" y="58" font-size="11.5" fill="#2C2416">• 社内提案の1次ドラフト</text>
+      <text x="15" y="74" font-size="11.5" fill="#2C2416">• ワークフロー図作成</text>
+      <text x="15" y="97" font-size="11.5" fill="#2C2416">• KPIダッシュボード</text>
+      <text x="15" y="113" font-size="11.5" fill="#2C2416">　の素案</text>
+      <text x="15" y="136" font-size="11.5" fill="#2C2416">• プロダクトの</text>
+      <text x="15" y="152" font-size="11.5" fill="#2C2416">　ワンページャー生成</text>
+    </g>
+
+    <g transform="translate(290 15) rotate(1.5)" filter="url(#stickyShadow)">
+      <rect x="0" y="0" width="275" height="175" fill="#B8E4C2" stroke="#6FAE75" stroke-width="1"/>
+      <rect x="100" y="-7" width="75" height="18" fill="#9FD1AC" opacity="0.85" transform="rotate(2 137 2)"/>
+      <text x="15" y="28" font-size="14" font-weight="bold" fill="#2C2416">🎯 プロダクト戦略</text>
+      <line x1="15" y1="35" x2="155" y2="35" stroke="#4A8553" stroke-width="1.5"/>
+      <text x="15" y="58" font-size="11.5" fill="#2C2416">• Anthropic Labs を</text>
+      <text x="15" y="74" font-size="11.5" fill="#2C2416">　正式な"発射台"に</text>
+      <text x="15" y="97" font-size="11.5" fill="#2C2416">• マルチモーダル出力で</text>
+      <text x="15" y="113" font-size="11.5" fill="#2C2416">　OpenAI / Google に対抗</text>
+      <text x="15" y="136" font-size="11.5" fill="#2C2416">• Cowork/Platform 統合が</text>
+      <text x="15" y="152" font-size="11.5" fill="#2C2416">　差別化の本丸</text>
+    </g>
+
+    <g transform="translate(580 12) rotate(-1)" filter="url(#stickyShadow)">
+      <rect x="0" y="0" width="275" height="175" fill="#F8C5D4" stroke="#E89AA9" stroke-width="1"/>
+      <rect x="100" y="-7" width="75" height="18" fill="#EDAEBD" opacity="0.85" transform="rotate(-2 137 2)"/>
+      <text x="15" y="28" font-size="14" font-weight="bold" fill="#2C2416">⚠️ 想定される課題</text>
+      <line x1="15" y1="35" x2="155" y2="35" stroke="#B85070" stroke-width="1.5"/>
+      <text x="15" y="58" font-size="11.5" fill="#2C2416">• ブランドキット未対応</text>
+      <text x="15" y="74" font-size="11.5" fill="#2C2416">　→エンタープライズは様子見</text>
+      <text x="15" y="97" font-size="11.5" fill="#2C2416">• 既存デザイン資産の</text>
+      <text x="15" y="113" font-size="11.5" fill="#2C2416">　インポート機能は？</text>
+      <text x="15" y="136" font-size="11.5" fill="#2C2416">• 出力品質のばらつき</text>
+      <text x="15" y="152" font-size="11.5" fill="#2C2416">　（AI生成共通の課題）</text>
+    </g>
+
+    <g transform="translate(870 15) rotate(2)" filter="url(#stickyShadow)">
+      <rect x="0" y="0" width="275" height="175" fill="#C5D9F1" stroke="#8FAFE0" stroke-width="1"/>
+      <rect x="100" y="-7" width="75" height="18" fill="#A5C0E5" opacity="0.85" transform="rotate(3 137 2)"/>
+      <text x="15" y="28" font-size="14" font-weight="bold" fill="#2C2416">🧭 今後の予測</text>
+      <line x1="15" y1="35" x2="140" y2="35" stroke="#3E6BB8" stroke-width="1.5"/>
+      <text x="15" y="58" font-size="11.5" fill="#2C2416">• 次回UPDで</text>
+      <text x="15" y="74" font-size="11.5" fill="#2C2416">　ブランドキット対応？</text>
+      <text x="15" y="97" font-size="11.5" fill="#2C2416">• PowerPoint/Canvaへの</text>
+      <text x="15" y="113" font-size="11.5" fill="#2C2416">　脱却圧が強まる</text>
+      <text x="15" y="136" font-size="11.5" fill="#2C2416">• 社内1次資料の</text>
+      <text x="15" y="152" font-size="11.5" fill="#2C2416">　AI化が標準運用に</text>
+    </g>
+  </g>
+
+  <g transform="translate(140 1005)">
+    <line x1="0" y1="0" x2="1140" y2="0" stroke="#2C2416" stroke-width="0.8" stroke-dasharray="3,4" opacity="0.5"/>
+    <text x="0" y="20" font-size="11" fill="#6B5D3F" font-style="italic">Source: TechCrunch (2026-04-17) · 分析: AI News Daily</text>
+    <text x="1140" y="20" text-anchor="end" font-size="11" fill="#6B5D3F" font-style="italic">🎨 ノート風スライド v2</text>
+  </g>
+
+  <g opacity="0.5" fill="#6FAE75">
+    <path d="M 1300 180 l 3 8 l 8 1 l -6 6 l 2 9 l -7 -4 l -7 4 l 2 -9 l -6 -6 l 8 -1 z"/>
+    <circle cx="1310" cy="780" r="3"/>
+    <circle cx="1305" cy="795" r="2.5"/>
+  </g>
+</svg>

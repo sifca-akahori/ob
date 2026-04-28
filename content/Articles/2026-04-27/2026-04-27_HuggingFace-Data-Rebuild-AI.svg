@@ -1,0 +1,198 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1400 1050" font-family="-apple-system, 'Hiragino Sans', 'Yu Gothic', sans-serif">
+  <defs>
+    <pattern id="paperTexture" patternUnits="userSpaceOnUse" width="100" height="100">
+      <rect width="100" height="100" fill="#FBF8F1"/>
+      <circle cx="20" cy="25" r="0.4" fill="#C4B389" opacity="0.3"/>
+      <circle cx="70" cy="50" r="0.5" fill="#C4B389" opacity="0.3"/>
+    </pattern>
+    <filter id="stickyShadow" x="-10%" y="-10%" width="120%" height="120%">
+      <feGaussianBlur in="SourceAlpha" stdDeviation="3"/>
+      <feOffset dx="2" dy="3"/>
+      <feComponentTransfer><feFuncA type="linear" slope="0.25"/></feComponentTransfer>
+      <feMerge><feMergeNode/><feMergeNode in="SourceGraphic"/></feMerge>
+    </filter>
+    <filter id="softShadow" x="-10%" y="-10%" width="120%" height="120%">
+      <feGaussianBlur in="SourceAlpha" stdDeviation="2"/>
+      <feOffset dx="1" dy="2"/>
+      <feComponentTransfer><feFuncA type="linear" slope="0.18"/></feComponentTransfer>
+      <feMerge><feMergeNode/><feMergeNode in="SourceGraphic"/></feMerge>
+    </filter>
+    <linearGradient id="barBlue" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0%" stop-color="#5B8DEF"/>
+      <stop offset="100%" stop-color="#7BAAF7"/>
+    </linearGradient>
+    <linearGradient id="barGreen" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0%" stop-color="#5CA46E"/>
+      <stop offset="100%" stop-color="#7EC490"/>
+    </linearGradient>
+    <linearGradient id="barOrange" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0%" stop-color="#E8A87C"/>
+      <stop offset="100%" stop-color="#F0C090"/>
+    </linearGradient>
+  </defs>
+
+  <rect width="1400" height="1050" fill="url(#paperTexture)"/>
+  <line x1="118" y1="30" x2="118" y2="1020" stroke="#D88A8A" stroke-width="1.2" opacity="0.4"/>
+
+  <g fill="#E8E2D3" stroke="#C8C0B0" stroke-width="1">
+    <circle cx="50" cy="105" r="12"/>
+    <circle cx="50" cy="260" r="12"/>
+    <circle cx="50" cy="440" r="12"/>
+    <circle cx="50" cy="620" r="12"/>
+    <circle cx="50" cy="800" r="12"/>
+    <circle cx="50" cy="960" r="12"/>
+  </g>
+
+  <!-- Category tape: 研究 (blue) -->
+  <g transform="translate(1145, 25) rotate(-3)">
+    <rect x="0" y="0" width="195" height="38" rx="3" fill="#5B8DEF" stroke="#1A1D24" stroke-width="2" opacity="0.88"/>
+    <text x="97" y="25" text-anchor="middle" font-size="16" font-weight="700" fill="white" letter-spacing="1">#研究</text>
+  </g>
+
+  <rect x="128" y="22" width="180" height="36" rx="4" fill="#2F3842" filter="url(#softShadow)"/>
+  <text x="218" y="46" text-anchor="middle" font-size="15" font-weight="700" fill="#F0EDE8">2026-04-27</text>
+  <text x="335" y="47" font-size="22" fill="#F5B700">⭐⭐</text>
+
+  <!-- Database hero -->
+  <g transform="translate(1230, 72)">
+    <ellipse cx="60" cy="20" rx="52" ry="18" fill="#5B8DEF" stroke="#1A1D24" stroke-width="2.5"/>
+    <rect x="8" y="20" width="104" height="60" fill="#5B8DEF" stroke="#1A1D24" stroke-width="2.5"/>
+    <ellipse cx="60" cy="80" rx="52" ry="18" fill="#3A6DC8" stroke="#1A1D24" stroke-width="2.5"/>
+    <ellipse cx="60" cy="50" rx="52" ry="18" fill="#3A6DC8" stroke="#1A1D24" stroke-width="2" opacity="0.7"/>
+    <text x="60" y="55" text-anchor="middle" font-size="14" font-weight="700" fill="white">DATA</text>
+  </g>
+
+  <!-- Title -->
+  <text x="128" y="108" font-size="36" font-weight="900" fill="#1A1D24">🗄️ AI 時代のデータスタック再構築</text>
+  <text x="128" y="152" font-size="26" font-weight="700" fill="#5B8DEF">「AI の制約はモデルでなくデータ品質」——MIT 200社調査</text>
+
+  <!-- Sub info -->
+  <rect x="128" y="168" width="980" height="34" rx="4" fill="#E8E2D3" stroke="#C8C0B0" stroke-width="1"/>
+  <text x="148" y="190" font-size="13" fill="#5A5248">📰 MIT Technology Review　　📅 2026-04-27　　🏷️ #研究　　🔗 technologyreview.com</text>
+
+  <!-- Key numbers -->
+  <rect x="128" y="215" width="790" height="120" rx="6" fill="white" stroke="#1A1D24" stroke-width="2.5" filter="url(#softShadow)"/>
+  <text x="148" y="240" font-size="13" font-weight="700" fill="#5B8DEF" letter-spacing="2">KEY NUMBERS</text>
+  <line x1="148" y1="246" x2="900" y2="246" stroke="#5B8DEF" stroke-width="1.5"/>
+
+  <g text-anchor="middle">
+    <text x="215" y="285" font-size="38" font-weight="900" fill="#5B8DEF">200+</text>
+    <text x="215" y="308" font-size="12" fill="#5A5248">調査対象エンタープライズ数</text>
+    <line x1="320" y1="258" x2="320" y2="320" stroke="#E8E2D3" stroke-width="1.5"/>
+    <text x="435" y="285" font-size="38" font-weight="900" fill="#1A1D24">90%</text>
+    <text x="435" y="308" font-size="12" fill="#5A5248">データ品質がROI差を説明</text>
+    <line x1="545" y1="258" x2="545" y2="320" stroke="#E8E2D3" stroke-width="1.5"/>
+    <text x="660" y="285" font-size="38" font-weight="900" fill="#5CA46E">2.1M</text>
+    <text x="660" y="308" font-size="12" fill="#5A5248">HuggingFace 月間データセット</text>
+    <line x1="765" y1="258" x2="765" y2="320" stroke="#E8E2D3" stroke-width="1.5"/>
+    <text x="855" y="285" font-size="36" font-weight="900" fill="#1A1D24">3x</text>
+    <text x="855" y="308" font-size="12" fill="#5A5248">データセット Hub はモデル Hub の3倍</text>
+  </g>
+
+  <!-- 3 pillars of data stack -->
+  <rect x="128" y="350" width="790" height="230" rx="6" fill="white" stroke="#1A1D24" stroke-width="2.5" filter="url(#softShadow)"/>
+  <text x="148" y="375" font-size="13" font-weight="700" fill="#1A1D24" letter-spacing="2">AI ROI を決める 3 つのデータ能力</text>
+  <line x1="148" y1="382" x2="900" y2="382" stroke="#1A1D24" stroke-width="1.5"/>
+
+  <!-- Pillar 1 -->
+  <rect x="148" y="398" width="230" height="160" rx="6" fill="#EAF1FB" stroke="#5B8DEF" stroke-width="2.5"/>
+  <text x="263" y="424" text-anchor="middle" font-size="18" fill="#5B8DEF">📋</text>
+  <text x="263" y="448" text-anchor="middle" font-size="14" font-weight="700" fill="#1A1D24">データガバナンス</text>
+  <line x1="168" y1="456" x2="360" y2="456" stroke="#5B8DEF" stroke-width="1"/>
+  <text x="263" y="476" text-anchor="middle" font-size="11" fill="#2F3842">誰がいつ更新したか</text>
+  <text x="263" y="492" text-anchor="middle" font-size="11" fill="#2F3842">を完全追跡。変更の</text>
+  <text x="263" y="508" text-anchor="middle" font-size="11" fill="#2F3842">影響範囲を把握する</text>
+  <text x="263" y="524" text-anchor="middle" font-size="11" fill="#2F3842">能力がROI差を生む</text>
+  <text x="263" y="546" text-anchor="middle" font-size="12" font-weight="700" fill="#5B8DEF">重要度：★★★</text>
+
+  <!-- Pillar 2 -->
+  <rect x="400" y="398" width="230" height="160" rx="6" fill="#E8F4EA" stroke="#5CA46E" stroke-width="2.5"/>
+  <text x="515" y="424" text-anchor="middle" font-size="18" fill="#5CA46E">🔍</text>
+  <text x="515" y="448" text-anchor="middle" font-size="14" font-weight="700" fill="#1A1D24">データリネージュ</text>
+  <line x1="420" y1="456" x2="612" y2="456" stroke="#5CA46E" stroke-width="1"/>
+  <text x="515" y="476" text-anchor="middle" font-size="11" fill="#2F3842">AI の予測根拠データを</text>
+  <text x="515" y="492" text-anchor="middle" font-size="11" fill="#2F3842">追跡。EU AI Act の</text>
+  <text x="515" y="508" text-anchor="middle" font-size="11" fill="#2F3842">説明可能性要件への</text>
+  <text x="515" y="524" text-anchor="middle" font-size="11" fill="#2F3842">対応に必須</text>
+  <text x="515" y="546" text-anchor="middle" font-size="12" font-weight="700" fill="#5CA46E">重要度：★★★</text>
+
+  <!-- Pillar 3 -->
+  <rect x="652" y="398" width="230" height="160" rx="6" fill="#FFF3E0" stroke="#E8A87C" stroke-width="2.5"/>
+  <text x="767" y="424" text-anchor="middle" font-size="18" fill="#E8A87C">🧬</text>
+  <text x="767" y="448" text-anchor="middle" font-size="14" font-weight="700" fill="#1A1D24">合成データ生成</text>
+  <line x1="672" y1="456" x2="864" y2="456" stroke="#E8A87C" stroke-width="1"/>
+  <text x="767" y="476" text-anchor="middle" font-size="11" fill="#2F3842">実データ不足を補う</text>
+  <text x="767" y="492" text-anchor="middle" font-size="11" fill="#2F3842">技術。ただし Model</text>
+  <text x="767" y="508" text-anchor="middle" font-size="11" fill="#2F3842">Collapse リスクあり。</text>
+  <text x="767" y="524" text-anchor="middle" font-size="11" fill="#2F3842">実データ混合が必須</text>
+  <text x="767" y="546" text-anchor="middle" font-size="12" font-weight="700" fill="#E8A87C">重要度：★★☆</text>
+
+  <!-- Sticky notes -->
+  <g transform="translate(938, 215) rotate(-1.5)" filter="url(#stickyShadow)">
+    <rect x="0" y="0" width="218" height="148" rx="4" fill="#EAF1FB" stroke="#5B8DEF" stroke-width="1.5"/>
+    <text x="109" y="24" text-anchor="middle" font-size="13" font-weight="700" fill="#1A1D24">🗄️ DevOps 類似の転換</text>
+    <line x1="15" y1="32" x2="203" y2="32" stroke="#5B8DEF" stroke-width="1"/>
+    <text x="15" y="52" font-size="11" fill="#2F3842">モデル競争が落ち着いた後の</text>
+    <text x="15" y="68" font-size="11" fill="#2F3842">「データ側の革命」はクラウド</text>
+    <text x="15" y="84" font-size="11" fill="#2F3842">移行後の DevOps 革命に類似。</text>
+    <text x="15" y="100" font-size="11" fill="#2F3842">Snowflake・Databricks が</text>
+    <text x="15" y="116" font-size="11" fill="#2F3842">再評価される可能性。</text>
+  </g>
+
+  <g transform="translate(938, 378) rotate(1.0)" filter="url(#stickyShadow)">
+    <rect x="0" y="0" width="218" height="148" rx="4" fill="#C8E6C9" stroke="#4CAF50" stroke-width="1.5"/>
+    <text x="109" y="24" text-anchor="middle" font-size="13" font-weight="700" fill="#1A1D24">🗄️ EU AI Act 接続</text>
+    <line x1="15" y1="32" x2="203" y2="32" stroke="#4CAF50" stroke-width="1"/>
+    <text x="15" y="52" font-size="11" fill="#2F3842">8月2日施行の EU AI Act は</text>
+    <text x="15" y="68" font-size="11" fill="#2F3842">高リスクAI のデータ追跡を</text>
+    <text x="15" y="84" font-size="11" fill="#2F3842">義務付け。リネージュ未整備</text>
+    <text x="15" y="100" font-size="11" fill="#2F3842">は€3,500万の罰則対象。</text>
+    <text x="15" y="116" font-size="11" fill="#2F3842">コンプライアンス需要急増。</text>
+  </g>
+
+  <g transform="translate(938, 545) rotate(-0.8)" filter="url(#stickyShadow)">
+    <rect x="0" y="0" width="218" height="148" rx="4" fill="#FFF9C4" stroke="#E8D84A" stroke-width="1.5"/>
+    <text x="109" y="24" text-anchor="middle" font-size="13" font-weight="700" fill="#1A1D24">🗄️ HF Dataset Hub v2</text>
+    <line x1="15" y1="32" x2="203" y2="32" stroke="#E8D84A" stroke-width="1"/>
+    <text x="15" y="52" font-size="11" fill="#2F3842">今週発表の Dataset Hub v2：</text>
+    <text x="15" y="68" font-size="11" fill="#2F3842">Git 流ブランチ管理・PII</text>
+    <text x="15" y="84" font-size="11" fill="#2F3842">スキャン・合成データ</text>
+    <text x="15" y="100" font-size="11" fill="#2F3842">透明性フラグを追加。</text>
+    <text x="15" y="116" font-size="11" fill="#2F3842">2.1M データセット管理。</text>
+  </g>
+
+  <g transform="translate(938, 712) rotate(1.2)" filter="url(#stickyShadow)">
+    <rect x="0" y="0" width="218" height="148" rx="4" fill="#F8BBD0" stroke="#E91E63" stroke-width="1.5"/>
+    <text x="109" y="24" text-anchor="middle" font-size="13" font-weight="700" fill="#1A1D24">🗄️ 合成データの罠</text>
+    <line x1="15" y1="32" x2="203" y2="32" stroke="#E91E63" stroke-width="1"/>
+    <text x="15" y="52" font-size="11" fill="#2F3842">AI で AI を学習する</text>
+    <text x="15" y="68" font-size="11" fill="#2F3842">「Model Collapse」リスク。</text>
+    <text x="15" y="84" font-size="11" fill="#2F3842">偏りが自己増幅して品質が</text>
+    <text x="15" y="100" font-size="11" fill="#2F3842">劣化。実データとの混合</text>
+    <text x="15" y="116" font-size="11" fill="#2F3842">比率設計が鍵。</text>
+  </g>
+
+  <!-- Data stack layers -->
+  <rect x="128" y="598" width="790" height="215" rx="6" fill="white" stroke="#1A1D24" stroke-width="2.5" filter="url(#softShadow)"/>
+  <text x="148" y="622" font-size="13" font-weight="700" fill="#1A1D24" letter-spacing="2">現代 AI データスタック レイヤー図</text>
+  <line x1="148" y1="629" x2="900" y2="629" stroke="#1A1D24" stroke-width="1.5"/>
+
+  <!-- Stack layers -->
+  <g font-size="12">
+    <rect x="148" y="640" width="710" height="32" rx="4" fill="#EAF1FB" stroke="#5B8DEF" stroke-width="1.5"/>
+    <text x="503" y="661" text-anchor="middle" font-weight="700" fill="#5B8DEF">① AI / ML モデル層</text>
+
+    <rect x="148" y="678" width="710" height="32" rx="4" fill="#E8F4EA" stroke="#5CA46E" stroke-width="1.5"/>
+    <text x="503" y="699" text-anchor="middle" font-weight="700" fill="#5CA46E">② データ準備・品質・リネージュ層（← 差がつく！）</text>
+
+    <rect x="148" y="716" width="710" height="32" rx="4" fill="#FFF3E0" stroke="#E8A87C" stroke-width="1.5"/>
+    <text x="503" y="737" text-anchor="middle" font-weight="700" fill="#E8A87C">③ データストレージ・ウェアハウス層</text>
+
+    <rect x="148" y="754" width="710" height="32" rx="4" fill="#F5F2EC" stroke="#8A8A8A" stroke-width="1.5"/>
+    <text x="503" y="775" text-anchor="middle" fill="#2F3842">④ データソース・インジェスト層</text>
+  </g>
+
+  <!-- Footer -->
+  <line x1="128" y1="840" x2="1340" y2="840" stroke="#C8C0B0" stroke-width="1"/>
+  <text x="128" y="860" font-size="12" fill="#8A8A8A" font-style="italic">AI News · 2026-04-27 · Rebuilding the Data Stack for AI — MIT Technology Review</text>
+</svg>

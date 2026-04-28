@@ -1,0 +1,225 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1400 1050" font-family="-apple-system, 'Hiragino Sans', 'Yu Gothic', sans-serif">
+  <defs>
+    <pattern id="paperTexture" patternUnits="userSpaceOnUse" width="100" height="100">
+      <rect width="100" height="100" fill="#FBF8F1"/>
+      <circle cx="20" cy="25" r="0.4" fill="#C4B389" opacity="0.3"/>
+      <circle cx="70" cy="50" r="0.5" fill="#C4B389" opacity="0.3"/>
+    </pattern>
+    <filter id="stickyShadow" x="-10%" y="-10%" width="120%" height="120%">
+      <feGaussianBlur in="SourceAlpha" stdDeviation="3"/>
+      <feOffset dx="2" dy="3"/>
+      <feComponentTransfer><feFuncA type="linear" slope="0.25"/></feComponentTransfer>
+      <feMerge><feMergeNode/><feMergeNode in="SourceGraphic"/></feMerge>
+    </filter>
+    <filter id="softShadow" x="-10%" y="-10%" width="120%" height="120%">
+      <feGaussianBlur in="SourceAlpha" stdDeviation="2"/>
+      <feOffset dx="1" dy="2"/>
+      <feComponentTransfer><feFuncA type="linear" slope="0.18"/></feComponentTransfer>
+      <feMerge><feMergeNode/><feMergeNode in="SourceGraphic"/></feMerge>
+    </filter>
+    <linearGradient id="barBlue" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0%" stop-color="#5B8DEF"/>
+      <stop offset="100%" stop-color="#7BAAF7"/>
+    </linearGradient>
+    <linearGradient id="barGreen" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0%" stop-color="#5CA46E"/>
+      <stop offset="100%" stop-color="#7EC490"/>
+    </linearGradient>
+    <linearGradient id="barGray" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0%" stop-color="#8A8A8A"/>
+      <stop offset="100%" stop-color="#AAAAAA"/>
+    </linearGradient>
+    <linearGradient id="barOrange" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0%" stop-color="#E8A87C"/>
+      <stop offset="100%" stop-color="#F0C090"/>
+    </linearGradient>
+    <linearGradient id="barRed" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0%" stop-color="#E74C3C"/>
+      <stop offset="100%" stop-color="#F97F66"/>
+    </linearGradient>
+  </defs>
+
+  <rect width="1400" height="1050" fill="url(#paperTexture)"/>
+  <line x1="118" y1="30" x2="118" y2="1020" stroke="#D88A8A" stroke-width="1.2" opacity="0.4"/>
+
+  <g fill="#E8E2D3" stroke="#C8C0B0" stroke-width="1">
+    <circle cx="50" cy="105" r="12"/>
+    <circle cx="50" cy="260" r="12"/>
+    <circle cx="50" cy="440" r="12"/>
+    <circle cx="50" cy="620" r="12"/>
+    <circle cx="50" cy="800" r="12"/>
+    <circle cx="50" cy="960" r="12"/>
+  </g>
+
+  <!-- Category tape: 研究 (blue) -->
+  <g transform="translate(1145, 25) rotate(-3)">
+    <rect x="0" y="0" width="195" height="38" rx="3" fill="#5B8DEF" stroke="#1A1D24" stroke-width="2" opacity="0.88"/>
+    <text x="97" y="25" text-anchor="middle" font-size="16" font-weight="700" fill="white" letter-spacing="1">#研究</text>
+  </g>
+
+  <rect x="128" y="22" width="180" height="36" rx="4" fill="#2F3842" filter="url(#softShadow)"/>
+  <text x="218" y="46" text-anchor="middle" font-size="15" font-weight="700" fill="#F0EDE8">2026-04-27</text>
+  <text x="335" y="47" font-size="22" fill="#F5B700">⭐⭐</text>
+
+  <!-- Globe hero -->
+  <g transform="translate(1230, 75)">
+    <circle cx="60" cy="55" r="52" fill="#5B8DEF" stroke="#1A1D24" stroke-width="3" opacity="0.85"/>
+    <text x="60" y="68" text-anchor="middle" font-size="42" fill="white">🌐</text>
+  </g>
+
+  <!-- Title -->
+  <text x="128" y="108" font-size="36" font-weight="900" fill="#1A1D24">🌐 オープンウェイト AI の逆襲</text>
+  <text x="128" y="152" font-size="28" font-weight="700" fill="#5B8DEF">Qwen3・GLM5・DeepSeek V4 が Llama 4 を超える</text>
+
+  <!-- Sub info -->
+  <rect x="128" y="168" width="980" height="34" rx="4" fill="#E8E2D3" stroke="#C8C0B0" stroke-width="1"/>
+  <text x="148" y="190" font-size="13" fill="#5A5248">📰 Latent Space / r/LocalLLaMA / HuggingFace Blog　　📅 2026-04-27　　🏷️ #研究</text>
+
+  <!-- Key numbers -->
+  <rect x="128" y="215" width="790" height="120" rx="6" fill="white" stroke="#1A1D24" stroke-width="2.5" filter="url(#softShadow)"/>
+  <text x="148" y="240" font-size="13" font-weight="700" fill="#5B8DEF" letter-spacing="2">KEY NUMBERS</text>
+  <line x1="148" y1="246" x2="900" y2="246" stroke="#5B8DEF" stroke-width="1.5"/>
+
+  <g text-anchor="middle">
+    <text x="215" y="285" font-size="38" font-weight="900" fill="#5B8DEF">3.7x</text>
+    <text x="215" y="308" font-size="12" fill="#5A5248">OSS モデル増加（6ヶ月）</text>
+    <line x1="310" y1="258" x2="310" y2="320" stroke="#E8E2D3" stroke-width="1.5"/>
+    <text x="430" y="285" font-size="38" font-weight="900" fill="#1A1D24">67K</text>
+    <text x="430" y="308" font-size="12" fill="#5A5248">HuggingFace 公開モデル数</text>
+    <line x1="540" y1="258" x2="540" y2="320" stroke="#E8E2D3" stroke-width="1.5"/>
+    <text x="645" y="285" font-size="36" font-weight="900" fill="#5CA46E">$0.38</text>
+    <text x="645" y="308" font-size="12" fill="#5A5248">DeepSeek V4 Flash 出力$/M</text>
+    <line x1="750" y1="258" x2="750" y2="320" stroke="#E8E2D3" stroke-width="1.5"/>
+    <text x="840" y="280" font-size="28" font-weight="900" fill="#E74C3C">+8pt</text>
+    <text x="840" y="308" font-size="12" fill="#5A5248">GLM-5 vs Llama 4 Scout GPQA差</text>
+  </g>
+
+  <!-- Model comparison bars -->
+  <rect x="128" y="350" width="790" height="300" rx="6" fill="white" stroke="#1A1D24" stroke-width="2.5" filter="url(#softShadow)"/>
+  <text x="148" y="375" font-size="13" font-weight="700" fill="#1A1D24" letter-spacing="2">オープンウェイト・モデル比較（MMLU + GPQA 総合）</text>
+  <line x1="148" y1="382" x2="900" y2="382" stroke="#1A1D24" stroke-width="1.5"/>
+
+  <!-- Legend -->
+  <rect x="148" y="388" width="14" height="12" fill="#5CA46E"/>
+  <text x="168" y="399" font-size="11" fill="#2F3842">中国系OSS</text>
+  <rect x="260" y="388" width="14" height="12" fill="#5B8DEF"/>
+  <text x="280" y="399" font-size="11" fill="#2F3842">西側OSS</text>
+  <rect x="360" y="388" width="14" height="12" fill="#8A8A8A"/>
+  <text x="380" y="399" font-size="11" fill="#2F3842">クローズドSOTA参考</text>
+
+  <g font-size="12">
+    <!-- Qwen 3.5 70B -->
+    <text x="148" y="435" fill="#2F3842" font-weight="700">Qwen 3.5-70B（Alibaba）</text>
+    <rect x="330" y="420" width="385" height="22" rx="3" fill="url(#barGreen)" stroke="#1A1D24" stroke-width="1.5"/>
+    <text x="721" y="435" font-weight="700" fill="#5CA46E">77.1%</text>
+    <text x="780" y="435" font-size="11" fill="#5A5248">⭐ コミュニティ最推奨</text>
+
+    <!-- GLM-5 -->
+    <text x="148" y="475" fill="#2F3842" font-weight="700">GLM-5-120B（Zhipu AI）</text>
+    <rect x="330" y="460" width="360" height="22" rx="3" fill="url(#barGreen)" stroke="#1A1D24" stroke-width="1"/>
+    <text x="696" y="475" fill="#5CA46E">72.0%</text>
+
+    <!-- DeepSeek V4 Flash -->
+    <text x="148" y="515" fill="#2F3842" font-weight="700">DeepSeek V4 Flash</text>
+    <rect x="330" y="500" width="340" height="22" rx="3" fill="url(#barGreen)" stroke="#1A1D24" stroke-width="1"/>
+    <text x="676" y="515" fill="#5CA46E">68.1%</text>
+    <text x="700" y="515" font-size="11" fill="#8A8A8A">  $0.38/M 最安</text>
+
+    <!-- Llama 4 Scout -->
+    <text x="148" y="555" fill="#2F3842" font-weight="600">Llama 4 Scout（Meta）</text>
+    <rect x="330" y="540" width="316" height="22" rx="3" fill="url(#barBlue)" stroke="#1A1D24" stroke-width="1"/>
+    <text x="652" y="555" fill="#5B8DEF">63.2%</text>
+
+    <!-- Gemma 4 12B -->
+    <text x="148" y="595" fill="#2F3842" font-weight="600">Gemma 4-12B（Google）</text>
+    <rect x="330" y="580" width="296" height="22" rx="3" fill="url(#barBlue)" stroke="#1A1D24" stroke-width="1"/>
+    <text x="632" y="595" fill="#5B8DEF">59.3%</text>
+
+    <!-- Claude Opus 4.7 参考 -->
+    <text x="148" y="635" fill="#8A8A8A">Claude Opus 4.7（参考）</text>
+    <rect x="330" y="620" width="428" height="22" rx="3" fill="url(#barGray)" stroke="#1A1D24" stroke-width="1" opacity="0.6"/>
+    <text x="764" y="635" fill="#8A8A8A">85.7%（クローズド）</text>
+  </g>
+
+  <!-- Sticky notes -->
+  <g transform="translate(938, 215) rotate(-1.5)" filter="url(#stickyShadow)">
+    <rect x="0" y="0" width="218" height="148" rx="4" fill="#E8F4EA" stroke="#5CA46E" stroke-width="1.5"/>
+    <text x="109" y="24" text-anchor="middle" font-size="13" font-weight="700" fill="#1A1D24">🌐 Qwen 強さの秘密</text>
+    <line x1="15" y1="32" x2="203" y2="32" stroke="#5CA46E" stroke-width="1"/>
+    <text x="15" y="52" font-size="11" fill="#2F3842">中国語・数学・コード</text>
+    <text x="15" y="68" font-size="11" fill="#2F3842">の大量データ + RL 精度。</text>
+    <text x="15" y="84" font-size="11" fill="#2F3842">GPT-5 比 1/15 以下の</text>
+    <text x="15" y="100" font-size="11" fill="#2F3842">訓練コストでコスパ最強。</text>
+    <text x="15" y="116" font-size="11" fill="#2F3842">DPO/GRPO を積極活用。</text>
+  </g>
+
+  <g transform="translate(938, 378) rotate(1.0)" filter="url(#stickyShadow)">
+    <rect x="0" y="0" width="218" height="148" rx="4" fill="#FFCDD2" stroke="#E74C3C" stroke-width="1.5"/>
+    <text x="109" y="24" text-anchor="middle" font-size="13" font-weight="700" fill="#1A1D24">🌐 Meta 背信の衝撃</text>
+    <line x1="15" y1="32" x2="203" y2="32" stroke="#E74C3C" stroke-width="1"/>
+    <text x="15" y="52" font-size="11" fill="#2F3842">Muse Spark クローズド化で</text>
+    <text x="15" y="68" font-size="11" fill="#2F3842">「Llama の守護者」神話崩壊。</text>
+    <text x="15" y="84" font-size="11" fill="#2F3842">r/LocalLLaMA は怒りの声多数。</text>
+    <text x="15" y="100" font-size="11" fill="#2F3842">「Llama 5 も closed になるか」</text>
+    <text x="15" y="116" font-size="11" fill="#2F3842">という懸念が浮上。</text>
+  </g>
+
+  <g transform="translate(938, 545) rotate(-0.8)" filter="url(#stickyShadow)">
+    <rect x="0" y="0" width="218" height="148" rx="4" fill="#FFF9C4" stroke="#E8D84A" stroke-width="1.5"/>
+    <text x="109" y="24" text-anchor="middle" font-size="13" font-weight="700" fill="#1A1D24">🌐 67K の「中身」問題</text>
+    <line x1="15" y1="32" x2="203" y2="32" stroke="#E8D84A" stroke-width="1"/>
+    <text x="15" y="52" font-size="11" fill="#2F3842">67K 中、実用水準のモデルは</text>
+    <text x="15" y="68" font-size="11" fill="#2F3842">約12%という分析。大半は</text>
+    <text x="15" y="84" font-size="11" fill="#2F3842">finetune・LoRA アダプタ。</text>
+    <text x="15" y="100" font-size="11" fill="#2F3842">数値の膨張が「使えるモデル」</text>
+    <text x="15" y="116" font-size="11" fill="#2F3842">探しを困難にしている。</text>
+  </g>
+
+  <g transform="translate(938, 712) rotate(1.2)" filter="url(#stickyShadow)">
+    <rect x="0" y="0" width="218" height="148" rx="4" fill="#EAF1FB" stroke="#5B8DEF" stroke-width="1.5"/>
+    <text x="109" y="24" text-anchor="middle" font-size="13" font-weight="700" fill="#1A1D24">🌐 安保リスクの高まり</text>
+    <line x1="15" y1="32" x2="203" y2="32" stroke="#5B8DEF" stroke-width="1"/>
+    <text x="15" y="52" font-size="11" fill="#2F3842">中国系モデルが西側 OSS を</text>
+    <text x="15" y="68" font-size="11" fill="#2F3842">性能・コストで上回れば、</text>
+    <text x="15" y="84" font-size="11" fill="#2F3842">輸出規制・使用禁止令の</text>
+    <text x="15" y="100" font-size="11" fill="#2F3842">リスクが国際的に高まる。</text>
+    <text x="15" y="116" font-size="11" fill="#2F3842">企業調達は慎重な検討が必要。</text>
+  </g>
+
+  <!-- Community Top picks -->
+  <rect x="128" y="668" width="790" height="155" rx="6" fill="white" stroke="#1A1D24" stroke-width="2.5" filter="url(#softShadow)"/>
+  <text x="148" y="692" font-size="13" font-weight="700" fill="#1A1D24" letter-spacing="2">r/LocalLLaMA コミュニティ推奨モデル（2026年4月）</text>
+  <line x1="148" y1="699" x2="900" y2="699" stroke="#1A1D24" stroke-width="1.5"/>
+
+  <g font-size="11" fill="#2F3842">
+    <rect x="148" y="708" width="175" height="100" rx="5" fill="#E8F4EA" stroke="#5CA46E" stroke-width="2"/>
+    <text x="235" y="730" text-anchor="middle" font-size="12" font-weight="700" fill="#5CA46E">汎用 / チャット</text>
+    <text x="235" y="750" text-anchor="middle">Qwen 3.5-32B</text>
+    <text x="235" y="768" text-anchor="middle" fill="#8A8A8A">コスパ最強</text>
+    <text x="235" y="786" text-anchor="middle" fill="#5A5248">M4 Mac でも動作</text>
+    <text x="235" y="800" text-anchor="middle" fill="#5A5248">Apple Silicon 対応</text>
+
+    <rect x="340" y="708" width="175" height="100" rx="5" fill="#EAF1FB" stroke="#5B8DEF" stroke-width="2"/>
+    <text x="427" y="730" text-anchor="middle" font-size="12" font-weight="700" fill="#5B8DEF">コーディング</text>
+    <text x="427" y="750" text-anchor="middle">DeepSeek V4 Flash</text>
+    <text x="427" y="768" text-anchor="middle" fill="#8A8A8A">API / ローカル両用</text>
+    <text x="427" y="786" text-anchor="middle" fill="#5A5248">$0.38/M で最安</text>
+    <text x="427" y="800" text-anchor="middle" fill="#5A5248">SWE-bench 高精度</text>
+
+    <rect x="532" y="708" width="175" height="100" rx="5" fill="#EDE7F6" stroke="#8B7DB8" stroke-width="2"/>
+    <text x="619" y="730" text-anchor="middle" font-size="12" font-weight="700" fill="#8B7DB8">多言語</text>
+    <text x="619" y="750" text-anchor="middle">Qwen 3.5-70B</text>
+    <text x="619" y="768" text-anchor="middle" fill="#8A8A8A">日中英 SOTA</text>
+    <text x="619" y="786" text-anchor="middle" fill="#5A5248">日本語性能が特に優秀</text>
+
+    <rect x="724" y="708" width="175" height="100" rx="5" fill="#FFF9C4" stroke="#E8D84A" stroke-width="2"/>
+    <text x="811" y="730" text-anchor="middle" font-size="12" font-weight="700" fill="#C0A020">ローカル軽量</text>
+    <text x="811" y="750" text-anchor="middle">Gemma 4-4B</text>
+    <text x="811" y="768" text-anchor="middle" fill="#8A8A8A">4GB VRAM で動作</text>
+    <text x="811" y="786" text-anchor="middle" fill="#5A5248">スマホ・エッジ向け</text>
+  </g>
+
+  <!-- Footer -->
+  <line x1="128" y1="850" x2="1340" y2="850" stroke="#C8C0B0" stroke-width="1"/>
+  <text x="128" y="870" font-size="12" fill="#8A8A8A" font-style="italic">AI News · 2026-04-27 · Open-Weight AI Strikes Back: Qwen3, GLM5, DeepSeek V4 Surpass Llama 4</text>
+</svg>

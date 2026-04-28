@@ -1,0 +1,296 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1400 1050" font-family="-apple-system, 'Hiragino Sans', 'Yu Gothic', sans-serif">
+  <defs>
+    <pattern id="paperTexture" x="0" y="0" width="100" height="100" patternUnits="userSpaceOnUse">
+      <rect width="100" height="100" fill="#FBF8F1"/>
+      <circle cx="12" cy="18" r="0.5" fill="#E8E2D3" opacity="0.6"/>
+      <circle cx="43" cy="7" r="0.4" fill="#E8E2D3" opacity="0.5"/>
+      <circle cx="72" cy="34" r="0.5" fill="#E8E2D3" opacity="0.6"/>
+      <circle cx="88" cy="62" r="0.4" fill="#E8E2D3" opacity="0.5"/>
+      <circle cx="28" cy="77" r="0.5" fill="#E8E2D3" opacity="0.6"/>
+      <circle cx="55" cy="92" r="0.4" fill="#E8E2D3" opacity="0.5"/>
+    </pattern>
+    <filter id="softShadow" x="-20%" y="-20%" width="140%" height="140%">
+      <feGaussianBlur in="SourceAlpha" stdDeviation="3"/>
+      <feOffset dx="2" dy="3" result="offsetblur"/>
+      <feComponentTransfer><feFuncA type="linear" slope="0.22"/></feComponentTransfer>
+      <feMerge><feMergeNode/><feMergeNode in="SourceGraphic"/></feMerge>
+    </filter>
+    <filter id="stickyShadow" x="-20%" y="-20%" width="140%" height="140%">
+      <feGaussianBlur in="SourceAlpha" stdDeviation="2"/>
+      <feOffset dx="2" dy="4" result="offsetblur"/>
+      <feComponentTransfer><feFuncA type="linear" slope="0.3"/></feComponentTransfer>
+      <feMerge><feMergeNode/><feMergeNode in="SourceGraphic"/></feMerge>
+    </filter>
+  </defs>
+
+  <!-- Background: paper -->
+  <rect x="0" y="0" width="1400" height="1050" fill="url(#paperTexture)"/>
+
+  <!-- Binding holes -->
+  <circle cx="40" cy="120" r="8" fill="#E8E2D3"/>
+  <circle cx="40" cy="280" r="8" fill="#E8E2D3"/>
+  <circle cx="40" cy="440" r="8" fill="#E8E2D3"/>
+  <circle cx="40" cy="600" r="8" fill="#E8E2D3"/>
+  <circle cx="40" cy="760" r="8" fill="#E8E2D3"/>
+  <circle cx="40" cy="920" r="8" fill="#E8E2D3"/>
+
+  <!-- Category tape (SNS - orange) -->
+  <g transform="translate(1180, 40) rotate(-3)">
+    <rect x="0" y="0" width="170" height="40" fill="#E8A87C" opacity="0.85"/>
+    <text x="85" y="27" font-size="18" font-weight="700" fill="#FFFFFF" text-anchor="middle" letter-spacing="3">#SNS</text>
+  </g>
+
+  <!-- Date badge -->
+  <g transform="translate(90, 50)">
+    <rect x="0" y="0" width="170" height="38" rx="4" fill="#2F3842"/>
+    <text x="85" y="25" font-size="16" font-weight="700" fill="#FFFFFF" text-anchor="middle" letter-spacing="2">2026 · 04 · 20</text>
+  </g>
+
+  <!-- Title -->
+  <text x="90" y="130" font-size="40" font-weight="900" fill="#1A1D24" letter-spacing="1">⏰ フロンティアAIが</text>
+  <text x="90" y="178" font-size="40" font-weight="900" fill="#1A1D24" letter-spacing="1">アナログ時計を読めない問題</text>
+  <line x1="90" y1="198" x2="760" y2="198" stroke="#1A1D24" stroke-width="4" stroke-linecap="round"/>
+  <line x1="90" y1="208" x2="380" y2="208" stroke="#E8A87C" stroke-width="2" stroke-linecap="round"/>
+  <text x="90" y="240" font-size="18" font-weight="500" fill="#5C6371" letter-spacing="1">Hacker News · 2026-04 · マルチモーダル評価の議論</text>
+
+  <!-- HERO: Analog clock mascot with ??? -->
+  <g transform="translate(1050, 110)" filter="url(#softShadow)">
+    <!-- Clock face -->
+    <circle cx="140" cy="140" r="110" fill="#FFFFFF" stroke="#1A1D24" stroke-width="5"/>
+    <circle cx="140" cy="140" r="110" fill="none" stroke="#E8A87C" stroke-width="2" stroke-dasharray="4 5"/>
+    <!-- Hour markers -->
+    <text x="140" y="52" font-size="18" font-weight="800" fill="#1A1D24" text-anchor="middle">12</text>
+    <text x="228" y="147" font-size="18" font-weight="800" fill="#1A1D24" text-anchor="middle">3</text>
+    <text x="140" y="235" font-size="18" font-weight="800" fill="#1A1D24" text-anchor="middle">6</text>
+    <text x="52" y="147" font-size="18" font-weight="800" fill="#1A1D24" text-anchor="middle">9</text>
+    <!-- Tick marks -->
+    <g stroke="#5C6371" stroke-width="2" stroke-linecap="round">
+      <line x1="140" y1="38" x2="140" y2="48"/>
+      <line x1="242" y1="140" x2="232" y2="140"/>
+      <line x1="140" y1="242" x2="140" y2="232"/>
+      <line x1="38" y1="140" x2="48" y2="140"/>
+    </g>
+    <!-- Hands pointing to ~10:10 -->
+    <line x1="140" y1="140" x2="100" y2="95" stroke="#1A1D24" stroke-width="5" stroke-linecap="round"/>
+    <line x1="140" y1="140" x2="180" y2="95" stroke="#1A1D24" stroke-width="3" stroke-linecap="round"/>
+    <circle cx="140" cy="140" r="7" fill="#1A1D24"/>
+    <!-- Thinking bubble with ??? -->
+    <g transform="translate(250, 60)">
+      <ellipse cx="0" cy="0" rx="44" ry="28" fill="#FFFFFF" stroke="#1A1D24" stroke-width="2.5"/>
+      <text x="0" y="9" font-size="28" font-weight="900" fill="#E8A87C" text-anchor="middle">?!?</text>
+      <circle cx="-30" cy="15" r="5" fill="#FFFFFF" stroke="#1A1D24" stroke-width="2"/>
+      <circle cx="-40" cy="24" r="3" fill="#FFFFFF" stroke="#1A1D24" stroke-width="1.5"/>
+    </g>
+    <!-- Confused AI label -->
+    <rect x="55" y="275" width="170" height="28" rx="14" fill="#1A1D24"/>
+    <text x="140" y="294" font-size="14" font-weight="800" fill="#FFFFFF" text-anchor="middle" letter-spacing="2">AI: 読めない...</text>
+  </g>
+
+  <!-- MAIN ACCURACY BAR CHART -->
+  <g transform="translate(90, 290)">
+    <text x="0" y="0" font-size="20" font-weight="800" fill="#1A1D24">📊 アナログ時計読解精度</text>
+    <line x1="0" y1="8" x2="270" y2="8" stroke="#1A1D24" stroke-width="2"/>
+    <text x="280" y="4" font-size="12" font-style="italic" fill="#8D9199">※ベンチマーク数値とのギャップ</text>
+
+    <rect x="0" y="20" width="900" height="280" rx="6" fill="#FFFFFF" stroke="#1A1D24" stroke-width="2" filter="url(#softShadow)"/>
+
+    <!-- Y-axis scale -->
+    <g transform="translate(100, 50)">
+      <!-- grid lines -->
+      <line x1="0" y1="0" x2="740" y2="0" stroke="#E8E8E8" stroke-width="1"/>
+      <line x1="0" y1="50" x2="740" y2="50" stroke="#E8E8E8" stroke-width="1" stroke-dasharray="2 3"/>
+      <line x1="0" y1="100" x2="740" y2="100" stroke="#E8E8E8" stroke-width="1" stroke-dasharray="2 3"/>
+      <line x1="0" y1="150" x2="740" y2="150" stroke="#E8E8E8" stroke-width="1" stroke-dasharray="2 3"/>
+      <line x1="0" y1="200" x2="740" y2="200" stroke="#1A1D24" stroke-width="2"/>
+
+      <text x="-10" y="5" font-size="11" fill="#5C6371" text-anchor="end">100%</text>
+      <text x="-10" y="55" font-size="11" fill="#5C6371" text-anchor="end">75%</text>
+      <text x="-10" y="105" font-size="11" fill="#5C6371" text-anchor="end">50%</text>
+      <text x="-10" y="155" font-size="11" fill="#5C6371" text-anchor="end">25%</text>
+      <text x="-10" y="205" font-size="11" fill="#5C6371" text-anchor="end">0%</text>
+
+      <!-- Human baseline reference line -->
+      <line x1="0" y1="0" x2="740" y2="0" stroke="#5CA46E" stroke-width="2.5" stroke-dasharray="6 4"/>
+      <rect x="600" y="-22" width="140" height="18" rx="3" fill="#EAF5E8" stroke="#5CA46E" stroke-width="1"/>
+      <text x="670" y="-9" font-size="11" font-weight="700" fill="#2E6B3F" text-anchor="middle">人間: ~99% (想定)</text>
+
+      <!-- Bar 1: GPT-5.4 (50%) -->
+      <g transform="translate(60, 0)">
+        <rect x="0" y="100" width="140" height="100" fill="#E8A87C" stroke="#1A1D24" stroke-width="2"/>
+        <rect x="0" y="100" width="140" height="8" fill="#C98A60"/>
+        <text x="70" y="92" font-size="28" font-weight="900" fill="#1A1D24" text-anchor="middle">~50%</text>
+        <text x="70" y="225" font-size="15" font-weight="800" fill="#1A1D24" text-anchor="middle">GPT-5.4</text>
+        <text x="70" y="245" font-size="12" fill="#5C6371" text-anchor="middle">OpenAI</text>
+      </g>
+
+      <!-- Bar 2: Claude Opus 4.6 (8.9%) -->
+      <g transform="translate(260, 0)">
+        <rect x="0" y="182" width="140" height="18" fill="#E8A87C" stroke="#1A1D24" stroke-width="2"/>
+        <rect x="0" y="182" width="140" height="4" fill="#C98A60"/>
+        <text x="70" y="172" font-size="24" font-weight="900" fill="#1A1D24" text-anchor="middle">8.9%</text>
+        <text x="70" y="225" font-size="15" font-weight="800" fill="#1A1D24" text-anchor="middle">Claude Opus 4.6</text>
+        <text x="70" y="245" font-size="12" fill="#5C6371" text-anchor="middle">Anthropic</text>
+      </g>
+
+      <!-- Bar 3: MMMU benchmark (reference ~93%) -->
+      <g transform="translate(460, 0)">
+        <rect x="0" y="14" width="140" height="186" fill="#B8CFF4" stroke="#1A1D24" stroke-width="2" stroke-dasharray="4 3"/>
+        <rect x="0" y="14" width="140" height="6" fill="#7DA5E0"/>
+        <text x="70" y="6" font-size="26" font-weight="900" fill="#1A1D24" text-anchor="middle">~93%</text>
+        <text x="70" y="225" font-size="14" font-weight="800" fill="#5B8DEF" text-anchor="middle">MMMU Bench</text>
+        <text x="70" y="245" font-size="12" fill="#5C6371" text-anchor="middle">参考 (マルチモーダル)</text>
+      </g>
+
+      <!-- Gap annotation arrow between clock & MMMU -->
+      <g>
+        <path d="M 130 100 Q 350 -40 600 14" fill="none" stroke="#E8A87C" stroke-width="2" stroke-dasharray="5 3"/>
+        <text x="370" y="-20" font-size="12" font-weight="700" fill="#E8A87C" text-anchor="middle">乖離</text>
+      </g>
+    </g>
+
+    <!-- Side Commentary -->
+    <g transform="translate(920, 20)">
+      <text x="0" y="10" font-size="15" font-weight="800" fill="#1A1D24">🧩 何が起きている？</text>
+      <line x1="0" y1="18" x2="220" y2="18" stroke="#1A1D24" stroke-width="1.5"/>
+      <text x="0" y="40" font-size="12" font-weight="700" fill="#3A3D44">▸ ベンチマークでは</text>
+      <text x="0" y="58" font-size="12" fill="#5C6371">  各社90%台に到達</text>
+      <text x="0" y="86" font-size="12" font-weight="700" fill="#3A3D44">▸ 現実の常識タスク</text>
+      <text x="0" y="104" font-size="12" fill="#5C6371">  では大崩れする</text>
+      <text x="0" y="132" font-size="12" font-weight="700" fill="#E8A87C">▸ この乖離 = 評価設計</text>
+      <text x="0" y="150" font-size="12" font-weight="700" fill="#E8A87C">  そのものへの疑問</text>
+
+      <rect x="0" y="170" width="220" height="80" rx="4" fill="#FDF4EC" stroke="#E8A87C" stroke-width="1.5"/>
+      <text x="110" y="190" font-size="12" font-weight="800" fill="#3A3D44" text-anchor="middle">🌐 HN での反応</text>
+      <text x="10" y="210" font-size="10.5" fill="#5C6371">・「ベンチマーク特化学習」</text>
+      <text x="10" y="224" font-size="10.5" fill="#5C6371">  の限界を示す好例</text>
+      <text x="10" y="240" font-size="10.5" fill="#5C6371">・常識推論ベンチの提案</text>
+    </g>
+  </g>
+
+  <!-- WHY SO HARD: 視覚的抽象化のプロセス -->
+  <g transform="translate(90, 620)">
+    <text x="0" y="0" font-size="20" font-weight="800" fill="#1A1D24">🎯 なぜアナログ時計は難しい？</text>
+    <line x1="0" y1="8" x2="330" y2="8" stroke="#1A1D24" stroke-width="2"/>
+
+    <rect x="0" y="20" width="1220" height="170" rx="6" fill="#FFFFFF" stroke="#1A1D24" stroke-width="2" filter="url(#softShadow)"/>
+
+    <!-- Step 1: Image -->
+    <g transform="translate(40, 50)">
+      <rect x="0" y="0" width="180" height="120" rx="6" fill="#F4F5F7" stroke="#1A1D24" stroke-width="1.5"/>
+      <text x="90" y="22" font-size="13" font-weight="800" fill="#1A1D24" text-anchor="middle">① 画像</text>
+      <circle cx="90" cy="70" r="32" fill="#FFFFFF" stroke="#1A1D24" stroke-width="2"/>
+      <line x1="90" y1="70" x2="75" y2="50" stroke="#1A1D24" stroke-width="2.5"/>
+      <line x1="90" y1="70" x2="105" y2="55" stroke="#1A1D24" stroke-width="1.5"/>
+      <circle cx="90" cy="70" r="3" fill="#1A1D24"/>
+      <text x="90" y="110" font-size="11" fill="#5C6371" text-anchor="middle">ピクセル入力</text>
+    </g>
+
+    <text x="242" y="115" font-size="24" font-weight="900" fill="#1A1D24">→</text>
+
+    <!-- Step 2: Angle detection -->
+    <g transform="translate(280, 50)">
+      <rect x="0" y="0" width="220" height="120" rx="6" fill="#F4F5F7" stroke="#1A1D24" stroke-width="1.5"/>
+      <text x="110" y="22" font-size="13" font-weight="800" fill="#1A1D24" text-anchor="middle">② 針の角度を検出</text>
+      <g transform="translate(110, 70)">
+        <circle cx="0" cy="0" r="24" fill="none" stroke="#1A1D24" stroke-width="1.5" stroke-dasharray="2 2"/>
+        <line x1="0" y1="0" x2="-14" y2="-20" stroke="#E8A87C" stroke-width="2.5"/>
+        <path d="M -14 -20 A 24 24 0 0 0 0 -24" fill="none" stroke="#E8A87C" stroke-width="1.5"/>
+        <text x="-22" y="-28" font-size="10" font-weight="700" fill="#E8A87C">θ</text>
+        <text x="0" y="40" font-size="10" fill="#5C6371" text-anchor="middle">連続値</text>
+      </g>
+    </g>
+
+    <text x="522" y="115" font-size="24" font-weight="900" fill="#1A1D24">→</text>
+
+    <!-- Step 3: Geometric mapping -->
+    <g transform="translate(560, 50)">
+      <rect x="0" y="0" width="220" height="120" rx="6" fill="#FDF4EC" stroke="#E8A87C" stroke-width="2.5"/>
+      <text x="110" y="22" font-size="13" font-weight="800" fill="#E8A87C" text-anchor="middle">③ 12時間系にマッピング</text>
+      <text x="110" y="58" font-size="11" font-weight="700" fill="#3A3D44" text-anchor="middle">θ短針 × 12/360 = 時</text>
+      <text x="110" y="76" font-size="11" font-weight="700" fill="#3A3D44" text-anchor="middle">θ長針 × 60/360 = 分</text>
+      <rect x="30" y="92" width="160" height="20" rx="2" fill="#FFFFFF" stroke="#E8A87C" stroke-width="1"/>
+      <text x="110" y="106" font-size="11" font-weight="800" fill="#E8A87C" text-anchor="middle">🎯 ボトルネック</text>
+    </g>
+
+    <text x="802" y="115" font-size="24" font-weight="900" fill="#1A1D24">→</text>
+
+    <!-- Step 4: Time label -->
+    <g transform="translate(840, 50)">
+      <rect x="0" y="0" width="180" height="120" rx="6" fill="#F4F5F7" stroke="#1A1D24" stroke-width="1.5"/>
+      <text x="90" y="22" font-size="13" font-weight="800" fill="#1A1D24" text-anchor="middle">④ 時刻ラベル</text>
+      <rect x="20" y="44" width="140" height="40" rx="4" fill="#1A1D24"/>
+      <text x="90" y="71" font-size="24" font-weight="900" fill="#FFFFFF" text-anchor="middle">10:10</text>
+      <text x="90" y="107" font-size="11" fill="#5C6371" text-anchor="middle">離散出力</text>
+    </g>
+
+    <!-- Bottom: Similar hard tasks -->
+    <g transform="translate(1060, 50)">
+      <rect x="0" y="0" width="150" height="120" rx="6" fill="#FFFFFF" stroke="#1A1D24" stroke-width="1.5" stroke-dasharray="4 3"/>
+      <text x="75" y="20" font-size="12" font-weight="800" fill="#1A1D24" text-anchor="middle">類似の難題</text>
+      <text x="75" y="42" font-size="10" fill="#5C6371" text-anchor="middle">📏 目盛り付き定規</text>
+      <text x="75" y="60" font-size="10" fill="#5C6371" text-anchor="middle">🌡️ アナログ温度計</text>
+      <text x="75" y="78" font-size="10" fill="#5C6371" text-anchor="middle">🗺️ 等高線図</text>
+      <text x="75" y="96" font-size="10" fill="#5C6371" text-anchor="middle">🎚️ 計器・メーター</text>
+      <text x="75" y="114" font-size="10" font-style="italic" fill="#8D9199" text-anchor="middle">幾何学的推論</text>
+    </g>
+  </g>
+
+  <!-- 4 STICKY NOTES -->
+  <g transform="translate(90, 830)">
+    <!-- Note 1 -->
+    <g transform="translate(0, 0) rotate(-1.2)" filter="url(#stickyShadow)">
+      <rect x="0" y="0" width="300" height="170" fill="#FDF4EC"/>
+      <rect x="0" y="0" width="300" height="28" fill="#F3C9A8"/>
+      <text x="150" y="19" font-size="13" font-weight="800" fill="#3A3D44" text-anchor="middle">📉 ベンチとのギャップ</text>
+      <text x="15" y="50" font-size="12" fill="#3A3D44">主要マルチモーダルベンチ</text>
+      <text x="15" y="68" font-size="12" fill="#3A3D44">では各社90%超。</text>
+      <text x="15" y="94" font-size="12" fill="#3A3D44">でも常識タスクで大崩れ。</text>
+      <text x="15" y="120" font-size="11" font-weight="700" fill="#1A1D24">→ 評価指標は実世界能力の</text>
+      <text x="15" y="138" font-size="11" font-weight="700" fill="#1A1D24">   代理指標として不十分。</text>
+      <text x="15" y="157" font-size="11" font-weight="700" fill="#E8A87C">自社評価が必須。</text>
+    </g>
+
+    <!-- Note 2 -->
+    <g transform="translate(320, 0) rotate(1)" filter="url(#stickyShadow)">
+      <rect x="0" y="0" width="300" height="170" fill="#E8F0FD"/>
+      <rect x="0" y="0" width="300" height="28" fill="#B8CFF4"/>
+      <text x="150" y="19" font-size="13" font-weight="800" fill="#3A3D44" text-anchor="middle">⚖️ GPT と Claude の差</text>
+      <text x="15" y="50" font-size="12" fill="#3A3D44">GPT-5.4: ~50%</text>
+      <text x="15" y="68" font-size="12" fill="#3A3D44">Claude 4.6: 8.9%</text>
+      <text x="15" y="94" font-size="12" font-weight="700" fill="#1A1D24">5倍以上の差 = 学習データ</text>
+      <text x="15" y="112" font-size="12" font-weight="700" fill="#1A1D24">の組み方の違いが出やすい。</text>
+      <text x="15" y="138" font-size="11" font-style="italic" fill="#5C6371">Opus 4.7 でこの指標は</text>
+      <text x="15" y="155" font-size="11" font-style="italic" fill="#5C6371">改善されたか要検証。</text>
+    </g>
+
+    <!-- Note 3 -->
+    <g transform="translate(640, 0) rotate(-0.8)" filter="url(#stickyShadow)">
+      <rect x="0" y="0" width="300" height="170" fill="#EAF5E8"/>
+      <rect x="0" y="0" width="300" height="28" fill="#B8DFB4"/>
+      <text x="150" y="19" font-size="13" font-weight="800" fill="#3A3D44" text-anchor="middle">🆕 新ベンチの動き</text>
+      <text x="15" y="50" font-size="12" fill="#3A3D44">複数の研究チームが</text>
+      <text x="15" y="68" font-size="12" fill="#3A3D44">「マルチモーダル常識推論」</text>
+      <text x="15" y="86" font-size="12" fill="#3A3D44">ベンチを予告。</text>
+      <text x="15" y="114" font-size="11" font-weight="700" fill="#1A1D24">NeurIPS / CVPR 2026 H2 で</text>
+      <text x="15" y="132" font-size="11" font-weight="700" fill="#1A1D24">大きなトレンドになる</text>
+      <text x="15" y="150" font-size="11" font-weight="700" fill="#1A1D24">可能性が高い。</text>
+    </g>
+
+    <!-- Note 4 -->
+    <g transform="translate(960, 0) rotate(1.5)" filter="url(#stickyShadow)">
+      <rect x="0" y="0" width="300" height="170" fill="#FAEDE8"/>
+      <rect x="0" y="0" width="300" height="28" fill="#E8C3B8"/>
+      <text x="150" y="19" font-size="13" font-weight="800" fill="#3A3D44" text-anchor="middle">🛠️ 実務への示唆</text>
+      <text x="15" y="50" font-size="12" fill="#3A3D44">画像系AIの導入は</text>
+      <text x="15" y="68" font-size="12" fill="#3A3D44">「自社データで小規模評価</text>
+      <text x="15" y="86" font-size="12" fill="#3A3D44"> → 本番導入」が鉄則。</text>
+      <text x="15" y="114" font-size="11" font-weight="700" fill="#1A1D24">① ベンチ外タスクで試行</text>
+      <text x="15" y="132" font-size="11" font-weight="700" fill="#1A1D24">② 失敗パターン収集</text>
+      <text x="15" y="150" font-size="11" font-weight="700" fill="#1A1D24">③ プロンプト/RAG 補強</text>
+    </g>
+  </g>
+
+  <!-- Footer -->
+  <text x="700" y="1030" font-size="11" fill="#A8ACB4" text-anchor="middle" font-style="italic">AI News · 2026-04-20 · Frontier AI Cannot Read Analog Clocks — ベンチマークと常識タスクの乖離</text>
+
+</svg>

@@ -1,0 +1,207 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1400 1050" font-family="-apple-system, 'Hiragino Sans', 'Yu Gothic', sans-serif">
+  <defs>
+    <pattern id="paperTexture" x="0" y="0" width="4" height="4" patternUnits="userSpaceOnUse">
+      <rect width="4" height="4" fill="#FBF8F1"/>
+      <circle cx="1" cy="1" r="0.4" fill="#E8E0D0" opacity="0.5"/>
+      <circle cx="3" cy="3" r="0.3" fill="#E8E0D0" opacity="0.4"/>
+    </pattern>
+    <filter id="softShadow" x="-5%" y="-5%" width="115%" height="115%">
+      <feDropShadow dx="2" dy="3" stdDeviation="4" flood-color="#1A1D24" flood-opacity="0.15"/>
+    </filter>
+    <filter id="stickyShadow" x="-10%" y="-10%" width="130%" height="130%">
+      <feDropShadow dx="3" dy="4" stdDeviation="5" flood-color="#1A1D24" flood-opacity="0.2"/>
+    </filter>
+  </defs>
+
+  <!-- Background -->
+  <rect width="1400" height="1050" fill="url(#paperTexture)"/>
+
+  <!-- Left binding -->
+  <rect x="0" y="0" width="48" height="1050" fill="#EDE8DC" stroke="#D4CCB8" stroke-width="1"/>
+  <circle cx="24" cy="100" r="14" fill="#FBF8F1" stroke="#C8BFA8" stroke-width="2"/>
+  <circle cx="24" cy="100" r="7" fill="#D4CCB8"/>
+  <circle cx="24" cy="250" r="14" fill="#FBF8F1" stroke="#C8BFA8" stroke-width="2"/>
+  <circle cx="24" cy="250" r="7" fill="#D4CCB8"/>
+  <circle cx="24" cy="420" r="14" fill="#FBF8F1" stroke="#C8BFA8" stroke-width="2"/>
+  <circle cx="24" cy="420" r="7" fill="#D4CCB8"/>
+  <circle cx="24" cy="600" r="14" fill="#FBF8F1" stroke="#C8BFA8" stroke-width="2"/>
+  <circle cx="24" cy="600" r="7" fill="#D4CCB8"/>
+  <circle cx="24" cy="780" r="14" fill="#FBF8F1" stroke="#C8BFA8" stroke-width="2"/>
+  <circle cx="24" cy="780" r="7" fill="#D4CCB8"/>
+  <circle cx="24" cy="940" r="14" fill="#FBF8F1" stroke="#C8BFA8" stroke-width="2"/>
+  <circle cx="24" cy="940" r="7" fill="#D4CCB8"/>
+
+  <!-- Category tape: 論文 = #8B7DB8 (purple) -->
+  <g transform="translate(1200,32) rotate(-3)">
+    <rect x="-70" y="-18" width="200" height="36" fill="#8B7DB8" stroke="#1A1D24" stroke-width="2" rx="3"/>
+    <text x="30" y="6" text-anchor="middle" font-size="16" font-weight="700" fill="#FBF8F1" letter-spacing="1">#論文</text>
+  </g>
+
+  <!-- Date badge -->
+  <rect x="68" y="22" width="160" height="34" rx="4" fill="#2F3842" filter="url(#softShadow)"/>
+  <text x="148" y="44" text-anchor="middle" font-size="14" font-weight="700" fill="#FBF8F1" letter-spacing="1">2026-04-21</text>
+
+  <!-- ===== HEADER ===== -->
+  <rect x="68" y="72" width="1296" height="120" rx="4" fill="none" stroke="#1A1D24" stroke-width="2.5"/>
+  <rect x="68" y="72" width="6" height="120" fill="#8B7DB8"/>
+  <text x="96" y="120" font-size="38" font-weight="900" fill="#1A1D24">📦 Google TurboQuant——KVキャッシュを最大6倍圧縮（ICLR 2026）</text>
+  <text x="96" y="162" font-size="22" font-weight="400" fill="#555">再学習不要のオンラインベクトル量子化 · Google Research / ICLR 2026 · #LLM推論 #量子化</text>
+
+  <!-- ===== HERO ICON ===== -->
+  <g transform="translate(1220,270)">
+    <rect x="-70" y="-70" width="140" height="140" rx="16" fill="#F0EDF8" stroke="#1A1D24" stroke-width="3"/>
+    <text x="0" y="20" text-anchor="middle" font-size="64">📦</text>
+    <text x="0" y="55" text-anchor="middle" font-size="12" fill="#3A3A3A" font-weight="600">KV Cache</text>
+  </g>
+
+  <!-- ===== KEY NUMBERS ===== -->
+  <rect x="68" y="210" width="290" height="130" rx="6" fill="#F0EDF8" stroke="#1A1D24" stroke-width="2.5" filter="url(#softShadow)"/>
+  <text x="213" y="255" text-anchor="middle" font-size="52" font-weight="900" fill="#8B7DB8">6x</text>
+  <text x="213" y="278" text-anchor="middle" font-size="14" fill="#444">KVキャッシュ圧縮率</text>
+  <text x="213" y="296" text-anchor="middle" font-size="11" fill="#888">（最大値 / 品質損失ほぼゼロ）</text>
+  <text x="213" y="318" text-anchor="middle" font-size="12" fill="#777">出典: Google Research Blog</text>
+
+  <rect x="380" y="210" width="290" height="130" rx="6" fill="#F0EDF8" stroke="#1A1D24" stroke-width="2.5" filter="url(#softShadow)"/>
+  <text x="525" y="255" text-anchor="middle" font-size="52" font-weight="900" fill="#8B7DB8">8x</text>
+  <text x="525" y="278" text-anchor="middle" font-size="14" fill="#444">アテンション計算高速化</text>
+  <text x="525" y="296" text-anchor="middle" font-size="11" fill="#888">（比較: 標準FP16キャッシュ）</text>
+  <text x="525" y="318" text-anchor="middle" font-size="12" fill="#777">出典: Google Research Blog</text>
+
+  <rect x="692" y="210" width="290" height="130" rx="6" fill="#F0EDF8" stroke="#1A1D24" stroke-width="2.5" filter="url(#softShadow)"/>
+  <text x="837" y="255" text-anchor="middle" font-size="44" font-weight="900" fill="#8B7DB8">99.5%</text>
+  <text x="837" y="278" text-anchor="middle" font-size="14" fill="#444">アテンション精度維持率</text>
+  <text x="837" y="296" text-anchor="middle" font-size="11" fill="#888">（3ビット量子化設定）</text>
+  <text x="837" y="318" text-anchor="middle" font-size="12" fill="#777">出典: OSS実装ベンチマーク</text>
+
+  <!-- ===== MAIN VISUAL: 2-Stage Pipeline ===== -->
+  <rect x="68" y="360" width="1100" height="280" rx="6" fill="white" stroke="#1A1D24" stroke-width="2" filter="url(#softShadow)"/>
+  <text x="88" y="390" font-size="16" font-weight="700" fill="#1A1D24">■ TurboQuant 2段階圧縮パイプライン</text>
+
+  <!-- Stage 1 box -->
+  <rect x="100" y="410" width="280" height="200" rx="8" fill="#F0EDF8" stroke="#8B7DB8" stroke-width="2.5"/>
+  <text x="240" y="440" text-anchor="middle" font-size="14" font-weight="700" fill="#8B7DB8">Stage 1: PolarQuant</text>
+  <text x="240" y="465" text-anchor="middle" font-size="12" fill="#333">ランダム直交回転</text>
+  <text x="240" y="485" text-anchor="middle" font-size="12" fill="#333">（エネルギー均等分散）</text>
+  <text x="240" y="520" text-anchor="middle" font-size="28">🔄</text>
+  <text x="240" y="560" text-anchor="middle" font-size="11" fill="#555">各KVベクトルに回転行列を適用</text>
+  <text x="240" y="578" text-anchor="middle" font-size="11" fill="#555">→ 統計分布が予測可能に</text>
+
+  <!-- Arrow -->
+  <line x1="390" y1="510" x2="460" y2="510" stroke="#1A1D24" stroke-width="2.5"/>
+  <polygon points="460,504 475,510 460,516" fill="#1A1D24"/>
+
+  <!-- Stage 2 box -->
+  <rect x="480" y="410" width="280" height="200" rx="8" fill="#F0EDF8" stroke="#8B7DB8" stroke-width="2.5"/>
+  <text x="620" y="440" text-anchor="middle" font-size="14" font-weight="700" fill="#8B7DB8">Stage 2: Lloyd-Max量子化</text>
+  <text x="620" y="465" text-anchor="middle" font-size="12" fill="#333">数学的最適バケット算出</text>
+  <text x="620" y="485" text-anchor="middle" font-size="12" fill="#333">（キャリブレーション不要）</text>
+  <text x="620" y="520" text-anchor="middle" font-size="28">🗜️</text>
+  <text x="620" y="560" text-anchor="middle" font-size="11" fill="#555">3bit(key) / 2bit(value) へ圧縮</text>
+  <text x="620" y="578" text-anchor="middle" font-size="11" fill="#555">→ 全Transformerに適用可能</text>
+
+  <!-- Arrow -->
+  <line x1="770" y1="510" x2="840" y2="510" stroke="#1A1D24" stroke-width="2.5"/>
+  <polygon points="840,504 855,510 840,516" fill="#1A1D24"/>
+
+  <!-- Result box -->
+  <rect x="860" y="430" width="280" height="160" rx="8" fill="#2F3842" stroke="#1A1D24" stroke-width="2.5"/>
+  <text x="1000" y="470" text-anchor="middle" font-size="15" font-weight="700" fill="#FBF8F1">✅ 圧縮結果</text>
+  <text x="1000" y="500" text-anchor="middle" font-size="32" font-weight="900" fill="#8B7DB8">6x 圧縮</text>
+  <text x="1000" y="528" text-anchor="middle" font-size="13" fill="#CCC">品質損失: ほぼゼロ</text>
+  <text x="1000" y="550" text-anchor="middle" font-size="13" fill="#CCC">再学習: 不要</text>
+  <text x="1000" y="572" text-anchor="middle" font-size="13" fill="#CCC">対応範囲: 全Transformer</text>
+
+  <!-- ===== FEATURE CARDS ===== -->
+  <!-- Card 1 -->
+  <rect x="68" y="660" width="230" height="130" rx="6" fill="white" stroke="#1A1D24" stroke-width="2"/>
+  <rect x="68" y="660" width="230" height="6" rx="3" fill="#8B7DB8"/>
+  <text x="183" y="700" text-anchor="middle" font-size="22">🚫</text>
+  <text x="183" y="726" text-anchor="middle" font-size="14" font-weight="700" fill="#1A1D24">キャリブレーション不要</text>
+  <text x="183" y="747" text-anchor="middle" font-size="11" fill="#555">訓練データ・モデル固有の</text>
+  <text x="183" y="763" text-anchor="middle" font-size="11" fill="#555">チューニング一切不要</text>
+
+  <!-- Card 2 -->
+  <rect x="320" y="660" width="230" height="130" rx="6" fill="white" stroke="#1A1D24" stroke-width="2"/>
+  <rect x="320" y="660" width="230" height="6" rx="3" fill="#8B7DB8"/>
+  <text x="435" y="700" text-anchor="middle" font-size="22">🔧</text>
+  <text x="435" y="726" text-anchor="middle" font-size="14" font-weight="700" fill="#1A1D24">後付け統合</text>
+  <text x="435" y="747" text-anchor="middle" font-size="11" fill="#555">既存モデルに対して</text>
+  <text x="435" y="763" text-anchor="middle" font-size="11" fill="#555">事後適用が可能</text>
+
+  <!-- Card 3 -->
+  <rect x="572" y="660" width="230" height="130" rx="6" fill="white" stroke="#1A1D24" stroke-width="2"/>
+  <rect x="572" y="660" width="230" height="6" rx="3" fill="#8B7DB8"/>
+  <text x="687" y="700" text-anchor="middle" font-size="22">⚡</text>
+  <text x="687" y="726" text-anchor="middle" font-size="14" font-weight="700" fill="#1A1D24">OSS実装 5本以上</text>
+  <text x="687" y="747" text-anchor="middle" font-size="11" fill="#555">PyTorch / Triton Kernel</text>
+  <text x="687" y="763" text-anchor="middle" font-size="11" fill="#555">/ llama.cpp 統合 PR済み</text>
+
+  <!-- Card 4 -->
+  <rect x="824" y="660" width="230" height="130" rx="6" fill="white" stroke="#1A1D24" stroke-width="2"/>
+  <rect x="824" y="660" width="230" height="6" rx="3" fill="#8B7DB8"/>
+  <text x="939" y="700" text-anchor="middle" font-size="22">💾</text>
+  <text x="939" y="726" text-anchor="middle" font-size="14" font-weight="700" fill="#1A1D24">実効VRAMを6倍に</text>
+  <text x="939" y="747" text-anchor="middle" font-size="11" fill="#555">A100 80GB 1枚で扱える</text>
+  <text x="939" y="763" text-anchor="middle" font-size="11" fill="#555">コンテキスト長が実質6倍</text>
+
+  <!-- ===== STICKY NOTES ===== -->
+  <!-- Sticky 1 -->
+  <g transform="translate(800,355) rotate(-1.5)" filter="url(#stickyShadow)">
+    <rect x="0" y="0" width="170" height="290" rx="3" fill="#FFF7E0" stroke="#E8D88A" stroke-width="1.5"/>
+    <rect x="0" y="0" width="170" height="28" rx="3" fill="#F5E560" stroke="#E8D88A" stroke-width="1.5"/>
+    <text x="85" y="18" text-anchor="middle" font-size="12" font-weight="700" fill="#5A4A00">🎬 Pied Piper呼称の含意</text>
+    <text x="10" y="52" font-size="11" fill="#3A3A3A">TechCrunchがSilicon Valley</text>
+    <text x="10" y="70" font-size="11" fill="#3A3A3A">の架空圧縮ALGOと比喩</text>
+    <text x="10" y="95" font-size="11" fill="#3A3A3A">「任意ベクトルに適用可」</text>
+    <text x="10" y="113" font-size="11" fill="#3A3A3A">という普遍性への評価</text>
+    <text x="10" y="145" font-size="11" fill="#555">これ以前の手法は全て</text>
+    <text x="10" y="163" font-size="11" fill="#555">モデル固有調整が必要</text>
+    <text x="10" y="181" font-size="11" fill="#555">→ 業界標準化の可能性</text>
+  </g>
+
+  <!-- Sticky 2 -->
+  <g transform="translate(990,358) rotate(1.2)" filter="url(#stickyShadow)">
+    <rect x="0" y="0" width="170" height="290" rx="3" fill="#E8F0FD" stroke="#A8C4F5" stroke-width="1.5"/>
+    <rect x="0" y="0" width="170" height="28" rx="3" fill="#90B8F8" stroke="#A8C4F5" stroke-width="1.5"/>
+    <text x="85" y="18" text-anchor="middle" font-size="12" font-weight="700" fill="#0A2D6E">📉 コスト構造への影響</text>
+    <text x="10" y="52" font-size="11" fill="#1A2A3A">KVキャッシュ削減は</text>
+    <text x="10" y="70" font-size="11" fill="#1A2A3A">APIプロバイダの</text>
+    <text x="10" y="88" font-size="11" fill="#1A2A3A">GPU VRAM費用に直結</text>
+    <text x="10" y="116" font-size="11" fill="#1A2A3A">ローカル推論(llama.cpp)でも</text>
+    <text x="10" y="134" font-size="11" fill="#1A2A3A">効果大 → 民主化加速</text>
+    <text x="10" y="162" font-size="11" fill="#2A3A5A">1M tokenモデルの</text>
+    <text x="10" y="180" font-size="11" fill="#2A3A5A">ローカル実行が現実味</text>
+  </g>
+
+  <!-- Sticky 3 -->
+  <g transform="translate(1180,355) rotate(-0.8)" filter="url(#stickyShadow)">
+    <rect x="0" y="0" width="170" height="290" rx="3" fill="#EAF5E8" stroke="#9FD4A0" stroke-width="1.5"/>
+    <rect x="0" y="0" width="170" height="28" rx="3" fill="#7CC97E" stroke="#9FD4A0" stroke-width="1.5"/>
+    <text x="85" y="18" text-anchor="middle" font-size="12" font-weight="700" fill="#0D4A10">⚠️ ベンチ解釈の注意</text>
+    <text x="10" y="52" font-size="11" fill="#1A3A1A">Perplexity指標での</text>
+    <text x="10" y="70" font-size="11" fill="#1A3A1A">「品質損失ほぼゼロ」</text>
+    <text x="10" y="95" font-size="11" fill="#1A3A1A">コーディング・数学推論</text>
+    <text x="10" y="113" font-size="11" fill="#1A3A1A">タスクでの影響は未検証</text>
+    <text x="10" y="145" font-size="11" fill="#2A4A2A">競合(KIVI/SnapKV)との</text>
+    <text x="10" y="163" font-size="11" fill="#2A4A2A">直接比較も必要</text>
+    <text x="10" y="181" font-size="11" fill="#2A4A2A">独立検証待ちの段階</text>
+  </g>
+
+  <!-- Sticky 4 -->
+  <g transform="translate(68,800) rotate(1.5)" filter="url(#stickyShadow)">
+    <rect x="0" y="0" width="170" height="230" rx="3" fill="#FAEDE8" stroke="#F0A898" stroke-width="1.5"/>
+    <rect x="0" y="0" width="170" height="28" rx="3" fill="#F08870" stroke="#F0A898" stroke-width="1.5"/>
+    <text x="85" y="18" text-anchor="middle" font-size="12" font-weight="700" fill="#5A0A00">🔬 他手法との関係</text>
+    <text x="10" y="52" font-size="11" fill="#3A1A1A">KIVI・SnapKV・GQAとは</text>
+    <text x="10" y="70" font-size="11" fill="#3A1A1A">直交的に組合せ可能</text>
+    <text x="10" y="95" font-size="11" fill="#3A1A1A">推論スタックの標準</text>
+    <text x="10" y="113" font-size="11" fill="#3A1A1A">KV圧縮レイヤーに</text>
+    <text x="10" y="131" font-size="11" fill="#3A1A1A">なる可能性大</text>
+    <text x="10" y="160" font-size="11" fill="#555">vLLM統合PRが</text>
+    <text x="10" y="178" font-size="11" fill="#555">既に提出済み</text>
+  </g>
+
+  <!-- ===== FOOTER ===== -->
+  <line x1="68" y1="1018" x2="1364" y2="1018" stroke="#C8BFA8" stroke-width="1"/>
+  <text x="716" y="1038" text-anchor="middle" font-size="12" font-style="italic" fill="#999">AI News · 2026-04-21 · TurboQuant: Near-optimal KV Cache Quantization for LLM Inference (ICLR 2026)</text>
+</svg>

@@ -1,0 +1,252 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1400 1050" font-family="-apple-system, 'Hiragino Sans', 'Yu Gothic', sans-serif">
+  <defs>
+    <pattern id="paperTexture" patternUnits="userSpaceOnUse" width="100" height="100">
+      <rect width="100" height="100" fill="#FBF8F1"/>
+      <circle cx="22" cy="15" r="0.4" fill="#C4B389" opacity="0.3"/>
+      <circle cx="67" cy="54" r="0.5" fill="#C4B389" opacity="0.3"/>
+      <circle cx="44" cy="80" r="0.3" fill="#C4B389" opacity="0.3"/>
+    </pattern>
+    <linearGradient id="highlighterOrange2" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#FFD4B0" stop-opacity="0.85"/>
+      <stop offset="100%" stop-color="#F0A870" stop-opacity="0.7"/>
+    </linearGradient>
+    <linearGradient id="barOpenClaw" x1="0" y1="1" x2="0" y2="0">
+      <stop offset="0%" stop-color="#E8A87C"/>
+      <stop offset="100%" stop-color="#F8C890"/>
+    </linearGradient>
+    <linearGradient id="barHistoric" x1="0" y1="1" x2="0" y2="0">
+      <stop offset="0%" stop-color="#8B8B8B"/>
+      <stop offset="100%" stop-color="#BBBBBB"/>
+    </linearGradient>
+    <filter id="stickyShadow" x="-10%" y="-10%" width="120%" height="120%">
+      <feGaussianBlur in="SourceAlpha" stdDeviation="3"/>
+      <feOffset dx="2" dy="3" result="offsetblur"/>
+      <feComponentTransfer><feFuncA type="linear" slope="0.25"/></feComponentTransfer>
+      <feMerge><feMergeNode/><feMergeNode in="SourceGraphic"/></feMerge>
+    </filter>
+    <filter id="softShadow" x="-10%" y="-10%" width="120%" height="120%">
+      <feGaussianBlur in="SourceAlpha" stdDeviation="2"/>
+      <feOffset dx="1" dy="2" result="offsetblur"/>
+      <feComponentTransfer><feFuncA type="linear" slope="0.18"/></feComponentTransfer>
+      <feMerge><feMergeNode/><feMergeNode in="SourceGraphic"/></feMerge>
+    </filter>
+  </defs>
+
+  <rect width="1400" height="1050" fill="url(#paperTexture)"/>
+  <line x1="115" y1="30" x2="115" y2="1020" stroke="#D88A8A" stroke-width="1.2" opacity="0.4"/>
+
+  <!-- Binding holes -->
+  <g fill="#E8E2D3" stroke="#C8C0B0" stroke-width="1">
+    <circle cx="50" cy="100" r="12"/><circle cx="50" cy="280" r="12"/>
+    <circle cx="50" cy="460" r="12"/><circle cx="50" cy="640" r="12"/>
+    <circle cx="50" cy="820" r="12"/><circle cx="50" cy="960" r="12"/>
+  </g>
+  <g fill="#FBF8F1">
+    <circle cx="50" cy="100" r="8"/><circle cx="50" cy="280" r="8"/>
+    <circle cx="50" cy="460" r="8"/><circle cx="50" cy="640" r="8"/>
+    <circle cx="50" cy="820" r="8"/><circle cx="50" cy="960" r="8"/>
+  </g>
+
+  <!-- Washi tape -->
+  <g transform="rotate(-2.5 230 48)">
+    <rect x="130" y="28" width="210" height="38" fill="#E8A87C" rx="3" opacity="0.85"/>
+    <text x="235" y="52" text-anchor="middle" font-size="14" font-weight="bold" fill="#FFFFFF">SNS · 2026.04.26</text>
+  </g>
+  <g transform="rotate(-3 1280 55)">
+    <rect x="1165" y="30" width="145" height="36" fill="#E8A87C" rx="3" opacity="0.9"/>
+    <text x="1237" y="53" text-anchor="middle" font-size="14" font-weight="bold" fill="#FFFFFF">#SNS</text>
+  </g>
+  <g transform="translate(1170 82)">
+    <rect x="0" y="0" width="150" height="50" fill="#2F3842" rx="4"/>
+    <text x="75" y="22" text-anchor="middle" font-size="11" fill="#A0B4C0">2026-04-26</text>
+    <text x="75" y="40" text-anchor="middle" font-size="13" fill="#FFFFFF" font-weight="bold">⭐⭐ Medium</text>
+  </g>
+
+  <!-- Title -->
+  <path d="M 140 112 Q 700 107, 1100 109 L 1100 166 Q 700 170, 140 166 Z" fill="url(#highlighterOrange2)" opacity="0.8"/>
+  <text x="155" y="155" font-size="40" font-weight="900" fill="#1A1D24">🦞 OpenClaw — GitHub 史上最速 347K ⭐ 達成</text>
+  <text x="155" y="195" font-size="17" fill="#E8A87C" font-style="italic" font-weight="bold">React・Vue・TensorFlow を超えるスター速度 — 12K ⭐/日のピーク</text>
+
+  <!-- Key numbers hero -->
+  <rect x="140" y="220" width="1160" height="100" fill="#FFFFFF" stroke="#1A1D24" stroke-width="2" rx="8" filter="url(#softShadow)"/>
+  <rect x="140" y="220" width="8" height="100" fill="#E8A87C" rx="2"/>
+  <g transform="translate(170 233)">
+    <rect x="0" y="0" width="155" height="65" fill="#FFF8F0" stroke="#E8A87C" stroke-width="1.5" rx="6"/>
+    <text x="77" y="20" text-anchor="middle" font-size="10" fill="#E8A87C" font-weight="bold">GitHub Stars</text>
+    <text x="77" y="50" text-anchor="middle" font-size="28" font-weight="bold" fill="#1A1D24">347K ⭐</text>
+  </g>
+  <g transform="translate(355 233)">
+    <rect x="0" y="0" width="155" height="65" fill="#FFF8F0" stroke="#E8A87C" stroke-width="1.5" rx="6"/>
+    <text x="77" y="20" text-anchor="middle" font-size="10" fill="#E8A87C" font-weight="bold">ピーク速度</text>
+    <text x="77" y="50" text-anchor="middle" font-size="28" font-weight="bold" fill="#1A1D24">12K/日</text>
+  </g>
+  <g transform="translate(540 233)">
+    <rect x="0" y="0" width="155" height="65" fill="#F0FAF3" stroke="#5CA46E" stroke-width="1.5" rx="6"/>
+    <text x="77" y="20" text-anchor="middle" font-size="10" fill="#5CA46E" font-weight="bold">ライセンス</text>
+    <text x="77" y="50" text-anchor="middle" font-size="28" font-weight="bold" fill="#1A1D24">MIT 無料</text>
+  </g>
+  <g transform="translate(725 233)">
+    <rect x="0" y="0" width="155" height="65" fill="#F8F8F8" stroke="#888" stroke-width="1.5" rx="6"/>
+    <text x="77" y="20" text-anchor="middle" font-size="10" fill="#888" font-weight="bold">動作環境</text>
+    <text x="77" y="50" text-anchor="middle" font-size="24" font-weight="bold" fill="#1A1D24">Any OS</text>
+  </g>
+  <g transform="translate(910 233)">
+    <rect x="0" y="0" width="155" height="65" fill="#F0F5FF" stroke="#5B8DEF" stroke-width="1.5" rx="6"/>
+    <text x="77" y="20" text-anchor="middle" font-size="10" fill="#5B8DEF" font-weight="bold">テンプレ数</text>
+    <text x="77" y="50" text-anchor="middle" font-size="28" font-weight="bold" fill="#1A1D24">162本</text>
+  </g>
+  <g transform="translate(1095 233)">
+    <rect x="0" y="0" width="180" height="65" fill="#FFF0F0" stroke="#E05050" stroke-width="1.5" rx="6"/>
+    <text x="90" y="20" text-anchor="middle" font-size="10" fill="#E05050" font-weight="bold">Ent. 機能</text>
+    <text x="90" y="42" text-anchor="middle" font-size="14" font-weight="bold" fill="#1A1D24">監査ログ</text>
+    <text x="90" y="60" text-anchor="middle" font-size="14" font-weight="bold" fill="#1A1D24">細粒度パーミ</text>
+  </g>
+
+  <!-- Stars comparison chart (horizontal bars, stars to reach 100K) -->
+  <rect x="140" y="345" width="650" height="290" fill="#FFFFFF" stroke="#1A1D24" stroke-width="2" rx="8" filter="url(#softShadow)"/>
+  <rect x="140" y="345" width="650" height="34" fill="#1A1D24" rx="8"/>
+  <rect x="140" y="365" width="650" height="14" fill="#1A1D24"/>
+  <text x="465" y="367" text-anchor="middle" font-size="14" font-weight="bold" fill="#FFFFFF">⭐ GitHub Stars 到達速度比較（100K まで）</text>
+
+  <g transform="translate(165 395)">
+    <!-- X axis: days -->
+    <line x1="145" y1="220" x2="600" y2="220" stroke="#888" stroke-width="1"/>
+    <text x="145" y="235" font-size="10" fill="#888" text-anchor="middle">0</text>
+    <text x="260" y="235" font-size="10" fill="#888" text-anchor="middle">100</text>
+    <text x="375" y="235" font-size="10" fill="#888" text-anchor="middle">200</text>
+    <text x="490" y="235" font-size="10" fill="#888" text-anchor="middle">300日</text>
+
+    <!-- OpenClaw (fastest, 9 days) -->
+    <text x="0" y="30" font-size="12" font-weight="bold" fill="#E8A87C">OpenClaw（2026）</text>
+    <rect x="145" y="13" width="41" height="22" fill="#E8A87C" rx="3" stroke="#C87848" stroke-width="2"/>
+    <text x="193" y="28" font-size="12" font-weight="bold" fill="#C87848">9日!</text>
+
+    <!-- React -->
+    <text x="0" y="80" font-size="12" fill="#888">React（2013〜）</text>
+    <rect x="145" y="63" width="276" height="20" fill="url(#barHistoric)" rx="3" opacity="0.6"/>
+    <text x="429" y="78" font-size="11" fill="#666">約240日</text>
+
+    <!-- Vue.js -->
+    <text x="0" y="125" font-size="12" fill="#888">Vue.js（2014〜）</text>
+    <rect x="145" y="108" width="322" height="20" fill="url(#barHistoric)" rx="3" opacity="0.5"/>
+    <text x="475" y="123" font-size="11" fill="#666">約280日</text>
+
+    <!-- TensorFlow -->
+    <text x="0" y="170" font-size="12" fill="#888">TensorFlow（2015〜）</text>
+    <rect x="145" y="153" width="265" height="20" fill="url(#barHistoric)" rx="3" opacity="0.45"/>
+    <text x="418" y="168" font-size="11" fill="#666">約230日</text>
+
+    <!-- MemPalace -->
+    <text x="0" y="215" font-size="12" fill="#888">MemPalace（2026）</text>
+    <rect x="145" y="198" width="46" height="20" fill="#F0C890" rx="3" opacity="0.8"/>
+    <text x="198" y="213" font-size="11" fill="#888">※47K時点</text>
+  </g>
+  <text x="465" y="622" text-anchor="middle" font-size="10" fill="#888" font-style="italic">※ OpenClawは100K到達に約9日（推定）</text>
+
+  <!-- Feature diagram on right -->
+  <rect x="820" y="345" width="480" height="290" fill="#FFFFFF" stroke="#1A1D24" stroke-width="2" rx="8" filter="url(#softShadow)"/>
+  <rect x="820" y="345" width="480" height="34" fill="#1A1D24" rx="8"/>
+  <rect x="820" y="365" width="480" height="14" fill="#1A1D24"/>
+  <text x="1060" y="367" text-anchor="middle" font-size="14" font-weight="bold" fill="#FFFFFF">🦞 OpenClaw アーキテクチャ</text>
+
+  <g transform="translate(845 392)">
+    <!-- Center LLM box -->
+    <rect x="155" y="80" width="120" height="50" fill="#E8A87C" stroke="#1A1D24" stroke-width="2" rx="6"/>
+    <text x="215" y="102" text-anchor="middle" font-size="13" font-weight="bold" fill="#FFFFFF">🦞 LLM</text>
+    <text x="215" y="120" text-anchor="middle" font-size="11" fill="#FFFFFF">Engine</text>
+
+    <!-- Connections -->
+    <!-- Shell -->
+    <rect x="0" y="0" width="130" height="45" fill="#FFF8F0" stroke="#E8A87C" stroke-width="1.5" rx="5"/>
+    <text x="65" y="20" text-anchor="middle" font-size="12" font-weight="bold" fill="#2C2416">🖥️ Shell</text>
+    <text x="65" y="36" text-anchor="middle" font-size="11" fill="#555">コマンド実行</text>
+    <line x1="130" y1="22" x2="155" y2="100" stroke="#E8A87C" stroke-width="1.5" stroke-dasharray="4,3"/>
+
+    <!-- Files -->
+    <rect x="300" y="0" width="130" height="45" fill="#FFF8F0" stroke="#E8A87C" stroke-width="1.5" rx="5"/>
+    <text x="365" y="20" text-anchor="middle" font-size="12" font-weight="bold" fill="#2C2416">📁 Files</text>
+    <text x="365" y="36" text-anchor="middle" font-size="11" fill="#555">ファイル操作</text>
+    <line x1="300" y1="22" x2="275" y2="100" stroke="#E8A87C" stroke-width="1.5" stroke-dasharray="4,3"/>
+
+    <!-- Web -->
+    <rect x="0" y="165" width="130" height="45" fill="#FFF8F0" stroke="#E8A87C" stroke-width="1.5" rx="5"/>
+    <text x="65" y="185" text-anchor="middle" font-size="12" font-weight="bold" fill="#2C2416">🌐 Web</text>
+    <text x="65" y="201" text-anchor="middle" font-size="11" fill="#555">ブラウジング</text>
+    <line x1="130" y1="185" x2="155" y2="135" stroke="#E8A87C" stroke-width="1.5" stroke-dasharray="4,3"/>
+
+    <!-- API -->
+    <rect x="300" y="165" width="130" height="45" fill="#FFF8F0" stroke="#E8A87C" stroke-width="1.5" rx="5"/>
+    <text x="365" y="185" text-anchor="middle" font-size="12" font-weight="bold" fill="#2C2416">🔌 APIs</text>
+    <text x="365" y="201" text-anchor="middle" font-size="11" fill="#555">外部サービス</text>
+    <line x1="300" y1="185" x2="275" y2="135" stroke="#E8A87C" stroke-width="1.5" stroke-dasharray="4,3"/>
+
+    <!-- Bottom label -->
+    <text x="215" y="230" text-anchor="middle" font-size="12" fill="#888" font-style="italic">完全ローカル動作・プライバシー保護</text>
+  </g>
+
+  <!-- 4 cards -->
+  <g transform="translate(140 660)">
+    <rect x="0" y="0" width="268" height="80" fill="#FFFFFF" stroke="#1A1D24" stroke-width="2" rx="8" filter="url(#softShadow)"/>
+    <rect x="0" y="0" width="268" height="6" fill="#E8A87C" rx="4"/>
+    <text x="134" y="24" text-anchor="middle" font-size="13" font-weight="bold" fill="#2C2416">🚀 爆発要因</text>
+    <text x="134" y="42" text-anchor="middle" font-size="11" fill="#555">「実際に動く」デモ動画が</text>
+    <text x="134" y="58" text-anchor="middle" font-size="11" fill="#555">SNSで連鎖的に拡散</text>
+    <text x="134" y="74" text-anchor="middle" font-size="11" fill="#E8A87C">→ YouTube × HN相乗効果</text>
+
+    <rect x="296" y="0" width="268" height="80" fill="#FFFFFF" stroke="#1A1D24" stroke-width="2" rx="8" filter="url(#softShadow)"/>
+    <rect x="296" y="0" width="268" height="6" fill="#5B8DEF" rx="4"/>
+    <text x="430" y="24" text-anchor="middle" font-size="13" font-weight="bold" fill="#2C2416">💰 Claude Code vs OpenClaw</text>
+    <text x="430" y="42" text-anchor="middle" font-size="11" fill="#555">有料 SaaS vs 無料ローカル</text>
+    <text x="430" y="58" text-anchor="middle" font-size="11" fill="#555">対象層は異なるが競合感↑</text>
+    <text x="430" y="74" text-anchor="middle" font-size="11" fill="#5B8DEF">→ 個人・中小チームが流入</text>
+
+    <rect x="592" y="0" width="268" height="80" fill="#FFFFFF" stroke="#1A1D24" stroke-width="2" rx="8" filter="url(#softShadow)"/>
+    <rect x="592" y="0" width="268" height="6" fill="#5CA46E" rx="4"/>
+    <text x="726" y="24" text-anchor="middle" font-size="13" font-weight="bold" fill="#2C2416">🏢 Enterprise 転換</text>
+    <text x="726" y="42" text-anchor="middle" font-size="11" fill="#555">監査ログ・パーミッション追加</text>
+    <text x="726" y="58" text-anchor="middle" font-size="11" fill="#555">GitLab型 OSS→課金モデルへ</text>
+    <text x="726" y="74" text-anchor="middle" font-size="11" fill="#5CA46E">→ 大型調達可能性も</text>
+
+    <rect x="888" y="0" width="272" height="80" fill="#FFFFFF" stroke="#1A1D24" stroke-width="2" rx="8" filter="url(#softShadow)"/>
+    <rect x="888" y="0" width="272" height="6" fill="#888" rx="4"/>
+    <text x="1024" y="24" text-anchor="middle" font-size="13" font-weight="bold" fill="#2C2416">📊 実採用の疑問</text>
+    <text x="1024" y="42" text-anchor="middle" font-size="11" fill="#555">DAU・本番インストール数</text>
+    <text x="1024" y="58" text-anchor="middle" font-size="11" fill="#555">非公開でバズ≠採用の懸念</text>
+    <text x="1024" y="74" text-anchor="middle" font-size="11" fill="#888">→ 半年後に真価が判明</text>
+  </g>
+
+  <!-- 4 sticky notes -->
+  <g transform="translate(140 770)">
+    <g transform="rotate(-1.5 120 80)" filter="url(#stickyShadow)">
+      <rect x="0" y="0" width="240" height="95" fill="#FFF9C4" stroke="#E8C84D" stroke-width="1.5" rx="4"/>
+      <text x="120" y="22" text-anchor="middle" font-size="12" font-weight="bold" fill="#2C2416">GitHub アルゴリズム崩壊</text>
+      <text x="120" y="40" text-anchor="middle" font-size="11" fill="#555">12K ⭐/日 がトレンド</text>
+      <text x="120" y="57" text-anchor="middle" font-size="11" fill="#555">スクリプトを計算不能に</text>
+      <text x="120" y="74" text-anchor="middle" font-size="11" fill="#555">させたと噂される</text>
+    </g>
+    <g transform="rotate(1.2 400 80)" filter="url(#stickyShadow)">
+      <rect x="280" y="0" width="240" height="95" fill="#C8F0D8" stroke="#5CA46E" stroke-width="1.5" rx="4"/>
+      <text x="400" y="22" text-anchor="middle" font-size="12" font-weight="bold" fill="#2C2416">スター水増し疑惑</text>
+      <text x="400" y="40" text-anchor="middle" font-size="11" fill="#555">少数の懐疑的コメント</text>
+      <text x="400" y="57" text-anchor="middle" font-size="11" fill="#555">ただしコミット/Issue</text>
+      <text x="400" y="74" text-anchor="middle" font-size="11" fill="#555">活動は本物と判断</text>
+    </g>
+    <g transform="rotate(-0.8 680 80)" filter="url(#stickyShadow)">
+      <rect x="560" y="0" width="240" height="95" fill="#FFE0CC" stroke="#E8A87C" stroke-width="1.5" rx="4"/>
+      <text x="680" y="22" text-anchor="middle" font-size="12" font-weight="bold" fill="#2C2416">162 テンプレの意味</text>
+      <text x="680" y="40" text-anchor="middle" font-size="11" fill="#555">19カテゴリのプロダクション</text>
+      <text x="680" y="57" text-anchor="middle" font-size="11" fill="#555">エージェントテンプレを</text>
+      <text x="680" y="74" text-anchor="middle" font-size="11" fill="#555">コミュニティが用意済み</text>
+    </g>
+    <g transform="rotate(1.5 960 80)" filter="url(#stickyShadow)">
+      <rect x="840" y="0" width="240" height="95" fill="#E0E8FF" stroke="#5B8DEF" stroke-width="1.5" rx="4"/>
+      <text x="960" y="22" text-anchor="middle" font-size="12" font-weight="bold" fill="#2C2416">Devin 比較</text>
+      <text x="960" y="40" text-anchor="middle" font-size="11" fill="#555">Devin: $25B 評価 SaaS</text>
+      <text x="960" y="57" text-anchor="middle" font-size="11" fill="#555">OpenClaw: 無料 OSS</text>
+      <text x="960" y="74" text-anchor="middle" font-size="11" fill="#555">「有料 vs 無料」構図激化</text>
+    </g>
+  </g>
+
+  <line x1="140" y1="888" x2="1260" y2="888" stroke="#1A1D24" stroke-width="1" opacity="0.3"/>
+  <text x="700" y="910" text-anchor="middle" font-size="12" fill="#888888" font-style="italic">AI News · 2026-04-26 · OpenClaw 347K GitHub Stars — Fastest Growing Open-Source Project</text>
+</svg>

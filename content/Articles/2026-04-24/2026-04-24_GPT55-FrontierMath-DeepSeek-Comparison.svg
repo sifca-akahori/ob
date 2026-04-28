@@ -1,0 +1,215 @@
+<svg viewBox="0 0 1400 1050" xmlns="http://www.w3.org/2000/svg" font-family="-apple-system,'Hiragino Sans','Yu Gothic',sans-serif">
+  <defs>
+    <filter id="softShadow"><feDropShadow dx="2" dy="3" stdDeviation="4" flood-color="#00000022"/></filter>
+    <filter id="stickyShadow"><feDropShadow dx="3" dy="4" stdDeviation="6" flood-color="#00000033"/></filter>
+    <pattern id="paperTexture" patternUnits="userSpaceOnUse" width="4" height="4">
+      <rect width="4" height="4" fill="#FBF8F1"/>
+      <circle cx="1" cy="1" r="0.4" fill="#E8E2D3" opacity="0.5"/>
+      <circle cx="3" cy="3" r="0.3" fill="#D5CDBA" opacity="0.4"/>
+    </pattern>
+  </defs>
+  <rect width="1400" height="1050" fill="url(#paperTexture)"/>
+  <rect x="0" y="0" width="48" height="1050" fill="#E8E2D3" stroke="#D0C9B8" stroke-width="1"/>
+  <circle cx="24" cy="120" r="14" fill="#FBF8F1" stroke="#C8BFA8" stroke-width="2"/><circle cx="24" cy="120" r="7" fill="#E0D8C8" stroke="#B8AFA0" stroke-width="1.5"/>
+  <circle cx="24" cy="280" r="14" fill="#FBF8F1" stroke="#C8BFA8" stroke-width="2"/><circle cx="24" cy="280" r="7" fill="#E0D8C8" stroke="#B8AFA0" stroke-width="1.5"/>
+  <circle cx="24" cy="440" r="14" fill="#FBF8F1" stroke="#C8BFA8" stroke-width="2"/><circle cx="24" cy="440" r="7" fill="#E0D8C8" stroke="#B8AFA0" stroke-width="1.5"/>
+  <circle cx="24" cy="600" r="14" fill="#FBF8F1" stroke="#C8BFA8" stroke-width="2"/><circle cx="24" cy="600" r="7" fill="#E0D8C8" stroke="#B8AFA0" stroke-width="1.5"/>
+  <circle cx="24" cy="760" r="14" fill="#FBF8F1" stroke="#C8BFA8" stroke-width="2"/><circle cx="24" cy="760" r="7" fill="#E0D8C8" stroke="#B8AFA0" stroke-width="1.5"/>
+  <circle cx="24" cy="920" r="14" fill="#FBF8F1" stroke="#C8BFA8" stroke-width="2"/><circle cx="24" cy="920" r="7" fill="#E0D8C8" stroke="#B8AFA0" stroke-width="1.5"/>
+
+  <g transform="translate(1280,0) rotate(3)">
+    <rect x="0" y="-10" width="160" height="44" fill="#E8A87C" stroke="#1A1D24" stroke-width="2"/>
+    <text x="80" y="18" text-anchor="middle" font-size="16" font-weight="700" fill="white">#SNS</text>
+  </g>
+  <rect x="68" y="22" width="170" height="38" rx="6" fill="#2F3842" filter="url(#softShadow)"/>
+  <text x="153" y="47" text-anchor="middle" font-size="16" font-weight="700" fill="white">2026-04-24</text>
+  <text x="260" y="52" font-size="24" fill="#F5C518">⭐</text>
+
+  <g transform="translate(1250,120)">
+    <circle cx="0" cy="0" r="52" fill="#FFF3E8" stroke="#E8A87C" stroke-width="3"/>
+    <text x="0" y="0" text-anchor="middle" dominant-baseline="central" font-size="46">🔥</text>
+  </g>
+
+  <text x="68" y="110" font-size="34" font-weight="900" fill="#1A1D24">GPT-5.5 vs DeepSeek V4——コミュニティ大論争</text>
+  <text x="68" y="155" font-size="24" font-weight="700" fill="#E8A87C">性能か・コストか・オープンか：$3 vs $30 の三軸バトル</text>
+  <text x="68" y="188" font-size="16" fill="#666">HN / X (Twitter) · 2026-04-24 · #ベンチマーク #SNS #FrontierMath</text>
+  <line x1="68" y1="205" x2="1340" y2="205" stroke="#1A1D24" stroke-width="2.5"/>
+
+  <!-- Key Numbers -->
+  <rect x="68" y="220" width="270" height="110" rx="8" fill="white" stroke="#1A1D24" stroke-width="2.5" filter="url(#softShadow)"/>
+  <rect x="68" y="220" width="270" height="10" rx="4" fill="#E8A87C"/>
+  <text x="203" y="272" text-anchor="middle" font-size="44" font-weight="900" fill="#1A1D24">39.6%</text>
+  <text x="203" y="300" text-anchor="middle" font-size="14" fill="#666">GPT-5.5 Pro FrontierMath Tier 4</text>
+  <text x="203" y="320" text-anchor="middle" font-size="12" fill="#999">Claude Opus 4.7の1.7倍</text>
+
+  <rect x="358" y="220" width="270" height="110" rx="8" fill="white" stroke="#1A1D24" stroke-width="2.5" filter="url(#softShadow)"/>
+  <rect x="358" y="220" width="270" height="10" rx="4" fill="#E8A87C"/>
+  <text x="493" y="272" text-anchor="middle" font-size="44" font-weight="900" fill="#1A1D24">93.5%</text>
+  <text x="493" y="300" text-anchor="middle" font-size="14" fill="#666">DeepSeek V4 Pro LiveCodeBench</text>
+  <text x="493" y="320" text-anchor="middle" font-size="12" fill="#999">GPT-5.5推定値超え（コーディング）</text>
+
+  <rect x="648" y="220" width="270" height="110" rx="8" fill="white" stroke="#1A1D24" stroke-width="2.5" filter="url(#softShadow)"/>
+  <rect x="648" y="220" width="270" height="10" rx="4" fill="#E8A87C"/>
+  <text x="783" y="272" text-anchor="middle" font-size="44" font-weight="900" fill="#1A1D24">8.6x</text>
+  <text x="783" y="300" text-anchor="middle" font-size="14" fill="#666">価格差（GPT-5.5 $30 vs V4 $3.48）</text>
+  <text x="783" y="320" text-anchor="middle" font-size="12" fill="#999">出力トークン単価比</text>
+
+  <rect x="938" y="220" width="340" height="110" rx="8" fill="white" stroke="#1A1D24" stroke-width="2.5" filter="url(#softShadow)"/>
+  <rect x="938" y="220" width="340" height="10" rx="4" fill="#E8A87C"/>
+  <text x="1108" y="272" text-anchor="middle" font-size="44" font-weight="900" fill="#1A1D24">22.9%</text>
+  <text x="1108" y="300" text-anchor="middle" font-size="14" fill="#666">Claude Opus 4.7 FrontierMath Tier 4</text>
+  <text x="1108" y="320" text-anchor="middle" font-size="12" fill="#999">GPT-5.5 Proの約58%</text>
+
+  <!-- Main: Head-to-head comparison table -->
+  <rect x="68" y="348" width="760" height="310" rx="8" fill="white" stroke="#1A1D24" stroke-width="2.5" filter="url(#softShadow)"/>
+  <text x="88" y="378" font-size="16" font-weight="700" fill="#1A1D24">⚔️ GPT-5.5 vs DeepSeek V4 Pro ヘッドtoヘッド</text>
+  <line x1="88" y1="385" x2="810" y2="385" stroke="#E0D8C8" stroke-width="1"/>
+
+  <!-- Table header -->
+  <rect x="88" y="392" width="350" height="28" rx="4" fill="#2F3842"/>
+  <text x="263" y="411" text-anchor="middle" font-size="13" font-weight="700" fill="white">評価軸</text>
+  <rect x="448" y="392" width="155" height="28" rx="4" fill="#5B8DEF"/>
+  <text x="525" y="411" text-anchor="middle" font-size="13" font-weight="700" fill="white">GPT-5.5</text>
+  <rect x="613" y="392" width="177" height="28" rx="4" fill="#2F3842"/>
+  <text x="701" y="411" text-anchor="middle" font-size="13" font-weight="700" fill="white">DeepSeek V4 Pro</text>
+
+  <!-- Rows -->
+  <text x="108" y="438" font-size="13" fill="#333">FrontierMath Tier 4（数学）</text>
+  <rect x="448" y="423" width="155" height="25" fill="#E0ECFF" stroke="#5B8DEF" stroke-width="1"/>
+  <text x="525" y="440" text-anchor="middle" font-size="13" font-weight="700" fill="#5B8DEF">39.6% 🏆</text>
+  <rect x="613" y="423" width="177" height="25" fill="#F5F5F5" stroke="#CCC" stroke-width="1"/>
+  <text x="701" y="440" text-anchor="middle" font-size="13" fill="#999">未計測</text>
+
+  <text x="108" y="468" font-size="13" fill="#333">Terminal-Bench 2.0（コーディング）</text>
+  <rect x="448" y="453" width="155" height="25" fill="#E0ECFF" stroke="#5B8DEF" stroke-width="1"/>
+  <text x="525" y="470" text-anchor="middle" font-size="13" font-weight="700" fill="#5B8DEF">82.7% 🏆</text>
+  <rect x="613" y="453" width="177" height="25" fill="#E8F5E8" stroke="#5CA46E" stroke-width="1"/>
+  <text x="701" y="470" text-anchor="middle" font-size="13" fill="#5CA46E">67.9%</text>
+
+  <text x="108" y="498" font-size="13" fill="#333">LiveCodeBench（コーディング）</text>
+  <rect x="448" y="483" width="155" height="25" fill="#F5F5F5" stroke="#CCC" stroke-width="1"/>
+  <text x="525" y="500" text-anchor="middle" font-size="13" fill="#999">~89% (est.)</text>
+  <rect x="613" y="483" width="177" height="25" fill="#E8F5E8" stroke="#5CA46E" stroke-width="1"/>
+  <text x="701" y="500" text-anchor="middle" font-size="13" font-weight="700" fill="#5CA46E">93.5% 🏆</text>
+
+  <text x="108" y="528" font-size="13" fill="#333">SWE-bench Verified（ソフトエンジニア）</text>
+  <rect x="448" y="513" width="155" height="25" fill="#E0ECFF" stroke="#5B8DEF" stroke-width="1"/>
+  <text x="525" y="530" text-anchor="middle" font-size="13" font-weight="700" fill="#5B8DEF">82.7% 🏆</text>
+  <rect x="613" y="513" width="177" height="25" fill="#E8F5E8" stroke="#5CA46E" stroke-width="1"/>
+  <text x="701" y="530" text-anchor="middle" font-size="13" fill="#5CA46E">80.6%</text>
+
+  <text x="108" y="558" font-size="13" fill="#333">出力単価（$/Mトークン）</text>
+  <rect x="448" y="543" width="155" height="25" fill="#FFE8E8" stroke="#CC4444" stroke-width="1"/>
+  <text x="525" y="560" text-anchor="middle" font-size="13" fill="#CC4444">$30.00 💸</text>
+  <rect x="613" y="543" width="177" height="25" fill="#E8F5E8" stroke="#5CA46E" stroke-width="1"/>
+  <text x="701" y="560" text-anchor="middle" font-size="13" font-weight="700" fill="#5CA46E">$3.48 🏆</text>
+
+  <text x="108" y="588" font-size="13" fill="#333">オープンソース</text>
+  <rect x="448" y="573" width="155" height="25" fill="#F5F5F5" stroke="#CCC" stroke-width="1"/>
+  <text x="525" y="590" text-anchor="middle" font-size="13" fill="#999">✗ 非公開</text>
+  <rect x="613" y="573" width="177" height="25" fill="#E8F5E8" stroke="#5CA46E" stroke-width="1"/>
+  <text x="701" y="590" text-anchor="middle" font-size="13" font-weight="700" fill="#5CA46E">✓ MIT 🏆</text>
+
+  <text x="108" y="618" font-size="13" fill="#333">コンテキスト</text>
+  <rect x="448" y="603" width="155" height="25" fill="#E0ECFF" stroke="#5B8DEF" stroke-width="1"/>
+  <text x="525" y="620" text-anchor="middle" font-size="13" fill="#5B8DEF">1M 🏆</text>
+  <rect x="613" y="603" width="177" height="25" fill="#E8F5E8" stroke="#5CA46E" stroke-width="1"/>
+  <text x="701" y="620" text-anchor="middle" font-size="13" fill="#5CA46E">1M 🏆</text>
+
+  <text x="108" y="648" font-size="12" fill="#999">* DeepSeek自社値。独立検証中。LMArena Elo未確定。GPT-5.5は4/23リリース。</text>
+
+  <!-- Right: Community Discussion -->
+  <rect x="848" y="348" width="490" height="310" rx="8" fill="white" stroke="#1A1D24" stroke-width="2.5" filter="url(#softShadow)"/>
+  <text x="868" y="378" font-size="16" font-weight="700" fill="#1A1D24">💬 コミュニティの声</text>
+  <line x1="868" y1="385" x2="1320" y2="385" stroke="#E0D8C8" stroke-width="1"/>
+
+  <rect x="868" y="395" width="450" height="70" rx="6" fill="#FFF8F0" stroke="#E8A87C" stroke-width="1.5"/>
+  <text x="888" y="415" font-size="13" font-weight="700" fill="#E8A87C">🐦 Karpathy (@karpathy) on X</text>
+  <text x="888" y="435" font-size="12" fill="#333">"DeepSeek V4 ProとGPT-5.5が同日出た日は歴史的な1日。</text>
+  <text x="888" y="453" font-size="12" fill="#333">両方使い分けるエンジニアが最も生産的になる"</text>
+
+  <rect x="868" y="475" width="450" height="55" rx="6" fill="#F8F8F8" stroke="#DDD" stroke-width="1.5"/>
+  <text x="888" y="493" font-size="13" font-weight="700" fill="#666">🟠 Hacker News トップコメント</text>
+  <text x="888" y="511" font-size="12" fill="#333">"各社が有利なベンチを選ぶ。公正な比較はLMArena Eloのみ"</text>
+
+  <rect x="868" y="540" width="450" height="55" rx="6" fill="#F8F8F8" stroke="#DDD" stroke-width="1.5"/>
+  <text x="888" y="558" font-size="13" font-weight="700" fill="#666">🟠 HN 2位コメント</text>
+  <text x="888" y="576" font-size="12" fill="#333">"$3.48 vs $30 の差は採用基準を変える。API価格破壊が本質"</text>
+
+  <text x="868" y="615" font-size="14" font-weight="700" fill="#1A1D24">議論の3軸</text>
+  <rect x="868" y="622" width="140" height="38" rx="6" fill="#E0ECFF" stroke="#5B8DEF" stroke-width="1.5"/>
+  <text x="938" y="646" text-anchor="middle" font-size="13" font-weight="700" fill="#5B8DEF">性能</text>
+  <rect x="1018" y="622" width="140" height="38" rx="6" fill="#E8F5E8" stroke="#5CA46E" stroke-width="1.5"/>
+  <text x="1088" y="646" text-anchor="middle" font-size="13" font-weight="700" fill="#5CA46E">コスト</text>
+  <rect x="1168" y="622" width="140" height="38" rx="6" fill="#FFF3E0" stroke="#E8A87C" stroke-width="1.5"/>
+  <text x="1238" y="646" text-anchor="middle" font-size="13" font-weight="700" fill="#E8A87C">オープン</text>
+
+  <text x="868" y="660" font-size="12" fill="#666">「何で比較すべきか」自体が論点に</text>
+
+  <!-- Feature Cards -->
+  <rect x="68" y="678" width="300" height="155" rx="8" fill="#FFF8F0" stroke="#1A1D24" stroke-width="2" filter="url(#softShadow)"/>
+  <text x="218" y="704" text-anchor="middle" font-size="14" font-weight="700" fill="#E8A87C">🧮 FrontierMath とは</text>
+  <text x="88" y="725" font-size="12" fill="#333">• Epoch AIが設計した研究数学ベンチ</text>
+  <text x="88" y="743" font-size="12" fill="#333">• 訓練データ混入が起きにくい</text>
+  <text x="88" y="761" font-size="12" fill="#333">• Tier 4は研究者でも時間がかかる</text>
+  <text x="88" y="779" font-size="12" fill="#333">• GPT-5.5 Pro 39.6%は純粋な進歩</text>
+  <text x="88" y="797" font-size="12" fill="#333">• DeepSeek V4は未評価が弱点</text>
+  <text x="88" y="815" font-size="12" fill="#999">→ 第三者評価が急務</text>
+
+  <rect x="388" y="678" width="300" height="155" rx="8" fill="#FFF8F0" stroke="#1A1D24" stroke-width="2" filter="url(#softShadow)"/>
+  <text x="538" y="704" text-anchor="middle" font-size="14" font-weight="700" fill="#E8A87C">💸 「$3.48」の落とし穴</text>
+  <text x="408" y="725" font-size="12" fill="#333">• 中国サーバー依拠でレートリミット</text>
+  <text x="408" y="743" font-size="12" fill="#333">• エンタープライズ: 法的審査必須</text>
+  <text x="408" y="761" font-size="12" fill="#333">• Azure/AWS経由だと価格逆転の可能性</text>
+  <text x="408" y="779" font-size="12" fill="#333">• SLA・可用性・スループットも比較要</text>
+  <text x="408" y="797" font-size="12" fill="#333">• TCOで判断すべき</text>
+
+  <rect x="708" y="678" width="300" height="155" rx="8" fill="#FFF8F0" stroke="#1A1D24" stroke-width="2" filter="url(#softShadow)"/>
+  <text x="858" y="704" text-anchor="middle" font-size="14" font-weight="700" fill="#E8A87C">🤖 Karpathy 「使い分け」論</text>
+  <text x="728" y="725" font-size="12" fill="#333">• 数学/推論 → GPT-5.5 Pro</text>
+  <text x="728" y="743" font-size="12" fill="#333">• コーディング大量バッチ → V4 Pro</text>
+  <text x="728" y="761" font-size="12" fill="#333">• セキュリティ重視 → Claude/GPT</text>
+  <text x="728" y="779" font-size="12" fill="#333">• ローカル実験 → DeepSeek OSS</text>
+  <text x="728" y="797" font-size="12" fill="#333">「モデル選択がスキルの時代」</text>
+
+  <rect x="1028" y="678" width="310" height="155" rx="8" fill="#FFF8F0" stroke="#1A1D24" stroke-width="2" filter="url(#softShadow)"/>
+  <text x="1183" y="704" text-anchor="middle" font-size="14" font-weight="700" fill="#E8A87C">📏 LMArena だけが公平</text>
+  <text x="1048" y="725" font-size="12" fill="#333">• 各社が有利なベンチを選んで発表</text>
+  <text x="1048" y="743" font-size="12" fill="#333">• Eloは人間の盲検評価に基づく</text>
+  <text x="1048" y="761" font-size="12" fill="#333">• V4 ProのArena Eloは未確定</text>
+  <text x="1048" y="779" font-size="12" fill="#333">• HN: 「Eloが収束まで判断保留」</text>
+  <text x="1048" y="797" font-size="12" fill="#333">• ベンチ標準化を求める声が増加</text>
+
+  <!-- Sticky Notes -->
+  <g transform="translate(68, 853) rotate(-1.2)">
+    <rect width="265" height="90" rx="4" fill="#FFFDE7" stroke="#1A1D24" stroke-width="1.5" filter="url(#stickyShadow)"/>
+    <text x="132" y="22" text-anchor="middle" font-size="13" font-weight="700">🔥 歴史的な同日対決</text>
+    <text x="14" y="42" font-size="11" fill="#333">クローズド最強 vs オープン最強が</text>
+    <text x="14" y="57" font-size="11" fill="#333">同日登場。業界史上最も</text>
+    <text x="14" y="72" font-size="11" fill="#333">競争が激化した1日</text>
+  </g>
+  <g transform="translate(360, 858) rotate(1.0)">
+    <rect width="265" height="90" rx="4" fill="#E8F5E9" stroke="#1A1D24" stroke-width="1.5" filter="url(#stickyShadow)"/>
+    <text x="132" y="22" text-anchor="middle" font-size="13" font-weight="700">📊 バイブスvs数字</text>
+    <text x="14" y="42" font-size="11" fill="#333">SNSの実感（バイブス）と</text>
+    <text x="14" y="57" font-size="11" fill="#333">ベンチ数字の乖離が話題。</text>
+    <text x="14" y="72" font-size="11" fill="#333">実務で試してから判断を</text>
+  </g>
+  <g transform="translate(658, 853) rotate(-0.8)">
+    <rect width="275" height="90" rx="4" fill="#F3E5F5" stroke="#1A1D24" stroke-width="1.5" filter="url(#stickyShadow)"/>
+    <text x="137" y="22" text-anchor="middle" font-size="13" font-weight="700">🎯 タスク特化選択の時代</text>
+    <text x="14" y="42" font-size="11" fill="#333">「最強の1つ」を選ぶ時代は終わり</text>
+    <text x="14" y="57" font-size="11" fill="#333">タスク×コスト×法的要件で</text>
+    <text x="14" y="72" font-size="11" fill="#333">最適モデルを使い分ける時代へ</text>
+  </g>
+  <g transform="translate(960, 855) rotate(1.2)">
+    <rect width="275" height="90" rx="4" fill="#FFF3E0" stroke="#1A1D24" stroke-width="1.5" filter="url(#stickyShadow)"/>
+    <text x="137" y="22" text-anchor="middle" font-size="13" font-weight="700">⚖️ 数学1.7倍の意義</text>
+    <text x="14" y="42" font-size="11" fill="#333">FrontierMathでGPT-5.5 Proが</text>
+    <text x="14" y="57" font-size="11" fill="#333">Claude比1.7倍は純粋な進歩。</text>
+    <text x="14" y="72" font-size="11" fill="#333">科学研究AIへの影響に注目</text>
+  </g>
+
+  <line x1="68" y1="970" x2="1340" y2="970" stroke="#C8BFA8" stroke-width="1"/>
+  <text x="704" y="992" text-anchor="middle" font-size="13" fill="#999" font-style="italic">AI News · 2026-04-24 · Community Debate: GPT-5.5 vs DeepSeek V4 — Performance vs Cost vs Open Source</text>
+</svg>

@@ -1,0 +1,310 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1400 1050" font-family="-apple-system, 'Hiragino Sans', 'Yu Gothic', 'Segoe UI', sans-serif">
+  <defs>
+    <pattern id="paperTex" patternUnits="userSpaceOnUse" width="100" height="100">
+      <rect width="100" height="100" fill="#F5EAD2"/>
+      <circle cx="22" cy="14" r="0.4" fill="#C4B389" opacity="0.3"/>
+      <circle cx="54" cy="62" r="0.5" fill="#C4B389" opacity="0.3"/>
+    </pattern>
+    <filter id="stickyShadow" x="-10%" y="-10%" width="125%" height="125%">
+      <feGaussianBlur in="SourceAlpha" stdDeviation="3"/>
+      <feOffset dx="2" dy="3" result="ob"/>
+      <feComponentTransfer><feFuncA type="linear" slope="0.25"/></feComponentTransfer>
+      <feMerge><feMergeNode/><feMergeNode in="SourceGraphic"/></feMerge>
+    </filter>
+    <filter id="softShadow" x="-10%" y="-10%" width="120%" height="120%">
+      <feGaussianBlur in="SourceAlpha" stdDeviation="2"/>
+      <feOffset dx="1" dy="2" result="ob"/>
+      <feComponentTransfer><feFuncA type="linear" slope="0.18"/></feComponentTransfer>
+      <feMerge><feMergeNode/><feMergeNode in="SourceGraphic"/></feMerge>
+    </filter>
+    <linearGradient id="euBlue" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#5B8DEF"/>
+      <stop offset="100%" stop-color="#003399"/>
+    </linearGradient>
+    <linearGradient id="redAlert" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#E86B3B"/>
+      <stop offset="100%" stop-color="#C04A20"/>
+    </linearGradient>
+  </defs>
+
+  <!-- Background -->
+  <rect width="1400" height="1050" fill="url(#paperTex)"/>
+  <rect x="0" y="0" width="44" height="1050" fill="#EDE0C4" opacity="0.7" stroke="#D5C9A8" stroke-width="1"/>
+  <circle cx="22" cy="140" r="13" fill="#F5EAD2" stroke="#C4B389" stroke-width="1.5"/>
+  <circle cx="22" cy="290" r="13" fill="#F5EAD2" stroke="#C4B389" stroke-width="1.5"/>
+  <circle cx="22" cy="440" r="13" fill="#F5EAD2" stroke="#C4B389" stroke-width="1.5"/>
+  <circle cx="22" cy="600" r="13" fill="#F5EAD2" stroke="#C4B389" stroke-width="1.5"/>
+  <circle cx="22" cy="760" r="13" fill="#F5EAD2" stroke="#C4B389" stroke-width="1.5"/>
+  <circle cx="22" cy="910" r="13" fill="#F5EAD2" stroke="#C4B389" stroke-width="1.5"/>
+
+  <!-- Category tape -->
+  <g transform="translate(1185, 26) rotate(-3)">
+    <rect x="0" y="0" width="190" height="38" rx="3" fill="#5CA46E" opacity="0.88" stroke="#1A1D24" stroke-width="1.5"/>
+    <text x="95" y="25" text-anchor="middle" fill="white" font-size="16" font-weight="700" letter-spacing="1">#ビジネス</text>
+  </g>
+
+  <!-- Impact stars -->
+  <text x="1330" y="85" text-anchor="middle" fill="#2F3842" font-size="22">⭐⭐</text>
+
+  <!-- Date badge -->
+  <rect x="58" y="20" width="160" height="34" rx="4" fill="#2F3842" filter="url(#softShadow)"/>
+  <text x="138" y="42" text-anchor="middle" fill="#F5EAD2" font-size="15" font-weight="600">2026-04-23</text>
+
+  <!-- Header -->
+  <line x1="58" y1="72" x2="1360" y2="72" stroke="#1A1D24" stroke-width="2.5"/>
+  <text x="58" y="116" fill="#1A1D24" font-size="36" font-weight="900">⚖️ EU AI Act 本施行まで100日——2026年8月2日カウントダウン</text>
+  <text x="58" y="155" fill="#1A1D24" font-size="30" font-weight="900">罰則€3,500万または売上7%・高リスクAI義務化・コロラド州も6月30日施行</text>
+  <rect x="58" y="167" width="780" height="22" rx="2" fill="#5B8DEF" opacity="0.18"/>
+  <text x="66" y="183" fill="#2F3842" font-size="14" font-weight="500">Gunderson Dettmer / EU Digital Strategy  ·  2026年4月  ·  #ビジネス  ·  #EUAIAct  ·  #規制  ·  #コンプライアンス</text>
+  <line x1="58" y1="198" x2="1360" y2="198" stroke="#1A1D24" stroke-width="1.5"/>
+
+  <!-- Hero: Gavel / Scale -->
+  <g transform="translate(62, 215)" filter="url(#softShadow)">
+    <!-- Balance scale -->
+    <line x1="100" y1="40" x2="100" y2="140" stroke="#2F3842" stroke-width="4" stroke-linecap="round"/>
+    <line x1="40" y1="80" x2="160" y2="80" stroke="#2F3842" stroke-width="3" stroke-linecap="round"/>
+    <!-- Left pan (lighter) -->
+    <path d="M 45 85 Q 45 105 70 105 Q 95 105 95 85" fill="none" stroke="#5B8DEF" stroke-width="2"/>
+    <text x="70" y="100" text-anchor="middle" fill="#5B8DEF" font-size="11">企業</text>
+    <!-- Right pan (heavier) -->
+    <path d="M 105 90 Q 105 118 130 118 Q 155 118 155 90" fill="none" stroke="#E86B3B" stroke-width="2"/>
+    <text x="130" y="112" text-anchor="middle" fill="#E86B3B" font-size="11">規制</text>
+    <!-- EU stars -->
+    <circle cx="100" cy="25" r="18" fill="#003399" stroke="#1A1D24" stroke-width="2"/>
+    <text x="100" y="31" text-anchor="middle" fill="#FFD700" font-size="14">★★</text>
+    <!-- Calendar countdown -->
+    <rect x="60" y="148" width="80" height="50" rx="4" fill="#E86B3B" stroke="#1A1D24" stroke-width="2"/>
+    <text x="100" y="168" text-anchor="middle" fill="white" font-size="12" font-weight="900">100日</text>
+    <text x="100" y="186" text-anchor="middle" fill="white" font-size="9">まで...</text>
+    <text x="100" y="225" text-anchor="middle" fill="#5B8DEF" font-size="13" font-weight="800">EU AI Act</text>
+    <text x="100" y="243" text-anchor="middle" fill="#8A8A8A" font-size="10">2026年8月2日施行</text>
+  </g>
+
+  <!-- Key metric blocks -->
+  <rect x="310" y="210" width="185" height="128" rx="6" fill="white" stroke="#1A1D24" stroke-width="2.5" filter="url(#softShadow)"/>
+  <rect x="310" y="210" width="185" height="8" rx="3" fill="url(#euBlue)"/>
+  <text x="403" y="258" text-anchor="middle" fill="#003399" font-size="34" font-weight="900">8月2日</text>
+  <text x="403" y="280" text-anchor="middle" fill="#2F3842" font-size="12" font-weight="600">EU AI Act 本施行</text>
+  <text x="403" y="298" text-anchor="middle" fill="#8A8A8A" font-size="10">高リスクAI規定の大半が適用開始</text>
+  <text x="403" y="316" text-anchor="middle" fill="#E86B3B" font-size="10" font-weight="700">残り 約100日</text>
+
+  <rect x="508" y="210" width="185" height="128" rx="6" fill="white" stroke="#1A1D24" stroke-width="2.5" filter="url(#softShadow)"/>
+  <rect x="508" y="210" width="185" height="8" rx="3" fill="url(#redAlert)"/>
+  <text x="600" y="252" text-anchor="middle" fill="#E86B3B" font-size="28" font-weight="900">€35M / 7%</text>
+  <text x="600" y="274" text-anchor="middle" fill="#2F3842" font-size="12" font-weight="600">最大罰則（高リスクAI違反）</text>
+  <text x="600" y="292" text-anchor="middle" fill="#8A8A8A" font-size="10">€3,500万 or 全世界売上7%</text>
+  <text x="600" y="310" text-anchor="middle" fill="#8A8A8A" font-size="10">いずれか高い方</text>
+
+  <rect x="706" y="210" width="185" height="128" rx="6" fill="white" stroke="#1A1D24" stroke-width="2.5" filter="url(#softShadow)"/>
+  <rect x="706" y="210" width="185" height="8" rx="3" fill="#5CA46E"/>
+  <text x="798" y="258" text-anchor="middle" fill="#5CA46E" font-size="28" font-weight="900">6月30日</text>
+  <text x="798" y="280" text-anchor="middle" fill="#2F3842" font-size="12" font-weight="600">コロラド州AI法施行</text>
+  <text x="798" y="298" text-anchor="middle" fill="#8A8A8A" font-size="10">採用・貸付・医療・保険での</text>
+  <text x="798" y="316" text-anchor="middle" fill="#8A8A8A" font-size="10">開示義務と影響評価</text>
+
+  <rect x="904" y="210" width="185" height="128" rx="6" fill="white" stroke="#1A1D24" stroke-width="2.5" filter="url(#softShadow)"/>
+  <rect x="904" y="210" width="185" height="8" rx="3" fill="#9BA8B5"/>
+  <text x="997" y="254" text-anchor="middle" fill="#4A6070" font-size="24" font-weight="900">€30M / 6%</text>
+  <text x="997" y="276" text-anchor="middle" fill="#2F3842" font-size="12" font-weight="600">禁止用途違反の罰則</text>
+  <text x="997" y="294" text-anchor="middle" fill="#8A8A8A" font-size="10">社会的スコアリング</text>
+  <text x="997" y="312" text-anchor="middle" fill="#8A8A8A" font-size="10">リアルタイム生体認証等</text>
+
+  <!-- Timeline chart -->
+  <rect x="58" y="360" width="580" height="310" rx="6" fill="white" stroke="#1A1D24" stroke-width="2" filter="url(#softShadow)"/>
+  <rect x="58" y="360" width="580" height="6" rx="3" fill="url(#euBlue)"/>
+  <text x="75" y="390" fill="#1A1D24" font-size="15" font-weight="800">📅 EU AI Act 施行スケジュール</text>
+  <line x1="75" y1="398" x2="620" y2="398" stroke="#E0D8C8" stroke-width="1"/>
+
+  <!-- Timeline line -->
+  <line x1="100" y1="440" x2="600" y2="440" stroke="#2F3842" stroke-width="3"/>
+
+  <!-- Milestones -->
+  <!-- 2024/8 発効 -->
+  <circle cx="100" cy="440" r="8" fill="#5B8DEF" stroke="#1A1D24" stroke-width="2"/>
+  <text x="100" y="430" text-anchor="middle" fill="#5B8DEF" font-size="10" font-weight="700">2024/8</text>
+  <text x="100" y="462" text-anchor="middle" fill="#5A5A5A" font-size="10">発効</text>
+
+  <!-- 2025/2 禁止AI -->
+  <circle cx="200" cy="440" r="8" fill="#E86B3B" stroke="#1A1D24" stroke-width="2"/>
+  <text x="200" y="430" text-anchor="middle" fill="#E86B3B" font-size="10" font-weight="700">2025/2</text>
+  <text x="200" y="462" text-anchor="middle" fill="#5A5A5A" font-size="10">禁止AI規定</text>
+  <text x="200" y="473" text-anchor="middle" fill="#5A5A5A" font-size="10">施行済</text>
+
+  <!-- 2025/8 GPAI -->
+  <circle cx="320" cy="440" r="8" fill="#8B7DB8" stroke="#1A1D24" stroke-width="2"/>
+  <text x="320" y="430" text-anchor="middle" fill="#8B7DB8" font-size="10" font-weight="700">2025/8</text>
+  <text x="320" y="462" text-anchor="middle" fill="#5A5A5A" font-size="10">GPAI規定</text>
+  <text x="320" y="473" text-anchor="middle" fill="#5A5A5A" font-size="10">施行済</text>
+
+  <!-- 2026/6 Colorado (red) -->
+  <circle cx="420" cy="440" r="8" fill="#5CA46E" stroke="#1A1D24" stroke-width="2"/>
+  <text x="420" y="425" text-anchor="middle" fill="#5CA46E" font-size="9" font-weight="700">2026/6/30</text>
+  <text x="420" y="462" text-anchor="middle" fill="#5A5A5A" font-size="10">Colorado</text>
+  <text x="420" y="473" text-anchor="middle" fill="#5A5A5A" font-size="10">AI法施行</text>
+
+  <!-- 2026/8 Main enforcement (BIG) -->
+  <circle cx="530" cy="440" r="14" fill="#E86B3B" stroke="#1A1D24" stroke-width="2.5"/>
+  <text x="530" y="445" text-anchor="middle" fill="white" font-size="10" font-weight="900">!!</text>
+  <text x="530" y="420" text-anchor="middle" fill="#E86B3B" font-size="11" font-weight="800">2026/8/2</text>
+  <text x="530" y="462" text-anchor="middle" fill="#E86B3B" font-size="12" font-weight="800">高リスクAI</text>
+  <text x="530" y="474" text-anchor="middle" fill="#E86B3B" font-size="12" font-weight="800">主要規定施行!</text>
+
+  <!-- 2027 compliance full -->
+  <circle cx="600" cy="440" r="8" fill="#9BA8B5" stroke="#1A1D24" stroke-width="2"/>
+  <text x="600" y="430" text-anchor="middle" fill="#9BA8B5" font-size="10">2027/8</text>
+  <text x="600" y="462" text-anchor="middle" fill="#8A8A8A" font-size="10">残り規定</text>
+
+  <!-- High risk AI categories -->
+  <text x="75" y="510" fill="#1A1D24" font-size="13" font-weight="700">⚠️ 高リスクAIに該当する主なユースケース（8月2日〜義務対象）:</text>
+  <rect x="75" y="518" width="106" height="24" rx="4" fill="#FFF0F0" stroke="#E86B3B" stroke-width="1.5"/>
+  <text x="128" y="534" text-anchor="middle" fill="#E86B3B" font-size="11">採用・解雇支援</text>
+  <rect x="188" y="518" width="106" height="24" rx="4" fill="#FFF0F0" stroke="#E86B3B" stroke-width="1.5"/>
+  <text x="241" y="534" text-anchor="middle" fill="#E86B3B" font-size="11">信用スコアリング</text>
+  <rect x="301" y="518" width="106" height="24" rx="4" fill="#FFF0F0" stroke="#E86B3B" stroke-width="1.5"/>
+  <text x="354" y="534" text-anchor="middle" fill="#E86B3B" font-size="11">医療診断AI</text>
+  <rect x="414" y="518" width="106" height="24" rx="4" fill="#FFF0F0" stroke="#E86B3B" stroke-width="1.5"/>
+  <text x="467" y="534" text-anchor="middle" fill="#E86B3B" font-size="11">教育評価AI</text>
+  <rect x="75" y="548" width="106" height="24" rx="4" fill="#FFF0F0" stroke="#E86B3B" stroke-width="1.5"/>
+  <text x="128" y="564" text-anchor="middle" fill="#E86B3B" font-size="11">重要インフラ管理</text>
+  <rect x="188" y="548" width="130" height="24" rx="4" fill="#FFF0F0" stroke="#E86B3B" stroke-width="1.5"/>
+  <text x="253" y="564" text-anchor="middle" fill="#E86B3B" font-size="11">国境管理・移民審査</text>
+  <rect x="325" y="548" width="130" height="24" rx="4" fill="#FFF0F0" stroke="#E86B3B" stroke-width="1.5"/>
+  <text x="390" y="564" text-anchor="middle" fill="#E86B3B" font-size="11">司法・法執行AI</text>
+
+  <!-- Obligations -->
+  <text x="75" y="600" fill="#2F3842" font-size="12" font-weight="700">✅ 高リスクAIに課される主な義務:</text>
+  <text x="75" y="618" fill="#5A5A5A" font-size="11">• リスク管理システムの整備　　• データガバナンス文書化</text>
+  <text x="75" y="636" fill="#5A5A5A" font-size="11">• 人間監視体制の確立　　　　　• インシデント報告義務</text>
+  <text x="75" y="654" fill="#5A5A5A" font-size="11">• 技術文書化（Technical Documentation）の作成と保管</text>
+
+  <!-- GPAI / Compliance right panel -->
+  <rect x="652" y="360" width="713" height="310" rx="6" fill="white" stroke="#1A1D24" stroke-width="2" filter="url(#softShadow)"/>
+  <rect x="652" y="360" width="713" height="6" rx="3" fill="url(#euBlue)"/>
+  <text x="669" y="390" fill="#1A1D24" font-size="15" font-weight="800">🌐 グローバル企業への影響マップ</text>
+  <line x1="669" y1="398" x2="1347" y2="398" stroke="#E0D8C8" stroke-width="1"/>
+
+  <!-- World map grid style compliance table -->
+  <text x="680" y="425" fill="#2F3842" font-size="12" font-weight="700">法域</text>
+  <text x="800" y="425" fill="#2F3842" font-size="12" font-weight="700">主要規制</text>
+  <text x="1020" y="425" fill="#2F3842" font-size="12" font-weight="700">施行時期</text>
+  <text x="1180" y="425" fill="#2F3842" font-size="12" font-weight="700">最大罰則</text>
+  <line x1="669" y1="430" x2="1347" y2="430" stroke="#E0D8C8" stroke-width="1"/>
+
+  <text x="680" y="452" fill="#5B8DEF" font-size="11" font-weight="700">EU</text>
+  <text x="800" y="452" fill="#5A5A5A" font-size="11">EU AI Act</text>
+  <text x="1020" y="452" fill="#E86B3B" font-size="11" font-weight="700">2026年8月2日</text>
+  <text x="1180" y="452" fill="#E86B3B" font-size="11">€35M / 7%</text>
+
+  <text x="680" y="472" fill="#5CA46E" font-size="11" font-weight="700">Colorado (US)</text>
+  <text x="800" y="472" fill="#5A5A5A" font-size="11">SB-205 (AI Governance)</text>
+  <text x="1020" y="472" fill="#E86B3B" font-size="11" font-weight="700">2026年6月30日</text>
+  <text x="1180" y="472" fill="#8A8A8A" font-size="11">TBD</text>
+
+  <text x="680" y="492" fill="#9BA8B5" font-size="11" font-weight="700">US Federal</text>
+  <text x="800" y="492" fill="#5A5A5A" font-size="11">Executive Order (Trump)</text>
+  <text x="1020" y="492" fill="#9BA8B5" font-size="11">段階的 / 不確実</text>
+  <text x="1180" y="492" fill="#8A8A8A" font-size="11">州法と競合</text>
+
+  <text x="680" y="512" fill="#9BA8B5" font-size="11" font-weight="700">韓国</text>
+  <text x="800" y="512" fill="#5A5A5A" font-size="11">AI安全法 (2025)</text>
+  <text x="1020" y="512" fill="#9BA8B5" font-size="11">2026年</text>
+  <text x="1180" y="512" fill="#8A8A8A" font-size="11">TBD</text>
+
+  <text x="680" y="532" fill="#9BA8B5" font-size="11" font-weight="700">日本</text>
+  <text x="800" y="532" fill="#5A5A5A" font-size="11">AI Guiding Principles (任意)</text>
+  <text x="1020" y="532" fill="#9BA8B5" font-size="11">強制力なし</text>
+  <text x="1180" y="532" fill="#8A8A8A" font-size="11">事実上EU準拠圧力</text>
+
+  <line x1="669" y1="540" x2="1347" y2="540" stroke="#E0D8C8" stroke-width="1"/>
+
+  <!-- GPAI note -->
+  <rect x="669" y="550" width="660" height="56" rx="4" fill="#E8F0FD" stroke="#5B8DEF" stroke-width="1.5"/>
+  <text x="999" y="572" text-anchor="middle" fill="#2F3842" font-size="12" font-weight="700">📋 GPAI（汎用AI）モデルへの影響 — Claude・GPT-5.5・Geminiが対象</text>
+  <text x="999" y="592" text-anchor="middle" fill="#5A5A5A" font-size="11">「システミックリスクを有するGPAI」として分類 → 透明性・安全評価・レッドチーム試験義務化</text>
+
+  <!-- Penalty illustration -->
+  <rect x="669" y="616" width="320" height="44" rx="4" fill="#FFF5F0" stroke="#E86B3B" stroke-width="1.5"/>
+  <text x="829" y="635" text-anchor="middle" fill="#E86B3B" font-size="12" font-weight="700">Big Tech (売上$100B) の場合</text>
+  <text x="829" y="653" text-anchor="middle" fill="#E86B3B" font-size="12" font-weight="800">最大$7,000,000,000（70億ドル）!</text>
+
+  <rect x="1000" y="616" width="329" height="44" rx="4" fill="#F0FAF2" stroke="#5CA46E" stroke-width="1.5"/>
+  <text x="1165" y="635" text-anchor="middle" fill="#5CA46E" font-size="12" font-weight="700">Small Startup の場合</text>
+  <text x="1165" y="653" text-anchor="middle" fill="#5CA46E" font-size="12">€3,500万の上限が適用</text>
+
+  <!-- Feature cards -->
+  <rect x="58" y="690" width="200" height="110" rx="6" fill="white" stroke="#1A1D24" stroke-width="2" filter="url(#softShadow)"/>
+  <rect x="58" y="690" width="200" height="6" rx="3" fill="url(#euBlue)"/>
+  <text x="158" y="720" text-anchor="middle" fill="#1A1D24" font-size="14" font-weight="800">📋 必要な準備</text>
+  <text x="158" y="742" text-anchor="middle" fill="#5A5A5A" font-size="11">AIシステム棚卸し</text>
+  <text x="158" y="758" text-anchor="middle" fill="#5A5A5A" font-size="11">リスク分類の実施</text>
+  <text x="158" y="774" text-anchor="middle" fill="#5A5A5A" font-size="11">技術文書の整備</text>
+  <text x="158" y="790" text-anchor="middle" fill="#E86B3B" font-size="11" font-weight="700">残り100日で完了を</text>
+
+  <rect x="272" y="690" width="200" height="110" rx="6" fill="white" stroke="#1A1D24" stroke-width="2" filter="url(#softShadow)"/>
+  <rect x="272" y="690" width="200" height="6" rx="3" fill="#E86B3B"/>
+  <text x="372" y="720" text-anchor="middle" fill="#1A1D24" font-size="14" font-weight="800">🚫 禁止用途</text>
+  <text x="372" y="742" text-anchor="middle" fill="#5A5A5A" font-size="11">社会的スコアリング</text>
+  <text x="372" y="758" text-anchor="middle" fill="#5A5A5A" font-size="11">リアルタイム生体認証</text>
+  <text x="372" y="774" text-anchor="middle" fill="#5A5A5A" font-size="11">潜在意識操作AI</text>
+  <text x="372" y="790" text-anchor="middle" fill="#E86B3B" font-size="11" font-weight="700">即時停止が必要</text>
+
+  <rect x="486" y="690" width="200" height="110" rx="6" fill="white" stroke="#1A1D24" stroke-width="2" filter="url(#softShadow)"/>
+  <rect x="486" y="690" width="200" height="6" rx="3" fill="#9BA8B5"/>
+  <text x="586" y="720" text-anchor="middle" fill="#1A1D24" font-size="14" font-weight="800">🏛️ 執行機関</text>
+  <text x="586" y="742" text-anchor="middle" fill="#5A5A5A" font-size="11">各国のDPA（データ保護機関）</text>
+  <text x="586" y="758" text-anchor="middle" fill="#5A5A5A" font-size="11">EU AI Office（設立済）</text>
+  <text x="586" y="774" text-anchor="middle" fill="#5A5A5A" font-size="11">GDPRより遅れる可能性</text>
+  <text x="586" y="790" text-anchor="middle" fill="#4A6070" font-size="11" font-weight="700">初執行事例に注目</text>
+
+  <rect x="700" y="690" width="200" height="110" rx="6" fill="white" stroke="#1A1D24" stroke-width="2" filter="url(#softShadow)"/>
+  <rect x="700" y="690" width="200" height="6" rx="3" fill="#5CA46E"/>
+  <text x="800" y="720" text-anchor="middle" fill="#1A1D24" font-size="14" font-weight="800">🌏 アジア波及</text>
+  <text x="800" y="742" text-anchor="middle" fill="#5A5A5A" font-size="11">欧州取引先が準拠証明要求</text>
+  <text x="800" y="758" text-anchor="middle" fill="#5A5A5A" font-size="11">事実上の国際標準化</text>
+  <text x="800" y="774" text-anchor="middle" fill="#5A5A5A" font-size="11">インド2026中に枠組み予定</text>
+  <text x="800" y="790" text-anchor="middle" fill="#5CA46E" font-size="11" font-weight="700">規制の地政学的輸出</text>
+
+  <rect x="914" y="690" width="451" height="110" rx="6" fill="white" stroke="#1A1D24" stroke-width="2" filter="url(#softShadow)"/>
+  <rect x="914" y="690" width="451" height="6" rx="3" fill="#2F3842"/>
+  <text x="1139" y="720" text-anchor="middle" fill="#1A1D24" font-size="14" font-weight="800">💡 コンプライアンス戦略の分岐点</text>
+  <text x="1139" y="742" text-anchor="middle" fill="#5A5A5A" font-size="12">「先行整備」企業 vs「罰則が来るまで待つ」企業 ← 現在の企業行動の分断線</text>
+  <text x="1139" y="762" text-anchor="middle" fill="#5A5A5A" font-size="12">初期コンプライアンスコストは高いが、欧州市場での差別化優位になりうる</text>
+  <text x="1139" y="782" text-anchor="middle" fill="#5CA46E" font-size="12" font-weight="700">Credo AI・Holistic AIなどのコンプライアンスSaaSが急成長中</text>
+
+  <!-- Sticky notes -->
+  <g transform="translate(58, 820) rotate(-1.0)" filter="url(#stickyShadow)">
+    <rect width="290" height="100" rx="4" fill="#FFF9C4" stroke="#1A1D24" stroke-width="1.5"/>
+    <text x="145" y="28" text-anchor="middle" fill="#1A1D24" font-size="13" font-weight="800">🤔 「高リスク判定」の難しさ</text>
+    <text x="145" y="48" text-anchor="middle" fill="#2F3842" font-size="11">「業務効率化ツール」として入れたAIが</text>
+    <text x="145" y="64" text-anchor="middle" fill="#2F3842" font-size="11">実質的に採用評価に使われていれば高リスク。</text>
+    <text x="145" y="80" text-anchor="middle" fill="#2F3842" font-size="11">棚卸しが最大の作業になっている。</text>
+  </g>
+
+  <g transform="translate(365, 815) rotate(0.9)" filter="url(#stickyShadow)">
+    <rect width="290" height="100" rx="4" fill="#D4E8FF" stroke="#1A1D24" stroke-width="1.5"/>
+    <text x="145" y="28" text-anchor="middle" fill="#1A1D24" font-size="13" font-weight="800">💡 GPDRとの教訓</text>
+    <text x="145" y="48" text-anchor="middle" fill="#2F3842" font-size="11">GDPRの最初の大型罰則まで3年かかった。</text>
+    <text x="145" y="64" text-anchor="middle" fill="#2F3842" font-size="11">AI Actも同様の時間軸になるかもしれないが</text>
+    <text x="145" y="80" text-anchor="middle" fill="#2F3842" font-size="11">「後から遡及」されるリスクは残る。</text>
+  </g>
+
+  <g transform="translate(672, 820) rotate(-0.7)" filter="url(#stickyShadow)">
+    <rect width="290" height="100" rx="4" fill="#C8F7C5" stroke="#1A1D24" stroke-width="1.5"/>
+    <text x="145" y="28" text-anchor="middle" fill="#1A1D24" font-size="13" font-weight="800">🔭 SaaSビジネス機会</text>
+    <text x="145" y="48" text-anchor="middle" fill="#2F3842" font-size="11">コンプライアンスSaaS市場が急拡大中。</text>
+    <text x="145" y="64" text-anchor="middle" fill="#2F3842" font-size="11">Credo AI・Holistic AI・Arthur AIなどが</text>
+    <text x="145" y="80" text-anchor="middle" fill="#2F3842" font-size="11">「AIガバナンス市場」を取りに来ている。</text>
+  </g>
+
+  <g transform="translate(979, 815) rotate(1.2)" filter="url(#stickyShadow)">
+    <rect width="290" height="100" rx="4" fill="#FFE0D0" stroke="#1A1D24" stroke-width="1.5"/>
+    <text x="145" y="28" text-anchor="middle" fill="#1A1D24" font-size="13" font-weight="800">⚠️ 多重規制の重さ</text>
+    <text x="145" y="48" text-anchor="middle" fill="#2F3842" font-size="11">EU AI Act + GDPR + Colorado法 + 各国法。</text>
+    <text x="145" y="64" text-anchor="middle" fill="#2F3842" font-size="11">法務コストが小企業には重荷。</text>
+    <text x="145" y="80" text-anchor="middle" fill="#2F3842" font-size="11">「規制で大企業に有利」な構図が強まる。</text>
+  </g>
+
+  <!-- Footer -->
+  <line x1="58" y1="1022" x2="1360" y2="1022" stroke="#1A1D24" stroke-width="1"/>
+  <text x="709" y="1040" text-anchor="middle" fill="#8A8A8A" font-size="12" font-style="italic">AI News · 2026-04-23 · EU AI Act August 2, 2026 Enforcement — 100-Day Countdown for High-Risk AI Compliance</text>
+</svg>

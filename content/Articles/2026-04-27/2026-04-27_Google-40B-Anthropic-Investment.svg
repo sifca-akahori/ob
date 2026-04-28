@@ -1,0 +1,219 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1400 1050" font-family="-apple-system, 'Hiragino Sans', 'Yu Gothic', sans-serif">
+  <defs>
+    <pattern id="paperTexture" patternUnits="userSpaceOnUse" width="100" height="100">
+      <rect width="100" height="100" fill="#FBF8F1"/>
+      <circle cx="22" cy="18" r="0.4" fill="#C4B389" opacity="0.3"/>
+      <circle cx="71" cy="52" r="0.5" fill="#C4B389" opacity="0.3"/>
+      <circle cx="40" cy="82" r="0.3" fill="#C4B389" opacity="0.3"/>
+      <circle cx="85" cy="35" r="0.4" fill="#C4B389" opacity="0.3"/>
+    </pattern>
+    <filter id="stickyShadow" x="-10%" y="-10%" width="120%" height="120%">
+      <feGaussianBlur in="SourceAlpha" stdDeviation="3"/>
+      <feOffset dx="2" dy="3"/>
+      <feComponentTransfer><feFuncA type="linear" slope="0.25"/></feComponentTransfer>
+      <feMerge><feMergeNode/><feMergeNode in="SourceGraphic"/></feMerge>
+    </filter>
+    <filter id="softShadow" x="-10%" y="-10%" width="120%" height="120%">
+      <feGaussianBlur in="SourceAlpha" stdDeviation="2"/>
+      <feOffset dx="1" dy="2"/>
+      <feComponentTransfer><feFuncA type="linear" slope="0.18"/></feComponentTransfer>
+      <feMerge><feMergeNode/><feMergeNode in="SourceGraphic"/></feMerge>
+    </filter>
+    <linearGradient id="moneyGrad" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#5CA46E"/>
+      <stop offset="100%" stop-color="#3D7A52"/>
+    </linearGradient>
+    <linearGradient id="barGreen" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0%" stop-color="#5CA46E"/>
+      <stop offset="100%" stop-color="#7EC490"/>
+    </linearGradient>
+    <linearGradient id="barBlue" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0%" stop-color="#5B8DEF"/>
+      <stop offset="100%" stop-color="#7BAAF7"/>
+    </linearGradient>
+    <linearGradient id="barGray" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0%" stop-color="#8A8A8A"/>
+      <stop offset="100%" stop-color="#AAAAAA"/>
+    </linearGradient>
+  </defs>
+
+  <rect width="1400" height="1050" fill="url(#paperTexture)"/>
+
+  <g opacity="0.07" stroke="#8B7A5A" stroke-width="0.6">
+    <line x1="80" y1="190" x2="1340" y2="190"/>
+    <line x1="80" y1="230" x2="1340" y2="230"/>
+  </g>
+  <line x1="118" y1="30" x2="118" y2="1020" stroke="#D88A8A" stroke-width="1.2" opacity="0.4"/>
+
+  <g fill="#E8E2D3" stroke="#C8C0B0" stroke-width="1">
+    <circle cx="50" cy="105" r="12"/>
+    <circle cx="50" cy="260" r="12"/>
+    <circle cx="50" cy="440" r="12"/>
+    <circle cx="50" cy="620" r="12"/>
+    <circle cx="50" cy="800" r="12"/>
+    <circle cx="50" cy="950" r="12"/>
+  </g>
+
+  <!-- Category tape: ビジネス -->
+  <g transform="translate(1130, 25) rotate(-3)">
+    <rect x="0" y="0" width="200" height="38" rx="3" fill="#5CA46E" stroke="#1A1D24" stroke-width="2" opacity="0.88"/>
+    <text x="100" y="25" text-anchor="middle" font-size="16" font-weight="700" fill="white" letter-spacing="1">#ビジネス</text>
+  </g>
+
+  <!-- Date badge -->
+  <rect x="128" y="22" width="180" height="36" rx="4" fill="#2F3842" filter="url(#softShadow)"/>
+  <text x="218" y="46" text-anchor="middle" font-size="15" font-weight="700" fill="#F0EDE8">2026-04-24</text>
+  <text x="335" y="47" font-size="22" fill="#F5B700">⭐⭐⭐</text>
+
+  <!-- Hero icon: dollar bag -->
+  <g transform="translate(1225, 82)">
+    <ellipse cx="60" cy="80" rx="55" ry="45" fill="url(#moneyGrad)" stroke="#1A1D24" stroke-width="3"/>
+    <rect x="30" y="40" width="60" height="20" rx="10" fill="#3D7A52" stroke="#1A1D24" stroke-width="2"/>
+    <text x="60" y="88" text-anchor="middle" font-size="34" font-weight="900" fill="#FBF8F1">$</text>
+  </g>
+
+  <!-- Title -->
+  <text x="128" y="108" font-size="40" font-weight="900" fill="#1A1D24">💰 Google → Anthropic 最大 $40B 投資</text>
+  <text x="128" y="152" font-size="28" font-weight="700" fill="#5CA46E">AI 覇権の賭け金：競合に出資する逆説の経営判断</text>
+
+  <!-- Sub info -->
+  <rect x="128" y="168" width="980" height="34" rx="4" fill="#E8E2D3" stroke="#C8C0B0" stroke-width="1"/>
+  <text x="148" y="190" font-size="13" fill="#5A5248">📰 TechCrunch / Bloomberg / CNBC　　📅 2026-04-24　　🏷️ #ビジネス　　🔗 techcrunch.com</text>
+
+  <!-- Key numbers -->
+  <rect x="128" y="215" width="790" height="120" rx="6" fill="white" stroke="#1A1D24" stroke-width="2.5" filter="url(#softShadow)"/>
+  <text x="148" y="240" font-size="13" font-weight="700" fill="#5CA46E" letter-spacing="2">KEY NUMBERS</text>
+  <line x1="148" y1="246" x2="900" y2="246" stroke="#5CA46E" stroke-width="1.5"/>
+
+  <g text-anchor="middle">
+    <text x="220" y="285" font-size="40" font-weight="900" fill="#5CA46E">$40B</text>
+    <text x="220" y="310" font-size="12" fill="#5A5248">最大投資額（Google）</text>
+    <line x1="320" y1="258" x2="320" y2="320" stroke="#E8E2D3" stroke-width="1.5"/>
+    <text x="435" y="285" font-size="40" font-weight="900" fill="#1A1D24">$350B</text>
+    <text x="435" y="310" font-size="12" fill="#5A5248">Anthropic バリュエーション</text>
+    <line x1="570" y1="258" x2="570" y2="320" stroke="#E8E2D3" stroke-width="1.5"/>
+    <text x="660" y="285" font-size="40" font-weight="900" fill="#1A1D24">$30B</text>
+    <text x="660" y="310" font-size="12" fill="#5A5248">Anthropic ARR（前期比+233%）</text>
+    <line x1="760" y1="258" x2="760" y2="320" stroke="#E8E2D3" stroke-width="1.5"/>
+    <text x="860" y="285" font-size="40" font-weight="900" fill="#1A1D24">5GW</text>
+    <text x="860" y="310" font-size="12" fill="#5A5248">算力コミット（2027〜）</text>
+  </g>
+
+  <!-- Investment comparison bar chart -->
+  <rect x="128" y="350" width="790" height="240" rx="6" fill="white" stroke="#1A1D24" stroke-width="2.5" filter="url(#softShadow)"/>
+  <text x="148" y="375" font-size="13" font-weight="700" fill="#1A1D24" letter-spacing="2">投資家別・Anthropic 累計コミットメント（$B）</text>
+  <line x1="148" y1="382" x2="900" y2="382" stroke="#1A1D24" stroke-width="1.5"/>
+
+  <!-- Bars -->
+  <g font-size="13">
+    <!-- Google -->
+    <text x="220" y="415" text-anchor="middle" fill="#2F3842" font-weight="700">Google / Alphabet</text>
+    <rect x="310" y="400" width="415" height="28" rx="4" fill="url(#barGreen)" stroke="#1A1D24" stroke-width="1.5"/>
+    <text x="735" y="419" font-size="14" font-weight="700" fill="#1A1D24">$40B（最大）</text>
+
+    <!-- Amazon -->
+    <text x="220" y="455" text-anchor="middle" fill="#2F3842" font-weight="700">Amazon / AWS</text>
+    <rect x="310" y="440" width="330" height="28" rx="4" fill="url(#barBlue)" stroke="#1A1D24" stroke-width="1.5"/>
+    <text x="650" y="459" font-size="14" font-weight="700" fill="#1A1D24">$33B（最大）</text>
+
+    <!-- Spark Capital etc -->
+    <text x="220" y="495" text-anchor="middle" fill="#2F3842">Spark / Salesforce 等</text>
+    <rect x="310" y="480" width="80" height="28" rx="4" fill="url(#barGray)" stroke="#1A1D24" stroke-width="1.5"/>
+    <text x="400" y="499" font-size="14" font-weight="700" fill="#1A1D24">  ~$7B</text>
+
+    <!-- ARR bar -->
+    <line x1="148" y1="528" x2="900" y2="528" stroke="#E8E2D3" stroke-width="1"/>
+    <text x="148" y="550" font-size="12" font-weight="700" fill="#5A5248">ARR 成長 (2025 Q4 → 2026 Q2)</text>
+    <rect x="310" y="560" width="90" height="28" rx="4" fill="#CCCCCC" stroke="#1A1D24" stroke-width="1.5"/>
+    <text x="410" y="579" font-size="13" fill="#2F3842">$9B</text>
+    <text x="430" y="579" font-size="20" fill="#C8C0B0">→</text>
+    <rect x="455" y="560" width="300" height="28" rx="4" fill="url(#barGreen)" stroke="#1A1D24" stroke-width="1.5"/>
+    <text x="765" y="579" font-size="13" font-weight="700" fill="#5CA46E">$30B（+233%）</text>
+  </g>
+
+  <!-- Sticky notes (4) -->
+  <g transform="translate(938, 215) rotate(-1.3)" filter="url(#stickyShadow)">
+    <rect x="0" y="0" width="218" height="148" rx="4" fill="#FFF9C4" stroke="#E8D84A" stroke-width="1.5"/>
+    <text x="109" y="24" text-anchor="middle" font-size="13" font-weight="700" fill="#1A1D24">💡 構造の逆説</text>
+    <line x1="15" y1="32" x2="203" y2="32" stroke="#E8D84A" stroke-width="1"/>
+    <text x="15" y="52" font-size="11" fill="#2F3842">Google は Anthropic と競合</text>
+    <text x="15" y="68" font-size="11" fill="#2F3842">しながら最大株主。目的は</text>
+    <text x="15" y="84" font-size="11" fill="#2F3842">「打ち負かす」でなく</text>
+    <text x="15" y="100" font-size="11" fill="#2F3842">「Anthropic が成長するほど</text>
+    <text x="15" y="116" font-size="11" fill="#2F3842">TPU 利用料が増える」構造。</text>
+  </g>
+
+  <g transform="translate(938, 378) rotate(1.0)" filter="url(#stickyShadow)">
+    <rect x="0" y="0" width="218" height="148" rx="4" fill="#C8E6C9" stroke="#4CAF50" stroke-width="1.5"/>
+    <text x="109" y="24" text-anchor="middle" font-size="13" font-weight="700" fill="#1A1D24">💡 バリュエーション比</text>
+    <line x1="15" y1="32" x2="203" y2="32" stroke="#4CAF50" stroke-width="1"/>
+    <text x="15" y="52" font-size="11" fill="#2F3842">Anthropic $350B / ARR $30B</text>
+    <text x="15" y="68" font-size="11" fill="#2F3842">= マルチプル 12x</text>
+    <text x="15" y="84" font-size="11" fill="#2F3842">OpenAI $880B / ARR $25B</text>
+    <text x="15" y="100" font-size="11" fill="#2F3842">= マルチプル 35x</text>
+    <text x="15" y="116" font-size="11" fill="#2F3842">→ Anthropic 側が相対的割安</text>
+  </g>
+
+  <g transform="translate(938, 545) rotate(-1.0)" filter="url(#stickyShadow)">
+    <rect x="0" y="0" width="218" height="148" rx="4" fill="#F8BBD0" stroke="#E91E63" stroke-width="1.5"/>
+    <text x="109" y="24" text-anchor="middle" font-size="13" font-weight="700" fill="#1A1D24">💡 独禁リスク</text>
+    <line x1="15" y1="32" x2="203" y2="32" stroke="#E91E63" stroke-width="1"/>
+    <text x="15" y="52" font-size="11" fill="#2F3842">Google + Amazon の二重投資</text>
+    <text x="15" y="68" font-size="11" fill="#2F3842">は FTC / EC が注目。ただし</text>
+    <text x="15" y="84" font-size="11" fill="#2F3842">独立経営が保たれており</text>
+    <text x="15" y="100" font-size="11" fill="#2F3842">「共同支配」には当たらない</text>
+    <text x="15" y="116" font-size="11" fill="#2F3842">との解釈が現状主流。</text>
+  </g>
+
+  <g transform="translate(938, 712) rotate(1.2)" filter="url(#stickyShadow)">
+    <rect x="0" y="0" width="218" height="148" rx="4" fill="#BBE1FA" stroke="#5B8DEF" stroke-width="1.5"/>
+    <text x="109" y="24" text-anchor="middle" font-size="13" font-weight="700" fill="#1A1D24">💡 $30B 条件付きの謎</text>
+    <line x1="15" y1="32" x2="203" y2="32" stroke="#5B8DEF" stroke-width="1"/>
+    <text x="15" y="52" font-size="11" fill="#2F3842">追加$30B の「パフォーマンス</text>
+    <text x="15" y="68" font-size="11" fill="#2F3842">条件」は非公開。ARR目標か</text>
+    <text x="15" y="84" font-size="11" fill="#2F3842">GPUコミット消化率か安全性</text>
+    <text x="15" y="100" font-size="11" fill="#2F3842">評価かは不明。構造的に</text>
+    <text x="15" y="116" font-size="11" fill="#2F3842">Google の影響力は大きい。</text>
+  </g>
+
+  <!-- Investor flow diagram -->
+  <rect x="128" y="610" width="790" height="180" rx="6" fill="white" stroke="#1A1D24" stroke-width="2.5" filter="url(#softShadow)"/>
+  <text x="148" y="635" font-size="13" font-weight="700" fill="#1A1D24" letter-spacing="2">投資フロー概要</text>
+  <line x1="148" y1="642" x2="900" y2="642" stroke="#1A1D24" stroke-width="1.5"/>
+
+  <!-- Google box -->
+  <rect x="155" y="655" width="140" height="55" rx="6" fill="#4285F4" stroke="#1A1D24" stroke-width="2"/>
+  <text x="225" y="678" text-anchor="middle" font-size="14" font-weight="700" fill="white">Google</text>
+  <text x="225" y="698" text-anchor="middle" font-size="11" fill="#E8F0FE">最大 $40B</text>
+
+  <!-- Amazon box -->
+  <rect x="155" y="730" width="140" height="55" rx="6" fill="#FF9900" stroke="#1A1D24" stroke-width="2"/>
+  <text x="225" y="753" text-anchor="middle" font-size="14" font-weight="700" fill="white">Amazon</text>
+  <text x="225" y="773" text-anchor="middle" font-size="11" fill="#FFF8E1">累計最大 $33B</text>
+
+  <!-- Arrows -->
+  <line x1="295" y1="682" x2="420" y2="700" stroke="#5CA46E" stroke-width="2.5" stroke-dasharray="6,3"/>
+  <line x1="295" y1="757" x2="420" y2="726" stroke="#5B8DEF" stroke-width="2.5" stroke-dasharray="6,3"/>
+  <polygon points="415,695 425,700 415,705" fill="#5CA46E"/>
+  <polygon points="415,721 425,726 415,731" fill="#5B8DEF"/>
+
+  <!-- Anthropic box -->
+  <rect x="425" y="665" width="170" height="80" rx="6" fill="#1A1D24" stroke="#5CA46E" stroke-width="3"/>
+  <text x="510" y="698" text-anchor="middle" font-size="16" font-weight="900" fill="#5CA46E">Anthropic</text>
+  <text x="510" y="718" text-anchor="middle" font-size="12" fill="#C8C0B0">ARR $30B</text>
+  <text x="510" y="735" text-anchor="middle" font-size="12" fill="#C8C0B0">Val $350B</text>
+
+  <!-- To cloud -->
+  <line x1="595" y1="705" x2="660" y2="705" stroke="#8A8A8A" stroke-width="2" stroke-dasharray="5,3"/>
+  <polygon points="655,700 665,705 655,710" fill="#8A8A8A"/>
+
+  <!-- AWS GCP boxes -->
+  <rect x="665" y="660" width="120" height="45" rx="5" fill="#E8F4EA" stroke="#5CA46E" stroke-width="1.5"/>
+  <text x="725" y="685" text-anchor="middle" font-size="12" font-weight="700" fill="#2F3842">GCP / TPU</text>
+  <rect x="665" y="715" width="120" height="45" rx="5" fill="#EAF1FB" stroke="#5B8DEF" stroke-width="1.5"/>
+  <text x="725" y="740" text-anchor="middle" font-size="12" font-weight="700" fill="#2F3842">AWS Bedrock</text>
+
+  <!-- Footer -->
+  <line x1="128" y1="820" x2="1340" y2="820" stroke="#C8C0B0" stroke-width="1"/>
+  <text x="128" y="840" font-size="12" fill="#8A8A8A" font-style="italic">AI News · 2026-04-24/27 · Google Commits Up to $40 Billion in Anthropic as AI Infrastructure Race Intensifies</text>
+</svg>

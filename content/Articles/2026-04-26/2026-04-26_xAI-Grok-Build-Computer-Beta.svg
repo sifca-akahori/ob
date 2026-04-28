@@ -1,0 +1,273 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1400 1050" font-family="-apple-system, 'Hiragino Sans', 'Yu Gothic', sans-serif">
+  <defs>
+    <pattern id="paperTexture" patternUnits="userSpaceOnUse" width="100" height="100">
+      <rect width="100" height="100" fill="#FBF8F1"/>
+      <circle cx="15" cy="22" r="0.4" fill="#C4B389" opacity="0.3"/>
+      <circle cx="67" cy="44" r="0.5" fill="#C4B389" opacity="0.3"/>
+      <circle cx="33" cy="78" r="0.3" fill="#C4B389" opacity="0.3"/>
+      <circle cx="88" cy="88" r="0.4" fill="#C4B389" opacity="0.3"/>
+      <circle cx="50" cy="10" r="0.3" fill="#C4B389" opacity="0.25"/>
+    </pattern>
+    <linearGradient id="highlighterGreen" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#B8E6C4" stop-opacity="0.85"/>
+      <stop offset="50%" stop-color="#A8D8B4" stop-opacity="1"/>
+      <stop offset="100%" stop-color="#88C494" stop-opacity="0.7"/>
+    </linearGradient>
+    <linearGradient id="washiGreen" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0%" stop-color="#5CA46E" stop-opacity="0.75"/>
+      <stop offset="50%" stop-color="#4A8F5C" stop-opacity="0.85"/>
+      <stop offset="100%" stop-color="#5CA46E" stop-opacity="0.75"/>
+    </linearGradient>
+    <linearGradient id="barGreen" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0%" stop-color="#5CA46E"/>
+      <stop offset="100%" stop-color="#7EC490"/>
+    </linearGradient>
+    <linearGradient id="barGray" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0%" stop-color="#8A8A8A"/>
+      <stop offset="100%" stop-color="#AAAAAA"/>
+    </linearGradient>
+    <filter id="stickyShadow" x="-10%" y="-10%" width="120%" height="120%">
+      <feGaussianBlur in="SourceAlpha" stdDeviation="3"/>
+      <feOffset dx="2" dy="3" result="offsetblur"/>
+      <feComponentTransfer><feFuncA type="linear" slope="0.25"/></feComponentTransfer>
+      <feMerge><feMergeNode/><feMergeNode in="SourceGraphic"/></feMerge>
+    </filter>
+    <filter id="softShadow" x="-10%" y="-10%" width="120%" height="120%">
+      <feGaussianBlur in="SourceAlpha" stdDeviation="2"/>
+      <feOffset dx="1" dy="2" result="offsetblur"/>
+      <feComponentTransfer><feFuncA type="linear" slope="0.18"/></feComponentTransfer>
+      <feMerge><feMergeNode/><feMergeNode in="SourceGraphic"/></feMerge>
+    </filter>
+  </defs>
+
+  <!-- Background -->
+  <rect width="1400" height="1050" fill="url(#paperTexture)"/>
+
+  <!-- Ruled lines -->
+  <g opacity="0.1" stroke="#8B7A5A" stroke-width="0.6">
+    <line x1="80" y1="185" x2="1340" y2="185"/>
+    <line x1="80" y1="225" x2="1340" y2="225"/>
+    <line x1="80" y1="265" x2="1340" y2="265"/>
+  </g>
+  <!-- Red margin line -->
+  <line x1="115" y1="30" x2="115" y2="1020" stroke="#D88A8A" stroke-width="1.2" opacity="0.4"/>
+
+  <!-- Binding holes -->
+  <g fill="#E8E2D3" stroke="#C8C0B0" stroke-width="1">
+    <circle cx="50" cy="100" r="12"/>
+    <circle cx="50" cy="240" r="12"/>
+    <circle cx="50" cy="420" r="12"/>
+    <circle cx="50" cy="600" r="12"/>
+    <circle cx="50" cy="780" r="12"/>
+    <circle cx="50" cy="950" r="12"/>
+  </g>
+  <g fill="#FBF8F1">
+    <circle cx="50" cy="100" r="8"/>
+    <circle cx="50" cy="240" r="8"/>
+    <circle cx="50" cy="420" r="8"/>
+    <circle cx="50" cy="600" r="8"/>
+    <circle cx="50" cy="780" r="8"/>
+    <circle cx="50" cy="950" r="8"/>
+  </g>
+
+  <!-- Washi tape top-left -->
+  <g transform="rotate(-3 200 48)">
+    <rect x="130" y="28" width="200" height="38" fill="url(#washiGreen)" rx="3"/>
+    <text x="230" y="52" text-anchor="middle" font-size="14" font-weight="bold" fill="#FFFFFF" opacity="0.9">xAI · 2026.04.26</text>
+  </g>
+
+  <!-- Category tape top-right -->
+  <g transform="rotate(-3 1280 55)">
+    <rect x="1170" y="30" width="160" height="36" fill="#5CA46E" rx="3" opacity="0.9"/>
+    <text x="1250" y="53" text-anchor="middle" font-size="14" font-weight="bold" fill="#FFFFFF">#ビジネス</text>
+  </g>
+
+  <!-- Date badge -->
+  <g transform="translate(1170 82)">
+    <rect x="0" y="0" width="150" height="50" fill="#2F3842" rx="4"/>
+    <text x="75" y="22" text-anchor="middle" font-size="11" fill="#A0B4C0" font-weight="bold">2026-04-26</text>
+    <text x="75" y="40" text-anchor="middle" font-size="13" fill="#FFFFFF" font-weight="bold">⭐⭐⭐ High</text>
+  </g>
+
+  <!-- Title -->
+  <path d="M 140 112 Q 400 107, 900 109 Q 1060 112, 1150 110 L 1150 168 Q 1050 165, 900 167 Q 400 171, 140 166 Z" fill="url(#highlighterGreen)" opacity="0.8"/>
+  <text x="155" y="158" font-size="40" font-weight="900" fill="#1A1D24">🦀 xAI Grok Build &amp; Grok Computer ベータ公開</text>
+  <text x="155" y="196" font-size="17" fill="#5CA46E" font-style="italic" font-weight="bold">ローカルファースト CLI × デスクトップ制御 — xAI の「コーディング大攻勢」</text>
+
+  <!-- Hero section -->
+  <rect x="140" y="220" width="1160" height="120" fill="#FFFFFF" stroke="#1A1D24" stroke-width="2" rx="8" filter="url(#softShadow)" opacity="0.97"/>
+  <rect x="140" y="220" width="8" height="120" fill="#5CA46E" rx="2"/>
+
+  <!-- Claw icon -->
+  <g transform="translate(168 248)">
+    <ellipse cx="30" cy="35" rx="28" ry="32" fill="#5CA46E" opacity="0.15" stroke="#5CA46E" stroke-width="2"/>
+    <text x="30" y="48" text-anchor="middle" font-size="36">🦀</text>
+  </g>
+
+  <!-- Hero stats -->
+  <text x="240" y="258" font-size="14" font-weight="bold" fill="#2C2416">Grok Build — Local-First CLI Coding Agent</text>
+  <g transform="translate(240 270)">
+    <rect x="0" y="0" width="130" height="40" fill="#F0FAF3" stroke="#5CA46E" stroke-width="1.5" rx="5"/>
+    <text x="65" y="16" text-anchor="middle" font-size="10" fill="#5CA46E" font-weight="bold">SWE-Bench Verified</text>
+    <text x="65" y="33" text-anchor="middle" font-size="18" font-weight="bold" fill="#1A1D24">70.8%</text>
+  </g>
+  <g transform="translate(390 270)">
+    <rect x="0" y="0" width="130" height="40" fill="#F0FAF3" stroke="#5CA46E" stroke-width="1.5" rx="5"/>
+    <text x="65" y="16" text-anchor="middle" font-size="10" fill="#5CA46E" font-weight="bold">並列エージェント数</text>
+    <text x="65" y="33" text-anchor="middle" font-size="18" font-weight="bold" fill="#1A1D24">8 agents</text>
+  </g>
+  <g transform="translate(540 270)">
+    <rect x="0" y="0" width="130" height="40" fill="#F0FAF3" stroke="#5CA46E" stroke-width="1.5" rx="5"/>
+    <text x="65" y="16" text-anchor="middle" font-size="10" fill="#5CA46E" font-weight="bold">コンテキスト長</text>
+    <text x="65" y="33" text-anchor="middle" font-size="18" font-weight="bold" fill="#1A1D24">256K</text>
+  </g>
+  <text x="700" y="262" font-size="13" fill="#555555">powered by grok-code-fast-1</text>
+  <text x="700" y="282" font-size="13" fill="#555555">🔒 コードはローカル実行 — xAIサーバーへ送信なし</text>
+  <text x="700" y="302" font-size="13" fill="#555555">🖥️ Grok Computer: PC フル制御ベータ (SuperGrok Heavy)</text>
+  <text x="700" y="322" font-size="13" fill="#555555">📦 CLI v4.20.192 / Arena Mode / TypeScript Python Rust Go C++</text>
+
+  <!-- SWE-Bench comparison chart -->
+  <rect x="140" y="360" width="560" height="230" fill="#FFFFFF" stroke="#1A1D24" stroke-width="2" rx="8" filter="url(#softShadow)"/>
+  <rect x="140" y="360" width="560" height="32" fill="#1A1D24" rx="8"/>
+  <rect x="140" y="380" width="560" height="12" fill="#1A1D24"/>
+  <text x="420" y="381" text-anchor="middle" font-size="14" font-weight="bold" fill="#FFFFFF">📊 SWE-Bench Verified 比較（コーディングエージェント）</text>
+
+  <!-- Bars -->
+  <g transform="translate(160 410)">
+    <!-- Claude Code est. -->
+    <text x="0" y="20" font-size="12" fill="#2C2416" font-weight="bold">Claude Code (est.)</text>
+    <rect x="160" y="6" width="352" height="20" fill="url(#barGray)" rx="3"/>
+    <text x="520" y="20" font-size="12" fill="#2C2416" font-weight="bold">~88%</text>
+
+    <!-- Grok Build -->
+    <text x="0" y="55" font-size="12" fill="#2C2416" font-weight="bold">Grok Build (Beta)</text>
+    <rect x="160" y="41" width="283" height="20" fill="url(#barGreen)" rx="3" stroke="#5CA46E" stroke-width="1.5"/>
+    <text x="451" y="55" font-size="12" fill="#1A1D24" font-weight="bold">70.8%</text>
+
+    <!-- Cursor (est.) -->
+    <text x="0" y="90" font-size="12" fill="#2C2416">Cursor / Anysphere</text>
+    <rect x="160" y="76" width="316" height="20" fill="url(#barGray)" rx="3" opacity="0.6"/>
+    <text x="484" y="90" font-size="12" fill="#2C2416">~79%</text>
+
+    <!-- GitHub Copilot -->
+    <text x="0" y="125" font-size="12" fill="#2C2416">GitHub Copilot (est.)</text>
+    <rect x="160" y="111" width="240" height="20" fill="url(#barGray)" rx="3" opacity="0.5"/>
+    <text x="408" y="125" font-size="12" fill="#2C2416">~60%</text>
+  </g>
+  <text x="420" y="575" text-anchor="middle" font-size="10" fill="#888888" font-style="italic">※ Claude Code / Cursor は公式値なし、各種報道から推定</text>
+
+  <!-- Grok Build workflow diagram -->
+  <rect x="730" y="360" width="570" height="230" fill="#FFFFFF" stroke="#1A1D24" stroke-width="2" rx="8" filter="url(#softShadow)"/>
+  <rect x="730" y="360" width="570" height="32" fill="#1A1D24" rx="8"/>
+  <rect x="730" y="380" width="570" height="12" fill="#1A1D24"/>
+  <text x="1015" y="381" text-anchor="middle" font-size="14" font-weight="bold" fill="#FFFFFF">🔄 Grok Build ワークフロー</text>
+
+  <g transform="translate(755 412)">
+    <!-- Stage 1: Plan -->
+    <rect x="0" y="0" width="130" height="70" fill="#F0FAF3" stroke="#5CA46E" stroke-width="2" rx="8"/>
+    <text x="65" y="25" text-anchor="middle" font-size="22">📋</text>
+    <text x="65" y="45" text-anchor="middle" font-size="14" font-weight="bold" fill="#2C2416">PLAN</text>
+    <text x="65" y="62" text-anchor="middle" font-size="10" fill="#555">計画立案</text>
+    <!-- Arrow -->
+    <line x1="130" y1="35" x2="165" y2="35" stroke="#5CA46E" stroke-width="2.5"/>
+    <polygon points="165,30 175,35 165,40" fill="#5CA46E"/>
+
+    <!-- Stage 2: Search -->
+    <rect x="175" y="0" width="130" height="70" fill="#F0FAF3" stroke="#5CA46E" stroke-width="2" rx="8"/>
+    <text x="240" y="25" text-anchor="middle" font-size="22">🔍</text>
+    <text x="240" y="45" text-anchor="middle" font-size="14" font-weight="bold" fill="#2C2416">SEARCH</text>
+    <text x="240" y="62" text-anchor="middle" font-size="10" fill="#555">コード検索</text>
+    <!-- Arrow -->
+    <line x1="305" y1="35" x2="340" y2="35" stroke="#5CA46E" stroke-width="2.5"/>
+    <polygon points="340,30 350,35 340,40" fill="#5CA46E"/>
+
+    <!-- Stage 3: Build -->
+    <rect x="350" y="0" width="130" height="70" fill="#5CA46E" stroke="#3A7A4E" stroke-width="2" rx="8"/>
+    <text x="415" y="25" text-anchor="middle" font-size="22">🔨</text>
+    <text x="415" y="45" text-anchor="middle" font-size="14" font-weight="bold" fill="#FFFFFF">BUILD</text>
+    <text x="415" y="62" text-anchor="middle" font-size="10" fill="#D0EDD8">コード生成</text>
+
+    <!-- Arena mode callout -->
+    <rect x="0" y="90" width="520" height="50" fill="#FFFBF0" stroke="#E8C84D" stroke-width="2" rx="6"/>
+    <text x="260" y="110" text-anchor="middle" font-size="13" font-weight="bold" fill="#2C2416">🏟️ Arena Mode — 最大 8 エージェントが並列実行 → ベスト回答を自動選択</text>
+    <text x="260" y="130" text-anchor="middle" font-size="11" fill="#666666">TypeScript / Python / Java / Rust / C++ / Go 対応</text>
+  </g>
+
+  <!-- 4 feature cards -->
+  <g transform="translate(140 615)">
+    <!-- Card 1 -->
+    <rect x="0" y="0" width="268" height="90" fill="#FFFFFF" stroke="#1A1D24" stroke-width="2" rx="8" filter="url(#softShadow)"/>
+    <rect x="0" y="0" width="268" height="6" fill="#5CA46E" rx="4"/>
+    <text x="134" y="28" text-anchor="middle" font-size="13" font-weight="bold" fill="#2C2416">🔒 ローカル実行</text>
+    <text x="134" y="46" text-anchor="middle" font-size="12" fill="#555">全コードはユーザーPC上で実行</text>
+    <text x="134" y="63" text-anchor="middle" font-size="12" fill="#555">xAIサーバーへの送信ゼロ</text>
+    <text x="134" y="80" text-anchor="middle" font-size="11" fill="#5CA46E" font-weight="bold">→ 金融・医療・防衛対応</text>
+
+    <!-- Card 2 -->
+    <rect x="296" y="0" width="268" height="90" fill="#FFFFFF" stroke="#1A1D24" stroke-width="2" rx="8" filter="url(#softShadow)"/>
+    <rect x="296" y="0" width="268" height="6" fill="#5CA46E" rx="4"/>
+    <text x="430" y="28" text-anchor="middle" font-size="13" font-weight="bold" fill="#2C2416">🖥️ Grok Computer</text>
+    <text x="430" y="46" text-anchor="middle" font-size="12" fill="#555">PCのアプリ・フォーム・ブラウザを</text>
+    <text x="430" y="63" text-anchor="middle" font-size="12" fill="#555">自律的に操作するデスクトップ AI</text>
+    <text x="430" y="80" text-anchor="middle" font-size="11" fill="#5CA46E" font-weight="bold">→ SuperGrok Heavy限定ベータ</text>
+
+    <!-- Card 3 -->
+    <rect x="592" y="0" width="268" height="90" fill="#FFFFFF" stroke="#1A1D24" stroke-width="2" rx="8" filter="url(#softShadow)"/>
+    <rect x="592" y="0" width="268" height="6" fill="#5CA46E" rx="4"/>
+    <text x="726" y="28" text-anchor="middle" font-size="13" font-weight="bold" fill="#2C2416">📊 競合比較</text>
+    <text x="726" y="46" text-anchor="middle" font-size="12" fill="#555">Claude Code / Cursor には未届き</text>
+    <text x="726" y="63" text-anchor="middle" font-size="12" fill="#555">SWE-Bench 70.8% vs ~88%</text>
+    <text x="726" y="80" text-anchor="middle" font-size="11" fill="#E05050" font-weight="bold">→ Grok 5搭載版に期待</text>
+
+    <!-- Card 4 -->
+    <rect x="888" y="0" width="272" height="90" fill="#FFFFFF" stroke="#1A1D24" stroke-width="2" rx="8" filter="url(#softShadow)"/>
+    <rect x="888" y="0" width="272" height="6" fill="#5CA46E" rx="4"/>
+    <text x="1024" y="28" text-anchor="middle" font-size="13" font-weight="bold" fill="#2C2416">🗓️ ロードマップ</text>
+    <text x="1024" y="46" text-anchor="middle" font-size="12" fill="#555">Grok 4.3 → Build/Computer →</text>
+    <text x="1024" y="63" text-anchor="middle" font-size="12" fill="#555">Grok 5（6T, Q2予定）</text>
+    <text x="1024" y="80" text-anchor="middle" font-size="11" fill="#5CA46E" font-weight="bold">→ 開発者ロックイン先行戦略</text>
+  </g>
+
+  <!-- 4 sticky notes -->
+  <g transform="translate(140 730)">
+    <!-- Sticky 1 -->
+    <g transform="rotate(-1.5 130 80)" filter="url(#stickyShadow)">
+      <rect x="0" y="0" width="240" height="100" fill="#FFF9C4" stroke="#E8C84D" stroke-width="1.5" rx="4"/>
+      <text x="120" y="22" text-anchor="middle" font-size="12" font-weight="bold" fill="#2C2416">vs Claude Code</text>
+      <text x="120" y="40" text-anchor="middle" font-size="11" fill="#555">SWE-Bench差 ~17pt</text>
+      <text x="120" y="57" text-anchor="middle" font-size="11" fill="#555">ただしローカル実行で</text>
+      <text x="120" y="74" text-anchor="middle" font-size="11" fill="#555">プライバシー優位あり</text>
+    </g>
+
+    <!-- Sticky 2 -->
+    <g transform="rotate(1.2 410 80)" filter="url(#stickyShadow)">
+      <rect x="280" y="0" width="240" height="100" fill="#C8F0D8" stroke="#5CA46E" stroke-width="1.5" rx="4"/>
+      <text x="400" y="22" text-anchor="middle" font-size="12" font-weight="bold" fill="#2C2416">SpaceX × Cursor 構図</text>
+      <text x="400" y="40" text-anchor="middle" font-size="11" fill="#555">Musk 傘下 xAI が</text>
+      <text x="400" y="57" text-anchor="middle" font-size="11" fill="#555">Cursor と競合するという</text>
+      <text x="400" y="74" text-anchor="middle" font-size="11" fill="#555">異例の内部競争</text>
+    </g>
+
+    <!-- Sticky 3 -->
+    <g transform="rotate(-0.8 690 80)" filter="url(#stickyShadow)">
+      <rect x="560" y="0" width="240" height="100" fill="#FFE0CC" stroke="#E8A87C" stroke-width="1.5" rx="4"/>
+      <text x="680" y="22" text-anchor="middle" font-size="12" font-weight="bold" fill="#2C2416">8並列の実用性</text>
+      <text x="680" y="40" text-anchor="middle" font-size="11" fill="#555">Arena Modeは新鮮だが</text>
+      <text x="680" y="57" text-anchor="middle" font-size="11" fill="#555">実際の速度・品質を</text>
+      <text x="680" y="74" text-anchor="middle" font-size="11" fill="#555">要コミュニティ検証</text>
+    </g>
+
+    <!-- Sticky 4 -->
+    <g transform="rotate(1.5 960 80)" filter="url(#stickyShadow)">
+      <rect x="840" y="0" width="240" height="100" fill="#E0E8FF" stroke="#5B8DEF" stroke-width="1.5" rx="4"/>
+      <text x="960" y="22" text-anchor="middle" font-size="12" font-weight="bold" fill="#2C2416">Grok 5 が本命</text>
+      <text x="960" y="40" text-anchor="middle" font-size="11" fill="#555">6T パラメータ完成後に</text>
+      <text x="960" y="57" text-anchor="middle" font-size="11" fill="#555">Build/Computer を載せ替え</text>
+      <text x="960" y="74" text-anchor="middle" font-size="11" fill="#555">12ヶ月以内に逆転狙う</text>
+    </g>
+  </g>
+
+  <!-- Footer -->
+  <line x1="140" y1="860" x2="1260" y2="860" stroke="#1A1D24" stroke-width="1" opacity="0.3"/>
+  <text x="700" y="882" text-anchor="middle" font-size="12" fill="#888888" font-style="italic">AI News · 2026-04-26 · xAI Grok Build &amp; Grok Computer Beta Launch</text>
+</svg>

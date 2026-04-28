@@ -1,0 +1,439 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1400 1050" font-family="'Comic Sans MS', 'Hiragino Maru Gothic ProN', 'Yu Gothic', sans-serif">
+  <defs>
+    <!-- Paper texture -->
+    <pattern id="paperTexture" patternUnits="userSpaceOnUse" width="100" height="100">
+      <rect width="100" height="100" fill="#F5EAD2"/>
+      <circle cx="15" cy="22" r="0.4" fill="#C4B389" opacity="0.3"/>
+      <circle cx="67" cy="44" r="0.5" fill="#C4B389" opacity="0.3"/>
+      <circle cx="33" cy="78" r="0.3" fill="#C4B389" opacity="0.3"/>
+      <circle cx="88" cy="88" r="0.4" fill="#C4B389" opacity="0.3"/>
+      <circle cx="50" cy="10" r="0.3" fill="#C4B389" opacity="0.25"/>
+    </pattern>
+
+    <!-- Highlighter gradient -->
+    <linearGradient id="highlighter" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#FFE663" stop-opacity="0.85"/>
+      <stop offset="50%" stop-color="#FFE663" stop-opacity="1"/>
+      <stop offset="100%" stop-color="#E8C84D" stop-opacity="0.7"/>
+    </linearGradient>
+
+    <!-- Washi tape gradients -->
+    <linearGradient id="washiBlue" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0%" stop-color="#6FAEDF" stop-opacity="0.75"/>
+      <stop offset="50%" stop-color="#5B8DEF" stop-opacity="0.85"/>
+      <stop offset="100%" stop-color="#6FAEDF" stop-opacity="0.75"/>
+    </linearGradient>
+    <linearGradient id="washiOrange" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0%" stop-color="#F5B483" stop-opacity="0.8"/>
+      <stop offset="100%" stop-color="#E8A87C" stop-opacity="0.9"/>
+    </linearGradient>
+
+    <!-- Sticky note shadow -->
+    <filter id="stickyShadow" x="-10%" y="-10%" width="120%" height="120%">
+      <feGaussianBlur in="SourceAlpha" stdDeviation="3"/>
+      <feOffset dx="2" dy="3" result="offsetblur"/>
+      <feComponentTransfer><feFuncA type="linear" slope="0.25"/></feComponentTransfer>
+      <feMerge><feMergeNode/><feMergeNode in="SourceGraphic"/></feMerge>
+    </filter>
+
+    <filter id="softShadow" x="-10%" y="-10%" width="120%" height="120%">
+      <feGaussianBlur in="SourceAlpha" stdDeviation="2"/>
+      <feOffset dx="1" dy="2" result="offsetblur"/>
+      <feComponentTransfer><feFuncA type="linear" slope="0.18"/></feComponentTransfer>
+      <feMerge><feMergeNode/><feMergeNode in="SourceGraphic"/></feMerge>
+    </filter>
+
+    <!-- Bar chart gradients -->
+    <linearGradient id="bar47" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0%" stop-color="#5B8DEF"/>
+      <stop offset="100%" stop-color="#7BA7F5"/>
+    </linearGradient>
+    <linearGradient id="bar46" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0%" stop-color="#F0B6C4"/>
+      <stop offset="100%" stop-color="#E89AA9"/>
+    </linearGradient>
+
+    <!-- Robot mascot gradient -->
+    <radialGradient id="robotBody" cx="0.5" cy="0.4">
+      <stop offset="0%" stop-color="#FFD4A3"/>
+      <stop offset="100%" stop-color="#E8A87C"/>
+    </radialGradient>
+  </defs>
+
+  <!-- ========== BACKGROUND ========== -->
+  <rect width="1400" height="1050" fill="url(#paperTexture)"/>
+
+  <!-- Horizontal ruled lines (very subtle) -->
+  <g opacity="0.12" stroke="#8B7A5A" stroke-width="0.6">
+    <line x1="80" y1="180" x2="1320" y2="180"/>
+    <line x1="80" y1="220" x2="1320" y2="220"/>
+    <line x1="80" y1="260" x2="1320" y2="260"/>
+  </g>
+
+  <!-- Left margin red line (notebook style) -->
+  <line x1="110" y1="30" x2="110" y2="1020" stroke="#D88A8A" stroke-width="1.2" opacity="0.45"/>
+
+  <!-- Binding holes -->
+  <g fill="#D4C494" opacity="0.55">
+    <circle cx="50" cy="100" r="11"/>
+    <circle cx="50" cy="340" r="11"/>
+    <circle cx="50" cy="580" r="11"/>
+    <circle cx="50" cy="820" r="11"/>
+  </g>
+  <g fill="#F5EAD2">
+    <circle cx="50" cy="100" r="8"/>
+    <circle cx="50" cy="340" r="8"/>
+    <circle cx="50" cy="580" r="8"/>
+    <circle cx="50" cy="820" r="8"/>
+  </g>
+
+  <!-- ========== HEADER ZONE ========== -->
+  <!-- Washi tape top-left -->
+  <g transform="rotate(-4 200 45)">
+    <rect x="130" y="25" width="180" height="40" fill="url(#washiBlue)"/>
+    <g opacity="0.35" fill="#FFFFFF">
+      <circle cx="160" cy="40" r="3"/>
+      <circle cx="185" cy="52" r="2"/>
+      <circle cx="220" cy="38" r="2.5"/>
+      <circle cx="255" cy="50" r="3"/>
+      <circle cx="285" cy="42" r="2"/>
+    </g>
+  </g>
+
+  <!-- Washi tape top-right -->
+  <g transform="rotate(3 1200 50)">
+    <rect x="1120" y="28" width="160" height="36" fill="url(#washiOrange)"/>
+    <g opacity="0.4" fill="#FFFFFF">
+      <rect x="1140" y="38" width="8" height="8"/>
+      <rect x="1170" y="42" width="6" height="6"/>
+      <rect x="1200" y="36" width="9" height="9"/>
+      <rect x="1235" y="44" width="7" height="7"/>
+    </g>
+  </g>
+
+  <!-- Date stamp top-right -->
+  <g transform="translate(1180 90)">
+    <rect x="0" y="0" width="140" height="48" fill="#FFFFFF" stroke="#2C2416" stroke-width="1.5" rx="4" opacity="0.85"/>
+    <rect x="6" y="6" width="128" height="36" fill="none" stroke="#2C2416" stroke-width="1" stroke-dasharray="3,2" rx="2"/>
+    <text x="70" y="22" text-anchor="middle" font-size="11" fill="#8B6F47" font-weight="bold">— 2026.04.20 —</text>
+    <text x="70" y="37" text-anchor="middle" font-size="13" fill="#2C2416" font-weight="bold">#研究</text>
+  </g>
+
+  <!-- Title highlighter background -->
+  <path d="M 150 118 Q 200 113, 280 115 Q 450 118, 640 114 Q 820 112, 960 116 L 960 168 Q 810 164, 620 168 Q 420 172, 275 168 Q 200 166, 150 168 Z"
+        fill="url(#highlighter)" opacity="0.78"/>
+
+  <!-- Title -->
+  <text x="165" y="158" font-size="48" font-weight="bold" fill="#2C2416">Claude Opus 4.7 一般提供開始</text>
+
+  <!-- Subtitle -->
+  <text x="165" y="198" font-size="18" fill="#6B5D3F" font-style="italic">Anthropicのフラッグシップ、Agentic AI時代の新基盤へ</text>
+
+  <!-- Pencil icon decoration -->
+  <g transform="translate(1010 130) rotate(-25)">
+    <rect x="0" y="0" width="110" height="14" fill="#F5D061" stroke="#2C2416" stroke-width="1.5"/>
+    <rect x="0" y="0" width="25" height="14" fill="#E8A87C" stroke="#2C2416" stroke-width="1.5"/>
+    <polygon points="110,0 110,14 128,7" fill="#FFD9A8" stroke="#2C2416" stroke-width="1.5"/>
+    <polygon points="124,5 124,9 128,7" fill="#2C2416"/>
+    <rect x="4" y="3" width="18" height="8" fill="#C48B6C" opacity="0.5"/>
+  </g>
+
+  <!-- ========== HERO ZONE (big number + mascot) ========== -->
+  <g transform="translate(140 240)">
+    <!-- Main hero card -->
+    <rect x="0" y="0" width="1140" height="130" fill="#FFFFFF" stroke="#2C2416" stroke-width="2" rx="8" filter="url(#softShadow)" opacity="0.95"/>
+    <rect x="0" y="0" width="8" height="130" fill="#5B8DEF"/>
+
+    <!-- Robot mascot (left) -->
+    <g transform="translate(30 20)">
+      <rect x="15" y="30" width="60" height="60" rx="10" fill="url(#robotBody)" stroke="#2C2416" stroke-width="2"/>
+      <rect x="20" y="5" width="50" height="35" rx="8" fill="url(#robotBody)" stroke="#2C2416" stroke-width="2"/>
+      <line x1="45" y1="5" x2="45" y2="-8" stroke="#2C2416" stroke-width="2"/>
+      <circle cx="45" cy="-10" r="4" fill="#E8A87C" stroke="#2C2416" stroke-width="1.5"/>
+      <circle cx="33" cy="22" r="4" fill="#2C2416"/>
+      <circle cx="57" cy="22" r="4" fill="#2C2416"/>
+      <circle cx="34" cy="21" r="1.3" fill="#FFFFFF"/>
+      <circle cx="58" cy="21" r="1.3" fill="#FFFFFF"/>
+      <path d="M 35 30 Q 45 36, 55 30" stroke="#2C2416" stroke-width="2" fill="none" stroke-linecap="round"/>
+      <rect x="28" y="48" width="34" height="16" rx="2" fill="#FFFFFF" stroke="#2C2416" stroke-width="1"/>
+      <text x="45" y="60" text-anchor="middle" font-size="10" font-weight="bold" fill="#2C2416">4.7</text>
+      <rect x="0" y="40" width="15" height="8" rx="3" fill="url(#robotBody)" stroke="#2C2416" stroke-width="1.5"/>
+      <rect x="75" y="40" width="15" height="8" rx="3" fill="url(#robotBody)" stroke="#2C2416" stroke-width="1.5"/>
+      <circle cx="100" cy="15" r="3" fill="#C5D9F1" opacity="0.7"/>
+      <circle cx="108" cy="8" r="5" fill="#C5D9F1" opacity="0.7"/>
+    </g>
+
+    <!-- Big number -->
+    <g transform="translate(180 30)">
+      <text x="0" y="44" font-size="64" font-weight="900" fill="#5B8DEF">0.715</text>
+      <text x="0" y="76" font-size="17" fill="#2C2416" font-weight="bold">内部リサーチエージェント</text>
+      <text x="0" y="98" font-size="17" fill="#2C2416" font-weight="bold">ベンチマーク総合スコア</text>
+      <!-- crown -->
+      <g transform="translate(215 -8)">
+        <polygon points="0,20 10,5 20,15 30,0 40,15 50,5 60,20 60,28 0,28" fill="#F5D061" stroke="#2C2416" stroke-width="1.5"/>
+        <circle cx="10" cy="5" r="3" fill="#E89AA9" stroke="#2C2416" stroke-width="1"/>
+        <circle cx="30" cy="0" r="3" fill="#C5D9F1" stroke="#2C2416" stroke-width="1"/>
+        <circle cx="50" cy="5" r="3" fill="#B8E4C2" stroke="#2C2416" stroke-width="1"/>
+        <text x="30" y="46" text-anchor="middle" font-size="12" font-weight="bold" fill="#6B5D3F">首位タイ</text>
+      </g>
+    </g>
+
+    <!-- Vertical divider -->
+    <line x1="510" y1="20" x2="510" y2="110" stroke="#2C2416" stroke-width="1" stroke-dasharray="4,3" opacity="0.4"/>
+
+    <!-- Key improvements (right side) -->
+    <g transform="translate(540 25)">
+      <text x="0" y="15" font-size="16" font-weight="bold" fill="#2C2416">🚀 前世代からの主な進化</text>
+
+      <g transform="translate(0 30)">
+        <circle cx="8" cy="8" r="7" fill="#5B8DEF"/>
+        <text x="6.5" y="12" font-size="10" fill="#FFFFFF" font-weight="bold">1</text>
+        <text x="22" y="12" font-size="14" fill="#2C2416">コーディング精度・SWE-bench底上げ</text>
+      </g>
+      <g transform="translate(0 55)">
+        <circle cx="8" cy="8" r="7" fill="#5B8DEF"/>
+        <text x="6.5" y="12" font-size="10" fill="#FFFFFF" font-weight="bold">2</text>
+        <text x="22" y="12" font-size="14" fill="#2C2416">200k超 長文脈での話題整合性↑</text>
+      </g>
+      <g transform="translate(0 80)">
+        <circle cx="8" cy="8" r="7" fill="#5B8DEF"/>
+        <text x="6.5" y="12" font-size="10" fill="#FFFFFF" font-weight="bold">3</text>
+        <text x="22" y="12" font-size="14" fill="#2C2416">エージェント運用での誤差蓄積 ↓</text>
+      </g>
+    </g>
+  </g>
+
+  <!-- ========== BENCHMARK ZONE ========== -->
+  <g transform="translate(140 400)">
+    <rect x="0" y="0" width="560" height="38" fill="#2C2416" rx="4"/>
+    <text x="15" y="25" font-size="18" font-weight="bold" fill="#F5EAD2">📊 ベンチマーク比較 : 4.6 vs 4.7</text>
+
+    <rect x="0" y="45" width="560" height="310" fill="#FFFFFF" stroke="#2C2416" stroke-width="2" rx="6" filter="url(#softShadow)"/>
+
+    <text x="280" y="72" text-anchor="middle" font-size="11" fill="#6B5D3F" font-style="italic">スコア（相対値、4.6=基準）</text>
+
+    <g transform="translate(400 75)">
+      <rect x="0" y="0" width="14" height="10" fill="url(#bar46)"/>
+      <text x="20" y="9" font-size="11" fill="#2C2416">4.6</text>
+      <rect x="50" y="0" width="14" height="10" fill="url(#bar47)"/>
+      <text x="70" y="9" font-size="11" fill="#2C2416">4.7</text>
+    </g>
+
+    <g transform="translate(30 105)">
+      <text x="0" y="10" font-size="13" fill="#2C2416" font-weight="bold">🛠  Coding (SWE-bench)</text>
+      <rect x="155" y="0" width="280" height="14" fill="#F0E8D0" stroke="#2C2416" stroke-width="0.8" rx="2"/>
+      <rect x="155" y="0" width="198" height="14" fill="url(#bar46)" rx="2"/>
+      <text x="360" y="11" font-size="11" fill="#2C2416" font-weight="bold">70.2%</text>
+
+      <rect x="155" y="18" width="280" height="14" fill="#F0E8D0" stroke="#2C2416" stroke-width="0.8" rx="2"/>
+      <rect x="155" y="18" width="232" height="14" fill="url(#bar47)" rx="2"/>
+      <text x="395" y="29" font-size="11" fill="#2C2416" font-weight="bold">82.8% ↑</text>
+    </g>
+
+    <g transform="translate(30 170)">
+      <text x="0" y="10" font-size="13" fill="#2C2416" font-weight="bold">📚 Long-context (200k+)</text>
+      <rect x="155" y="0" width="280" height="14" fill="#F0E8D0" stroke="#2C2416" stroke-width="0.8" rx="2"/>
+      <rect x="155" y="0" width="185" height="14" fill="url(#bar46)" rx="2"/>
+      <text x="347" y="11" font-size="11" fill="#2C2416" font-weight="bold">66.0%</text>
+
+      <rect x="155" y="18" width="280" height="14" fill="#F0E8D0" stroke="#2C2416" stroke-width="0.8" rx="2"/>
+      <rect x="155" y="18" width="240" height="14" fill="url(#bar47)" rx="2"/>
+      <text x="402" y="29" font-size="11" fill="#2C2416" font-weight="bold">85.8% ↑</text>
+    </g>
+
+    <g transform="translate(30 235)">
+      <text x="0" y="10" font-size="13" fill="#2C2416" font-weight="bold">👁  Vision (MMMU)</text>
+      <rect x="155" y="0" width="280" height="14" fill="#F0E8D0" stroke="#2C2416" stroke-width="0.8" rx="2"/>
+      <rect x="155" y="0" width="174" height="14" fill="url(#bar46)" rx="2"/>
+      <text x="336" y="11" font-size="11" fill="#2C2416" font-weight="bold">62.1%</text>
+
+      <rect x="155" y="18" width="280" height="14" fill="#F0E8D0" stroke="#2C2416" stroke-width="0.8" rx="2"/>
+      <rect x="155" y="18" width="215" height="14" fill="url(#bar47)" rx="2"/>
+      <text x="377" y="29" font-size="11" fill="#2C2416" font-weight="bold">76.8% ↑</text>
+    </g>
+
+    <g transform="translate(30 300)">
+      <text x="0" y="10" font-size="13" fill="#2C2416" font-weight="bold">🤖 Agent (10+ steps)</text>
+      <rect x="155" y="0" width="280" height="14" fill="#F0E8D0" stroke="#2C2416" stroke-width="0.8" rx="2"/>
+      <rect x="155" y="0" width="168" height="14" fill="url(#bar46)" rx="2"/>
+      <text x="330" y="11" font-size="11" fill="#2C2416" font-weight="bold">60.0%</text>
+
+      <rect x="155" y="18" width="280" height="14" fill="#F0E8D0" stroke="#2C2416" stroke-width="0.8" rx="2"/>
+      <rect x="155" y="18" width="252" height="14" fill="url(#bar47)" rx="2"/>
+      <text x="414" y="29" font-size="11" fill="#2C2416" font-weight="bold">90.0% ↑↑</text>
+    </g>
+  </g>
+
+  <!-- ========== CAPABILITY GRID (right side) ========== -->
+  <g transform="translate(740 400)">
+    <rect x="0" y="0" width="540" height="38" fill="#2C2416" rx="4"/>
+    <text x="15" y="25" font-size="18" font-weight="bold" fill="#F5EAD2">✨ 強化された4つの能力</text>
+
+    <!-- Card 1: Coding -->
+    <g transform="translate(0 55)">
+      <rect x="0" y="0" width="260" height="140" fill="#FFFFFF" stroke="#2C2416" stroke-width="2" rx="8" filter="url(#softShadow)"/>
+      <rect x="0" y="0" width="260" height="32" fill="#5B8DEF" rx="8"/>
+      <rect x="0" y="24" width="260" height="8" fill="#5B8DEF"/>
+      <text x="14" y="22" font-size="14" fill="#FFFFFF" font-weight="bold">🛠 コーディング</text>
+      <g transform="translate(18 52)">
+        <rect x="0" y="0" width="56" height="36" rx="3" fill="#2C2416" stroke="#2C2416" stroke-width="1"/>
+        <rect x="3" y="3" width="50" height="30" fill="#5B8DEF"/>
+        <text x="28" y="22" text-anchor="middle" font-size="12" fill="#FFFFFF" font-weight="bold">&lt;/&gt;</text>
+        <path d="M -4 36 L 60 36 L 56 42 L 0 42 Z" fill="#2C2416"/>
+      </g>
+      <text x="90" y="68" font-size="12" fill="#2C2416" font-weight="bold">SWE-bench Verified</text>
+      <text x="90" y="88" font-size="11" fill="#6B5D3F">複数ファイル横断の</text>
+      <text x="90" y="104" font-size="11" fill="#6B5D3F">リファクタリングに強い</text>
+      <text x="14" y="130" font-size="10" fill="#8B6F47" font-style="italic">→ Claude Code で恩恵大</text>
+    </g>
+
+    <!-- Card 2: Long-context -->
+    <g transform="translate(280 55)">
+      <rect x="0" y="0" width="260" height="140" fill="#FFFFFF" stroke="#2C2416" stroke-width="2" rx="8" filter="url(#softShadow)"/>
+      <rect x="0" y="0" width="260" height="32" fill="#9B7EC9" rx="8"/>
+      <rect x="0" y="24" width="260" height="8" fill="#9B7EC9"/>
+      <text x="14" y="22" font-size="14" fill="#FFFFFF" font-weight="bold">📚 長文脈</text>
+      <g transform="translate(18 48)">
+        <rect x="8" y="0" width="38" height="50" fill="#FFFFFF" stroke="#2C2416" stroke-width="1.5"/>
+        <rect x="4" y="4" width="38" height="50" fill="#FFFFFF" stroke="#2C2416" stroke-width="1.5"/>
+        <rect x="0" y="8" width="38" height="50" fill="#FFFFFF" stroke="#2C2416" stroke-width="1.5"/>
+        <line x1="4" y1="16" x2="34" y2="16" stroke="#9B7EC9" stroke-width="1.2"/>
+        <line x1="4" y1="22" x2="34" y2="22" stroke="#9B7EC9" stroke-width="1.2"/>
+        <line x1="4" y1="28" x2="34" y2="28" stroke="#9B7EC9" stroke-width="1.2"/>
+        <line x1="4" y1="34" x2="30" y2="34" stroke="#9B7EC9" stroke-width="1.2"/>
+        <line x1="4" y1="40" x2="34" y2="40" stroke="#9B7EC9" stroke-width="1.2"/>
+        <line x1="4" y1="46" x2="26" y2="46" stroke="#9B7EC9" stroke-width="1.2"/>
+      </g>
+      <text x="90" y="68" font-size="12" fill="#2C2416" font-weight="bold">200k+ トークン維持</text>
+      <text x="90" y="88" font-size="11" fill="#6B5D3F">話題が散らばらない</text>
+      <text x="90" y="104" font-size="11" fill="#6B5D3F">整合性が向上</text>
+      <text x="14" y="130" font-size="10" fill="#8B6F47" font-style="italic">→ 長大な資料解析に最適</text>
+    </g>
+
+    <!-- Card 3: Vision -->
+    <g transform="translate(0 210)">
+      <rect x="0" y="0" width="260" height="140" fill="#FFFFFF" stroke="#2C2416" stroke-width="2" rx="8" filter="url(#softShadow)"/>
+      <rect x="0" y="0" width="260" height="32" fill="#E8A87C" rx="8"/>
+      <rect x="0" y="24" width="260" height="8" fill="#E8A87C"/>
+      <text x="14" y="22" font-size="14" fill="#FFFFFF" font-weight="bold">👁 ビジョン</text>
+      <g transform="translate(20 58)">
+        <ellipse cx="28" cy="20" rx="28" ry="16" fill="#FFFFFF" stroke="#2C2416" stroke-width="2"/>
+        <circle cx="28" cy="20" r="11" fill="#E8A87C" stroke="#2C2416" stroke-width="1.5"/>
+        <circle cx="28" cy="20" r="5" fill="#2C2416"/>
+        <circle cx="30" cy="18" r="1.8" fill="#FFFFFF"/>
+        <line x1="10" y1="8" x2="13" y2="12" stroke="#2C2416" stroke-width="1.5" stroke-linecap="round"/>
+        <line x1="28" y1="2" x2="28" y2="6" stroke="#2C2416" stroke-width="1.5" stroke-linecap="round"/>
+        <line x1="46" y1="8" x2="43" y2="12" stroke="#2C2416" stroke-width="1.5" stroke-linecap="round"/>
+      </g>
+      <text x="90" y="68" font-size="12" fill="#2C2416" font-weight="bold">MMMU 76.8%</text>
+      <text x="90" y="88" font-size="11" fill="#6B5D3F">画像・図表の</text>
+      <text x="90" y="104" font-size="11" fill="#6B5D3F">マルチモーダル理解</text>
+      <text x="14" y="130" font-size="10" fill="#8B6F47" font-style="italic">→ 資料・UIレビューに有効</text>
+    </g>
+
+    <!-- Card 4: Agent -->
+    <g transform="translate(280 210)">
+      <rect x="0" y="0" width="260" height="140" fill="#FFFFFF" stroke="#2C2416" stroke-width="2" rx="8" filter="url(#softShadow)"/>
+      <rect x="0" y="0" width="260" height="32" fill="#6FAE75" rx="8"/>
+      <rect x="0" y="24" width="260" height="8" fill="#6FAE75"/>
+      <text x="14" y="22" font-size="14" fill="#FFFFFF" font-weight="bold">🤖 エージェント</text>
+      <g transform="translate(18 50)">
+        <circle cx="12" cy="12" r="9" fill="#6FAE75" stroke="#2C2416" stroke-width="1.5"/>
+        <circle cx="55" cy="12" r="9" fill="#6FAE75" stroke="#2C2416" stroke-width="1.5"/>
+        <circle cx="12" cy="48" r="9" fill="#6FAE75" stroke="#2C2416" stroke-width="1.5"/>
+        <circle cx="55" cy="48" r="9" fill="#6FAE75" stroke="#2C2416" stroke-width="1.5"/>
+        <circle cx="33" cy="30" r="10" fill="#FFFFFF" stroke="#2C2416" stroke-width="2"/>
+        <line x1="21" y1="12" x2="46" y2="12" stroke="#2C2416" stroke-width="1.5"/>
+        <line x1="19" y1="18" x2="28" y2="25" stroke="#2C2416" stroke-width="1.5"/>
+        <line x1="48" y1="18" x2="39" y2="25" stroke="#2C2416" stroke-width="1.5"/>
+        <line x1="28" y1="37" x2="19" y2="42" stroke="#2C2416" stroke-width="1.5"/>
+        <line x1="39" y1="37" x2="48" y2="42" stroke="#2C2416" stroke-width="1.5"/>
+        <line x1="21" y1="48" x2="46" y2="48" stroke="#2C2416" stroke-width="1.5"/>
+      </g>
+      <text x="90" y="68" font-size="12" fill="#2C2416" font-weight="bold">10+ステップで 90%</text>
+      <text x="90" y="88" font-size="11" fill="#6B5D3F">誤差蓄積に強く</text>
+      <text x="90" y="104" font-size="11" fill="#6B5D3F">自己修正能力↑</text>
+      <text x="14" y="130" font-size="10" fill="#8B6F47" font-style="italic">→ Cowork の安定性向上</text>
+    </g>
+  </g>
+
+  <!-- ========== STICKY NOTES ZONE ========== -->
+  <g transform="translate(140 790)">
+    <text x="0" y="-8" font-size="15" font-weight="bold" fill="#6B5D3F">💭 分析メモ</text>
+    <line x1="0" y1="-3" x2="100" y2="-3" stroke="#E8A87C" stroke-width="3" stroke-linecap="round"/>
+
+    <!-- Sticky 1: Yellow -->
+    <g transform="translate(0 10) rotate(-2)" filter="url(#stickyShadow)">
+      <rect x="0" y="0" width="275" height="175" fill="#FFF2A8" stroke="#D4C268" stroke-width="1"/>
+      <rect x="100" y="-7" width="75" height="18" fill="#F8DB99" opacity="0.85" transform="rotate(-3 137 2)"/>
+      <text x="15" y="28" font-size="14" font-weight="bold" fill="#2C2416">💡 活用シーン</text>
+      <line x1="15" y1="35" x2="135" y2="35" stroke="#D4A147" stroke-width="1.5"/>
+      <text x="15" y="58" font-size="11.5" fill="#2C2416">• Claude Code で</text>
+      <text x="15" y="74" font-size="11.5" fill="#2C2416">　リファクタリング</text>
+      <text x="15" y="97" font-size="11.5" fill="#2C2416">• Cowork の長時間</text>
+      <text x="15" y="113" font-size="11.5" fill="#2C2416">　リサーチ自動化</text>
+      <text x="15" y="136" font-size="11.5" fill="#2C2416">• 大規模資料の読解</text>
+      <text x="15" y="152" font-size="11.5" fill="#2C2416">　＋要約ワークフロー</text>
+    </g>
+
+    <!-- Sticky 2: Green -->
+    <g transform="translate(290 15) rotate(1.5)" filter="url(#stickyShadow)">
+      <rect x="0" y="0" width="275" height="175" fill="#B8E4C2" stroke="#6FAE75" stroke-width="1"/>
+      <rect x="100" y="-7" width="75" height="18" fill="#9FD1AC" opacity="0.85" transform="rotate(2 137 2)"/>
+      <text x="15" y="28" font-size="14" font-weight="bold" fill="#2C2416">🎯 競合との位置付け</text>
+      <line x1="15" y1="35" x2="165" y2="35" stroke="#4A8553" stroke-width="1.5"/>
+      <text x="15" y="58" font-size="11.5" fill="#2C2416">• GPT-5.4: 汎用最強</text>
+      <text x="15" y="74" font-size="11.5" fill="#2C2416">　Anthropic=安全性特化</text>
+      <text x="15" y="97" font-size="11.5" fill="#2C2416">• Gemini Ultra: 画像に</text>
+      <text x="15" y="113" font-size="11.5" fill="#2C2416">　優位／長時間は4.7</text>
+      <text x="15" y="136" font-size="11.5" fill="#2C2416">• エージェント信頼性</text>
+      <text x="15" y="152" font-size="11.5" fill="#2C2416">　で他社を突き放す</text>
+    </g>
+
+    <!-- Sticky 3: Pink -->
+    <g transform="translate(580 12) rotate(-1)" filter="url(#stickyShadow)">
+      <rect x="0" y="0" width="275" height="175" fill="#F8C5D4" stroke="#E89AA9" stroke-width="1"/>
+      <rect x="100" y="-7" width="75" height="18" fill="#EDAEBD" opacity="0.85" transform="rotate(-2 137 2)"/>
+      <text x="15" y="28" font-size="14" font-weight="bold" fill="#2C2416">⚠️ 注意点</text>
+      <line x1="15" y1="35" x2="110" y2="35" stroke="#B85070" stroke-width="1.5"/>
+      <text x="15" y="58" font-size="11.5" fill="#2C2416">• アナログ時計等の</text>
+      <text x="15" y="74" font-size="11.5" fill="#2C2416">　常識視覚は弱い</text>
+      <text x="15" y="97" font-size="11.5" fill="#2C2416">• 4.6→4.7の移行で</text>
+      <text x="15" y="113" font-size="11.5" fill="#2C2416">　プロンプト再検証推奨</text>
+      <text x="15" y="136" font-size="11.5" fill="#2C2416">• レート・料金ティア</text>
+      <text x="15" y="152" font-size="11.5" fill="#2C2416">　は順次反映</text>
+    </g>
+
+    <!-- Sticky 4: Blue -->
+    <g transform="translate(870 15) rotate(2)" filter="url(#stickyShadow)">
+      <rect x="0" y="0" width="275" height="175" fill="#C5D9F1" stroke="#8FAFE0" stroke-width="1"/>
+      <rect x="100" y="-7" width="75" height="18" fill="#A5C0E5" opacity="0.85" transform="rotate(3 137 2)"/>
+      <text x="15" y="28" font-size="14" font-weight="bold" fill="#2C2416">🧭 Anthropicの狙い</text>
+      <line x1="15" y1="35" x2="150" y2="35" stroke="#3E6BB8" stroke-width="1.5"/>
+      <text x="15" y="58" font-size="11.5" fill="#2C2416">• Mythosと並び</text>
+      <text x="15" y="74" font-size="11.5" fill="#2C2416">　エージェント時代を主導</text>
+      <text x="15" y="97" font-size="11.5" fill="#2C2416">• 4.xシリーズ集大成</text>
+      <text x="15" y="113" font-size="11.5" fill="#2C2416">　次は Claude 5 系へ</text>
+      <text x="15" y="136" font-size="11.5" fill="#2C2416">• Cowork/Platform</text>
+      <text x="15" y="152" font-size="11.5" fill="#2C2416">　全体の底上げ狙い</text>
+    </g>
+  </g>
+
+  <!-- ========== FOOTER ========== -->
+  <g transform="translate(140 1005)">
+    <line x1="0" y1="0" x2="1140" y2="0" stroke="#2C2416" stroke-width="0.8" stroke-dasharray="3,4" opacity="0.5"/>
+    <text x="0" y="20" font-size="11" fill="#6B5D3F" font-style="italic">Source: Anthropic公式 (anthropic.com/news) · 分析: AI News Daily</text>
+    <text x="1140" y="20" text-anchor="end" font-size="11" fill="#6B5D3F" font-style="italic">🖋 ノート風スライド v2</text>
+  </g>
+
+  <!-- Decorative stars -->
+  <g opacity="0.5" fill="#E8A87C">
+    <path d="M 1300 180 l 3 8 l 8 1 l -6 6 l 2 9 l -7 -4 l -7 4 l 2 -9 l -6 -6 l 8 -1 z"/>
+    <circle cx="1310" cy="780" r="3"/>
+    <circle cx="1320" cy="790" r="2"/>
+    <circle cx="1305" cy="795" r="2.5"/>
+  </g>
+
+  <!-- Squiggle decoration -->
+  <path d="M 1260 970 q 10 -8, 20 0 t 20 0 t 20 0" stroke="#9B7EC9" stroke-width="2.5" fill="none" stroke-linecap="round" opacity="0.55"/>
+</svg>

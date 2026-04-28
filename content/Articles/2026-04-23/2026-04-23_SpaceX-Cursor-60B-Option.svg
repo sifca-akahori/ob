@@ -1,0 +1,272 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1400 1050" font-family="-apple-system, 'Hiragino Sans', 'Yu Gothic', 'Segoe UI', sans-serif">
+  <defs>
+    <pattern id="paperTex" patternUnits="userSpaceOnUse" width="100" height="100">
+      <rect width="100" height="100" fill="#F5EAD2"/>
+      <circle cx="22" cy="14" r="0.4" fill="#C4B389" opacity="0.3"/>
+      <circle cx="54" cy="62" r="0.5" fill="#C4B389" opacity="0.3"/>
+      <circle cx="81" cy="35" r="0.3" fill="#C4B389" opacity="0.3"/>
+    </pattern>
+    <filter id="stickyShadow" x="-10%" y="-10%" width="125%" height="125%">
+      <feGaussianBlur in="SourceAlpha" stdDeviation="3"/>
+      <feOffset dx="2" dy="3" result="ob"/>
+      <feComponentTransfer><feFuncA type="linear" slope="0.25"/></feComponentTransfer>
+      <feMerge><feMergeNode/><feMergeNode in="SourceGraphic"/></feMerge>
+    </filter>
+    <filter id="softShadow" x="-10%" y="-10%" width="120%" height="120%">
+      <feGaussianBlur in="SourceAlpha" stdDeviation="2"/>
+      <feOffset dx="1" dy="2" result="ob"/>
+      <feComponentTransfer><feFuncA type="linear" slope="0.18"/></feComponentTransfer>
+      <feMerge><feMergeNode/><feMergeNode in="SourceGraphic"/></feMerge>
+    </filter>
+    <linearGradient id="rocketGrad" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#5B8DEF"/>
+      <stop offset="100%" stop-color="#3A6BC8"/>
+    </linearGradient>
+    <linearGradient id="greenBar" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#5CA46E"/>
+      <stop offset="100%" stop-color="#3D8050"/>
+    </linearGradient>
+    <linearGradient id="grayBar" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#9BA8B5"/>
+      <stop offset="100%" stop-color="#7A8A98"/>
+    </linearGradient>
+  </defs>
+
+  <!-- Background -->
+  <rect width="1400" height="1050" fill="url(#paperTex)"/>
+  <rect x="0" y="0" width="44" height="1050" fill="#EDE0C4" opacity="0.7" stroke="#D5C9A8" stroke-width="1"/>
+  <circle cx="22" cy="140" r="13" fill="#F5EAD2" stroke="#C4B389" stroke-width="1.5"/>
+  <circle cx="22" cy="290" r="13" fill="#F5EAD2" stroke="#C4B389" stroke-width="1.5"/>
+  <circle cx="22" cy="440" r="13" fill="#F5EAD2" stroke="#C4B389" stroke-width="1.5"/>
+  <circle cx="22" cy="600" r="13" fill="#F5EAD2" stroke="#C4B389" stroke-width="1.5"/>
+  <circle cx="22" cy="760" r="13" fill="#F5EAD2" stroke="#C4B389" stroke-width="1.5"/>
+  <circle cx="22" cy="910" r="13" fill="#F5EAD2" stroke="#C4B389" stroke-width="1.5"/>
+
+  <!-- Category tape -->
+  <g transform="translate(1185, 26) rotate(-3)">
+    <rect x="0" y="0" width="190" height="38" rx="3" fill="#5CA46E" opacity="0.88" stroke="#1A1D24" stroke-width="1.5"/>
+    <text x="95" y="25" text-anchor="middle" fill="white" font-size="16" font-weight="700" letter-spacing="1">#ビジネス</text>
+  </g>
+
+  <!-- Impact stars -->
+  <text x="1330" y="85" text-anchor="middle" fill="#2F3842" font-size="22">⭐⭐⭐</text>
+
+  <!-- Date badge -->
+  <rect x="58" y="20" width="160" height="34" rx="4" fill="#2F3842" filter="url(#softShadow)"/>
+  <text x="138" y="42" text-anchor="middle" fill="#F5EAD2" font-size="15" font-weight="600">2026-04-23</text>
+
+  <!-- Header -->
+  <line x1="58" y1="72" x2="1360" y2="72" stroke="#1A1D24" stroke-width="2.5"/>
+  <text x="58" y="116" fill="#1A1D24" font-size="36" font-weight="900">🚀 SpaceX × Cursor：$60B買収オプション取得</text>
+  <text x="58" y="155" fill="#1A1D24" font-size="30" font-weight="900">「$10B協業か$60B買収か」という異例条項——AIコーディング覇権争い加速</text>
+  <rect x="58" y="167" width="780" height="22" rx="2" fill="#5B8DEF" opacity="0.18"/>
+  <text x="66" y="183" fill="#2F3842" font-size="14" font-weight="500">TechCrunch / CNBC / Fortune  ·  2026-04-22〜23  ·  #ビジネス  ·  #SpaceX  ·  #Cursor  ·  #AIコーディング</text>
+  <line x1="58" y1="198" x2="1360" y2="198" stroke="#1A1D24" stroke-width="1.5"/>
+
+  <!-- Hero: Rocket + Cursor icon -->
+  <g transform="translate(62, 210)" filter="url(#softShadow)">
+    <!-- Rocket -->
+    <path d="M 100 10 Q 75 60 75 100 L 125 100 Q 125 60 100 10 Z" fill="url(#rocketGrad)" stroke="#1A1D24" stroke-width="2.5"/>
+    <!-- Window -->
+    <circle cx="100" cy="65" r="16" fill="white" stroke="#1A1D24" stroke-width="2"/>
+    <circle cx="100" cy="65" r="10" fill="#5B8DEF" opacity="0.5"/>
+    <!-- Wings -->
+    <path d="M 75 90 L 50 120 L 75 115" fill="#3A6BC8" stroke="#1A1D24" stroke-width="2"/>
+    <path d="M 125 90 L 150 120 L 125 115" fill="#3A6BC8" stroke="#1A1D24" stroke-width="2"/>
+    <!-- Exhaust flames -->
+    <path d="M 80 100 Q 75 130 100 120 Q 125 130 120 100" fill="#FF6B3B" stroke="#1A1D24" stroke-width="1.5"/>
+    <!-- Dollar sign overlay -->
+    <text x="100" y="70" text-anchor="middle" fill="#1A1D24" font-size="14" font-weight="900">$60B</text>
+    <!-- Cursor icon below -->
+    <rect x="75" y="145" width="50" height="40" rx="5" fill="#2F3842" stroke="#1A1D24" stroke-width="2"/>
+    <text x="100" y="170" text-anchor="middle" fill="white" font-size="16" font-weight="900">|</text>
+    <!-- Labels -->
+    <text x="100" y="210" text-anchor="middle" fill="#5B8DEF" font-size="14" font-weight="800">SpaceX × Cursor</text>
+    <text x="100" y="228" text-anchor="middle" fill="#8A8A8A" font-size="11">Anysphere Inc.</text>
+  </g>
+
+  <!-- Key number blocks -->
+  <rect x="310" y="210" width="180" height="128" rx="6" fill="white" stroke="#1A1D24" stroke-width="2.5" filter="url(#softShadow)"/>
+  <rect x="310" y="210" width="180" height="8" rx="3" fill="#5B8DEF"/>
+  <text x="400" y="258" text-anchor="middle" fill="#5B8DEF" font-size="44" font-weight="900">$60B</text>
+  <text x="400" y="280" text-anchor="middle" fill="#2F3842" font-size="12" font-weight="600">SpaceX 買収オプション</text>
+  <text x="400" y="298" text-anchor="middle" fill="#8A8A8A" font-size="10">2026年内に行使可能</text>
+  <text x="400" y="316" text-anchor="middle" fill="#8A8A8A" font-size="10">前回評価額$29Bの2倍超</text>
+
+  <rect x="503" y="210" width="180" height="128" rx="6" fill="white" stroke="#1A1D24" stroke-width="2.5" filter="url(#softShadow)"/>
+  <rect x="503" y="210" width="180" height="8" rx="3" fill="#9BA8B5"/>
+  <text x="593" y="258" text-anchor="middle" fill="#4A6070" font-size="44" font-weight="900">$10B</text>
+  <text x="593" y="280" text-anchor="middle" fill="#2F3842" font-size="12" font-weight="600">協業対価（非買収時）</text>
+  <text x="593" y="298" text-anchor="middle" fill="#8A8A8A" font-size="10">「協業成果に対する支払い」</text>
+  <text x="593" y="316" text-anchor="middle" fill="#8A8A8A" font-size="10">買収しない場合の選択肢</text>
+
+  <rect x="696" y="210" width="180" height="128" rx="6" fill="white" stroke="#1A1D24" stroke-width="2.5" filter="url(#softShadow)"/>
+  <rect x="696" y="210" width="180" height="8" rx="3" fill="#5CA46E"/>
+  <text x="786" y="258" text-anchor="middle" fill="#5CA46E" font-size="44" font-weight="900">$2B+</text>
+  <text x="786" y="280" text-anchor="middle" fill="#2F3842" font-size="12" font-weight="600">Cursor ARR</text>
+  <text x="786" y="298" text-anchor="middle" fill="#8A8A8A" font-size="10">$3.4B調達 / $29B評価額</text>
+  <text x="786" y="316" text-anchor="middle" fill="#8A8A8A" font-size="10">2022年設立のAnysphere</text>
+
+  <rect x="889" y="210" width="180" height="128" rx="6" fill="white" stroke="#1A1D24" stroke-width="2.5" filter="url(#softShadow)"/>
+  <rect x="889" y="210" width="180" height="8" rx="3" fill="#E86B3B"/>
+  <text x="979" y="254" text-anchor="middle" fill="#E86B3B" font-size="30" font-weight="900">$0.2M</text>
+  <text x="979" y="272" text-anchor="middle" fill="#E86B3B" font-size="20" font-weight="700">→ $3B</text>
+  <text x="979" y="292" text-anchor="middle" fill="#2F3842" font-size="12" font-weight="600">FTX売却価格vs今の価値</text>
+  <text x="979" y="310" text-anchor="middle" fill="#8A8A8A" font-size="10">2023年に$20万で手放した株が</text>
+  <text x="979" y="328" text-anchor="middle" fill="#8A8A8A" font-size="10">$30億相当に... (15,000倍)</text>
+
+  <!-- Main: Deal structure diagram -->
+  <rect x="58" y="360" width="630" height="310" rx="6" fill="white" stroke="#1A1D24" stroke-width="2" filter="url(#softShadow)"/>
+  <rect x="58" y="360" width="630" height="6" rx="3" fill="#5B8DEF"/>
+  <text x="75" y="390" fill="#1A1D24" font-size="15" font-weight="800">🔀 契約構造フロー</text>
+  <line x1="75" y1="398" x2="670" y2="398" stroke="#E0D8C8" stroke-width="1"/>
+
+  <!-- SpaceX box -->
+  <rect x="80" y="415" width="150" height="60" rx="6" fill="#5B8DEF" stroke="#1A1D24" stroke-width="2"/>
+  <text x="155" y="440" text-anchor="middle" fill="white" font-size="14" font-weight="800">SpaceX</text>
+  <text x="155" y="458" text-anchor="middle" fill="white" font-size="11">(xAI統合後)</text>
+
+  <!-- Arrow to contract -->
+  <line x1="230" y1="445" x2="300" y2="445" stroke="#1A1D24" stroke-width="2" marker-end="url(#arrow)"/>
+
+  <!-- Contract diamond -->
+  <polygon points="340,415 390,445 340,475 290,445" fill="#FFF9C4" stroke="#1A1D24" stroke-width="2"/>
+  <text x="340" y="450" text-anchor="middle" fill="#1A1D24" font-size="12" font-weight="800">契約</text>
+
+  <!-- Arrow from contract -->
+  <line x1="390" y1="445" x2="450" y2="445" stroke="#1A1D24" stroke-width="2" marker-end="url(#arrow)"/>
+
+  <!-- Anysphere / Cursor box -->
+  <rect x="450" y="415" width="180" height="60" rx="6" fill="#2F3842" stroke="#1A1D24" stroke-width="2"/>
+  <text x="540" y="440" text-anchor="middle" fill="white" font-size="14" font-weight="800">Cursor/Anysphere</text>
+  <text x="540" y="458" text-anchor="middle" fill="white" font-size="11">$29B評価 / $2B+ ARR</text>
+
+  <!-- Two options -->
+  <line x1="340" y1="475" x2="340" y2="510" stroke="#1A1D24" stroke-width="2"/>
+
+  <!-- Option A -->
+  <rect x="80" y="510" width="240" height="70" rx="5" fill="#E8F5E9" stroke="#5CA46E" stroke-width="2.5"/>
+  <text x="200" y="534" text-anchor="middle" fill="#1A1D24" font-size="13" font-weight="800">Option A: 協業のみ</text>
+  <text x="200" y="554" text-anchor="middle" fill="#2F3842" font-size="12">$10B を Anysphere に支払い</text>
+  <text x="200" y="570" text-anchor="middle" fill="#5CA46E" font-size="11" font-weight="700">成果物: 次世代コーディングAI</text>
+  <line x1="200" y1="510" x2="200" y2="510" stroke="#5CA46E" stroke-width="2"/>
+
+  <!-- Option B -->
+  <rect x="365" y="510" width="280" height="70" rx="5" fill="#E3F2FD" stroke="#5B8DEF" stroke-width="2.5"/>
+  <text x="505" y="534" text-anchor="middle" fill="#1A1D24" font-size="13" font-weight="800">Option B: $60B完全買収</text>
+  <text x="505" y="554" text-anchor="middle" fill="#2F3842" font-size="12">2026年内に行使可能（IPO後か）</text>
+  <text x="505" y="570" text-anchor="middle" fill="#5B8DEF" font-size="11" font-weight="700">先行: $2B調達を先制した形</text>
+
+  <!-- IPO note -->
+  <rect x="80" y="598" width="570" height="52" rx="4" fill="#2F3842" opacity="0.07" stroke="#1A1D24" stroke-width="1.5"/>
+  <text x="365" y="620" text-anchor="middle" fill="#2F3842" font-size="12" font-weight="700">背景: SpaceX IPO (推定評価額 $1.75T) 前の大型買収は財務審査を遅延させるリスク</text>
+  <text x="365" y="638" text-anchor="middle" fill="#5A5A5A" font-size="11">→ 「今は協業開始→IPO後に$60B買収行使」という段階的戦略が合理的</text>
+
+  <!-- Valuation journey chart -->
+  <rect x="702" y="360" width="663" height="310" rx="6" fill="white" stroke="#1A1D24" stroke-width="2" filter="url(#softShadow)"/>
+  <rect x="702" y="360" width="663" height="6" rx="3" fill="#5B8DEF"/>
+  <text x="719" y="390" fill="#1A1D24" font-size="15" font-weight="800">📈 Cursor バリュエーション史</text>
+  <line x1="719" y1="398" x2="1347" y2="398" stroke="#E0D8C8" stroke-width="1"/>
+
+  <!-- Timeline bars -->
+  <text x="750" y="430" text-anchor="end" fill="#8A8A8A" font-size="11">2023 FTX売却</text>
+  <rect x="755" y="415" width="1" height="26" rx="1" fill="url(#grayBar)" stroke="#1A1D24" stroke-width="1.5"/>
+  <text x="762" y="433" fill="#E86B3B" font-size="12" font-weight="700">$0.0002B ← $20万ドル</text>
+
+  <text x="750" y="475" text-anchor="end" fill="#8A8A8A" font-size="11">2024 Series B</text>
+  <rect x="755" y="460" width="30" height="26" rx="2" fill="url(#grayBar)" stroke="#1A1D24" stroke-width="1.5"/>
+  <text x="793" y="478" fill="#4A4A4A" font-size="12">~$2.5B</text>
+
+  <text x="750" y="520" text-anchor="end" fill="#8A8A8A" font-size="11">2025 Series C</text>
+  <rect x="755" y="505" width="120" height="26" rx="2" fill="url(#grayBar)" stroke="#1A1D24" stroke-width="1.5"/>
+  <text x="883" y="523" fill="#4A4A4A" font-size="12">~$10B</text>
+
+  <text x="750" y="565" text-anchor="end" fill="#8A8A8A" font-size="11">2026/Q1 Series D</text>
+  <rect x="755" y="550" width="344" height="26" rx="3" fill="url(#greenBar)" stroke="#1A1D24" stroke-width="2"/>
+  <text x="1107" y="568" fill="#1A1D24" font-size="13" font-weight="700">$29B</text>
+
+  <text x="750" y="610" text-anchor="end" fill="#5B8DEF" font-size="11" font-weight="700">SpaceX オプション</text>
+  <rect x="755" y="595" width="620" height="26" rx="3" fill="url(#rocketGrad)" stroke="#1A1D24" stroke-width="2.5"/>
+  <text x="1283" y="613" fill="white" font-size="14" font-weight="900">$60B 🚀</text>
+
+  <!-- AI Coding market share -->
+  <rect x="719" y="634" width="620" height="22" rx="3" fill="#F0F4FF"/>
+  <text x="1029" y="650" text-anchor="middle" fill="#5B8DEF" font-size="12" font-weight="700">$29B評価からわずか数ヶ月でオプション価格2倍超——AIコーディング市場の熱狂を体現</text>
+
+  <!-- Feature cards -->
+  <rect x="58" y="690" width="195" height="110" rx="6" fill="white" stroke="#1A1D24" stroke-width="2" filter="url(#softShadow)"/>
+  <rect x="58" y="690" width="195" height="6" rx="3" fill="#5B8DEF"/>
+  <text x="156" y="720" text-anchor="middle" fill="#1A1D24" font-size="14" font-weight="800">🏢 Anysphere概要</text>
+  <text x="156" y="742" text-anchor="middle" fill="#5A5A5A" font-size="11">設立: 2022年 / SF拠点</text>
+  <text x="156" y="758" text-anchor="middle" fill="#5A5A5A" font-size="11">調達総額: $3.4B超</text>
+  <text x="156" y="774" text-anchor="middle" fill="#5A5A5A" font-size="11">ARR: $2B+ (急成長中)</text>
+  <text x="156" y="790" text-anchor="middle" fill="#5B8DEF" font-size="11" font-weight="700">主力製品: Cursor IDE</text>
+
+  <rect x="267" y="690" width="195" height="110" rx="6" fill="white" stroke="#1A1D24" stroke-width="2" filter="url(#softShadow)"/>
+  <rect x="267" y="690" width="195" height="6" rx="3" fill="#5CA46E"/>
+  <text x="365" y="720" text-anchor="middle" fill="#1A1D24" font-size="14" font-weight="800">🎯 SpaceXの狙い</text>
+  <text x="365" y="742" text-anchor="middle" fill="#5A5A5A" font-size="11">xAI統合後のAI強化</text>
+  <text x="365" y="758" text-anchor="middle" fill="#5A5A5A" font-size="11">Grok + Cursor = 開発者向け</text>
+  <text x="365" y="774" text-anchor="middle" fill="#5A5A5A" font-size="11">IPO前のAI資産確保</text>
+  <text x="365" y="790" text-anchor="middle" fill="#5CA46E" font-size="11" font-weight="700">$2B調達を先制!</text>
+
+  <rect x="476" y="690" width="195" height="110" rx="6" fill="white" stroke="#1A1D24" stroke-width="2" filter="url(#softShadow)"/>
+  <rect x="476" y="690" width="195" height="6" rx="3" fill="#E86B3B"/>
+  <text x="574" y="720" text-anchor="middle" fill="#1A1D24" font-size="14" font-weight="800">😱 FTX の大損</text>
+  <text x="574" y="742" text-anchor="middle" fill="#5A5A5A" font-size="11">2023年破綻整理で</text>
+  <text x="574" y="758" text-anchor="middle" fill="#5A5A5A" font-size="11">Anysphere株を$20万で売却</text>
+  <text x="574" y="774" text-anchor="middle" fill="#5A5A5A" font-size="11">現在の価値: ~$30億</text>
+  <text x="574" y="790" text-anchor="middle" fill="#E86B3B" font-size="11" font-weight="700">15,000倍の機会損失!</text>
+
+  <rect x="685" y="690" width="195" height="110" rx="6" fill="white" stroke="#1A1D24" stroke-width="2" filter="url(#softShadow)"/>
+  <rect x="685" y="690" width="195" height="6" rx="3" fill="#9BA8B5"/>
+  <text x="783" y="720" text-anchor="middle" fill="#1A1D24" font-size="14" font-weight="800">⚔️ 競合への影響</text>
+  <text x="783" y="742" text-anchor="middle" fill="#5A5A5A" font-size="11">OpenAI: Codex Labs展開中</text>
+  <text x="783" y="758" text-anchor="middle" fill="#5A5A5A" font-size="11">Anthropic: ClaudeCode $2.5B</text>
+  <text x="783" y="774" text-anchor="middle" fill="#5A5A5A" font-size="11">GitHub Copilot: 既存ユーザー</text>
+  <text x="783" y="790" text-anchor="middle" fill="#4A6070" font-size="11" font-weight="700">三つ巴が四つ巴に</text>
+
+  <rect x="894" y="690" width="471" height="110" rx="6" fill="white" stroke="#1A1D24" stroke-width="2" filter="url(#softShadow)"/>
+  <rect x="894" y="690" width="471" height="6" rx="3" fill="#2F3842"/>
+  <text x="1130" y="720" text-anchor="middle" fill="#1A1D24" font-size="14" font-weight="800">🔮 買収実行の可能性と課題</text>
+  <text x="1130" y="742" text-anchor="middle" fill="#5A5A5A" font-size="12">SpaceX IPO完了後（2026後半〜2027）の財務的自由度が鍵。</text>
+  <text x="1130" y="762" text-anchor="middle" fill="#5A5A5A" font-size="12">一方、Claude Code・GPT-5.5の圧力でCursorの優位が縮小すれば</text>
+  <text x="1130" y="782" text-anchor="middle" fill="#5A5A5A" font-size="12">$60B行使より$10B協業終了を選ぶ可能性も残る。</text>
+
+  <!-- Sticky notes -->
+  <g transform="translate(58, 820) rotate(-1.2)" filter="url(#stickyShadow)">
+    <rect width="290" height="100" rx="4" fill="#FFF9C4" stroke="#1A1D24" stroke-width="1.5"/>
+    <text x="145" y="28" text-anchor="middle" fill="#1A1D24" font-size="13" font-weight="800">🤔 なぜ今のタイミング?</text>
+    <text x="145" y="48" text-anchor="middle" fill="#2F3842" font-size="11">AnthropicのClaudeCode $2.5B ARR発表と</text>
+    <text x="145" y="64" text-anchor="middle" fill="#2F3842" font-size="11">GPT-5.5の同日リリースがあった4月23日。</text>
+    <text x="145" y="80" text-anchor="middle" fill="#2F3842" font-size="11">SpaceXが「今しかない」と判断した可能性。</text>
+  </g>
+
+  <g transform="translate(365, 815) rotate(0.8)" filter="url(#stickyShadow)">
+    <rect width="290" height="100" rx="4" fill="#C8F7C5" stroke="#1A1D24" stroke-width="1.5"/>
+    <text x="145" y="28" text-anchor="middle" fill="#1A1D24" font-size="13" font-weight="800">💡 Cursor の強みは何か</text>
+    <text x="145" y="48" text-anchor="middle" fill="#2F3842" font-size="11">VS Codeベースで開発者に馴染みやすく、</text>
+    <text x="145" y="64" text-anchor="middle" fill="#2F3842" font-size="11">エージェント型のコード補完が秀逸。</text>
+    <text x="145" y="80" text-anchor="middle" fill="#2F3842" font-size="11">$2B ARRがその証明。</text>
+  </g>
+
+  <g transform="translate(672, 820) rotate(-0.6)" filter="url(#stickyShadow)">
+    <rect width="290" height="100" rx="4" fill="#D4E8FF" stroke="#1A1D24" stroke-width="1.5"/>
+    <text x="145" y="28" text-anchor="middle" fill="#1A1D24" font-size="13" font-weight="800">🔭 1年後の予測</text>
+    <text x="145" y="48" text-anchor="middle" fill="#2F3842" font-size="11">IPO完了すればSpaceXの現金ポジション強化。</text>
+    <text x="145" y="64" text-anchor="middle" fill="#2F3842" font-size="11">Cursor+Grok統合開発環境が登場し、</text>
+    <text x="145" y="80" text-anchor="middle" fill="#2F3842" font-size="11">Microsoft-GitHubへの対抗軸が生まれる。</text>
+  </g>
+
+  <g transform="translate(979, 815) rotate(1.2)" filter="url(#stickyShadow)">
+    <rect width="290" height="100" rx="4" fill="#FFE0D0" stroke="#1A1D24" stroke-width="1.5"/>
+    <text x="145" y="28" text-anchor="middle" fill="#1A1D24" font-size="13" font-weight="800">⚠️ FTX教訓</text>
+    <text x="145" y="48" text-anchor="middle" fill="#2F3842" font-size="11">$20万→$30億は15,000倍。</text>
+    <text x="145" y="64" text-anchor="middle" fill="#2F3842" font-size="11">AIスタートアップ株は「不確実だから売る」が</text>
+    <text x="145" y="80" text-anchor="middle" fill="#2F3842" font-size="11">最大の損失を生む。保有判断の難しさ。</text>
+  </g>
+
+  <!-- Footer -->
+  <line x1="58" y1="1022" x2="1360" y2="1022" stroke="#1A1D24" stroke-width="1"/>
+  <text x="709" y="1040" text-anchor="middle" fill="#8A8A8A" font-size="12" font-style="italic">AI News · 2026-04-23 · SpaceX Strikes $60B Option to Acquire AI Coding Startup Cursor from Anysphere</text>
+</svg>

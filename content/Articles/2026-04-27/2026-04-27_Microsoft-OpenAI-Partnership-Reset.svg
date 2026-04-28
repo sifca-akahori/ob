@@ -1,0 +1,243 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1400 1050" font-family="-apple-system, 'Hiragino Sans', 'Yu Gothic', sans-serif">
+  <defs>
+    <pattern id="paperTexture" patternUnits="userSpaceOnUse" width="100" height="100">
+      <rect width="100" height="100" fill="#FBF8F1"/>
+      <circle cx="15" cy="22" r="0.4" fill="#C4B389" opacity="0.3"/>
+      <circle cx="67" cy="44" r="0.5" fill="#C4B389" opacity="0.3"/>
+      <circle cx="33" cy="78" r="0.3" fill="#C4B389" opacity="0.3"/>
+      <circle cx="88" cy="88" r="0.4" fill="#C4B389" opacity="0.3"/>
+      <circle cx="50" cy="10" r="0.3" fill="#C4B389" opacity="0.25"/>
+    </pattern>
+    <filter id="stickyShadow" x="-10%" y="-10%" width="120%" height="120%">
+      <feGaussianBlur in="SourceAlpha" stdDeviation="3"/>
+      <feOffset dx="2" dy="3" result="offsetblur"/>
+      <feComponentTransfer><feFuncA type="linear" slope="0.25"/></feComponentTransfer>
+      <feMerge><feMergeNode/><feMergeNode in="SourceGraphic"/></feMerge>
+    </filter>
+    <filter id="softShadow" x="-10%" y="-10%" width="120%" height="120%">
+      <feGaussianBlur in="SourceAlpha" stdDeviation="2"/>
+      <feOffset dx="1" dy="2" result="offsetblur"/>
+      <feComponentTransfer><feFuncA type="linear" slope="0.18"/></feComponentTransfer>
+      <feMerge><feMergeNode/><feMergeNode in="SourceGraphic"/></feMerge>
+    </filter>
+    <linearGradient id="barGreen" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0%" stop-color="#5CA46E"/>
+      <stop offset="100%" stop-color="#7EC490"/>
+    </linearGradient>
+    <linearGradient id="barBlue" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0%" stop-color="#5B8DEF"/>
+      <stop offset="100%" stop-color="#7BAAF7"/>
+    </linearGradient>
+    <linearGradient id="barGray" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0%" stop-color="#8A8A8A"/>
+      <stop offset="100%" stop-color="#AAAAAA"/>
+    </linearGradient>
+  </defs>
+
+  <!-- Background -->
+  <rect width="1400" height="1050" fill="url(#paperTexture)"/>
+
+  <!-- Ruled lines -->
+  <g opacity="0.08" stroke="#8B7A5A" stroke-width="0.6">
+    <line x1="80" y1="190" x2="1340" y2="190"/>
+    <line x1="80" y1="230" x2="1340" y2="230"/>
+    <line x1="80" y1="270" x2="1340" y2="270"/>
+    <line x1="80" y1="310" x2="1340" y2="310"/>
+  </g>
+
+  <!-- Red margin line -->
+  <line x1="118" y1="30" x2="118" y2="1020" stroke="#D88A8A" stroke-width="1.2" opacity="0.4"/>
+
+  <!-- Binding holes -->
+  <g fill="#E8E2D3" stroke="#C8C0B0" stroke-width="1">
+    <circle cx="50" cy="105" r="12"/>
+    <circle cx="50" cy="245" r="12"/>
+    <circle cx="50" cy="430" r="12"/>
+    <circle cx="50" cy="615" r="12"/>
+    <circle cx="50" cy="800" r="12"/>
+    <circle cx="50" cy="950" r="12"/>
+  </g>
+
+  <!-- Category tape: ビジネス (green) -->
+  <g transform="translate(1140, 28) rotate(-3)">
+    <rect x="0" y="0" width="190" height="38" rx="3" fill="#5CA46E" stroke="#1A1D24" stroke-width="2" opacity="0.88"/>
+    <text x="95" y="25" text-anchor="middle" font-size="16" font-weight="700" fill="white" letter-spacing="1">#ビジネス</text>
+  </g>
+
+  <!-- Date badge -->
+  <rect x="128" y="22" width="180" height="36" rx="4" fill="#2F3842" filter="url(#softShadow)"/>
+  <text x="218" y="46" text-anchor="middle" font-size="15" font-weight="700" fill="#F0EDE8" letter-spacing="1">2026-04-27</text>
+
+  <!-- Impact stars -->
+  <text x="340" y="48" font-size="22" fill="#F5B700">⭐⭐⭐</text>
+
+  <!-- Hero icon: lock opening -->
+  <g transform="translate(1220, 90)">
+    <rect x="0" y="20" width="100" height="75" rx="8" fill="#5CA46E" stroke="#1A1D24" stroke-width="3" opacity="0.85"/>
+    <rect x="20" y="-5" width="60" height="45" rx="30" fill="none" stroke="#1A1D24" stroke-width="5" opacity="0.5"/>
+    <rect x="38" y="40" width="24" height="32" rx="3" fill="#FBF8F1" stroke="#1A1D24" stroke-width="2"/>
+    <circle cx="50" cy="52" r="7" fill="#2F3842"/>
+    <line x1="50" y1="59" x2="50" y2="68" stroke="#2F3842" stroke-width="3" stroke-linecap="round"/>
+  </g>
+
+  <!-- Main title -->
+  <text x="128" y="108" font-size="40" font-weight="900" fill="#1A1D24">🔓 Microsoft-OpenAI 独占終了</text>
+  <text x="128" y="152" font-size="32" font-weight="800" fill="#2F3842">マルチクラウド時代、正式幕開け</text>
+
+  <!-- Sub info bar -->
+  <rect x="128" y="168" width="1050" height="34" rx="4" fill="#E8E2D3" stroke="#C8C0B0" stroke-width="1"/>
+  <text x="148" y="190" font-size="13" fill="#5A5248">📰 Microsoft Blog / TechCrunch / CNBC　　📅 2026-04-27　　🏷️ #ビジネス　　🔗 blogs.microsoft.com</text>
+
+  <!-- Key numbers block -->
+  <rect x="128" y="218" width="790" height="110" rx="6" fill="white" stroke="#1A1D24" stroke-width="2.5" filter="url(#softShadow)"/>
+  <text x="148" y="243" font-size="13" font-weight="700" fill="#5CA46E" letter-spacing="2">KEY NUMBERS</text>
+  <line x1="148" y1="249" x2="900" y2="249" stroke="#5CA46E" stroke-width="1.5"/>
+
+  <g text-anchor="middle">
+    <text x="250" y="285" font-size="38" font-weight="900" fill="#1A1D24">2032</text>
+    <text x="250" y="308" font-size="12" fill="#5A5248">ライセンス継続年</text>
+    <line x1="355" y1="260" x2="355" y2="318" stroke="#E8E2D3" stroke-width="1.5"/>
+    <text x="470" y="285" font-size="38" font-weight="900" fill="#5CA46E">非独占</text>
+    <text x="470" y="308" font-size="12" fill="#5A5248">IP ライセンス変更</text>
+    <line x1="580" y1="260" x2="580" y2="318" stroke="#E8E2D3" stroke-width="1.5"/>
+    <text x="700" y="285" font-size="38" font-weight="900" fill="#1A1D24">$50B</text>
+    <text x="700" y="308" font-size="12" fill="#5A5248">Amazon 契約リスク解消</text>
+    <line x1="800" y1="260" x2="800" y2="318" stroke="#E8E2D3" stroke-width="1.5"/>
+    <text x="870" y="285" font-size="38" font-weight="900" fill="#1A1D24">2030</text>
+    <text x="870" y="308" font-size="12" fill="#5A5248">RevShare継続年限</text>
+  </g>
+
+  <!-- Before/After comparison -->
+  <rect x="128" y="345" width="790" height="210" rx="6" fill="white" stroke="#1A1D24" stroke-width="2.5" filter="url(#softShadow)"/>
+  <text x="148" y="370" font-size="13" font-weight="700" fill="#1A1D24" letter-spacing="2">契約変更：Before → After</text>
+  <line x1="148" y1="376" x2="910" y2="376" stroke="#1A1D24" stroke-width="1.5"/>
+
+  <!-- Header row -->
+  <rect x="148" y="382" width="230" height="28" rx="3" fill="#2F3842"/>
+  <rect x="398" y="382" width="230" height="28" rx="3" fill="#8A8A8A"/>
+  <rect x="648" y="382" width="230" height="28" rx="3" fill="#5CA46E"/>
+  <text x="263" y="401" text-anchor="middle" font-size="13" font-weight="700" fill="white">項目</text>
+  <text x="513" y="401" text-anchor="middle" font-size="13" font-weight="700" fill="white">旧契約</text>
+  <text x="763" y="401" text-anchor="middle" font-size="13" font-weight="700" fill="white">新契約（2026-04-27〜）</text>
+
+  <!-- Rows -->
+  <g font-size="13" fill="#1A1D24">
+    <rect x="148" y="410" width="730" height="28" rx="0" fill="#F5F2EC"/>
+    <text x="263" y="429" text-anchor="middle">クラウド利用</text>
+    <text x="513" y="429" text-anchor="middle" fill="#C0392B">Azure のみ（独占）</text>
+    <text x="763" y="429" text-anchor="middle" fill="#27AE60">任意クラウド可（AWS/GCP等）</text>
+
+    <rect x="148" y="438" width="730" height="28" rx="0" fill="white"/>
+    <text x="263" y="457" text-anchor="middle">IPライセンス</text>
+    <text x="513" y="457" text-anchor="middle" fill="#C0392B">独占的ライセンス</text>
+    <text x="763" y="457" text-anchor="middle" fill="#27AE60">非独占（2032年まで）</text>
+
+    <rect x="148" y="466" width="730" height="28" rx="0" fill="#F5F2EC"/>
+    <text x="263" y="485" text-anchor="middle">RevShare(MS→OAI)</text>
+    <text x="513" y="485" text-anchor="middle" fill="#C0392B">Microsoftが支払い</text>
+    <text x="763" y="485" text-anchor="middle" fill="#27AE60">即時停止</text>
+
+    <rect x="148" y="494" width="730" height="28" rx="0" fill="white"/>
+    <text x="263" y="513" text-anchor="middle">RevShare(OAI→MS)</text>
+    <text x="513" y="513" text-anchor="middle">OpenAIが支払い</text>
+    <text x="763" y="513" text-anchor="middle">上限付きで2030年まで継続</text>
+
+    <rect x="148" y="522" width="730" height="28" rx="0" fill="#F5F2EC"/>
+    <text x="263" y="541" text-anchor="middle">AGI 達成時の変化</text>
+    <text x="513" y="541" text-anchor="middle" fill="#C0392B">契約自動終了（不確実）</text>
+    <text x="763" y="541" text-anchor="middle" fill="#27AE60">明確な終了期限（2032）</text>
+  </g>
+
+  <!-- Cloud provider cards -->
+  <rect x="128" y="572" width="245" height="90" rx="8" fill="white" stroke="#5CA46E" stroke-width="2.5" filter="url(#softShadow)"/>
+  <text x="250" y="605" text-anchor="middle" font-size="22">☁️</text>
+  <text x="250" y="632" text-anchor="middle" font-size="15" font-weight="700" fill="#1A1D24">Azure（優先）</text>
+  <text x="250" y="653" text-anchor="middle" font-size="12" fill="#5A5248">First choice</text>
+
+  <rect x="390" y="572" width="245" height="90" rx="8" fill="white" stroke="#5B8DEF" stroke-width="2.5" filter="url(#softShadow)"/>
+  <text x="512" y="605" text-anchor="middle" font-size="22">🌊</text>
+  <text x="512" y="632" text-anchor="middle" font-size="15" font-weight="700" fill="#1A1D24">AWS（$50B Deal）</text>
+  <text x="512" y="653" text-anchor="middle" font-size="12" fill="#5A5248">Legal risk cleared</text>
+
+  <rect x="653" y="572" width="245" height="90" rx="8" fill="white" stroke="#8B7DB8" stroke-width="2.5" filter="url(#softShadow)"/>
+  <text x="775" y="605" text-anchor="middle" font-size="22">🔵</text>
+  <text x="775" y="632" text-anchor="middle" font-size="15" font-weight="700" fill="#1A1D24">Google Cloud</text>
+  <text x="775" y="653" text-anchor="middle" font-size="12" fill="#5A5248">Vertex AI 参入可能性</text>
+
+  <!-- Sticky notes (4) -->
+  <g transform="translate(940, 218) rotate(-1.2)" filter="url(#stickyShadow)">
+    <rect x="0" y="0" width="215" height="145" rx="4" fill="#FFF9C4" stroke="#E8D84A" stroke-width="1.5"/>
+    <text x="107" y="24" text-anchor="middle" font-size="13" font-weight="700" fill="#1A1D24">📌 IPO への布石</text>
+    <line x1="15" y1="32" x2="200" y2="32" stroke="#E8D84A" stroke-width="1"/>
+    <text x="15" y="52" font-size="11" fill="#2F3842">非独占化でマルチクラウド</text>
+    <text x="15" y="68" font-size="11" fill="#2F3842">リスクを排除。投資家向け</text>
+    <text x="15" y="84" font-size="11" fill="#2F3842">デューデリが大幅に簡素化</text>
+    <text x="15" y="100" font-size="11" fill="#2F3842">される。2026後半IPO加速</text>
+    <text x="15" y="116" font-size="11" fill="#2F3842">に向けた最重要ステップ。</text>
+  </g>
+
+  <g transform="translate(940, 378) rotate(1.0)" filter="url(#stickyShadow)">
+    <rect x="0" y="0" width="215" height="145" rx="4" fill="#C8E6C9" stroke="#4CAF50" stroke-width="1.5"/>
+    <text x="107" y="24" text-anchor="middle" font-size="13" font-weight="700" fill="#1A1D24">📌 MS の計算</text>
+    <line x1="15" y1="32" x2="200" y2="32" stroke="#4CAF50" stroke-width="1"/>
+    <text x="15" y="52" font-size="11" fill="#2F3842">RevShare負担解消で年間</text>
+    <text x="15" y="68" font-size="11" fill="#2F3842">数十億ドルのコスト減。OAI</text>
+    <text x="15" y="84" font-size="11" fill="#2F3842">が多クラウドで成長する</text>
+    <text x="15" y="100" font-size="11" fill="#2F3842">ことでAzure外でも間接的</text>
+    <text x="15" y="116" font-size="11" fill="#2F3842">に利益を享受できる。</text>
+  </g>
+
+  <g transform="translate(940, 538) rotate(-0.8)" filter="url(#stickyShadow)">
+    <rect x="0" y="0" width="215" height="145" rx="4" fill="#F8BBD0" stroke="#E91E63" stroke-width="1.5"/>
+    <text x="107" y="24" text-anchor="middle" font-size="13" font-weight="700" fill="#1A1D24">📌 競合への影響</text>
+    <line x1="15" y1="32" x2="200" y2="32" stroke="#E91E63" stroke-width="1"/>
+    <text x="15" y="52" font-size="11" fill="#2F3842">Bedrock に OAI が加わる</text>
+    <text x="15" y="68" font-size="11" fill="#2F3842">可能性大。Claude / GPT-5.5</text>
+    <text x="15" y="84" font-size="11" fill="#2F3842">が同一UIで選べる時代へ。</text>
+    <text x="15" y="100" font-size="11" fill="#2F3842">Anthropic は既にBedrock・</text>
+    <text x="15" y="116" font-size="11" fill="#2F3842">Vertex 両対応で先行。</text>
+  </g>
+
+  <g transform="translate(940, 698) rotate(1.5)" filter="url(#stickyShadow)">
+    <rect x="0" y="0" width="215" height="145" rx="4" fill="#BBE1FA" stroke="#5B8DEF" stroke-width="1.5"/>
+    <text x="107" y="24" text-anchor="middle" font-size="13" font-weight="700" fill="#1A1D24">📌 Musk 訴訟との絡み</text>
+    <line x1="15" y1="32" x2="200" y2="32" stroke="#5B8DEF" stroke-width="1"/>
+    <text x="15" y="52" font-size="11" fill="#2F3842">Elon Musk の OpenAI 訴訟</text>
+    <text x="15" y="68" font-size="11" fill="#2F3842">（営利化・公益目的違反）</text>
+    <text x="15" y="84" font-size="11" fill="#2F3842">は継続中。独占解除は訴訟</text>
+    <text x="15" y="100" font-size="11" fill="#2F3842">を有利に進める材料にも</text>
+    <text x="15" y="116" font-size="11" fill="#2F3842">なりうる複雑な構造。</text>
+  </g>
+
+  <!-- Timeline -->
+  <rect x="128" y="680" width="790" height="130" rx="6" fill="white" stroke="#1A1D24" stroke-width="2.5" filter="url(#softShadow)"/>
+  <text x="148" y="705" font-size="13" font-weight="700" fill="#1A1D24" letter-spacing="2">TIMELINE</text>
+  <line x1="148" y1="712" x2="900" y2="712" stroke="#1A1D24" stroke-width="1.5"/>
+
+  <line x1="180" y1="750" x2="880" y2="750" stroke="#C8C0B0" stroke-width="2"/>
+  <g font-size="11" text-anchor="middle" fill="#2F3842">
+    <circle cx="210" cy="750" r="7" fill="#8A8A8A" stroke="#1A1D24" stroke-width="1.5"/>
+    <text x="210" y="773">2019</text>
+    <text x="210" y="787">独占契約開始</text>
+
+    <circle cx="380" cy="750" r="7" fill="#8A8A8A" stroke="#1A1D24" stroke-width="1.5"/>
+    <text x="380" y="773">2024</text>
+    <text x="380" y="787">$13B追加投資</text>
+
+    <circle cx="550" cy="750" r="8" fill="#5CA46E" stroke="#1A1D24" stroke-width="2"/>
+    <text x="550" y="773" font-weight="700">Apr 27, 2026</text>
+    <text x="550" y="787" font-weight="700" fill="#5CA46E">非独占化・改定</text>
+
+    <circle cx="720" cy="750" r="7" fill="#F5B700" stroke="#1A1D24" stroke-width="1.5"/>
+    <text x="720" y="773">後半 2026</text>
+    <text x="720" y="787">IPO 計画</text>
+
+    <circle cx="870" cy="750" r="7" fill="#C8C0B0" stroke="#1A1D24" stroke-width="1.5"/>
+    <text x="870" y="773">2032</text>
+    <text x="870" y="787">ライセンス終了</text>
+  </g>
+
+  <!-- Footer -->
+  <line x1="128" y1="840" x2="1340" y2="840" stroke="#C8C0B0" stroke-width="1"/>
+  <text x="128" y="860" font-size="12" fill="#8A8A8A" font-style="italic">AI News · 2026-04-27 · Microsoft and OpenAI Restructure Exclusive Partnership for Multi-Cloud Era</text>
+</svg>

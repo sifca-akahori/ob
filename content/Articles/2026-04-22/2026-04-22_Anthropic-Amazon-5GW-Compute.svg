@@ -1,0 +1,305 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1400 1050" font-family="'-apple-system', 'Hiragino Sans', 'Yu Gothic', 'Segoe UI', sans-serif">
+  <defs>
+    <pattern id="paperTex" patternUnits="userSpaceOnUse" width="100" height="100">
+      <rect width="100" height="100" fill="#F5EAD2"/>
+      <circle cx="12" cy="18" r="0.4" fill="#C4B389" opacity="0.3"/>
+      <circle cx="64" cy="42" r="0.5" fill="#C4B389" opacity="0.3"/>
+      <circle cx="31" cy="75" r="0.3" fill="#C4B389" opacity="0.3"/>
+      <circle cx="85" cy="85" r="0.4" fill="#C4B389" opacity="0.3"/>
+      <circle cx="49" cy="9"  r="0.3" fill="#C4B389" opacity="0.25"/>
+    </pattern>
+    <filter id="stickyShadow" x="-10%" y="-10%" width="125%" height="125%">
+      <feGaussianBlur in="SourceAlpha" stdDeviation="3"/>
+      <feOffset dx="2" dy="3" result="ob"/>
+      <feComponentTransfer><feFuncA type="linear" slope="0.25"/></feComponentTransfer>
+      <feMerge><feMergeNode/><feMergeNode in="SourceGraphic"/></feMerge>
+    </filter>
+    <filter id="softShadow" x="-10%" y="-10%" width="120%" height="120%">
+      <feGaussianBlur in="SourceAlpha" stdDeviation="2"/>
+      <feOffset dx="1" dy="2" result="ob"/>
+      <feComponentTransfer><feFuncA type="linear" slope="0.18"/></feComponentTransfer>
+      <feMerge><feMergeNode/><feMergeNode in="SourceGraphic"/></feMerge>
+    </filter>
+    <linearGradient id="barGreen" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#5CA46E"/>
+      <stop offset="100%" stop-color="#3D8052"/>
+    </linearGradient>
+    <linearGradient id="barGray" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#9BA8B5"/>
+      <stop offset="100%" stop-color="#7A8A98"/>
+    </linearGradient>
+    <linearGradient id="powerBar" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0%" stop-color="#5CA46E"/>
+      <stop offset="100%" stop-color="#8BD4A0"/>
+    </linearGradient>
+  </defs>
+
+  <!-- Background -->
+  <rect width="1400" height="1050" fill="url(#paperTex)"/>
+  <!-- Left binding margin -->
+  <rect x="0" y="0" width="44" height="1050" fill="#EDE0C4" opacity="0.7" stroke="#D5C9A8" stroke-width="1"/>
+  <circle cx="22" cy="140"  r="13" fill="#F5EAD2" stroke="#C4B389" stroke-width="1.5"/>
+  <circle cx="22" cy="290"  r="13" fill="#F5EAD2" stroke="#C4B389" stroke-width="1.5"/>
+  <circle cx="22" cy="440"  r="13" fill="#F5EAD2" stroke="#C4B389" stroke-width="1.5"/>
+  <circle cx="22" cy="600"  r="13" fill="#F5EAD2" stroke="#C4B389" stroke-width="1.5"/>
+  <circle cx="22" cy="760"  r="13" fill="#F5EAD2" stroke="#C4B389" stroke-width="1.5"/>
+  <circle cx="22" cy="910"  r="13" fill="#F5EAD2" stroke="#C4B389" stroke-width="1.5"/>
+
+  <!-- Category tape -->
+  <g transform="translate(1185, 28) rotate(-3)">
+    <rect x="0" y="0" width="200" height="38" rx="3" fill="#5CA46E" opacity="0.88" stroke="#1A1D24" stroke-width="1.5"/>
+    <text x="100" y="25" text-anchor="middle" fill="white" font-size="16" font-weight="700" letter-spacing="1">#ビジネス</text>
+  </g>
+
+  <!-- Date badge -->
+  <rect x="58" y="20" width="160" height="34" rx="4" fill="#2F3842" filter="url(#softShadow)"/>
+  <text x="138" y="42" text-anchor="middle" fill="#F5EAD2" font-size="15" font-weight="600">2026-04-22</text>
+
+  <!-- Header -->
+  <line x1="58" y1="72" x2="1360" y2="72" stroke="#1A1D24" stroke-width="2.5"/>
+  <text x="58" y="116" fill="#1A1D24" font-size="36" font-weight="900" letter-spacing="-0.5">⚡ Anthropic × Amazon：追加$50億投資 + $1000億AWS契約</text>
+  <text x="58" y="155" fill="#1A1D24" font-size="33" font-weight="900" letter-spacing="-0.5">最大5GW算力確保で「AIインフラ軍拡競争」新ステージへ</text>
+  <rect x="58" y="167" width="700" height="22" rx="2" fill="#5CA46E" opacity="0.18"/>
+  <text x="66" y="183" fill="#2F3842" font-size="14" font-weight="500">Anthropic公式ブログ  ·  2026-04-21  ·  #ビジネス  ·  #AWS  ·  #Trainium  ·  #インフラ</text>
+  <line x1="58" y1="198" x2="1360" y2="198" stroke="#1A1D24" stroke-width="1.5"/>
+
+  <!-- Hero: Lightning bolt / power tower icon -->
+  <g transform="translate(68, 215)" filter="url(#softShadow)">
+    <!-- Tower base -->
+    <rect x="60" y="140" width="120" height="60" rx="4" fill="#2F3842" stroke="#1A1D24" stroke-width="2.5"/>
+    <text x="120" y="177" text-anchor="middle" fill="#F5EAD2" font-size="12" font-weight="700">AWS Trainium</text>
+    <!-- Tower structure -->
+    <line x1="80" y1="140" x2="90" y2="80" stroke="#2F3842" stroke-width="5"/>
+    <line x1="160" y1="140" x2="150" y2="80" stroke="#2F3842" stroke-width="5"/>
+    <line x1="90" y1="80" x2="150" y2="80" stroke="#2F3842" stroke-width="4"/>
+    <line x1="105" y1="80" x2="110" y2="40" stroke="#2F3842" stroke-width="4"/>
+    <line x1="135" y1="80" x2="130" y2="40" stroke="#2F3842" stroke-width="4"/>
+    <line x1="110" y1="40" x2="130" y2="40" stroke="#2F3842" stroke-width="3"/>
+    <!-- Lightning bolt -->
+    <polygon points="125,20 108,55 122,55 105,85 135,48 118,48" fill="#5CA46E" stroke="#1A1D24" stroke-width="2"/>
+    <!-- Glow -->
+    <circle cx="120" cy="52" r="18" fill="#5CA46E" opacity="0.15"/>
+    <!-- Label -->
+    <text x="120" y="225" text-anchor="middle" fill="#5CA46E" font-size="14" font-weight="800">5 GW</text>
+    <text x="120" y="242" text-anchor="middle" fill="#5A5A5A" font-size="11">原発5基分の算力</text>
+  </g>
+
+  <!-- Key number blocks -->
+  <rect x="320" y="210" width="175" height="130" rx="6" fill="white" stroke="#1A1D24" stroke-width="2.5" filter="url(#softShadow)"/>
+  <rect x="320" y="210" width="175" height="8" rx="3" fill="#5CA46E"/>
+  <text x="407" y="262" text-anchor="middle" fill="#5CA46E" font-size="44" font-weight="900">$330B</text>
+  <text x="407" y="286" text-anchor="middle" fill="#2F3842" font-size="12" font-weight="600">累計投資上限</text>
+  <text x="407" y="302" text-anchor="middle" fill="#8A8A8A" font-size="10">今回$5B追加</text>
+  <text x="407" y="318" text-anchor="middle" fill="#8A8A8A" font-size="10">最大$33B / Amazon</text>
+
+  <rect x="508" y="210" width="175" height="130" rx="6" fill="white" stroke="#1A1D24" stroke-width="2.5" filter="url(#softShadow)"/>
+  <rect x="508" y="210" width="175" height="8" rx="3" fill="#5CA46E"/>
+  <text x="595" y="262" text-anchor="middle" fill="#5CA46E" font-size="44" font-weight="900">$100B</text>
+  <text x="595" y="286" text-anchor="middle" fill="#2F3842" font-size="12" font-weight="600">AWS 10年コミット</text>
+  <text x="595" y="302" text-anchor="middle" fill="#8A8A8A" font-size="10">Trainium2〜4 + Graviton</text>
+  <text x="595" y="318" text-anchor="middle" fill="#8A8A8A" font-size="10">出典: anthropic.com</text>
+
+  <rect x="696" y="210" width="175" height="130" rx="6" fill="white" stroke="#1A1D24" stroke-width="2.5" filter="url(#softShadow)"/>
+  <rect x="696" y="210" width="175" height="8" rx="3" fill="#5CA46E"/>
+  <text x="783" y="262" text-anchor="middle" fill="#5CA46E" font-size="44" font-weight="900">$30B</text>
+  <text x="783" y="286" text-anchor="middle" fill="#2F3842" font-size="12" font-weight="600">Claude 年換算収益</text>
+  <text x="783" y="302" text-anchor="middle" fill="#8A8A8A" font-size="10">前年末$9Bから3.3倍増</text>
+  <text x="783" y="318" text-anchor="middle" fill="#8A8A8A" font-size="10">出典: anthropic.com</text>
+
+  <!-- Main visual: Chip roadmap / timeline -->
+  <rect x="58" y="360" width="880" height="240" rx="6" fill="white" stroke="#1A1D24" stroke-width="2" filter="url(#softShadow)"/>
+  <text x="78" y="392" fill="#1A1D24" font-size="16" font-weight="800">📈 Trainium チップ世代別 計算容量ロードマップ &amp; Claude 収益推移</text>
+  <line x1="78" y1="400" x2="920" y2="400" stroke="#1A1D24" stroke-width="1.5"/>
+
+  <!-- Revenue trend bars -->
+  <text x="95" y="425" fill="#888" font-size="11">Claude ARR ($B)</text>
+  <!-- 2024 -->
+  <text x="108" y="515" text-anchor="middle" fill="#666" font-size="11">2024年末</text>
+  <rect x="78" y="430" width="60" height="75" rx="2" fill="url(#barGray)"/>
+  <text x="108" y="448" text-anchor="middle" fill="white" font-size="12" font-weight="700">$3B</text>
+  <!-- 2025 H1 -->
+  <text x="205" y="515" text-anchor="middle" fill="#666" font-size="11">2025 H1</text>
+  <rect x="175" y="418" width="60" height="87" rx="2" fill="url(#barGray)"/>
+  <text x="205" y="436" text-anchor="middle" fill="white" font-size="12" font-weight="700">$6B</text>
+  <!-- 2025末 -->
+  <text x="302" y="515" text-anchor="middle" fill="#666" font-size="11">2025年末</text>
+  <rect x="272" y="400" width="60" height="105" rx="2" fill="url(#barGray)"/>
+  <text x="302" y="420" text-anchor="middle" fill="white" font-size="12" font-weight="700">$9B</text>
+  <!-- 2026 Q1 -->
+  <text x="399" y="515" text-anchor="middle" fill="#666" font-size="11">2026 Q1</text>
+  <rect x="369" y="375" width="60" height="130" rx="2" fill="url(#barGreen)"/>
+  <text x="399" y="396" text-anchor="middle" fill="white" font-size="12" font-weight="700">$18B</text>
+  <!-- 2026 Q2 -->
+  <text x="496" y="515" text-anchor="middle" fill="#666" font-size="11">2026 Q2 現在</text>
+  <rect x="466" y="355" width="60" height="150" rx="2" fill="url(#barGreen)"/>
+  <text x="496" y="375" text-anchor="middle" fill="white" font-size="13" font-weight="900">$30B</text>
+
+  <!-- Chip roadmap -->
+  <line x1="560" y1="410" x2="900" y2="410" stroke="#CCCCCC" stroke-width="1.5"/>
+  <text x="565" y="425" fill="#888" font-size="11">チップ世代 →</text>
+
+  <!-- Trainium2 -->
+  <rect x="570" y="430" width="85" height="70" rx="4" fill="#EAF5E8" stroke="#5CA46E" stroke-width="2"/>
+  <text x="612" y="455" text-anchor="middle" fill="#5CA46E" font-size="12" font-weight="800">Trainium2</text>
+  <text x="612" y="470" text-anchor="middle" fill="#444" font-size="10">2026 Q2〜</text>
+  <text x="612" y="485" text-anchor="middle" fill="#444" font-size="10">1M+ chips</text>
+  <text x="612" y="500" text-anchor="middle" fill="#5CA46E" font-size="10">稼働中</text>
+
+  <!-- Arrow -->
+  <text x="665" y="468" fill="#5CA46E" font-size="22" font-weight="900">→</text>
+
+  <!-- Trainium3 -->
+  <rect x="680" y="430" width="85" height="70" rx="4" fill="#EAF5E8" stroke="#5CA46E" stroke-width="2"/>
+  <text x="722" y="455" text-anchor="middle" fill="#5CA46E" font-size="12" font-weight="800">Trainium3</text>
+  <text x="722" y="470" text-anchor="middle" fill="#444" font-size="10">2026後半</text>
+  <text x="722" y="485" text-anchor="middle" fill="#444" font-size="10">~1GW総計</text>
+  <text x="722" y="500" text-anchor="middle" fill="#5CA46E" font-size="10">2026末</text>
+
+  <!-- Arrow -->
+  <text x="773" y="468" fill="#5CA46E" font-size="22" font-weight="900">→</text>
+
+  <!-- Trainium4 -->
+  <rect x="788" y="430" width="85" height="70" rx="4" fill="#F0FAF0" stroke="#9DC4A8" stroke-width="1.5" stroke-dasharray="5,3"/>
+  <text x="830" y="455" text-anchor="middle" fill="#7DAA85" font-size="12" font-weight="800">Trainium4</text>
+  <text x="830" y="470" text-anchor="middle" fill="#888" font-size="10">将来世代</text>
+  <text x="830" y="485" text-anchor="middle" fill="#888" font-size="10">最大5GW目標</text>
+  <text x="830" y="500" text-anchor="middle" fill="#888" font-size="10">購入オプション</text>
+
+  <text x="570" y="520" fill="#888" font-size="11">出典: Anthropic公式発表 · CNBC 2026-04-20 · amazon.com</text>
+
+  <!-- Feature cards -->
+  <!-- Card 1 -->
+  <rect x="58"  y="618" width="272" height="105" rx="5" fill="white" stroke="#1A1D24" stroke-width="2" filter="url(#softShadow)"/>
+  <rect x="58"  y="618" width="272" height="6" rx="3" fill="#5CA46E"/>
+  <text x="78"  y="644" fill="#5CA46E" font-size="18">💰</text>
+  <text x="105" y="644" fill="#1A1D24" font-size="13" font-weight="700">Amazon投資スキーム</text>
+  <text x="78"  y="663" fill="#444" font-size="11">今回$5B追加。過去$8Bと合算。</text>
+  <text x="78"  y="678" fill="#444" font-size="11">将来追加枠最大$20Bを含め、</text>
+  <text x="78"  y="693" fill="#444" font-size="11">累計上限は$33Bに到達。</text>
+  <text x="78"  y="712" fill="#5CA46E" font-size="10">シングル投資家として史上最大規模</text>
+
+  <!-- Card 2 -->
+  <rect x="346" y="618" width="272" height="105" rx="5" fill="white" stroke="#1A1D24" stroke-width="2" filter="url(#softShadow)"/>
+  <rect x="346" y="618" width="272" height="6" rx="3" fill="#5CA46E"/>
+  <text x="366" y="644" fill="#5CA46E" font-size="18">⚡</text>
+  <text x="393" y="644" fill="#1A1D24" font-size="13" font-weight="700">5GWのスケール感</text>
+  <text x="366" y="663" fill="#444" font-size="11">大型原子力発電所5基分に相当。</text>
+  <text x="366" y="678" fill="#444" font-size="11">クラウド単一契約として前例なし。</text>
+  <text x="366" y="693" fill="#444" font-size="11">2026末に約1GW第一弾稼働。</text>
+  <text x="366" y="712" fill="#5CA46E" font-size="10">業界全体のインフラ基準を更新</text>
+
+  <!-- Card 3 -->
+  <rect x="634" y="618" width="272" height="105" rx="5" fill="white" stroke="#1A1D24" stroke-width="2" filter="url(#softShadow)"/>
+  <rect x="634" y="618" width="272" height="6" rx="3" fill="#5CA46E"/>
+  <text x="654" y="644" fill="#5CA46E" font-size="18">☁️</text>
+  <text x="681" y="644" fill="#1A1D24" font-size="13" font-weight="700">AWS統合Claude Platform</text>
+  <text x="654" y="663" fill="#444" font-size="11">近くAWSアカウント内から</text>
+  <text x="654" y="678" fill="#444" font-size="11">統一請求・セキュリティで</text>
+  <text x="654" y="693" fill="#444" font-size="11">Claude全機能へアクセス可能に。</text>
+  <text x="654" y="712" fill="#5CA46E" font-size="10">150万+ AWS企業へノータッチリーチ</text>
+
+  <!-- Card 4 -->
+  <rect x="58"  y="738" width="272" height="105" rx="5" fill="white" stroke="#1A1D24" stroke-width="2" filter="url(#softShadow)"/>
+  <rect x="58"  y="738" width="272" height="6" rx="3" fill="#5CA46E"/>
+  <text x="78"  y="764" fill="#5CA46E" font-size="18">💬</text>
+  <text x="105" y="764" fill="#1A1D24" font-size="13" font-weight="700">Dario Amodei コメント</text>
+  <text x="78"  y="783" fill="#444" font-size="11">"AmazonとのClaude大規模展開で</text>
+  <text x="78"  y="798" fill="#444" font-size="11">AI研究と顧客提供の両立を</text>
+  <text x="78"  y="813" fill="#444" font-size="11">加速できる" (Anthropic CEO)</text>
+  <text x="78"  y="832" fill="#5CA46E" font-size="10">Claude ARR: $9B→$30B (3.3×)</text>
+
+  <!-- Card 5 -->
+  <rect x="346" y="738" width="272" height="105" rx="5" fill="white" stroke="#1A1D24" stroke-width="2" filter="url(#softShadow)"/>
+  <rect x="346" y="738" width="272" height="6" rx="3" fill="#5CA46E"/>
+  <text x="366" y="764" fill="#5CA46E" font-size="18">🤖</text>
+  <text x="393" y="764" fill="#1A1D24" font-size="13" font-weight="700">Andy Jassy コメント</text>
+  <text x="366" y="783" fill="#444" font-size="11">"AnthropicのTrainium活用は</text>
+  <text x="366" y="798" fill="#444" font-size="11">カスタムシリコンの進歩を</text>
+  <text x="366" y="813" fill="#444" font-size="11">反映している" (Amazon CEO)</text>
+  <text x="366" y="832" fill="#5CA46E" font-size="10">現在: 100万枚超Trainium2稼働</text>
+
+  <!-- Card 6 -->
+  <rect x="634" y="738" width="272" height="105" rx="5" fill="white" stroke="#1A1D24" stroke-width="2" filter="url(#softShadow)"/>
+  <rect x="634" y="738" width="272" height="6" rx="3" fill="#5CA46E"/>
+  <text x="654" y="764" fill="#5CA46E" font-size="18">🔄</text>
+  <text x="681" y="764" fill="#1A1D24" font-size="13" font-weight="700">Trainium vs NVIDIA</text>
+  <text x="654" y="783" fill="#444" font-size="11">NVIDIAのH100/GB200依存を</text>
+  <text x="654" y="798" fill="#444" font-size="11">削減するAmazon長期戦略と合致。</text>
+  <text x="654" y="813" fill="#444" font-size="11">ただしCUDAエコシステム差は大。</text>
+  <text x="654" y="832" fill="#5CA46E" font-size="10">財務インセンティブで技術差を補完</text>
+
+  <!-- Sticky notes -->
+  <!-- Note 1 -->
+  <g transform="translate(960, 218) rotate(-1.2)" filter="url(#stickyShadow)">
+    <rect width="175" height="175" rx="3" fill="#FFF7E0" stroke="#E8D88A" stroke-width="1"/>
+    <text x="12" y="22" fill="#5B5B3A" font-size="11" font-weight="800">5GWの物理的制約</text>
+    <line x1="8" y1="28" x2="165" y2="28" stroke="#E8D88A" stroke-width="1"/>
+    <text x="10" y="46" fill="#444" font-size="10">5GWのデータセンター稼働は</text>
+    <text x="10" y="60" fill="#444" font-size="10">電力インフラと冷却設備が</text>
+    <text x="10" y="74" fill="#444" font-size="10">物理的なボトルネック。</text>
+    <text x="10" y="88" fill="#444" font-size="10">電力契約・送電網整備が</text>
+    <text x="10" y="102" fill="#444" font-size="10">計画通り進むかが焦点。</text>
+    <text x="10" y="130" fill="#5CA46E" font-size="10">→ AIインフラ競争の</text>
+    <text x="10" y="144" fill="#5CA46E" font-size="10">　次の制約は電力コスト</text>
+    <text x="10" y="162" fill="#888" font-size="9">📎 物理インフラ制限</text>
+  </g>
+
+  <!-- Note 2 -->
+  <g transform="translate(1155, 230) rotate(1.5)" filter="url(#stickyShadow)">
+    <rect width="175" height="175" rx="3" fill="#E8F0FD" stroke="#9BBDE8" stroke-width="1"/>
+    <text x="12" y="22" fill="#2B3A5A" font-size="11" font-weight="800">GoToMarket変革</text>
+    <line x1="8" y1="28" x2="165" y2="28" stroke="#9BBDE8" stroke-width="1"/>
+    <text x="10" y="46" fill="#444" font-size="10">AWS統合でAnthropicは</text>
+    <text x="10" y="60" fill="#444" font-size="10">自社営業なしに150万+</text>
+    <text x="10" y="74" fill="#444" font-size="10">AWS企業にリーチ可能。</text>
+    <text x="10" y="88" fill="#444" font-size="10">CAC（顧客獲得コスト）が</text>
+    <text x="10" y="102" fill="#444" font-size="10">劇的に低下する。</text>
+    <text x="10" y="130" fill="#5B8DEF" font-size="10">→ GCP/Azure上の競合との</text>
+    <text x="10" y="144" fill="#5B8DEF" font-size="10">　三つ巴が鮮明に</text>
+    <text x="10" y="162" fill="#888" font-size="9">📎 クラウドAI流通戦争</text>
+  </g>
+
+  <!-- Note 3 -->
+  <g transform="translate(960, 418) rotate(1.0)" filter="url(#stickyShadow)">
+    <rect width="175" height="175" rx="3" fill="#EAF5E8" stroke="#8BC98A" stroke-width="1"/>
+    <text x="12" y="22" fill="#2A4A28" font-size="11" font-weight="800">$30B収益の意味</text>
+    <line x1="8" y1="28" x2="165" y2="28" stroke="#8BC98A" stroke-width="1"/>
+    <text x="10" y="46" fill="#444" font-size="10">OpenAI/ChatGPTが$100B達成に</text>
+    <text x="10" y="60" fill="#444" font-size="10">2年要したのに対し、</text>
+    <text x="10" y="74" fill="#444" font-size="10">Anthropicは3倍規模へ急速に</text>
+    <text x="10" y="88" fill="#444" font-size="10">到達。APIの企業基幹システム</text>
+    <text x="10" y="102" fill="#444" font-size="10">への組み込みが牽引。</text>
+    <text x="10" y="130" fill="#5CA46E" font-size="10">→ チャット→エンタープライズ</text>
+    <text x="10" y="144" fill="#5CA46E" font-size="10">　 ARR転換が完了</text>
+    <text x="10" y="162" fill="#888" font-size="9">📎 Claude商業化フェーズ</text>
+  </g>
+
+  <!-- Note 4 -->
+  <g transform="translate(1155, 430) rotate(-1.5)" filter="url(#stickyShadow)">
+    <rect width="175" height="175" rx="3" fill="#FAEDE8" stroke="#E8B0A0" stroke-width="1"/>
+    <text x="12" y="22" fill="#4A2A20" font-size="11" font-weight="800">依存リスク</text>
+    <line x1="8" y1="28" x2="165" y2="28" stroke="#E8B0A0" stroke-width="1"/>
+    <text x="10" y="46" fill="#444" font-size="10">$100B・10年コミットは</text>
+    <text x="10" y="60" fill="#444" font-size="10">Anthropicの財務柔軟性を</text>
+    <text x="10" y="74" fill="#444" font-size="10">大きく制約。Amazonは</text>
+    <text x="10" y="88" fill="#444" font-size="10">Trainium採用強制や</text>
+    <text x="10" y="102" fill="#444" font-size="10">他クラウド制限の交渉力を持つ。</text>
+    <text x="10" y="130" fill="#C04040" font-size="10">→ OpenAI-Microsoft構造と</text>
+    <text x="10" y="144" fill="#C04040" font-size="10">　同じ従属リスク</text>
+    <text x="10" y="162" fill="#888" font-size="9">📎 独立性 vs 資本</text>
+  </g>
+
+  <!-- Footer -->
+  <line x1="58" y1="868" x2="1360" y2="868" stroke="#CCCCCC" stroke-width="1"/>
+  <rect x="58" y="878" width="870" height="150" rx="6" fill="white" stroke="#1A1D24" stroke-width="1.5"/>
+  <text x="78" y="900" fill="#1A1D24" font-size="14" font-weight="700">投資・コミットメントサマリー</text>
+  <line x1="78" y1="906" x2="910" y2="906" stroke="#CCCCCC" stroke-width="1"/>
+  <text x="78" y="926" fill="#444" font-size="13">• 新規投資: Amazon → Anthropic  $5B（今回）+ 最大$20B追加オプション   累計上限 $33B</text>
+  <text x="78" y="946" fill="#444" font-size="13">• クラウドコミット: Anthropic → AWS  $100B超 / 10年（Trainium2・3・4 + Graviton）</text>
+  <text x="78" y="966" fill="#444" font-size="13">• 計算容量: 最大5GW確保  ／  2026年末に約1GW稼働（Trainium2+3合計）</text>
+  <text x="78" y="986" fill="#444" font-size="13">• Claude Platform → AWS内統合（統一請求・ガバナンス）予定</text>
+  <text x="78" y="1010" fill="#888" font-size="11">出典: anthropic.com/news/anthropic-amazon-compute · CNBC 2026-04-20 · GeekWire · Motley Fool</text>
+
+  <line x1="58" y1="1030" x2="1360" y2="1030" stroke="#1A1D24" stroke-width="1.5"/>
+  <text x="58" y="1045" fill="#888" font-size="12" font-style="italic">AI News · 2026-04-22 · Anthropic × Amazon: $5B Investment + $100B AWS Commitment + 5GW Compute Secured</text>
+</svg>

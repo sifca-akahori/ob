@@ -1,0 +1,200 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1400 1050" font-family="-apple-system, 'Hiragino Sans', 'Yu Gothic', sans-serif">
+  <defs>
+    <pattern id="paperTexture" patternUnits="userSpaceOnUse" width="100" height="100">
+      <rect width="100" height="100" fill="#FBF8F1"/>
+      <circle cx="20" cy="25" r="0.4" fill="#C4B389" opacity="0.3"/>
+      <circle cx="70" cy="50" r="0.5" fill="#C4B389" opacity="0.3"/>
+      <circle cx="40" cy="80" r="0.3" fill="#C4B389" opacity="0.3"/>
+    </pattern>
+    <filter id="stickyShadow" x="-10%" y="-10%" width="120%" height="120%">
+      <feGaussianBlur in="SourceAlpha" stdDeviation="3"/>
+      <feOffset dx="2" dy="3"/>
+      <feComponentTransfer><feFuncA type="linear" slope="0.25"/></feComponentTransfer>
+      <feMerge><feMergeNode/><feMergeNode in="SourceGraphic"/></feMerge>
+    </filter>
+    <filter id="softShadow" x="-10%" y="-10%" width="120%" height="120%">
+      <feGaussianBlur in="SourceAlpha" stdDeviation="2"/>
+      <feOffset dx="1" dy="2"/>
+      <feComponentTransfer><feFuncA type="linear" slope="0.18"/></feComponentTransfer>
+      <feMerge><feMergeNode/><feMergeNode in="SourceGraphic"/></feMerge>
+    </filter>
+    <linearGradient id="barOrange" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0%" stop-color="#E8A87C"/>
+      <stop offset="100%" stop-color="#F0C090"/>
+    </linearGradient>
+    <linearGradient id="barGreen" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0%" stop-color="#5CA46E"/>
+      <stop offset="100%" stop-color="#7EC490"/>
+    </linearGradient>
+    <linearGradient id="barGray" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0%" stop-color="#8A8A8A"/>
+      <stop offset="100%" stop-color="#AAAAAA"/>
+    </linearGradient>
+  </defs>
+
+  <rect width="1400" height="1050" fill="url(#paperTexture)"/>
+  <line x1="118" y1="30" x2="118" y2="1020" stroke="#D88A8A" stroke-width="1.2" opacity="0.4"/>
+
+  <g fill="#E8E2D3" stroke="#C8C0B0" stroke-width="1">
+    <circle cx="50" cy="105" r="12"/>
+    <circle cx="50" cy="260" r="12"/>
+    <circle cx="50" cy="440" r="12"/>
+    <circle cx="50" cy="620" r="12"/>
+    <circle cx="50" cy="800" r="12"/>
+    <circle cx="50" cy="960" r="12"/>
+  </g>
+
+  <!-- Category tape: SNS (orange) -->
+  <g transform="translate(1155, 25) rotate(-3)">
+    <rect x="0" y="0" width="175" height="38" rx="3" fill="#E8A87C" stroke="#1A1D24" stroke-width="2" opacity="0.9"/>
+    <text x="87" y="25" text-anchor="middle" font-size="16" font-weight="700" fill="white" letter-spacing="1">#SNS</text>
+  </g>
+
+  <rect x="128" y="22" width="180" height="36" rx="4" fill="#2F3842" filter="url(#softShadow)"/>
+  <text x="218" y="46" text-anchor="middle" font-size="15" font-weight="700" fill="#F0EDE8">2026-04-27</text>
+  <text x="335" y="47" font-size="22" fill="#F5B700">⭐⭐</text>
+
+  <!-- Gap arrow hero icon -->
+  <g transform="translate(1215, 72)">
+    <rect x="0" y="30" width="80" height="40" rx="4" fill="#E8A87C" stroke="#1A1D24" stroke-width="2.5"/>
+    <text x="40" y="56" text-anchor="middle" font-size="13" font-weight="700" fill="white">Hype</text>
+    <rect x="95" y="30" width="80" height="40" rx="4" fill="#5CA46E" stroke="#1A1D24" stroke-width="2.5"/>
+    <text x="135" y="56" text-anchor="middle" font-size="13" font-weight="700" fill="white">Profit</text>
+    <text x="87" y="55" text-anchor="middle" font-size="22" fill="#E74C3C">?</text>
+    <line x1="80" y1="50" x2="95" y2="50" stroke="#E74C3C" stroke-width="2" stroke-dasharray="4,3"/>
+  </g>
+
+  <!-- Title -->
+  <text x="128" y="108" font-size="36" font-weight="900" fill="#1A1D24">📉 AI のハイプと利益の間の「消えたステップ」</text>
+  <text x="128" y="152" font-size="26" font-weight="700" fill="#E8A87C">採用率 88% vs ROI 実現 33%——MIT Tech Review の核心分析</text>
+
+  <!-- Sub info -->
+  <rect x="128" y="168" width="980" height="34" rx="4" fill="#E8E2D3" stroke="#C8C0B0" stroke-width="1"/>
+  <text x="148" y="190" font-size="13" fill="#5A5248">📰 MIT Technology Review　　📅 2026-04-27　　🏷️ #SNS・分析　　🔗 technologyreview.com</text>
+
+  <!-- Key numbers -->
+  <rect x="128" y="215" width="790" height="120" rx="6" fill="white" stroke="#1A1D24" stroke-width="2.5" filter="url(#softShadow)"/>
+  <text x="148" y="240" font-size="13" font-weight="700" fill="#E8A87C" letter-spacing="2">KEY NUMBERS</text>
+  <line x1="148" y1="246" x2="900" y2="246" stroke="#E8A87C" stroke-width="1.5"/>
+
+  <g text-anchor="middle">
+    <text x="210" y="285" font-size="40" font-weight="900" fill="#E8A87C">88%</text>
+    <text x="210" y="310" font-size="12" fill="#5A5248">企業AI採用率（過去最高）</text>
+    <line x1="310" y1="258" x2="310" y2="320" stroke="#E8E2D3" stroke-width="1.5"/>
+    <text x="415" y="285" font-size="40" font-weight="900" fill="#5CA46E">33%</text>
+    <text x="415" y="310" font-size="12" fill="#5A5248">コスト削減成功率</text>
+    <line x1="520" y1="258" x2="520" y2="320" stroke="#E8E2D3" stroke-width="1.5"/>
+    <text x="625" y="285" font-size="40" font-weight="900" fill="#E74C3C">21%</text>
+    <text x="625" y="310" font-size="12" fill="#5A5248">生産性向上を数値化できた企業</text>
+    <line x1="730" y1="258" x2="730" y2="320" stroke="#E8E2D3" stroke-width="1.5"/>
+    <text x="830" y="278" font-size="28" font-weight="900" fill="#1A1D24">3〜5x</text>
+    <text x="830" y="305" font-size="12" fill="#5A5248">技術投資に必要な</text>
+    <text x="830" y="318" font-size="11" fill="#5A5248">オペレーション変革投資倍率</text>
+  </g>
+
+  <!-- Gap visualization: horizontal bar chart -->
+  <rect x="128" y="350" width="790" height="250" rx="6" fill="white" stroke="#1A1D24" stroke-width="2.5" filter="url(#softShadow)"/>
+  <text x="148" y="375" font-size="13" font-weight="700" fill="#1A1D24" letter-spacing="2">企業 AI 導入：「言ってること」vs「できてること」</text>
+  <line x1="148" y1="382" x2="900" y2="382" stroke="#1A1D24" stroke-width="1.5"/>
+
+  <!-- Bars -->
+  <g font-size="12">
+    <text x="148" y="415" fill="#2F3842" font-weight="600">AI を「採用済み」と回答</text>
+    <rect x="370" y="400" width="440" height="22" rx="3" fill="url(#barOrange)" stroke="#1A1D24" stroke-width="1.5"/>
+    <text x="818" y="415" font-weight="700" fill="#E8A87C">88%</text>
+
+    <text x="148" y="455" fill="#2F3842" font-weight="600">本番環境で稼働中</text>
+    <rect x="370" y="440" width="285" height="22" rx="3" fill="url(#barGray)" stroke="#1A1D24" stroke-width="1"/>
+    <text x="661" y="455" fill="#8A8A8A">57%</text>
+
+    <text x="148" y="495" fill="#2F3842" font-weight="600">コスト削減を実現</text>
+    <rect x="370" y="480" width="165" height="22" rx="3" fill="url(#barGreen)" stroke="#1A1D24" stroke-width="1.5"/>
+    <text x="541" y="495" font-weight="700" fill="#5CA46E">33%</text>
+
+    <text x="148" y="535" fill="#2F3842" font-weight="600">生産性向上を数値化</text>
+    <rect x="370" y="520" width="105" height="22" rx="3" fill="#E74C3C" stroke="#1A1D24" stroke-width="1.5" opacity="0.8"/>
+    <text x="481" y="535" font-weight="700" fill="#E74C3C">21%</text>
+
+    <text x="148" y="575" fill="#2F3842" font-weight="600">ROI がプラスと評価</text>
+    <rect x="370" y="560" width="135" height="22" rx="3" fill="#8B7DB8" stroke="#1A1D24" stroke-width="1"/>
+    <text x="511" y="575" fill="#8B7DB8">27%</text>
+  </g>
+
+  <!-- Gap annotation -->
+  <rect x="148" y="598" width="710" height="32" rx="4" fill="#FFF3CD" stroke="#E8A87C" stroke-width="1.5"/>
+  <text x="503" y="619" text-anchor="middle" font-size="12" fill="#2F3842">⚠️ ギャップ：採用率 88% — ROI実現 33% = <tspan font-weight="700" fill="#E74C3C">55%のポイントが「AIウォッシング」ゾーン</tspan></text>
+
+  <!-- Sticky notes -->
+  <g transform="translate(938, 215) rotate(-1.5)" filter="url(#stickyShadow)">
+    <rect x="0" y="0" width="218" height="148" rx="4" fill="#FFF9C4" stroke="#E8D84A" stroke-width="1.5"/>
+    <text x="109" y="24" text-anchor="middle" font-size="13" font-weight="700" fill="#1A1D24">💡 採用率の罠</text>
+    <line x1="15" y1="32" x2="203" y2="32" stroke="#E8D84A" stroke-width="1"/>
+    <text x="15" y="52" font-size="11" fill="#2F3842">「採用済み」には ChatGPT</text>
+    <text x="15" y="68" font-size="11" fill="#2F3842">API を1プロジェクト試した</text>
+    <text x="15" y="84" font-size="11" fill="#2F3842">レベルも含まれる可能性。</text>
+    <text x="15" y="100" font-size="11" fill="#2F3842">IR・PRバイアスで誇張された</text>
+    <text x="15" y="116" font-size="11" fill="#2F3842">数値に注意が必要。</text>
+  </g>
+
+  <g transform="translate(938, 378) rotate(1.0)" filter="url(#stickyShadow)">
+    <rect x="0" y="0" width="218" height="148" rx="4" fill="#F8BBD0" stroke="#E91E63" stroke-width="1.5"/>
+    <text x="109" y="24" text-anchor="middle" font-size="13" font-weight="700" fill="#1A1D24">💡 データ準備の壁</text>
+    <line x1="15" y1="32" x2="203" y2="32" stroke="#E91E63" stroke-width="1"/>
+    <text x="15" y="52" font-size="11" fill="#2F3842">導入コストの 40〜60% が</text>
+    <text x="15" y="68" font-size="11" fill="#2F3842">データ整備に費やされる。</text>
+    <text x="15" y="84" font-size="11" fill="#2F3842">この問題はモデル性能向上</text>
+    <text x="15" y="100" font-size="11" fill="#2F3842">では解消されない構造的</text>
+    <text x="15" y="116" font-size="11" fill="#2F3842">ボトルネック。</text>
+  </g>
+
+  <g transform="translate(938, 545) rotate(-0.8)" filter="url(#stickyShadow)">
+    <rect x="0" y="0" width="218" height="148" rx="4" fill="#C8E6C9" stroke="#4CAF50" stroke-width="1.5"/>
+    <text x="109" y="24" text-anchor="middle" font-size="13" font-weight="700" fill="#1A1D24">💡 推論コストの逆転</text>
+    <line x1="15" y1="32" x2="203" y2="32" stroke="#4CAF50" stroke-width="1"/>
+    <text x="15" y="52" font-size="11" fill="#2F3842">Swyx の補足：推論コストは</text>
+    <text x="15" y="68" font-size="11" fill="#2F3842">2024年比で 1/100 以下に。</text>
+    <text x="15" y="84" font-size="11" fill="#2F3842">計算式の「コスト」側改善で</text>
+    <text x="15" y="100" font-size="11" fill="#2F3842">1〜2年内にROIマイナス組が</text>
+    <text x="15" y="116" font-size="11" fill="#2F3842">黒字転換すると予測。</text>
+  </g>
+
+  <g transform="translate(938, 712) rotate(1.2)" filter="url(#stickyShadow)">
+    <rect x="0" y="0" width="218" height="148" rx="4" fill="#BBE1FA" stroke="#5B8DEF" stroke-width="1.5"/>
+    <text x="109" y="24" text-anchor="middle" font-size="13" font-weight="700" fill="#1A1D24">💡 ROI 標準化の波</text>
+    <line x1="15" y1="32" x2="203" y2="32" stroke="#5B8DEF" stroke-width="1"/>
+    <text x="15" y="52" font-size="11" fill="#2F3842">2026後半：McKinsey・BCG</text>
+    <text x="15" y="68" font-size="11" fill="#2F3842">が AI ROI 業界ベンチマーク</text>
+    <text x="15" y="84" font-size="11" fill="#2F3842">を策定予定。成功・失敗企業の</text>
+    <text x="15" y="100" font-size="11" fill="#2F3842">手法差分が可視化され、</text>
+    <text x="15" y="116" font-size="11" fill="#2F3842">ミドルウェア株に注目。</text>
+  </g>
+
+  <!-- 3 barriers -->
+  <rect x="128" y="655" width="790" height="145" rx="6" fill="white" stroke="#1A1D24" stroke-width="2.5" filter="url(#softShadow)"/>
+  <text x="148" y="680" font-size="13" font-weight="700" fill="#1A1D24" letter-spacing="2">ROI 実現を阻む 3 つの壁</text>
+  <line x1="148" y1="687" x2="900" y2="687" stroke="#1A1D24" stroke-width="1.5"/>
+
+  <g font-size="12">
+    <rect x="148" y="698" width="235" height="86" rx="5" fill="#FFF3E0" stroke="#E8A87C" stroke-width="2"/>
+    <text x="265" y="722" text-anchor="middle" font-size="13" font-weight="700" fill="#E8A87C">① 統合コスト</text>
+    <text x="265" y="742" text-anchor="middle" font-size="11" fill="#2F3842">既存システム API との</text>
+    <text x="265" y="758" text-anchor="middle" font-size="11" fill="#2F3842">接続・テスト・保守</text>
+    <text x="265" y="774" text-anchor="middle" font-size="11" fill="#2F3842">がモデル費用を超える</text>
+
+    <rect x="400" y="698" width="235" height="86" rx="5" fill="#FFF3E0" stroke="#E74C3C" stroke-width="2"/>
+    <text x="517" y="722" text-anchor="middle" font-size="13" font-weight="700" fill="#E74C3C">② データ整備</text>
+    <text x="517" y="742" text-anchor="middle" font-size="11" fill="#2F3842">非構造・重複・不整合</text>
+    <text x="517" y="758" text-anchor="middle" font-size="11" fill="#2F3842">データのクレンジングが</text>
+    <text x="517" y="774" text-anchor="middle" font-size="11" fill="#2F3842">コストの 40〜60%</text>
+
+    <rect x="652" y="698" width="236" height="86" rx="5" fill="#FFF3E0" stroke="#8B7DB8" stroke-width="2"/>
+    <text x="770" y="722" text-anchor="middle" font-size="13" font-weight="700" fill="#8B7DB8">③ ワークフロー再設計</text>
+    <text x="770" y="742" text-anchor="middle" font-size="11" fill="#2F3842">AI 出力を「判断」に変換</text>
+    <text x="770" y="758" text-anchor="middle" font-size="11" fill="#2F3842">するプロセス設計が</text>
+    <text x="770" y="774" text-anchor="middle" font-size="11" fill="#2F3842">最も見落とされがち</text>
+  </g>
+
+  <!-- Footer -->
+  <line x1="128" y1="830" x2="1340" y2="830" stroke="#C8C0B0" stroke-width="1"/>
+  <text x="128" y="850" font-size="12" fill="#8A8A8A" font-style="italic">AI News · 2026-04-27 · The Missing Step Between AI Hype and Profit — MIT Technology Review</text>
+</svg>

@@ -1,0 +1,242 @@
+<svg viewBox="0 0 1400 1050" xmlns="http://www.w3.org/2000/svg" font-family="-apple-system,'Hiragino Sans','Yu Gothic',sans-serif">
+  <defs>
+    <filter id="softShadow" x="-5%" y="-5%" width="115%" height="115%">
+      <feDropShadow dx="2" dy="3" stdDeviation="4" flood-color="#00000022"/>
+    </filter>
+    <filter id="stickyShadow" x="-10%" y="-10%" width="130%" height="130%">
+      <feDropShadow dx="3" dy="4" stdDeviation="6" flood-color="#00000033"/>
+    </filter>
+    <pattern id="paperTexture" patternUnits="userSpaceOnUse" width="4" height="4">
+      <rect width="4" height="4" fill="#FBF8F1"/>
+      <circle cx="1" cy="1" r="0.4" fill="#E8E2D3" opacity="0.5"/>
+      <circle cx="3" cy="3" r="0.3" fill="#D5CDBA" opacity="0.4"/>
+    </pattern>
+  </defs>
+  <!-- Background -->
+  <rect width="1400" height="1050" fill="url(#paperTexture)"/>
+  <!-- Left binding -->
+  <rect x="0" y="0" width="48" height="1050" fill="#E8E2D3" stroke="#D0C9B8" stroke-width="1"/>
+  <circle cx="24" cy="120" r="14" fill="#FBF8F1" stroke="#C8BFA8" stroke-width="2"/>
+  <circle cx="24" cy="120" r="7" fill="#E0D8C8" stroke="#B8AFA0" stroke-width="1.5"/>
+  <circle cx="24" cy="280" r="14" fill="#FBF8F1" stroke="#C8BFA8" stroke-width="2"/>
+  <circle cx="24" cy="280" r="7" fill="#E0D8C8" stroke="#B8AFA0" stroke-width="1.5"/>
+  <circle cx="24" cy="440" r="14" fill="#FBF8F1" stroke="#C8BFA8" stroke-width="2"/>
+  <circle cx="24" cy="440" r="7" fill="#E0D8C8" stroke="#B8AFA0" stroke-width="1.5"/>
+  <circle cx="24" cy="600" r="14" fill="#FBF8F1" stroke="#C8BFA8" stroke-width="2"/>
+  <circle cx="24" cy="600" r="7" fill="#E0D8C8" stroke="#B8AFA0" stroke-width="1.5"/>
+  <circle cx="24" cy="760" r="14" fill="#FBF8F1" stroke="#C8BFA8" stroke-width="2"/>
+  <circle cx="24" cy="760" r="7" fill="#E0D8C8" stroke="#B8AFA0" stroke-width="1.5"/>
+  <circle cx="24" cy="920" r="14" fill="#FBF8F1" stroke="#C8BFA8" stroke-width="2"/>
+  <circle cx="24" cy="920" r="7" fill="#E0D8C8" stroke="#B8AFA0" stroke-width="1.5"/>
+
+  <!-- Category tape (top right, rotated) -->
+  <g transform="translate(1280,0) rotate(3)">
+    <rect x="0" y="-10" width="160" height="44" fill="#5B8DEF" stroke="#1A1D24" stroke-width="2"/>
+    <text x="80" y="18" text-anchor="middle" font-size="16" font-weight="700" fill="white">#研究</text>
+  </g>
+
+  <!-- Date badge -->
+  <rect x="68" y="22" width="170" height="38" rx="6" fill="#2F3842" filter="url(#softShadow)"/>
+  <text x="153" y="47" text-anchor="middle" font-size="16" font-weight="700" fill="white">2026-04-24</text>
+
+  <!-- Impact stars -->
+  <text x="260" y="52" font-size="24" fill="#F5C518">⭐⭐⭐</text>
+
+  <!-- Hero icon -->
+  <g transform="translate(1250,120)">
+    <circle cx="0" cy="0" r="52" fill="#E8F0FE" stroke="#5B8DEF" stroke-width="3"/>
+    <text x="0" y="0" text-anchor="middle" dominant-baseline="central" font-size="46">🐋</text>
+  </g>
+
+  <!-- Title -->
+  <text x="68" y="110" font-size="38" font-weight="900" fill="#1A1D24">DeepSeek V4 Pro/Flash 公開</text>
+  <text x="68" y="155" font-size="26" font-weight="700" fill="#5B8DEF">1.6兆パラメータ・$3.48/Mトークンで米勢直撃</text>
+  <text x="68" y="188" font-size="16" fill="#666">Bloomberg / DeepSeek Tech Report · 2026-04-24 · #LLM #オープンソース #中国AI</text>
+
+  <!-- Divider -->
+  <line x1="68" y1="205" x2="1340" y2="205" stroke="#1A1D24" stroke-width="2.5"/>
+
+  <!-- Key Numbers Row -->
+  <!-- Number 1: Price -->
+  <rect x="68" y="220" width="290" height="110" rx="8" fill="white" stroke="#1A1D24" stroke-width="2.5" filter="url(#softShadow)"/>
+  <rect x="68" y="220" width="290" height="10" rx="4" fill="#5B8DEF"/>
+  <text x="213" y="272" text-anchor="middle" font-size="44" font-weight="900" fill="#1A1D24">$3.48</text>
+  <text x="213" y="300" text-anchor="middle" font-size="14" fill="#666">/Mトークン出力（OpenAI $30の1/9）</text>
+  <text x="213" y="320" text-anchor="middle" font-size="12" fill="#999">出力単価 V4 Pro API</text>
+
+  <!-- Number 2: Params -->
+  <rect x="378" y="220" width="280" height="110" rx="8" fill="white" stroke="#1A1D24" stroke-width="2.5" filter="url(#softShadow)"/>
+  <rect x="378" y="220" width="280" height="10" rx="4" fill="#5B8DEF"/>
+  <text x="518" y="272" text-anchor="middle" font-size="44" font-weight="900" fill="#1A1D24">1.6T</text>
+  <text x="518" y="300" text-anchor="middle" font-size="14" fill="#666">総パラメータ（活性49B/トークン）</text>
+  <text x="518" y="320" text-anchor="middle" font-size="12" fill="#999">MoEアーキテクチャ</text>
+
+  <!-- Number 3: Context -->
+  <rect x="678" y="220" width="280" height="110" rx="8" fill="white" stroke="#1A1D24" stroke-width="2.5" filter="url(#softShadow)"/>
+  <rect x="678" y="220" width="280" height="10" rx="4" fill="#5B8DEF"/>
+  <text x="818" y="272" text-anchor="middle" font-size="44" font-weight="900" fill="#1A1D24">1M</text>
+  <text x="818" y="300" text-anchor="middle" font-size="14" fill="#666">コンテキストウィンドウ（トークン）</text>
+  <text x="818" y="320" text-anchor="middle" font-size="12" fill="#999">HybridAttention Architecture</text>
+
+  <!-- Number 4: SWE-bench -->
+  <rect x="978" y="220" width="280" height="110" rx="8" fill="white" stroke="#1A1D24" stroke-width="2.5" filter="url(#softShadow)"/>
+  <rect x="978" y="220" width="280" height="10" rx="4" fill="#5B8DEF"/>
+  <text x="1118" y="272" text-anchor="middle" font-size="44" font-weight="900" fill="#1A1D24">80.6%</text>
+  <text x="1118" y="300" text-anchor="middle" font-size="14" fill="#666">SWE-bench Verified</text>
+  <text x="1118" y="320" text-anchor="middle" font-size="12" fill="#999">Claude Opus 4.6(80.8%)に0.2pt差</text>
+
+  <!-- Main Visual: Benchmark Bar Chart -->
+  <rect x="68" y="348" width="750" height="320" rx="8" fill="white" stroke="#1A1D24" stroke-width="2.5" filter="url(#softShadow)"/>
+  <text x="88" y="378" font-size="16" font-weight="700" fill="#1A1D24">📊 コーディングベンチマーク比較</text>
+  <line x1="88" y1="385" x2="800" y2="385" stroke="#E0D8C8" stroke-width="1"/>
+
+  <!-- LiveCodeBench bars -->
+  <text x="88" y="410" font-size="13" fill="#555">LiveCodeBench v5</text>
+  <!-- DeepSeek V4 Pro: 93.5% -->
+  <rect x="260" y="395" width="440" height="22" rx="3" fill="#5B8DEF" stroke="#1A1D24" stroke-width="1.5"/>
+  <text x="708" y="411" font-size="13" font-weight="700" fill="#1A1D24">93.5% ← V4 Pro</text>
+  <!-- GPT-5.5 Terminal: ~88% approx -->
+  <text x="88" y="432" font-size="13" fill="#555">GPT-5.5</text>
+  <rect x="260" y="417" width="400" height="22" rx="3" fill="#B0C4F8" stroke="#1A1D24" stroke-width="1.5"/>
+  <text x="668" y="433" font-size="13" fill="#555">~89% (est.)</text>
+  <!-- Claude Opus 4.6 -->
+  <text x="88" y="453" font-size="13" fill="#555">Claude Opus 4.6</text>
+  <rect x="260" y="439" width="376" height="22" rx="3" fill="#C8D8F8" stroke="#1A1D24" stroke-width="1.5"/>
+  <text x="644" y="455" font-size="13" fill="#555">88.8%</text>
+
+  <line x1="88" y1="470" x2="800" y2="470" stroke="#E8E2D3" stroke-width="1" stroke-dasharray="4"/>
+
+  <!-- Terminal-Bench 2.0 -->
+  <text x="88" y="490" font-size="13" fill="#555">Terminal-Bench 2.0</text>
+  <rect x="260" y="475" width="320" height="22" rx="3" fill="#5B8DEF" stroke="#1A1D24" stroke-width="1.5"/>
+  <text x="588" y="491" font-size="13" font-weight="700" fill="#1A1D24">67.9% ← V4 Pro</text>
+  <text x="88" y="512" font-size="13" fill="#555">GPT-5.5</text>
+  <rect x="260" y="497" width="390" height="22" rx="3" fill="#B0C4F8" stroke="#1A1D24" stroke-width="1.5"/>
+  <text x="658" y="513" font-size="13" fill="#555">82.7%</text>
+  <text x="88" y="533" font-size="13" fill="#555">Claude Opus 4.6</text>
+  <rect x="260" y="519" width="307" height="22" rx="3" fill="#C8D8F8" stroke="#1A1D24" stroke-width="1.5"/>
+  <text x="575" y="535" font-size="13" fill="#555">65.4%</text>
+
+  <line x1="88" y1="550" x2="800" y2="550" stroke="#E8E2D3" stroke-width="1" stroke-dasharray="4"/>
+
+  <!-- SWE-bench Verified -->
+  <text x="88" y="570" font-size="13" fill="#555">SWE-bench Verified</text>
+  <rect x="260" y="555" width="380" height="22" rx="3" fill="#5B8DEF" stroke="#1A1D24" stroke-width="1.5"/>
+  <text x="648" y="571" font-size="13" font-weight="700" fill="#1A1D24">80.6% ← V4 Pro</text>
+  <text x="88" y="592" font-size="13" fill="#555">GPT-5.5</text>
+  <rect x="260" y="577" width="390" height="22" rx="3" fill="#B0C4F8" stroke="#1A1D24" stroke-width="1.5"/>
+  <text x="658" y="593" font-size="13" fill="#555">82.7%</text>
+  <text x="88" y="612" font-size="13" fill="#555">Claude Opus 4.6</text>
+  <rect x="260" y="598" width="383" height="22" rx="3" fill="#C8D8F8" stroke="#1A1D24" stroke-width="1.5"/>
+  <text x="651" y="614" font-size="13" fill="#555">80.8%</text>
+
+  <text x="88" y="650" font-size="12" fill="#999">* DeepSeek自社発表値。独立検証進行中。LMArena Eloは未確定。</text>
+
+  <!-- Pricing Comparison -->
+  <rect x="838" y="348" width="500" height="320" rx="8" fill="white" stroke="#1A1D24" stroke-width="2.5" filter="url(#softShadow)"/>
+  <text x="858" y="378" font-size="16" font-weight="700" fill="#1A1D24">💰 出力トークン単価比較（$/M）</text>
+  <line x1="858" y1="385" x2="1320" y2="385" stroke="#E0D8C8" stroke-width="1"/>
+
+  <!-- Price bars (max scale = 30) -->
+  <text x="858" y="420" font-size="14" fill="#1A1D24" font-weight="600">DeepSeek V4 Pro</text>
+  <rect x="1000" y="404" width="58" height="26" rx="3" fill="#5B8DEF" stroke="#1A1D24" stroke-width="1.5"/>
+  <text x="1065" y="421" font-size="14" font-weight="700" fill="#1A1D24">$3.48</text>
+
+  <text x="858" y="455" font-size="14" fill="#1A1D24" font-weight="600">DeepSeek V4 Flash</text>
+  <rect x="1000" y="438" width="20" height="26" rx="3" fill="#8AB8F0" stroke="#1A1D24" stroke-width="1.5"/>
+  <text x="1027" y="455" font-size="14" fill="#555">$1.10</text>
+
+  <text x="858" y="490" font-size="14" fill="#1A1D24" font-weight="600">Anthropic Opus 4.7</text>
+  <rect x="1000" y="473" width="417" height="26" rx="3" fill="#FFC0C0" stroke="#1A1D24" stroke-width="1.5"/>
+  <text x="1200" y="490" font-size="14" font-weight="700" fill="#CC2200">$25.00</text>
+
+  <text x="858" y="525" font-size="14" fill="#1A1D24" font-weight="600">OpenAI GPT-5.5</text>
+  <rect x="1000" y="508" width="500" height="26" rx="3" fill="#FFB0B0" stroke="#1A1D24" stroke-width="1.5"/>
+  <text x="1150" y="525" font-size="14" font-weight="700" fill="#CC0000">$30.00</text>
+
+  <text x="858" y="560" font-size="14" fill="#1A1D24" font-weight="600">Tencent Hy3</text>
+  <rect x="1000" y="543" width="13" height="26" rx="3" fill="#90C890" stroke="#1A1D24" stroke-width="1.5"/>
+  <text x="1020" y="560" font-size="14" fill="#555">≈$0.56</text>
+
+  <text x="858" y="620" font-size="13" fill="#2F3842" font-weight="600">9x コスト差</text>
+  <text x="858" y="640" font-size="13" fill="#666">V4 Pro ($3.48) vs GPT-5.5 ($30.00)</text>
+  <text x="858" y="660" font-size="12" fill="#999">*Tencent Hy3はRMB→USD換算。レートリスク有り。</text>
+
+  <!-- Feature Cards -->
+  <!-- Card 1: V4 Pro Architecture -->
+  <rect x="68" y="688" width="300" height="150" rx="8" fill="#F0F4FF" stroke="#1A1D24" stroke-width="2" filter="url(#softShadow)"/>
+  <text x="218" y="714" text-anchor="middle" font-size="14" font-weight="700" fill="#5B8DEF">🧠 V4 Pro アーキテクチャ</text>
+  <text x="88" y="735" font-size="12" fill="#333">• 1.6T総 / 49B活性 MoE</text>
+  <text x="88" y="753" font-size="12" fill="#333">• HybridAttention（線形+自己注意）</text>
+  <text x="88" y="771" font-size="12" fill="#333">• 1Mトークンコンテキスト</text>
+  <text x="88" y="789" font-size="12" fill="#333">• 33Tトークン事前学習</text>
+  <text x="88" y="807" font-size="12" fill="#333">• V3比FLOP 27%・KV 10%</text>
+
+  <!-- Card 2: V4 Flash -->
+  <rect x="388" y="688" width="300" height="150" rx="8" fill="#F0F8FF" stroke="#1A1D24" stroke-width="2" filter="url(#softShadow)"/>
+  <text x="538" y="714" text-anchor="middle" font-size="14" font-weight="700" fill="#5B8DEF">⚡ V4 Flash（軽量版）</text>
+  <text x="408" y="735" font-size="12" fill="#333">• 低コスト・高速推論向け</text>
+  <text x="408" y="753" font-size="12" fill="#333">• 入力 $0.28 / 出力 $1.10</text>
+  <text x="408" y="771" font-size="12" fill="#333">• エージェントループ用に最適化</text>
+  <text x="408" y="789" font-size="12" fill="#333">• 同1Mコンテキスト対応</text>
+  <text x="408" y="807" font-size="12" fill="#333">• API即日公開（プレビュー）</text>
+
+  <!-- Card 3: Open Source -->
+  <rect x="708" y="688" width="300" height="150" rx="8" fill="#F0FFF4" stroke="#1A1D24" stroke-width="2" filter="url(#softShadow)"/>
+  <text x="858" y="714" text-anchor="middle" font-size="14" font-weight="700" fill="#5CA46E">🌍 オープンソース</text>
+  <text x="728" y="735" font-size="12" fill="#333">• MIT License（商用可）</text>
+  <text x="728" y="753" font-size="12" fill="#333">• HuggingFace公開（初週記録更新）</text>
+  <text x="728" y="771" font-size="12" fill="#333">• Huawei Ascend統合</text>
+  <text x="728" y="789" font-size="12" fill="#333">• NVIDIA依存ゼロの選択肢</text>
+  <text x="728" y="807" font-size="12" fill="#333">• 輸出規制下での独立稼働</text>
+
+  <!-- Card 4: Competitive Position -->
+  <rect x="1028" y="688" width="310" height="150" rx="8" fill="#FFF8F0" stroke="#1A1D24" stroke-width="2" filter="url(#softShadow)"/>
+  <text x="1183" y="714" text-anchor="middle" font-size="14" font-weight="700" fill="#E8A87C">📍 競合比較</text>
+  <text x="1048" y="735" font-size="12" fill="#333">• コーディング：V4 Pro ≥ Claude 4.6</text>
+  <text x="1048" y="753" font-size="12" fill="#333">• 数学推論：GPT-5.5 Pro &gt;&gt; V4</text>
+  <text x="1048" y="771" font-size="12" fill="#333">• 価格：V4 Pro が業界最安クラス</text>
+  <text x="1048" y="789" font-size="12" fill="#333">• 自己評価「GPT-5.4/Geminiより3-6ヶ月遅れ」</text>
+  <text x="1048" y="807" font-size="12" fill="#333">• LMArena Eloは未確定</text>
+
+  <!-- Sticky Notes -->
+  <!-- Sticky 1 -->
+  <g transform="translate(68, 858) rotate(-1.2)">
+    <rect width="260" height="95" rx="4" fill="#FFFDE7" stroke="#1A1D24" stroke-width="1.5" filter="url(#stickyShadow)"/>
+    <text x="130" y="22" text-anchor="middle" font-size="13" font-weight="700" fill="#1A1D24">💡 価格破壊の構造</text>
+    <text x="14" y="42" font-size="11" fill="#333">V3.2比FLOP 27%という</text>
+    <text x="14" y="57" font-size="11" fill="#333">圧縮がダンピングではなく</text>
+    <text x="14" y="72" font-size="11" fill="#333">アーキテクチャ優位を示す</text>
+  </g>
+
+  <!-- Sticky 2 -->
+  <g transform="translate(360, 852) rotate(1.5)">
+    <rect width="270" height="95" rx="4" fill="#F3E5F5" stroke="#1A1D24" stroke-width="1.5" filter="url(#stickyShadow)"/>
+    <text x="135" y="22" text-anchor="middle" font-size="13" font-weight="700" fill="#1A1D24">🤔 ベンチ疑惑</text>
+    <text x="14" y="42" font-size="11" fill="#333">LiveCodeBench 93.5%は</text>
+    <text x="14" y="57" font-size="11" fill="#333">コーディング特化学習の</text>
+    <text x="14" y="72" font-size="11" fill="#333">可能性も。独立検証待ち</text>
+  </g>
+
+  <!-- Sticky 3 -->
+  <g transform="translate(665, 858) rotate(-0.8)">
+    <rect width="270" height="95" rx="4" fill="#E8F5E9" stroke="#1A1D24" stroke-width="1.5" filter="url(#stickyShadow)"/>
+    <text x="135" y="22" text-anchor="middle" font-size="13" font-weight="700" fill="#1A1D24">🔮 1年後予測</text>
+    <text x="14" y="42" font-size="11" fill="#333">V4調達資金で次世代V5へ。</text>
+    <text x="14" y="57" font-size="11" fill="#333">「オープン継続」か</text>
+    <text x="14" y="72" font-size="11" fill="#333">「クローズド転換」が分岐点</text>
+  </g>
+
+  <!-- Sticky 4 -->
+  <g transform="translate(968, 858) rotate(1.2)">
+    <rect width="270" height="95" rx="4" fill="#FFF3E0" stroke="#1A1D24" stroke-width="1.5" filter="url(#stickyShadow)"/>
+    <text x="135" y="22" text-anchor="middle" font-size="13" font-weight="700" fill="#1A1D24">⚠️ 企業採用障壁</text>
+    <text x="14" y="42" font-size="11" fill="#333">中国サーバー依拠・法的審査</text>
+    <text x="14" y="57" font-size="11" fill="#333">Azure/AWS経由なら$3.48は</text>
+    <text x="14" y="72" font-size="11" fill="#333">実質的に高くなりうる</text>
+  </g>
+
+  <!-- Footer -->
+  <line x1="68" y1="970" x2="1340" y2="970" stroke="#C8BFA8" stroke-width="1"/>
+  <text x="704" y="992" text-anchor="middle" font-size="13" fill="#999" font-style="italic">AI News · 2026-04-24 · DeepSeek V4 Pro/Flash Launch — Open Source Flagship Challenges Closed-Source Pricing</text>
+</svg>

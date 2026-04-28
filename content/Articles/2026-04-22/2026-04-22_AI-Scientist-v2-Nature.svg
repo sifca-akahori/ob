@@ -1,0 +1,293 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1400 1050" font-family="'-apple-system', 'Hiragino Sans', 'Yu Gothic', 'Segoe UI', sans-serif">
+  <defs>
+    <pattern id="paperTex" patternUnits="userSpaceOnUse" width="100" height="100">
+      <rect width="100" height="100" fill="#F5EAD2"/>
+      <circle cx="12" cy="18" r="0.4" fill="#C4B389" opacity="0.3"/>
+      <circle cx="64" cy="42" r="0.5" fill="#C4B389" opacity="0.3"/>
+      <circle cx="31" cy="75" r="0.3" fill="#C4B389" opacity="0.3"/>
+      <circle cx="85" cy="85" r="0.4" fill="#C4B389" opacity="0.3"/>
+    </pattern>
+    <filter id="stickyShadow" x="-10%" y="-10%" width="125%" height="125%">
+      <feGaussianBlur in="SourceAlpha" stdDeviation="3"/>
+      <feOffset dx="2" dy="3" result="ob"/>
+      <feComponentTransfer><feFuncA type="linear" slope="0.25"/></feComponentTransfer>
+      <feMerge><feMergeNode/><feMergeNode in="SourceGraphic"/></feMerge>
+    </filter>
+    <filter id="softShadow" x="-10%" y="-10%" width="120%" height="120%">
+      <feGaussianBlur in="SourceAlpha" stdDeviation="2"/>
+      <feOffset dx="1" dy="2" result="ob"/>
+      <feComponentTransfer><feFuncA type="linear" slope="0.18"/></feComponentTransfer>
+      <feMerge><feMergeNode/><feMergeNode in="SourceGraphic"/></feMerge>
+    </filter>
+    <linearGradient id="barPurple" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#8B7DB8"/>
+      <stop offset="100%" stop-color="#6A5D9A"/>
+    </linearGradient>
+    <linearGradient id="barGray" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#9BA8B5"/>
+      <stop offset="100%" stop-color="#7A8A98"/>
+    </linearGradient>
+  </defs>
+
+  <!-- Background -->
+  <rect width="1400" height="1050" fill="url(#paperTex)"/>
+  <rect x="0" y="0" width="44" height="1050" fill="#EDE0C4" opacity="0.7" stroke="#D5C9A8" stroke-width="1"/>
+  <circle cx="22" cy="140"  r="13" fill="#F5EAD2" stroke="#C4B389" stroke-width="1.5"/>
+  <circle cx="22" cy="290"  r="13" fill="#F5EAD2" stroke="#C4B389" stroke-width="1.5"/>
+  <circle cx="22" cy="440"  r="13" fill="#F5EAD2" stroke="#C4B389" stroke-width="1.5"/>
+  <circle cx="22" cy="600"  r="13" fill="#F5EAD2" stroke="#C4B389" stroke-width="1.5"/>
+  <circle cx="22" cy="760"  r="13" fill="#F5EAD2" stroke="#C4B389" stroke-width="1.5"/>
+  <circle cx="22" cy="910"  r="13" fill="#F5EAD2" stroke="#C4B389" stroke-width="1.5"/>
+
+  <!-- Category tape -->
+  <g transform="translate(1200, 28) rotate(-3)">
+    <rect x="0" y="0" width="175" height="38" rx="3" fill="#8B7DB8" opacity="0.88" stroke="#1A1D24" stroke-width="1.5"/>
+    <text x="87" y="25" text-anchor="middle" fill="white" font-size="16" font-weight="700" letter-spacing="1">#論文</text>
+  </g>
+
+  <!-- Date badge -->
+  <rect x="58" y="20" width="160" height="34" rx="4" fill="#2F3842" filter="url(#softShadow)"/>
+  <text x="138" y="42" text-anchor="middle" fill="#F5EAD2" font-size="15" font-weight="600">2026-04-22</text>
+
+  <!-- Header -->
+  <line x1="58" y1="72" x2="1360" y2="72" stroke="#1A1D24" stroke-width="2.5"/>
+  <text x="58" y="116" fill="#1A1D24" font-size="36" font-weight="900">🔬 AI Scientist-v2：AIが書いた論文がNature掲載</text>
+  <text x="58" y="155" fill="#1A1D24" font-size="34" font-weight="900">自律型科学発見システムが査読の壁を突破（Sakana AI）</text>
+  <rect x="58" y="167" width="700" height="22" rx="2" fill="#8B7DB8" opacity="0.18"/>
+  <text x="66" y="183" fill="#2F3842" font-size="14" font-weight="500">arXiv 2504.08066 / Nature  ·  Sakana AI  ·  2026-04  ·  #論文  ·  #自律研究  ·  #エージェント</text>
+  <line x1="58" y1="198" x2="1360" y2="198" stroke="#1A1D24" stroke-width="1.5"/>
+
+  <!-- Hero: Flask / Microscope icon -->
+  <g transform="translate(68, 215)" filter="url(#softShadow)">
+    <!-- Flask shape -->
+    <rect x="95" y="40" width="50" height="60" rx="5" fill="#EDE0C4" stroke="#1A1D24" stroke-width="2.5"/>
+    <path d="M 75 100 L 95 100 L 75 165 L 165 165 L 145 100 L 165 100" fill="#E8F0FD" stroke="#1A1D24" stroke-width="2.5" stroke-linejoin="round"/>
+    <!-- Bubbles in flask -->
+    <circle cx="105" cy="140" r="7" fill="#8B7DB8" opacity="0.7"/>
+    <circle cx="130" cy="148" r="5" fill="#8B7DB8" opacity="0.5"/>
+    <circle cx="118" cy="130" r="4" fill="#8B7DB8" opacity="0.6"/>
+    <!-- AI symbol on flask -->
+    <text x="120" y="158" text-anchor="middle" fill="#8B7DB8" font-size="14" font-weight="900">AI</text>
+    <!-- Flask cap -->
+    <rect x="90" y="30" width="60" height="14" rx="3" fill="#2F3842" stroke="#1A1D24" stroke-width="2"/>
+    <!-- Star burst for Nature acceptance -->
+    <polygon points="230,50 240,30 250,50 270,55 255,70 260,90 240,80 220,90 225,70 210,55" fill="#FFD700" stroke="#1A1D24" stroke-width="2"/>
+    <text x="240" y="65" text-anchor="middle" fill="#1A1D24" font-size="9" font-weight="900">Nature</text>
+    <!-- Labels -->
+    <text x="120" y="192" text-anchor="middle" fill="#8B7DB8" font-size="13" font-weight="800">Sakana AI</text>
+    <text x="120" y="210" text-anchor="middle" fill="#5A5A5A" font-size="11">AI Scientist v2</text>
+  </g>
+
+  <!-- Key number blocks -->
+  <rect x="330" y="210" width="175" height="130" rx="6" fill="white" stroke="#1A1D24" stroke-width="2.5" filter="url(#softShadow)"/>
+  <rect x="330" y="210" width="175" height="8" rx="3" fill="#8B7DB8"/>
+  <text x="417" y="262" text-anchor="middle" fill="#8B7DB8" font-size="52" font-weight="900">6.33</text>
+  <text x="417" y="285" text-anchor="middle" fill="#2F3842" font-size="12" font-weight="600">査読平均スコア</text>
+  <text x="417" y="302" text-anchor="middle" fill="#8A8A8A" font-size="10">個別: 6/7/6</text>
+  <text x="417" y="320" text-anchor="middle" fill="#8A8A8A" font-size="10">ICLR 2025 ワークショップ</text>
+
+  <rect x="518" y="210" width="175" height="130" rx="6" fill="white" stroke="#1A1D24" stroke-width="2.5" filter="url(#softShadow)"/>
+  <rect x="518" y="210" width="175" height="8" rx="3" fill="#8B7DB8"/>
+  <text x="605" y="258" text-anchor="middle" fill="#8B7DB8" font-size="44" font-weight="900">55%+</text>
+  <text x="605" y="280" text-anchor="middle" fill="#2F3842" font-size="12" font-weight="600">人間論文を上回る</text>
+  <text x="605" y="298" text-anchor="middle" fill="#8A8A8A" font-size="10">AI論文のスコアが</text>
+  <text x="605" y="316" text-anchor="middle" fill="#8A8A8A" font-size="10">人間著者論文の55%超を超過</text>
+
+  <rect x="706" y="210" width="175" height="130" rx="6" fill="white" stroke="#1A1D24" stroke-width="2.5" filter="url(#softShadow)"/>
+  <rect x="706" y="210" width="175" height="8" rx="3" fill="#8B7DB8"/>
+  <text x="793" y="258" text-anchor="middle" fill="#FFD700" font-size="28" font-weight="900">Nature 掲載</text>
+  <text x="793" y="280" text-anchor="middle" fill="#2F3842" font-size="12" font-weight="600">史上初・AI生成論文</text>
+  <text x="793" y="298" text-anchor="middle" fill="#8A8A8A" font-size="10">"Towards end-to-end</text>
+  <text x="793" y="316" text-anchor="middle" fill="#8A8A8A" font-size="10">automation of AI research"</text>
+
+  <!-- Main visual: Research automation pipeline -->
+  <rect x="58" y="360" width="880" height="240" rx="6" fill="white" stroke="#1A1D24" stroke-width="2" filter="url(#softShadow)"/>
+  <text x="78" y="392" fill="#1A1D24" font-size="16" font-weight="800">⚙️ AI Scientist-v2 自律研究パイプライン（エージェンティック・ツリーサーチ）</text>
+  <line x1="78" y1="400" x2="920" y2="400" stroke="#1A1D24" stroke-width="1.5"/>
+
+  <!-- Pipeline steps -->
+  <!-- Step 1: Hypothesis -->
+  <rect x="78" y="415" width="145" height="75" rx="5" fill="#F4F0FA" stroke="#8B7DB8" stroke-width="2"/>
+  <text x="150" y="440" text-anchor="middle" fill="#8B7DB8" font-size="20">💡</text>
+  <text x="150" y="460" text-anchor="middle" fill="#1A1D24" font-size="12" font-weight="700">仮説立案</text>
+  <text x="150" y="475" text-anchor="middle" fill="#666" font-size="10">Hypothesis</text>
+  <text x="150" y="490" text-anchor="middle" fill="#666" font-size="10">Generation</text>
+
+  <text x="230" y="458" fill="#8B7DB8" font-size="22" font-weight="900">→</text>
+
+  <!-- Step 2: Experiment design -->
+  <rect x="245" y="415" width="145" height="75" rx="5" fill="#F4F0FA" stroke="#8B7DB8" stroke-width="2"/>
+  <text x="317" y="440" text-anchor="middle" fill="#8B7DB8" font-size="20">🧪</text>
+  <text x="317" y="460" text-anchor="middle" fill="#1A1D24" font-size="12" font-weight="700">実験設計・実行</text>
+  <text x="317" y="475" text-anchor="middle" fill="#666" font-size="10">Experiment</text>
+  <text x="317" y="490" text-anchor="middle" fill="#666" font-size="10">Design &amp; Run</text>
+
+  <text x="397" y="458" fill="#8B7DB8" font-size="22" font-weight="900">→</text>
+
+  <!-- Step 3: Analysis -->
+  <rect x="412" y="415" width="145" height="75" rx="5" fill="#F4F0FA" stroke="#8B7DB8" stroke-width="2"/>
+  <text x="484" y="440" text-anchor="middle" fill="#8B7DB8" font-size="20">📊</text>
+  <text x="484" y="460" text-anchor="middle" fill="#1A1D24" font-size="12" font-weight="700">データ解析</text>
+  <text x="484" y="475" text-anchor="middle" fill="#666" font-size="10">Analysis &amp;</text>
+  <text x="484" y="490" text-anchor="middle" fill="#666" font-size="10">Visualization</text>
+
+  <text x="564" y="458" fill="#8B7DB8" font-size="22" font-weight="900">→</text>
+
+  <!-- Step 4: Writing -->
+  <rect x="579" y="415" width="145" height="75" rx="5" fill="#F4F0FA" stroke="#8B7DB8" stroke-width="2"/>
+  <text x="651" y="440" text-anchor="middle" fill="#8B7DB8" font-size="20">✍️</text>
+  <text x="651" y="460" text-anchor="middle" fill="#1A1D24" font-size="12" font-weight="700">論文執筆</text>
+  <text x="651" y="475" text-anchor="middle" fill="#666" font-size="10">Manuscript</text>
+  <text x="651" y="490" text-anchor="middle" fill="#666" font-size="10">Writing</text>
+
+  <text x="731" y="458" fill="#8B7DB8" font-size="22" font-weight="900">→</text>
+
+  <!-- Step 5: Review -->
+  <rect x="746" y="415" width="145" height="75" rx="5" fill="#FAF0E8" stroke="#FFD700" stroke-width="2.5"/>
+  <text x="818" y="440" text-anchor="middle" fill="#8B5500" font-size="20">📋</text>
+  <text x="818" y="460" text-anchor="middle" fill="#1A1D24" font-size="12" font-weight="700">査読通過</text>
+  <text x="818" y="475" text-anchor="middle" fill="#666" font-size="10">Peer Review</text>
+  <text x="818" y="490" text-anchor="middle" fill="#FFD700" font-size="10" font-weight="700">✅ ACCEPTED</text>
+
+  <!-- Tree search annotation -->
+  <text x="78" y="520" fill="#8B7DB8" font-size="12" font-weight="700">🌳 Progressive Agentic Tree Search: </text>
+  <text x="78" y="538" fill="#666" font-size="12">各実験ステップを「ノード」、仮説の分岐を「枝」として木構造で管理。有望な経路を深掘りしつつ失敗仮説を枝刈り。</text>
+  <text x="78" y="556" fill="#666" font-size="12">v2の特徴: 人間コードテンプレート不要 · 複数MLドメイン横断 · 専任「実験マネージャーエージェント」が進捗管理。</text>
+  <text x="78" y="578" fill="#8B7DB8" font-size="12" font-weight="600">🎯 arXiv 2504.08066 (Sakana AI) / Nature掲載: "Towards end-to-end automation of AI research"</text>
+
+  <!-- Feature cards -->
+  <!-- Card 1 -->
+  <rect x="58"  y="618" width="272" height="105" rx="5" fill="white" stroke="#1A1D24" stroke-width="2" filter="url(#softShadow)"/>
+  <rect x="58"  y="618" width="272" height="6" rx="3" fill="#8B7DB8"/>
+  <text x="78"  y="644" fill="#8B7DB8" font-size="18">🌳</text>
+  <text x="105" y="644" fill="#1A1D24" font-size="13" font-weight="700">ツリーサーチ設計</text>
+  <text x="78"  y="663" fill="#444" font-size="11">AlphaGoのMCTSの科学研究版。</text>
+  <text x="78"  y="678" fill="#444" font-size="11">有望仮説を深掘りし、失敗経路を</text>
+  <text x="78"  y="693" fill="#444" font-size="11">枝刈りする最適化アルゴリズム。</text>
+  <text x="78"  y="712" fill="#8B7DB8" font-size="10">v1からの最大の進化点</text>
+
+  <!-- Card 2 -->
+  <rect x="346" y="618" width="272" height="105" rx="5" fill="white" stroke="#1A1D24" stroke-width="2" filter="url(#softShadow)"/>
+  <rect x="346" y="618" width="272" height="6" rx="3" fill="#8B7DB8"/>
+  <text x="366" y="644" fill="#8B7DB8" font-size="18">📋</text>
+  <text x="393" y="644" fill="#1A1D24" font-size="13" font-weight="700">ICLR査読通過の事実</text>
+  <text x="366" y="663" fill="#444" font-size="11">平均スコア6.33（6/7/6）で</text>
+  <text x="366" y="678" fill="#444" font-size="11">ICLR 2025 ICBINBワークショップの</text>
+  <text x="366" y="693" fill="#444" font-size="11">人間閾値を超えて採択。</text>
+  <text x="366" y="712" fill="#8B7DB8" font-size="10">人間論文55%超を上回るスコア</text>
+
+  <!-- Card 3 -->
+  <rect x="634" y="618" width="272" height="105" rx="5" fill="white" stroke="#1A1D24" stroke-width="2" filter="url(#softShadow)"/>
+  <rect x="634" y="618" width="272" height="6" rx="3" fill="#8B7DB8"/>
+  <text x="654" y="644" fill="#FFD700" font-size="18">★</text>
+  <text x="676" y="644" fill="#1A1D24" font-size="13" font-weight="700">Nature掲載の意義</text>
+  <text x="654" y="663" fill="#444" font-size="11">AI生成論文のNature掲載は史上初。</text>
+  <text x="654" y="678" fill="#444" font-size="11">ジャーナルポリシー更新の必要性と</text>
+  <text x="654" y="693" fill="#444" font-size="11">「AI著者」の開示制度化が急務に。</text>
+  <text x="654" y="712" fill="#8B7DB8" font-size="10">科学コミュニティに大きな衝撃</text>
+
+  <!-- Card 4 -->
+  <rect x="58"  y="738" width="272" height="105" rx="5" fill="white" stroke="#1A1D24" stroke-width="2" filter="url(#softShadow)"/>
+  <rect x="58"  y="738" width="272" height="6" rx="3" fill="#8B7DB8"/>
+  <text x="78"  y="764" fill="#8B7DB8" font-size="18">🚫</text>
+  <text x="105" y="764" fill="#1A1D24" font-size="13" font-weight="700">テンプレート依存脱却</text>
+  <text x="78"  y="783" fill="#444" font-size="11">v1は人間コードテンプレートが</text>
+  <text x="78"  y="798" fill="#444" font-size="11">前提でMLコード改変にとどまる、</text>
+  <text x="78"  y="813" fill="#444" font-size="11">という批判を解消。ゼロショット実験。</text>
+  <text x="78"  y="832" fill="#8B7DB8" font-size="10">複数MLドメインへ汎化</text>
+
+  <!-- Card 5 -->
+  <rect x="346" y="738" width="272" height="105" rx="5" fill="white" stroke="#1A1D24" stroke-width="2" filter="url(#softShadow)"/>
+  <rect x="346" y="738" width="272" height="6" rx="3" fill="#8B7DB8"/>
+  <text x="366" y="764" fill="#8B7DB8" font-size="18">🏛️</text>
+  <text x="393" y="764" fill="#1A1D24" font-size="13" font-weight="700">CAISc 2026</text>
+  <text x="366" y="783" fill="#444" font-size="11">AIを主著者とする学術会議が</text>
+  <text x="366" y="798" fill="#444" font-size="11">2026年7月に初開催予定。</text>
+  <text x="366" y="813" fill="#444" font-size="11">「AI著者」制度化の最前線。</text>
+  <text x="366" y="832" fill="#8B7DB8" font-size="10">人間著者論文との並立時代が到来</text>
+
+  <!-- Card 6 -->
+  <rect x="634" y="738" width="272" height="105" rx="5" fill="white" stroke="#1A1D24" stroke-width="2" filter="url(#softShadow)"/>
+  <rect x="634" y="738" width="272" height="6" rx="3" fill="#8B7DB8"/>
+  <text x="654" y="764" fill="#8B7DB8" font-size="18">💊</text>
+  <text x="681" y="764" fill="#1A1D24" font-size="13" font-weight="700">産業応用: 創薬・材料科学</text>
+  <text x="654" y="783" fill="#444" font-size="11">仮説→実験→解析の自動化で、</text>
+  <text x="654" y="798" fill="#444" font-size="11">化合物スクリーニングや材料最適化が</text>
+  <text x="654" y="813" fill="#444" font-size="11">人間の10〜100倍速になりうる。</text>
+  <text x="654" y="832" fill="#8B7DB8" font-size="10">Insilico Medicine / DeepMind と競合</text>
+
+  <!-- Sticky notes -->
+  <!-- Note 1 -->
+  <g transform="translate(960, 218) rotate(-1.2)" filter="url(#stickyShadow)">
+    <rect width="175" height="175" rx="3" fill="#FFF7E0" stroke="#E8D88A" stroke-width="1"/>
+    <text x="12" y="22" fill="#5B5B3A" font-size="11" font-weight="800">査読信頼性の問題</text>
+    <line x1="8" y1="28" x2="165" y2="28" stroke="#E8D88A" stroke-width="1"/>
+    <text x="10" y="46" fill="#444" font-size="10">ワークショップ査読は</text>
+    <text x="10" y="60" fill="#444" font-size="10">フルペーパー査読より</text>
+    <text x="10" y="74" fill="#444" font-size="10">基準が緩い。しかし</text>
+    <text x="10" y="88" fill="#444" font-size="10">「ブラインドで区別できなかった」</text>
+    <text x="10" y="102" fill="#444" font-size="10">事実は査読の信頼性を問う。</text>
+    <text x="10" y="130" fill="#8B7DB8" font-size="10">→ 全ジャーナルで</text>
+    <text x="10" y="144" fill="#8B7DB8" font-size="10">　AI開示ポリシー整備が急務</text>
+    <text x="10" y="162" fill="#888" font-size="9">📎 学術制度への影響</text>
+  </g>
+
+  <!-- Note 2 -->
+  <g transform="translate(1155, 230) rotate(1.5)" filter="url(#stickyShadow)">
+    <rect width="175" height="175" rx="3" fill="#E8F0FD" stroke="#9BBDE8" stroke-width="1"/>
+    <text x="12" y="22" fill="#2B3A5A" font-size="11" font-weight="800">論文数インフレリスク</text>
+    <line x1="8" y1="28" x2="165" y2="28" stroke="#9BBDE8" stroke-width="1"/>
+    <text x="10" y="46" fill="#444" font-size="10">AI Scientistが普及すると</text>
+    <text x="10" y="60" fill="#444" font-size="10">一研究室の年間発表数が</text>
+    <text x="10" y="74" fill="#444" font-size="10">指数的増加。arXiv投稿数が</text>
+    <text x="10" y="88" fill="#444" font-size="10">前年比40〜60%増中。</text>
+    <text x="10" y="102" fill="#444" font-size="10">重要発見の視認性が低下。</text>
+    <text x="10" y="130" fill="#5B8DEF" font-size="10">→ 「量より質」の</text>
+    <text x="10" y="144" fill="#5B8DEF" font-size="10">　科学観が根底から問われる</text>
+    <text x="10" y="162" fill="#888" font-size="9">📎 科学コミュニティの変容</text>
+  </g>
+
+  <!-- Note 3 -->
+  <g transform="translate(960, 418) rotate(1.0)" filter="url(#stickyShadow)">
+    <rect width="175" height="175" rx="3" fill="#EAF5E8" stroke="#8BC98A" stroke-width="1"/>
+    <text x="12" y="22" fill="#2A4A28" font-size="11" font-weight="800">産業破壊力</text>
+    <line x1="8" y1="28" x2="165" y2="28" stroke="#8BC98A" stroke-width="1"/>
+    <text x="10" y="46" fill="#444" font-size="10">創薬・材料科学・合成生物学が</text>
+    <text x="10" y="60" fill="#444" font-size="10">最初の産業応用候補。</text>
+    <text x="10" y="74" fill="#444" font-size="10">化合物スクリーニングが</text>
+    <text x="10" y="88" fill="#444" font-size="10">10〜100倍速になれば、</text>
+    <text x="10" y="102" fill="#444" font-size="10">創薬コスト・期間が激変。</text>
+    <text x="10" y="130" fill="#5CA46E" font-size="10">→ 計算系研究との差が</text>
+    <text x="10" y="144" fill="#5CA46E" font-size="10">　最初に縮まる</text>
+    <text x="10" y="162" fill="#888" font-size="9">📎 バイオテック + AI融合</text>
+  </g>
+
+  <!-- Note 4 -->
+  <g transform="translate(1155, 430) rotate(-1.5)" filter="url(#stickyShadow)">
+    <rect width="175" height="175" rx="3" fill="#FAEDE8" stroke="#E8B0A0" stroke-width="1"/>
+    <text x="12" y="22" fill="#4A2A20" font-size="11" font-weight="800">知的財産と帰属</text>
+    <line x1="8" y1="28" x2="165" y2="28" stroke="#E8B0A0" stroke-width="1"/>
+    <text x="10" y="46" fill="#444" font-size="10">AI生成論文の特許・著作権は</text>
+    <text x="10" y="60" fill="#444" font-size="10">誰に帰属するか？Sakana AI?</text>
+    <text x="10" y="74" fill="#444" font-size="10">研究者? AIシステム自体?</text>
+    <text x="10" y="88" fill="#444" font-size="10">制度的インフラが現実に</text>
+    <text x="10" y="102" fill="#444" font-size="10">追いついていない。</text>
+    <text x="10" y="130" fill="#C04040" font-size="10">→ 引用慣行・IP法整備が</text>
+    <text x="10" y="144" fill="#C04040" font-size="10">　急務</text>
+    <text x="10" y="162" fill="#888" font-size="9">📎 法制度との衝突</text>
+  </g>
+
+  <!-- Footer section -->
+  <line x1="58" y1="858" x2="1360" y2="858" stroke="#CCCCCC" stroke-width="1"/>
+  <rect x="58" y="868" width="870" height="150" rx="6" fill="white" stroke="#1A1D24" stroke-width="1.5"/>
+  <text x="78" y="892" fill="#1A1D24" font-size="14" font-weight="700">AI Scientist-v2 vs v1 比較</text>
+  <line x1="78" y1="898" x2="910" y2="898" stroke="#CCCCCC" stroke-width="1"/>
+  <text x="78" y="920" fill="#444" font-size="13">• v1 (2024): 人間コードテンプレート必須 / 単一MLドメイン / 線形パイプライン</text>
+  <text x="78" y="940" fill="#444" font-size="13">• v2 (2026): テンプレート不要 / 複数MLドメイン横断 / 進化的ツリーサーチ / 実験マネージャーエージェント</text>
+  <text x="78" y="960" fill="#444" font-size="13">• 結果: ICLR 2025 査読通過 (スコア6.33) / 人間論文55%超え / Nature掲載（史上初）</text>
+  <text x="78" y="980" fill="#8B7DB8" font-size="13" font-weight="600">• 次: CAISc 2026 (July) — AIを主著者とする専門カンファレンス初開催</text>
+  <text x="78" y="1005" fill="#888" font-size="11">出典: arXiv 2504.08066 · sakana.ai/ai-scientist-nature/ · huggingface.co/papers/2504.08066 · phys.org 2026-03</text>
+
+  <line x1="58" y1="1028" x2="1360" y2="1028" stroke="#1A1D24" stroke-width="1.5"/>
+  <text x="58" y="1045" fill="#888" font-size="12" font-style="italic">AI News · 2026-04-22 · AI Scientist-v2: First AI-Generated Research Paper Published in Nature via Agentic Tree Search (Sakana AI)</text>
+</svg>

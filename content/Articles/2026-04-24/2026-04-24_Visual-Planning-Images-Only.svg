@@ -1,0 +1,156 @@
+<svg viewBox="0 0 1400 1050" xmlns="http://www.w3.org/2000/svg" font-family="-apple-system,'Hiragino Sans','Yu Gothic',sans-serif">
+  <defs>
+    <filter id="softShadow"><feDropShadow dx="2" dy="3" stdDeviation="4" flood-color="#00000022"/></filter>
+    <filter id="stickyShadow"><feDropShadow dx="3" dy="4" stdDeviation="6" flood-color="#00000033"/></filter>
+    <pattern id="paperTexture" patternUnits="userSpaceOnUse" width="4" height="4">
+      <rect width="4" height="4" fill="#FBF8F1"/>
+      <circle cx="1" cy="1" r="0.4" fill="#E8E2D3" opacity="0.5"/>
+      <circle cx="3" cy="3" r="0.3" fill="#D5CDBA" opacity="0.4"/>
+    </pattern>
+  </defs>
+  <rect width="1400" height="1050" fill="url(#paperTexture)"/>
+  <rect x="0" y="0" width="48" height="1050" fill="#E8E2D3" stroke="#D0C9B8" stroke-width="1"/>
+  <circle cx="24" cy="120" r="14" fill="#FBF8F1" stroke="#C8BFA8" stroke-width="2"/><circle cx="24" cy="120" r="7" fill="#E0D8C8" stroke="#B8AFA0" stroke-width="1.5"/>
+  <circle cx="24" cy="280" r="14" fill="#FBF8F1" stroke="#C8BFA8" stroke-width="2"/><circle cx="24" cy="280" r="7" fill="#E0D8C8" stroke="#B8AFA0" stroke-width="1.5"/>
+  <circle cx="24" cy="440" r="14" fill="#FBF8F1" stroke="#C8BFA8" stroke-width="2"/><circle cx="24" cy="440" r="7" fill="#E0D8C8" stroke="#B8AFA0" stroke-width="1.5"/>
+  <circle cx="24" cy="600" r="14" fill="#FBF8F1" stroke="#C8BFA8" stroke-width="2"/><circle cx="24" cy="600" r="7" fill="#E0D8C8" stroke="#B8AFA0" stroke-width="1.5"/>
+  <circle cx="24" cy="760" r="14" fill="#FBF8F1" stroke="#C8BFA8" stroke-width="2"/><circle cx="24" cy="760" r="7" fill="#E0D8C8" stroke="#B8AFA0" stroke-width="1.5"/>
+  <circle cx="24" cy="920" r="14" fill="#FBF8F1" stroke="#C8BFA8" stroke-width="2"/><circle cx="24" cy="920" r="7" fill="#E0D8C8" stroke="#B8AFA0" stroke-width="1.5"/>
+
+  <g transform="translate(1280,0) rotate(3)">
+    <rect x="0" y="-10" width="160" height="44" fill="#8B7DB8" stroke="#1A1D24" stroke-width="2"/>
+    <text x="80" y="18" text-anchor="middle" font-size="16" font-weight="700" fill="white">#論文</text>
+  </g>
+  <rect x="68" y="22" width="170" height="38" rx="6" fill="#2F3842" filter="url(#softShadow)"/>
+  <text x="153" y="47" text-anchor="middle" font-size="16" font-weight="700" fill="white">2026-04-24</text>
+  <text x="260" y="52" font-size="24" fill="#F5C518">⭐</text>
+
+  <g transform="translate(1250,120)">
+    <circle cx="0" cy="0" r="52" fill="#F0EBF8" stroke="#8B7DB8" stroke-width="3"/>
+    <text x="0" y="0" text-anchor="middle" dominant-baseline="central" font-size="46">🖼️</text>
+  </g>
+
+  <text x="68" y="110" font-size="36" font-weight="900" fill="#1A1D24">Visual Planning: Think Only with Images</text>
+  <text x="68" y="155" font-size="24" font-weight="700" fill="#8B7DB8">テキストを使わず「画像空間」だけで推論するCoT新パラダイム</text>
+  <text x="68" y="188" font-size="16" fill="#666">ICLR 2026 Oral (Session 3D, 10:54AM) · Yi Xu et al. · #視覚推論 #Planning</text>
+  <line x1="68" y1="205" x2="1340" y2="205" stroke="#1A1D24" stroke-width="2.5"/>
+
+  <!-- Comparison Diagram: Text CoT vs Visual Planning -->
+  <rect x="68" y="220" width="620" height="390" rx="8" fill="white" stroke="#1A1D24" stroke-width="2.5" filter="url(#softShadow)"/>
+  <text x="88" y="250" font-size="16" font-weight="700" fill="#1A1D24">📝 従来: Text Chain-of-Thought</text>
+  <rect x="88" y="260" width="560" height="45" rx="6" fill="#F0F4FF" stroke="#5B8DEF" stroke-width="1.5"/>
+  <text x="368" y="288" text-anchor="middle" font-size="13" fill="#333">問題入力 → テキスト中間ステップ1 → ステップ2 → ... → 最終回答</text>
+
+  <text x="88" y="340" font-size="13" fill="#666">テキストトークンで中間推論</text>
+  <text x="88" y="358" font-size="13" fill="#666">言語記号で空間・物理を表現</text>
+  <text x="88" y="376" font-size="13" fill="#666">一部タスクでは「翻訳コスト」が発生</text>
+
+  <line x1="88" y1="395" x2="630" y2="395" stroke="#E0D8C8" stroke-width="1" stroke-dasharray="4"/>
+
+  <text x="88" y="420" font-size="16" font-weight="700" fill="#8B7DB8">🖼️ 提案: Visual Planning</text>
+  <rect x="88" y="430" width="560" height="45" rx="6" fill="#F0EBF8" stroke="#8B7DB8" stroke-width="1.5"/>
+  <text x="368" y="458" text-anchor="middle" font-size="13" fill="#333">問題入力 → 画像中間状態1 → 画像中間状態2 → ... → 最終回答</text>
+
+  <text x="88" y="510" font-size="13" fill="#666">画像パッチで中間推論を表現</text>
+  <text x="88" y="528" font-size="13" fill="#666">空間・物理タスクで精度向上</text>
+  <text x="88" y="546" font-size="13" fill="#8B7DB8" font-weight="600">「思考は言語である必要があるか？」</text>
+
+  <text x="88" y="580" font-size="14" font-weight="700" fill="#1A1D24">得意タスク（実験結果）</text>
+  <rect x="88" y="588" width="170" height="40" rx="6" fill="#F0EBF8" stroke="#8B7DB8" stroke-width="1.5"/>
+  <text x="173" y="613" text-anchor="middle" font-size="12" fill="#1A1D24">空間配置・パズル</text>
+  <rect x="268" y="588" width="170" height="40" rx="6" fill="#F0EBF8" stroke="#8B7DB8" stroke-width="1.5"/>
+  <text x="353" y="613" text-anchor="middle" font-size="12" fill="#1A1D24">物理シミュレーション</text>
+  <rect x="448" y="588" width="170" height="40" rx="6" fill="#F0EBF8" stroke="#8B7DB8" stroke-width="1.5"/>
+  <text x="533" y="613" text-anchor="middle" font-size="12" fill="#1A1D24">グラフ探索</text>
+
+  <!-- Right side: Impact and future -->
+  <rect x="708" y="220" width="630" height="390" rx="8" fill="white" stroke="#1A1D24" stroke-width="2.5" filter="url(#softShadow)"/>
+  <text x="728" y="250" font-size="16" font-weight="700" fill="#1A1D24">🧠 論文の核心メッセージ</text>
+  <line x1="728" y1="257" x2="1320" y2="257" stroke="#E0D8C8" stroke-width="1"/>
+
+  <rect x="728" y="265" width="590" height="90" rx="6" fill="#F8F4FF" stroke="#8B7DB8" stroke-width="2"/>
+  <text x="1023" y="292" text-anchor="middle" font-size="14" font-weight="700" fill="#8B7DB8">中心命題</text>
+  <text x="748" y="315" font-size="13" fill="#333">人間が空間タスクを「頭の中で視覚的に操作」するように、</text>
+  <text x="748" y="333" font-size="13" fill="#333">AIも <tspan font-weight="700">画像空間で思考</tspan> した方が一部タスクでより効率的かもしれない</text>
+
+  <text x="728" y="380" font-size="15" font-weight="700" fill="#1A1D24">📊 パフォーマンス</text>
+  <text x="728" y="400" font-size="13" fill="#333">• 空間推論タスク: Visual Planning &gt; Text CoT</text>
+  <text x="728" y="420" font-size="13" fill="#333">• 言語推論タスク: Text CoT の優位を確認</text>
+  <text x="728" y="440" font-size="13" fill="#333">• ハイブリッド（テキスト+画像）が最強の可能性</text>
+
+  <text x="728" y="475" font-size="15" font-weight="700" fill="#1A1D24">⚠️ 現時点の制約</text>
+  <text x="728" y="495" font-size="13" fill="#666">• 画像生成・解釈 → テキストより多FLOPs</text>
+  <text x="728" y="515" font-size="13" fill="#666">• 実用化には2〜3年のインフラ成熟が必要</text>
+  <text x="728" y="535" font-size="13" fill="#666">• 「どのタスクで画像思考が有効か」の体系化が課題</text>
+
+  <text x="728" y="570" font-size="15" font-weight="700" fill="#1A1D24">🤖 応用先</text>
+  <text x="728" y="590" font-size="13" fill="#333">• ロボティクス（センサー→視覚推論→行動）</text>
+  <text x="728" y="610" font-size="13" fill="#333">• 自律走行車（LiDAR・カメラ→画像推論）</text>
+
+  <!-- Feature Cards -->
+  <rect x="68" y="630" width="295" height="155" rx="8" fill="#F0EBF8" stroke="#1A1D24" stroke-width="2" filter="url(#softShadow)"/>
+  <text x="215" y="656" text-anchor="middle" font-size="14" font-weight="700" fill="#8B7DB8">💬 X での反応</text>
+  <text x="88" y="677" font-size="12" fill="#333">「言語はAIに最適とは限らない」</text>
+  <text x="88" y="695" font-size="12" fill="#333">「人間も言葉でなく絵で考える」</text>
+  <text x="88" y="713" font-size="12" fill="#333">「どの思考媒体を選ぶかを</text>
+  <text x="88" y="731" font-size="12" fill="#333">　メタ学習できるか？」</text>
+  <text x="88" y="749" font-size="12" fill="#333">最終日ポスターセッションも注目</text>
+  <text x="88" y="767" font-size="12" fill="#999">ICLR会場から実況RT多数</text>
+
+  <rect x="383" y="630" width="295" height="155" rx="8" fill="#F0EBF8" stroke="#1A1D24" stroke-width="2" filter="url(#softShadow)"/>
+  <text x="530" y="656" text-anchor="middle" font-size="14" font-weight="700" fill="#8B7DB8">🤖 Embodied AI</text>
+  <text x="403" y="677" font-size="12" fill="#333">ロボット基盤モデル×LLMの</text>
+  <text x="403" y="695" font-size="12" fill="#333">現在の分離構造を統合できる可能性</text>
+  <text x="403" y="713" font-size="12" fill="#333">センサー入力 → 画像推論 → 行動</text>
+  <text x="403" y="731" font-size="12" fill="#333">という end-to-end パイプラインへ</text>
+  <text x="403" y="749" font-size="12" fill="#333">2028年頃に実用域見込み</text>
+
+  <rect x="698" y="630" width="295" height="155" rx="8" fill="#F0EBF8" stroke="#1A1D24" stroke-width="2" filter="url(#softShadow)"/>
+  <text x="845" y="656" text-anchor="middle" font-size="14" font-weight="700" fill="#8B7DB8">💾 インフラ要件</text>
+  <text x="718" y="677" font-size="12" fill="#333">• 画像トークン生成はコスト高</text>
+  <text x="718" y="695" font-size="12" fill="#333">• Apple M5・SD X2最適化が鍵</text>
+  <text x="718" y="713" font-size="12" fill="#333">• VRAMの大幅増加が必要</text>
+  <text x="718" y="731" font-size="12" fill="#333">• ストリーミング生成が困難</text>
+  <text x="718" y="749" font-size="12" fill="#333">• 圧縮手法の研究が急務</text>
+
+  <rect x="1013" y="630" width="325" height="155" rx="8" fill="#F0EBF8" stroke="#1A1D24" stroke-width="2" filter="url(#softShadow)"/>
+  <text x="1175" y="656" text-anchor="middle" font-size="14" font-weight="700" fill="#8B7DB8">🔮 将来展望</text>
+  <text x="1033" y="677" font-size="12" fill="#333">• テキスト/画像/音声の混合CoT</text>
+  <text x="1033" y="695" font-size="12" fill="#333">• タスクに応じた思考媒体の自動選択</text>
+  <text x="1033" y="713" font-size="12" fill="#333">• 「非言語的知能」研究の開拓</text>
+  <text x="1033" y="731" font-size="12" fill="#333">• 多感覚融合モデルへの道</text>
+  <text x="1033" y="749" font-size="12" fill="#333">• 哲学的問いの再燃（思考の本質）</text>
+
+  <!-- Sticky Notes -->
+  <g transform="translate(68, 800) rotate(-1.0)">
+    <rect width="265" height="90" rx="4" fill="#FFFDE7" stroke="#1A1D24" stroke-width="1.5" filter="url(#stickyShadow)"/>
+    <text x="132" y="22" text-anchor="middle" font-size="13" font-weight="700">💭 哲学的問い</text>
+    <text x="14" y="42" font-size="11" fill="#333">「思考は言語か？」という問いを</text>
+    <text x="14" y="57" font-size="11" fill="#333">AI研究が実験的に検証し始めた</text>
+    <text x="14" y="72" font-size="11" fill="#333">認知科学・哲学への波及も</text>
+  </g>
+  <g transform="translate(360, 805) rotate(1.3)">
+    <rect width="265" height="90" rx="4" fill="#E8F5E9" stroke="#1A1D24" stroke-width="1.5" filter="url(#stickyShadow)"/>
+    <text x="132" y="22" text-anchor="middle" font-size="13" font-weight="700">🎯 コスト問題</text>
+    <text x="14" y="42" font-size="11" fill="#333">画像CoTは現時点でコスト大。</text>
+    <text x="14" y="57" font-size="11" fill="#333">次世代SoCの画像最適化が</text>
+    <text x="14" y="72" font-size="11" fill="#333">実用化のボトルネック</text>
+  </g>
+  <g transform="translate(658, 800) rotate(-1.2)">
+    <rect width="275" height="90" rx="4" fill="#F3E5F5" stroke="#1A1D24" stroke-width="1.5" filter="url(#stickyShadow)"/>
+    <text x="137" y="22" text-anchor="middle" font-size="13" font-weight="700">🤝 ハイブリッドが最強?</text>
+    <text x="14" y="42" font-size="11" fill="#333">「テキスト一本→画像一本」より</text>
+    <text x="14" y="57" font-size="11" fill="#333">タスクに応じて切り替える</text>
+    <text x="14" y="72" font-size="11" fill="#333">ハイブリッドCoTが有力</text>
+  </g>
+  <g transform="translate(960, 803) rotate(1.0)">
+    <rect width="275" height="90" rx="4" fill="#FFF3E0" stroke="#1A1D24" stroke-width="1.5" filter="url(#stickyShadow)"/>
+    <text x="137" y="22" text-anchor="middle" font-size="13" font-weight="700">🌱 地味だけど重要</text>
+    <text x="14" y="42" font-size="11" fill="#333">今すぐ使えないが、10年後の</text>
+    <text x="14" y="57" font-size="11" fill="#333">AIアーキテクチャを変える種。</text>
+    <text x="14" y="72" font-size="11" fill="#333">ICLR Oral 選出は先見性の証</text>
+  </g>
+
+  <line x1="68" y1="970" x2="1340" y2="970" stroke="#C8BFA8" stroke-width="1"/>
+  <text x="704" y="992" text-anchor="middle" font-size="13" fill="#999" font-style="italic">AI News · 2026-04-24 · Visual Planning: Let's Think Only with Images — ICLR 2026 Oral</text>
+</svg>

@@ -1,0 +1,236 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1400 1050" font-family="-apple-system, 'Hiragino Sans', 'Yu Gothic', sans-serif">
+  <defs>
+    <pattern id="paperTexture" patternUnits="userSpaceOnUse" width="100" height="100">
+      <rect width="100" height="100" fill="#FBF8F1"/>
+      <circle cx="18" cy="25" r="0.4" fill="#C4B389" opacity="0.3"/>
+      <circle cx="70" cy="60" r="0.5" fill="#C4B389" opacity="0.3"/>
+    </pattern>
+    <linearGradient id="highlighterOrange3" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#FFD4A8" stop-opacity="0.85"/>
+      <stop offset="100%" stop-color="#F0A860" stop-opacity="0.7"/>
+    </linearGradient>
+    <linearGradient id="barParams" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0%" stop-color="#E8A87C"/>
+      <stop offset="100%" stop-color="#F8C890"/>
+    </linearGradient>
+    <linearGradient id="barGrok5" x1="0" y1="1" x2="0" y2="0">
+      <stop offset="0%" stop-color="#E8A87C"/>
+      <stop offset="100%" stop-color="#F8D090"/>
+    </linearGradient>
+    <filter id="stickyShadow" x="-10%" y="-10%" width="120%" height="120%">
+      <feGaussianBlur in="SourceAlpha" stdDeviation="3"/>
+      <feOffset dx="2" dy="3" result="offsetblur"/>
+      <feComponentTransfer><feFuncA type="linear" slope="0.25"/></feComponentTransfer>
+      <feMerge><feMergeNode/><feMergeNode in="SourceGraphic"/></feMerge>
+    </filter>
+    <filter id="softShadow" x="-10%" y="-10%" width="120%" height="120%">
+      <feGaussianBlur in="SourceAlpha" stdDeviation="2"/>
+      <feOffset dx="1" dy="2" result="offsetblur"/>
+      <feComponentTransfer><feFuncA type="linear" slope="0.18"/></feComponentTransfer>
+      <feMerge><feMergeNode/><feMergeNode in="SourceGraphic"/></feMerge>
+    </filter>
+  </defs>
+
+  <rect width="1400" height="1050" fill="url(#paperTexture)"/>
+  <line x1="115" y1="30" x2="115" y2="1020" stroke="#D88A8A" stroke-width="1.2" opacity="0.4"/>
+
+  <!-- Binding holes -->
+  <g fill="#E8E2D3" stroke="#C8C0B0" stroke-width="1">
+    <circle cx="50" cy="100" r="12"/><circle cx="50" cy="280" r="12"/>
+    <circle cx="50" cy="460" r="12"/><circle cx="50" cy="640" r="12"/>
+    <circle cx="50" cy="820" r="12"/><circle cx="50" cy="960" r="12"/>
+  </g>
+  <g fill="#FBF8F1">
+    <circle cx="50" cy="100" r="8"/><circle cx="50" cy="280" r="8"/>
+    <circle cx="50" cy="460" r="8"/><circle cx="50" cy="640" r="8"/>
+    <circle cx="50" cy="820" r="8"/><circle cx="50" cy="960" r="8"/>
+  </g>
+
+  <!-- Washi tape -->
+  <g transform="rotate(-2.5 220 48)">
+    <rect x="130" y="28" width="200" height="38" fill="#E8A87C" rx="3" opacity="0.85"/>
+    <text x="230" y="52" text-anchor="middle" font-size="14" font-weight="bold" fill="#FFFFFF">ビジネス · 2026.04.26</text>
+  </g>
+  <g transform="rotate(-3 1280 55)">
+    <rect x="1155" y="30" width="165" height="36" fill="#E8A87C" rx="3" opacity="0.9"/>
+    <text x="1237" y="53" text-anchor="middle" font-size="14" font-weight="bold" fill="#FFFFFF">#ビジネス</text>
+  </g>
+  <g transform="translate(1170 82)">
+    <rect x="0" y="0" width="150" height="50" fill="#2F3842" rx="4"/>
+    <text x="75" y="22" text-anchor="middle" font-size="11" fill="#A0B4C0">2026-04-26</text>
+    <text x="75" y="40" text-anchor="middle" font-size="13" fill="#FFFFFF" font-weight="bold">⭐⭐ Medium</text>
+  </g>
+
+  <!-- Title -->
+  <path d="M 140 112 Q 750 107, 1100 109 L 1100 166 Q 750 170, 140 166 Z" fill="url(#highlighterOrange3)" opacity="0.8"/>
+  <text x="155" y="155" font-size="38" font-weight="900" fill="#1A1D24">🦾 Grok 5 — 6 兆パラメータ、Q2 リリース間近</text>
+  <text x="155" y="195" font-size="17" fill="#E8A87C" font-style="italic" font-weight="bold">Grok Build / Computer の先行整備 → Grok 5 のエコ戦略が透けて見える</text>
+
+  <!-- Key numbers -->
+  <rect x="140" y="220" width="1160" height="100" fill="#FFFFFF" stroke="#1A1D24" stroke-width="2" rx="8" filter="url(#softShadow)"/>
+  <rect x="140" y="220" width="8" height="100" fill="#E8A87C" rx="2"/>
+  <g transform="translate(170 233)">
+    <rect x="0" y="0" width="160" height="65" fill="#FFF8F0" stroke="#E8A87C" stroke-width="1.5" rx="6"/>
+    <text x="80" y="20" text-anchor="middle" font-size="10" fill="#E8A87C" font-weight="bold">総パラメータ数</text>
+    <text x="80" y="50" text-anchor="middle" font-size="28" font-weight="bold" fill="#1A1D24">6T</text>
+  </g>
+  <g transform="translate(360 233)">
+    <rect x="0" y="0" width="160" height="65" fill="#FFF8F0" stroke="#E8A87C" stroke-width="1.5" rx="6"/>
+    <text x="80" y="20" text-anchor="middle" font-size="10" fill="#E8A87C" font-weight="bold">現 Grok 4.3</text>
+    <text x="80" y="50" text-anchor="middle" font-size="28" font-weight="bold" fill="#1A1D24">1T</text>
+  </g>
+  <g transform="translate(550 233)">
+    <rect x="0" y="0" width="160" height="65" fill="#F0FAF3" stroke="#5CA46E" stroke-width="1.5" rx="6"/>
+    <text x="80" y="20" text-anchor="middle" font-size="10" fill="#5CA46E" font-weight="bold">リリース目標</text>
+    <text x="80" y="50" text-anchor="middle" font-size="24" font-weight="bold" fill="#1A1D24">Q2 2026</text>
+  </g>
+  <g transform="translate(740 233)">
+    <rect x="0" y="0" width="160" height="65" fill="#F8F8F8" stroke="#888" stroke-width="1.5" rx="6"/>
+    <text x="80" y="20" text-anchor="middle" font-size="10" fill="#888" font-weight="bold">Grok 4.3 価格</text>
+    <text x="80" y="50" text-anchor="middle" font-size="24" font-weight="bold" fill="#1A1D24">$300/月</text>
+  </g>
+  <g transform="translate(930 233)">
+    <rect x="0" y="0" width="160" height="65" fill="#F0F5FF" stroke="#5B8DEF" stroke-width="1.5" rx="6"/>
+    <text x="80" y="20" text-anchor="middle" font-size="10" fill="#5B8DEF" font-weight="bold">訓練クラスター</text>
+    <text x="80" y="42" text-anchor="middle" font-size="16" font-weight="bold" fill="#1A1D24">Colossus+</text>
+    <text x="80" y="62" text-anchor="middle" font-size="12" fill="#888">Memphis, TN</text>
+  </g>
+  <g transform="translate(1120 233)">
+    <rect x="0" y="0" width="155" height="65" fill="#FFF0F0" stroke="#E05050" stroke-width="1.5" rx="6"/>
+    <text x="77" y="20" text-anchor="middle" font-size="10" fill="#E05050" font-weight="bold">Musk主張</text>
+    <text x="77" y="44" text-anchor="middle" font-size="16" font-weight="bold" fill="#E05050">AGI</text>
+    <text x="77" y="62" text-anchor="middle" font-size="12" fill="#888">「に近い」</text>
+  </g>
+
+  <!-- Parameter scale comparison -->
+  <rect x="140" y="345" width="640" height="290" fill="#FFFFFF" stroke="#1A1D24" stroke-width="2" rx="8" filter="url(#softShadow)"/>
+  <rect x="140" y="345" width="640" height="34" fill="#1A1D24" rx="8"/>
+  <rect x="140" y="365" width="640" height="14" fill="#1A1D24"/>
+  <text x="460" y="367" text-anchor="middle" font-size="14" font-weight="bold" fill="#FFFFFF">📊 フロンティアモデル パラメータ比較</text>
+
+  <g transform="translate(165 395)">
+    <!-- Grok 5 (6T) -->
+    <text x="0" y="30" font-size="13" font-weight="bold" fill="#E8A87C">Grok 5（予定）</text>
+    <rect x="140" y="12" width="420" height="24" fill="#E8A87C" rx="3" stroke="#C87848" stroke-width="2"/>
+    <text x="568" y="29" font-size="13" font-weight="bold" fill="#C87848">6T 🔥</text>
+
+    <!-- GPT-4 (est 1.8T MoE) -->
+    <text x="0" y="80" font-size="12" fill="#888">GPT-4（推定 MoE）</text>
+    <rect x="140" y="62" width="126" height="22" fill="#888" rx="3" opacity="0.6"/>
+    <text x="274" y="78" font-size="11" fill="#888">~1.8T</text>
+
+    <!-- Grok 4.3 beta -->
+    <text x="0" y="125" font-size="12" fill="#E8A87C">Grok 4.3 Beta</text>
+    <rect x="140" y="107" width="70" height="22" fill="#E8A87C" rx="3" opacity="0.6"/>
+    <text x="218" y="123" font-size="11" fill="#E8A87C">1T</text>
+
+    <!-- DeepSeek V4 Pro -->
+    <text x="0" y="170" font-size="12" fill="#888">DeepSeek V4 Pro</text>
+    <rect x="140" y="152" width="112" height="22" fill="#888" rx="3" opacity="0.45"/>
+    <text x="260" y="168" font-size="11" fill="#888">1.6T (49B活性)</text>
+
+    <!-- GPT-5.5 est. -->
+    <text x="0" y="215" font-size="12" fill="#888">GPT-5.5（推定）</text>
+    <rect x="140" y="197" width="140" height="22" fill="#888" rx="3" opacity="0.5"/>
+    <text x="288" y="213" font-size="11" fill="#888">~2T est.</text>
+
+    <text x="0" y="252" font-size="10" fill="#888" font-style="italic">※ Dense vs MoE により実計算コストは大きく異なる</text>
+  </g>
+
+  <!-- xAI Ecosystem roadmap -->
+  <rect x="810" y="345" width="490" height="290" fill="#FFFFFF" stroke="#1A1D24" stroke-width="2" rx="8" filter="url(#softShadow)"/>
+  <rect x="810" y="345" width="490" height="34" fill="#1A1D24" rx="8"/>
+  <rect x="810" y="365" width="490" height="14" fill="#1A1D24"/>
+  <text x="1055" y="367" text-anchor="middle" font-size="14" font-weight="bold" fill="#FFFFFF">🗺️ xAI エコシステム戦略</text>
+
+  <g transform="translate(835 400)">
+    <!-- Phase 1 -->
+    <rect x="0" y="0" width="440" height="55" fill="#F0FAF3" stroke="#5CA46E" stroke-width="1.5" rx="6"/>
+    <text x="220" y="20" text-anchor="middle" font-size="12" font-weight="bold" fill="#5CA46E">✅ Phase 1: モデル基盤（〜2026年4月）</text>
+    <text x="220" y="38" text-anchor="middle" font-size="11" fill="#555">Grok 4.3 Beta / Grok Build / Grok Computer</text>
+    <text x="220" y="54" text-anchor="middle" font-size="11" fill="#555">開発者エコシステムと製品基盤の整備</text>
+
+    <!-- Phase 2 -->
+    <rect x="0" y="70" width="440" height="55" fill="#FFF8E0" stroke="#E8C84D" stroke-width="2" rx="6"/>
+    <text x="220" y="90" text-anchor="middle" font-size="12" font-weight="bold" fill="#E8A820">🔜 Phase 2: Grok 5 投入（Q2 2026）</text>
+    <text x="220" y="108" text-anchor="middle" font-size="11" fill="#555">6T パラメータ / Build・Computer に搭載</text>
+    <text x="220" y="124" text-anchor="middle" font-size="11" fill="#555">ベンチ上位を狙い一気にシェア拡大</text>
+
+    <!-- Phase 3 -->
+    <rect x="0" y="140" width="440" height="55" fill="#F8F8F8" stroke="#888" stroke-width="1.5" rx="6"/>
+    <text x="220" y="160" text-anchor="middle" font-size="12" fill="#888">Phase 3: SpaceX インフラ統合（〜H2）</text>
+    <text x="220" y="178" text-anchor="middle" font-size="11" fill="#888">Starlink エッジ推論 + Colossus 訓練</text>
+    <text x="220" y="194" text-anchor="middle" font-size="11" fill="#888">AWS/GCP 依存ゼロを目指す</text>
+
+    <!-- Note -->
+    <rect x="0" y="210" width="440" height="40" fill="#FFF0F0" stroke="#E05050" stroke-width="1.5" rx="5"/>
+    <text x="220" y="228" text-anchor="middle" font-size="11" font-weight="bold" fill="#E05050">⚠️ AGI 主張は過大評価の可能性</text>
+    <text x="220" y="245" text-anchor="middle" font-size="10" fill="#888">スコア公開後にコミュニティ検証が必要</text>
+  </g>
+
+  <!-- 4 cards -->
+  <g transform="translate(140 660)">
+    <rect x="0" y="0" width="268" height="80" fill="#FFFFFF" stroke="#1A1D24" stroke-width="2" rx="8" filter="url(#softShadow)"/>
+    <rect x="0" y="0" width="268" height="6" fill="#E8A87C" rx="4"/>
+    <text x="134" y="24" text-anchor="middle" font-size="13" font-weight="bold" fill="#2C2416">6T の解釈</text>
+    <text x="134" y="42" text-anchor="middle" font-size="11" fill="#555">Dense か MoE か未確定</text>
+    <text x="134" y="58" text-anchor="middle" font-size="11" fill="#555">実際の計算量は全く異なる</text>
+    <text x="134" y="74" text-anchor="middle" font-size="11" fill="#E8A87C">→ 「活性パラメータ」が鍵</text>
+
+    <rect x="296" y="0" width="268" height="80" fill="#FFFFFF" stroke="#1A1D24" stroke-width="2" rx="8" filter="url(#softShadow)"/>
+    <rect x="296" y="0" width="268" height="6" fill="#5B8DEF" rx="4"/>
+    <text x="430" y="24" text-anchor="middle" font-size="13" font-weight="bold" fill="#2C2416">SpaceX × xAI 統合</text>
+    <text x="430" y="42" text-anchor="middle" font-size="11" fill="#555">Starlink エッジ推論</text>
+    <text x="430" y="58" text-anchor="middle" font-size="11" fill="#555">クラウド依存ゼロ構想</text>
+    <text x="430" y="74" text-anchor="middle" font-size="11" fill="#5B8DEF">→ 独自インフラ戦略</text>
+
+    <rect x="592" y="0" width="268" height="80" fill="#FFFFFF" stroke="#1A1D24" stroke-width="2" rx="8" filter="url(#softShadow)"/>
+    <rect x="592" y="0" width="268" height="6" fill="#5CA46E" rx="4"/>
+    <text x="726" y="24" text-anchor="middle" font-size="13" font-weight="bold" fill="#2C2416">競合との先後関係</text>
+    <text x="726" y="42" text-anchor="middle" font-size="11" fill="#555">Claude 5: H2 2026</text>
+    <text x="726" y="58" text-anchor="middle" font-size="11" fill="#555">GPT-6: 2026〜2027</text>
+    <text x="726" y="74" text-anchor="middle" font-size="11" fill="#5CA46E">→ 半年先行の優位狙い</text>
+
+    <rect x="888" y="0" width="272" height="80" fill="#FFFFFF" stroke="#1A1D24" stroke-width="2" rx="8" filter="url(#softShadow)"/>
+    <rect x="888" y="0" width="272" height="6" fill="#888" rx="4"/>
+    <text x="1024" y="24" text-anchor="middle" font-size="13" font-weight="bold" fill="#2C2416">スケーリング則の検証</text>
+    <text x="1024" y="42" text-anchor="middle" font-size="11" fill="#555">6T → 性能が伸びるか</text>
+    <text x="1024" y="58" text-anchor="middle" font-size="11" fill="#555">「終焉」か「継続」か</text>
+    <text x="1024" y="74" text-anchor="middle" font-size="11" fill="#888">→ リリース後に決着</text>
+  </g>
+
+  <!-- 4 sticky notes -->
+  <g transform="translate(140 768)">
+    <g transform="rotate(-1.5 120 80)" filter="url(#stickyShadow)">
+      <rect x="0" y="0" width="240" height="90" fill="#FFF9C4" stroke="#E8C84D" stroke-width="1.5" rx="4"/>
+      <text x="120" y="22" text-anchor="middle" font-size="12" font-weight="bold" fill="#2C2416">Q2 の意味</text>
+      <text x="120" y="40" text-anchor="middle" font-size="11" fill="#555">6月末までに出れば</text>
+      <text x="120" y="57" text-anchor="middle" font-size="11" fill="#555">Claude 5 / GPT-6 より</text>
+      <text x="120" y="74" text-anchor="middle" font-size="11" fill="#555">半年以上先行できる</text>
+    </g>
+    <g transform="rotate(1.2 400 80)" filter="url(#stickyShadow)">
+      <rect x="280" y="0" width="240" height="90" fill="#C8F0D8" stroke="#5CA46E" stroke-width="1.5" rx="4"/>
+      <text x="400" y="22" text-anchor="middle" font-size="12" font-weight="bold" fill="#2C2416">$300/月の意味</text>
+      <text x="400" y="40" text-anchor="middle" font-size="11" fill="#555">Grok 4.3 を $300 で売るのは</text>
+      <text x="400" y="57" text-anchor="middle" font-size="11" fill="#555">Grok 5 出前の高値段付けか</text>
+      <text x="400" y="74" text-anchor="middle" font-size="11" fill="#555">それとも純粋な採算計算か</text>
+    </g>
+    <g transform="rotate(-0.8 680 80)" filter="url(#stickyShadow)">
+      <rect x="560" y="0" width="240" height="90" fill="#FFE0CC" stroke="#E8A87C" stroke-width="1.5" rx="4"/>
+      <text x="680" y="22" text-anchor="middle" font-size="12" font-weight="bold" fill="#2C2416">AGI 発言の信頼性</text>
+      <text x="680" y="40" text-anchor="middle" font-size="11" fill="#555">Musk の過去の予告は</text>
+      <text x="680" y="57" text-anchor="middle" font-size="11" fill="#555">しばしば遅延・誇張</text>
+      <text x="680" y="74" text-anchor="middle" font-size="11" fill="#555">ベンチ数字のみ信頼</text>
+    </g>
+    <g transform="rotate(1.5 960 80)" filter="url(#stickyShadow)">
+      <rect x="840" y="0" width="240" height="90" fill="#E0E8FF" stroke="#5B8DEF" stroke-width="1.5" rx="4"/>
+      <text x="960" y="22" text-anchor="middle" font-size="12" font-weight="bold" fill="#2C2416">エコシステム先行策</text>
+      <text x="960" y="40" text-anchor="middle" font-size="11" fill="#555">Build/Computer でロックイン</text>
+      <text x="960" y="57" text-anchor="middle" font-size="11" fill="#555">後からGrok 5 を乗せる</text>
+      <text x="960" y="74" text-anchor="middle" font-size="11" fill="#555">AWS 式エコシステム戦略</text>
+    </g>
+  </g>
+
+  <line x1="140" y1="882" x2="1260" y2="882" stroke="#1A1D24" stroke-width="1" opacity="0.3"/>
+  <text x="700" y="904" text-anchor="middle" font-size="12" fill="#888888" font-style="italic">AI News · 2026-04-26 · Grok 5 — 6T Parameters Training Near Completion, Q2 2026 Release Ahead</text>
+</svg>

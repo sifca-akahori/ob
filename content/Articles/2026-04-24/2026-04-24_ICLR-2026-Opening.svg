@@ -1,0 +1,173 @@
+<svg viewBox="0 0 1400 1050" xmlns="http://www.w3.org/2000/svg" font-family="-apple-system,'Hiragino Sans','Yu Gothic',sans-serif">
+  <defs>
+    <filter id="softShadow"><feDropShadow dx="2" dy="3" stdDeviation="4" flood-color="#00000022"/></filter>
+    <filter id="stickyShadow"><feDropShadow dx="3" dy="4" stdDeviation="6" flood-color="#00000033"/></filter>
+    <pattern id="paperTexture" patternUnits="userSpaceOnUse" width="4" height="4">
+      <rect width="4" height="4" fill="#FBF8F1"/>
+      <circle cx="1" cy="1" r="0.4" fill="#E8E2D3" opacity="0.5"/>
+      <circle cx="3" cy="3" r="0.3" fill="#D5CDBA" opacity="0.4"/>
+    </pattern>
+  </defs>
+  <rect width="1400" height="1050" fill="url(#paperTexture)"/>
+  <rect x="0" y="0" width="48" height="1050" fill="#E8E2D3" stroke="#D0C9B8" stroke-width="1"/>
+  <circle cx="24" cy="120" r="14" fill="#FBF8F1" stroke="#C8BFA8" stroke-width="2"/><circle cx="24" cy="120" r="7" fill="#E0D8C8" stroke="#B8AFA0" stroke-width="1.5"/>
+  <circle cx="24" cy="280" r="14" fill="#FBF8F1" stroke="#C8BFA8" stroke-width="2"/><circle cx="24" cy="280" r="7" fill="#E0D8C8" stroke="#B8AFA0" stroke-width="1.5"/>
+  <circle cx="24" cy="440" r="14" fill="#FBF8F1" stroke="#C8BFA8" stroke-width="2"/><circle cx="24" cy="440" r="7" fill="#E0D8C8" stroke="#B8AFA0" stroke-width="1.5"/>
+  <circle cx="24" cy="600" r="14" fill="#FBF8F1" stroke="#C8BFA8" stroke-width="2"/><circle cx="24" cy="600" r="7" fill="#E0D8C8" stroke="#B8AFA0" stroke-width="1.5"/>
+  <circle cx="24" cy="760" r="14" fill="#FBF8F1" stroke="#C8BFA8" stroke-width="2"/><circle cx="24" cy="760" r="7" fill="#E0D8C8" stroke="#B8AFA0" stroke-width="1.5"/>
+  <circle cx="24" cy="920" r="14" fill="#FBF8F1" stroke="#C8BFA8" stroke-width="2"/><circle cx="24" cy="920" r="7" fill="#E0D8C8" stroke="#B8AFA0" stroke-width="1.5"/>
+
+  <g transform="translate(1280,0) rotate(3)">
+    <rect x="0" y="-10" width="160" height="44" fill="#8B7DB8" stroke="#1A1D24" stroke-width="2"/>
+    <text x="80" y="18" text-anchor="middle" font-size="16" font-weight="700" fill="white">#論文</text>
+  </g>
+  <rect x="68" y="22" width="170" height="38" rx="6" fill="#2F3842" filter="url(#softShadow)"/>
+  <text x="153" y="47" text-anchor="middle" font-size="16" font-weight="700" fill="white">2026-04-24</text>
+  <text x="260" y="52" font-size="24" fill="#F5C518">⭐⭐</text>
+
+  <g transform="translate(1250,120)">
+    <circle cx="0" cy="0" r="52" fill="#F0EBF8" stroke="#8B7DB8" stroke-width="3"/>
+    <text x="0" y="0" text-anchor="middle" dominant-baseline="central" font-size="46">🏆</text>
+  </g>
+
+  <text x="68" y="110" font-size="38" font-weight="900" fill="#1A1D24">ICLR 2026 開幕（リオデジャネイロ）</text>
+  <text x="68" y="155" font-size="26" font-weight="700" fill="#8B7DB8">Outstanding Paper：「Transformerの簡潔性定理」</text>
+  <text x="68" y="188" font-size="16" fill="#666">ICLR Blog · 2026-04-24 · #学会 #Transformer #機械学習</text>
+  <line x1="68" y1="205" x2="1340" y2="205" stroke="#1A1D24" stroke-width="2.5"/>
+
+  <!-- Key Numbers -->
+  <rect x="68" y="220" width="285" height="110" rx="8" fill="white" stroke="#1A1D24" stroke-width="2.5" filter="url(#softShadow)"/>
+  <rect x="68" y="220" width="285" height="10" rx="4" fill="#8B7DB8"/>
+  <text x="210" y="272" text-anchor="middle" font-size="44" font-weight="900" fill="#1A1D24">2,000+</text>
+  <text x="210" y="300" text-anchor="middle" font-size="14" fill="#666">採択論文数（前年比+15%）</text>
+  <text x="210" y="320" text-anchor="middle" font-size="12" fill="#999">過去最多投稿</text>
+
+  <rect x="373" y="220" width="285" height="110" rx="8" fill="white" stroke="#1A1D24" stroke-width="2.5" filter="url(#softShadow)"/>
+  <rect x="373" y="220" width="285" height="10" rx="4" fill="#8B7DB8"/>
+  <text x="515" y="272" text-anchor="middle" font-size="44" font-weight="900" fill="#1A1D24">6</text>
+  <text x="515" y="300" text-anchor="middle" font-size="14" fill="#666">基調講演（ML・ロボ・神経科学等）</text>
+  <text x="515" y="320" text-anchor="middle" font-size="12" fill="#999">Rio de Janeiro 開催</text>
+
+  <rect x="678" y="220" width="285" height="110" rx="8" fill="white" stroke="#1A1D24" stroke-width="2.5" filter="url(#softShadow)"/>
+  <rect x="678" y="220" width="285" height="10" rx="4" fill="#8B7DB8"/>
+  <text x="820" y="272" text-anchor="middle" font-size="44" font-weight="900" fill="#1A1D24">Apr 24</text>
+  <text x="820" y="300" text-anchor="middle" font-size="14" fill="#666">〜28日の5日間</text>
+  <text x="820" y="320" text-anchor="middle" font-size="12" fill="#999">Oral・Poster・Workshop</text>
+
+  <rect x="983" y="220" width="295" height="110" rx="8" fill="white" stroke="#1A1D24" stroke-width="2.5" filter="url(#softShadow)"/>
+  <rect x="983" y="220" width="295" height="10" rx="4" fill="#8B7DB8"/>
+  <text x="1130" y="272" text-anchor="middle" font-size="44" font-weight="900" fill="#1A1D24">50%+</text>
+  <text x="1130" y="300" text-anchor="middle" font-size="14" fill="#666">企業ラボが筆頭著者（初の過半数）</text>
+  <text x="1130" y="320" text-anchor="middle" font-size="12" fill="#999">学術→産業への重心移動</text>
+
+  <!-- Main: Outstanding Paper box -->
+  <rect x="68" y="348" width="780" height="300" rx="8" fill="white" stroke="#1A1D24" stroke-width="2.5" filter="url(#softShadow)"/>
+  <rect x="68" y="348" width="780" height="12" rx="4" fill="#8B7DB8"/>
+  <text x="88" y="388" font-size="16" font-weight="700" fill="#1A1D24">🥇 Outstanding Paper 2026</text>
+  <line x1="88" y1="395" x2="830" y2="395" stroke="#E0D8C8" stroke-width="1"/>
+
+  <rect x="88" y="405" width="740" height="110" rx="6" fill="#F8F4FF" stroke="#8B7DB8" stroke-width="2"/>
+  <text x="458" y="430" text-anchor="middle" font-size="18" font-weight="900" fill="#1A1D24">"Transformers are Inherently Succinct"</text>
+  <text x="458" y="453" text-anchor="middle" font-size="13" fill="#666">Pascal Bergsträßer · Ryan Cotterell · Anthony Widjaja Lin</text>
+  <text x="98" y="480" font-size="13" fill="#333">• Transformerがなぜ強いかを <tspan font-weight="700">情報理論的に証明</tspan></text>
+  <text x="98" y="498" font-size="13" fill="#333">• 概念の <tspan font-weight="700">符号化効率</tspan> においてTransformerがRNNより本質的に優れることを数学的に示す</text>
+  <text x="98" y="516" font-size="13" fill="#333">• Quantized Johnson-Lindenstrauss変換・Succinct Circuit理論を活用</text>
+
+  <text x="88" y="545" font-size="15" font-weight="700" fill="#8B7DB8">🏅 Honorable Mention</text>
+  <rect x="88" y="552" width="740" height="55" rx="6" fill="#F5F0FF" stroke="#8B7DB8" stroke-width="1.5"/>
+  <text x="458" y="576" text-anchor="middle" font-size="14" font-weight="700" fill="#1A1D24">BIRD-INTERACT: Re-Imagining Text-to-SQL via Dynamic Interactions</text>
+  <text x="458" y="596" text-anchor="middle" font-size="12" fill="#666">Nan Huo et al. — 動的対話ベースのSQL評価パラダイム転換</text>
+
+  <text x="88" y="637" font-size="12" fill="#999">* 全採択論文はOpenReview / ICLR公式で公開。Oral・Poster含め約2,000本。</text>
+
+  <!-- Right side: Schedule -->
+  <rect x="868" y="348" width="470" height="300" rx="8" fill="white" stroke="#1A1D24" stroke-width="2.5" filter="url(#softShadow)"/>
+  <text x="888" y="378" font-size="16" font-weight="700" fill="#1A1D24">📅 4月24日 Oral Sessions</text>
+  <line x1="888" y1="385" x2="1320" y2="385" stroke="#E0D8C8" stroke-width="1"/>
+
+  <rect x="888" y="398" width="430" height="55" rx="6" fill="#F0EBF8" stroke="#8B7DB8" stroke-width="1.5"/>
+  <text x="898" y="418" font-size="13" font-weight="700" fill="#1A1D24">Oral 3D — 10:54AM</text>
+  <text x="898" y="438" font-size="12" fill="#333">Visual Planning: Let's Think Only with Images</text>
+  <text x="898" y="453" font-size="11" fill="#666">Yi Xu et al. — 画像のみで推論する新CoTパラダイム</text>
+
+  <rect x="888" y="463" width="430" height="55" rx="6" fill="#F0EBF8" stroke="#8B7DB8" stroke-width="1.5"/>
+  <text x="898" y="483" font-size="13" font-weight="700" fill="#1A1D24">Oral 4D — 3:27PM</text>
+  <text x="898" y="503" font-size="12" fill="#333">BIRD-INTERACT: Text-to-SQL Dynamic Evaluation</text>
+  <text x="898" y="518" font-size="11" fill="#666">Nan Huo et al. — SQL評価の動的インタラクション化</text>
+
+  <text x="888" y="545" font-size="13" font-weight="600" fill="#1A1D24">4/24〜25 注目発表</text>
+  <text x="888" y="565" font-size="12" fill="#333">• Google TurboQuant（KVキャッシュ6x圧縮）</text>
+  <text x="888" y="583" font-size="12" fill="#333">• Transformers are Inherently Succinct (Outstanding)</text>
+  <text x="888" y="601" font-size="12" fill="#333">• 産業界筆頭著者 &gt;50%（初）</text>
+  <text x="888" y="619" font-size="12" fill="#333">• AIエージェント・効率化・推論が3大テーマ</text>
+  <text x="888" y="637" font-size="12" fill="#999">* Google, MS, Meta, DeepMindが多数採択</text>
+
+  <!-- Feature Cards -->
+  <rect x="68" y="668" width="300" height="160" rx="8" fill="#F0EBF8" stroke="#1A1D24" stroke-width="2" filter="url(#softShadow)"/>
+  <text x="218" y="694" text-anchor="middle" font-size="14" font-weight="700" fill="#8B7DB8">🔬 理論的含意</text>
+  <text x="88" y="715" font-size="12" fill="#333">• TransformerのRNN比優位を証明</text>
+  <text x="88" y="733" font-size="12" fill="#333">• SSM（Mamba系）研究に再定位を促す</text>
+  <text x="88" y="751" font-size="12" fill="#333">• 「どこまで簡潔にできるか」の指針</text>
+  <text x="88" y="769" font-size="12" fill="#333">• NeurIPS 2026投稿への影響大</text>
+  <text x="88" y="787" font-size="12" fill="#333">• 長距離依存の理論的根拠提供</text>
+  <text x="88" y="805" font-size="12" fill="#333">• Attention代替研究への反論</text>
+
+  <rect x="388" y="668" width="300" height="160" rx="8" fill="#F0EBF8" stroke="#1A1D24" stroke-width="2" filter="url(#softShadow)"/>
+  <text x="538" y="694" text-anchor="middle" font-size="14" font-weight="700" fill="#8B7DB8">🏭 産業化の加速</text>
+  <text x="408" y="715" font-size="12" fill="#333">• Google・MS・Meta・DeepMindが過半</text>
+  <text x="408" y="733" font-size="12" fill="#333">• 大学は理論・基礎研究に特化傾向</text>
+  <text x="408" y="751" font-size="12" fill="#333">• 産業論文は実装・スケールが強み</text>
+  <text x="408" y="769" font-size="12" fill="#333">• TurboQuantは理論→実産業の橋渡し</text>
+  <text x="408" y="787" font-size="12" fill="#333">• 企業ラボ採択率の推移に注目</text>
+
+  <rect x="708" y="668" width="300" height="160" rx="8" fill="#F0EBF8" stroke="#1A1D24" stroke-width="2" filter="url(#softShadow)"/>
+  <text x="858" y="694" text-anchor="middle" font-size="14" font-weight="700" fill="#8B7DB8">📊 今年の3大テーマ</text>
+  <text x="728" y="715" font-size="12" fill="#333">1. AIエージェント（自律タスク実行）</text>
+  <text x="728" y="733" font-size="12" fill="#333">2. 推論（CoT・Test-Time Compute）</text>
+  <text x="728" y="751" font-size="12" fill="#333">3. 効率化（量子化・蒸留・MoE）</text>
+  <text x="728" y="769" font-size="12" fill="#333">• 前年比+15%の投稿数</text>
+  <text x="728" y="787" font-size="12" fill="#333">• Agentic AI関連が急増</text>
+  <text x="728" y="805" font-size="12" fill="#333">• ロボット・神経科学も拡大</text>
+
+  <rect x="1028" y="668" width="310" height="160" rx="8" fill="#F0EBF8" stroke="#1A1D24" stroke-width="2" filter="url(#softShadow)"/>
+  <text x="1183" y="694" text-anchor="middle" font-size="14" font-weight="700" fill="#8B7DB8">🌍 ICLR 2026 概要</text>
+  <text x="1048" y="715" font-size="12" fill="#333">• 場所: リオデジャネイロ, ブラジル</text>
+  <text x="1048" y="733" font-size="12" fill="#333">• 期間: 2026年4月24〜28日</text>
+  <text x="1048" y="751" font-size="12" fill="#333">• 採択数: 約2,000本（+15%）</text>
+  <text x="1048" y="769" font-size="12" fill="#333">• 基調講演: 6件</text>
+  <text x="1048" y="787" font-size="12" fill="#333">• Outstanding Paper: 2件+Honorable</text>
+  <text x="1048" y="805" font-size="12" fill="#333">• OpenReviewで全論文公開</text>
+
+  <!-- Sticky Notes -->
+  <g transform="translate(68, 850) rotate(-1.0)">
+    <rect width="265" height="90" rx="4" fill="#FFFDE7" stroke="#1A1D24" stroke-width="1.5" filter="url(#stickyShadow)"/>
+    <text x="132" y="22" text-anchor="middle" font-size="13" font-weight="700">💡 なぜTransformerが強いか</text>
+    <text x="14" y="42" font-size="11" fill="#333">ついに理論的証明。RNN・SSMより</text>
+    <text x="14" y="57" font-size="11" fill="#333">概念を「簡潔に」符号化できる</text>
+    <text x="14" y="72" font-size="11" fill="#333">ことが数学的に示された</text>
+  </g>
+  <g transform="translate(360, 857) rotate(1.5)">
+    <rect width="270" height="90" rx="4" fill="#F0EBF8" stroke="#1A1D24" stroke-width="1.5" filter="url(#stickyShadow)"/>
+    <text x="135" y="22" text-anchor="middle" font-size="13" font-weight="700">📈 学会の産業化</text>
+    <text x="14" y="42" font-size="11" fill="#333">企業ラボ筆頭著者が初めて</text>
+    <text x="14" y="57" font-size="11" fill="#333">大学を超えた。研究の重心が</text>
+    <text x="14" y="72" font-size="11" fill="#333">産業に移行した歴史的節目</text>
+  </g>
+  <g transform="translate(658, 850) rotate(-1.2)">
+    <rect width="275" height="90" rx="4" fill="#E8F5E9" stroke="#1A1D24" stroke-width="1.5" filter="url(#stickyShadow)"/>
+    <text x="137" y="22" text-anchor="middle" font-size="13" font-weight="700">🔮 NeurIPS 2026 への波及</text>
+    <text x="14" y="42" font-size="11" fill="#333">Transformer簡潔性定理は</text>
+    <text x="14" y="57" font-size="11" fill="#333">次世代アーキテクチャ探索の</text>
+    <text x="14" y="72" font-size="11" fill="#333">「基準線」更新につながる</text>
+  </g>
+  <g transform="translate(960, 853) rotate(0.8)">
+    <rect width="275" height="90" rx="4" fill="#FFF3E0" stroke="#1A1D24" stroke-width="1.5" filter="url(#stickyShadow)"/>
+    <text x="137" y="22" text-anchor="middle" font-size="13" font-weight="700">🛢️ TurboQuant 正式発表</text>
+    <text x="14" y="42" font-size="11" fill="#333">プリプリント後に先行採用が</text>
+    <text x="14" y="57" font-size="11" fill="#333">進んでいたGoogle研究。</text>
+    <text x="14" y="72" font-size="11" fill="#333">ICLR発表は「お墨付き」の意</text>
+  </g>
+
+  <line x1="68" y1="970" x2="1340" y2="970" stroke="#C8BFA8" stroke-width="1"/>
+  <text x="704" y="992" text-anchor="middle" font-size="13" fill="#999" font-style="italic">AI News · 2026-04-24 · ICLR 2026 Opening — "Transformers are Inherently Succinct" Wins Outstanding Paper</text>
+</svg>

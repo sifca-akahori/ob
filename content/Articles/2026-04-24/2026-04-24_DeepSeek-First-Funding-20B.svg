@@ -1,0 +1,191 @@
+<svg viewBox="0 0 1400 1050" xmlns="http://www.w3.org/2000/svg" font-family="-apple-system,'Hiragino Sans','Yu Gothic',sans-serif">
+  <defs>
+    <filter id="softShadow"><feDropShadow dx="2" dy="3" stdDeviation="4" flood-color="#00000022"/></filter>
+    <filter id="stickyShadow"><feDropShadow dx="3" dy="4" stdDeviation="6" flood-color="#00000033"/></filter>
+    <pattern id="paperTexture" patternUnits="userSpaceOnUse" width="4" height="4">
+      <rect width="4" height="4" fill="#FBF8F1"/>
+      <circle cx="1" cy="1" r="0.4" fill="#E8E2D3" opacity="0.5"/>
+      <circle cx="3" cy="3" r="0.3" fill="#D5CDBA" opacity="0.4"/>
+    </pattern>
+  </defs>
+  <rect width="1400" height="1050" fill="url(#paperTexture)"/>
+  <rect x="0" y="0" width="48" height="1050" fill="#E8E2D3" stroke="#D0C9B8" stroke-width="1"/>
+  <circle cx="24" cy="120" r="14" fill="#FBF8F1" stroke="#C8BFA8" stroke-width="2"/><circle cx="24" cy="120" r="7" fill="#E0D8C8" stroke="#B8AFA0" stroke-width="1.5"/>
+  <circle cx="24" cy="280" r="14" fill="#FBF8F1" stroke="#C8BFA8" stroke-width="2"/><circle cx="24" cy="280" r="7" fill="#E0D8C8" stroke="#B8AFA0" stroke-width="1.5"/>
+  <circle cx="24" cy="440" r="14" fill="#FBF8F1" stroke="#C8BFA8" stroke-width="2"/><circle cx="24" cy="440" r="7" fill="#E0D8C8" stroke="#B8AFA0" stroke-width="1.5"/>
+  <circle cx="24" cy="600" r="14" fill="#FBF8F1" stroke="#C8BFA8" stroke-width="2"/><circle cx="24" cy="600" r="7" fill="#E0D8C8" stroke="#B8AFA0" stroke-width="1.5"/>
+  <circle cx="24" cy="760" r="14" fill="#FBF8F1" stroke="#C8BFA8" stroke-width="2"/><circle cx="24" cy="760" r="7" fill="#E0D8C8" stroke="#B8AFA0" stroke-width="1.5"/>
+  <circle cx="24" cy="920" r="14" fill="#FBF8F1" stroke="#C8BFA8" stroke-width="2"/><circle cx="24" cy="920" r="7" fill="#E0D8C8" stroke="#B8AFA0" stroke-width="1.5"/>
+
+  <g transform="translate(1275,0) rotate(3)">
+    <rect x="0" y="-10" width="175" height="44" fill="#5CA46E" stroke="#1A1D24" stroke-width="2"/>
+    <text x="87" y="18" text-anchor="middle" font-size="16" font-weight="700" fill="white">#ビジネス</text>
+  </g>
+  <rect x="68" y="22" width="170" height="38" rx="6" fill="#2F3842" filter="url(#softShadow)"/>
+  <text x="153" y="47" text-anchor="middle" font-size="16" font-weight="700" fill="white">2026-04-24</text>
+  <text x="260" y="52" font-size="24" fill="#F5C518">⭐⭐</text>
+
+  <g transform="translate(1250,120)">
+    <circle cx="0" cy="0" r="52" fill="#E8F5E9" stroke="#5CA46E" stroke-width="3"/>
+    <text x="0" y="0" text-anchor="middle" dominant-baseline="central" font-size="46">💰</text>
+  </g>
+
+  <text x="68" y="110" font-size="38" font-weight="900" fill="#1A1D24">DeepSeek 初の外部資金調達</text>
+  <text x="68" y="155" font-size="26" font-weight="700" fill="#5CA46E">Tencent/Alibaba が $20B+ バリュで参戦交渉</text>
+  <text x="68" y="188" font-size="16" fill="#666">Bloomberg / The Information · 2026-04-22〜24 · #投資 #中国AI #DeepSeek</text>
+  <line x1="68" y1="205" x2="1340" y2="205" stroke="#1A1D24" stroke-width="2.5"/>
+
+  <!-- Key Numbers -->
+  <rect x="68" y="220" width="285" height="110" rx="8" fill="white" stroke="#1A1D24" stroke-width="2.5" filter="url(#softShadow)"/>
+  <rect x="68" y="220" width="285" height="10" rx="4" fill="#5CA46E"/>
+  <text x="210" y="272" text-anchor="middle" font-size="44" font-weight="900" fill="#1A1D24">$20B+</text>
+  <text x="210" y="300" text-anchor="middle" font-size="14" fill="#666">目標バリュエーション（当初$10B→倍増）</text>
+  <text x="210" y="320" text-anchor="middle" font-size="12" fill="#999">48時間で投資家殺到</text>
+
+  <rect x="373" y="220" width="285" height="110" rx="8" fill="white" stroke="#1A1D24" stroke-width="2.5" filter="url(#softShadow)"/>
+  <rect x="373" y="220" width="285" height="10" rx="4" fill="#5CA46E"/>
+  <text x="515" y="272" text-anchor="middle" font-size="44" font-weight="900" fill="#1A1D24">$300M+</text>
+  <text x="515" y="300" text-anchor="middle" font-size="14" fill="#666">目標調達額</text>
+  <text x="515" y="320" text-anchor="middle" font-size="12" fill="#999">第1回外部ラウンド</text>
+
+  <rect x="678" y="220" width="285" height="110" rx="8" fill="white" stroke="#1A1D24" stroke-width="2.5" filter="url(#softShadow)"/>
+  <rect x="678" y="220" width="285" height="10" rx="4" fill="#5CA46E"/>
+  <text x="820" y="272" text-anchor="middle" font-size="44" font-weight="900" fill="#1A1D24">20%</text>
+  <text x="820" y="300" text-anchor="middle" font-size="14" fill="#666">TencentによるDeepSeek出資打診</text>
+  <text x="820" y="320" text-anchor="middle" font-size="12" fill="#999">DeepSeekは大株主排除を望む</text>
+
+  <rect x="983" y="220" width="295" height="110" rx="8" fill="white" stroke="#1A1D24" stroke-width="2.5" filter="url(#softShadow)"/>
+  <rect x="983" y="220" width="295" height="10" rx="4" fill="#5CA46E"/>
+  <text x="1130" y="272" text-anchor="middle" font-size="44" font-weight="900" fill="#1A1D24">2年</text>
+  <text x="1130" y="300" text-anchor="middle" font-size="14" fill="#666">設立から初の外部資本（記録的）</text>
+  <text x="1130" y="320" text-anchor="middle" font-size="12" fill="#999">創業者 梁文锋 自己資金経営</text>
+
+  <!-- Main: Valuation comparison chart -->
+  <rect x="68" y="348" width="760" height="310" rx="8" fill="white" stroke="#1A1D24" stroke-width="2.5" filter="url(#softShadow)"/>
+  <text x="88" y="378" font-size="16" font-weight="700" fill="#1A1D24">📊 AI企業バリュエーション比較（2026年4月）</text>
+  <line x1="88" y1="385" x2="810" y2="385" stroke="#E0D8C8" stroke-width="1"/>
+
+  <!-- Bar chart: valuations, max = 1000B -->
+  <text x="88" y="408" font-size="13" fill="#555">Anthropic（二次市場）</text>
+  <rect x="300" y="392" width="490" height="24" rx="3" fill="#5B8DEF" stroke="#1A1D24" stroke-width="1.5"/>
+  <text x="798" y="409" font-size="13" font-weight="700" fill="#1A1D24">$1,000B</text>
+
+  <text x="88" y="436" font-size="13" fill="#555">OpenAI</text>
+  <rect x="300" y="420" width="430" height="24" rx="3" fill="#8AB8F0" stroke="#1A1D24" stroke-width="1.5"/>
+  <text x="738" y="437" font-size="13" fill="#555">$880B</text>
+
+  <text x="88" y="464" font-size="13" fill="#555">xAI / Grok</text>
+  <rect x="300" y="448" width="200" height="24" rx="3" fill="#B0CCF8" stroke="#1A1D24" stroke-width="1.5"/>
+  <text x="508" y="465" font-size="13" fill="#555">~$400B (est.)</text>
+
+  <text x="88" y="492" font-size="13" fill="#555">Mistral AI</text>
+  <rect x="300" y="476" width="30" height="24" rx="3" fill="#C8D8F8" stroke="#1A1D24" stroke-width="1.5"/>
+  <text x="338" y="493" font-size="13" fill="#555">~$6B</text>
+
+  <text x="88" y="520" font-size="13" fill="#5CA46E" font-weight="700">DeepSeek（交渉中）</text>
+  <rect x="300" y="504" width="98" height="24" rx="3" fill="#5CA46E" stroke="#1A1D24" stroke-width="2"/>
+  <text x="406" y="521" font-size="13" font-weight="700" fill="#1A1D24">$20B+</text>
+  <text x="550" y="521" font-size="12" fill="#5CA46E">← 本件</text>
+
+  <text x="88" y="556" font-size="14" font-weight="700" fill="#2F3842">DeepSeekが「格安」に見える理由</text>
+  <text x="88" y="576" font-size="12" fill="#666">• エンタープライズSLA・コンプライアンス体制が未整備</text>
+  <text x="88" y="594" font-size="12" fill="#666">• 米国・インドなど主要市場で利用制限・禁止</text>
+  <text x="88" y="612" font-size="12" fill="#666">• 収益モデルが非公開（ARR未開示）</text>
+  <text x="88" y="630" font-size="12" fill="#666">• 地政学リスク・資本構成の透明性不足</text>
+  <text x="88" y="648" font-size="12" fill="#999">* 出所: Bloomberg / The Information報道。交渉は流動的で合意保証なし。</text>
+
+  <!-- Right box: Stakeholder relationships -->
+  <rect x="848" y="348" width="490" height="310" rx="8" fill="white" stroke="#1A1D24" stroke-width="2.5" filter="url(#softShadow)"/>
+  <text x="868" y="378" font-size="16" font-weight="700" fill="#1A1D24">🕸 利害関係マップ</text>
+  <line x1="868" y1="385" x2="1320" y2="385" stroke="#E0D8C8" stroke-width="1"/>
+
+  <!-- Nodes -->
+  <circle cx="1093" cy="490" r="48" fill="#2F3842" stroke="#1A1D24" stroke-width="2.5"/>
+  <text x="1093" y="485" text-anchor="middle" font-size="13" font-weight="700" fill="white">Deep</text>
+  <text x="1093" y="503" text-anchor="middle" font-size="13" font-weight="700" fill="white">Seek</text>
+
+  <rect x="868" y="425" width="120" height="50" rx="8" fill="#5CA46E" stroke="#1A1D24" stroke-width="2"/>
+  <text x="928" y="456" text-anchor="middle" font-size="13" font-weight="700" fill="white">Tencent</text>
+  <line x1="988" y1="450" x2="1045" y2="475" stroke="#1A1D24" stroke-width="2" stroke-dasharray="5"/>
+  <text x="1010" y="456" font-size="11" fill="#5CA46E">20%打診</text>
+
+  <rect x="1148" y="425" width="120" height="50" rx="8" fill="#5B8DEF" stroke="#1A1D24" stroke-width="2"/>
+  <text x="1208" y="456" text-anchor="middle" font-size="13" font-weight="700" fill="white">Alibaba</text>
+  <line x1="1148" y1="450" x2="1141" y2="475" stroke="#1A1D24" stroke-width="2" stroke-dasharray="5"/>
+  <text x="1145" y="467" font-size="11" fill="#5B8DEF">交渉中</text>
+
+  <rect x="958" y="560" width="140" height="50" rx="8" fill="#E8A87C" stroke="#1A1D24" stroke-width="2"/>
+  <text x="1028" y="591" text-anchor="middle" font-size="13" font-weight="700" fill="white">梁文锋CEO</text>
+  <line x1="1028" y1="560" x2="1065" y2="538" stroke="#1A1D24" stroke-width="2"/>
+  <text x="1028" y="613" text-anchor="middle" font-size="11" fill="#E8A87C">支配権確保優先</text>
+
+  <text x="868" y="640" font-size="12" fill="#333">• Tencent: Hy3との競合 + DeepSeek出資 = 両取り狙い</text>
+  <text x="868" y="658" font-size="12" fill="#333">• Alibaba: Qwen3.5と競合しながら出資でリターン狙い</text>
+
+  <!-- Feature Cards -->
+  <rect x="68" y="678" width="300" height="155" rx="8" fill="#F0FFF4" stroke="#1A1D24" stroke-width="2" filter="url(#softShadow)"/>
+  <text x="218" y="704" text-anchor="middle" font-size="14" font-weight="700" fill="#5CA46E">🚀 なぜ今調達?</text>
+  <text x="88" y="725" font-size="12" fill="#333">• V4以降のスケールアップ</text>
+  <text x="88" y="743" font-size="12" fill="#333">• Ascend NPUクラスタ確保</text>
+  <text x="88" y="761" font-size="12" fill="#333">• 海外展開の法的体制</text>
+  <text x="88" y="779" font-size="12" fill="#333">• PRインフラ強化</text>
+  <text x="88" y="797" font-size="12" fill="#333">• 純粋資金不足ではない</text>
+  <text x="88" y="815" font-size="12" fill="#333">• High-Flyer Capital は引き続き</text>
+
+  <rect x="388" y="678" width="300" height="155" rx="8" fill="#F0FFF4" stroke="#1A1D24" stroke-width="2" filter="url(#softShadow)"/>
+  <text x="538" y="704" text-anchor="middle" font-size="14" font-weight="700" fill="#5CA46E">⚠️ 懸念点</text>
+  <text x="408" y="725" font-size="12" fill="#333">• 大株主介入でOSS哲学崩壊リスク</text>
+  <text x="408" y="743" font-size="12" fill="#333">• HN: 「Tencentに取られた瞬間コミュニティ離れ」</text>
+  <text x="408" y="761" font-size="12" fill="#333">• 国家安保当局との関係変化</text>
+  <text x="408" y="779" font-size="12" fill="#333">• 西側企業は参加不可能の可能性</text>
+  <text x="408" y="797" font-size="12" fill="#333">• 透明性が国際展開の鍵</text>
+
+  <rect x="708" y="678" width="300" height="155" rx="8" fill="#F0FFF4" stroke="#1A1D24" stroke-width="2" filter="url(#softShadow)"/>
+  <text x="858" y="704" text-anchor="middle" font-size="14" font-weight="700" fill="#5CA46E">📅 タイムライン</text>
+  <text x="728" y="725" font-size="12" fill="#333">2025年初: High-Flyerが独立開発スタート</text>
+  <text x="728" y="743" font-size="12" fill="#333">2026年1月: V3発表で業界震撼</text>
+  <text x="728" y="761" font-size="12" fill="#333">2026年4月22日: $10B目標でスタート</text>
+  <text x="728" y="779" font-size="12" fill="#333">2026年4月24日: 48時間で$20B超へ</text>
+  <text x="728" y="797" font-size="12" fill="#333">→ 交渉は流動的・合意未確定</text>
+
+  <rect x="1028" y="678" width="310" height="155" rx="8" fill="#F0FFF4" stroke="#1A1D24" stroke-width="2" filter="url(#softShadow)"/>
+  <text x="1183" y="704" text-anchor="middle" font-size="14" font-weight="700" fill="#5CA46E">🔮 調達後シナリオ</text>
+  <text x="1048" y="725" font-size="12" fill="#333">①Ascend 910Cクラスタ追加調達</text>
+  <text x="1048" y="743" font-size="12" fill="#333">②V5（仮）は2026年末〜2027年初</text>
+  <text x="1048" y="761" font-size="12" fill="#333">③最大分岐: OSS継続 vs 商業クローズド</text>
+  <text x="1048" y="779" font-size="12" fill="#333">④Tencent統合ならWeChat相乗効果</text>
+  <text x="1048" y="797" font-size="12" fill="#333">⑤西側展開は資本構成次第</text>
+
+  <!-- Sticky Notes -->
+  <g transform="translate(68, 852) rotate(-1.2)">
+    <rect width="265" height="90" rx="4" fill="#FFFDE7" stroke="#1A1D24" stroke-width="1.5" filter="url(#stickyShadow)"/>
+    <text x="132" y="22" text-anchor="middle" font-size="13" font-weight="700">💡 $20B→$1T比較</text>
+    <text x="14" y="42" font-size="11" fill="#333">Anthropicが$1T評価の中、</text>
+    <text x="14" y="57" font-size="11" fill="#333">$20Bは大幅割安。SLAなし・</text>
+    <text x="14" y="72" font-size="11" fill="#333">西側禁止がディスカウント要因</text>
+  </g>
+  <g transform="translate(360, 858) rotate(1.0)">
+    <rect width="265" height="90" rx="4" fill="#E8F5E9" stroke="#1A1D24" stroke-width="1.5" filter="url(#stickyShadow)"/>
+    <text x="132" y="22" text-anchor="middle" font-size="13" font-weight="700">🔥 48時間倍増の意味</text>
+    <text x="14" y="42" font-size="11" fill="#333">$10B→$20B+への急騰は</text>
+    <text x="14" y="57" font-size="11" fill="#333">中国AI資本のDeepSeekへの</text>
+    <text x="14" y="72" font-size="11" fill="#333">圧倒的な期待値を示す</text>
+  </g>
+  <g transform="translate(655, 852) rotate(-0.8)">
+    <rect width="280" height="90" rx="4" fill="#F3E5F5" stroke="#1A1D24" stroke-width="1.5" filter="url(#stickyShadow)"/>
+    <text x="140" y="22" text-anchor="middle" font-size="13" font-weight="700">🧩 競争×投資の矛盾</text>
+    <text x="14" y="42" font-size="11" fill="#333">Tencent: Hy3で競合しながら</text>
+    <text x="14" y="57" font-size="11" fill="#333">DeepSeekにも出資打診。</text>
+    <text x="14" y="72" font-size="11" fill="#333">勝者総取り戦略か</text>
+  </g>
+  <g transform="translate(960, 855) rotate(1.2)">
+    <rect width="275" height="90" rx="4" fill="#FFF3E0" stroke="#1A1D24" stroke-width="1.5" filter="url(#stickyShadow)"/>
+    <text x="137" y="22" text-anchor="middle" font-size="13" font-weight="700">🌐 OSSブランドのリスク</text>
+    <text x="14" y="42" font-size="11" fill="#333">Tencent統合→中立性喪失で</text>
+    <text x="14" y="57" font-size="11" fill="#333">グローバルコミュニティ離れ</text>
+    <text x="14" y="72" font-size="11" fill="#333">が最大リスクとの声多数</text>
+  </g>
+
+  <line x1="68" y1="970" x2="1340" y2="970" stroke="#C8BFA8" stroke-width="1"/>
+  <text x="704" y="992" text-anchor="middle" font-size="13" fill="#999" font-style="italic">AI News · 2026-04-24 · DeepSeek's First External Funding — $20B+ Valuation, Tencent and Alibaba Circling</text>
+</svg>
