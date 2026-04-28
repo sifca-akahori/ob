@@ -16,7 +16,7 @@ const config: QuartzConfig = {
       provider: "plausible",
     },
     locale: "en-US",
-    baseUrl: "quartz.jzhao.xyz",
+    baseUrl: "sifca-akahori.github.io/ob",
     ignorePatterns: ["private", "templates", ".obsidian"],
     defaultDateType: "modified",
     theme: {
@@ -88,8 +88,8 @@ const config: QuartzConfig = {
       Plugin.Static(),
       Plugin.Favicon(),
       Plugin.NotFoundPage(),
-      // Comment out CustomOgImages to speed up build time
-      Plugin.CustomOgImages(),
+      // Disabled to keep local builds independent from external font/image fetches.
+      // Plugin.CustomOgImages(),
     ],
   },
 }
