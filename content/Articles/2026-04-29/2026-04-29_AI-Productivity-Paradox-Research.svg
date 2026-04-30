@@ -1,0 +1,200 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1400 1050" font-family="-apple-system, 'Hiragino Sans', 'Yu Gothic', sans-serif">
+  <defs>
+    <pattern id="paperTexture" patternUnits="userSpaceOnUse" width="100" height="100">
+      <rect width="100" height="100" fill="#FBF8F1"/>
+      <circle cx="20" cy="18" r="0.4" fill="#C4B389" opacity="0.3"/>
+      <circle cx="72" cy="62" r="0.5" fill="#C4B389" opacity="0.3"/>
+      <circle cx="38" cy="85" r="0.3" fill="#C4B389" opacity="0.3"/>
+    </pattern>
+    <filter id="stickyShadow" x="-10%" y="-10%" width="120%" height="120%">
+      <feGaussianBlur in="SourceAlpha" stdDeviation="3"/>
+      <feOffset dx="2" dy="3"/>
+      <feComponentTransfer><feFuncA type="linear" slope="0.25"/></feComponentTransfer>
+      <feMerge><feMergeNode/><feMergeNode in="SourceGraphic"/></feMerge>
+    </filter>
+    <filter id="softShadow" x="-10%" y="-10%" width="120%" height="120%">
+      <feGaussianBlur in="SourceAlpha" stdDeviation="2"/>
+      <feOffset dx="1" dy="2"/>
+      <feComponentTransfer><feFuncA type="linear" slope="0.18"/></feComponentTransfer>
+      <feMerge><feMergeNode/><feMergeNode in="SourceGraphic"/></feMerge>
+    </filter>
+  </defs>
+
+  <rect width="1400" height="1050" fill="url(#paperTexture)"/>
+  <line x1="110" y1="30" x2="110" y2="1020" stroke="#D88A8A" stroke-width="1.2" opacity="0.4"/>
+  <g fill="#E8E2D3" opacity="0.7"><circle cx="50" cy="100" r="11"/><circle cx="50" cy="300" r="11"/><circle cx="50" cy="500" r="11"/><circle cx="50" cy="700" r="11"/><circle cx="50" cy="900" r="11"/><circle cx="50" cy="980" r="11"/></g>
+  <g fill="none" stroke="#C8C0B0" stroke-width="1.5"><circle cx="50" cy="100" r="11"/><circle cx="50" cy="300" r="11"/><circle cx="50" cy="500" r="11"/><circle cx="50" cy="700" r="11"/><circle cx="50" cy="900" r="11"/><circle cx="50" cy="980" r="11"/></g>
+
+  <g transform="translate(1210, 26) rotate(-3)">
+    <rect x="0" y="0" width="155" height="36" rx="4" fill="#5B8DEF" opacity="0.9"/>
+    <text x="78" y="23" text-anchor="middle" font-size="14" font-weight="700" fill="white">#研究</text>
+  </g>
+
+  <rect x="125" y="28" width="185" height="36" rx="6" fill="#2F3842"/>
+  <text x="218" y="51" text-anchor="middle" font-size="15" font-weight="700" fill="white">2026-04-29</text>
+  <text x="328" y="53" font-size="20" fill="#F5A623">⭐⭐</text>
+
+  <text x="130" y="105" font-size="33" font-weight="900" fill="#1A1D24">🤔 AIコーディング生産性の逆説——「体感+20%速い」が実測-19%遅い</text>
+  <text x="130" y="143" font-size="20" font-weight="600" fill="#444">——n=4,867の大規模実験と「AI代がコード41%」の現実が示す複雑な真実</text>
+  <text x="130" y="175" font-size="13" fill="#888">Faros.ai / MIT Economics / Opsera  ·  2026-04-29  ·  #研究 #生産性 #コーディング</text>
+  <line x1="130" y1="190" x2="1340" y2="190" stroke="#1A1D24" stroke-width="2"/>
+
+  <!-- Hero -->
+  <g transform="translate(130, 208)">
+    <rect x="0" y="0" width="195" height="165" rx="12" fill="white" stroke="#1A1D24" stroke-width="2.5"/>
+    <text x="97" y="62" text-anchor="middle" font-size="46">🤔</text>
+    <text x="97" y="88" text-anchor="middle" font-size="13" font-weight="700" fill="#8B7DB8">Productivity Paradox</text>
+    <text x="97" y="106" text-anchor="middle" font-size="11" fill="#555">Faros.ai / MIT Econ</text>
+    <text x="97" y="124" text-anchor="middle" font-size="11" fill="#555">n = 4,867 engineers</text>
+    <text x="97" y="146" text-anchor="middle" font-size="11" fill="#888">Microsoft / Accenture</text>
+  </g>
+
+  <!-- Key numbers -->
+  <g transform="translate(345, 208)" filter="url(#softShadow)">
+    <rect x="0" y="0" width="995" height="165" rx="8" fill="white" stroke="#1A1D24" stroke-width="2.5"/>
+    <rect x="0" y="0" width="995" height="42" rx="8" fill="#2F3842"/>
+    <rect x="0" y="34" width="995" height="8" fill="#2F3842"/>
+    <text x="498" y="27" text-anchor="middle" font-size="15" font-weight="700" fill="white">📊 2026年 AIコーディング生産性 主要数値</text>
+    <!-- MIT study positive -->
+    <text x="110" y="82" text-anchor="middle" font-size="38" font-weight="900" fill="#5CA46E">+26%</text>
+    <text x="110" y="102" text-anchor="middle" font-size="12" fill="#555">タスク完了数増加（MIT研究）</text>
+    <text x="110" y="120" text-anchor="middle" font-size="11" fill="#888">n=4,867 / Microsoft・Accenture・Fortune 100</text>
+    <line x1="230" y1="52" x2="230" y2="157" stroke="#E8E2D3" stroke-width="1.5"/>
+    <!-- Slower -->
+    <text x="360" y="82" text-anchor="middle" font-size="38" font-weight="900" fill="#E05555">-19%</text>
+    <text x="360" y="102" text-anchor="middle" font-size="12" fill="#555">実測所要時間（AIツール使用時）</text>
+    <text x="360" y="120" text-anchor="middle" font-size="11" fill="#888">体感「+20%速い」との逆転現象</text>
+    <line x1="480" y1="52" x2="480" y2="157" stroke="#E8E2D3" stroke-width="1.5"/>
+    <!-- AI code share -->
+    <text x="600" y="82" text-anchor="middle" font-size="38" font-weight="900" fill="#5B8DEF">41%</text>
+    <text x="600" y="102" text-anchor="middle" font-size="12" fill="#555">世界のコードがAI生成（2026年）</text>
+    <text x="600" y="120" text-anchor="middle" font-size="11" fill="#888">持続可能な上限の目安は25〜40%</text>
+    <line x1="720" y1="52" x2="720" y2="157" stroke="#E8E2D3" stroke-width="1.5"/>
+    <!-- Security pass rate -->
+    <text x="857" y="82" text-anchor="middle" font-size="38" font-weight="900" fill="#E05555">55%</text>
+    <text x="857" y="102" text-anchor="middle" font-size="12" fill="#555">AIコードのセキュリティテスト通過率</text>
+    <text x="857" y="120" text-anchor="middle" font-size="11" fill="#888">OWASP Top 10（2023年から改善ゼロ）</text>
+    <text x="498" y="157" text-anchor="middle" font-size="10" fill="#999">出典: Faros.ai / MIT Economics / Opsera / Veracode (2026)</text>
+  </g>
+
+  <!-- Paradox explanation chart -->
+  <g transform="translate(130, 395)">
+    <rect x="0" y="0" width="580" height="265" rx="8" fill="white" stroke="#1A1D24" stroke-width="2"/>
+    <text x="290" y="26" text-anchor="middle" font-size="14" font-weight="700" fill="#1A1D24">⚡ 「体感速い・実測遅い」のメカニズム</text>
+
+    <!-- Waterfall diagram -->
+    <text x="55" y="58" text-anchor="middle" font-size="11" fill="#555">コード入力</text>
+    <rect x="20" y="65" width="70" height="30" rx="4" fill="#5CA46E" stroke="#1A1D24" stroke-width="1.5"/>
+    <text x="55" y="85" text-anchor="middle" font-size="11" font-weight="700" fill="white">高速↑</text>
+    <text x="95" y="85" font-size="18" fill="#5CA46E">→</text>
+
+    <text x="165" y="58" text-anchor="middle" font-size="11" fill="#555">コードレビュー</text>
+    <rect x="130" y="65" width="70" height="50" rx="4" fill="#E05555" stroke="#1A1D24" stroke-width="1.5"/>
+    <text x="165" y="85" text-anchor="middle" font-size="11" font-weight="700" fill="white">長期化↑</text>
+    <text x="165" y="100" text-anchor="middle" font-size="10" fill="white">AI生成理解</text>
+    <text x="205" y="92" font-size="18" fill="#E05555">→</text>
+
+    <text x="285" y="58" text-anchor="middle" font-size="11" fill="#555">バグ修正</text>
+    <rect x="250" y="65" width="70" height="65" rx="4" fill="#E05555" stroke="#1A1D24" stroke-width="1.5"/>
+    <text x="285" y="88" text-anchor="middle" font-size="11" font-weight="700" fill="white">急増↑</text>
+    <text x="285" y="104" text-anchor="middle" font-size="10" fill="white">AIコード由来</text>
+    <text x="285" y="118" text-anchor="middle" font-size="10" fill="white">バグが増加</text>
+    <text x="325" y="100" font-size="18" fill="#E05555">→</text>
+
+    <text x="420" y="58" text-anchor="middle" font-size="11" fill="#555">設計手戻り</text>
+    <rect x="380" y="65" width="80" height="80" rx="4" fill="#8B7DB8" stroke="#1A1D24" stroke-width="1.5"/>
+    <text x="420" y="90" text-anchor="middle" font-size="11" font-weight="700" fill="white">増加↑</text>
+    <text x="420" y="106" text-anchor="middle" font-size="10" fill="white">要件定義省略</text>
+    <text x="420" y="120" text-anchor="middle" font-size="10" fill="white">による後工程</text>
+    <text x="420" y="134" text-anchor="middle" font-size="10" fill="white">での手戻り</text>
+    <text x="465" y="110" font-size="18" fill="#8B7DB8">→</text>
+
+    <!-- Net result -->
+    <rect x="490" y="65" width="75" height="35" rx="4" fill="#E05555" stroke="#1A1D24" stroke-width="2.5"/>
+    <text x="527" y="82" text-anchor="middle" font-size="11" font-weight="700" fill="white">-19%</text>
+    <text x="527" y="98" text-anchor="middle" font-size="10" fill="white">実測遅延</text>
+    <text x="527" y="120" text-anchor="middle" font-size="10" fill="#E05555">← 差</text>
+
+    <!-- Perceived vs actual -->
+    <rect x="20" y="162" width="540" height="88" rx="6" fill="#FFEBEE" stroke="#E05555" stroke-width="1.5"/>
+    <text x="290" y="182" text-anchor="middle" font-size="13" font-weight="700" fill="#E05555">🔑 体感 vs 実測 の乖離のカラクリ</text>
+    <text x="30" y="202" font-size="11" fill="#1A1D24">開発者が「速い」と感じるのは「コード入力」フェーズのみ。</text>
+    <text x="30" y="218" font-size="11" fill="#555">後工程（レビュー・バグ修正・設計手戻り）にしわ寄せが移動しているが</text>
+    <text x="30" y="234" font-size="11" fill="#555">SDLCの後半なので認知上は「別の問題」として処理されてしまう。</text>
+  </g>
+
+  <!-- AI code share and security -->
+  <g transform="translate(730, 395)">
+    <rect x="0" y="0" width="610" height="265" rx="8" fill="white" stroke="#1A1D24" stroke-width="2"/>
+    <text x="305" y="26" text-anchor="middle" font-size="14" font-weight="700" fill="#1A1D24">⚠️ AIコード41%と品質の現実</text>
+
+    <!-- AI code global share chart -->
+    <rect x="20" y="40" width="272" height="210" rx="6" fill="#F5F5F5" stroke="#1A1D24" stroke-width="1.5"/>
+    <text x="156" y="60" text-anchor="middle" font-size="12" font-weight="700" fill="#1A1D24">世界のコード源泉（2026年）</text>
+    <!-- Bar: Human -->
+    <rect x="40" y="75" width="170" height="30" rx="3" fill="#5CA46E"/>
+    <text x="190" y="95" font-size="11" font-weight="700" fill="#1A1D24">  59% 人間</text>
+    <!-- Bar: AI -->
+    <rect x="40" y="115" width="118" height="30" rx="3" fill="#E8A87C"/>
+    <text x="162" y="135" font-size="11" font-weight="700" fill="#1A1D24">  41% AI生成</text>
+    <!-- sustainable range -->
+    <rect x="40" y="155" width="115" height="20" rx="3" fill="none" stroke="#E05555" stroke-width="2" stroke-dasharray="6,3"/>
+    <text x="160" y="169" font-size="10" fill="#E05555">  持続可能上限 ~40%</text>
+    <!-- note -->
+    <text x="156" y="200" text-anchor="middle" font-size="10" fill="#888">Snap 65%・OpenAI Codex 90%</text>
+    <text x="156" y="215" text-anchor="middle" font-size="10" fill="#E05555">等は上限を大幅超過</text>
+
+    <!-- Security chart -->
+    <rect x="318" y="40" width="272" height="210" rx="6" fill="#F5F5F5" stroke="#1A1D24" stroke-width="1.5"/>
+    <text x="454" y="60" text-anchor="middle" font-size="12" font-weight="700" fill="#1A1D24">AIコードのセキュリティ通過率</text>
+    <text x="454" y="90" text-anchor="middle" font-size="42" font-weight="900" fill="#E05555">55%</text>
+    <text x="454" y="112" text-anchor="middle" font-size="12" fill="#555">OWASP Top 10 テスト通過率</text>
+    <rect x="338" y="125" width="232" height="20" rx="4" fill="#E8E8E8"/>
+    <rect x="338" y="125" width="127" height="20" rx="4" fill="#5CA46E"/>
+    <text x="400" y="140" text-anchor="middle" font-size="10" fill="white">55% 通過</text>
+    <text x="500" y="140" text-anchor="middle" font-size="10" fill="#555">45% 失敗</text>
+    <text x="454" y="165" text-anchor="middle" font-size="11" fill="#E05555" font-weight="600">2023年から改善ゼロ</text>
+    <text x="454" y="182" text-anchor="middle" font-size="10" fill="#555">モデル改善（GPT-5.5・Claude 4.7）に</text>
+    <text x="454" y="196" text-anchor="middle" font-size="10" fill="#555">もかかわらず通過率が上がらない謎</text>
+    <text x="454" y="214" text-anchor="middle" font-size="10" fill="#888">原因：開発者がセキュリティテストを省略</text>
+  </g>
+
+  <!-- Sticky notes -->
+  <g transform="translate(130, 680)" filter="url(#stickyShadow)">
+    <g transform="rotate(-1.3)">
+      <rect x="0" y="0" width="280" height="95" rx="4" fill="#FFF9C4" stroke="#E8D84A" stroke-width="1.5"/>
+      <text x="140" y="22" text-anchor="middle" font-size="12" font-weight="700" fill="#1A1D24">📐 +26%の定義に注意</text>
+      <text x="14" y="42" font-size="11" fill="#333">MITのn=4,867研究は</text>
+      <text x="14" y="58" font-size="11" fill="#333">「定型化された短期タスク」を計測。</text>
+      <text x="14" y="74" font-size="11" fill="#333">長期保守性・セキュリティは対象外。</text>
+      <text x="14" y="89" font-size="10" fill="#888">スループット指標 ≠ ビジネス価値。</text>
+    </g>
+    <g transform="translate(300, 4) rotate(1.0)">
+      <rect x="0" y="0" width="280" height="95" rx="4" fill="#C8E6C9" stroke="#81C784" stroke-width="1.5"/>
+      <text x="140" y="22" text-anchor="middle" font-size="12" font-weight="700" fill="#1A1D24">🔮 2〜3年後の分岐</text>
+      <text x="14" y="42" font-size="11" fill="#333">「AI比率40%超」組織と「適正比率」組織の</text>
+      <text x="14" y="58" font-size="11" fill="#333">技術的負債・セキュリティ事故件数の差が</text>
+      <text x="14" y="74" font-size="11" fill="#333">2028〜2029年頃に可視化される。</text>
+      <text x="14" y="89" font-size="10" fill="#888">「今が分岐点」という認識が重要。</text>
+    </g>
+    <g transform="translate(600, -2) rotate(0.7)">
+      <rect x="0" y="0" width="280" height="95" rx="4" fill="#B3E5FC" stroke="#4FC3F7" stroke-width="1.5"/>
+      <text x="140" y="22" text-anchor="middle" font-size="12" font-weight="700" fill="#1A1D24">📏 新しい評価指標の必要性</text>
+      <text x="14" y="42" font-size="11" fill="#333">DORAメトリクスはAI時代に不十分。</text>
+      <text x="14" y="58" font-size="11" fill="#333">「AIコード比率・レビュー工数・</text>
+      <text x="14" y="74" font-size="11" fill="#333">バグ発生源・保守コスト」を統合した</text>
+      <text x="14" y="89" font-size="10" fill="#888">新指標の標準化が急がれる。</text>
+    </g>
+    <g transform="translate(900, 3) rotate(-1.1)">
+      <rect x="0" y="0" width="280" height="95" rx="4" fill="#FFE0B2" stroke="#FFB74D" stroke-width="1.5"/>
+      <text x="140" y="22" text-anchor="middle" font-size="12" font-weight="700" fill="#1A1D24">⚡ AIレイオフとの矛盾</text>
+      <text x="14" y="42" font-size="11" fill="#333">Snapが「AI生成コード65%」で</text>
+      <text x="14" y="58" font-size="11" fill="#333">人員削減した一方、-19%遅延の</text>
+      <text x="14" y="74" font-size="11" fill="#333">研究と組み合わせると「生産性↑・</text>
+      <text x="14" y="89" font-size="10" fill="#888">コスト削減」の両立主張が揺らぐ。</text>
+    </g>
+  </g>
+
+  <line x1="130" y1="1018" x2="1340" y2="1018" stroke="#1A1D24" stroke-width="1"/>
+  <text x="735" y="1036" text-anchor="middle" font-size="12" fill="#888" font-style="italic">AI News · 2026-04-29 · AI Coding Productivity Paradox: Feels 20% Faster, Actually 19% Slower — n=4,867 Study</text>
+</svg>

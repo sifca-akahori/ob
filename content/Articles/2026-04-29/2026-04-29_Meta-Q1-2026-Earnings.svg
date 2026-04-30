@@ -1,0 +1,205 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1400 1050" font-family="-apple-system, 'Hiragino Sans', 'Yu Gothic', sans-serif">
+  <defs>
+    <pattern id="paperTexture" patternUnits="userSpaceOnUse" width="100" height="100">
+      <rect width="100" height="100" fill="#FBF8F1"/>
+      <circle cx="20" cy="18" r="0.4" fill="#C4B389" opacity="0.3"/>
+      <circle cx="72" cy="62" r="0.5" fill="#C4B389" opacity="0.3"/>
+      <circle cx="38" cy="85" r="0.3" fill="#C4B389" opacity="0.3"/>
+      <circle cx="55" cy="35" r="0.4" fill="#C4B389" opacity="0.2"/>
+      <circle cx="88" cy="15" r="0.3" fill="#C4B389" opacity="0.25"/>
+    </pattern>
+    <filter id="stickyShadow" x="-10%" y="-10%" width="120%" height="120%">
+      <feGaussianBlur in="SourceAlpha" stdDeviation="3"/>
+      <feOffset dx="2" dy="3"/>
+      <feComponentTransfer><feFuncA type="linear" slope="0.25"/></feComponentTransfer>
+      <feMerge><feMergeNode/><feMergeNode in="SourceGraphic"/></feMerge>
+    </filter>
+    <filter id="softShadow" x="-10%" y="-10%" width="120%" height="120%">
+      <feGaussianBlur in="SourceAlpha" stdDeviation="2"/>
+      <feOffset dx="1" dy="2"/>
+      <feComponentTransfer><feFuncA type="linear" slope="0.18"/></feComponentTransfer>
+      <feMerge><feMergeNode/><feMergeNode in="SourceGraphic"/></feMerge>
+    </filter>
+  </defs>
+
+  <rect width="1400" height="1050" fill="url(#paperTexture)"/>
+  <line x1="110" y1="30" x2="110" y2="1020" stroke="#D88A8A" stroke-width="1.2" opacity="0.4"/>
+  <g fill="#E8E2D3" opacity="0.7"><circle cx="50" cy="100" r="11"/><circle cx="50" cy="300" r="11"/><circle cx="50" cy="500" r="11"/><circle cx="50" cy="700" r="11"/><circle cx="50" cy="900" r="11"/><circle cx="50" cy="980" r="11"/></g>
+  <g fill="none" stroke="#C8C0B0" stroke-width="1.5"><circle cx="50" cy="100" r="11"/><circle cx="50" cy="300" r="11"/><circle cx="50" cy="500" r="11"/><circle cx="50" cy="700" r="11"/><circle cx="50" cy="900" r="11"/><circle cx="50" cy="980" r="11"/></g>
+
+  <!-- Category tape: ビジネス = green -->
+  <g transform="translate(1185, 26) rotate(-3)">
+    <rect x="0" y="0" width="180" height="36" rx="4" fill="#5CA46E" opacity="0.85"/>
+    <text x="90" y="23" text-anchor="middle" font-size="14" font-weight="700" fill="white">#ビジネス</text>
+  </g>
+
+  <rect x="125" y="28" width="185" height="36" rx="6" fill="#2F3842"/>
+  <text x="218" y="51" text-anchor="middle" font-size="15" font-weight="700" fill="white">2026-04-29</text>
+  <text x="328" y="53" font-size="20" fill="#F5A623">⭐⭐⭐</text>
+
+  <text x="130" y="105" font-size="36" font-weight="900" fill="#1A1D24">💰 Meta Q1 2026 決算：売上+33% · 純利益+61%</text>
+  <text x="130" y="143" font-size="21" font-weight="600" fill="#444">——AI広告論証が完成、設備投資上限を$145Bへ再引き上げ</text>
+  <text x="130" y="176" font-size="13" fill="#888">CNBC / Meta Investor Relations  ·  2026-04-29  ·  #ビジネス #Meta #決算</text>
+  <line x1="130" y1="190" x2="1340" y2="190" stroke="#1A1D24" stroke-width="2"/>
+
+  <!-- Hero: Meta logo & money icon -->
+  <g transform="translate(130, 208)">
+    <rect x="0" y="0" width="200" height="160" rx="12" fill="white" stroke="#1A1D24" stroke-width="2.5"/>
+    <text x="100" y="55" text-anchor="middle" font-size="48">💰</text>
+    <text x="100" y="90" text-anchor="middle" font-size="16" font-weight="700" fill="#5CA46E">META</text>
+    <text x="100" y="112" text-anchor="middle" font-size="12" fill="#555">Q1 2026 Earnings</text>
+    <text x="100" y="130" text-anchor="middle" font-size="11" fill="#888">April 29, 2026</text>
+    <text x="100" y="150" text-anchor="middle" font-size="10" fill="#5CA46E" font-weight="600">✅ BEAT ALL ESTIMATES</text>
+  </g>
+
+  <!-- Key numbers block -->
+  <g transform="translate(350, 208)" filter="url(#softShadow)">
+    <rect x="0" y="0" width="990" height="160" rx="8" fill="white" stroke="#1A1D24" stroke-width="2.5"/>
+    <rect x="0" y="0" width="990" height="42" rx="8" fill="#2F3842"/>
+    <rect x="0" y="34" width="990" height="8" fill="#2F3842"/>
+    <text x="495" y="27" text-anchor="middle" font-size="15" font-weight="700" fill="white">📊 Q1 2026 主要数値</text>
+    <!-- Revenue -->
+    <text x="110" y="86" text-anchor="middle" font-size="36" font-weight="900" fill="#5CA46E">$56.3B</text>
+    <text x="110" y="106" text-anchor="middle" font-size="13" fill="#555">売上高（+33% YoY）</text>
+    <text x="110" y="124" text-anchor="middle" font-size="11" fill="#888">予測$55.6B を超過</text>
+    <line x1="225" y1="55" x2="225" y2="152" stroke="#E8E2D3" stroke-width="1.5"/>
+    <!-- Net Income -->
+    <text x="345" y="80" text-anchor="middle" font-size="30" font-weight="900" fill="#5CA46E">$26.77B</text>
+    <text x="345" y="100" text-anchor="middle" font-size="14" font-weight="700" fill="#5CA46E">+61% YoY</text>
+    <text x="345" y="118" text-anchor="middle" font-size="12" fill="#555">純利益</text>
+    <line x1="468" y1="55" x2="468" y2="152" stroke="#E8E2D3" stroke-width="1.5"/>
+    <!-- EPS -->
+    <text x="568" y="86" text-anchor="middle" font-size="36" font-weight="900" fill="#1A1D24">$10.44</text>
+    <text x="568" y="106" text-anchor="middle" font-size="13" fill="#555">1株利益（EPS）</text>
+    <text x="568" y="124" text-anchor="middle" font-size="11" fill="#888">前年比+62%</text>
+    <line x1="688" y1="55" x2="688" y2="152" stroke="#E8E2D3" stroke-width="1.5"/>
+    <!-- DAU -->
+    <text x="800" y="86" text-anchor="middle" font-size="36" font-weight="900" fill="#5B8DEF">3.56B</text>
+    <text x="800" y="106" text-anchor="middle" font-size="13" fill="#555">日間アクティブ人数</text>
+    <text x="800" y="124" text-anchor="middle" font-size="11" fill="#888">全アプリ合計（+4% YoY）</text>
+    <line x1="918" y1="55" x2="918" y2="152" stroke="#E8E2D3" stroke-width="1.5"/>
+    <!-- Capex -->
+    <text x="960" y="82" text-anchor="middle" font-size="28" font-weight="900" fill="#E05555">$145B</text>
+    <text x="960" y="100" text-anchor="middle" font-size="12" fill="#E05555">capex上限（↑$10B）</text>
+    <text x="960" y="118" text-anchor="middle" font-size="11" fill="#888">設備投資ガイダンス</text>
+    <text x="495" y="150" text-anchor="middle" font-size="10" fill="#999">出典: Meta Q1 2026 Earnings Release (April 29, 2026)</text>
+  </g>
+
+  <!-- Bar chart: Revenue trend -->
+  <g transform="translate(130, 390)">
+    <rect x="0" y="0" width="580" height="260" rx="8" fill="white" stroke="#1A1D24" stroke-width="2"/>
+    <text x="290" y="28" text-anchor="middle" font-size="15" font-weight="700" fill="#1A1D24">📈 売上高推移（2024 Q1 → 2026 Q1）</text>
+    <line x1="60" y1="220" x2="560" y2="220" stroke="#1A1D24" stroke-width="1.5"/>
+    <line x1="60" y1="50" x2="60" y2="220" stroke="#1A1D24" stroke-width="1.5"/>
+    <!-- Bars -->
+    <rect x="80" y="150" width="60" height="70" fill="#C8E6C9" stroke="#1A1D24" stroke-width="1.5" rx="3"/>
+    <text x="110" y="145" text-anchor="middle" font-size="11" font-weight="700" fill="#1A1D24">$36.5B</text>
+    <text x="110" y="236" text-anchor="middle" font-size="10" fill="#555">2024 Q1</text>
+
+    <rect x="170" y="120" width="60" height="100" fill="#A5D6A7" stroke="#1A1D24" stroke-width="1.5" rx="3"/>
+    <text x="200" y="115" text-anchor="middle" font-size="11" font-weight="700" fill="#1A1D24">$40.6B</text>
+    <text x="200" y="236" text-anchor="middle" font-size="10" fill="#555">2024 Q2</text>
+
+    <rect x="260" y="95" width="60" height="125" fill="#81C784" stroke="#1A1D24" stroke-width="1.5" rx="3"/>
+    <text x="290" y="90" text-anchor="middle" font-size="11" font-weight="700" fill="#1A1D24">$40.6B</text>
+    <text x="290" y="236" text-anchor="middle" font-size="10" fill="#555">2024 Q3</text>
+
+    <rect x="350" y="75" width="60" height="145" fill="#66BB6A" stroke="#1A1D24" stroke-width="1.5" rx="3"/>
+    <text x="380" y="70" text-anchor="middle" font-size="11" font-weight="700" fill="#1A1D24">$48.4B</text>
+    <text x="380" y="236" text-anchor="middle" font-size="10" fill="#555">2024 Q4</text>
+
+    <rect x="440" y="48" width="60" height="172" fill="#5CA46E" stroke="#1A1D24" stroke-width="2.5" rx="3"/>
+    <text x="470" y="43" text-anchor="middle" font-size="12" font-weight="900" fill="#1A1D24">$56.3B</text>
+    <text x="470" y="236" text-anchor="middle" font-size="10" fill="#1A1D24" font-weight="700">2026 Q1</text>
+    <!-- +33% label -->
+    <rect x="430" y="55" width="80" height="22" rx="4" fill="#5CA46E"/>
+    <text x="470" y="70" text-anchor="middle" font-size="11" font-weight="700" fill="white">+33% YoY</text>
+  </g>
+
+  <!-- Ads breakdown -->
+  <g transform="translate(730, 390)">
+    <rect x="0" y="0" width="610" height="260" rx="8" fill="white" stroke="#1A1D24" stroke-width="2"/>
+    <text x="305" y="28" text-anchor="middle" font-size="15" font-weight="700" fill="#1A1D24">🤖 AI広告エンジンの成果指標</text>
+    <!-- Impressions -->
+    <rect x="30" y="50" width="260" height="90" rx="6" fill="#E8F5E9" stroke="#5CA46E" stroke-width="2"/>
+    <text x="160" y="78" text-anchor="middle" font-size="28" font-weight="900" fill="#5CA46E">+19%</text>
+    <text x="160" y="100" text-anchor="middle" font-size="13" fill="#1A1D24">広告インプレッション数（YoY）</text>
+    <text x="160" y="118" text-anchor="middle" font-size="11" fill="#555">AI Ranking モデル大規模アップグレードの効果</text>
+    <!-- Price per ad -->
+    <rect x="320" y="50" width="260" height="90" rx="6" fill="#E3F2FD" stroke="#5B8DEF" stroke-width="2"/>
+    <text x="450" y="78" text-anchor="middle" font-size="28" font-weight="900" fill="#5B8DEF">+12%</text>
+    <text x="450" y="100" text-anchor="middle" font-size="13" fill="#1A1D24">広告単価（YoY）</text>
+    <text x="450" y="118" text-anchor="middle" font-size="11" fill="#555">ユーザー意図把握精度の向上が主因</text>
+    <!-- Q2 guide -->
+    <rect x="30" y="158" width="260" height="80" rx="6" fill="#FFF3E0" stroke="#E8A87C" stroke-width="2"/>
+    <text x="160" y="185" text-anchor="middle" font-size="22" font-weight="900" fill="#E8A87C">$58〜61B</text>
+    <text x="160" y="203" text-anchor="middle" font-size="12" fill="#1A1D24">Q2 2026 収益ガイダンス</text>
+    <text x="160" y="220" text-anchor="middle" font-size="11" fill="#555">市場予測を上回る水準</text>
+    <!-- Capex raised -->
+    <rect x="320" y="158" width="260" height="80" rx="6" fill="#FFEBEE" stroke="#E05555" stroke-width="2"/>
+    <text x="450" y="182" text-anchor="middle" font-size="18" font-weight="900" fill="#E05555">$125〜145B</text>
+    <text x="450" y="200" text-anchor="middle" font-size="12" fill="#1A1D24">設備投資ガイダンス（引き上げ）</text>
+    <text x="450" y="218" text-anchor="middle" font-size="11" fill="#555">前回$115〜135Bから+$10B増</text>
+  </g>
+
+  <!-- Capex comparison -->
+  <g transform="translate(130, 670)">
+    <rect x="0" y="0" width="580" height="220" rx="8" fill="white" stroke="#1A1D24" stroke-width="2"/>
+    <text x="290" y="28" text-anchor="middle" font-size="14" font-weight="700" fill="#1A1D24">💸 AI設備投資 主要4社比較（2026年見込み）</text>
+    <line x1="40" y1="180" x2="560" y2="180" stroke="#1A1D24" stroke-width="1.5"/>
+    <rect x="55" y="80" width="90" height="100" fill="#FFEBEE" stroke="#1A1D24" stroke-width="1.5" rx="3"/>
+    <text x="100" y="75" text-anchor="middle" font-size="12" font-weight="700" fill="#E05555">$145B</text>
+    <text x="100" y="192" text-anchor="middle" font-size="11" fill="#1A1D24" font-weight="600">Meta</text>
+
+    <rect x="175" y="110" width="90" height="70" fill="#E8F5E9" stroke="#1A1D24" stroke-width="1.5" rx="3"/>
+    <text x="220" y="105" text-anchor="middle" font-size="12" font-weight="700" fill="#5CA46E">$105B</text>
+    <text x="220" y="192" text-anchor="middle" font-size="11" fill="#1A1D24" font-weight="600">Amazon</text>
+
+    <rect x="295" y="120" width="90" height="60" fill="#E3F2FD" stroke="#1A1D24" stroke-width="1.5" rx="3"/>
+    <text x="340" y="115" text-anchor="middle" font-size="12" font-weight="700" fill="#5B8DEF">$80B</text>
+    <text x="340" y="192" text-anchor="middle" font-size="11" fill="#1A1D24" font-weight="600">Microsoft</text>
+
+    <rect x="415" y="128" width="90" height="52" fill="#F3E5F5" stroke="#1A1D24" stroke-width="1.5" rx="3"/>
+    <text x="460" y="123" text-anchor="middle" font-size="12" font-weight="700" fill="#8B7DB8">$75B</text>
+    <text x="460" y="192" text-anchor="middle" font-size="11" fill="#1A1D24" font-weight="600">Google</text>
+  </g>
+
+  <!-- Sticky notes -->
+  <g transform="translate(730, 670)" filter="url(#stickyShadow)">
+    <g transform="rotate(-1.2)">
+      <rect x="0" y="0" width="280" height="100" rx="4" fill="#FFF9C4" stroke="#E8D84A" stroke-width="1.5"/>
+      <text x="140" y="22" text-anchor="middle" font-size="12" font-weight="700" fill="#1A1D24">🎯 AI→広告 因果の証明</text>
+      <text x="14" y="42" font-size="11" fill="#333">Imp+19% × 単価+12% の両輪回転は</text>
+      <text x="14" y="58" font-size="11" fill="#333">LLMファインチューンによる広告RankAI</text>
+      <text x="14" y="74" font-size="11" fill="#333">の大規模アップグレードが直接の要因。</text>
+      <text x="14" y="90" font-size="11" fill="#555">広告コア事業のAI強化モデルが最初に結果。</text>
+    </g>
+    <g transform="translate(300, 0) rotate(1.0)">
+      <rect x="0" y="0" width="280" height="100" rx="4" fill="#C8E6C9" stroke="#81C784" stroke-width="1.5"/>
+      <text x="140" y="22" text-anchor="middle" font-size="12" font-weight="700" fill="#1A1D24">⚠️ EU AI Act 8月リスク</text>
+      <text x="14" y="42" font-size="11" fill="#333">EU AI Act 高リスク施行まで100日切り。</text>
+      <text x="14" y="58" font-size="11" fill="#333">広告ターゲティングの「自動化意思決定」が</text>
+      <text x="14" y="74" font-size="11" fill="#333">規制対象になれば欧州収益に影響。</text>
+      <text x="14" y="90" font-size="11" fill="#555">Q3〜Q4の欧州売上が注目指標に。</text>
+    </g>
+    <g transform="translate(0, 118) rotate(0.8)">
+      <rect x="0" y="0" width="280" height="100" rx="4" fill="#B3E5FC" stroke="#4FC3F7" stroke-width="1.5"/>
+      <text x="140" y="22" text-anchor="middle" font-size="12" font-weight="700" fill="#1A1D24">💡 Muse Spark 収益化が鍵</text>
+      <text x="14" y="42" font-size="11" fill="#333">$145B投資に対し「AIの新収益」が</text>
+      <text x="14" y="58" font-size="11" fill="#333">まだ広告以外に出ていない。</text>
+      <text x="14" y="74" font-size="11" fill="#333">Muse Sparkの生成AI広告フォーマットが</text>
+      <text x="14" y="90" font-size="11" fill="#555">Q3〜Q4に初計上されるか。</text>
+    </g>
+    <g transform="translate(300, 118) rotate(-1.5)">
+      <rect x="0" y="0" width="280" height="100" rx="4" fill="#FFE0B2" stroke="#FFB74D" stroke-width="1.5"/>
+      <text x="140" y="22" text-anchor="middle" font-size="12" font-weight="700" fill="#1A1D24">📊 時間外 +4〜6% 反応</text>
+      <text x="14" y="42" font-size="11" fill="#333">Q2ガイダンス $58〜61Bが市場予測超え。</text>
+      <text x="14" y="58" font-size="11" fill="#333">純利益+61%と決算スコア完璧な中、</text>
+      <text x="14" y="74" font-size="11" fill="#333">唯一の懸念は capex 膨張の</text>
+      <text x="14" y="90" font-size="11" fill="#555">ROI説明責任。Zuckerberg 次の主張に注目。</text>
+    </g>
+  </g>
+
+  <line x1="130" y1="1018" x2="1340" y2="1018" stroke="#1A1D24" stroke-width="1"/>
+  <text x="735" y="1036" text-anchor="middle" font-size="12" fill="#888" font-style="italic">AI News · 2026-04-29 · Meta Q1 2026 Earnings Beat: Revenue +33%, Net Income +61%, Capex Raised to $145B</text>
+</svg>

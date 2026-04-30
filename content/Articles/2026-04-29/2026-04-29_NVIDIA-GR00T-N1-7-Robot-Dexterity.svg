@@ -1,0 +1,199 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1400 1050" font-family="-apple-system, 'Hiragino Sans', 'Yu Gothic', sans-serif">
+  <defs>
+    <pattern id="paperTexture" patternUnits="userSpaceOnUse" width="100" height="100">
+      <rect width="100" height="100" fill="#FBF8F1"/>
+      <circle cx="20" cy="18" r="0.4" fill="#C4B389" opacity="0.3"/>
+      <circle cx="72" cy="62" r="0.5" fill="#C4B389" opacity="0.3"/>
+      <circle cx="38" cy="85" r="0.3" fill="#C4B389" opacity="0.3"/>
+    </pattern>
+    <filter id="stickyShadow" x="-10%" y="-10%" width="120%" height="120%">
+      <feGaussianBlur in="SourceAlpha" stdDeviation="3"/>
+      <feOffset dx="2" dy="3"/>
+      <feComponentTransfer><feFuncA type="linear" slope="0.25"/></feComponentTransfer>
+      <feMerge><feMergeNode/><feMergeNode in="SourceGraphic"/></feMerge>
+    </filter>
+    <filter id="softShadow" x="-10%" y="-10%" width="120%" height="120%">
+      <feGaussianBlur in="SourceAlpha" stdDeviation="2"/>
+      <feOffset dx="1" dy="2"/>
+      <feComponentTransfer><feFuncA type="linear" slope="0.18"/></feComponentTransfer>
+      <feMerge><feMergeNode/><feMergeNode in="SourceGraphic"/></feMerge>
+    </filter>
+  </defs>
+
+  <rect width="1400" height="1050" fill="url(#paperTexture)"/>
+  <line x1="110" y1="30" x2="110" y2="1020" stroke="#D88A8A" stroke-width="1.2" opacity="0.4"/>
+  <g fill="#E8E2D3" opacity="0.7"><circle cx="50" cy="100" r="11"/><circle cx="50" cy="300" r="11"/><circle cx="50" cy="500" r="11"/><circle cx="50" cy="700" r="11"/><circle cx="50" cy="900" r="11"/><circle cx="50" cy="980" r="11"/></g>
+  <g fill="none" stroke="#C8C0B0" stroke-width="1.5"><circle cx="50" cy="100" r="11"/><circle cx="50" cy="300" r="11"/><circle cx="50" cy="500" r="11"/><circle cx="50" cy="700" r="11"/><circle cx="50" cy="900" r="11"/><circle cx="50" cy="980" r="11"/></g>
+
+  <!-- Category tape: 研究 = blue -->
+  <g transform="translate(1210, 26) rotate(-3)">
+    <rect x="0" y="0" width="155" height="36" rx="4" fill="#5B8DEF" opacity="0.9"/>
+    <text x="78" y="23" text-anchor="middle" font-size="14" font-weight="700" fill="white">#研究</text>
+  </g>
+
+  <rect x="125" y="28" width="185" height="36" rx="6" fill="#2F3842"/>
+  <text x="218" y="51" text-anchor="middle" font-size="15" font-weight="700" fill="white">2026-04-29</text>
+  <text x="328" y="53" font-size="20" fill="#F5A623">⭐⭐</text>
+
+  <text x="130" y="105" font-size="33" font-weight="900" fill="#1A1D24">🤖 NVIDIA GR00T N1.7：ロボット器用さの新スケーリング則</text>
+  <text x="130" y="143" font-size="20" font-weight="600" fill="#444">——20,000時間の人間一人称動画で学ぶ3Bオープン物理AIモデル</text>
+  <text x="130" y="175" font-size="13" fill="#888">NVIDIA Blog / National Robotics Week 2026  ·  2026-04-29  ·  #研究 #ロボティクス #PhysicalAI</text>
+  <line x1="130" y1="190" x2="1340" y2="190" stroke="#1A1D24" stroke-width="2"/>
+
+  <!-- Hero -->
+  <g transform="translate(130, 208)">
+    <rect x="0" y="0" width="195" height="165" rx="12" fill="white" stroke="#1A1D24" stroke-width="2.5"/>
+    <text x="97" y="58" text-anchor="middle" font-size="46">🦾</text>
+    <text x="97" y="86" text-anchor="middle" font-size="13" font-weight="700" fill="#5B8DEF">GR00T N1.7</text>
+    <text x="97" y="104" text-anchor="middle" font-size="11" fill="#555">NVIDIA Early Access</text>
+    <text x="97" y="122" text-anchor="middle" font-size="11" fill="#555">3B Parameters · Open</text>
+    <text x="97" y="143" text-anchor="middle" font-size="11" fill="#888">National Robotics Week</text>
+    <text x="97" y="158" text-anchor="middle" font-size="10" fill="#5B8DEF" font-weight="600">EgoScale Pretrained</text>
+  </g>
+
+  <!-- Key numbers -->
+  <g transform="translate(345, 208)" filter="url(#softShadow)">
+    <rect x="0" y="0" width="995" height="165" rx="8" fill="white" stroke="#1A1D24" stroke-width="2.5"/>
+    <rect x="0" y="0" width="995" height="42" rx="8" fill="#2F3842"/>
+    <rect x="0" y="34" width="995" height="8" fill="#2F3842"/>
+    <text x="498" y="27" text-anchor="middle" font-size="15" font-weight="700" fill="white">📊 GR00T N1.7 主要スペック</text>
+    <text x="110" y="86" text-anchor="middle" font-size="42" font-weight="900" fill="#5B8DEF">3B</text>
+    <text x="110" y="106" text-anchor="middle" font-size="12" fill="#555">パラメータ（オープン公開）</text>
+    <text x="110" y="124" text-anchor="middle" font-size="11" fill="#888">VLA = Vision-Language-Action</text>
+    <line x1="230" y1="52" x2="230" y2="157" stroke="#E8E2D3" stroke-width="1.5"/>
+    <text x="360" y="80" text-anchor="middle" font-size="32" font-weight="900" fill="#5B8DEF">20,000</text>
+    <text x="360" y="98" text-anchor="middle" font-size="14" font-weight="700" fill="#5B8DEF">時間</text>
+    <text x="360" y="116" text-anchor="middle" font-size="12" fill="#555">EgoScale 学習データ</text>
+    <text x="360" y="134" text-anchor="middle" font-size="11" fill="#888">人間一人称動画（料理・作業等）</text>
+    <line x1="480" y1="52" x2="480" y2="157" stroke="#E8E2D3" stroke-width="1.5"/>
+    <text x="600" y="82" text-anchor="middle" font-size="22" font-weight="900" fill="#5CA46E">Cosmos-Reason2</text>
+    <text x="600" y="100" text-anchor="middle" font-size="14" font-weight="700" fill="#5CA46E">-2B</text>
+    <text x="600" y="118" text-anchor="middle" font-size="12" fill="#555">バックボーン（物理推論特化）</text>
+    <text x="600" y="136" text-anchor="middle" font-size="11" fill="#888">リアル物理シミュレーション対応</text>
+    <line x1="720" y1="52" x2="720" y2="157" stroke="#E8E2D3" stroke-width="1.5"/>
+    <text x="857" y="82" text-anchor="middle" font-size="18" font-weight="900" fill="#1A1D24">Isaac Sim</text>
+    <text x="857" y="98" text-anchor="middle" font-size="14" font-weight="700" fill="#1A1D24">+ Isaac Lab</text>
+    <text x="857" y="114" text-anchor="middle" font-size="12" fill="#555">シームレス統合</text>
+    <text x="857" y="132" text-anchor="middle" font-size="11" fill="#888">無償Early Access公開</text>
+    <text x="498" y="157" text-anchor="middle" font-size="10" fill="#999">出典: NVIDIA Blog - National Robotics Week 2026 (April 2026)</text>
+  </g>
+
+  <!-- EgoScale flow diagram -->
+  <g transform="translate(130, 395)">
+    <rect x="0" y="0" width="580" height="265" rx="8" fill="white" stroke="#1A1D24" stroke-width="2"/>
+    <text x="290" y="26" text-anchor="middle" font-size="14" font-weight="700" fill="#1A1D24">🔄 EgoScale：人間動画→ロボット能力の転写</text>
+
+    <!-- Step 1 -->
+    <rect x="20" y="42" width="130" height="100" rx="6" fill="#E3F2FD" stroke="#5B8DEF" stroke-width="2"/>
+    <text x="85" y="66" text-anchor="middle" font-size="22">📹</text>
+    <text x="85" y="86" text-anchor="middle" font-size="11" font-weight="700" fill="#5B8DEF">収集</text>
+    <text x="85" y="102" text-anchor="middle" font-size="10" fill="#1A1D24">YouTube等の</text>
+    <text x="85" y="116" text-anchor="middle" font-size="10" fill="#1A1D24">一人称作業動画</text>
+    <text x="85" y="130" text-anchor="middle" font-size="10" fill="#555">20,000時間+</text>
+    <text x="157" y="96" font-size="18" fill="#5B8DEF">→</text>
+
+    <!-- Step 2 -->
+    <rect x="170" y="42" width="130" height="100" rx="6" fill="#F3E5F5" stroke="#8B7DB8" stroke-width="2"/>
+    <text x="235" y="66" text-anchor="middle" font-size="22">🔍</text>
+    <text x="235" y="86" text-anchor="middle" font-size="11" font-weight="700" fill="#8B7DB8">抽出</text>
+    <text x="235" y="102" text-anchor="middle" font-size="10" fill="#1A1D24">手の動き・グリップ</text>
+    <text x="235" y="116" text-anchor="middle" font-size="10" fill="#1A1D24">力加減・軌道</text>
+    <text x="235" y="130" text-anchor="middle" font-size="10" fill="#555">疑似ロボットデモ化</text>
+    <text x="307" y="96" font-size="18" fill="#8B7DB8">→</text>
+
+    <!-- Step 3 -->
+    <rect x="320" y="42" width="130" height="100" rx="6" fill="#E8F5E9" stroke="#5CA46E" stroke-width="2"/>
+    <text x="385" y="66" text-anchor="middle" font-size="22">🧠</text>
+    <text x="385" y="86" text-anchor="middle" font-size="11" font-weight="700" fill="#5CA46E">学習</text>
+    <text x="385" y="102" text-anchor="middle" font-size="10" fill="#1A1D24">3B VLA モデルの</text>
+    <text x="385" y="116" text-anchor="middle" font-size="10" fill="#1A1D24">事前学習</text>
+    <text x="385" y="130" text-anchor="middle" font-size="10" fill="#555">ロボット専用データ不要</text>
+    <text x="457" y="96" font-size="18" fill="#5CA46E">→</text>
+
+    <!-- Step 4 -->
+    <rect x="470" y="42" width="90" height="100" rx="6" fill="#FFF9C4" stroke="#E8D84A" stroke-width="2"/>
+    <text x="515" y="66" text-anchor="middle" font-size="22">🤖</text>
+    <text x="515" y="86" text-anchor="middle" font-size="11" font-weight="700" fill="#E8A87C">展開</text>
+    <text x="515" y="102" text-anchor="middle" font-size="10" fill="#1A1D24">汎用ロボット</text>
+    <text x="515" y="116" text-anchor="middle" font-size="10" fill="#1A1D24">ゼロショット</text>
+    <text x="515" y="130" text-anchor="middle" font-size="10" fill="#555">動作</text>
+
+    <!-- Key insight -->
+    <rect x="20" y="158" width="540" height="90" rx="6" fill="#FFEBEE" stroke="#E05555" stroke-width="1.5"/>
+    <text x="290" y="178" text-anchor="middle" font-size="13" font-weight="700" fill="#E05555">💡 スケーリング則の発見</text>
+    <text x="30" y="198" font-size="11" fill="#1A1D24">EgoScaleデータ量 と ロボットタスク成功率 の間に</text>
+    <text x="30" y="214" font-size="11" fill="#1A1D24">対数線形の関係を実証——「人間動画を増やすほどロボットが器用になる」</text>
+    <text x="30" y="232" font-size="10" fill="#555">従来：高コストなテレオペレーションデータに依存 → 新手法：大量公開動画を活用</text>
+  </g>
+
+  <!-- Competitive landscape -->
+  <g transform="translate(730, 395)">
+    <rect x="0" y="0" width="610" height="265" rx="8" fill="white" stroke="#1A1D24" stroke-width="2"/>
+    <text x="305" y="26" text-anchor="middle" font-size="14" font-weight="700" fill="#1A1D24">🏆 物理AI競合比較（2026年4月時点）</text>
+
+    <rect x="20" y="42" width="270" height="100" rx="6" fill="#E3F2FD" stroke="#5B8DEF" stroke-width="2"/>
+    <text x="155" y="62" text-anchor="middle" font-size="12" font-weight="700" fill="#5B8DEF">NVIDIA GR00T N1.7</text>
+    <text x="30" y="80" font-size="11" fill="#1A1D24">• 3B オープン公開（無償）</text>
+    <text x="30" y="96" font-size="11" fill="#1A1D24">• EgoScaleで20K時間学習</text>
+    <text x="30" y="112" font-size="11" fill="#1A1D24">• Isaac Sim統合・縦断的エコシステム</text>
+    <text x="30" y="128" font-size="10" fill="#555">差別化：GPU・Sim・Chip の垂直統合</text>
+
+    <rect x="320" y="42" width="270" height="100" rx="6" fill="#E8F5E9" stroke="#5CA46E" stroke-width="2"/>
+    <text x="455" y="62" text-anchor="middle" font-size="12" font-weight="700" fill="#5CA46E">Google DeepMind RT-X</text>
+    <text x="330" y="80" font-size="11" fill="#1A1D24">• Gemini Robotics 統合</text>
+    <text x="330" y="96" font-size="11" fill="#1A1D24">• 多様なロボットプラットフォーム</text>
+    <text x="330" y="112" font-size="11" fill="#1A1D24">• OXE データセット（ クロスロボット）</text>
+    <text x="330" y="128" font-size="10" fill="#555">差別化：マルチロボット汎化</text>
+
+    <rect x="20" y="155" width="270" height="95" rx="6" fill="#F3E5F5" stroke="#8B7DB8" stroke-width="2"/>
+    <text x="155" y="175" text-anchor="middle" font-size="12" font-weight="700" fill="#8B7DB8">Physical Intelligence (pi zero)</text>
+    <text x="30" y="193" font-size="11" fill="#1A1D24">• 汎用物理AI専門スタートアップ</text>
+    <text x="30" y="209" font-size="11" fill="#1A1D24">• 多種ロボット対応の単一ポリシー</text>
+    <text x="30" y="228" font-size="10" fill="#555">差別化：純粋汎用ロボット学習</text>
+
+    <rect x="320" y="155" width="270" height="95" rx="6" fill="#FFF3E0" stroke="#E8A87C" stroke-width="2"/>
+    <text x="455" y="175" text-anchor="middle" font-size="12" font-weight="700" fill="#E8A87C">Figure / 1X / Agility</text>
+    <text x="330" y="193" font-size="11" fill="#1A1D24">• ヒューマノイドロボット特化</text>
+    <text x="330" y="209" font-size="11" fill="#1A1D24">• GR00T/Gemini等基盤モデル採用</text>
+    <text x="330" y="228" font-size="10" fill="#555">差別化：ハードウェア+AI統合</text>
+  </g>
+
+  <!-- Sticky notes -->
+  <g transform="translate(130, 680)" filter="url(#stickyShadow)">
+    <g transform="rotate(-1.3)">
+      <rect x="0" y="0" width="280" height="95" rx="4" fill="#FFF9C4" stroke="#E8D84A" stroke-width="1.5"/>
+      <text x="140" y="22" text-anchor="middle" font-size="12" font-weight="700" fill="#1A1D24">⚠️ 著作権リスクの萌芽</text>
+      <text x="14" y="42" font-size="11" fill="#333">YouTube動画でのロボット学習が</text>
+      <text x="14" y="58" font-size="11" fill="#333">普及すれば、LLMのテキスト著作権</text>
+      <text x="14" y="74" font-size="11" fill="#333">問題と同様の訴訟リスクが出現。</text>
+      <text x="14" y="89" font-size="10" fill="#888">2026〜2027年の新論点になる可能性。</text>
+    </g>
+    <g transform="translate(300, 5) rotate(1.2)">
+      <rect x="0" y="0" width="280" height="95" rx="4" fill="#C8E6C9" stroke="#81C784" stroke-width="1.5"/>
+      <text x="140" y="22" text-anchor="middle" font-size="12" font-weight="700" fill="#1A1D24">🏭 製造業への転用可能性</text>
+      <text x="14" y="42" font-size="11" fill="#333">卓球（Sony Ace）と同様、GR00Tの</text>
+      <text x="14" y="58" font-size="11" fill="#333">高速器用さ技術は精密組み立て・</text>
+      <text x="14" y="74" font-size="11" fill="#333">外科ロボット・倉庫自動化に直結。</text>
+      <text x="14" y="89" font-size="10" fill="#888">研究→産業転用サイクルが2年単位に。</text>
+    </g>
+    <g transform="translate(600, -3) rotate(0.7)">
+      <rect x="0" y="0" width="280" height="95" rx="4" fill="#B3E5FC" stroke="#4FC3F7" stroke-width="1.5"/>
+      <text x="140" y="22" text-anchor="middle" font-size="12" font-weight="700" fill="#1A1D24">💡 NVIDIAの収益化戦略</text>
+      <text x="14" y="42" font-size="11" fill="#333">モデルをオープン無償公開して</text>
+      <text x="14" y="58" font-size="11" fill="#333">エコシステムを拡大→GPU・Jetson・</text>
+      <text x="14" y="74" font-size="11" fill="#333">Omniverse課金で収益化。</text>
+      <text x="14" y="89" font-size="10" fill="#888">OpenAIとは正反対のモデルデータ戦略。</text>
+    </g>
+    <g transform="translate(900, 3) rotate(-1.0)">
+      <rect x="0" y="0" width="280" height="95" rx="4" fill="#FFE0B2" stroke="#FFB74D" stroke-width="1.5"/>
+      <text x="140" y="22" text-anchor="middle" font-size="12" font-weight="700" fill="#1A1D24">📊 1年後の予測</text>
+      <text x="14" y="42" font-size="11" fill="#333">EgoScaleが主流化→ロボット基盤</text>
+      <text x="14" y="58" font-size="11" fill="#333">モデルのコモディティ化が進む。</text>
+      <text x="14" y="74" font-size="11" fill="#333">競合優位はハードウェア（アクチュエータ）</text>
+      <text x="14" y="89" font-size="10" fill="#888">に移行していく見込み。</text>
+    </g>
+  </g>
+
+  <line x1="130" y1="1018" x2="1340" y2="1018" stroke="#1A1D24" stroke-width="1"/>
+  <text x="735" y="1036" text-anchor="middle" font-size="12" fill="#888" font-style="italic">AI News · 2026-04-29 · NVIDIA GR00T N1.7: New Scaling Law for Robot Dexterity via 20,000-Hour Human Egocentric Video</text>
+</svg>

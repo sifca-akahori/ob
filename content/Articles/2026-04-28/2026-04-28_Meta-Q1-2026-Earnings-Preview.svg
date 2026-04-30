@@ -1,0 +1,185 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1400 1050" font-family="-apple-system, 'Hiragino Sans', 'Yu Gothic', sans-serif">
+  <defs>
+    <pattern id="paperTexture" patternUnits="userSpaceOnUse" width="100" height="100">
+      <rect width="100" height="100" fill="#FBF8F1"/>
+      <circle cx="25" cy="20" r="0.4" fill="#C4B389" opacity="0.3"/>
+      <circle cx="65" cy="55" r="0.5" fill="#C4B389" opacity="0.3"/>
+    </pattern>
+    <filter id="stickyShadow" x="-10%" y="-10%" width="120%" height="120%">
+      <feGaussianBlur in="SourceAlpha" stdDeviation="3"/>
+      <feOffset dx="2" dy="3"/>
+      <feComponentTransfer><feFuncA type="linear" slope="0.25"/></feComponentTransfer>
+      <feMerge><feMergeNode/><feMergeNode in="SourceGraphic"/></feMerge>
+    </filter>
+    <filter id="softShadow" x="-10%" y="-10%" width="120%" height="120%">
+      <feGaussianBlur in="SourceAlpha" stdDeviation="2"/>
+      <feOffset dx="1" dy="2"/>
+      <feComponentTransfer><feFuncA type="linear" slope="0.18"/></feComponentTransfer>
+      <feMerge><feMergeNode/><feMergeNode in="SourceGraphic"/></feMerge>
+    </filter>
+    <linearGradient id="blueBar" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#5B8DEF"/>
+      <stop offset="100%" stop-color="#7BA7F5"/>
+    </linearGradient>
+  </defs>
+
+  <rect width="1400" height="1050" fill="url(#paperTexture)"/>
+  <line x1="110" y1="30" x2="110" y2="1020" stroke="#D88A8A" stroke-width="1.2" opacity="0.4"/>
+  <g fill="#E8E2D3" opacity="0.7"><circle cx="50" cy="100" r="11"/><circle cx="50" cy="300" r="11"/><circle cx="50" cy="500" r="11"/><circle cx="50" cy="700" r="11"/><circle cx="50" cy="900" r="11"/><circle cx="50" cy="980" r="11"/></g>
+  <g fill="none" stroke="#C8C0B0" stroke-width="1.5"><circle cx="50" cy="100" r="11"/><circle cx="50" cy="300" r="11"/><circle cx="50" cy="500" r="11"/><circle cx="50" cy="700" r="11"/><circle cx="50" cy="900" r="11"/><circle cx="50" cy="980" r="11"/></g>
+
+  <g transform="translate(1180, 28) rotate(-3)">
+    <rect x="0" y="0" width="180" height="36" rx="4" fill="#5CA46E" opacity="0.85"/>
+    <text x="90" y="23" text-anchor="middle" font-size="14" font-weight="700" fill="white">#ビジネス</text>
+  </g>
+  <rect x="125" y="28" width="180" height="36" rx="6" fill="#2F3842"/>
+  <text x="215" y="51" text-anchor="middle" font-size="15" font-weight="700" fill="white">2026-04-28</text>
+  <text x="320" y="53" font-size="20" fill="#F5A623">⭐⭐</text>
+
+  <text x="130" y="105" font-size="32" font-weight="900" fill="#1A1D24">💰 Meta Q1 2026決算プレビュー</text>
+  <text x="130" y="147" font-size="21" font-weight="600" fill="#444">——Muse Sparkに期待も「$135B AI投資の回収戦略が見えない」とウォール街</text>
+  <text x="130" y="180" font-size="13" fill="#888">CNBC / Investing.com  ·  2026-04-28  ·  #ビジネス #Meta #決算 #Muse-Spark</text>
+  <line x1="130" y1="194" x2="1340" y2="194" stroke="#1A1D24" stroke-width="2"/>
+
+  <!-- Hero: Dollar sign with question mark -->
+  <g transform="translate(135, 215)">
+    <circle cx="95" cy="85" r="70" fill="#FFF9E8" stroke="#F5A623" stroke-width="3"/>
+    <text x="95" y="70" text-anchor="middle" font-size="48" font-weight="900" fill="#F5A623">$</text>
+    <text x="95" y="118" text-anchor="middle" font-size="36" font-weight="700" fill="#E05555">?</text>
+    <text x="95" y="175" text-anchor="middle" font-size="12" fill="#888">マネタイズ戦略は？</text>
+  </g>
+
+  <!-- Key numbers -->
+  <g transform="translate(370, 215)" filter="url(#softShadow)">
+    <rect x="0" y="0" width="980" height="160" rx="8" fill="white" stroke="#1A1D24" stroke-width="2.5"/>
+    <rect x="0" y="0" width="980" height="42" rx="8" fill="#2F3842"/>
+    <rect x="0" y="34" width="980" height="8" fill="#2F3842"/>
+    <text x="490" y="27" text-anchor="middle" font-size="15" font-weight="700" fill="white">📊 Meta Q1 2026 ウォール街予測</text>
+    <text x="122" y="85" text-anchor="middle" font-size="36" font-weight="900" fill="#5B8DEF">$55.6B</text>
+    <text x="122" y="107" text-anchor="middle" font-size="12" fill="#555">予測売上高</text>
+    <text x="122" y="123" text-anchor="middle" font-size="11" fill="#5CA46E">（前年比+31%）</text>
+    <line x1="245" y1="55" x2="245" y2="150" stroke="#E8E2D3" stroke-width="1.5"/>
+    <text x="367" y="85" text-anchor="middle" font-size="36" font-weight="900" fill="#5CA46E">$6.67</text>
+    <text x="367" y="107" text-anchor="middle" font-size="12" fill="#555">予測EPS</text>
+    <text x="367" y="123" text-anchor="middle" font-size="11" fill="#888">（アナリスト総意）</text>
+    <line x1="490" y1="55" x2="490" y2="150" stroke="#E8E2D3" stroke-width="1.5"/>
+    <text x="612" y="80" text-anchor="middle" font-size="32" font-weight="900" fill="#E05555">$135B</text>
+    <text x="612" y="102" text-anchor="middle" font-size="12" fill="#555">2026年AI設備投資（年間指針）</text>
+    <text x="612" y="118" text-anchor="middle" font-size="11" fill="#E05555">（収益化戦略が不透明）</text>
+    <line x1="735" y1="55" x2="735" y2="150" stroke="#E8E2D3" stroke-width="1.5"/>
+    <text x="857" y="85" text-anchor="middle" font-size="36" font-weight="900" fill="#E8A87C">-1.71%</text>
+    <text x="857" y="107" text-anchor="middle" font-size="12" fill="#555">決算前日の株価</text>
+    <text x="857" y="123" text-anchor="middle" font-size="11" fill="#888">（市場の懸念を反映）</text>
+    <text x="490" y="148" text-anchor="middle" font-size="10" fill="#999">出典: CNBC / Investing.com 2026-04-28</text>
+  </g>
+
+  <!-- Revenue history chart -->
+  <g transform="translate(130, 400)" filter="url(#softShadow)">
+    <rect x="0" y="0" width="650" height="220" rx="8" fill="white" stroke="#1A1D24" stroke-width="2.5"/>
+    <text x="325" y="25" text-anchor="middle" font-size="14" font-weight="700" fill="#1A1D24">📈 Meta 売上高推移（2023-2026予測）</text>
+    <line x1="20" y1="35" x2="630" y2="35" stroke="#E8E2D3" stroke-width="1"/>
+    <!-- Y axis -->
+    <line x1="80" y1="50" x2="80" y2="195" stroke="#1A1D24" stroke-width="1.5"/>
+    <text x="75" y="55" text-anchor="end" font-size="9" fill="#666">$60B</text>
+    <text x="75" y="95" text-anchor="end" font-size="9" fill="#666">$50B</text>
+    <text x="75" y="135" text-anchor="end" font-size="9" fill="#666">$40B</text>
+    <text x="75" y="175" text-anchor="end" font-size="9" fill="#666">$30B</text>
+    <text x="75" y="198" text-anchor="end" font-size="9" fill="#666">$25B</text>
+    <!-- X axis -->
+    <line x1="80" y1="195" x2="610" y2="195" stroke="#1A1D24" stroke-width="1.5"/>
+    <!-- Bars -->
+    <rect x="110" y="142" width="80" height="53" fill="url(#blueBar)" stroke="#1A1D24" stroke-width="1.5"/>
+    <text x="150" y="135" text-anchor="middle" font-size="10" fill="#2F3842">$32.2B</text>
+    <text x="150" y="210" text-anchor="middle" font-size="9" fill="#666">2023 Q1</text>
+    <rect x="230" y="108" width="80" height="87" fill="url(#blueBar)" stroke="#1A1D24" stroke-width="1.5"/>
+    <text x="270" y="100" text-anchor="middle" font-size="10" fill="#2F3842">$37.4B</text>
+    <text x="270" y="210" text-anchor="middle" font-size="9" fill="#666">2024 Q1</text>
+    <rect x="350" y="80" width="80" height="115" fill="url(#blueBar)" stroke="#1A1D24" stroke-width="1.5"/>
+    <text x="390" y="72" text-anchor="middle" font-size="10" fill="#2F3842">$42.4B</text>
+    <text x="390" y="210" text-anchor="middle" font-size="9" fill="#666">2025 Q1</text>
+    <!-- Forecast bar (different styling) -->
+    <rect x="470" y="55" width="80" height="140" fill="none" stroke="#5CA46E" stroke-width="2.5" stroke-dasharray="6,3"/>
+    <rect x="470" y="55" width="80" height="140" fill="#5CA46E" opacity="0.2"/>
+    <text x="510" y="47" text-anchor="middle" font-size="10" fill="#5CA46E" font-weight="700">予測$55.6B</text>
+    <text x="510" y="210" text-anchor="middle" font-size="9" fill="#5CA46E">2026 Q1</text>
+    <text x="510" y="225" text-anchor="middle" font-size="8" fill="#888">（+31% YoY）</text>
+  </g>
+
+  <!-- Key issues -->
+  <g transform="translate(810, 400)" filter="url(#softShadow)">
+    <rect x="0" y="0" width="530" height="220" rx="8" fill="white" stroke="#1A1D24" stroke-width="2.5"/>
+    <text x="265" y="25" text-anchor="middle" font-size="14" font-weight="700" fill="#1A1D24">❓ ウォール街が求める回答</text>
+    <line x1="20" y1="35" x2="510" y2="35" stroke="#E8E2D3" stroke-width="1"/>
+    <text x="25" y="60" font-size="12" font-weight="700" fill="#E05555">Q1. Muse Sparkで「いつ、どうやって稼ぐのか」</text>
+    <text x="25" y="78" font-size="11" fill="#444">広告精度向上：具体的に何%改善？（Citizens証券）</text>
+    <text x="25" y="94" font-size="11" fill="#444">API課金：非公開・クローズドを維持する理由は？</text>
+    <line x1="15" y1="108" x2="515" y2="108" stroke="#E8E2D3" stroke-width="0.8" stroke-dasharray="3,3"/>
+    <text x="25" y="128" font-size="12" font-weight="700" fill="#E05555">Q2. $135B投資のKPIは何か</text>
+    <text x="25" y="146" font-size="11" fill="#444">AGI宣言以降、具体的なROI指標がない</text>
+    <text x="25" y="162" font-size="11" fill="#444">「2026年は人間レベルのAI」発言の検証</text>
+    <line x1="15" y1="176" x2="515" y2="176" stroke="#E8E2D3" stroke-width="0.8" stroke-dasharray="3,3"/>
+    <text x="25" y="196" font-size="12" font-weight="700" fill="#E05555">Q3. 人員削減とAI投資の矛盾をどう説明するか</text>
+    <text x="25" y="212" font-size="11" fill="#444">8,000人削減 ＋ $135B投資 → ESG批判への対応</text>
+  </g>
+
+  <!-- Sticky notes -->
+  <g transform="translate(130, 645) rotate(-1.0)" filter="url(#stickyShadow)">
+    <rect x="0" y="0" width="265" height="145" rx="3" fill="#FFF9C4" stroke="#E8D84A" stroke-width="1.5"/>
+    <rect x="0" y="0" width="265" height="22" fill="#FFE566" opacity="0.7" rx="3"/>
+    <text x="132" y="16" text-anchor="middle" font-size="12" font-weight="700" fill="#666">📌 広告が本当の収益エンジン</text>
+    <text x="12" y="45" font-size="11" fill="#333">Muse Sparkの会話データから</text>
+    <text x="12" y="60" font-size="11" fill="#333">ユーザーの購買意図を把握し</text>
+    <text x="12" y="75" font-size="11" fill="#333">広告ターゲティングを強化。</text>
+    <text x="12" y="90" font-size="11" fill="#333">ChatGPT・Claudeとは違う</text>
+    <text x="12" y="105" font-size="11" fill="#333">「隠れた収益モデル」。</text>
+    <text x="12" y="128" font-size="10" fill="#999">💡 Citizens証券の評価</text>
+  </g>
+
+  <g transform="translate(420, 638) rotate(0.6)" filter="url(#stickyShadow)">
+    <rect x="0" y="0" width="265" height="145" rx="3" fill="#FFCCBC" stroke="#FF7043" stroke-width="1.5"/>
+    <rect x="0" y="0" width="265" height="22" fill="#FFAB91" opacity="0.8" rx="3"/>
+    <text x="132" y="16" text-anchor="middle" font-size="12" font-weight="700" fill="#BF360C">📌 オープン戦略の撤退</text>
+    <text x="12" y="45" font-size="11" fill="#333">Llama = オープンウェイトで</text>
+    <text x="12" y="60" font-size="11" fill="#333">コミュニティを育てたが、</text>
+    <text x="12" y="75" font-size="11" fill="#333">Muse Sparkはクローズド。</text>
+    <text x="12" y="90" font-size="11" fill="#333">中国モデルに追い抜かれた</text>
+    <text x="12" y="105" font-size="11" fill="#333">Llama4への対応策か？</text>
+    <text x="12" y="128" font-size="10" fill="#999">💡 コミュニティ離脱リスク</text>
+  </g>
+
+  <g transform="translate(710, 642) rotate(-0.6)" filter="url(#stickyShadow)">
+    <rect x="0" y="0" width="265" height="145" rx="3" fill="#E1BEE7" stroke="#AB47BC" stroke-width="1.5"/>
+    <rect x="0" y="0" width="265" height="22" fill="#CE93D8" opacity="0.8" rx="3"/>
+    <text x="132" y="16" text-anchor="middle" font-size="12" font-weight="700" fill="#4A148C">📌 メタバース失敗の再来？</text>
+    <text x="12" y="45" font-size="11" fill="#333">Reality Labs累積損失$50B超。</text>
+    <text x="12" y="60" font-size="11" fill="#333">今回のAI $135Bが「第二の</text>
+    <text x="12" y="75" font-size="11" fill="#333">メタバース」にならないか？</text>
+    <text x="12" y="90" font-size="11" fill="#333">という根強い懸念が市場に</text>
+    <text x="12" y="105" font-size="11" fill="#333">ある。Q1で「AIが広告収益を</text>
+    <text x="12" y="120" font-size="11" fill="#333">何%改善したか」が鍵。</text>
+  </g>
+
+  <g transform="translate(1000, 640) rotate(1.1)" filter="url(#stickyShadow)">
+    <rect x="0" y="0" width="320" height="145" rx="3" fill="#C8E6C9" stroke="#8BC34A" stroke-width="1.5"/>
+    <rect x="0" y="0" width="320" height="22" fill="#A5D6A7" opacity="0.8" rx="3"/>
+    <text x="160" y="16" text-anchor="middle" font-size="12" font-weight="700" fill="#2E7D32">📌 Zuckerberg自ら行動</text>
+    <text x="12" y="45" font-size="11" fill="#333">Zuckerbergは自身のデスクを</text>
+    <text x="12" y="60" font-size="11" fill="#333">AIラボ内に移動。直接陣頭</text>
+    <text x="12" y="75" font-size="11" fill="#333">指揮するシグナルとして</text>
+    <text x="12" y="90" font-size="11" fill="#333">受け取られている。</text>
+    <text x="12" y="105" font-size="11" fill="#333">MSL（Meta Superintelligence</text>
+    <text x="12" y="120" font-size="11" fill="#333">Labs）設立の本気度を示す。</text>
+    <text x="12" y="138" font-size="10" fill="#555">💡 CEO自らの覚悟</text>
+  </g>
+
+  <g transform="translate(130, 808)">
+    <rect x="0" y="0" width="1210" height="115" rx="8" fill="white" stroke="#1A1D24" stroke-width="2" opacity="0.95"/>
+    <text x="30" y="28" font-size="14" font-weight="700" fill="#1A1D24">📅 決算発表後の焦点：4月29日を注視すべき3点</text>
+    <line x1="15" y1="38" x2="1195" y2="38" stroke="#E8E2D3" stroke-width="1"/>
+    <text x="30" y="60" font-size="12" fill="#333">① AIが広告CTRや購買コンバージョンをどれだけ改善したか（数値で示せるか）→ 「メタバース」疑念を払拭できるか</text>
+    <text x="30" y="80" font-size="12" fill="#333">② Muse Sparkの収益化タイムライン：API公開・課金モデルについて何らかのガイダンスが出るか →「いつ稼ぐか」への回答</text>
+    <text x="30" y="100" font-size="12" fill="#333">③ 8,000人削減とAI投資の関係：「削減で浮いた人件費をAI計算能力に再投資」という説明が株主・ESG投資家にとって許容されるか</text>
+  </g>
+
+  <text x="700" y="1038" text-anchor="middle" font-size="12" fill="#999" font-style="italic">AI News · 2026-04-28 · Meta Q1 2026 Earnings Preview — Muse Spark Strategy Under Scrutiny</text>
+</svg>

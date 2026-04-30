@@ -1,0 +1,186 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1400 1050" font-family="-apple-system, 'Hiragino Sans', 'Yu Gothic', sans-serif">
+  <defs>
+    <pattern id="paperTexture" patternUnits="userSpaceOnUse" width="100" height="100">
+      <rect width="100" height="100" fill="#FBF8F1"/>
+      <circle cx="20" cy="18" r="0.4" fill="#C4B389" opacity="0.3"/>
+      <circle cx="72" cy="62" r="0.5" fill="#C4B389" opacity="0.3"/>
+      <circle cx="38" cy="85" r="0.3" fill="#C4B389" opacity="0.3"/>
+    </pattern>
+    <filter id="stickyShadow" x="-10%" y="-10%" width="120%" height="120%">
+      <feGaussianBlur in="SourceAlpha" stdDeviation="3"/>
+      <feOffset dx="2" dy="3"/>
+      <feComponentTransfer><feFuncA type="linear" slope="0.25"/></feComponentTransfer>
+      <feMerge><feMergeNode/><feMergeNode in="SourceGraphic"/></feMerge>
+    </filter>
+    <filter id="softShadow" x="-10%" y="-10%" width="120%" height="120%">
+      <feGaussianBlur in="SourceAlpha" stdDeviation="2"/>
+      <feOffset dx="1" dy="2"/>
+      <feComponentTransfer><feFuncA type="linear" slope="0.18"/></feComponentTransfer>
+      <feMerge><feMergeNode/><feMergeNode in="SourceGraphic"/></feMerge>
+    </filter>
+  </defs>
+
+  <rect width="1400" height="1050" fill="url(#paperTexture)"/>
+  <line x1="110" y1="30" x2="110" y2="1020" stroke="#D88A8A" stroke-width="1.2" opacity="0.4"/>
+  <g fill="#E8E2D3" opacity="0.7"><circle cx="50" cy="100" r="11"/><circle cx="50" cy="300" r="11"/><circle cx="50" cy="500" r="11"/><circle cx="50" cy="700" r="11"/><circle cx="50" cy="900" r="11"/><circle cx="50" cy="980" r="11"/></g>
+  <g fill="none" stroke="#C8C0B0" stroke-width="1.5"><circle cx="50" cy="100" r="11"/><circle cx="50" cy="300" r="11"/><circle cx="50" cy="500" r="11"/><circle cx="50" cy="700" r="11"/><circle cx="50" cy="900" r="11"/><circle cx="50" cy="980" r="11"/></g>
+
+  <!-- Category tape: 論文 = purple -->
+  <g transform="translate(1200, 26) rotate(-3)">
+    <rect x="0" y="0" width="160" height="36" rx="4" fill="#8B7DB8" opacity="0.9"/>
+    <text x="80" y="23" text-anchor="middle" font-size="14" font-weight="700" fill="white">#論文</text>
+  </g>
+
+  <rect x="125" y="28" width="185" height="36" rx="6" fill="#2F3842"/>
+  <text x="218" y="51" text-anchor="middle" font-size="15" font-weight="700" fill="white">2026-04-29</text>
+  <text x="328" y="53" font-size="20" fill="#F5A623">⭐⭐⭐</text>
+
+  <text x="130" y="105" font-size="34" font-weight="900" fill="#1A1D24">🪤 推論強化でツール幻覚が3倍——ICLR「Reasoning Trap」</text>
+  <text x="130" y="143" font-size="20" font-weight="600" fill="#444">——賢くなるほど道具を取り違える逆説がエンタープライズAIを直撃</text>
+  <text x="130" y="175" font-size="13" fill="#888">ICLR 2026 / Humai Blog  ·  2026-04-29  ·  #論文 #幻覚 #エージェント #RL</text>
+  <line x1="130" y1="190" x2="1340" y2="190" stroke="#1A1D24" stroke-width="2"/>
+
+  <!-- Hero icon -->
+  <g transform="translate(130, 208)">
+    <rect x="0" y="0" width="195" height="165" rx="12" fill="white" stroke="#1A1D24" stroke-width="2.5"/>
+    <text x="97" y="60" text-anchor="middle" font-size="50">🪤</text>
+    <text x="97" y="90" text-anchor="middle" font-size="13" font-weight="700" fill="#8B7DB8">Reasoning Trap</text>
+    <text x="97" y="108" text-anchor="middle" font-size="11" fill="#555">ICLR 2026 (Rio)</text>
+    <text x="97" y="127" text-anchor="middle" font-size="11" fill="#555">SimpleToolHalluBench</text>
+    <text x="97" y="148" text-anchor="middle" font-size="11" fill="#888">Oral Presentation</text>
+  </g>
+
+  <!-- Key numbers -->
+  <g transform="translate(345, 208)" filter="url(#softShadow)">
+    <rect x="0" y="0" width="995" height="165" rx="8" fill="white" stroke="#1A1D24" stroke-width="2.5"/>
+    <rect x="0" y="0" width="995" height="42" rx="8" fill="#2F3842"/>
+    <rect x="0" y="34" width="995" height="8" fill="#2F3842"/>
+    <text x="498" y="27" text-anchor="middle" font-size="15" font-weight="700" fill="white">📊 The Reasoning Trap：主要数値</text>
+    <!-- RL training → hallucination -->
+    <text x="120" y="84" text-anchor="middle" font-size="38" font-weight="900" fill="#E05555">3×</text>
+    <text x="120" y="104" text-anchor="middle" font-size="12" fill="#555">RL推論強化後のツール幻覚増加率</text>
+    <text x="120" y="120" text-anchor="middle" font-size="11" fill="#888">（タスク性能向上と連動）</text>
+    <line x1="240" y1="52" x2="240" y2="157" stroke="#E8E2D3" stroke-width="1.5"/>
+    <!-- Late layers destroyed -->
+    <text x="360" y="84" text-anchor="middle" font-size="22" font-weight="900" fill="#8B7DB8">遅延層</text>
+    <text x="360" y="102" text-anchor="middle" font-size="13" fill="#8B7DB8">(Late Layers)</text>
+    <text x="360" y="120" text-anchor="middle" font-size="11" fill="#555">RL訓練が選択的に破壊する</text>
+    <text x="360" y="136" text-anchor="middle" font-size="11" fill="#555">ツール信頼性制御層</text>
+    <line x1="480" y1="52" x2="480" y2="157" stroke="#E8E2D3" stroke-width="1.5"/>
+    <!-- 96% enterprise -->
+    <text x="600" y="84" text-anchor="middle" font-size="38" font-weight="900" fill="#E05555">96%</text>
+    <text x="600" y="104" text-anchor="middle" font-size="12" fill="#555">企業がAIエージェントを</text>
+    <text x="600" y="120" text-anchor="middle" font-size="11" fill="#888">本番稼働（OutSystems調査）</text>
+    <line x1="720" y1="52" x2="720" y2="157" stroke="#E8E2D3" stroke-width="1.5"/>
+    <!-- DPO doesn't fix -->
+    <text x="857" y="80" text-anchor="middle" font-size="20" font-weight="900" fill="#888">DPO &amp; プロンプト</text>
+    <text x="857" y="98" text-anchor="middle" font-size="20" font-weight="900" fill="#888">エンジニアリング</text>
+    <text x="857" y="118" text-anchor="middle" font-size="22" font-weight="900" fill="#E05555">→ 効果不十分</text>
+    <text x="857" y="138" text-anchor="middle" font-size="11" fill="#555">ギャップは閉じない</text>
+    <text x="498" y="157" text-anchor="middle" font-size="10" fill="#999">出典: "The Reasoning Trap" — ICLR 2026 Oral Paper</text>
+  </g>
+
+  <!-- Main visualization: Reasoning vs Tool Reliability trade-off -->
+  <g transform="translate(130, 395)">
+    <rect x="0" y="0" width="580" height="270" rx="8" fill="white" stroke="#1A1D24" stroke-width="2"/>
+    <text x="290" y="28" text-anchor="middle" font-size="14" font-weight="700" fill="#1A1D24">📈 推論能力 vs ツール幻覚率（RLステップ増加）</text>
+    <line x1="60" y1="240" x2="560" y2="240" stroke="#1A1D24" stroke-width="1.5"/>
+    <line x1="60" y1="45" x2="60" y2="240" stroke="#1A1D24" stroke-width="1.5"/>
+    <text x="310" y="256" text-anchor="middle" font-size="11" fill="#555">RL学習ステップ数 →</text>
+    <text x="25" y="148" text-anchor="middle" font-size="10" fill="#555" transform="rotate(-90, 25, 148)">スコア</text>
+
+    <!-- Reasoning ability line (going up, green) -->
+    <polyline points="60,220 150,195 250,165 360,130 460,90 560,55" fill="none" stroke="#5CA46E" stroke-width="3" stroke-dasharray="0"/>
+    <text x="562" y="50" font-size="11" fill="#5CA46E" font-weight="700">推論能力↑</text>
+
+    <!-- Tool hallucination line (going up too, red) -->
+    <polyline points="60,225 150,210 250,190 360,165 460,130 560,90" fill="none" stroke="#E05555" stroke-width="3" stroke-dasharray="6,3"/>
+    <text x="562" y="95" font-size="11" fill="#E05555" font-weight="700">幻覚率↑</text>
+
+    <!-- Annotation -->
+    <rect x="160" y="130" width="200" height="50" rx="4" fill="#FFF9C4" stroke="#E8D84A" stroke-width="1.5"/>
+    <text x="260" y="150" text-anchor="middle" font-size="11" font-weight="700" fill="#1A1D24">⚠️ 連動して増加する</text>
+    <text x="260" y="168" text-anchor="middle" font-size="10" fill="#555">タスク性能↑ = ツール幻覚率↑</text>
+
+    <!-- Labels -->
+    <text x="60" y="238" text-anchor="middle" font-size="10" fill="#888">0</text>
+    <text x="210" y="238" text-anchor="middle" font-size="10" fill="#888">Low RL</text>
+    <text x="410" y="238" text-anchor="middle" font-size="10" fill="#888">Med RL</text>
+    <text x="560" y="238" text-anchor="middle" font-size="10" fill="#E05555" font-weight="700">High RL</text>
+  </g>
+
+  <!-- 3 types of tool hallucination -->
+  <g transform="translate(730, 395)">
+    <rect x="0" y="0" width="610" height="270" rx="8" fill="white" stroke="#1A1D24" stroke-width="2"/>
+    <text x="305" y="28" text-anchor="middle" font-size="14" font-weight="700" fill="#1A1D24">🔍 SimpleToolHalluBench：3種の幻覚タイプ</text>
+
+    <rect x="20" y="45" width="170" height="200" rx="6" fill="#FFEBEE" stroke="#E05555" stroke-width="2"/>
+    <text x="105" y="70" text-anchor="middle" font-size="26">👻</text>
+    <text x="105" y="92" text-anchor="middle" font-size="12" font-weight="700" fill="#E05555">ファントムコール</text>
+    <text x="105" y="112" text-anchor="middle" font-size="11" fill="#1A1D24">存在しないツールを</text>
+    <text x="105" y="128" text-anchor="middle" font-size="11" fill="#1A1D24">呼び出す</text>
+    <text x="105" y="155" text-anchor="middle" font-size="10" fill="#555">最も頻度が高い。</text>
+    <text x="105" y="170" text-anchor="middle" font-size="10" fill="#555">モデルが「あるはず」の</text>
+    <text x="105" y="185" text-anchor="middle" font-size="10" fill="#555">ツールを幻想する</text>
+
+    <rect x="220" y="45" width="170" height="200" rx="6" fill="#FFF3E0" stroke="#E8A87C" stroke-width="2"/>
+    <text x="305" y="70" text-anchor="middle" font-size="26">🔧</text>
+    <text x="305" y="92" text-anchor="middle" font-size="12" font-weight="700" fill="#E8A87C">パラメータ幻覚</text>
+    <text x="305" y="112" text-anchor="middle" font-size="11" fill="#1A1D24">正しいツールを</text>
+    <text x="305" y="128" text-anchor="middle" font-size="11" fill="#1A1D24">誤った引数で呼ぶ</text>
+    <text x="305" y="155" text-anchor="middle" font-size="10" fill="#555">ツール名は正しいが</text>
+    <text x="305" y="170" text-anchor="middle" font-size="10" fill="#555">パラメータを捏造。</text>
+    <text x="305" y="185" text-anchor="middle" font-size="10" fill="#555">検出が難しい</text>
+
+    <rect x="420" y="45" width="170" height="200" rx="6" fill="#E3F2FD" stroke="#5B8DEF" stroke-width="2"/>
+    <text x="505" y="70" text-anchor="middle" font-size="26">📢</text>
+    <text x="505" y="92" text-anchor="middle" font-size="12" font-weight="700" fill="#5B8DEF">ノイズコール</text>
+    <text x="505" y="112" text-anchor="middle" font-size="11" fill="#1A1D24">不要なツールを</text>
+    <text x="505" y="128" text-anchor="middle" font-size="11" fill="#1A1D24">過剰呼び出し</text>
+    <text x="505" y="155" text-anchor="middle" font-size="10" fill="#555">タスクに不要なAPIを</text>
+    <text x="505" y="170" text-anchor="middle" font-size="10" fill="#555">連鎖呼出し。コスト増・</text>
+    <text x="505" y="185" text-anchor="middle" font-size="10" fill="#555">セキュリティリスク増</text>
+  </g>
+
+  <!-- Impact cards -->
+  <g transform="translate(130, 688)">
+    <rect x="0" y="0" width="570" height="170" rx="8" fill="white" stroke="#1A1D24" stroke-width="2"/>
+    <text x="285" y="26" text-anchor="middle" font-size="14" font-weight="700" fill="#1A1D24">💡 対策の現状と限界</text>
+    <rect x="20" y="38" width="245" height="120" rx="6" fill="#F3E5F5" stroke="#8B7DB8" stroke-width="1.5"/>
+    <text x="142" y="58" text-anchor="middle" font-size="12" font-weight="700" fill="#8B7DB8">試みた対策</text>
+    <text x="30" y="76" font-size="11" fill="#1A1D24">✓ DPO（直接選好最適化）</text>
+    <text x="30" y="92" font-size="11" fill="#1A1D24">✓ プロンプトエンジニアリング</text>
+    <text x="30" y="108" font-size="11" fill="#1A1D24">✓ ファインチューニング</text>
+    <text x="30" y="124" font-size="11" fill="#555">→ 全て「部分的改善」にとどまる</text>
+    <text x="30" y="142" font-size="10" fill="#888">アーキテクチャレベルの根本問題の可能性</text>
+
+    <rect x="300" y="38" width="250" height="120" rx="6" fill="#FFEBEE" stroke="#E05555" stroke-width="1.5"/>
+    <text x="425" y="58" text-anchor="middle" font-size="12" font-weight="700" fill="#E05555">求められる解決策</text>
+    <text x="310" y="76" font-size="11" fill="#1A1D24">→ デュアルヘッド設計</text>
+    <text x="310" y="92" font-size="11" fill="#1A1D24">→ ToolRL（専用の訓練目標）</text>
+    <text x="310" y="108" font-size="11" fill="#1A1D24">→ 推論・ツール信頼性の分離制御</text>
+    <text x="310" y="124" font-size="11" fill="#555">→ 新しい評価フレームワーク</text>
+    <text x="310" y="142" font-size="10" fill="#888">1年以内に新研究が集中する見込み</text>
+  </g>
+
+  <!-- Sticky notes -->
+  <g transform="translate(718, 688)" filter="url(#stickyShadow)">
+    <g transform="rotate(-1.2)">
+      <rect x="0" y="0" width="290" height="80" rx="4" fill="#FFF9C4" stroke="#E8D84A" stroke-width="1.5"/>
+      <text x="145" y="22" text-anchor="middle" font-size="12" font-weight="700" fill="#1A1D24">🔬 機械論的発見の重要性</text>
+      <text x="14" y="42" font-size="11" fill="#333">「遅延層が破壊される」は推論ではなく</text>
+      <text x="14" y="58" font-size="11" fill="#333">実際のアクティベーション分析で示された。</text>
+      <text x="14" y="74" font-size="10" fill="#888">解釈可能性研究が実務安全性に直結した好例。</text>
+    </g>
+    <g transform="translate(310, 0) rotate(1.2)">
+      <rect x="0" y="0" width="290" height="80" rx="4" fill="#B3E5FC" stroke="#4FC3F7" stroke-width="1.5"/>
+      <text x="145" y="22" text-anchor="middle" font-size="12" font-weight="700" fill="#1A1D24">⚡ 業界への即時インパクト</text>
+      <text x="14" y="42" font-size="11" fill="#333">Anthropic/OpenAI/Googleの全大手が</text>
+      <text x="14" y="58" font-size="11" fill="#333">「推論能力高いモデル＝エージェント中核」</text>
+      <text x="14" y="74" font-size="10" fill="#888">という設計前提の再考を迫られている。</text>
+    </g>
+  </g>
+
+  <line x1="130" y1="1018" x2="1340" y2="1018" stroke="#1A1D24" stroke-width="1"/>
+  <text x="735" y="1036" text-anchor="middle" font-size="12" fill="#888" font-style="italic">AI News · 2026-04-29 · The Reasoning Trap: ICLR 2026 Paper — RL Training Triples Tool Hallucination in Agents</text>
+</svg>

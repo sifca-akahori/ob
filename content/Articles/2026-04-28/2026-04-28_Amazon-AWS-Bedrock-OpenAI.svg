@@ -1,0 +1,198 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1400 1050" font-family="-apple-system, 'Hiragino Sans', 'Yu Gothic', sans-serif">
+  <defs>
+    <pattern id="paperTexture" patternUnits="userSpaceOnUse" width="100" height="100">
+      <rect width="100" height="100" fill="#FBF8F1"/>
+      <circle cx="18" cy="28" r="0.4" fill="#C4B389" opacity="0.3"/>
+      <circle cx="68" cy="55" r="0.5" fill="#C4B389" opacity="0.3"/>
+      <circle cx="42" cy="80" r="0.3" fill="#C4B389" opacity="0.3"/>
+    </pattern>
+    <filter id="stickyShadow" x="-10%" y="-10%" width="120%" height="120%">
+      <feGaussianBlur in="SourceAlpha" stdDeviation="3"/>
+      <feOffset dx="2" dy="3"/>
+      <feComponentTransfer><feFuncA type="linear" slope="0.25"/></feComponentTransfer>
+      <feMerge><feMergeNode/><feMergeNode in="SourceGraphic"/></feMerge>
+    </filter>
+    <filter id="softShadow" x="-10%" y="-10%" width="120%" height="120%">
+      <feGaussianBlur in="SourceAlpha" stdDeviation="2"/>
+      <feOffset dx="1" dy="2"/>
+      <feComponentTransfer><feFuncA type="linear" slope="0.18"/></feComponentTransfer>
+      <feMerge><feMergeNode/><feMergeNode in="SourceGraphic"/></feMerge>
+    </filter>
+  </defs>
+
+  <rect width="1400" height="1050" fill="url(#paperTexture)"/>
+  <line x1="110" y1="30" x2="110" y2="1020" stroke="#D88A8A" stroke-width="1.2" opacity="0.4"/>
+  <g fill="#E8E2D3" opacity="0.7"><circle cx="50" cy="100" r="11"/><circle cx="50" cy="300" r="11"/><circle cx="50" cy="500" r="11"/><circle cx="50" cy="700" r="11"/><circle cx="50" cy="900" r="11"/><circle cx="50" cy="980" r="11"/></g>
+  <g fill="none" stroke="#C8C0B0" stroke-width="1.5"><circle cx="50" cy="100" r="11"/><circle cx="50" cy="300" r="11"/><circle cx="50" cy="500" r="11"/><circle cx="50" cy="700" r="11"/><circle cx="50" cy="900" r="11"/><circle cx="50" cy="980" r="11"/></g>
+
+  <g transform="translate(1180, 28) rotate(-3)">
+    <rect x="0" y="0" width="180" height="36" rx="4" fill="#5CA46E" opacity="0.85"/>
+    <text x="90" y="23" text-anchor="middle" font-size="14" font-weight="700" fill="white">#ビジネス</text>
+  </g>
+  <rect x="125" y="28" width="180" height="36" rx="6" fill="#2F3842"/>
+  <text x="215" y="51" text-anchor="middle" font-size="15" font-weight="700" fill="white">2026-04-28</text>
+  <text x="320" y="53" font-size="20" fill="#F5A623">⭐⭐</text>
+
+  <text x="130" y="105" font-size="32" font-weight="900" fill="#1A1D24">☁️ Amazon AWS BedrockにOpenAI製品が即日統合</text>
+  <text x="130" y="147" font-size="21" font-weight="600" fill="#444">——独占終了から24時間未満、300万企業がGPT-5.5にアクセス可能に</text>
+  <text x="130" y="180" font-size="13" fill="#888">TechCrunch  ·  2026-04-28  ·  #ビジネス #AWS #OpenAI #クラウド</text>
+  <line x1="130" y1="194" x2="1340" y2="194" stroke="#1A1D24" stroke-width="2"/>
+
+  <!-- Hero: Cloud with connected models -->
+  <g transform="translate(130, 215)">
+    <!-- Cloud shape -->
+    <ellipse cx="110" cy="85" rx="75" ry="45" fill="#E8F4FD" stroke="#5B8DEF" stroke-width="2.5"/>
+    <ellipse cx="70" cy="95" rx="40" ry="30" fill="#E8F4FD" stroke="#5B8DEF" stroke-width="2"/>
+    <ellipse cx="150" cy="95" rx="40" ry="30" fill="#E8F4FD" stroke="#5B8DEF" stroke-width="2"/>
+    <text x="110" y="92" text-anchor="middle" font-size="16" font-weight="700" fill="#2F3842">AWS</text>
+    <text x="110" y="112" text-anchor="middle" font-size="12" fill="#5B8DEF">Bedrock</text>
+    <!-- Connection lines to models -->
+    <line x1="110" y1="130" x2="50" y2="165" stroke="#5B8DEF" stroke-width="1.5" stroke-dasharray="4,2"/>
+    <line x1="110" y1="130" x2="110" y2="165" stroke="#5CA46E" stroke-width="1.5" stroke-dasharray="4,2"/>
+    <line x1="110" y1="130" x2="175" y2="165" stroke="#E8A87C" stroke-width="1.5" stroke-dasharray="4,2"/>
+    <!-- Model badges -->
+    <rect x="15" y="165" width="75" height="24" rx="4" fill="#5B8DEF" stroke="#1A1D24" stroke-width="1.5"/>
+    <text x="52" y="181" text-anchor="middle" font-size="10" fill="white">OpenAI</text>
+    <rect x="75" y="165" width="75" height="24" rx="4" fill="#5CA46E" stroke="#1A1D24" stroke-width="1.5"/>
+    <text x="112" y="181" text-anchor="middle" font-size="10" fill="white">Claude</text>
+    <rect x="140" y="165" width="70" height="24" rx="4" fill="#E8A87C" stroke="#1A1D24" stroke-width="1.5"/>
+    <text x="175" y="181" text-anchor="middle" font-size="10" fill="white">Meta</text>
+  </g>
+
+  <!-- Key numbers -->
+  <g transform="translate(370, 215)" filter="url(#softShadow)">
+    <rect x="0" y="0" width="980" height="160" rx="8" fill="white" stroke="#1A1D24" stroke-width="2.5"/>
+    <rect x="0" y="0" width="980" height="42" rx="8" fill="#2F3842"/>
+    <rect x="0" y="34" width="980" height="8" fill="#2F3842"/>
+    <text x="490" y="27" text-anchor="middle" font-size="15" font-weight="700" fill="white">📊 AWS Bedrock × OpenAI統合の規模感</text>
+    <text x="122" y="85" text-anchor="middle" font-size="38" font-weight="900" fill="#5B8DEF">300万+</text>
+    <text x="122" y="107" text-anchor="middle" font-size="12" fill="#555">Bedrock利用企業</text>
+    <text x="122" y="123" text-anchor="middle" font-size="11" fill="#888">（即日OpenAIアクセス可能）</text>
+    <line x1="245" y1="55" x2="245" y2="150" stroke="#E8E2D3" stroke-width="1.5"/>
+    <text x="367" y="85" text-anchor="middle" font-size="38" font-weight="900" fill="#5CA46E">&lt;24h</text>
+    <text x="367" y="107" text-anchor="middle" font-size="12" fill="#555">独占終了→Bedrock統合</text>
+    <text x="367" y="123" text-anchor="middle" font-size="11" fill="#888">（4/27終了 → 4/28統合）</text>
+    <line x1="490" y1="55" x2="490" y2="150" stroke="#E8E2D3" stroke-width="1.5"/>
+    <text x="612" y="85" text-anchor="middle" font-size="38" font-weight="900" fill="#E8A87C">3</text>
+    <text x="612" y="107" text-anchor="middle" font-size="12" fill="#555">新製品（GPT-5.5・Codex・</text>
+    <text x="612" y="123" text-anchor="middle" font-size="11" fill="#555">Bedrock Managed Agents）</text>
+    <line x1="735" y1="55" x2="735" y2="150" stroke="#E8E2D3" stroke-width="1.5"/>
+    <text x="857" y="85" text-anchor="middle" font-size="38" font-weight="900" fill="#8B7DB8">$33B</text>
+    <text x="857" y="107" text-anchor="middle" font-size="12" fill="#555">AmazonのAnthropic投資</text>
+    <text x="857" y="123" text-anchor="middle" font-size="11" fill="#888">（競合も同時提供する皮肉）</text>
+    <text x="490" y="148" text-anchor="middle" font-size="10" fill="#999">出典: TechCrunch 2026-04-28</text>
+  </g>
+
+  <!-- Cloud provider chart -->
+  <g transform="translate(130, 400)" filter="url(#softShadow)">
+    <rect x="0" y="0" width="760" height="220" rx="8" fill="white" stroke="#1A1D24" stroke-width="2.5"/>
+    <text x="380" y="25" text-anchor="middle" font-size="14" font-weight="700" fill="#1A1D24">☁️ クラウドプロバイダー別：OpenAI製品の展開状況（2026-04-28）</text>
+    <line x1="20" y1="35" x2="740" y2="35" stroke="#E8E2D3" stroke-width="1"/>
+    <!-- Azure -->
+    <rect x="50" y="55" width="160" height="120" rx="6" fill="#E8F0FF" stroke="#5B8DEF" stroke-width="2.5"/>
+    <text x="130" y="80" text-anchor="middle" font-size="14" font-weight="700" fill="#2F3842">Azure</text>
+    <text x="130" y="98" text-anchor="middle" font-size="11" fill="#5B8DEF">✅ 独占→非独占</text>
+    <text x="130" y="114" text-anchor="middle" font-size="10" fill="#555">OpenAI製品：全ライン</text>
+    <text x="130" y="130" text-anchor="middle" font-size="10" fill="#555">2032年まで非独占ライセンス</text>
+    <text x="130" y="160" text-anchor="middle" font-size="10" fill="#888">（既存顧客維持）</text>
+    <!-- AWS -->
+    <rect x="240" y="55" width="160" height="120" rx="6" fill="#E8FFF0" stroke="#5CA46E" stroke-width="2.5"/>
+    <text x="320" y="80" text-anchor="middle" font-size="14" font-weight="700" fill="#2F3842">AWS</text>
+    <text x="320" y="98" text-anchor="middle" font-size="11" fill="#5CA46E">✅ 新規統合（4/28）</text>
+    <text x="320" y="114" text-anchor="middle" font-size="10" fill="#555">GPT-5.5・Codex</text>
+    <text x="320" y="130" text-anchor="middle" font-size="10" fill="#555">Bedrock Managed Agents</text>
+    <text x="320" y="160" text-anchor="middle" font-size="10" fill="#888">（最大の新市場）</text>
+    <!-- GCP -->
+    <rect x="430" y="55" width="160" height="120" rx="6" fill="#FFFDE8" stroke="#F5A623" stroke-width="2.5" stroke-dasharray="6,3"/>
+    <text x="510" y="80" text-anchor="middle" font-size="14" font-weight="700" fill="#2F3842">GCP</text>
+    <text x="510" y="98" text-anchor="middle" font-size="11" fill="#E8A87C">⏳ 近日公開予定</text>
+    <text x="510" y="114" text-anchor="middle" font-size="10" fill="#555">OpenAI × Googleの</text>
+    <text x="510" y="130" text-anchor="middle" font-size="10" fill="#555">競合関係が壁か</text>
+    <text x="510" y="160" text-anchor="middle" font-size="10" fill="#888">（Vertex AIと競合）</text>
+    <!-- Others -->
+    <rect x="620" y="55" width="110" height="120" rx="6" fill="#F5F5F5" stroke="#888" stroke-width="1.5" stroke-dasharray="4,3"/>
+    <text x="675" y="80" text-anchor="middle" font-size="13" font-weight="700" fill="#2F3842">その他</text>
+    <text x="675" y="98" text-anchor="middle" font-size="11" fill="#888">検討中</text>
+    <text x="675" y="114" text-anchor="middle" font-size="10" fill="#888">Oracle・IBM・</text>
+    <text x="675" y="130" text-anchor="middle" font-size="10" fill="#888">Cloudflare他</text>
+    <text x="380" y="210" text-anchor="middle" font-size="10" fill="#999">出典: TechCrunch / OpenAI 2026-04-28</text>
+  </g>
+
+  <!-- Bedrock feature card -->
+  <g transform="translate(920, 400)" filter="url(#softShadow)">
+    <rect x="0" y="0" width="420" height="220" rx="8" fill="white" stroke="#1A1D24" stroke-width="2.5"/>
+    <text x="210" y="25" text-anchor="middle" font-size="14" font-weight="700" fill="#1A1D24">🆕 Bedrock Managed Agents とは</text>
+    <line x1="20" y1="35" x2="400" y2="35" stroke="#E8E2D3" stroke-width="1"/>
+    <text x="20" y="58" font-size="12" font-weight="700" fill="#5CA46E">OpenAI Codex ベース</text>
+    <text x="20" y="76" font-size="11" fill="#333">AIエージェントを管理・監視できる</text>
+    <text x="20" y="92" font-size="11" fill="#333">エンタープライズ向けプラットフォーム</text>
+    <line x1="15" y1="105" x2="405" y2="105" stroke="#E8E2D3" stroke-width="0.8" stroke-dasharray="3,3"/>
+    <text x="20" y="125" font-size="12" font-weight="700" fill="#5B8DEF">主要機能</text>
+    <text x="20" y="143" font-size="11" fill="#333">• GUIベースのエージェント定義</text>
+    <text x="20" y="159" font-size="11" fill="#333">• IAM統合・VPC対応・CloudWatch</text>
+    <text x="20" y="175" font-size="11" fill="#333">• コスト管理・承認ワークフロー</text>
+    <text x="20" y="191" font-size="11" fill="#333">• 監査ログ・アクセス制御</text>
+    <text x="210" y="212" text-anchor="middle" font-size="10" fill="#888">「最後の1マイル」問題を解消</text>
+  </g>
+
+  <!-- Sticky notes -->
+  <g transform="translate(130, 645) rotate(-1.3)" filter="url(#stickyShadow)">
+    <rect x="0" y="0" width="265" height="145" rx="3" fill="#FFF9C4" stroke="#E8D84A" stroke-width="1.5"/>
+    <rect x="0" y="0" width="265" height="22" fill="#FFE566" opacity="0.7" rx="3"/>
+    <text x="132" y="16" text-anchor="middle" font-size="12" font-weight="700" fill="#666">📌 AmazonのAI中立戦略</text>
+    <text x="12" y="45" font-size="11" fill="#333">Anthropic $33B投資しながら</text>
+    <text x="12" y="60" font-size="11" fill="#333">OpenAIも提供。まるで</text>
+    <text x="12" y="75" font-size="11" fill="#333">「AIのAppStore」として</text>
+    <text x="12" y="90" font-size="11" fill="#333">どのモデルが勝っても</text>
+    <text x="12" y="105" font-size="11" fill="#333">手数料を取る戦略。</text>
+    <text x="12" y="128" font-size="10" fill="#999">💡 インフラ制覇の論理</text>
+  </g>
+
+  <g transform="translate(420, 638) rotate(0.8)" filter="url(#stickyShadow)">
+    <rect x="0" y="0" width="265" height="145" rx="3" fill="#C8E6C9" stroke="#8BC34A" stroke-width="1.5"/>
+    <rect x="0" y="0" width="265" height="22" fill="#A5D6A7" opacity="0.8" rx="3"/>
+    <text x="132" y="16" text-anchor="middle" font-size="12" font-weight="700" fill="#2E7D32">📌 Azureへの打撃</text>
+    <text x="12" y="45" font-size="11" fill="#333">Azure独占が最大のOpenAI</text>
+    <text x="12" y="60" font-size="11" fill="#333">差別化要因だったが消滅。</text>
+    <text x="12" y="75" font-size="11" fill="#333">Azure ID・コンプライアンス</text>
+    <text x="12" y="90" font-size="11" fill="#333">機能のエコシステムで</text>
+    <text x="12" y="105" font-size="11" fill="#333">差別化するしかなくなった。</text>
+    <text x="12" y="128" font-size="10" fill="#999">💡 Microsoftの誤算</text>
+  </g>
+
+  <g transform="translate(710, 642) rotate(-0.5)" filter="url(#stickyShadow)">
+    <rect x="0" y="0" width="265" height="145" rx="3" fill="#E1BEE7" stroke="#AB47BC" stroke-width="1.5"/>
+    <rect x="0" y="0" width="265" height="22" fill="#CE93D8" opacity="0.8" rx="3"/>
+    <text x="132" y="16" text-anchor="middle" font-size="12" font-weight="700" fill="#4A148C">📌 OpenAIの収益多様化</text>
+    <text x="12" y="45" font-size="11" fill="#333">Bedrock経由でAWSが</text>
+    <text x="12" y="60" font-size="11" fill="#333">利用料の一部をOpenAIに</text>
+    <text x="12" y="75" font-size="11" fill="#333">支払う仕組みに。</text>
+    <text x="12" y="90" font-size="11" fill="#333">Azure以外からの直接</text>
+    <text x="12" y="105" font-size="11" fill="#333">収益がARR成長を加速させる。</text>
+    <text x="12" y="128" font-size="10" fill="#999">💡 目標達成への布石</text>
+  </g>
+
+  <g transform="translate(1000, 640) rotate(1.2)" filter="url(#stickyShadow)">
+    <rect x="0" y="0" width="320" height="145" rx="3" fill="#FFCCBC" stroke="#FF7043" stroke-width="1.5"/>
+    <rect x="0" y="0" width="320" height="22" fill="#FFAB91" opacity="0.8" rx="3"/>
+    <text x="160" y="16" text-anchor="middle" font-size="12" font-weight="700" fill="#BF360C">📌 Bedrock vs Vertex AI競争</text>
+    <text x="12" y="45" font-size="11" fill="#333">Bedrock：OpenAI+Claude+Meta</text>
+    <text x="12" y="60" font-size="11" fill="#333">を擁する「最大カタログ」に。</text>
+    <text x="12" y="75" font-size="11" fill="#333">Vertex AI：Gemini中心だが</text>
+    <text x="12" y="90" font-size="11" fill="#333">A2Aプロトコル150社本番稼働</text>
+    <text x="12" y="105" font-size="11" fill="#333">という実績がある。</text>
+    <text x="12" y="120" font-size="11" fill="#333">→ 価格・SLA・コンプラで差別化。</text>
+    <text x="12" y="138" font-size="10" fill="#555">💡 AI AppStore戦争の本番</text>
+  </g>
+
+  <g transform="translate(130, 808)">
+    <rect x="0" y="0" width="1210" height="115" rx="8" fill="white" stroke="#1A1D24" stroke-width="2" opacity="0.95"/>
+    <text x="30" y="28" font-size="14" font-weight="700" fill="#1A1D24">🏗️ Bedrock Managed Agentsの技術的意味</text>
+    <line x1="15" y1="38" x2="1195" y2="38" stroke="#E8E2D3" stroke-width="1"/>
+    <text x="30" y="60" font-size="12" fill="#333">従来: エンタープライズでOpenAIエージェントを使うには、プロンプトエンジニアリング知識・自社インフラ整備・セキュリティ設計が必要。「最後の1マイル」が障壁。</text>
+    <text x="30" y="80" font-size="12" fill="#333">今後: AWS IAM・VPC・CloudWatchと統合されたGUIワークフロー定義でエージェント展開可能。IT部門が知識なしで承認・ログ・コスト管理できる「AI民主化」の実現。</text>
+    <text x="30" y="100" font-size="12" fill="#333">リスク: 「簡単に作れる」ことで設計の甘いエージェントが本番環境に大量展開されるリスクも。LMDeploy CVE-2026-33626（13時間で悪用）の教訓を忘れてはならない。</text>
+  </g>
+
+  <text x="700" y="1038" text-anchor="middle" font-size="12" fill="#999" font-style="italic">AI News · 2026-04-28 · Amazon AWS Bedrock Integrates OpenAI Within 24h of Exclusivity End</text>
+</svg>

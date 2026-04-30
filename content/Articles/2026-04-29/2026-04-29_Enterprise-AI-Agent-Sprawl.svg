@@ -1,0 +1,179 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1400 1050" font-family="-apple-system, 'Hiragino Sans', 'Yu Gothic', sans-serif">
+  <defs>
+    <pattern id="paperTexture" patternUnits="userSpaceOnUse" width="100" height="100">
+      <rect width="100" height="100" fill="#FBF8F1"/>
+      <circle cx="20" cy="18" r="0.4" fill="#C4B389" opacity="0.3"/>
+      <circle cx="72" cy="62" r="0.5" fill="#C4B389" opacity="0.3"/>
+      <circle cx="38" cy="85" r="0.3" fill="#C4B389" opacity="0.3"/>
+    </pattern>
+    <filter id="stickyShadow" x="-10%" y="-10%" width="120%" height="120%">
+      <feGaussianBlur in="SourceAlpha" stdDeviation="3"/>
+      <feOffset dx="2" dy="3"/>
+      <feComponentTransfer><feFuncA type="linear" slope="0.25"/></feComponentTransfer>
+      <feMerge><feMergeNode/><feMergeNode in="SourceGraphic"/></feMerge>
+    </filter>
+    <filter id="softShadow" x="-10%" y="-10%" width="120%" height="120%">
+      <feGaussianBlur in="SourceAlpha" stdDeviation="2"/>
+      <feOffset dx="1" dy="2"/>
+      <feComponentTransfer><feFuncA type="linear" slope="0.18"/></feComponentTransfer>
+      <feMerge><feMergeNode/><feMergeNode in="SourceGraphic"/></feMerge>
+    </filter>
+  </defs>
+
+  <rect width="1400" height="1050" fill="url(#paperTexture)"/>
+  <line x1="110" y1="30" x2="110" y2="1020" stroke="#D88A8A" stroke-width="1.2" opacity="0.4"/>
+  <g fill="#E8E2D3" opacity="0.7"><circle cx="50" cy="100" r="11"/><circle cx="50" cy="300" r="11"/><circle cx="50" cy="500" r="11"/><circle cx="50" cy="700" r="11"/><circle cx="50" cy="900" r="11"/><circle cx="50" cy="980" r="11"/></g>
+  <g fill="none" stroke="#C8C0B0" stroke-width="1.5"><circle cx="50" cy="100" r="11"/><circle cx="50" cy="300" r="11"/><circle cx="50" cy="500" r="11"/><circle cx="50" cy="700" r="11"/><circle cx="50" cy="900" r="11"/><circle cx="50" cy="980" r="11"/></g>
+
+  <g transform="translate(1185, 26) rotate(-3)">
+    <rect x="0" y="0" width="180" height="36" rx="4" fill="#5CA46E" opacity="0.85"/>
+    <text x="90" y="23" text-anchor="middle" font-size="14" font-weight="700" fill="white">#ビジネス</text>
+  </g>
+
+  <rect x="125" y="28" width="185" height="36" rx="6" fill="#2F3842"/>
+  <text x="218" y="51" text-anchor="middle" font-size="15" font-weight="700" fill="white">2026-04-29</text>
+  <text x="328" y="53" font-size="20" fill="#F5A623">⭐⭐</text>
+
+  <text x="130" y="105" font-size="33" font-weight="900" fill="#1A1D24">🏭 エンタープライズAIエージェント普及率96%——管理は12%</text>
+  <text x="130" y="143" font-size="20" font-weight="600" fill="#444">——「AIエージェントはある、しかし全体像を把握している企業はない」</text>
+  <text x="130" y="175" font-size="13" fill="#888">OutSystems 2026 State of AI Development / Asanify  ·  2026-04-29  ·  #ビジネス #エージェント #管理</text>
+  <line x1="130" y1="190" x2="1340" y2="190" stroke="#1A1D24" stroke-width="2"/>
+
+  <!-- Hero icon -->
+  <g transform="translate(130, 208)">
+    <rect x="0" y="0" width="195" height="165" rx="12" fill="white" stroke="#1A1D24" stroke-width="2.5"/>
+    <text x="97" y="62" text-anchor="middle" font-size="46">🏭</text>
+    <text x="97" y="90" text-anchor="middle" font-size="13" font-weight="700" fill="#E05555">Agent Sprawl</text>
+    <text x="97" y="108" text-anchor="middle" font-size="11" fill="#555">OutSystems 2026</text>
+    <text x="97" y="126" text-anchor="middle" font-size="11" fill="#555">State of AI Development</text>
+    <text x="97" y="148" text-anchor="middle" font-size="11" fill="#888">Enterprise Survey</text>
+  </g>
+
+  <!-- Key numbers -->
+  <g transform="translate(345, 208)" filter="url(#softShadow)">
+    <rect x="0" y="0" width="995" height="165" rx="8" fill="white" stroke="#1A1D24" stroke-width="2.5"/>
+    <rect x="0" y="0" width="995" height="42" rx="8" fill="#2F3842"/>
+    <rect x="0" y="34" width="995" height="8" fill="#2F3842"/>
+    <text x="498" y="27" text-anchor="middle" font-size="15" font-weight="700" fill="white">📊 OutSystems 2026 AI調査：衝撃の3数字</text>
+    <text x="130" y="85" text-anchor="middle" font-size="48" font-weight="900" fill="#5CA46E">96%</text>
+    <text x="130" y="108" text-anchor="middle" font-size="13" fill="#555">企業がAIエージェントを</text>
+    <text x="130" y="126" text-anchor="middle" font-size="12" fill="#555">本番稼働させている</text>
+    <line x1="270" y1="52" x2="270" y2="157" stroke="#E8E2D3" stroke-width="1.5"/>
+    <text x="430" y="85" text-anchor="middle" font-size="48" font-weight="900" fill="#E05555">94%</text>
+    <text x="430" y="108" text-anchor="middle" font-size="13" fill="#555">がスプロールで複雑性・</text>
+    <text x="430" y="126" text-anchor="middle" font-size="12" fill="#555">技術債務・セキュリティリスク増大を懸念</text>
+    <line x1="590" y1="52" x2="590" y2="157" stroke="#E8E2D3" stroke-width="1.5"/>
+    <text x="795" y="85" text-anchor="middle" font-size="48" font-weight="900" fill="#E05555">12%</text>
+    <text x="795" y="108" text-anchor="middle" font-size="13" fill="#555">のみが中央管理プラットフォームを</text>
+    <text x="795" y="126" text-anchor="middle" font-size="12" fill="#555">保有（88%は管理なし）</text>
+    <text x="498" y="157" text-anchor="middle" font-size="10" fill="#999">出典: OutSystems "2026 State of AI Development" Survey</text>
+  </g>
+
+  <!-- Gap visualization -->
+  <g transform="translate(130, 395)">
+    <rect x="0" y="0" width="580" height="260" rx="8" fill="white" stroke="#1A1D24" stroke-width="2"/>
+    <text x="290" y="26" text-anchor="middle" font-size="14" font-weight="700" fill="#1A1D24">⚡ 普及率 vs 管理率のギャップ</text>
+
+    <!-- Gauge visual for 96% -->
+    <text x="145" y="65" text-anchor="middle" font-size="13" fill="#555">AIエージェント普及率</text>
+    <rect x="30" y="78" width="228" height="28" rx="4" fill="#E8E8E8" stroke="#1A1D24" stroke-width="1"/>
+    <rect x="30" y="78" width="219" height="28" rx="4" fill="#5CA46E"/>
+    <text x="144" y="97" text-anchor="middle" font-size="13" font-weight="700" fill="white">96%</text>
+
+    <!-- Gauge visual for 12% -->
+    <text x="145" y="132" text-anchor="middle" font-size="13" fill="#555">管理プラットフォーム保有率</text>
+    <rect x="30" y="145" width="228" height="28" rx="4" fill="#E8E8E8" stroke="#1A1D24" stroke-width="1"/>
+    <rect x="30" y="145" width="27" height="28" rx="4" fill="#E05555"/>
+    <text x="144" y="164" text-anchor="middle" font-size="13" font-weight="700" fill="#E05555">12%</text>
+
+    <!-- Gap arrow -->
+    <line x1="258" y1="92" x2="258" y2="159" stroke="#E05555" stroke-width="2" stroke-dasharray="5,3"/>
+    <text x="295" y="128" font-size="26" font-weight="900" fill="#E05555">84%</text>
+    <text x="295" y="148" font-size="12" fill="#E05555">管理なし</text>
+
+    <!-- 3 risk types -->
+    <text x="290" y="198" text-anchor="middle" font-size="13" font-weight="700" fill="#1A1D24">⚠️ スプロールが生む3種のリスク</text>
+    <rect x="20" y="208" width="160" height="38" rx="4" fill="#FFEBEE" stroke="#E05555" stroke-width="1.5"/>
+    <text x="100" y="223" text-anchor="middle" font-size="11" font-weight="700" fill="#E05555">① 過剰権限</text>
+    <text x="100" y="239" text-anchor="middle" font-size="10" fill="#333">Privilege Creep</text>
+    <rect x="200" y="208" width="170" height="38" rx="4" fill="#FFF3E0" stroke="#E8A87C" stroke-width="1.5"/>
+    <text x="285" y="223" text-anchor="middle" font-size="11" font-weight="700" fill="#E8A87C">② サプライチェーン</text>
+    <text x="285" y="239" text-anchor="middle" font-size="10" fill="#333">MCP/外部ツール脆弱性</text>
+    <rect x="390" y="208" width="170" height="38" rx="4" fill="#E3F2FD" stroke="#5B8DEF" stroke-width="1.5"/>
+    <text x="475" y="223" text-anchor="middle" font-size="11" font-weight="700" fill="#5B8DEF">③ データリネージュ欠如</text>
+    <text x="475" y="239" text-anchor="middle" font-size="10" fill="#333">監査不能・GDPR違反リスク</text>
+  </g>
+
+  <!-- Vendor response -->
+  <g transform="translate(730, 395)">
+    <rect x="0" y="0" width="610" height="260" rx="8" fill="white" stroke="#1A1D24" stroke-width="2"/>
+    <text x="305" y="26" text-anchor="middle" font-size="14" font-weight="700" fill="#1A1D24">🏆 主要ベンダーの「管理層」戦略</text>
+
+    <rect x="20" y="40" width="180" height="100" rx="6" fill="#FBE9E7" stroke="#5CA46E" stroke-width="2"/>
+    <text x="110" y="62" text-anchor="middle" font-size="12" font-weight="700" fill="#5CA46E">Anthropic</text>
+    <text x="30" y="80" font-size="11" fill="#1A1D24">Multi-agent Framework</text>
+    <text x="30" y="96" font-size="11" fill="#555">「Orchestra」層で</text>
+    <text x="30" y="112" font-size="11" fill="#555">権限・調整を集中管理</text>
+    <text x="110" y="130" text-anchor="middle" font-size="10" fill="#888">設計段階から管理を中核に</text>
+
+    <rect x="218" y="40" width="180" height="100" rx="6" fill="#E3F2FD" stroke="#5B8DEF" stroke-width="2"/>
+    <text x="308" y="62" text-anchor="middle" font-size="12" font-weight="700" fill="#5B8DEF">OpenAI</text>
+    <text x="228" y="80" font-size="11" fill="#1A1D24">Workspace Agents</text>
+    <text x="228" y="96" font-size="11" fill="#555">Custom GPTs廃止→</text>
+    <text x="228" y="112" font-size="11" fill="#555">チーム共有・集中管理</text>
+    <text x="308" y="130" text-anchor="middle" font-size="10" fill="#888">4月22日に発表済み</text>
+
+    <rect x="416" y="40" width="180" height="100" rx="6" fill="#E8F5E9" stroke="#5CA46E" stroke-width="2"/>
+    <text x="506" y="62" text-anchor="middle" font-size="12" font-weight="700" fill="#5CA46E">Google</text>
+    <text x="426" y="80" font-size="11" fill="#1A1D24">Gemini Enterprise</text>
+    <text x="426" y="96" font-size="11" fill="#555">Agent Platform</text>
+    <text x="426" y="112" font-size="11" fill="#555">管理ダッシュボードが中核</text>
+    <text x="506" y="130" text-anchor="middle" font-size="10" fill="#888">Cloud Next 2026で発表</text>
+
+    <!-- Prediction -->
+    <rect x="20" y="155" width="576" height="90" rx="6" fill="#F5F5F5" stroke="#1A1D24" stroke-width="1.5"/>
+    <text x="308" y="178" text-anchor="middle" font-size="13" font-weight="700" fill="#1A1D24">📈 新興市場「AIエージェントガバナンス」の誕生</text>
+    <text x="30" y="198" font-size="11" fill="#1A1D24">Gartner予測「2027年までに大企業の60%がエージェントガバナンスPFを導入」</text>
+    <text x="30" y="214" font-size="11" fill="#555">既存CMP/CASBベンダーのAI対応急加速 + 新興スタートアップが続々参入</text>
+    <text x="30" y="232" font-size="10" fill="#888">OutSystems調査の「12%」という数字がこの市場を正当化するデータポイントとして機能</text>
+  </g>
+
+  <!-- Sticky notes -->
+  <g transform="translate(130, 675)" filter="url(#stickyShadow)">
+    <g transform="rotate(-1.3)">
+      <rect x="0" y="0" width="280" height="95" rx="4" fill="#FFF9C4" stroke="#E8D84A" stroke-width="1.5"/>
+      <text x="140" y="22" text-anchor="middle" font-size="12" font-weight="700" fill="#1A1D24">⚠️ シャドーIT問題より深刻</text>
+      <text x="14" y="42" font-size="11" fill="#333">「アカウント誰が持っているか分からない</text>
+      <text x="14" y="58" font-size="11" fill="#333">SaaS」より危険。AIエージェントは</text>
+      <text x="14" y="74" font-size="11" fill="#333">データ・API・意思決定に触れる。</text>
+      <text x="14" y="89" font-size="10" fill="#888">EU AI Act要件（説明可能性）と矛盾。</text>
+    </g>
+    <g transform="translate(300, 5) rotate(1.2)">
+      <rect x="0" y="0" width="280" height="95" rx="4" fill="#C8E6C9" stroke="#81C784" stroke-width="1.5"/>
+      <text x="140" y="22" text-anchor="middle" font-size="12" font-weight="700" fill="#1A1D24">🔬 Reasoning Trap との相乗効果</text>
+      <text x="14" y="42" font-size="11" fill="#333">「推論↑→ツール幻覚↑」（ICLR論文）と</text>
+      <text x="14" y="58" font-size="11" fill="#333">「管理なしで96%本番稼働」が合わさると</text>
+      <text x="14" y="74" font-size="11" fill="#333">リスクは構造的・複合的になる。</text>
+      <text x="14" y="89" font-size="10" fill="#888">最新モデルに替えるほど危険が増す逆説。</text>
+    </g>
+    <g transform="translate(600, -2) rotate(0.9)">
+      <rect x="0" y="0" width="280" height="95" rx="4" fill="#B3E5FC" stroke="#4FC3F7" stroke-width="1.5"/>
+      <text x="140" y="22" text-anchor="middle" font-size="12" font-weight="700" fill="#1A1D24">📊 AI ROI 33%不振と連動</text>
+      <text x="14" y="42" font-size="11" fill="#333">MIT Tech Review：AI採用率88%に対し</text>
+      <text x="14" y="58" font-size="11" fill="#333">ROI実現率は33%（4/27報道）。</text>
+      <text x="14" y="74" font-size="11" fill="#333">「エージェント管理コスト爆発」が</text>
+      <text x="14" y="89" font-size="10" fill="#888">ROI低さの直接原因の一つ。</text>
+    </g>
+    <g transform="translate(900, 2) rotate(-1.0)">
+      <rect x="0" y="0" width="280" height="95" rx="4" fill="#FFE0B2" stroke="#FFB74D" stroke-width="1.5"/>
+      <text x="140" y="22" text-anchor="middle" font-size="12" font-weight="700" fill="#1A1D24">🔮 次の展開：集中か分散か</text>
+      <text x="14" y="42" font-size="11" fill="#333">大手3社への管理集中 or</text>
+      <text x="14" y="58" font-size="11" fill="#333">オープンなガバナンス標準（MCP系）</text>
+      <text x="14" y="74" font-size="11" fill="#333">のどちらかに収束する。</text>
+      <text x="14" y="89" font-size="10" fill="#888">2026〜2027年で勝者が決まる市場。</text>
+    </g>
+  </g>
+
+  <line x1="130" y1="1018" x2="1340" y2="1018" stroke="#1A1D24" stroke-width="1"/>
+  <text x="735" y="1036" text-anchor="middle" font-size="12" fill="#888" font-style="italic">AI News · 2026-04-29 · Enterprise AI Agent Sprawl: 96% Deploy Agents, Only 12% Have Management Platform</text>
+</svg>

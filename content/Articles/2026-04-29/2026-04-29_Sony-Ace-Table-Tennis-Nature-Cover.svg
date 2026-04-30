@@ -1,0 +1,187 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1400 1050" font-family="-apple-system, 'Hiragino Sans', 'Yu Gothic', sans-serif">
+  <defs>
+    <pattern id="paperTexture" patternUnits="userSpaceOnUse" width="100" height="100">
+      <rect width="100" height="100" fill="#FBF8F1"/>
+      <circle cx="20" cy="18" r="0.4" fill="#C4B389" opacity="0.3"/>
+      <circle cx="72" cy="62" r="0.5" fill="#C4B389" opacity="0.3"/>
+      <circle cx="38" cy="85" r="0.3" fill="#C4B389" opacity="0.3"/>
+    </pattern>
+    <filter id="stickyShadow" x="-10%" y="-10%" width="120%" height="120%">
+      <feGaussianBlur in="SourceAlpha" stdDeviation="3"/>
+      <feOffset dx="2" dy="3"/>
+      <feComponentTransfer><feFuncA type="linear" slope="0.25"/></feComponentTransfer>
+      <feMerge><feMergeNode/><feMergeNode in="SourceGraphic"/></feMerge>
+    </filter>
+    <filter id="softShadow" x="-10%" y="-10%" width="120%" height="120%">
+      <feGaussianBlur in="SourceAlpha" stdDeviation="2"/>
+      <feOffset dx="1" dy="2"/>
+      <feComponentTransfer><feFuncA type="linear" slope="0.18"/></feComponentTransfer>
+      <feMerge><feMergeNode/><feMergeNode in="SourceGraphic"/></feMerge>
+    </filter>
+  </defs>
+
+  <rect width="1400" height="1050" fill="url(#paperTexture)"/>
+  <line x1="110" y1="30" x2="110" y2="1020" stroke="#D88A8A" stroke-width="1.2" opacity="0.4"/>
+  <g fill="#E8E2D3" opacity="0.7"><circle cx="50" cy="100" r="11"/><circle cx="50" cy="300" r="11"/><circle cx="50" cy="500" r="11"/><circle cx="50" cy="700" r="11"/><circle cx="50" cy="900" r="11"/><circle cx="50" cy="980" r="11"/></g>
+  <g fill="none" stroke="#C8C0B0" stroke-width="1.5"><circle cx="50" cy="100" r="11"/><circle cx="50" cy="300" r="11"/><circle cx="50" cy="500" r="11"/><circle cx="50" cy="700" r="11"/><circle cx="50" cy="900" r="11"/><circle cx="50" cy="980" r="11"/></g>
+
+  <g transform="translate(1210, 26) rotate(-3)">
+    <rect x="0" y="0" width="155" height="36" rx="4" fill="#5B8DEF" opacity="0.9"/>
+    <text x="78" y="23" text-anchor="middle" font-size="14" font-weight="700" fill="white">#研究</text>
+  </g>
+
+  <rect x="125" y="28" width="185" height="36" rx="6" fill="#2F3842"/>
+  <text x="218" y="51" text-anchor="middle" font-size="15" font-weight="700" fill="white">2026-04-29</text>
+  <text x="328" y="53" font-size="20" fill="#F5A623">⭐⭐</text>
+
+  <text x="130" y="105" font-size="33" font-weight="900" fill="#1A1D24">🏓 Sony AI「Ace」がNatureカバーに——卓球プロを3戦全勝</text>
+  <text x="130" y="143" font-size="20" font-weight="600" fill="#444">——200Hz・3.0mm・10.2msのイベントカメラが人間の反応限界を超える</text>
+  <text x="130" y="175" font-size="13" fill="#888">Nature / Sony AI  ·  2026-04-23掲載  ·  #研究 #ロボティクス #PhysicalAI #卓球</text>
+  <line x1="130" y1="190" x2="1340" y2="190" stroke="#1A1D24" stroke-width="2"/>
+
+  <!-- Hero -->
+  <g transform="translate(130, 208)">
+    <rect x="0" y="0" width="195" height="165" rx="12" fill="white" stroke="#1A1D24" stroke-width="2.5"/>
+    <text x="97" y="58" text-anchor="middle" font-size="46">🏓</text>
+    <text x="97" y="84" text-anchor="middle" font-size="15" font-weight="700" fill="#5B8DEF">Project Ace</text>
+    <text x="97" y="102" text-anchor="middle" font-size="11" fill="#555">Nature Cover 2026</text>
+    <text x="97" y="120" text-anchor="middle" font-size="11" fill="#555">April 23, 2026</text>
+    <text x="97" y="140" text-anchor="middle" font-size="11" fill="#888">Sony AI + Sony Semiconductor</text>
+    <rect x="20" y="150" width="155" height="10" rx="5" fill="#5B8DEF" opacity="0.4"/>
+  </g>
+
+  <!-- Key numbers -->
+  <g transform="translate(345, 208)" filter="url(#softShadow)">
+    <rect x="0" y="0" width="995" height="165" rx="8" fill="white" stroke="#1A1D24" stroke-width="2.5"/>
+    <rect x="0" y="0" width="995" height="42" rx="8" fill="#2F3842"/>
+    <rect x="0" y="34" width="995" height="8" fill="#2F3842"/>
+    <text x="498" y="27" text-anchor="middle" font-size="15" font-weight="700" fill="white">📊 Ace システム主要性能指標</text>
+    <text x="110" y="82" text-anchor="middle" font-size="38" font-weight="900" fill="#5B8DEF">200Hz</text>
+    <text x="110" y="102" text-anchor="middle" font-size="12" fill="#555">イベントカメラ知覚周波数</text>
+    <text x="110" y="120" text-anchor="middle" font-size="11" fill="#888">通常カメラ（60Hz）の3.3倍</text>
+    <line x1="230" y1="52" x2="230" y2="157" stroke="#E8E2D3" stroke-width="1.5"/>
+    <text x="360" y="82" text-anchor="middle" font-size="38" font-weight="900" fill="#5B8DEF">3.0mm</text>
+    <text x="360" y="102" text-anchor="middle" font-size="12" fill="#555">ボール位置推定誤差</text>
+    <text x="360" y="120" text-anchor="middle" font-size="11" fill="#888">三次元空間でのリアルタイム追跡</text>
+    <line x1="480" y1="52" x2="480" y2="157" stroke="#E8E2D3" stroke-width="1.5"/>
+    <text x="600" y="82" text-anchor="middle" font-size="38" font-weight="900" fill="#5CA46E">10.2ms</text>
+    <text x="600" y="102" text-anchor="middle" font-size="12" fill="#555">平均応答遅延</text>
+    <text x="600" y="120" text-anchor="middle" font-size="11" fill="#888">人間反応時間（150〜250ms）を大幅下回る</text>
+    <line x1="720" y1="52" x2="720" y2="157" stroke="#E8E2D3" stroke-width="1.5"/>
+    <text x="857" y="78" text-anchor="middle" font-size="24" font-weight="900" fill="#E05555">3プロ全員に</text>
+    <text x="857" y="96" text-anchor="middle" font-size="24" font-weight="900" fill="#E05555">1勝以上</text>
+    <text x="857" y="116" text-anchor="middle" font-size="12" fill="#555">2026年3月の試合結果</text>
+    <text x="857" y="134" text-anchor="middle" font-size="11" fill="#888">史上初・一般競技スポーツでの偉業</text>
+    <text x="498" y="157" text-anchor="middle" font-size="10" fill="#999">出典: Nature, "Outplaying elite table tennis players with an autonomous robot" (2026-04-23)</text>
+  </g>
+
+  <!-- Match results timeline -->
+  <g transform="translate(130, 395)">
+    <rect x="0" y="0" width="580" height="260" rx="8" fill="white" stroke="#1A1D24" stroke-width="2"/>
+    <text x="290" y="26" text-anchor="middle" font-size="14" font-weight="700" fill="#1A1D24">📅 Ace の対人戦績タイムライン</text>
+
+    <!-- Dec 2025 -->
+    <rect x="20" y="42" width="250" height="100" rx="6" fill="#E3F2FD" stroke="#5B8DEF" stroke-width="2"/>
+    <text x="145" y="62" text-anchor="middle" font-size="12" font-weight="700" fill="#5B8DEF">2025年12月マッチ</text>
+    <text x="30" y="80" font-size="11" fill="#1A1D24">新規選手4名（エリート2・プロ2）</text>
+    <text x="30" y="96" font-size="11" fill="#5CA46E">✅ エリート2名に勝利</text>
+    <text x="30" y="112" font-size="11" fill="#5CA46E">✅ プロ1名に勝利</text>
+    <text x="30" y="128" font-size="11" fill="#E05555">❌ プロ1名に敗北</text>
+
+    <!-- Arrow -->
+    <text x="280" y="98" font-size="24" fill="#5B8DEF">→</text>
+
+    <!-- Mar 2026 -->
+    <rect x="310" y="42" width="250" height="100" rx="6" fill="#E8F5E9" stroke="#5CA46E" stroke-width="2.5"/>
+    <text x="435" y="62" text-anchor="middle" font-size="12" font-weight="700" fill="#5CA46E">2026年3月マッチ</text>
+    <text x="320" y="80" font-size="11" fill="#1A1D24">新規プロ選手3名</text>
+    <text x="320" y="96" font-size="11" fill="#5CA46E" font-weight="700">✅ 全3名に最低1勝を達成</text>
+    <text x="320" y="112" font-size="11" fill="#1A1D24">→ 「全プロに勝てる」段階へ</text>
+    <text x="320" y="130" font-size="11" fill="#5CA46E">★ Nature Cover掲載決定</text>
+
+    <!-- Milestone -->
+    <rect x="20" y="158" width="540" height="88" rx="6" fill="#FFF9C4" stroke="#E8D84A" stroke-width="2"/>
+    <text x="290" y="180" text-anchor="middle" font-size="13" font-weight="700" fill="#1A1D24">🏆 歴史的マイルストーン</text>
+    <text x="30" y="200" font-size="11" fill="#1A1D24">「一般的に行われる競技スポーツでエリート・プロ人間と競合できる最初の自律システム」</text>
+    <text x="30" y="218" font-size="11" fill="#555">AlphaGoの囲碁・Deep Blueのチェスに続く物理世界での初マイルストーン</text>
+    <text x="30" y="235" font-size="10" fill="#888">査読コメント：「物理AIの分水嶺 (watershed moment)」</text>
+  </g>
+
+  <!-- Technical system -->
+  <g transform="translate(730, 395)">
+    <rect x="0" y="0" width="610" height="260" rx="8" fill="white" stroke="#1A1D24" stroke-width="2"/>
+    <text x="305" y="26" text-anchor="middle" font-size="14" font-weight="700" fill="#1A1D24">⚙️ Ace システム技術構成</text>
+
+    <rect x="20" y="40" width="180" height="200" rx="6" fill="#E3F2FD" stroke="#5B8DEF" stroke-width="2"/>
+    <text x="110" y="62" text-anchor="middle" font-size="22">📷</text>
+    <text x="110" y="82" text-anchor="middle" font-size="12" font-weight="700" fill="#5B8DEF">知覚層</text>
+    <text x="110" y="100" text-anchor="middle" font-size="11" fill="#1A1D24">イベントカメラ</text>
+    <text x="110" y="116" text-anchor="middle" font-size="11" fill="#555">（Sony Semiconductor製）</text>
+    <text x="110" y="134" text-anchor="middle" font-size="11" fill="#555">• 200Hz非同期検知</text>
+    <text x="110" y="150" text-anchor="middle" font-size="11" fill="#555">• 光子変化をリアルタイム</text>
+    <text x="110" y="166" text-anchor="middle" font-size="11" fill="#555">• 3D位置 3.0mm誤差</text>
+    <text x="110" y="182" text-anchor="middle" font-size="11" fill="#555">• 遅延 10.2ms</text>
+    <text x="110" y="226" text-anchor="middle" font-size="10" fill="#888">通常カメラの限界を超える</text>
+
+    <rect x="220" y="40" width="170" height="200" rx="6" fill="#F3E5F5" stroke="#8B7DB8" stroke-width="2"/>
+    <text x="305" y="62" text-anchor="middle" font-size="22">🧠</text>
+    <text x="305" y="82" text-anchor="middle" font-size="12" font-weight="700" fill="#8B7DB8">制御・学習層</text>
+    <text x="225" y="100" font-size="11" fill="#1A1D24">深層強化学習（RL）</text>
+    <text x="225" y="116" font-size="11" fill="#555">• IL初期化（プロ戦術）</text>
+    <text x="225" y="132" font-size="11" fill="#555">• 自己対戦でSOTA探索</text>
+    <text x="225" y="148" font-size="11" fill="#555">• Sim-to-Real転移</text>
+    <text x="225" y="164" font-size="11" fill="#555">  （Domain Random.）</text>
+    <text x="225" y="182" font-size="11" fill="#555">• 軌道予測モデル内蔵</text>
+    <text x="305" y="226" text-anchor="middle" font-size="10" fill="#888">短期ワールドモデルとして機能</text>
+
+    <rect x="410" y="40" width="180" height="200" rx="6" fill="#E8F5E9" stroke="#5CA46E" stroke-width="2"/>
+    <text x="500" y="62" text-anchor="middle" font-size="22">🦾</text>
+    <text x="500" y="82" text-anchor="middle" font-size="12" font-weight="700" fill="#5CA46E">ハードウェア層</text>
+    <text x="420" y="100" font-size="11" fill="#1A1D24">高機動ロボット台</text>
+    <text x="420" y="116" font-size="11" fill="#555">• 高速アクチュエータ</text>
+    <text x="420" y="132" font-size="11" fill="#555">• 精密ラケット制御</text>
+    <text x="420" y="148" font-size="11" fill="#555">• 高剛性フレーム</text>
+    <text x="420" y="166" font-size="11" fill="#555">• 振動抑制設計</text>
+    <text x="420" y="184" font-size="11" fill="#555">• 動力追従制御</text>
+    <text x="500" y="226" text-anchor="middle" font-size="10" fill="#888">Sony縦断統合の強み</text>
+  </g>
+
+  <!-- Sticky notes -->
+  <g transform="translate(130, 675)" filter="url(#stickyShadow)">
+    <g transform="rotate(-1.2)">
+      <rect x="0" y="0" width="280" height="95" rx="4" fill="#FFF9C4" stroke="#E8D84A" stroke-width="1.5"/>
+      <text x="140" y="22" text-anchor="middle" font-size="12" font-weight="700" fill="#1A1D24">🎯 なぜ卓球が難しいか</text>
+      <text x="14" y="42" font-size="11" fill="#333">0.3〜0.5秒で返球が必要。</text>
+      <text x="14" y="58" font-size="11" fill="#333">毎ラリーで速度・回転・軌道が変化。</text>
+      <text x="14" y="74" font-size="11" fill="#333">通常カメラ（60Hz）では対応不能。</text>
+      <text x="14" y="89" font-size="10" fill="#888">知覚・計画・制御の全てが高速要求。</text>
+    </g>
+    <g transform="translate(300, 4) rotate(1.0)">
+      <rect x="0" y="0" width="280" height="95" rx="4" fill="#C8E6C9" stroke="#81C784" stroke-width="1.5"/>
+      <text x="140" y="22" text-anchor="middle" font-size="12" font-weight="700" fill="#1A1D24">🔬 LeCun理論との接続</text>
+      <text x="14" y="42" font-size="11" fill="#333">Ace は「ボール軌道予測 =</text>
+      <text x="14" y="58" font-size="11" fill="#333">短期ワールドモデル」を内部に持つ。</text>
+      <text x="14" y="74" font-size="11" fill="#333">LeCunの主張と部分的に合致。</text>
+      <text x="14" y="89" font-size="10" fill="#888">物理AIがワールドモデル時代を先導。</text>
+    </g>
+    <g transform="translate(600, -2) rotate(0.8)">
+      <rect x="0" y="0" width="280" height="95" rx="4" fill="#B3E5FC" stroke="#4FC3F7" stroke-width="1.5"/>
+      <text x="140" y="22" text-anchor="middle" font-size="12" font-weight="700" fill="#1A1D24">🏭 産業への転用</text>
+      <text x="14" y="42" font-size="11" fill="#333">イベントカメラ+高速RL制御は</text>
+      <text x="14" y="58" font-size="11" fill="#333">精密組み立て・外科ロボット・</text>
+      <text x="14" y="74" font-size="11" fill="#333">宇宙修理ロボットに直接転用可能。</text>
+      <text x="14" y="89" font-size="10" fill="#888">Sony半導体の垂直統合が競争優位。</text>
+    </g>
+    <g transform="translate(900, 3) rotate(-1.3)">
+      <rect x="0" y="0" width="280" height="95" rx="4" fill="#FFE0B2" stroke="#FFB74D" stroke-width="1.5"/>
+      <text x="140" y="22" text-anchor="middle" font-size="12" font-weight="700" fill="#1A1D24">🚀 次のマイルストーン</text>
+      <text x="14" y="42" font-size="11" fill="#333">①世界ランカーとの対戦</text>
+      <text x="14" y="58" font-size="11" fill="#333">②ダブルス・複数対象への拡張</text>
+      <text x="14" y="74" font-size="11" fill="#333">③医療（内視鏡）への転用</text>
+      <text x="14" y="89" font-size="10" fill="#888">スポーツ→実用サイクルが開始。</text>
+    </g>
+  </g>
+
+  <line x1="130" y1="1018" x2="1340" y2="1018" stroke="#1A1D24" stroke-width="1"/>
+  <text x="735" y="1036" text-anchor="middle" font-size="12" fill="#888" font-style="italic">AI News · 2026-04-29 · Sony AI Ace: First Robot to Beat Pro Table Tennis Players, Published on Nature Cover</text>
+</svg>
