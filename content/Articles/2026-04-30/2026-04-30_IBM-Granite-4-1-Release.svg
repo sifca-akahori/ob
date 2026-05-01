@@ -1,0 +1,167 @@
+<svg viewBox="0 0 1400 1050" xmlns="http://www.w3.org/2000/svg" font-family="-apple-system, 'Hiragino Sans', 'Yu Gothic', sans-serif">
+  <defs>
+    <pattern id="paperTexture" patternUnits="userSpaceOnUse" width="4" height="4">
+      <rect width="4" height="4" fill="#FBF8F1"/>
+      <circle cx="1" cy="1" r="0.4" fill="#E8E2D3" opacity="0.5"/>
+      <circle cx="3" cy="3" r="0.3" fill="#E8E2D3" opacity="0.3"/>
+    </pattern>
+    <filter id="softShadow">
+      <feDropShadow dx="2" dy="3" stdDeviation="4" flood-color="#1A1D24" flood-opacity="0.15"/>
+    </filter>
+    <filter id="stickyShadow">
+      <feDropShadow dx="3" dy="4" stdDeviation="5" flood-color="#1A1D24" flood-opacity="0.2"/>
+    </filter>
+  </defs>
+  <rect width="1400" height="1050" fill="url(#paperTexture)"/>
+
+  <!-- Binding holes -->
+  <line x1="40" y1="80" x2="40" y2="980" stroke="#E8E2D3" stroke-width="2"/>
+  <circle cx="40" cy="150" r="14" fill="#FBF8F1" stroke="#E8E2D3" stroke-width="2"/>
+  <circle cx="40" cy="280" r="14" fill="#FBF8F1" stroke="#E8E2D3" stroke-width="2"/>
+  <circle cx="40" cy="410" r="14" fill="#FBF8F1" stroke="#E8E2D3" stroke-width="2"/>
+  <circle cx="40" cy="540" r="14" fill="#FBF8F1" stroke="#E8E2D3" stroke-width="2"/>
+  <circle cx="40" cy="670" r="14" fill="#FBF8F1" stroke="#E8E2D3" stroke-width="2"/>
+  <circle cx="40" cy="800" r="14" fill="#FBF8F1" stroke="#E8E2D3" stroke-width="2"/>
+
+  <!-- Category tape - 研究 blue -->
+  <rect x="1180" y="-10" width="140" height="46" rx="4" fill="#5B8DEF" stroke="#1A1D24" stroke-width="2" transform="rotate(-3, 1180, -10)" filter="url(#stickyShadow)"/>
+  <text x="1250" y="22" text-anchor="middle" fill="#FBF8F1" font-size="15" font-weight="700" transform="rotate(-3, 1250, 22)">#研究</text>
+
+  <rect x="80" y="30" width="200" height="42" rx="6" fill="#2F3842" stroke="#1A1D24" stroke-width="2"/>
+  <text x="180" y="57" text-anchor="middle" fill="#FBF8F1" font-size="16" font-weight="700">2026-04-30</text>
+  <text x="1310" y="90" text-anchor="middle" font-size="28">⭐⭐</text>
+
+  <!-- Title -->
+  <text x="80" y="115" fill="#1A1D24" font-size="38" font-weight="900">🪨 IBM Granite 4.1：8BモデルがMoE 32Bに匹敵</text>
+  <text x="80" y="158" fill="#1A1D24" font-size="26" font-weight="800">3B・8B・30B + Speech + Vision をApache 2.0で全公開</text>
+  <line x1="80" y1="170" x2="1350" y2="170" stroke="#1A1D24" stroke-width="3"/>
+  <text x="80" y="193" fill="#666" font-size="14">IBM Research Blog / HuggingFace  ·  2026-04-30  ·  #Granite #オープンモデル #Apache2.0</text>
+
+  <!-- Hero -->
+  <g transform="translate(1245, 240)">
+    <circle cx="0" cy="0" r="65" fill="#F5F0E8" stroke="#1A1D24" stroke-width="3"/>
+    <text x="0" y="15" text-anchor="middle" font-size="55">🪨</text>
+  </g>
+
+  <!-- Key numbers -->
+  <rect x="80" y="215" width="280" height="155" rx="10" fill="#F5F0E8" stroke="#1A1D24" stroke-width="3" filter="url(#softShadow)"/>
+  <text x="220" y="248" text-anchor="middle" fill="#666" font-size="13" font-weight="600">訓練トークン数</text>
+  <text x="220" y="302" text-anchor="middle" fill="#1A1D24" font-size="60" font-weight="900">15T</text>
+  <text x="220" y="333" text-anchor="middle" fill="#555" font-size="13">マルチフェーズ学習</text>
+  <text x="220" y="355" text-anchor="middle" fill="#888" font-size="12">広範PT → 高品質アニーリング</text>
+
+  <rect x="380" y="215" width="280" height="155" rx="10" fill="#F5F0E8" stroke="#1A1D24" stroke-width="3" filter="url(#softShadow)"/>
+  <text x="520" y="248" text-anchor="middle" fill="#666" font-size="13" font-weight="600">HN スコア</text>
+  <text x="520" y="302" text-anchor="middle" fill="#1A1D24" font-size="60" font-weight="900">195pt</text>
+  <text x="520" y="333" text-anchor="middle" fill="#555" font-size="13">105 コメント</text>
+  <text x="520" y="355" text-anchor="middle" fill="#888" font-size="12">「エンタープライズOSSの新標準」</text>
+
+  <rect x="680" y="215" width="440" height="155" rx="10" fill="#F5F0E8" stroke="#1A1D24" stroke-width="3" filter="url(#softShadow)"/>
+  <text x="900" y="248" text-anchor="middle" fill="#666" font-size="13" font-weight="600">Granite Vision 4.1 vs Claude Opus 4.6</text>
+  <text x="900" y="295" text-anchor="middle" fill="#1A1D24" font-size="22" font-weight="800">表・グラフ認識ベンチで上回る</text>
+  <text x="900" y="325" text-anchor="middle" fill="#555" font-size="13">4Bモデルで実現（Opus 4.6比較）</text>
+  <text x="900" y="355" text-anchor="middle" fill="#888" font-size="12">※ 特化ベンチマーク、汎用VLMではない</text>
+
+  <!-- Model lineup bar chart -->
+  <rect x="80" y="395" width="1260" height="220" rx="10" fill="#F5F0E8" stroke="#1A1D24" stroke-width="2.5" filter="url(#softShadow)"/>
+  <text x="110" y="425" fill="#1A1D24" font-size="18" font-weight="800">📊 Granite 4.1 モデルファミリー</text>
+  <line x1="110" y1="435" x2="1320" y2="435" stroke="#1A1D24" stroke-width="1.5" stroke-dasharray="4,3"/>
+
+  <!-- Granite 3B -->
+  <rect x="130" y="455" width="160" height="60" rx="6" fill="#5B8DEF" stroke="#1A1D24" stroke-width="2.5"/>
+  <text x="210" y="482" text-anchor="middle" fill="#FBF8F1" font-size="18" font-weight="900">3B</text>
+  <text x="210" y="503" text-anchor="middle" fill="#FBF8F1" font-size="12">Dense / Instruct</text>
+  <text x="210" y="543" text-anchor="middle" fill="#1A1D24" font-size="12">エッジ・モバイル向け</text>
+
+  <!-- Granite 8B -->
+  <rect x="330" y="455" width="200" height="80" rx="6" fill="#1A1D24" stroke="#1A1D24" stroke-width="2.5"/>
+  <text x="430" y="488" text-anchor="middle" fill="#FBF8F1" font-size="22" font-weight="900">8B ★</text>
+  <text x="430" y="510" text-anchor="middle" fill="#5B8DEF" font-size="12">旧MoE 32Bに匹敵</text>
+  <text x="430" y="560" text-anchor="middle" fill="#1A1D24" font-size="12" font-weight="700">スイートスポット</text>
+
+  <!-- Granite 30B -->
+  <rect x="570" y="455" width="180" height="70" rx="6" fill="#5B8DEF" stroke="#1A1D24" stroke-width="2.5"/>
+  <text x="660" y="484" text-anchor="middle" fill="#FBF8F1" font-size="20" font-weight="900">30B</text>
+  <text x="660" y="506" text-anchor="middle" fill="#FBF8F1" font-size="12">Dense / Instruct</text>
+  <text x="660" y="550" text-anchor="middle" fill="#1A1D24" font-size="12">大規模エンタープライズ</text>
+
+  <!-- Speech 4.1 -->
+  <rect x="790" y="455" width="210" height="65" rx="6" fill="#8B7DB8" stroke="#1A1D24" stroke-width="2.5"/>
+  <text x="895" y="480" text-anchor="middle" fill="#FBF8F1" font-size="16" font-weight="900">Speech 4.1</text>
+  <text x="895" y="500" text-anchor="middle" fill="#FBF8F1" font-size="11">2B×2（ASR・翻訳）</text>
+  <text x="895" y="547" text-anchor="middle" fill="#1A1D24" font-size="12">エッジ多言語音声AI</text>
+
+  <!-- Vision 4.1 -->
+  <rect x="1045" y="455" width="210" height="65" rx="6" fill="#5CA46E" stroke="#1A1D24" stroke-width="2.5"/>
+  <text x="1150" y="480" text-anchor="middle" fill="#FBF8F1" font-size="16" font-weight="900">Vision 4.1</text>
+  <text x="1150" y="500" text-anchor="middle" fill="#FBF8F1" font-size="11">4B（表・グラフ特化）</text>
+  <text x="1150" y="547" text-anchor="middle" fill="#1A1D24" font-size="12">ドキュメントAI</text>
+
+  <!-- Apache 2.0 badge -->
+  <rect x="1290" y="455" width="60" height="65" rx="6" fill="#E8A87C" stroke="#1A1D24" stroke-width="2.5"/>
+  <text x="1320" y="483" text-anchor="middle" fill="#1A1D24" font-size="10" font-weight="800">Apache</text>
+  <text x="1320" y="500" text-anchor="middle" fill="#1A1D24" font-size="10" font-weight="800">2.0</text>
+  <text x="1320" y="518" text-anchor="middle" fill="#1A1D24" font-size="10" font-weight="800">全て</text>
+
+  <!-- Cards -->
+  <rect x="80" y="640" width="290" height="130" rx="8" fill="#F5F0E8" stroke="#1A1D24" stroke-width="2.5" filter="url(#softShadow)"/>
+  <text x="100" y="668" fill="#1A1D24" font-size="14" font-weight="800">Apache 2.0の強み</text>
+  <line x1="100" y1="675" x2="350" y2="675" stroke="#1A1D24" stroke-width="1.5"/>
+  <text x="100" y="695" fill="#555" font-size="12">商用・改変・再配布が完全自由</text>
+  <text x="100" y="713" fill="#555" font-size="12">Llama 4（制限あり）と差別化</text>
+  <text x="100" y="731" fill="#5B8DEF" font-size="12" font-weight="700">→ エンプレ展開・ファインチューン自由</text>
+  <text x="100" y="757" fill="#888" font-size="11">オンプレ / クラウドどちらも可</text>
+
+  <rect x="390" y="640" width="290" height="130" rx="8" fill="#F5F0E8" stroke="#1A1D24" stroke-width="2.5" filter="url(#softShadow)"/>
+  <text x="410" y="668" fill="#1A1D24" font-size="14" font-weight="800">競合対比</text>
+  <line x1="410" y1="675" x2="660" y2="675" stroke="#1A1D24" stroke-width="1.5"/>
+  <text x="410" y="695" fill="#555" font-size="12">Qwen 3.5・DeepSeek V4 Flash と並ぶ</text>
+  <text x="410" y="713" fill="#555" font-size="12">「西側製・商用OK」の希少枠</text>
+  <text x="410" y="731" fill="#1A1D24" font-size="12" font-weight="700">→ Llama 4 の代替として企業採用へ</text>
+  <text x="410" y="757" fill="#888" font-size="11">規制準拠での中国製モデル排除圧力も</text>
+
+  <rect x="700" y="640" width="290" height="130" rx="8" fill="#F5F0E8" stroke="#1A1D24" stroke-width="2.5" filter="url(#softShadow)"/>
+  <text x="720" y="668" fill="#1A1D24" font-size="14" font-weight="800">15Tトークン訓練の含意</text>
+  <line x1="720" y1="675" x2="970" y2="675" stroke="#1A1D24" stroke-width="1.5"/>
+  <text x="720" y="695" fill="#555" font-size="12">段階的品質向上アニーリングで</text>
+  <text x="720" y="713" fill="#555" font-size="12">数学・科学・コーディングを強化</text>
+  <text x="720" y="731" fill="#5B8DEF" font-size="12" font-weight="700">→ 小型モデルの「データ効率」が鍵に</text>
+  <text x="720" y="757" fill="#888" font-size="11">MoE不要でDenseが追いつく時代</text>
+
+  <rect x="1010" y="640" width="310" height="130" rx="8" fill="#F5F0E8" stroke="#1A1D24" stroke-width="2.5" filter="url(#softShadow)"/>
+  <text x="1030" y="668" fill="#1A1D24" font-size="14" font-weight="800">エッジAIへの展開</text>
+  <line x1="1030" y1="675" x2="1300" y2="675" stroke="#1A1D24" stroke-width="1.5"/>
+  <text x="1030" y="695" fill="#555" font-size="12">Speech 4.1はOLLAMA・TGI等で</text>
+  <text x="1030" y="713" fill="#555" font-size="12">そのままエッジ展開可能</text>
+  <text x="1030" y="731" fill="#5CA46E" font-size="12" font-weight="700">→ 病院・工場・車載での現地推論</text>
+  <text x="1030" y="757" fill="#888" font-size="11">Whisperの企業向け置換候補</text>
+
+  <!-- Sticky notes -->
+  <rect x="85" y="795" width="255" height="110" rx="5" fill="#FFF9C4" stroke="#1A1D24" stroke-width="2" filter="url(#stickyShadow)" transform="rotate(-1.5, 85, 795)"/>
+  <text x="105" y="823" fill="#1A1D24" font-size="13" font-weight="800" transform="rotate(-1.5)">🤔 Vision 4.1の注意点</text>
+  <text x="105" y="844" fill="#555" font-size="11" transform="rotate(-1.5)">「Claude Opus 4.6超え」は</text>
+  <text x="105" y="861" fill="#555" font-size="11" transform="rotate(-1.5)">表・グラフ特化ベンチの話。</text>
+  <text x="105" y="878" fill="#555" font-size="11" transform="rotate(-1.5)">汎用VLMとしての比較ではない</text>
+  <text x="105" y="895" fill="#888" font-size="10" transform="rotate(-1.5)">ベンチの文脈を読む必要あり</text>
+
+  <rect x="363" y="808" width="255" height="100" rx="5" fill="#C8E6C9" stroke="#1A1D24" stroke-width="2" filter="url(#stickyShadow)" transform="rotate(1, 363, 808)"/>
+  <text x="383" y="836" fill="#1A1D24" font-size="13" font-weight="800" transform="rotate(1)">💡 HNの反応</text>
+  <text x="383" y="857" fill="#555" font-size="11" transform="rotate(1)">「8B で MoE 32B を超えるなら</text>
+  <text x="383" y="874" fill="#555" font-size="11" transform="rotate(1)">ファインチューンの主役が変わる」</text>
+  <text x="383" y="891" fill="#555" font-size="11" transform="rotate(1)">195pt / 105コメント</text>
+
+  <rect x="641" y="795" width="255" height="110" rx="5" fill="#FFE0B2" stroke="#1A1D24" stroke-width="2" filter="url(#stickyShadow)" transform="rotate(-1, 641, 795)"/>
+  <text x="661" y="823" fill="#1A1D24" font-size="13" font-weight="800" transform="rotate(-1)">🔮 IBMの長期戦略</text>
+  <text x="661" y="844" fill="#555" font-size="11" transform="rotate(-1)">IBM watsonx + Granite 4.1で</text>
+  <text x="661" y="861" fill="#555" font-size="11" transform="rotate(-1)">エンタープライズAI基盤を狙う</text>
+  <text x="661" y="878" fill="#555" font-size="11" transform="rotate(-1)">IBM Cloud + Red Hat + OSS連携</text>
+  <text x="661" y="895" fill="#555" font-size="11" transform="rotate(-1)">が差別化軸</text>
+
+  <rect x="919" y="808" width="255" height="100" rx="5" fill="#E1BEE7" stroke="#1A1D24" stroke-width="2" filter="url(#stickyShadow)" transform="rotate(1.5, 919, 808)"/>
+  <text x="939" y="836" fill="#1A1D24" font-size="13" font-weight="800" transform="rotate(1.5)">📊 半年後の予測</text>
+  <text x="939" y="857" fill="#555" font-size="11" transform="rotate(1.5)">Granite 4.1 8Bが企業内RAG・</text>
+  <text x="939" y="874" fill="#555" font-size="11" transform="rotate(1.5)">ツール呼び出しの主力候補に。</text>
+  <text x="939" y="891" fill="#555" font-size="11" transform="rotate(1.5)">コスト比較でGPT-4o miniと競合</text>
+
+  <text x="700" y="1035" text-anchor="middle" fill="#999" font-size="13" font-style="italic">AI News · 2026-04-30 · IBM Granite 4.1: 8B Model Rivals MoE 32B, Apache 2.0 License</text>
+</svg>

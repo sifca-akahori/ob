@@ -1,0 +1,146 @@
+<svg viewBox="0 0 1400 1050" xmlns="http://www.w3.org/2000/svg" font-family="-apple-system, 'Hiragino Sans', 'Yu Gothic', sans-serif">
+  <defs>
+    <pattern id="paperTexture" patternUnits="userSpaceOnUse" width="4" height="4">
+      <rect width="4" height="4" fill="#FBF8F1"/>
+      <circle cx="1" cy="1" r="0.4" fill="#E8E2D3" opacity="0.5"/>
+      <circle cx="3" cy="3" r="0.3" fill="#E8E2D3" opacity="0.3"/>
+    </pattern>
+    <filter id="softShadow">
+      <feDropShadow dx="2" dy="3" stdDeviation="4" flood-color="#1A1D24" flood-opacity="0.15"/>
+    </filter>
+    <filter id="stickyShadow">
+      <feDropShadow dx="3" dy="4" stdDeviation="5" flood-color="#1A1D24" flood-opacity="0.2"/>
+    </filter>
+  </defs>
+  <rect width="1400" height="1050" fill="url(#paperTexture)"/>
+  <!-- Binding holes -->
+  <line x1="40" y1="80" x2="40" y2="980" stroke="#E8E2D3" stroke-width="2"/>
+  <circle cx="40" cy="150" r="14" fill="#FBF8F1" stroke="#E8E2D3" stroke-width="2"/>
+  <circle cx="40" cy="280" r="14" fill="#FBF8F1" stroke="#E8E2D3" stroke-width="2"/>
+  <circle cx="40" cy="410" r="14" fill="#FBF8F1" stroke="#E8E2D3" stroke-width="2"/>
+  <circle cx="40" cy="540" r="14" fill="#FBF8F1" stroke="#E8E2D3" stroke-width="2"/>
+  <circle cx="40" cy="670" r="14" fill="#FBF8F1" stroke="#E8E2D3" stroke-width="2"/>
+  <circle cx="40" cy="800" r="14" fill="#FBF8F1" stroke="#E8E2D3" stroke-width="2"/>
+  <!-- Category tape - ビジネス green -->
+  <rect x="1185" y="-10" width="160" height="46" rx="4" fill="#5CA46E" stroke="#1A1D24" stroke-width="2" transform="rotate(-3, 1185, -10)" filter="url(#stickyShadow)"/>
+  <text x="1265" y="22" text-anchor="middle" fill="#FBF8F1" font-size="15" font-weight="700" transform="rotate(-3, 1265, 22)">#ビジネス</text>
+  <!-- Date badge -->
+  <rect x="80" y="30" width="200" height="42" rx="6" fill="#2F3842" stroke="#1A1D24" stroke-width="2"/>
+  <text x="180" y="57" text-anchor="middle" fill="#FBF8F1" font-size="16" font-weight="700">2026-05-01</text>
+  <!-- Impact -->
+  <text x="1340" y="92" text-anchor="middle" font-size="26">⭐⭐⭐</text>
+  <!-- Title -->
+  <text x="80" y="118" fill="#1A1D24" font-size="38" font-weight="900">💸 Q1 2026 AI VC 爆発：$2,420億——全世界VC投資の80%を独占</text>
+  <text x="80" y="158" fill="#1A1D24" font-size="24" font-weight="700">史上最大VC案件ランキング Top5 のうち4本をQ1が独占、基盤AI投資が前年2倍</text>
+  <line x1="80" y1="172" x2="1340" y2="172" stroke="#1A1D24" stroke-width="3"/>
+  <text x="80" y="193" fill="#666" font-size="13">Crunchbase  ·  2026-05-01  ·  #VC #スタートアップ #OpenAI #Anthropic #xAI</text>
+  <!-- Hero -->
+  <g transform="translate(1260, 255)">
+    <circle cx="0" cy="0" r="68" fill="#F5F0E8" stroke="#1A1D24" stroke-width="3"/>
+    <text x="0" y="18" text-anchor="middle" font-size="60">🚀</text>
+  </g>
+  <!-- Key number blocks -->
+  <rect x="80" y="215" width="270" height="155" rx="10" fill="#F5F0E8" stroke="#1A1D24" stroke-width="3" filter="url(#softShadow)"/>
+  <text x="215" y="248" text-anchor="middle" fill="#5CA46E" font-size="13" font-weight="700">📊 Q1 2026 AI投資 合計</text>
+  <text x="215" y="305" text-anchor="middle" fill="#1A1D24" font-size="52" font-weight="900">$242B</text>
+  <text x="215" y="335" text-anchor="middle" fill="#555" font-size="13">全世界VC投資の 80%</text>
+  <text x="215" y="355" text-anchor="middle" fill="#888" font-size="12">2025年全年比 +263%</text>
+
+  <rect x="370" y="215" width="270" height="155" rx="10" fill="#F5F0E8" stroke="#1A1D24" stroke-width="3" filter="url(#softShadow)"/>
+  <text x="505" y="248" text-anchor="middle" fill="#5B8DEF" font-size="13" font-weight="700">🏆 基盤AI Q1調達</text>
+  <text x="505" y="305" text-anchor="middle" fill="#1A1D24" font-size="52" font-weight="900">$178B</text>
+  <text x="505" y="335" text-anchor="middle" fill="#555" font-size="13">24案件（vs 2025年全年66件）</text>
+  <text x="505" y="355" text-anchor="middle" fill="#888" font-size="12">2024年比 +466.9%</text>
+
+  <rect x="660" y="215" width="270" height="155" rx="10" fill="#F5F0E8" stroke="#1A1D24" stroke-width="3" filter="url(#softShadow)"/>
+  <text x="795" y="248" text-anchor="middle" fill="#E8A87C" font-size="13" font-weight="700">🔝 Top4社合計</text>
+  <text x="795" y="305" text-anchor="middle" fill="#1A1D24" font-size="52" font-weight="900">$188B</text>
+  <text x="795" y="335" text-anchor="middle" fill="#555" font-size="13">全VC投資の 65%</text>
+  <text x="795" y="355" text-anchor="middle" fill="#888" font-size="12">OpenAI·Anthropic·xAI·Waymo</text>
+
+  <!-- Bar chart: Top 4 -->
+  <rect x="80" y="390" width="1280" height="225" rx="10" fill="#F5F0E8" stroke="#1A1D24" stroke-width="2.5" filter="url(#softShadow)"/>
+  <text x="110" y="420" fill="#1A1D24" font-size="17" font-weight="800">💼 Q1 2026 巨大VC案件 TOP4（史上最大4案件）</text>
+  <line x1="110" y1="430" x2="1330" y2="430" stroke="#1A1D24" stroke-width="1.5" stroke-dasharray="4,3"/>
+  <!-- OpenAI bar -->
+  <rect x="120" y="445" width="310" height="110" rx="5" fill="#5B8DEF" stroke="#1A1D24" stroke-width="2.5"/>
+  <text x="275" y="510" text-anchor="middle" fill="#FBF8F1" font-size="30" font-weight="900">$122B</text>
+  <text x="275" y="536" text-anchor="middle" fill="#FBF8F1" font-size="13">OpenAI</text>
+  <text x="275" y="578" text-anchor="middle" fill="#1A1D24" font-size="12">史上最大VC案件 #1</text>
+  <!-- Anthropic bar -->
+  <rect x="460" y="490" width="230" height="65" rx="5" fill="#5CA46E" stroke="#1A1D24" stroke-width="2.5"/>
+  <text x="575" y="527" text-anchor="middle" fill="#FBF8F1" font-size="26" font-weight="900">$30B</text>
+  <text x="575" y="578" text-anchor="middle" fill="#1A1D24" font-size="12">Anthropic（Google主導）</text>
+  <!-- xAI bar -->
+  <rect x="720" y="505" width="170" height="50" rx="5" fill="#8B7DB8" stroke="#1A1D24" stroke-width="2.5"/>
+  <text x="805" y="535" text-anchor="middle" fill="#FBF8F1" font-size="22" font-weight="900">$20B</text>
+  <text x="805" y="578" text-anchor="middle" fill="#1A1D24" font-size="12">xAI（Grok 5開発費）</text>
+  <!-- Waymo bar -->
+  <rect x="920" y="515" width="130" height="40" rx="5" fill="#E8A87C" stroke="#1A1D24" stroke-width="2.5"/>
+  <text x="985" y="540" text-anchor="middle" fill="#1A1D24" font-size="18" font-weight="900">$16B</text>
+  <text x="985" y="578" text-anchor="middle" fill="#1A1D24" font-size="12">Waymo（自動運転）</text>
+  <!-- Others -->
+  <rect x="1080" y="540" width="270" height="15" rx="3" fill="#CCC" stroke="#1A1D24" stroke-width="1.5"/>
+  <text x="1215" y="578" text-anchor="middle" fill="#555" font-size="12">その他 AI ($54B)</text>
+
+  <!-- 4 feature cards -->
+  <rect x="80" y="638" width="290" height="130" rx="8" fill="#F5F0E8" stroke="#1A1D24" stroke-width="2.5" filter="url(#softShadow)"/>
+  <text x="225" y="668" text-anchor="middle" fill="#5CA46E" font-size="14" font-weight="800">📌 投資件数は激減</text>
+  <text x="225" y="694" text-anchor="middle" fill="#1A1D24" font-size="20" font-weight="900">66件 → 24件</text>
+  <text x="225" y="718" text-anchor="middle" fill="#555" font-size="12">案件数は減少しながら</text>
+  <text x="225" y="738" text-anchor="middle" fill="#555" font-size="12">金額は2倍超——極度の集中</text>
+  <text x="225" y="758" text-anchor="middle" fill="#888" font-size="11">2025年全年比</text>
+
+  <rect x="395" y="638" width="290" height="130" rx="8" fill="#F5F0E8" stroke="#1A1D24" stroke-width="2.5" filter="url(#softShadow)"/>
+  <text x="540" y="668" text-anchor="middle" fill="#5B8DEF" font-size="14" font-weight="800">🌍 地域別</text>
+  <text x="540" y="694" text-anchor="middle" fill="#1A1D24" font-size="20" font-weight="900">北米 81%</text>
+  <text x="540" y="718" text-anchor="middle" fill="#555" font-size="12">欧州 9%・アジア 7%</text>
+  <text x="540" y="738" text-anchor="middle" fill="#555" font-size="12">中東SWF参加で構図変化</text>
+  <text x="540" y="758" text-anchor="middle" fill="#888" font-size="11">Q1 2026 地域別シェア</text>
+
+  <rect x="710" y="638" width="290" height="130" rx="8" fill="#F5F0E8" stroke="#1A1D24" stroke-width="2.5" filter="url(#softShadow)"/>
+  <text x="855" y="668" text-anchor="middle" fill="#8B7DB8" font-size="14" font-weight="800">⚡ 評価額トップ</text>
+  <text x="855" y="694" text-anchor="middle" fill="#1A1D24" font-size="20" font-weight="900">$300B</text>
+  <text x="855" y="718" text-anchor="middle" fill="#555" font-size="12">OpenAI 評価額（推定）</text>
+  <text x="855" y="738" text-anchor="middle" fill="#555" font-size="12">Anthropic $350B / xAI $120B</text>
+  <text x="855" y="758" text-anchor="middle" fill="#888" font-size="11">post-money evaluation</text>
+
+  <rect x="1025" y="638" width="295" height="130" rx="8" fill="#F5F0E8" stroke="#1A1D24" stroke-width="2.5" filter="url(#softShadow)"/>
+  <text x="1172" y="668" text-anchor="middle" fill="#E8A87C" font-size="14" font-weight="800">📈 前年比較</text>
+  <text x="1172" y="694" text-anchor="middle" fill="#1A1D24" font-size="20" font-weight="900">+467%</text>
+  <text x="1172" y="718" text-anchor="middle" fill="#555" font-size="12">2024年全年 $31.4B との比較</text>
+  <text x="1172" y="738" text-anchor="middle" fill="#555" font-size="12">2年で15倍超の膨張</text>
+  <text x="1172" y="758" text-anchor="middle" fill="#888" font-size="11">vs 2024 total</text>
+
+  <!-- Sticky notes -->
+  <rect x="80" y="790" width="260" height="120" rx="4" fill="#FFF9C4" stroke="#1A1D24" stroke-width="2" filter="url(#stickyShadow)" transform="rotate(-1.2, 80, 790)"/>
+  <text x="95" y="820" fill="#1A1D24" font-size="13" font-weight="700">🤔 集中か、バブルか？</text>
+  <text x="95" y="842" fill="#333" font-size="12">24件に$178Bが集中。</text>
+  <text x="95" y="860" fill="#333" font-size="12">フロンティア4社以外への</text>
+  <text x="95" y="878" fill="#333" font-size="12">投資は枯渇しつつある。</text>
+  <text x="95" y="900" fill="#666" font-size="11">HN 340+ コメント</text>
+
+  <rect x="370" y="795" width="260" height="120" rx="4" fill="#C8F7C5" stroke="#1A1D24" stroke-width="2" filter="url(#stickyShadow)" transform="rotate(1.0, 370, 795)"/>
+  <text x="385" y="825" fill="#1A1D24" font-size="13" font-weight="700">💡 SoftBank の性質</text>
+  <text x="385" y="847" fill="#333" font-size="12">$122Bの大半はStargate</text>
+  <text x="385" y="865" fill="#333" font-size="12">経由のコンピュートクレジット</text>
+  <text x="385" y="883" fill="#333" font-size="12">実質エクイティは別。</text>
+  <text x="385" y="905" fill="#666" font-size="11">要精査</text>
+
+  <rect x="660" y="788" width="260" height="120" rx="4" fill="#FFD9B3" stroke="#1A1D24" stroke-width="2" filter="url(#stickyShadow)" transform="rotate(-0.8, 660, 788)"/>
+  <text x="675" y="818" fill="#1A1D24" font-size="13" font-weight="700">⚠️ 収益化の問い</text>
+  <text x="675" y="840" fill="#333" font-size="12">Azure AI $37B ARRは証明済。</text>
+  <text x="675" y="858" fill="#333" font-size="12">スタートアップ段階では</text>
+  <text x="675" y="876" fill="#333" font-size="12">投資額と収益のギャップが</text>
+  <text x="675" y="894" fill="#333" font-size="12">2026年末に可視化される。</text>
+
+  <rect x="950" y="793" width="260" height="120" rx="4" fill="#E8D5F5" stroke="#1A1D24" stroke-width="2" filter="url(#stickyShadow)" transform="rotate(1.5, 950, 793)"/>
+  <text x="965" y="823" fill="#1A1D24" font-size="13" font-weight="700">🔮 次の1年</text>
+  <text x="965" y="845" fill="#333" font-size="12">2027年に「$100B超調達企業」</text>
+  <text x="965" y="863" fill="#333" font-size="12">の年次収益が公開され、</text>
+  <text x="965" y="881" fill="#333" font-size="12">投資規模vs実収益の</text>
+  <text x="965" y="899" fill="#333" font-size="12">ギャップが試される。</text>
+
+  <!-- Footer -->
+  <text x="700" y="1032" text-anchor="middle" fill="#999" font-size="13" font-style="italic">AI News · 2026-05-01 · Q1 2026 AI VC Record Breaking: $242B, 80% of Global Venture Funding</text>
+</svg>

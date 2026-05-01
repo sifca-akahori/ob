@@ -1,0 +1,156 @@
+<svg viewBox="0 0 1400 1050" xmlns="http://www.w3.org/2000/svg" font-family="-apple-system, 'Hiragino Sans', 'Yu Gothic', sans-serif">
+  <defs>
+    <pattern id="paperTexture" patternUnits="userSpaceOnUse" width="4" height="4">
+      <rect width="4" height="4" fill="#FBF8F1"/>
+      <circle cx="1" cy="1" r="0.4" fill="#E8E2D3" opacity="0.5"/>
+      <circle cx="3" cy="3" r="0.3" fill="#E8E2D3" opacity="0.3"/>
+    </pattern>
+    <filter id="softShadow">
+      <feDropShadow dx="2" dy="3" stdDeviation="4" flood-color="#1A1D24" flood-opacity="0.15"/>
+    </filter>
+    <filter id="stickyShadow">
+      <feDropShadow dx="3" dy="4" stdDeviation="5" flood-color="#1A1D24" flood-opacity="0.2"/>
+    </filter>
+  </defs>
+  <rect width="1400" height="1050" fill="url(#paperTexture)"/>
+  <line x1="40" y1="80" x2="40" y2="980" stroke="#E8E2D3" stroke-width="2"/>
+  <circle cx="40" cy="150" r="14" fill="#FBF8F1" stroke="#E8E2D3" stroke-width="2"/>
+  <circle cx="40" cy="280" r="14" fill="#FBF8F1" stroke="#E8E2D3" stroke-width="2"/>
+  <circle cx="40" cy="410" r="14" fill="#FBF8F1" stroke="#E8E2D3" stroke-width="2"/>
+  <circle cx="40" cy="540" r="14" fill="#FBF8F1" stroke="#E8E2D3" stroke-width="2"/>
+  <circle cx="40" cy="670" r="14" fill="#FBF8F1" stroke="#E8E2D3" stroke-width="2"/>
+  <circle cx="40" cy="800" r="14" fill="#FBF8F1" stroke="#E8E2D3" stroke-width="2"/>
+  <rect x="1185" y="-10" width="145" height="46" rx="4" fill="#E8A87C" stroke="#1A1D24" stroke-width="2" transform="rotate(-3, 1185, -10)" filter="url(#stickyShadow)"/>
+  <text x="1256" y="22" text-anchor="middle" fill="#1A1D24" font-size="15" font-weight="700" transform="rotate(-3, 1256, 22)">#SNS</text>
+  <rect x="80" y="30" width="200" height="42" rx="6" fill="#2F3842" stroke="#1A1D24" stroke-width="2"/>
+  <text x="180" y="57" text-anchor="middle" fill="#FBF8F1" font-size="16" font-weight="700">2026-05-01</text>
+  <text x="1340" y="92" text-anchor="middle" font-size="26">⭐</text>
+  <text x="80" y="118" fill="#1A1D24" font-size="36" font-weight="900">📱 Google、消費者AI全方位浸透——Photos試着・TV Gemini・車載Gemini</text>
+  <text x="80" y="158" fill="#1A1D24" font-size="24" font-weight="700">「AIの次の戦場は家電・車・テレビ」——Apple/Samsung/Tesla との日常AI争奪戦が開幕</text>
+  <line x1="80" y1="172" x2="1340" y2="172" stroke="#1A1D24" stroke-width="3"/>
+  <text x="80" y="193" fill="#666" font-size="13">AI Product Launches / The Verge  ·  2026-05-01  ·  #Google #Gemini #Android #コンシューマーAI</text>
+  <g transform="translate(1265, 258)">
+    <circle cx="0" cy="0" r="68" fill="#FFF3E8" stroke="#1A1D24" stroke-width="3"/>
+    <text x="0" y="18" text-anchor="middle" font-size="58">🏠</text>
+  </g>
+
+  <!-- 3 product areas -->
+  <rect x="80" y="215" width="380" height="200" rx="10" fill="#FFF3E8" stroke="#1A1D24" stroke-width="3" filter="url(#softShadow)"/>
+  <text x="270" y="250" text-anchor="middle" fill="#E8A87C" font-size="28">👗</text>
+  <text x="270" y="280" text-anchor="middle" fill="#1A1D24" font-size="18" font-weight="800">Google Photos AI試着</text>
+  <line x1="110" y1="292" x2="430" y2="292" stroke="#E8A87C" stroke-width="2"/>
+  <text x="270" y="315" text-anchor="middle" fill="#555" font-size="13">ユーザー服画像に</text>
+  <text x="270" y="337" text-anchor="middle" fill="#555" font-size="13">自分の写真を合成して試着</text>
+  <text x="270" y="359" text-anchor="middle" fill="#888" font-size="12">Google Shopping連携→EC誘導</text>
+  <text x="270" y="380" text-anchor="middle" fill="#888" font-size="12">Snapchat AR Try-Onの対抗</text>
+  <text x="270" y="402" text-anchor="middle" fill="#E8A87C" font-size="12" font-weight="700">過去写真データが強み・プライバシー懸念も</text>
+
+  <rect x="490" y="215" width="380" height="200" rx="10" fill="#F0F8FF" stroke="#1A1D24" stroke-width="3" filter="url(#softShadow)"/>
+  <text x="680" y="250" text-anchor="middle" fill="#5B8DEF" font-size="28">📺</text>
+  <text x="680" y="280" text-anchor="middle" fill="#1A1D24" font-size="18" font-weight="800">Google TV × Gemini</text>
+  <line x1="520" y1="292" x2="840" y2="292" stroke="#5B8DEF" stroke-width="2"/>
+  <text x="680" y="315" text-anchor="middle" fill="#555" font-size="13">数億台のAndroid TVに</text>
+  <text x="680" y="337" text-anchor="middle" fill="#555" font-size="13">エンタメ発見・検索AI</text>
+  <text x="680" y="359" text-anchor="middle" fill="#888" font-size="12">Netflix/YouTube/Prime との競合</text>
+  <text x="680" y="380" text-anchor="middle" fill="#888" font-size="12">「見る前の選択」を支配</text>
+  <text x="680" y="402" text-anchor="middle" fill="#5B8DEF" font-size="12" font-weight="700">DMA（欧州ゲートキーパー規制）対象リスク</text>
+
+  <rect x="900" y="215" width="390" height="200" rx="10" fill="#F0FFF0" stroke="#1A1D24" stroke-width="3" filter="url(#softShadow)"/>
+  <text x="1095" y="250" text-anchor="middle" fill="#5CA46E" font-size="28">🚗</text>
+  <text x="1095" y="280" text-anchor="middle" fill="#1A1D24" font-size="18" font-weight="800">車載 Gemini 統合</text>
+  <line x1="930" y1="292" x2="1260" y2="292" stroke="#5CA46E" stroke-width="2"/>
+  <text x="1095" y="315" text-anchor="middle" fill="#555" font-size="13">数百万台の車両に</text>
+  <text x="1095" y="337" text-anchor="middle" fill="#555" font-size="13">ナビ・通信・車内ヘルプAI</text>
+  <text x="1095" y="359" text-anchor="middle" fill="#888" font-size="12">Android Auto採用メーカー向け</text>
+  <text x="1095" y="380" text-anchor="middle" fill="#888" font-size="12">Hyundai/Renault/GM等が対象</text>
+  <text x="1095" y="402" text-anchor="middle" fill="#5CA46E" font-size="12" font-weight="700">Tesla Grok vs Gemini——AI車内アシスタント戦争</text>
+
+  <!-- Competitive matrix -->
+  <rect x="80" y="435" width="1280" height="175" rx="10" fill="#F5F0E8" stroke="#1A1D24" stroke-width="2.5" filter="url(#softShadow)"/>
+  <text x="110" y="465" fill="#1A1D24" font-size="17" font-weight="800">⚔️ 消費者AIの競合マップ——Google vs Apple vs Samsung vs Tesla</text>
+  <line x1="110" y1="475" x2="1330" y2="475" stroke="#1A1D24" stroke-width="1.5" stroke-dasharray="4,3"/>
+  <!-- Table -->
+  <text x="200" y="506" text-anchor="middle" fill="#555" font-size="13" font-weight="700">カテゴリ</text>
+  <text x="480" y="506" text-anchor="middle" fill="#5CA46E" font-size="13" font-weight="700">Google</text>
+  <text x="700" y="506" text-anchor="middle" fill="#5B8DEF" font-size="13" font-weight="700">Apple</text>
+  <text x="920" y="506" text-anchor="middle" fill="#8B7DB8" font-size="13" font-weight="700">Samsung</text>
+  <text x="1150" y="506" text-anchor="middle" fill="#E8A87C" font-size="13" font-weight="700">Tesla</text>
+
+  <text x="200" y="535" text-anchor="middle" fill="#1A1D24" font-size="12">スマートフォン</text>
+  <text x="480" y="535" text-anchor="middle" fill="#1A1D24" font-size="12">Gemini Nano + クラウド</text>
+  <text x="700" y="535" text-anchor="middle" fill="#1A1D24" font-size="12">Apple Intelligence + PCC</text>
+  <text x="920" y="535" text-anchor="middle" fill="#1A1D24" font-size="12">Galaxy AI</text>
+  <text x="1150" y="535" text-anchor="middle" fill="#555" font-size="12">—</text>
+
+  <text x="200" y="562" text-anchor="middle" fill="#1A1D24" font-size="12">テレビ・エンタメ</text>
+  <text x="480" y="562" text-anchor="middle" fill="#5CA46E" font-size="12" font-weight="700">Gemini TV ★新</text>
+  <text x="700" y="562" text-anchor="middle" fill="#1A1D24" font-size="12">Apple TV+ Siri</text>
+  <text x="920" y="562" text-anchor="middle" fill="#1A1D24" font-size="12">Tizen AI</text>
+  <text x="1150" y="562" text-anchor="middle" fill="#555" font-size="12">—</text>
+
+  <text x="200" y="590" text-anchor="middle" fill="#1A1D24" font-size="12">車載AI</text>
+  <text x="480" y="590" text-anchor="middle" fill="#5CA46E" font-size="12" font-weight="700">Gemini Car ★新</text>
+  <text x="700" y="590" text-anchor="middle" fill="#1A1D24" font-size="12">CarPlay + Siri</text>
+  <text x="920" y="590" text-anchor="middle" fill="#555" font-size="12">—</text>
+  <text x="1150" y="590" text-anchor="middle" fill="#E8A87C" font-size="12" font-weight="700">Grok（xAI）</text>
+
+  <!-- 4 cards -->
+  <rect x="80" y="630" width="285" height="130" rx="8" fill="#F5F0E8" stroke="#1A1D24" stroke-width="2.5" filter="url(#softShadow)"/>
+  <text x="222" y="660" text-anchor="middle" fill="#E8A87C" font-size="13" font-weight="800">🛍️ EC誘導の本質</text>
+  <text x="222" y="682" text-anchor="middle" fill="#1A1D24" font-size="13">試着→買いたい→Google Shop</text>
+  <text x="222" y="704" text-anchor="middle" fill="#555" font-size="12">Amazon「ワンクリック」への</text>
+  <text x="222" y="722" text-anchor="middle" fill="#555" font-size="12">Google流回答</text>
+  <text x="222" y="750" text-anchor="middle" fill="#888" font-size="11">写真データがペルソナの鍵</text>
+
+  <rect x="385" y="630" width="285" height="130" rx="8" fill="#F5F0E8" stroke="#1A1D24" stroke-width="2.5" filter="url(#softShadow)"/>
+  <text x="527" y="660" text-anchor="middle" fill="#5B8DEF" font-size="13" font-weight="800">📺 コンテンツ発見の支配</text>
+  <text x="527" y="682" text-anchor="middle" fill="#1A1D24" font-size="13">選ばれる前の段階を制御</text>
+  <text x="527" y="704" text-anchor="middle" fill="#555" font-size="12">Netflix/YouTube/Primeより</text>
+  <text x="527" y="722" text-anchor="middle" fill="#555" font-size="12">上流の意思決定を支配</text>
+  <text x="527" y="750" text-anchor="middle" fill="#888" font-size="11">DMAゲートキーパー問題</text>
+
+  <rect x="690" y="630" width="285" height="130" rx="8" fill="#F5F0E8" stroke="#1A1D24" stroke-width="2.5" filter="url(#softShadow)"/>
+  <text x="832" y="660" text-anchor="middle" fill="#5CA46E" font-size="13" font-weight="800">🚗 車内AIアシスタント戦争</text>
+  <text x="832" y="682" text-anchor="middle" fill="#1A1D24" font-size="13">Tesla: Grok（xAI）</text>
+  <text x="832" y="704" text-anchor="middle" fill="#555" font-size="12">Google: Gemini（非Tesla向け）</text>
+  <text x="832" y="722" text-anchor="middle" fill="#555" font-size="12">「誰の声を聞くか」が差別化</text>
+  <text x="832" y="750" text-anchor="middle" fill="#888" font-size="11">2027〜2028に激化予測</text>
+
+  <rect x="995" y="630" width="285" height="130" rx="8" fill="#F5F0E8" stroke="#1A1D24" stroke-width="2.5" filter="url(#softShadow)"/>
+  <text x="1137" y="660" text-anchor="middle" fill="#8B7DB8" font-size="13" font-weight="800">🔒 プライバシーの逆説</text>
+  <text x="1137" y="682" text-anchor="middle" fill="#1A1D24" font-size="13">便利 × プライバシーリスク</text>
+  <text x="1137" y="704" text-anchor="middle" fill="#555" font-size="12">写真・視聴履歴・移動データが</text>
+  <text x="1137" y="722" text-anchor="middle" fill="#555" font-size="12">AIのパーソナライズに集約</text>
+  <text x="1137" y="750" text-anchor="middle" fill="#888" font-size="11">EUは規制対象候補</text>
+
+  <!-- Sticky notes -->
+  <rect x="80" y="782" width="265" height="118" rx="4" fill="#FFF9C4" stroke="#1A1D24" stroke-width="2" filter="url(#stickyShadow)" transform="rotate(-1.0, 80, 782)"/>
+  <text x="95" y="812" fill="#1A1D24" font-size="13" font-weight="700">💡 X上の議論</text>
+  <text x="95" y="834" fill="#333" font-size="12">「スマホの次の戦場は</text>
+  <text x="95" y="852" fill="#333" font-size="12">テレビ・冷蔵庫・車」</text>
+  <text x="95" y="870" fill="#333" font-size="12">という予測がトレンド入り。</text>
+  <text x="95" y="888" fill="#666" font-size="11">開発者・製品人材が活発議論</text>
+
+  <rect x="370" y="787" width="265" height="118" rx="4" fill="#C8F7C5" stroke="#1A1D24" stroke-width="2" filter="url(#stickyShadow)" transform="rotate(0.8, 370, 787)"/>
+  <text x="385" y="817" fill="#1A1D24" font-size="13" font-weight="700">🔑 Googleの「蛸壺戦略」</text>
+  <text x="385" y="839" fill="#333" font-size="12">検索→Maps→メール→写真</text>
+  <text x="385" y="857" fill="#333" font-size="12">→TV→車と全接点に</text>
+  <text x="385" y="875" fill="#333" font-size="12">Geminiを埋め込む。</text>
+  <text x="385" y="893" fill="#333" font-size="12">ユーザーの全行動を把握。</text>
+
+  <rect x="655" y="780" width="265" height="118" rx="4" fill="#FFD9B3" stroke="#1A1D24" stroke-width="2" filter="url(#stickyShadow)" transform="rotate(-0.7, 655, 780)"/>
+  <text x="670" y="810" fill="#1A1D24" font-size="13" font-weight="700">⚡ Apple との違い</text>
+  <text x="670" y="832" fill="#333" font-size="12">AppleはPrivate Cloud</text>
+  <text x="670" y="850" fill="#333" font-size="12">Computeでデータ保護を訴求。</text>
+  <text x="670" y="868" fill="#333" font-size="12">Googleは「便利さ」先行。</text>
+  <text x="670" y="886" fill="#333" font-size="12">プライバシーで差別化も可。</text>
+
+  <rect x="940" y="785" width="265" height="118" rx="4" fill="#E8D5F5" stroke="#1A1D24" stroke-width="2" filter="url(#stickyShadow)" transform="rotate(1.2, 940, 785)"/>
+  <text x="955" y="815" fill="#1A1D24" font-size="13" font-weight="700">🔮 2027年の家電AI</text>
+  <text x="955" y="837" fill="#333" font-size="12">冷蔵庫・洗濯機・電子レンジへの</text>
+  <text x="955" y="855" fill="#333" font-size="12">Gemini統合は次のステップ。</text>
+  <text x="955" y="873" fill="#333" font-size="12">LG・パナソニックとの</text>
+  <text x="955" y="891" fill="#333" font-size="12">提携交渉が進行中との噂。</text>
+
+  <text x="700" y="1032" text-anchor="middle" fill="#999" font-size="13" font-style="italic">AI News · 2026-05-01 · Google Consumer AI Everywhere: Photos Try-On, Google TV Gemini, In-Car Gemini</text>
+</svg>

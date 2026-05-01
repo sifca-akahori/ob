@@ -1,0 +1,153 @@
+<svg viewBox="0 0 1400 1050" xmlns="http://www.w3.org/2000/svg" font-family="-apple-system, 'Hiragino Sans', 'Yu Gothic', sans-serif">
+  <defs>
+    <pattern id="paperTexture" patternUnits="userSpaceOnUse" width="4" height="4">
+      <rect width="4" height="4" fill="#FBF8F1"/>
+      <circle cx="1" cy="1" r="0.4" fill="#E8E2D3" opacity="0.5"/>
+      <circle cx="3" cy="3" r="0.3" fill="#E8E2D3" opacity="0.3"/>
+    </pattern>
+    <filter id="softShadow">
+      <feDropShadow dx="2" dy="3" stdDeviation="4" flood-color="#1A1D24" flood-opacity="0.15"/>
+    </filter>
+    <filter id="stickyShadow">
+      <feDropShadow dx="3" dy="4" stdDeviation="5" flood-color="#1A1D24" flood-opacity="0.2"/>
+    </filter>
+  </defs>
+  <rect width="1400" height="1050" fill="url(#paperTexture)"/>
+  <line x1="40" y1="80" x2="40" y2="980" stroke="#E8E2D3" stroke-width="2"/>
+  <circle cx="40" cy="150" r="14" fill="#FBF8F1" stroke="#E8E2D3" stroke-width="2"/>
+  <circle cx="40" cy="280" r="14" fill="#FBF8F1" stroke="#E8E2D3" stroke-width="2"/>
+  <circle cx="40" cy="410" r="14" fill="#FBF8F1" stroke="#E8E2D3" stroke-width="2"/>
+  <circle cx="40" cy="540" r="14" fill="#FBF8F1" stroke="#E8E2D3" stroke-width="2"/>
+  <circle cx="40" cy="670" r="14" fill="#FBF8F1" stroke="#E8E2D3" stroke-width="2"/>
+  <circle cx="40" cy="800" r="14" fill="#FBF8F1" stroke="#E8E2D3" stroke-width="2"/>
+  <rect x="1185" y="-10" width="160" height="46" rx="4" fill="#5CA46E" stroke="#1A1D24" stroke-width="2" transform="rotate(-3, 1185, -10)" filter="url(#stickyShadow)"/>
+  <text x="1265" y="22" text-anchor="middle" fill="#FBF8F1" font-size="15" font-weight="700" transform="rotate(-3, 1265, 22)">#ビジネス</text>
+  <rect x="80" y="30" width="200" height="42" rx="6" fill="#2F3842" stroke="#1A1D24" stroke-width="2"/>
+  <text x="180" y="57" text-anchor="middle" fill="#FBF8F1" font-size="16" font-weight="700">2026-05-01</text>
+  <text x="1340" y="92" text-anchor="middle" font-size="26">⭐⭐</text>
+  <text x="80" y="118" fill="#1A1D24" font-size="36" font-weight="900">🎯 Google I/O 2026 プレビュー：AI エージェント・A2A・Android 17</text>
+  <text x="80" y="158" fill="#1A1D24" font-size="24" font-weight="700">OpenAI対抗の総決算——Workspace Studio・Gemini 3.2・Brin ストライクチームの成果が登場か</text>
+  <line x1="80" y1="172" x2="1340" y2="172" stroke="#1A1D24" stroke-width="3"/>
+  <text x="80" y="193" fill="#666" font-size="13">Yahoo Tech / The Next Web  ·  2026-05-01  ·  #Google #GoogleIO #Gemini #A2A #Android</text>
+  <g transform="translate(1265, 258)">
+    <circle cx="0" cy="0" r="68" fill="#F5F0E8" stroke="#1A1D24" stroke-width="3"/>
+    <text x="0" y="18" text-anchor="middle" font-size="58">🎪</text>
+  </g>
+
+  <!-- 4 pillars -->
+  <rect x="80" y="215" width="1280" height="205" rx="10" fill="#F5F0E8" stroke="#1A1D24" stroke-width="2.5" filter="url(#softShadow)"/>
+  <text x="110" y="246" fill="#1A1D24" font-size="17" font-weight="800">🏛️ Google I/O 2026 予想4本柱</text>
+  <line x1="110" y1="256" x2="1330" y2="256" stroke="#1A1D24" stroke-width="1.5" stroke-dasharray="4,3"/>
+
+  <rect x="110" y="268" width="280" height="130" rx="8" fill="#5B8DEF" stroke="#1A1D24" stroke-width="2.5"/>
+  <text x="250" y="298" text-anchor="middle" fill="#FBF8F1" font-size="28">🤖</text>
+  <text x="250" y="324" text-anchor="middle" fill="#FBF8F1" font-size="16" font-weight="700">Gemini 3.2</text>
+  <text x="250" y="346" text-anchor="middle" fill="#FBF8F1" font-size="12">超長文コンテキスト強化</text>
+  <text x="250" y="364" text-anchor="middle" fill="#FBF8F1" font-size="12">マルチモーダル推論改善</text>
+  <text x="250" y="388" text-anchor="middle" fill="#adf" font-size="11">3.1 Ultraの後継</text>
+
+  <rect x="415" y="268" width="280" height="130" rx="8" fill="#5CA46E" stroke="#1A1D24" stroke-width="2.5"/>
+  <text x="555" y="298" text-anchor="middle" fill="#FBF8F1" font-size="28">🔗</text>
+  <text x="555" y="324" text-anchor="middle" fill="#FBF8F1" font-size="16" font-weight="700">A2A SDK公開</text>
+  <text x="555" y="346" text-anchor="middle" fill="#FBF8F1" font-size="12">Agent-to-Agent 標準化</text>
+  <text x="555" y="364" text-anchor="middle" fill="#FBF8F1" font-size="12">エージェント間通信規格</text>
+  <text x="555" y="388" text-anchor="middle" fill="#cfc" font-size="11">「AIのTCP/IP」を狙う</text>
+
+  <rect x="720" y="268" width="280" height="130" rx="8" fill="#8B7DB8" stroke="#1A1D24" stroke-width="2.5"/>
+  <text x="860" y="298" text-anchor="middle" fill="#FBF8F1" font-size="28">📱</text>
+  <text x="860" y="324" text-anchor="middle" fill="#FBF8F1" font-size="16" font-weight="700">Android 17</text>
+  <text x="860" y="346" text-anchor="middle" fill="#FBF8F1" font-size="12">On-Device Gemini Nano 強化</text>
+  <text x="860" y="364" text-anchor="middle" fill="#FBF8F1" font-size="12">プライバシー保護 AI</text>
+  <text x="860" y="388" text-anchor="middle" fill="#dce" font-size="11">クラウド不要の端末AI</text>
+
+  <rect x="1025" y="268" width="285" height="130" rx="8" fill="#E8A87C" stroke="#1A1D24" stroke-width="2.5"/>
+  <text x="1167" y="298" text-anchor="middle" fill="#1A1D24" font-size="28">💼</text>
+  <text x="1167" y="324" text-anchor="middle" fill="#1A1D24" font-size="16" font-weight="700">Workspace Studio</text>
+  <text x="1167" y="346" text-anchor="middle" fill="#1A1D24" font-size="12">GitHub Copilot 対抗</text>
+  <text x="1167" y="364" text-anchor="middle" fill="#1A1D24" font-size="12">M365 Copilot 対抗</text>
+  <text x="1167" y="388" text-anchor="middle" fill="#543" font-size="11">企業コラボ型AIの勝負</text>
+
+  <!-- Competitive landscape -->
+  <rect x="80" y="440" width="630" height="165" rx="10" fill="#F5F0E8" stroke="#1A1D24" stroke-width="2.5" filter="url(#softShadow)"/>
+  <text x="110" y="468" fill="#1A1D24" font-size="15" font-weight="800">⚔️ Workspace: Google vs Microsoft 市場シェア</text>
+  <line x1="110" y1="478" x2="685" y2="478" stroke="#1A1D24" stroke-width="1.5" stroke-dasharray="3,3"/>
+  <rect x="110" y="490" width="280" height="32" rx="4" fill="#5CA46E" stroke="#1A1D24" stroke-width="2"/>
+  <text x="250" y="511" text-anchor="middle" fill="#FBF8F1" font-size="13" font-weight="700">Google Workspace  55%</text>
+  <rect x="110" y="532" width="375" height="32" rx="4" fill="#5B8DEF" stroke="#1A1D24" stroke-width="2"/>
+  <text x="297" y="553" text-anchor="middle" fill="#FBF8F1" font-size="13" font-weight="700">Microsoft M365  72%</text>
+  <text x="395" y="590" text-anchor="middle" fill="#555" font-size="13">AI統合で逆転を狙うGoogle</text>
+  <text x="395" y="610" text-anchor="middle" fill="#888" font-size="12">Copilotシェアを奪えるか</text>
+
+  <rect x="730" y="440" width="630" height="165" rx="10" fill="#F5F0E8" stroke="#1A1D24" stroke-width="2.5" filter="url(#softShadow)"/>
+  <text x="760" y="468" fill="#1A1D24" font-size="15" font-weight="800">🎯 A2A vs MCP——デファクト標準争い</text>
+  <line x1="760" y1="478" x2="1330" y2="478" stroke="#1A1D24" stroke-width="1.5" stroke-dasharray="3,3"/>
+  <rect x="760" y="492" width="270" height="80" rx="6" fill="#5B8DEF" stroke="#1A1D24" stroke-width="2.5"/>
+  <text x="895" y="522" text-anchor="middle" fill="#FBF8F1" font-size="14" font-weight="700">Anthropic MCP</text>
+  <text x="895" y="542" text-anchor="middle" fill="#FBF8F1" font-size="12">9,700万インストール</text>
+  <text x="895" y="562" text-anchor="middle" fill="#adf" font-size="11">「LLM↔ツール接続」標準</text>
+  <rect x="1050" y="492" width="270" height="80" rx="6" fill="#5CA46E" stroke="#1A1D24" stroke-width="2.5"/>
+  <text x="1185" y="522" text-anchor="middle" fill="#FBF8F1" font-size="14" font-weight="700">Google A2A</text>
+  <text x="1185" y="542" text-anchor="middle" fill="#FBF8F1" font-size="12">SDK公開予定（I/O）</text>
+  <text x="1185" y="562" text-anchor="middle" fill="#cfc" font-size="11">「エージェント間協調」標準</text>
+  <text x="1045" y="598" text-anchor="middle" fill="#555" font-size="13">競合ではなく補完的設計だが…</text>
+
+  <!-- 4 feature cards -->
+  <rect x="80" y="626" width="285" height="130" rx="8" fill="#F5F0E8" stroke="#1A1D24" stroke-width="2.5" filter="url(#softShadow)"/>
+  <text x="222" y="655" text-anchor="middle" fill="#5B8DEF" font-size="13" font-weight="800">📊 SWE-bench 首位争い</text>
+  <text x="222" y="677" text-anchor="middle" fill="#1A1D24" font-size="14">Claude Opus 4.7: 87.6%</text>
+  <text x="222" y="699" text-anchor="middle" fill="#555" font-size="12">Brin チームが奪回を狙う</text>
+  <text x="222" y="721" text-anchor="middle" fill="#555" font-size="12">I/O でデモが出るか注目</text>
+  <text x="222" y="748" text-anchor="middle" fill="#888" font-size="11">「最高AIコーダー」の訴求</text>
+
+  <rect x="385" y="626" width="285" height="130" rx="8" fill="#F5F0E8" stroke="#1A1D24" stroke-width="2.5" filter="url(#softShadow)"/>
+  <text x="527" y="655" text-anchor="middle" fill="#5CA46E" font-size="13" font-weight="800">🔒 On-Device AI の戦略</text>
+  <text x="527" y="677" text-anchor="middle" fill="#1A1D24" font-size="13">EU・日本・インドで有効</text>
+  <text x="527" y="699" text-anchor="middle" fill="#555" font-size="12">データ主権規制に対応</text>
+  <text x="527" y="721" text-anchor="middle" fill="#555" font-size="12">医療・法務・行政向け</text>
+  <text x="527" y="748" text-anchor="middle" fill="#888" font-size="11">Apple Private Cloudと類似戦略</text>
+
+  <rect x="690" y="626" width="285" height="130" rx="8" fill="#F5F0E8" stroke="#1A1D24" stroke-width="2.5" filter="url(#softShadow)"/>
+  <text x="832" y="655" text-anchor="middle" fill="#8B7DB8" font-size="13" font-weight="800">🎭 Brin の本気</text>
+  <text x="832" y="677" text-anchor="middle" fill="#1A1D24" font-size="13">DeepMind内部ストライクチーム</text>
+  <text x="832" y="699" text-anchor="middle" fill="#555" font-size="12">Claude 4.7 首位奪取を受け</text>
+  <text x="832" y="721" text-anchor="middle" fill="#555" font-size="12">共同創業者が陣頭指揮</text>
+  <text x="832" y="748" text-anchor="middle" fill="#888" font-size="11">20億行コードベースで追撃</text>
+
+  <rect x="995" y="626" width="285" height="130" rx="8" fill="#F5F0E8" stroke="#1A1D24" stroke-width="2.5" filter="url(#softShadow)"/>
+  <text x="1137" y="655" text-anchor="middle" fill="#E8A87C" font-size="13" font-weight="800">📅 I/O 2026 の意味</text>
+  <text x="1137" y="677" text-anchor="middle" fill="#1A1D24" font-size="13">5月中旬開催予定</text>
+  <text x="1137" y="699" text-anchor="middle" fill="#555" font-size="12">Cloud Next（4月）の後継</text>
+  <text x="1137" y="721" text-anchor="middle" fill="#555" font-size="12">開発者コミュニティへの発信</text>
+  <text x="1137" y="748" text-anchor="middle" fill="#888" font-size="11">OpenAI Build 2026 の対抗</text>
+
+  <!-- Sticky notes -->
+  <rect x="80" y="778" width="265" height="115" rx="4" fill="#FFF9C4" stroke="#1A1D24" stroke-width="2" filter="url(#stickyShadow)" transform="rotate(-1.0, 80, 778)"/>
+  <text x="95" y="808" fill="#1A1D24" font-size="13" font-weight="700">🤔 A2A の本質</text>
+  <text x="95" y="830" fill="#333" font-size="12">「AIのHTTP/TCP」を狙う</text>
+  <text x="95" y="848" fill="#333" font-size="12">エージェント間通信の</text>
+  <text x="95" y="866" fill="#333" font-size="12">標準を取った方が</text>
+  <text x="95" y="884" fill="#333" font-size="12">エコシステムを支配できる。</text>
+
+  <rect x="370" y="783" width="265" height="115" rx="4" fill="#C8F7C5" stroke="#1A1D24" stroke-width="2" filter="url(#stickyShadow)" transform="rotate(0.7, 370, 783)"/>
+  <text x="385" y="813" fill="#1A1D24" font-size="13" font-weight="700">💡 Workspace の差別化</text>
+  <text x="385" y="835" fill="#333" font-size="12">Copilotは「個人作業補助」。</text>
+  <text x="385" y="853" fill="#333" font-size="12">Workspace Studioは</text>
+  <text x="385" y="871" fill="#333" font-size="12">「リアルタイム共同作業AI」</text>
+  <text x="385" y="889" fill="#333" font-size="12">ユースケースを分ける戦略。</text>
+
+  <rect x="655" y="776" width="265" height="115" rx="4" fill="#FFD9B3" stroke="#1A1D24" stroke-width="2" filter="url(#stickyShadow)" transform="rotate(-0.8, 655, 776)"/>
+  <text x="670" y="806" fill="#1A1D24" font-size="13" font-weight="700">⚡ DMAリスク</text>
+  <text x="670" y="828" fill="#333" font-size="12">Gemini組み込みTV/スマホが</text>
+  <text x="670" y="846" fill="#333" font-size="12">コンテンツ発見前の段階を</text>
+  <text x="670" y="864" fill="#333" font-size="12">支配するとEUのゲートキーパー</text>
+  <text x="670" y="882" fill="#333" font-size="12">規制（DMA）対象になる可能性。</text>
+
+  <rect x="940" y="781" width="265" height="115" rx="4" fill="#E8D5F5" stroke="#1A1D24" stroke-width="2" filter="url(#stickyShadow)" transform="rotate(1.2, 940, 781)"/>
+  <text x="955" y="811" fill="#1A1D24" font-size="13" font-weight="700">🔮 2026後半の展望</text>
+  <text x="955" y="833" fill="#333" font-size="12">I/OでGemini 3.2+A2A+</text>
+  <text x="955" y="851" fill="#333" font-size="12">Workspace Studioが揃えば、</text>
+  <text x="955" y="869" fill="#333" font-size="12">Google の「フルスタックAI」</text>
+  <text x="955" y="887" fill="#333" font-size="12">が本当に完成する。</text>
+
+  <text x="700" y="1032" text-anchor="middle" fill="#999" font-size="13" font-style="italic">AI News · 2026-05-01 · Google I/O 2026 Preview: Gemini 3.2, A2A Protocol, Android 17, Workspace Studio</text>
+</svg>

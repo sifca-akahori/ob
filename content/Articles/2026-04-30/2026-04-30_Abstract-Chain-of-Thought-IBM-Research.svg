@@ -1,0 +1,161 @@
+<svg viewBox="0 0 1400 1050" xmlns="http://www.w3.org/2000/svg" font-family="-apple-system, 'Hiragino Sans', 'Yu Gothic', sans-serif">
+  <defs>
+    <pattern id="paperTexture" patternUnits="userSpaceOnUse" width="4" height="4">
+      <rect width="4" height="4" fill="#FBF8F1"/>
+      <circle cx="1" cy="1" r="0.4" fill="#E8E2D3" opacity="0.5"/>
+      <circle cx="3" cy="3" r="0.3" fill="#E8E2D3" opacity="0.3"/>
+    </pattern>
+    <filter id="softShadow">
+      <feDropShadow dx="2" dy="3" stdDeviation="4" flood-color="#1A1D24" flood-opacity="0.15"/>
+    </filter>
+    <filter id="stickyShadow">
+      <feDropShadow dx="3" dy="4" stdDeviation="5" flood-color="#1A1D24" flood-opacity="0.2"/>
+    </filter>
+  </defs>
+  <rect width="1400" height="1050" fill="url(#paperTexture)"/>
+
+  <!-- Binding holes -->
+  <line x1="40" y1="80" x2="40" y2="980" stroke="#E8E2D3" stroke-width="2"/>
+  <circle cx="40" cy="150" r="14" fill="#FBF8F1" stroke="#E8E2D3" stroke-width="2"/>
+  <circle cx="40" cy="280" r="14" fill="#FBF8F1" stroke="#E8E2D3" stroke-width="2"/>
+  <circle cx="40" cy="410" r="14" fill="#FBF8F1" stroke="#E8E2D3" stroke-width="2"/>
+  <circle cx="40" cy="540" r="14" fill="#FBF8F1" stroke="#E8E2D3" stroke-width="2"/>
+  <circle cx="40" cy="670" r="14" fill="#FBF8F1" stroke="#E8E2D3" stroke-width="2"/>
+  <circle cx="40" cy="800" r="14" fill="#FBF8F1" stroke="#E8E2D3" stroke-width="2"/>
+
+  <!-- Category tape - 論文 purple -->
+  <rect x="1180" y="-10" width="140" height="46" rx="4" fill="#8B7DB8" stroke="#1A1D24" stroke-width="2" transform="rotate(-3, 1180, -10)" filter="url(#stickyShadow)"/>
+  <text x="1250" y="22" text-anchor="middle" fill="#FBF8F1" font-size="15" font-weight="700" transform="rotate(-3, 1250, 22)">#論文</text>
+
+  <rect x="80" y="30" width="200" height="42" rx="6" fill="#2F3842" stroke="#1A1D24" stroke-width="2"/>
+  <text x="180" y="57" text-anchor="middle" fill="#FBF8F1" font-size="16" font-weight="700">2026-04-30</text>
+  <text x="1310" y="90" text-anchor="middle" font-size="28">⭐⭐</text>
+
+  <!-- Title -->
+  <text x="80" y="115" fill="#1A1D24" font-size="36" font-weight="900">🧠 Abstract Chain-of-Thought：言語なき推論でCoT効率問題を解決</text>
+  <text x="80" y="158" fill="#1A1D24" font-size="22" font-weight="800">IBM Research AI  ·  離散抽象トークンで推論  ·  AIME 2024でOlmo3-7B +18pt</text>
+  <line x1="80" y1="170" x2="1350" y2="170" stroke="#1A1D24" stroke-width="3"/>
+  <text x="80" y="193" fill="#666" font-size="14">arXiv 2604.22709 / IBM Research AI  ·  2026-04-30  ·  #CoT #推論効率 #潜在推論</text>
+
+  <!-- Hero -->
+  <g transform="translate(1245, 240)">
+    <circle cx="0" cy="0" r="65" fill="#F5F0E8" stroke="#1A1D24" stroke-width="3"/>
+    <text x="0" y="15" text-anchor="middle" font-size="55">🧠</text>
+  </g>
+
+  <!-- Key numbers -->
+  <rect x="80" y="215" width="295" height="155" rx="10" fill="#F5F0E8" stroke="#1A1D24" stroke-width="3" filter="url(#softShadow)"/>
+  <text x="228" y="248" text-anchor="middle" fill="#666" font-size="13" font-weight="600">Olmo3-7B AIME 2024</text>
+  <text x="228" y="290" text-anchor="middle" fill="#888" font-size="30" font-weight="900">33%</text>
+  <text x="228" y="318" text-anchor="middle" fill="#1A1D24" font-size="14" font-weight="700">→</text>
+  <text x="228" y="348" text-anchor="middle" fill="#8B7DB8" font-size="42" font-weight="900">51%</text>
+  <text x="228" y="362" text-anchor="middle" fill="#888" font-size="12">+18pt（Abstract CoT適用後）</text>
+
+  <rect x="395" y="215" width="295" height="155" rx="10" fill="#F5F0E8" stroke="#1A1D24" stroke-width="3" filter="url(#softShadow)"/>
+  <text x="543" y="248" text-anchor="middle" fill="#666" font-size="13" font-weight="600">Qwen3-14B AIME 2024</text>
+  <text x="543" y="290" text-anchor="middle" fill="#888" font-size="30" font-weight="900">42%</text>
+  <text x="543" y="318" text-anchor="middle" fill="#1A1D24" font-size="14" font-weight="700">→</text>
+  <text x="543" y="348" text-anchor="middle" fill="#8B7DB8" font-size="42" font-weight="900">66%</text>
+  <text x="543" y="362" text-anchor="middle" fill="#888" font-size="12">+24pt（Abstract CoT適用後）</text>
+
+  <rect x="710" y="215" width="420" height="155" rx="10" fill="#F5F0E8" stroke="#1A1D24" stroke-width="3" filter="url(#softShadow)"/>
+  <text x="920" y="248" text-anchor="middle" fill="#666" font-size="13" font-weight="600">核心的アイデア</text>
+  <text x="920" y="285" text-anchor="middle" fill="#1A1D24" font-size="19" font-weight="800">自然言語 → 離散抽象トークン</text>
+  <text x="920" y="315" text-anchor="middle" fill="#555" font-size="13">「言葉を使わずに考える」後学習手法</text>
+  <text x="920" y="340" text-anchor="middle" fill="#555" font-size="13">政策反復ウォームアップ 2フェーズ</text>
+  <text x="920" y="358" text-anchor="middle" fill="#888" font-size="12">① 言語CoTマスク学習 → ② 自己蒸留</text>
+
+  <!-- Method flow diagram -->
+  <rect x="80" y="395" width="1260" height="210" rx="10" fill="#F5F0E8" stroke="#1A1D24" stroke-width="2.5" filter="url(#softShadow)"/>
+  <text x="110" y="425" fill="#1A1D24" font-size="18" font-weight="800">🔄 Abstract CoT の仕組み（従来 CoT との比較）</text>
+  <line x1="110" y1="435" x2="1320" y2="435" stroke="#1A1D24" stroke-width="1.5" stroke-dasharray="4,3"/>
+
+  <!-- Traditional CoT -->
+  <rect x="110" y="450" width="380" height="130" rx="8" fill="#E8E2D3" stroke="#1A1D24" stroke-width="2"/>
+  <text x="300" y="475" text-anchor="middle" fill="#888" font-size="14" font-weight="700">従来のCoT</text>
+  <text x="300" y="500" text-anchor="middle" fill="#555" font-size="12">「まず A を考えます。次に B を計算すると…</text>
+  <text x="300" y="520" text-anchor="middle" fill="#555" font-size="12">したがって答えは X になります」</text>
+  <text x="300" y="545" text-anchor="middle" fill="#E8A87C" font-size="12" font-weight="700">❌ 自然言語でトークン数が爆増</text>
+  <text x="300" y="565" text-anchor="middle" fill="#888" font-size="11">コスト↑ / レイテンシ↑ / コンテキスト消費↑</text>
+
+  <!-- Arrow -->
+  <text x="510" y="520" text-anchor="middle" fill="#8B7DB8" font-size="36" font-weight="900">→</text>
+
+  <!-- Abstract CoT -->
+  <rect x="540" y="450" width="380" height="130" rx="8" fill="#8B7DB8" stroke="#1A1D24" stroke-width="2"/>
+  <text x="730" y="475" text-anchor="middle" fill="#FBF8F1" font-size="14" font-weight="700">Abstract CoT</text>
+  <text x="730" y="500" text-anchor="middle" fill="#FBF8F1" font-size="12">「[α₁] [β₄] [γ₂] [δ₉] [ε₁] → X」</text>
+  <text x="730" y="520" text-anchor="middle" fill="#E1BEE7" font-size="12">抽象トークン列で中間推論を表現</text>
+  <text x="730" y="545" text-anchor="middle" fill="#FFF9C4" font-size="12" font-weight="700">✓ コンパクト・高速・品質維持</text>
+  <text x="730" y="565" text-anchor="middle" fill="#E1BEE7" font-size="11">非言語的・解釈困難だが計算効率は高い</text>
+
+  <!-- Training pipeline -->
+  <rect x="955" y="450" width="385" height="130" rx="8" fill="#F5F0E8" stroke="#1A1D24" stroke-width="2"/>
+  <text x="1148" y="475" text-anchor="middle" fill="#1A1D24" font-size="14" font-weight="700">2フェーズ訓練</text>
+  <text x="1148" y="498" text-anchor="middle" fill="#555" font-size="12">Phase 1: 言語CoTをマスクして蒸留</text>
+  <text x="1148" y="518" text-anchor="middle" fill="#555" font-size="12">（言語CoT→抽象トークンへのボトルネック）</text>
+  <text x="1148" y="540" text-anchor="middle" fill="#8B7DB8" font-size="12" font-weight="700">Phase 2: プロンプトのみから自己蒸留</text>
+  <text x="1148" y="560" text-anchor="middle" fill="#555" font-size="12">（CoT無しでも抽象トークンを生成可能に）</text>
+
+  <!-- Cards -->
+  <rect x="80" y="630" width="295" height="135" rx="8" fill="#F5F0E8" stroke="#1A1D24" stroke-width="2.5" filter="url(#softShadow)"/>
+  <text x="100" y="658" fill="#1A1D24" font-size="14" font-weight="800">解釈可能性のトレードオフ</text>
+  <line x1="100" y1="665" x2="355" y2="665" stroke="#1A1D24" stroke-width="1.5"/>
+  <text x="100" y="685" fill="#555" font-size="12">抽象トークンは人間に読めない</text>
+  <text x="100" y="703" fill="#555" font-size="12">CoT監査可能性が失われる</text>
+  <text x="100" y="721" fill="#E8A87C" font-size="12" font-weight="700">→ 安全重要システムへの適用は要注意</text>
+  <text x="100" y="750" fill="#888" font-size="11">AnthropicのCoT忠実性研究と対比</text>
+
+  <rect x="395" y="630" width="295" height="135" rx="8" fill="#F5F0E8" stroke="#1A1D24" stroke-width="2.5" filter="url(#softShadow)"/>
+  <text x="415" y="658" fill="#1A1D24" font-size="14" font-weight="800">コスト削減効果</text>
+  <line x1="415" y1="665" x2="670" y2="665" stroke="#1A1D24" stroke-width="1.5"/>
+  <text x="415" y="685" fill="#555" font-size="12">トークン数削減 → API課金削減</text>
+  <text x="415" y="703" fill="#555" font-size="12">エージェントの推論サイクル高速化</text>
+  <text x="415" y="721" fill="#8B7DB8" font-size="12" font-weight="700">→ 大規模推論ワークロードに効果大</text>
+  <text x="415" y="750" fill="#888" font-size="11">具体削減率は論文で要確認</text>
+
+  <rect x="710" y="630" width="295" height="135" rx="8" fill="#F5F0E8" stroke="#1A1D24" stroke-width="2.5" filter="url(#softShadow)"/>
+  <text x="730" y="658" fill="#1A1D24" font-size="14" font-weight="800">先行研究との差分</text>
+  <line x1="730" y1="665" x2="985" y2="665" stroke="#1A1D24" stroke-width="1.5"/>
+  <text x="730" y="685" fill="#555" font-size="12">Coconut（Meta, 2024）= 連続潜在推論</text>
+  <text x="730" y="703" fill="#555" font-size="12">Abstract CoT = 離散トークンを保持</text>
+  <text x="730" y="721" fill="#8B7DB8" font-size="12" font-weight="700">→ 既存推論評価フレームとの互換性</text>
+  <text x="730" y="750" fill="#888" font-size="11">RL推論（GRPO）との組み合わせも有望</text>
+
+  <rect x="1025" y="630" width="295" height="135" rx="8" fill="#F5F0E8" stroke="#1A1D24" stroke-width="2.5" filter="url(#softShadow)"/>
+  <text x="1045" y="658" fill="#1A1D24" font-size="14" font-weight="800">Granite 4.1 との関連</text>
+  <line x1="1045" y1="665" x2="1300" y2="665" stroke="#1A1D24" stroke-width="1.5"/>
+  <text x="1045" y="685" fill="#555" font-size="12">同日 Granite 4.1 リリース</text>
+  <text x="1045" y="703" fill="#555" font-size="12">IBM Research の推論研究と統合が意図的</text>
+  <text x="1045" y="721" fill="#8B7DB8" font-size="12" font-weight="700">→ Granite 5 で組み込みが予想される</text>
+  <text x="1045" y="750" fill="#888" font-size="11">watsonx との連携が最終形か</text>
+
+  <!-- Sticky notes -->
+  <rect x="85" y="793" width="255" height="110" rx="5" fill="#FFF9C4" stroke="#1A1D24" stroke-width="2" filter="url(#stickyShadow)" transform="rotate(-1.5, 85, 793)"/>
+  <text x="105" y="821" fill="#1A1D24" font-size="13" font-weight="800" transform="rotate(-1.5)">🤔 「言語なき思考」の意味</text>
+  <text x="105" y="842" fill="#555" font-size="11" transform="rotate(-1.5)">LLMが自然言語で思考する</text>
+  <text x="105" y="859" fill="#555" font-size="11" transform="rotate(-1.5)">必要はなかった仮説の実証</text>
+  <text x="105" y="876" fill="#555" font-size="11" transform="rotate(-1.5)">人間の「沈黙の思考」に近い</text>
+  <text x="105" y="893" fill="#888" font-size="10" transform="rotate(-1.5)">哲学的にも興味深い結果</text>
+
+  <rect x="363" y="806" width="255" height="100" rx="5" fill="#E1BEE7" stroke="#1A1D24" stroke-width="2" filter="url(#stickyShadow)" transform="rotate(1, 363, 806)"/>
+  <text x="383" y="834" fill="#1A1D24" font-size="13" font-weight="800" transform="rotate(1)">💡 未検証の問いかけ</text>
+  <text x="383" y="855" fill="#555" font-size="11" transform="rotate(1)">RL訓練と重ねたらどうなるか？</text>
+  <text x="383" y="872" fill="#555" font-size="11" transform="rotate(1)">生成長はどの程度短縮されるか？</text>
+  <text x="383" y="889" fill="#555" font-size="11" transform="rotate(1)">独立検証が必要な段階</text>
+
+  <rect x="641" y="793" width="255" height="110" rx="5" fill="#FFE0B2" stroke="#1A1D24" stroke-width="2" filter="url(#stickyShadow)" transform="rotate(-1, 641, 793)"/>
+  <text x="661" y="821" fill="#1A1D24" font-size="13" font-weight="800" transform="rotate(-1)">🔮 NeurIPS 2026 展望</text>
+  <text x="661" y="842" fill="#555" font-size="11" transform="rotate(-1)">Abstract CoT系の論文が急増予測</text>
+  <text x="661" y="859" fill="#555" font-size="11" transform="rotate(-1)">マルチモーダル拡張・RL統合が</text>
+  <text x="661" y="876" fill="#555" font-size="11" transform="rotate(-1)">次のフロンティアになるだろう</text>
+  <text x="661" y="893" fill="#555" font-size="11" transform="rotate(-1)">ICLR 2027 採択確率高い</text>
+
+  <rect x="919" y="806" width="255" height="100" rx="5" fill="#C8E6C9" stroke="#1A1D24" stroke-width="2" filter="url(#stickyShadow)" transform="rotate(1.5, 919, 806)"/>
+  <text x="939" y="834" fill="#1A1D24" font-size="13" font-weight="800" transform="rotate(1.5)">⚡ 安全性への含意</text>
+  <text x="939" y="855" fill="#555" font-size="11" transform="rotate(1.5)">人間が推論を追跡できない</text>
+  <text x="939" y="872" fill="#555" font-size="11" transform="rotate(1.5)">AI安全研究の解釈可能性と</text>
+  <text x="939" y="889" fill="#555" font-size="11" transform="rotate(1.5)">トレードオフが顕在化</text>
+
+  <text x="700" y="1035" text-anchor="middle" fill="#999" font-size="13" font-style="italic">AI News · 2026-04-30 · Abstract Chain-of-Thought: Reasoning Without Words (IBM Research, arXiv 2604.22709)</text>
+</svg>

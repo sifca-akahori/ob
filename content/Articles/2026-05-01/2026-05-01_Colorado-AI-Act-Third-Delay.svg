@@ -1,0 +1,147 @@
+<svg viewBox="0 0 1400 1050" xmlns="http://www.w3.org/2000/svg" font-family="-apple-system, 'Hiragino Sans', 'Yu Gothic', sans-serif">
+  <defs>
+    <pattern id="paperTexture" patternUnits="userSpaceOnUse" width="4" height="4">
+      <rect width="4" height="4" fill="#FBF8F1"/>
+      <circle cx="1" cy="1" r="0.4" fill="#E8E2D3" opacity="0.5"/>
+      <circle cx="3" cy="3" r="0.3" fill="#E8E2D3" opacity="0.3"/>
+    </pattern>
+    <filter id="softShadow">
+      <feDropShadow dx="2" dy="3" stdDeviation="4" flood-color="#1A1D24" flood-opacity="0.15"/>
+    </filter>
+    <filter id="stickyShadow">
+      <feDropShadow dx="3" dy="4" stdDeviation="5" flood-color="#1A1D24" flood-opacity="0.2"/>
+    </filter>
+  </defs>
+  <rect width="1400" height="1050" fill="url(#paperTexture)"/>
+  <line x1="40" y1="80" x2="40" y2="980" stroke="#E8E2D3" stroke-width="2"/>
+  <circle cx="40" cy="150" r="14" fill="#FBF8F1" stroke="#E8E2D3" stroke-width="2"/>
+  <circle cx="40" cy="280" r="14" fill="#FBF8F1" stroke="#E8E2D3" stroke-width="2"/>
+  <circle cx="40" cy="410" r="14" fill="#FBF8F1" stroke="#E8E2D3" stroke-width="2"/>
+  <circle cx="40" cy="540" r="14" fill="#FBF8F1" stroke="#E8E2D3" stroke-width="2"/>
+  <circle cx="40" cy="670" r="14" fill="#FBF8F1" stroke="#E8E2D3" stroke-width="2"/>
+  <circle cx="40" cy="800" r="14" fill="#FBF8F1" stroke="#E8E2D3" stroke-width="2"/>
+  <rect x="1185" y="-10" width="160" height="46" rx="4" fill="#5CA46E" stroke="#1A1D24" stroke-width="2" transform="rotate(-3, 1185, -10)" filter="url(#stickyShadow)"/>
+  <text x="1265" y="22" text-anchor="middle" fill="#FBF8F1" font-size="15" font-weight="700" transform="rotate(-3, 1265, 22)">#ビジネス</text>
+  <rect x="80" y="30" width="200" height="42" rx="6" fill="#2F3842" stroke="#1A1D24" stroke-width="2"/>
+  <text x="180" y="57" text-anchor="middle" fill="#FBF8F1" font-size="16" font-weight="700">2026-05-01</text>
+  <text x="1340" y="92" text-anchor="middle" font-size="26">⭐⭐</text>
+  <text x="80" y="118" fill="#1A1D24" font-size="36" font-weight="900">🏛️ Colorado AI Act 三度目の延期——2027年1月全面書き換えも浮上</text>
+  <text x="80" y="158" fill="#1A1D24" font-size="24" font-weight="700">米国初の包括AI規制法が施行前に事実上消滅の危機——連邦EO vs 州法の対立が激化</text>
+  <line x1="80" y1="172" x2="1340" y2="172" stroke="#1A1D24" stroke-width="3"/>
+  <text x="80" y="193" fill="#666" font-size="13">Clark Hill / Colorado General Assembly  ·  2026-05-01  ·  #規制 #Colorado #AIAct #州法</text>
+  <g transform="translate(1265, 258)">
+    <circle cx="0" cy="0" r="68" fill="#F5F0E8" stroke="#1A1D24" stroke-width="3"/>
+    <text x="0" y="18" text-anchor="middle" font-size="58">⏰</text>
+  </g>
+  <!-- Delay timeline -->
+  <rect x="80" y="215" width="1280" height="185" rx="10" fill="#F5F0E8" stroke="#1A1D24" stroke-width="2.5" filter="url(#softShadow)"/>
+  <text x="110" y="246" fill="#1A1D24" font-size="17" font-weight="800">📅 Colorado AI Act 施行日の変遷——3回の延期</text>
+  <line x1="110" y1="256" x2="1330" y2="256" stroke="#1A1D24" stroke-width="1.5" stroke-dasharray="4,3"/>
+  <line x1="120" y1="330" x2="1330" y2="330" stroke="#1A1D24" stroke-width="3"/>
+  <!-- Milestones -->
+  <circle cx="180" cy="330" r="16" fill="#5B8DEF" stroke="#1A1D24" stroke-width="2.5"/>
+  <text x="180" y="335" text-anchor="middle" fill="#FBF8F1" font-size="11" font-weight="700">制定</text>
+  <text x="180" y="365" text-anchor="middle" fill="#1A1D24" font-size="12" font-weight="700">2024/5</text>
+  <text x="180" y="383" text-anchor="middle" fill="#555" font-size="11">SB24-205成立</text>
+  <text x="180" y="398" text-anchor="middle" fill="#555" font-size="11">米国初AI包括規制</text>
+
+  <circle cx="450" cy="330" r="16" fill="#E05050" stroke="#1A1D24" stroke-width="2.5"/>
+  <text x="450" y="335" text-anchor="middle" fill="#FBF8F1" font-size="11" font-weight="700">D1</text>
+  <text x="450" y="365" text-anchor="middle" fill="#E05050" font-size="12" font-weight="700">2026/2/1</text>
+  <text x="450" y="383" text-anchor="middle" fill="#555" font-size="11">第1回延期</text>
+  <text x="450" y="398" text-anchor="middle" fill="#555" font-size="11">当初施行予定→延期</text>
+
+  <circle cx="750" cy="330" r="16" fill="#E8A87C" stroke="#1A1D24" stroke-width="2.5"/>
+  <text x="750" y="335" text-anchor="middle" fill="#1A1D24" font-size="11" font-weight="700">D2</text>
+  <text x="750" y="365" text-anchor="middle" fill="#E8A87C" font-size="12" font-weight="700">2026/6/30</text>
+  <text x="750" y="383" text-anchor="middle" fill="#555" font-size="11">現行施行予定</text>
+  <text x="750" y="398" text-anchor="middle" fill="#555" font-size="11">SB 25B-004で延期済</text>
+
+  <circle cx="1100" cy="330" r="18" fill="#CCC" stroke="#1A1D24" stroke-width="3" stroke-dasharray="4,3"/>
+  <text x="1100" y="335" text-anchor="middle" fill="#555" font-size="11" font-weight="700">D3?</text>
+  <text x="1100" y="365" text-anchor="middle" fill="#555" font-size="12" font-weight="700">2027/1/1?</text>
+  <text x="1100" y="383" text-anchor="middle" fill="#555" font-size="11">全面書き換え提案</text>
+  <text x="1100" y="398" text-anchor="middle" fill="#555" font-size="11">ワークグループ案</text>
+
+  <!-- Key info cards -->
+  <rect x="80" y="420" width="290" height="145" rx="10" fill="#F5F0E8" stroke="#1A1D24" stroke-width="3" filter="url(#softShadow)"/>
+  <text x="225" y="452" text-anchor="middle" fill="#5CA46E" font-size="13" font-weight="700">🎯 対象：高リスクAIシステム</text>
+  <text x="225" y="496" text-anchor="middle" fill="#1A1D24" font-size="20" font-weight="900">雇用・住宅・医療</text>
+  <text x="225" y="520" text-anchor="middle" fill="#555" font-size="13">重大意思決定に影響するAI</text>
+  <text x="225" y="542" text-anchor="middle" fill="#888" font-size="12">差別禁止・開示義務・IA</text>
+  <text x="225" y="558" text-anchor="middle" fill="#888" font-size="11">Colorado SB24-205</text>
+
+  <rect x="390" y="420" width="290" height="145" rx="10" fill="#FFF0F0" stroke="#1A1D24" stroke-width="3" filter="url(#softShadow)"/>
+  <text x="535" y="452" text-anchor="middle" fill="#E05050" font-size="13" font-weight="700">⚡ 連邦EO（Trump, 2025/12）</text>
+  <text x="535" y="496" text-anchor="middle" fill="#1A1D24" font-size="20" font-weight="900">州法を先占</text>
+  <text x="535" y="520" text-anchor="middle" fill="#555" font-size="13">AI規制を連邦に集約</text>
+  <text x="535" y="542" text-anchor="middle" fill="#888" font-size="12">州法「障壁」訴訟も示唆</text>
+  <text x="535" y="558" text-anchor="middle" fill="#888" font-size="11">連邦-州の二層対立</text>
+
+  <rect x="700" y="420" width="290" height="145" rx="10" fill="#F5F0E8" stroke="#1A1D24" stroke-width="3" filter="url(#softShadow)"/>
+  <text x="845" y="452" text-anchor="middle" fill="#8B7DB8" font-size="13" font-weight="700">🔀 書き換えの方向性</text>
+  <text x="845" y="496" text-anchor="middle" fill="#1A1D24" font-size="20" font-weight="900">定義を絞る</text>
+  <text x="845" y="520" text-anchor="middle" fill="#555" font-size="13">高リスクAI範囲を縮小</text>
+  <text x="845" y="542" text-anchor="middle" fill="#888" font-size="12">インパクト評価（IA）中心に</text>
+  <text x="845" y="558" text-anchor="middle" fill="#888" font-size="11">業界批判に対応した妥協</text>
+
+  <!-- State comparison table -->
+  <rect x="80" y="585" width="1280" height="165" rx="10" fill="#F5F0E8" stroke="#1A1D24" stroke-width="2.5" filter="url(#softShadow)"/>
+  <text x="110" y="615" fill="#1A1D24" font-size="17" font-weight="800">🗺️ 米国AI州法パッチワーク——州ごとに全く異なる進捗</text>
+  <line x1="110" y1="625" x2="1330" y2="625" stroke="#1A1D24" stroke-width="1.5" stroke-dasharray="4,3"/>
+  <!-- Table header -->
+  <rect x="110" y="635" width="200" height="30" rx="4" fill="#2F3842"/>
+  <text x="210" y="655" text-anchor="middle" fill="#FBF8F1" font-size="13" font-weight="700">州</text>
+  <rect x="315" y="635" width="250" height="30" rx="4" fill="#2F3842"/>
+  <text x="440" y="655" text-anchor="middle" fill="#FBF8F1" font-size="13" font-weight="700">法律・内容</text>
+  <rect x="570" y="635" width="200" height="30" rx="4" fill="#2F3842"/>
+  <text x="670" y="655" text-anchor="middle" fill="#FBF8F1" font-size="13" font-weight="700">現状</text>
+  <rect x="775" y="635" width="300" height="30" rx="4" fill="#2F3842"/>
+  <text x="925" y="655" text-anchor="middle" fill="#FBF8F1" font-size="13" font-weight="700">評価</text>
+  <!-- Illinois row -->
+  <text x="210" y="688" text-anchor="middle" fill="#1A1D24" font-size="13">Illinois</text>
+  <text x="440" y="688" text-anchor="middle" fill="#1A1D24" font-size="12">雇用AI開示法（採用AI告知）</text>
+  <text x="670" y="688" text-anchor="middle" fill="#5CA46E" font-size="13" font-weight="700">✅ 施行済み</text>
+  <text x="925" y="688" text-anchor="middle" fill="#555" font-size="12">スコープ限定・企業対応しやすい</text>
+  <!-- Colorado row -->
+  <text x="210" y="715" text-anchor="middle" fill="#1A1D24" font-size="13">Colorado</text>
+  <text x="440" y="715" text-anchor="middle" fill="#1A1D24" font-size="12">包括的高リスクAI法</text>
+  <text x="670" y="715" text-anchor="middle" fill="#E05050" font-size="13" font-weight="700">⚠️ 3回目延期検討</text>
+  <text x="925" y="715" text-anchor="middle" fill="#E05050" font-size="12">最も後退、書き換え議論中</text>
+  <!-- California row -->
+  <text x="210" y="742" text-anchor="middle" fill="#1A1D24" font-size="13">California</text>
+  <text x="440" y="742" text-anchor="middle" fill="#1A1D24" font-size="12">雇用差別規制（AI使用）</text>
+  <text x="670" y="742" text-anchor="middle" fill="#E8A87C" font-size="13" font-weight="700">🔄 最終化中</text>
+  <text x="925" y="742" text-anchor="middle" fill="#555" font-size="12">DFEH主導、2026年後半施行見込み</text>
+
+  <!-- Sticky notes -->
+  <rect x="80" y="773" width="265" height="115" rx="4" fill="#FFF9C4" stroke="#1A1D24" stroke-width="2" filter="url(#stickyShadow)" transform="rotate(-1.1, 80, 773)"/>
+  <text x="95" y="803" fill="#1A1D24" font-size="13" font-weight="700">📌 施行前に時代遅れ？</text>
+  <text x="95" y="825" fill="#333" font-size="12">2024年制定の法律が</text>
+  <text x="95" y="843" fill="#333" font-size="12">2026年に全面書き換え。</text>
+  <text x="95" y="861" fill="#333" font-size="12">AI技術の進化速度と</text>
+  <text x="95" y="879" fill="#333" font-size="12">立法速度の乖離が露呈。</text>
+
+  <rect x="370" y="778" width="265" height="115" rx="4" fill="#C8F7C5" stroke="#1A1D24" stroke-width="2" filter="url(#stickyShadow)" transform="rotate(0.9, 370, 778)"/>
+  <text x="385" y="808" fill="#1A1D24" font-size="13" font-weight="700">💡 大企業に有利な構造</text>
+  <text x="385" y="830" fill="#333" font-size="12">州ごとにバラバラな規制は</text>
+  <text x="385" y="848" fill="#333" font-size="12">各州対応の法務チームを</text>
+  <text x="385" y="866" fill="#333" font-size="12">持てる大企業が有利。</text>
+  <text x="385" y="884" fill="#333" font-size="12">スタートアップに不利。</text>
+
+  <rect x="655" y="771" width="265" height="115" rx="4" fill="#FFD9B3" stroke="#1A1D24" stroke-width="2" filter="url(#stickyShadow)" transform="rotate(-0.7, 655, 771)"/>
+  <text x="670" y="801" fill="#1A1D24" font-size="13" font-weight="700">⚠️ 消費者保護の後退</text>
+  <text x="670" y="823" fill="#333" font-size="12">定義の縮小・施行の延期は</text>
+  <text x="670" y="841" fill="#333" font-size="12">「骨抜き」との批判も。</text>
+  <text x="670" y="859" fill="#333" font-size="12">業界ロビーが</text>
+  <text x="670" y="877" fill="#333" font-size="12">実質的に勝利した形。</text>
+
+  <rect x="940" y="776" width="265" height="115" rx="4" fill="#E8D5F5" stroke="#1A1D24" stroke-width="2" filter="url(#stickyShadow)" transform="rotate(1.3, 940, 776)"/>
+  <text x="955" y="806" fill="#1A1D24" font-size="13" font-weight="700">🔮 欧州との対比</text>
+  <text x="955" y="828" fill="#333" font-size="12">EU AI Actは8月完全施行。</text>
+  <text x="955" y="846" fill="#333" font-size="12">米国は州バラバラで</text>
+  <text x="955" y="864" fill="#333" font-size="12">連邦法不在のまま。</text>
+  <text x="955" y="882" fill="#333" font-size="12">グローバル規制格差拡大。</text>
+
+  <text x="700" y="1032" text-anchor="middle" fill="#999" font-size="13" font-style="italic">AI News · 2026-05-01 · Colorado AI Act Third Delay: Full Rewrite Proposed, US AI Regulation Chaos</text>
+</svg>

@@ -1,0 +1,158 @@
+<svg viewBox="0 0 1400 1050" xmlns="http://www.w3.org/2000/svg" font-family="-apple-system, 'Hiragino Sans', 'Yu Gothic', sans-serif">
+  <defs>
+    <pattern id="paperTexture" patternUnits="userSpaceOnUse" width="4" height="4">
+      <rect width="4" height="4" fill="#FBF8F1"/>
+      <circle cx="1" cy="1" r="0.4" fill="#E8E2D3" opacity="0.5"/>
+      <circle cx="3" cy="3" r="0.3" fill="#E8E2D3" opacity="0.3"/>
+    </pattern>
+    <filter id="softShadow">
+      <feDropShadow dx="2" dy="3" stdDeviation="4" flood-color="#1A1D24" flood-opacity="0.15"/>
+    </filter>
+    <filter id="stickyShadow">
+      <feDropShadow dx="3" dy="4" stdDeviation="5" flood-color="#1A1D24" flood-opacity="0.2"/>
+    </filter>
+  </defs>
+  <rect width="1400" height="1050" fill="url(#paperTexture)"/>
+  <!-- Binding holes -->
+  <line x1="40" y1="80" x2="40" y2="980" stroke="#E8E2D3" stroke-width="2"/>
+  <circle cx="40" cy="150" r="14" fill="#FBF8F1" stroke="#E8E2D3" stroke-width="2"/>
+  <circle cx="40" cy="280" r="14" fill="#FBF8F1" stroke="#E8E2D3" stroke-width="2"/>
+  <circle cx="40" cy="410" r="14" fill="#FBF8F1" stroke="#E8E2D3" stroke-width="2"/>
+  <circle cx="40" cy="540" r="14" fill="#FBF8F1" stroke="#E8E2D3" stroke-width="2"/>
+  <circle cx="40" cy="670" r="14" fill="#FBF8F1" stroke="#E8E2D3" stroke-width="2"/>
+  <circle cx="40" cy="800" r="14" fill="#FBF8F1" stroke="#E8E2D3" stroke-width="2"/>
+  <!-- Category tape - SNS orange -->
+  <rect x="1185" y="-10" width="145" height="46" rx="4" fill="#E8A87C" stroke="#1A1D24" stroke-width="2" transform="rotate(-3, 1185, -10)" filter="url(#stickyShadow)"/>
+  <text x="1255" y="22" text-anchor="middle" fill="#1A1D24" font-size="15" font-weight="700" transform="rotate(-3, 1255, 22)">#SNS</text>
+  <!-- Date badge -->
+  <rect x="80" y="30" width="200" height="42" rx="6" fill="#2F3842" stroke="#1A1D24" stroke-width="2"/>
+  <text x="180" y="57" text-anchor="middle" fill="#FBF8F1" font-size="16" font-weight="700">2026-05-01</text>
+  <!-- Impact -->
+  <text x="1340" y="92" text-anchor="middle" font-size="26">⭐⭐</text>
+  <!-- Title -->
+  <text x="80" y="118" fill="#1A1D24" font-size="36" font-weight="900">⚖️ Musk v. OpenAI 裁判Day5：判事がX投稿を制限命令</text>
+  <text x="80" y="158" fill="#1A1D24" font-size="24" font-weight="700">Stuart Russell（UC Berkeley）が来週専門家証言へ——判決は5月中旬の見込み</text>
+  <line x1="80" y1="172" x2="1340" y2="172" stroke="#1A1D24" stroke-width="3"/>
+  <text x="80" y="193" fill="#666" font-size="13">Seoul Economic Daily / CNBC / ABC7  ·  2026-05-01  ·  #OpenAI #マスク #裁判 #SNS</text>
+  <!-- Hero -->
+  <g transform="translate(1265, 258)">
+    <circle cx="0" cy="0" r="68" fill="#F5F0E8" stroke="#1A1D24" stroke-width="3"/>
+    <text x="0" y="18" text-anchor="middle" font-size="58">⚖️</text>
+  </g>
+  <!-- Timeline -->
+  <rect x="80" y="215" width="1280" height="175" rx="10" fill="#F5F0E8" stroke="#1A1D24" stroke-width="2.5" filter="url(#softShadow)"/>
+  <text x="110" y="245" fill="#1A1D24" font-size="17" font-weight="800">📅 裁判タイムライン（Day1〜Day5、現況）</text>
+  <line x1="110" y1="255" x2="1330" y2="255" stroke="#1A1D24" stroke-width="1.5" stroke-dasharray="4,3"/>
+  <!-- Timeline bar -->
+  <line x1="130" y1="310" x2="1310" y2="310" stroke="#1A1D24" stroke-width="3"/>
+  <!-- Day markers -->
+  <circle cx="200" cy="310" r="16" fill="#5B8DEF" stroke="#1A1D24" stroke-width="2.5"/>
+  <text x="200" y="315" text-anchor="middle" fill="#FBF8F1" font-size="13" font-weight="700">D1</text>
+  <text x="200" y="348" text-anchor="middle" fill="#1A1D24" font-size="12">4/28 開廷</text>
+  <text x="200" y="364" text-anchor="middle" fill="#555" font-size="11">マスク証言開始</text>
+  <text x="200" y="378" text-anchor="middle" fill="#555" font-size="11">「慈善団体を盗んだ」</text>
+
+  <circle cx="450" cy="310" r="16" fill="#5B8DEF" stroke="#1A1D24" stroke-width="2.5"/>
+  <text x="450" y="315" text-anchor="middle" fill="#FBF8F1" font-size="13" font-weight="700">D2</text>
+  <text x="450" y="348" text-anchor="middle" fill="#1A1D24" font-size="12">4/29 Day2</text>
+  <text x="450" y="364" text-anchor="middle" fill="#555" font-size="11">反対尋問開始</text>
+  <text x="450" y="378" text-anchor="middle" fill="#555" font-size="11">xAI非公開を突かれる</text>
+
+  <circle cx="700" cy="310" r="16" fill="#5CA46E" stroke="#1A1D24" stroke-width="2.5"/>
+  <text x="700" y="315" text-anchor="middle" fill="#FBF8F1" font-size="13" font-weight="700">D4</text>
+  <text x="700" y="348" text-anchor="middle" fill="#1A1D24" font-size="12">4/30 Day4</text>
+  <text x="700" y="364" text-anchor="middle" fill="#555" font-size="11">Grok蒸留を認める</text>
+  <text x="700" y="378" text-anchor="middle" fill="#555" font-size="11">「業界慣行」と証言</text>
+
+  <circle cx="950" cy="310" r="18" fill="#E8A87C" stroke="#1A1D24" stroke-width="3"/>
+  <text x="950" y="315" text-anchor="middle" fill="#1A1D24" font-size="13" font-weight="700">D5</text>
+  <text x="950" y="348" text-anchor="middle" fill="#E8A87C" font-size="12" font-weight="700">5/1 ★今日★</text>
+  <text x="950" y="364" text-anchor="middle" fill="#1A1D24" font-size="11">X投稿制限命令</text>
+  <text x="950" y="378" text-anchor="middle" fill="#1A1D24" font-size="11">陪審員早期解散</text>
+
+  <circle cx="1200" cy="310" r="16" fill="#CCC" stroke="#1A1D24" stroke-width="2.5"/>
+  <text x="1200" y="315" text-anchor="middle" fill="#555" font-size="13" font-weight="700">次</text>
+  <text x="1200" y="348" text-anchor="middle" fill="#555" font-size="12">来週</text>
+  <text x="1200" y="364" text-anchor="middle" fill="#555" font-size="11">Stuart Russell</text>
+  <text x="1200" y="378" text-anchor="middle" fill="#555" font-size="11">専門家証言</text>
+
+  <!-- Key numbers -->
+  <rect x="80" y="410" width="270" height="145" rx="10" fill="#F5F0E8" stroke="#1A1D24" stroke-width="3" filter="url(#softShadow)"/>
+  <text x="215" y="442" text-anchor="middle" fill="#5B8DEF" font-size="13" font-weight="700">⏱️ マスク証言時間</text>
+  <text x="215" y="495" text-anchor="middle" fill="#1A1D24" font-size="52" font-weight="900">7h+</text>
+  <text x="215" y="525" text-anchor="middle" fill="#555" font-size="13">3日間合計の証言時間</text>
+  <text x="215" y="546" text-anchor="middle" fill="#888" font-size="12">Day1〜Day3にまたがる</text>
+
+  <rect x="370" y="410" width="270" height="145" rx="10" fill="#F5F0E8" stroke="#1A1D24" stroke-width="3" filter="url(#softShadow)"/>
+  <text x="505" y="442" text-anchor="middle" fill="#E8A87C" font-size="13" font-weight="700">🏛️ 求める賠償</text>
+  <text x="505" y="495" text-anchor="middle" fill="#1A1D24" font-size="52" font-weight="900">$130B</text>
+  <text x="505" y="525" text-anchor="middle" fill="#555" font-size="13">損害賠償額 + Altman解任</text>
+  <text x="505" y="546" text-anchor="middle" fill="#888" font-size="12">PBC構造の巻き戻しも要求</text>
+
+  <rect x="660" y="410" width="270" height="145" rx="10" fill="#F5F0E8" stroke="#1A1D24" stroke-width="3" filter="url(#softShadow)"/>
+  <text x="795" y="442" text-anchor="middle" fill="#5CA46E" font-size="13" font-weight="700">📈 IPO評価額（OpenAI）</text>
+  <text x="795" y="495" text-anchor="middle" fill="#1A1D24" font-size="52" font-weight="900">$200B+</text>
+  <text x="795" y="525" text-anchor="middle" fill="#555" font-size="13">予定評価額（IPO計画）</text>
+  <text x="795" y="546" text-anchor="middle" fill="#888" font-size="12">判決内容で直接影響</text>
+
+  <!-- 4 cards -->
+  <rect x="80" y="578" width="290" height="130" rx="8" fill="#F5F0E8" stroke="#1A1D24" stroke-width="2.5" filter="url(#softShadow)"/>
+  <text x="225" y="608" text-anchor="middle" fill="#E8A87C" font-size="13" font-weight="800">📱 X投稿制限命令</text>
+  <text x="225" y="632" text-anchor="middle" fill="#1A1D24" font-size="14">裁判中の投稿制限</text>
+  <text x="225" y="654" text-anchor="middle" fill="#555" font-size="12">2億人フォロワーへの</text>
+  <text x="225" y="672" text-anchor="middle" fill="#555" font-size="12">リアルタイム共有が問題</text>
+  <text x="225" y="698" text-anchor="middle" fill="#888" font-size="11">陪審員への影響懸念</text>
+
+  <rect x="395" y="578" width="290" height="130" rx="8" fill="#F5F0E8" stroke="#1A1D24" stroke-width="2.5" filter="url(#softShadow)"/>
+  <text x="540" y="608" text-anchor="middle" fill="#5B8DEF" font-size="13" font-weight="800">🎓 Stuart Russell とは</text>
+  <text x="540" y="632" text-anchor="middle" fill="#1A1D24" font-size="14">UC Berkeley教授</text>
+  <text x="540" y="654" text-anchor="middle" fill="#555" font-size="12">「人工知能：現代的アプローチ」共著</text>
+  <text x="540" y="672" text-anchor="middle" fill="#555" font-size="12">AI安全性の泰斗</text>
+  <text x="540" y="698" text-anchor="middle" fill="#888" font-size="11">マスク側専門家証人</text>
+
+  <rect x="710" y="578" width="290" height="130" rx="8" fill="#F5F0E8" stroke="#1A1D24" stroke-width="2.5" filter="url(#softShadow)"/>
+  <text x="855" y="608" text-anchor="middle" fill="#5CA46E" font-size="13" font-weight="800">📊 アナリスト予測</text>
+  <text x="855" y="632" text-anchor="middle" fill="#1A1D24" font-size="14">混合判決の可能性</text>
+  <text x="855" y="654" text-anchor="middle" fill="#555" font-size="12">受託義務違反1件は認定</text>
+  <text x="855" y="672" text-anchor="middle" fill="#555" font-size="12">全面巻き戻しは命じない見込み</text>
+  <text x="855" y="698" text-anchor="middle" fill="#888" font-size="11">判決は5月中旬目標</text>
+
+  <rect x="1025" y="578" width="295" height="130" rx="8" fill="#F5F0E8" stroke="#1A1D24" stroke-width="2.5" filter="url(#softShadow)"/>
+  <text x="1172" y="608" text-anchor="middle" fill="#8B7DB8" font-size="13" font-weight="800">⚡ Grok 蒸留認定</text>
+  <text x="1172" y="632" text-anchor="middle" fill="#1A1D24" font-size="14">4/30の爆弾発言</text>
+  <text x="1172" y="654" text-anchor="middle" fill="#555" font-size="12">「業界慣行」と証言したが</text>
+  <text x="1172" y="672" text-anchor="middle" fill="#555" font-size="12">ToS違反・IP問題に飛び火</text>
+  <text x="1172" y="698" text-anchor="middle" fill="#888" font-size="11">HN 450+ コメント</text>
+
+  <!-- Sticky notes -->
+  <rect x="80" y="730" width="270" height="115" rx="4" fill="#FFF9C4" stroke="#1A1D24" stroke-width="2" filter="url(#stickyShadow)" transform="rotate(-1.2, 80, 730)"/>
+  <text x="95" y="760" fill="#1A1D24" font-size="13" font-weight="700">📌 公人SNS制限の前例</text>
+  <text x="95" y="782" fill="#333" font-size="12">自社プラットフォームで</text>
+  <text x="95" y="800" fill="#333" font-size="12">裁判投稿を制限された</text>
+  <text x="95" y="818" fill="#333" font-size="12">初の事例として記録に残る</text>
+  <text x="95" y="836" fill="#666" font-size="11">法的先例として重要</text>
+
+  <rect x="375" y="735" width="270" height="115" rx="4" fill="#C8F7C5" stroke="#1A1D24" stroke-width="2" filter="url(#stickyShadow)" transform="rotate(0.8, 375, 735)"/>
+  <text x="390" y="765" fill="#1A1D24" font-size="13" font-weight="700">🤔 Russellが証言する意味</text>
+  <text x="390" y="787" fill="#333" font-size="12">「AIガバナンスの正当性」</text>
+  <text x="390" y="805" fill="#333" font-size="12">という法廷の焦点を</text>
+  <text x="390" y="823" fill="#333" font-size="12">純粋な「契約違反」から</text>
+  <text x="390" y="841" fill="#333" font-size="12">倫理的次元に引き上げる。</text>
+
+  <rect x="670" y="728" width="270" height="115" rx="4" fill="#FFD9B3" stroke="#1A1D24" stroke-width="2" filter="url(#stickyShadow)" transform="rotate(-0.9, 670, 728)"/>
+  <text x="685" y="758" fill="#1A1D24" font-size="13" font-weight="700">💡 マスクの矛盾</text>
+  <text x="685" y="780" fill="#333" font-size="12">「オープンソース守れ」と</text>
+  <text x="685" y="798" fill="#333" font-size="12">主張しながら、xAI最新</text>
+  <text x="685" y="816" fill="#333" font-size="12">Grokは非公開。反対尋問で</text>
+  <text x="685" y="834" fill="#333" font-size="12">徹底的に突かれた。</text>
+
+  <rect x="965" y="733" width="270" height="115" rx="4" fill="#E8D5F5" stroke="#1A1D24" stroke-width="2" filter="url(#stickyShadow)" transform="rotate(1.3, 965, 733)"/>
+  <text x="980" y="763" fill="#1A1D24" font-size="13" font-weight="700">🔮 IPOへの影響</text>
+  <text x="980" y="785" fill="#333" font-size="12">是正命令が出た場合、</text>
+  <text x="980" y="803" fill="#333" font-size="12">$200B+のIPO計画に</text>
+  <text x="980" y="821" fill="#333" font-size="12">直接影響。業界全体の</text>
+  <text x="980" y="839" fill="#333" font-size="12">ガバナンス先例にもなる。</text>
+
+  <!-- Footer -->
+  <text x="700" y="1032" text-anchor="middle" fill="#999" font-size="13" font-style="italic">AI News · 2026-05-01 · Musk v. OpenAI Trial Day 5: Judge Orders Social Media Curb, Stuart Russell to Testify</text>
+</svg>

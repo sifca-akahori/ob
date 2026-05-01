@@ -1,0 +1,160 @@
+<svg viewBox="0 0 1400 1050" xmlns="http://www.w3.org/2000/svg" font-family="-apple-system, 'Hiragino Sans', 'Yu Gothic', sans-serif">
+  <defs>
+    <pattern id="paperTexture" patternUnits="userSpaceOnUse" width="4" height="4">
+      <rect width="4" height="4" fill="#FBF8F1"/>
+      <circle cx="1" cy="1" r="0.4" fill="#E8E2D3" opacity="0.5"/>
+      <circle cx="3" cy="3" r="0.3" fill="#E8E2D3" opacity="0.3"/>
+    </pattern>
+    <filter id="softShadow">
+      <feDropShadow dx="2" dy="3" stdDeviation="4" flood-color="#1A1D24" flood-opacity="0.15"/>
+    </filter>
+    <filter id="stickyShadow">
+      <feDropShadow dx="3" dy="4" stdDeviation="5" flood-color="#1A1D24" flood-opacity="0.2"/>
+    </filter>
+  </defs>
+  <rect width="1400" height="1050" fill="url(#paperTexture)"/>
+  <line x1="40" y1="80" x2="40" y2="980" stroke="#E8E2D3" stroke-width="2"/>
+  <circle cx="40" cy="150" r="14" fill="#FBF8F1" stroke="#E8E2D3" stroke-width="2"/>
+  <circle cx="40" cy="280" r="14" fill="#FBF8F1" stroke="#E8E2D3" stroke-width="2"/>
+  <circle cx="40" cy="410" r="14" fill="#FBF8F1" stroke="#E8E2D3" stroke-width="2"/>
+  <circle cx="40" cy="540" r="14" fill="#FBF8F1" stroke="#E8E2D3" stroke-width="2"/>
+  <circle cx="40" cy="670" r="14" fill="#FBF8F1" stroke="#E8E2D3" stroke-width="2"/>
+  <circle cx="40" cy="800" r="14" fill="#FBF8F1" stroke="#E8E2D3" stroke-width="2"/>
+  <rect x="1185" y="-10" width="145" height="46" rx="4" fill="#5B8DEF" stroke="#1A1D24" stroke-width="2" transform="rotate(-3, 1185, -10)" filter="url(#stickyShadow)"/>
+  <text x="1256" y="22" text-anchor="middle" fill="#FBF8F1" font-size="15" font-weight="700" transform="rotate(-3, 1256, 22)">#研究</text>
+  <rect x="80" y="30" width="200" height="42" rx="6" fill="#2F3842" stroke="#1A1D24" stroke-width="2"/>
+  <text x="180" y="57" text-anchor="middle" fill="#FBF8F1" font-size="16" font-weight="700">2026-05-01</text>
+  <text x="1340" y="92" text-anchor="middle" font-size="26">⭐⭐</text>
+  <text x="80" y="118" fill="#1A1D24" font-size="36" font-weight="900">🌐 MIT Tech Review「AIのスケールと主権の運用化」</text>
+  <text x="80" y="158" fill="#1A1D24" font-size="24" font-weight="700">データ主権が次の企業AI競争軸——EU・日・印・UAEが「国産AIスタック」構築へ</text>
+  <line x1="80" y1="172" x2="1340" y2="172" stroke="#1A1D24" stroke-width="3"/>
+  <text x="80" y="193" fill="#666" font-size="13">MIT Technology Review  ·  2026-05-01  ·  #データ主権 #ソブリンクラウド #エンタープライズAI</text>
+  <g transform="translate(1265, 258)">
+    <circle cx="0" cy="0" r="68" fill="#EEF4FD" stroke="#1A1D24" stroke-width="3"/>
+    <text x="0" y="18" text-anchor="middle" font-size="58">🌍</text>
+  </g>
+
+  <!-- Sovereignty spectrum -->
+  <rect x="80" y="215" width="1280" height="180" rx="10" fill="#EEF4FD" stroke="#1A1D24" stroke-width="2.5" filter="url(#softShadow)"/>
+  <text x="110" y="246" fill="#1A1D24" font-size="17" font-weight="800">🗺️ AIデータ主権の地政学的マップ——規制強度と主権化の進捗</text>
+  <line x1="110" y1="256" x2="1330" y2="256" stroke="#1A1D24" stroke-width="1.5" stroke-dasharray="4,3"/>
+  <!-- Spectrum bar -->
+  <rect x="120" y="282" width="1240" height="30" rx="5" fill="url(#specGrad)" stroke="#1A1D24" stroke-width="1.5"/>
+  <defs>
+    <linearGradient id="specGrad" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0%" stop-color="#5CA46E"/>
+      <stop offset="50%" stop-color="#E8A87C"/>
+      <stop offset="100%" stop-color="#E05050"/>
+    </linearGradient>
+  </defs>
+  <text x="145" y="278" fill="#5CA46E" font-size="12" font-weight="700">↑ 自由</text>
+  <text x="1280" y="278" fill="#E05050" font-size="12" font-weight="700">↑ 厳格</text>
+  <!-- Country markers -->
+  <line x1="230" y1="275" x2="230" y2="340" stroke="#1A1D24" stroke-width="2"/>
+  <text x="230" y="358" text-anchor="middle" fill="#1A1D24" font-size="13" font-weight="700">🇺🇸 US</text>
+  <text x="230" y="376" text-anchor="middle" fill="#555" font-size="11">連邦法不在</text>
+  <line x1="570" y1="275" x2="570" y2="340" stroke="#1A1D24" stroke-width="2"/>
+  <text x="570" y="358" text-anchor="middle" fill="#1A1D24" font-size="13" font-weight="700">🇯🇵 JP</text>
+  <text x="570" y="376" text-anchor="middle" fill="#555" font-size="11">政府優先原則</text>
+  <line x1="820" y1="275" x2="820" y2="340" stroke="#1A1D24" stroke-width="2"/>
+  <text x="820" y="358" text-anchor="middle" fill="#1A1D24" font-size="13" font-weight="700">🇮🇳 IN</text>
+  <text x="820" y="376" text-anchor="middle" fill="#555" font-size="11">PDPB施行</text>
+  <line x1="1080" y1="275" x2="1080" y2="340" stroke="#1A1D24" stroke-width="2"/>
+  <text x="1080" y="358" text-anchor="middle" fill="#1A1D24" font-size="13" font-weight="700">🇪🇺 EU</text>
+  <text x="1080" y="376" text-anchor="middle" fill="#555" font-size="11">GDPR+AI Act</text>
+  <line x1="1280" y1="275" x2="1280" y2="340" stroke="#1A1D24" stroke-width="2"/>
+  <text x="1280" y="358" text-anchor="middle" fill="#1A1D24" font-size="13" font-weight="700">🇦🇪 UAE</text>
+  <text x="1280" y="376" text-anchor="middle" fill="#555" font-size="11">国家AIスタック</text>
+
+  <!-- Architecture options -->
+  <rect x="80" y="415" width="380" height="155" rx="10" fill="#F5F0E8" stroke="#1A1D24" stroke-width="3" filter="url(#softShadow)"/>
+  <text x="270" y="447" text-anchor="middle" fill="#5CA46E" font-size="14" font-weight="700">🏗️ ソブリンクラウド</text>
+  <text x="270" y="476" text-anchor="middle" fill="#1A1D24" font-size="18" font-weight="900">1.5〜2.5倍コスト</text>
+  <text x="270" y="502" text-anchor="middle" fill="#555" font-size="13">Azure Sovereign / GCP Distributed</text>
+  <text x="270" y="522" text-anchor="middle" fill="#555" font-size="12">国内DC認定だが監査困難</text>
+  <text x="270" y="542" text-anchor="middle" fill="#888" font-size="11">AWS GovCloud も同様</text>
+  <text x="270" y="562" text-anchor="middle" fill="#888" font-size="11">実際の越境転送に疑問符</text>
+
+  <rect x="480" y="415" width="380" height="155" rx="10" fill="#F5F0E8" stroke="#1A1D24" stroke-width="3" filter="url(#softShadow)"/>
+  <text x="670" y="447" text-anchor="middle" fill="#5B8DEF" font-size="14" font-weight="700">💻 オンプレミス推論</text>
+  <text x="670" y="476" text-anchor="middle" fill="#1A1D24" font-size="18" font-weight="900">最高の主権性</text>
+  <text x="670" y="502" text-anchor="middle" fill="#555" font-size="13">NVIDIA DGX / AMD Instinct</text>
+  <text x="670" y="522" text-anchor="middle" fill="#555" font-size="12">Gemini Nano / On-Device LLM</text>
+  <text x="670" y="542" text-anchor="middle" fill="#888" font-size="11">医療・法務・行政に最適</text>
+  <text x="670" y="562" text-anchor="middle" fill="#888" font-size="11">スケールコストが課題</text>
+
+  <rect x="880" y="415" width="480" height="155" rx="10" fill="#F5F0E8" stroke="#1A1D24" stroke-width="3" filter="url(#softShadow)"/>
+  <text x="1120" y="447" text-anchor="middle" fill="#8B7DB8" font-size="14" font-weight="700">🔀 ハイブリッドアーキテクチャ（推奨）</text>
+  <text x="1120" y="476" text-anchor="middle" fill="#1A1D24" font-size="18" font-weight="900">主権 + スケール</text>
+  <text x="1120" y="502" text-anchor="middle" fill="#555" font-size="13">機密データ: オンプレ / 非機密: クラウド</text>
+  <text x="1120" y="522" text-anchor="middle" fill="#555" font-size="12">Anthropic MCP + On-Device 連携</text>
+  <text x="1120" y="542" text-anchor="middle" fill="#888" font-size="11">OpenAI GPT-Enterprise Private も同方向</text>
+  <text x="1120" y="562" text-anchor="middle" fill="#888" font-size="11">2026年後半の標準アーキに</text>
+
+  <!-- 5 cards -->
+  <rect x="80" y="590" width="235" height="135" rx="8" fill="#F5F0E8" stroke="#1A1D24" stroke-width="2.5" filter="url(#softShadow)"/>
+  <text x="197" y="619" text-anchor="middle" fill="#5B8DEF" font-size="13" font-weight="800">🇯🇵 日本の動き</text>
+  <text x="197" y="641" text-anchor="middle" fill="#1A1D24" font-size="13">デジタル庁主導</text>
+  <text x="197" y="663" text-anchor="middle" fill="#555" font-size="12">さくら・GMO・富士通と</text>
+  <text x="197" y="683" text-anchor="middle" fill="#555" font-size="12">Anthropic/Google連携</text>
+  <text x="197" y="715" text-anchor="middle" fill="#888" font-size="11">政府系「国内AI」要件</text>
+
+  <rect x="335" y="590" width="235" height="135" rx="8" fill="#F5F0E8" stroke="#1A1D24" stroke-width="2.5" filter="url(#softShadow)"/>
+  <text x="452" y="619" text-anchor="middle" fill="#5CA46E" font-size="13" font-weight="800">💶 EUソブリン市場</text>
+  <text x="452" y="641" text-anchor="middle" fill="#1A1D24" font-size="13">EU Cloud CoC認定DC</text>
+  <text x="452" y="663" text-anchor="middle" fill="#555" font-size="12">Mistral / Aleph Alpha</text>
+  <text x="452" y="683" text-anchor="middle" fill="#555" font-size="12">などEU産AIが台頭</text>
+  <text x="452" y="715" text-anchor="middle" fill="#888" font-size="11">GDPR+AI Act の壁</text>
+
+  <rect x="590" y="590" width="235" height="135" rx="8" fill="#F5F0E8" stroke="#1A1D24" stroke-width="2.5" filter="url(#softShadow)"/>
+  <text x="707" y="619" text-anchor="middle" fill="#8B7DB8" font-size="13" font-weight="800">💰 市場規模</text>
+  <text x="707" y="641" text-anchor="middle" fill="#1A1D24" font-size="13">数百億ドル規模へ</text>
+  <text x="707" y="663" text-anchor="middle" fill="#555" font-size="12">ソブリンAI認証サービス</text>
+  <text x="707" y="683" text-anchor="middle" fill="#555" font-size="12">ISO 27001のAI版も</text>
+  <text x="707" y="715" text-anchor="middle" fill="#888" font-size="11">2027年に新市場誕生</text>
+
+  <rect x="845" y="590" width="235" height="135" rx="8" fill="#F5F0E8" stroke="#1A1D24" stroke-width="2.5" filter="url(#softShadow)"/>
+  <text x="962" y="619" text-anchor="middle" fill="#E8A87C" font-size="13" font-weight="800">⚡ Federated Learning</text>
+  <text x="962" y="641" text-anchor="middle" fill="#1A1D24" font-size="13">データ非共有で学習</text>
+  <text x="962" y="663" text-anchor="middle" fill="#555" font-size="12">患者データ活用の鍵</text>
+  <text x="962" y="683" text-anchor="middle" fill="#555" font-size="12">金融・医療・政府で注目</text>
+  <text x="962" y="715" text-anchor="middle" fill="#888" font-size="11">真の主権AIへの道</text>
+
+  <rect x="1100" y="590" width="240" height="135" rx="8" fill="#F5F0E8" stroke="#1A1D24" stroke-width="2.5" filter="url(#softShadow)"/>
+  <text x="1220" y="619" text-anchor="middle" fill="#5B8DEF" font-size="13" font-weight="800">🔐 真の主権とは</text>
+  <text x="1220" y="641" text-anchor="middle" fill="#1A1D24" font-size="13">On-Device &gt; Sovereign Cloud</text>
+  <text x="1220" y="663" text-anchor="middle" fill="#555" font-size="12">「端末から出ない」が</text>
+  <text x="1220" y="683" text-anchor="middle" fill="#555" font-size="12">最も確実な主権保護</text>
+  <text x="1220" y="715" text-anchor="middle" fill="#888" font-size="11">Apple Private Cloud と同方向</text>
+
+  <!-- Sticky notes -->
+  <rect x="80" y="748" width="265" height="118" rx="4" fill="#FFF9C4" stroke="#1A1D24" stroke-width="2" filter="url(#stickyShadow)" transform="rotate(-1.1, 80, 748)"/>
+  <text x="95" y="778" fill="#1A1D24" font-size="13" font-weight="700">💡 スケール×主権のトレードオフ</text>
+  <text x="95" y="800" fill="#333" font-size="12">オンプレ化するほど</text>
+  <text x="95" y="818" fill="#333" font-size="12">最大モデル・コスト効率を失う。</text>
+  <text x="95" y="836" fill="#333" font-size="12">ハイブリッドが唯一の</text>
+  <text x="95" y="854" fill="#333" font-size="12">現実解として定着する。</text>
+
+  <rect x="375" y="753" width="265" height="118" rx="4" fill="#C8F7C5" stroke="#1A1D24" stroke-width="2" filter="url(#stickyShadow)" transform="rotate(0.8, 375, 753)"/>
+  <text x="390" y="783" fill="#1A1D24" font-size="13" font-weight="700">🇯🇵 日本への示唆</text>
+  <text x="390" y="805" fill="#333" font-size="12">政府DX×AI統合では</text>
+  <text x="390" y="823" fill="#333" font-size="12">「国内DC優先原則」が</text>
+  <text x="390" y="841" fill="#333" font-size="12">グローバルAIラボの</text>
+  <text x="390" y="859" fill="#333" font-size="12">新チャネルになる。</text>
+
+  <rect x="660" y="746" width="265" height="118" rx="4" fill="#FFD9B3" stroke="#1A1D24" stroke-width="2" filter="url(#stickyShadow)" transform="rotate(-0.7, 660, 746)"/>
+  <text x="675" y="776" fill="#1A1D24" font-size="13" font-weight="700">⚠️ ソブリン認定の疑問</text>
+  <text x="675" y="798" fill="#333" font-size="12">「認定DC」でも実際に</text>
+  <text x="675" y="816" fill="#333" font-size="12">国境を越えているか</text>
+  <text x="675" y="834" fill="#333" font-size="12">監査が困難。規制当局の</text>
+  <text x="675" y="852" fill="#333" font-size="12">監視強化が不可避。</text>
+
+  <rect x="950" y="751" width="265" height="118" rx="4" fill="#E8D5F5" stroke="#1A1D24" stroke-width="2" filter="url(#stickyShadow)" transform="rotate(1.2, 950, 751)"/>
+  <text x="965" y="781" fill="#1A1D24" font-size="13" font-weight="700">🔮 「ソブリンAI認証」誕生へ</text>
+  <text x="965" y="803" fill="#333" font-size="12">2027年に ISO/IEC規格の</text>
+  <text x="965" y="821" fill="#333" font-size="12">AI版標準化競争が始まる。</text>
+  <text x="965" y="839" fill="#333" font-size="12">「SOC2 for AI」のような</text>
+  <text x="965" y="857" fill="#333" font-size="12">認証市場が立ち上がる。</text>
+
+  <text x="700" y="1032" text-anchor="middle" fill="#999" font-size="13" font-style="italic">AI News · 2026-05-01 · MIT Technology Review: Operationalizing AI for Scale and Sovereignty</text>
+</svg>

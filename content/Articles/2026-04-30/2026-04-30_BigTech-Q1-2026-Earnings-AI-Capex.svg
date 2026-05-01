@@ -1,0 +1,161 @@
+<svg viewBox="0 0 1400 1050" xmlns="http://www.w3.org/2000/svg" font-family="-apple-system, 'Hiragino Sans', 'Yu Gothic', sans-serif">
+  <defs>
+    <pattern id="paperTexture" patternUnits="userSpaceOnUse" width="4" height="4">
+      <rect width="4" height="4" fill="#FBF8F1"/>
+      <circle cx="1" cy="1" r="0.4" fill="#E8E2D3" opacity="0.5"/>
+      <circle cx="3" cy="3" r="0.3" fill="#E8E2D3" opacity="0.3"/>
+    </pattern>
+    <filter id="softShadow">
+      <feDropShadow dx="2" dy="3" stdDeviation="4" flood-color="#1A1D24" flood-opacity="0.15"/>
+    </filter>
+    <filter id="stickyShadow">
+      <feDropShadow dx="3" dy="4" stdDeviation="5" flood-color="#1A1D24" flood-opacity="0.2"/>
+    </filter>
+  </defs>
+  <rect width="1400" height="1050" fill="url(#paperTexture)"/>
+
+  <!-- Binding holes -->
+  <line x1="40" y1="80" x2="40" y2="980" stroke="#E8E2D3" stroke-width="2"/>
+  <circle cx="40" cy="150" r="14" fill="#FBF8F1" stroke="#E8E2D3" stroke-width="2"/>
+  <circle cx="40" cy="280" r="14" fill="#FBF8F1" stroke="#E8E2D3" stroke-width="2"/>
+  <circle cx="40" cy="410" r="14" fill="#FBF8F1" stroke="#E8E2D3" stroke-width="2"/>
+  <circle cx="40" cy="540" r="14" fill="#FBF8F1" stroke="#E8E2D3" stroke-width="2"/>
+  <circle cx="40" cy="670" r="14" fill="#FBF8F1" stroke="#E8E2D3" stroke-width="2"/>
+  <circle cx="40" cy="800" r="14" fill="#FBF8F1" stroke="#E8E2D3" stroke-width="2"/>
+
+  <!-- Category tape - ビジネス green -->
+  <rect x="1180" y="-10" width="160" height="46" rx="4" fill="#5CA46E" stroke="#1A1D24" stroke-width="2" transform="rotate(-3, 1180, -10)" filter="url(#stickyShadow)"/>
+  <text x="1260" y="22" text-anchor="middle" fill="#FBF8F1" font-size="15" font-weight="700" transform="rotate(-3, 1260, 22)">#ビジネス</text>
+
+  <!-- Date badge -->
+  <rect x="80" y="30" width="200" height="42" rx="6" fill="#2F3842" stroke="#1A1D24" stroke-width="2"/>
+  <text x="180" y="57" text-anchor="middle" fill="#FBF8F1" font-size="16" font-weight="700">2026-04-30</text>
+
+  <!-- Impact -->
+  <text x="1310" y="90" text-anchor="middle" font-size="28">⭐⭐⭐</text>
+
+  <!-- Title -->
+  <text x="80" y="115" fill="#1A1D24" font-size="36" font-weight="900">💰 ビッグテックQ1決算：AI設備投資$700B時代突入</text>
+  <text x="80" y="158" fill="#1A1D24" font-size="26" font-weight="800">Google Cloud +63%・Azure AI ARR $37B・AWS +28%が全指標を上回る</text>
+  <line x1="80" y1="170" x2="1350" y2="170" stroke="#1A1D24" stroke-width="3"/>
+  <text x="80" y="193" fill="#666" font-size="14">CNBC / 9to5Google / NextWeb  ·  2026-04-29決算発表  ·  #BigTech #CapEx #AI</text>
+
+  <!-- Hero icon -->
+  <g transform="translate(1240, 240)">
+    <circle cx="0" cy="0" r="65" fill="#F5F0E8" stroke="#1A1D24" stroke-width="3"/>
+    <text x="0" y="15" text-anchor="middle" font-size="55">📈</text>
+  </g>
+
+  <!-- Key numbers -->
+  <rect x="80" y="215" width="320" height="155" rx="10" fill="#F5F0E8" stroke="#1A1D24" stroke-width="3" filter="url(#softShadow)"/>
+  <text x="240" y="248" text-anchor="middle" fill="#5CA46E" font-size="14" font-weight="700">🟩 Google Cloud</text>
+  <text x="240" y="295" text-anchor="middle" fill="#1A1D24" font-size="58" font-weight="900">+63%</text>
+  <text x="240" y="328" text-anchor="middle" fill="#555" font-size="13">YoY / $20.02B（Q1 2026）</text>
+  <text x="240" y="350" text-anchor="middle" fill="#888" font-size="12">バックログ $460B・2倍化</text>
+
+  <rect x="420" y="215" width="320" height="155" rx="10" fill="#F5F0E8" stroke="#1A1D24" stroke-width="3" filter="url(#softShadow)"/>
+  <text x="580" y="248" text-anchor="middle" fill="#5B8DEF" font-size="14" font-weight="700">🟦 Microsoft Azure AI</text>
+  <text x="580" y="295" text-anchor="middle" fill="#1A1D24" font-size="58" font-weight="900">$37B</text>
+  <text x="580" y="328" text-anchor="middle" fill="#555" font-size="13">AI ARR / +123% YoY</text>
+  <text x="580" y="350" text-anchor="middle" fill="#888" font-size="12">Copilot有料シート2,000万超</text>
+
+  <rect x="760" y="215" width="320" height="155" rx="10" fill="#F5F0E8" stroke="#1A1D24" stroke-width="3" filter="url(#softShadow)"/>
+  <text x="920" y="248" text-anchor="middle" fill="#E8A87C" font-size="14" font-weight="700">🟧 Amazon AWS</text>
+  <text x="920" y="295" text-anchor="middle" fill="#1A1D24" font-size="58" font-weight="900">+28%</text>
+  <text x="920" y="328" text-anchor="middle" fill="#555" font-size="13">YoY / $37.5B（15Q最速）</text>
+  <text x="920" y="350" text-anchor="middle" fill="#888" font-size="12">カスタムチップ ARR $20B+</text>
+
+  <!-- Bar chart: CapEx 2026 -->
+  <rect x="80" y="395" width="1260" height="220" rx="10" fill="#F5F0E8" stroke="#1A1D24" stroke-width="2.5" filter="url(#softShadow)"/>
+  <text x="110" y="425" fill="#1A1D24" font-size="18" font-weight="800">📊 2026年AI設備投資計画（各社）</text>
+  <line x1="110" y1="435" x2="1320" y2="435" stroke="#1A1D24" stroke-width="1.5" stroke-dasharray="4,3"/>
+
+  <!-- Amazon bar -->
+  <rect x="160" y="450" width="200" height="120" rx="4" fill="#E8A87C" stroke="#1A1D24" stroke-width="2.5"/>
+  <text x="260" y="524" text-anchor="middle" fill="#1A1D24" font-size="22" font-weight="900">$200B</text>
+  <text x="260" y="590" text-anchor="middle" fill="#1A1D24" font-size="13" font-weight="700">Amazon</text>
+
+  <!-- Alphabet bar -->
+  <rect x="420" y="462" width="200" height="108" rx="4" fill="#5CA46E" stroke="#1A1D24" stroke-width="2.5"/>
+  <text x="520" y="528" text-anchor="middle" fill="#FBF8F1" font-size="22" font-weight="900">$185B</text>
+  <text x="520" y="590" text-anchor="middle" fill="#1A1D24" font-size="13" font-weight="700">Alphabet</text>
+
+  <!-- Microsoft bar -->
+  <rect x="680" y="474" width="200" height="96" rx="4" fill="#5B8DEF" stroke="#1A1D24" stroke-width="2.5"/>
+  <text x="780" y="532" text-anchor="middle" fill="#FBF8F1" font-size="22" font-weight="900">$190B</text>
+  <text x="780" y="590" text-anchor="middle" fill="#1A1D24" font-size="13" font-weight="700">Microsoft</text>
+
+  <!-- Meta bar -->
+  <rect x="940" y="510" width="200" height="60" rx="4" fill="#8B7DB8" stroke="#1A1D24" stroke-width="2.5"/>
+  <text x="1040" y="545" text-anchor="middle" fill="#FBF8F1" font-size="22" font-weight="900">$130B</text>
+  <text x="1040" y="590" text-anchor="middle" fill="#1A1D24" font-size="13" font-weight="700">Meta</text>
+
+  <!-- Total -->
+  <rect x="1170" y="440" width="140" height="130" rx="4" fill="#2F3842" stroke="#1A1D24" stroke-width="2.5"/>
+  <text x="1240" y="485" text-anchor="middle" fill="#FBF8F1" font-size="13" font-weight="700">合計</text>
+  <text x="1240" y="530" text-anchor="middle" fill="#FBF8F1" font-size="28" font-weight="900">~$700B</text>
+  <text x="1240" y="558" text-anchor="middle" fill="#aaa" font-size="11">2026年</text>
+  <text x="1240" y="574" text-anchor="middle" fill="#aaa" font-size="11">AI CapEx</text>
+
+  <!-- Cards -->
+  <rect x="80" y="640" width="295" height="135" rx="8" fill="#F5F0E8" stroke="#1A1D24" stroke-width="2.5" filter="url(#softShadow)"/>
+  <text x="100" y="668" fill="#1A1D24" font-size="14" font-weight="800">コンピュート制約</text>
+  <line x1="100" y1="675" x2="355" y2="675" stroke="#1A1D24" stroke-width="1.5"/>
+  <text x="100" y="695" fill="#555" font-size="12">Pichai「供給がなければ</text>
+  <text x="100" y="712" fill="#555" font-size="12">Cloud収益はさらに高かった」</text>
+  <text x="100" y="729" fill="#5CA46E" font-size="12" font-weight="700">→ 需要過多・供給制約が本質</text>
+  <text x="100" y="755" fill="#555" font-size="12">capex増加＝成長の直接変数</text>
+
+  <rect x="395" y="640" width="295" height="135" rx="8" fill="#F5F0E8" stroke="#1A1D24" stroke-width="2.5" filter="url(#softShadow)"/>
+  <text x="415" y="668" fill="#1A1D24" font-size="14" font-weight="800">脱NVIDIA進捗</text>
+  <line x1="415" y1="675" x2="670" y2="675" stroke="#1A1D24" stroke-width="1.5"/>
+  <text x="415" y="695" fill="#555" font-size="12">AWSカスタムチップ $20B+</text>
+  <text x="415" y="712" fill="#555" font-size="12">Google TPU v7・MS Maia</text>
+  <text x="415" y="729" fill="#5B8DEF" font-size="12" font-weight="700">→ NVIDIA依存率が低下傾向</text>
+  <text x="415" y="755" fill="#555" font-size="12">Broadcom・Marvellへの発注増</text>
+
+  <rect x="710" y="640" width="295" height="135" rx="8" fill="#F5F0E8" stroke="#1A1D24" stroke-width="2.5" filter="url(#softShadow)"/>
+  <text x="730" y="668" fill="#1A1D24" font-size="14" font-weight="800">電力・インフラ問題</text>
+  <line x1="730" y1="675" x2="985" y2="675" stroke="#1A1D24" stroke-width="1.5"/>
+  <text x="730" y="695" fill="#555" font-size="12">$700B投資は電力・土地・水の</text>
+  <text x="730" y="712" fill="#555" font-size="12">サプライチェーンを圧迫</text>
+  <text x="730" y="729" fill="#E8A87C" font-size="12" font-weight="700">→ 2027〜28年にボトルネック化</text>
+  <text x="730" y="755" fill="#555" font-size="12">核融合・宇宙DC等の代替に注目</text>
+
+  <rect x="1025" y="640" width="295" height="135" rx="8" fill="#F5F0E8" stroke="#1A1D24" stroke-width="2.5" filter="url(#softShadow)"/>
+  <text x="1045" y="668" fill="#1A1D24" font-size="14" font-weight="800">勝者の論理が証明された日</text>
+  <line x1="1045" y1="675" x2="1300" y2="675" stroke="#1A1D24" stroke-width="1.5"/>
+  <text x="1045" y="695" fill="#555" font-size="12">3社がAI投資のROIを数字で</text>
+  <text x="1045" y="712" fill="#555" font-size="12">証明。「AIバブル」論に反証</text>
+  <text x="1045" y="729" fill="#5CA46E" font-size="12" font-weight="700">→ 企業IT予算のクラウド移行が加速</text>
+  <text x="1045" y="755" fill="#555" font-size="12">CIOのAI投資判断を後押し</text>
+
+  <!-- Sticky notes -->
+  <rect x="85" y="800" width="250" height="110" rx="5" fill="#FFF9C4" stroke="#1A1D24" stroke-width="2" filter="url(#stickyShadow)" transform="rotate(-1.5, 85, 800)"/>
+  <text x="105" y="828" fill="#1A1D24" font-size="13" font-weight="800" transform="rotate(-1.5, 105, 828)">🤔 Google Cloudの転換</text>
+  <text x="105" y="849" fill="#555" font-size="11" transform="rotate(-1.5, 105, 849)">Q1 2026初めてGemini Enterprise</text>
+  <text x="105" y="866" fill="#555" font-size="11" transform="rotate(-1.5, 105, 866)">がCloud主要成長ドライバーに</text>
+  <text x="105" y="883" fill="#555" font-size="11" transform="rotate(-1.5, 105, 883)">「Search企業」から脱却の兆候</text>
+  <text x="105" y="898" fill="#888" font-size="10" transform="rotate(-1.5, 105, 898)">Cloud収益はAlphabetの18%</text>
+
+  <rect x="360" y="812" width="250" height="100" rx="5" fill="#C8E6C9" stroke="#1A1D24" stroke-width="2" filter="url(#stickyShadow)" transform="rotate(1, 360, 812)"/>
+  <text x="380" y="840" fill="#1A1D24" font-size="13" font-weight="800" transform="rotate(1, 380, 840)">💡 AWS の勝ち筋</text>
+  <text x="380" y="861" fill="#555" font-size="11" transform="rotate(1, 380, 861)">28%成長は15四半期ぶり。</text>
+  <text x="380" y="878" fill="#555" font-size="11" transform="rotate(1, 380, 878)">Bedrock+Anthropic統合が</text>
+  <text x="380" y="895" fill="#555" font-size="11" transform="rotate(1, 380, 895)">エンタープライズ需要を牽引</text>
+
+  <rect x="635" y="800" width="250" height="110" rx="5" fill="#FFE0B2" stroke="#1A1D24" stroke-width="2" filter="url(#stickyShadow)" transform="rotate(-0.5, 635, 800)"/>
+  <text x="655" y="828" fill="#1A1D24" font-size="13" font-weight="800" transform="rotate(-0.5, 655, 828)">🔮 半年後の焦点</text>
+  <text x="655" y="849" fill="#555" font-size="11" transform="rotate(-0.5, 655, 849)">capex増加 → 2027年に減価償却</text>
+  <text x="655" y="866" fill="#555" font-size="11" transform="rotate(-0.5, 655, 866)">費用が急増しEPS圧迫リスク</text>
+  <text x="655" y="883" fill="#555" font-size="11" transform="rotate(-0.5, 655, 883)">「いつ投資が回収できるか」</text>
+  <text x="655" y="898" fill="#555" font-size="11" transform="rotate(-0.5, 655, 898)">が次の投資家の焦点</text>
+
+  <rect x="910" y="812" width="250" height="100" rx="5" fill="#E1BEE7" stroke="#1A1D24" stroke-width="2" filter="url(#stickyShadow)" transform="rotate(1.5, 910, 812)"/>
+  <text x="930" y="840" fill="#1A1D24" font-size="13" font-weight="800" transform="rotate(1.5, 930, 840)">📊 2026Q2の見通し</text>
+  <text x="930" y="861" fill="#555" font-size="11" transform="rotate(1.5, 930, 861)">Google Cloud「制約解消で</text>
+  <text x="930" y="878" fill="#555" font-size="11" transform="rotate(1.5, 930, 878)">+70%も視野」とアナリスト</text>
+  <text x="930" y="895" fill="#555" font-size="11" transform="rotate(1.5, 930, 895)">Azure AI ARR $45B予測も</text>
+
+  <text x="700" y="1035" text-anchor="middle" fill="#999" font-size="13" font-style="italic">AI News · 2026-04-30 · Big Tech Q1 2026 Earnings: $700B AI CapEx Era Begins</text>
+</svg>

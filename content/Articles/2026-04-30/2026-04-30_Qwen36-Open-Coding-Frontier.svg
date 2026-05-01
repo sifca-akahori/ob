@@ -1,0 +1,169 @@
+<svg viewBox="0 0 1400 1050" xmlns="http://www.w3.org/2000/svg" font-family="-apple-system, 'Hiragino Sans', 'Yu Gothic', sans-serif">
+  <defs>
+    <pattern id="paperTexture" patternUnits="userSpaceOnUse" width="4" height="4">
+      <rect width="4" height="4" fill="#FBF8F1"/>
+      <circle cx="1" cy="1" r="0.4" fill="#E8E2D3" opacity="0.5"/>
+      <circle cx="3" cy="3" r="0.3" fill="#E8E2D3" opacity="0.3"/>
+    </pattern>
+    <filter id="softShadow">
+      <feDropShadow dx="2" dy="3" stdDeviation="4" flood-color="#1A1D24" flood-opacity="0.15"/>
+    </filter>
+    <filter id="stickyShadow">
+      <feDropShadow dx="3" dy="4" stdDeviation="5" flood-color="#1A1D24" flood-opacity="0.2"/>
+    </filter>
+  </defs>
+  <rect width="1400" height="1050" fill="url(#paperTexture)"/>
+
+  <!-- Binding holes -->
+  <line x1="40" y1="80" x2="40" y2="980" stroke="#E8E2D3" stroke-width="2"/>
+  <circle cx="40" cy="150" r="14" fill="#FBF8F1" stroke="#E8E2D3" stroke-width="2"/>
+  <circle cx="40" cy="280" r="14" fill="#FBF8F1" stroke="#E8E2D3" stroke-width="2"/>
+  <circle cx="40" cy="410" r="14" fill="#FBF8F1" stroke="#E8E2D3" stroke-width="2"/>
+  <circle cx="40" cy="540" r="14" fill="#FBF8F1" stroke="#E8E2D3" stroke-width="2"/>
+  <circle cx="40" cy="670" r="14" fill="#FBF8F1" stroke="#E8E2D3" stroke-width="2"/>
+  <circle cx="40" cy="800" r="14" fill="#FBF8F1" stroke="#E8E2D3" stroke-width="2"/>
+
+  <!-- Category tape - 研究 blue -->
+  <rect x="1180" y="-10" width="140" height="46" rx="4" fill="#5B8DEF" stroke="#1A1D24" stroke-width="2" transform="rotate(-3, 1180, -10)" filter="url(#stickyShadow)"/>
+  <text x="1250" y="22" text-anchor="middle" fill="#FBF8F1" font-size="15" font-weight="700" transform="rotate(-3, 1250, 22)">#研究</text>
+
+  <rect x="80" y="30" width="200" height="42" rx="6" fill="#2F3842" stroke="#1A1D24" stroke-width="2"/>
+  <text x="180" y="57" text-anchor="middle" fill="#FBF8F1" font-size="16" font-weight="700">2026-04-30</text>
+  <text x="1310" y="90" text-anchor="middle" font-size="28">⭐⭐</text>
+
+  <!-- Title -->
+  <text x="80" y="115" fill="#1A1D24" font-size="38" font-weight="900">🐉 Qwen 3.6：SWE-Bench 73.4% でオープンウェイト頂点</text>
+  <text x="80" y="158" fill="#1A1D24" font-size="24" font-weight="800">35B-A3B MoE × Apache 2.0——「ローカルでGPT-5.5水準コーディング」がついに現実へ</text>
+  <line x1="80" y1="170" x2="1350" y2="170" stroke="#1A1D24" stroke-width="3"/>
+  <text x="80" y="193" fill="#666" font-size="14">Alibaba Qwen / HuggingFace / r/LocalLLaMA  ·  HFトレンド首位継続中 4/30  ·  #Qwen #Apache2.0</text>
+
+  <!-- Hero -->
+  <g transform="translate(1245, 240)">
+    <circle cx="0" cy="0" r="65" fill="#F5F0E8" stroke="#1A1D24" stroke-width="3"/>
+    <text x="0" y="15" text-anchor="middle" font-size="55">🐉</text>
+  </g>
+
+  <!-- Key numbers -->
+  <rect x="80" y="215" width="290" height="155" rx="10" fill="#F5F0E8" stroke="#1A1D24" stroke-width="3" filter="url(#softShadow)"/>
+  <text x="225" y="248" text-anchor="middle" fill="#666" font-size="13" font-weight="600">SWE-Bench Verified</text>
+  <text x="225" y="302" text-anchor="middle" fill="#1A1D24" font-size="62" font-weight="900">73.4%</text>
+  <text x="225" y="335" text-anchor="middle" fill="#555" font-size="13">オープンウェイト最高水準</text>
+  <text x="225" y="355" text-anchor="middle" fill="#888" font-size="12">35B-A3B MoE（Apache 2.0）</text>
+
+  <rect x="390" y="215" width="290" height="155" rx="10" fill="#F5F0E8" stroke="#1A1D24" stroke-width="3" filter="url(#softShadow)"/>
+  <text x="535" y="248" text-anchor="middle" fill="#666" font-size="13" font-weight="600">推論時 活性パラメータ</text>
+  <text x="535" y="302" text-anchor="middle" fill="#1A1D24" font-size="62" font-weight="900">3B</text>
+  <text x="535" y="335" text-anchor="middle" fill="#555" font-size="13">総パラメータ35Bのうち</text>
+  <text x="535" y="355" text-anchor="middle" fill="#888" font-size="12">RTX 4090で量子化動作可能</text>
+
+  <rect x="700" y="215" width="430" height="155" rx="10" fill="#F5F0E8" stroke="#1A1D24" stroke-width="3" filter="url(#softShadow)"/>
+  <text x="915" y="248" text-anchor="middle" fill="#666" font-size="13" font-weight="600">SkillsBench / SciCode 改善</text>
+  <text x="915" y="285" text-anchor="middle" fill="#1A1D24" font-size="22" font-weight="800">+9.9pt / +10.8pt</text>
+  <text x="915" y="315" text-anchor="middle" fill="#555" font-size="13">前バージョン Qwen 3.5 比</text>
+  <text x="915" y="340" text-anchor="middle" fill="#555" font-size="13">NL2Repo（実コードベース操作）+5.0pt</text>
+  <text x="915" y="360" text-anchor="middle" fill="#888" font-size="12">6つの主要コーディングベンチで首位主張（Max-Preview）</text>
+
+  <!-- Benchmark comparison bar chart -->
+  <rect x="80" y="395" width="1260" height="215" rx="10" fill="#F5F0E8" stroke="#1A1D24" stroke-width="2.5" filter="url(#softShadow)"/>
+  <text x="110" y="425" fill="#1A1D24" font-size="18" font-weight="800">📊 SWE-Bench Verified：オープン vs クローズドモデル比較</text>
+  <line x1="110" y1="435" x2="1320" y2="435" stroke="#1A1D24" stroke-width="1.5" stroke-dasharray="4,3"/>
+
+  <!-- Mythos bar (limited) -->
+  <rect x="120" y="450" width="185" height="130" rx="4" fill="#E8E2D3" stroke="#1A1D24" stroke-width="2" stroke-dasharray="6,3"/>
+  <text x="213" y="520" text-anchor="middle" fill="#888" font-size="22" font-weight="900">93.9%</text>
+  <text x="213" y="545" text-anchor="middle" fill="#888" font-size="11">Claude Mythos</text>
+  <text x="213" y="560" text-anchor="middle" fill="#888" font-size="10">（非公開・限定）</text>
+  <text x="213" y="590" text-anchor="middle" fill="#888" font-size="12">非公開</text>
+
+  <!-- DeepSeek V4 Pro -->
+  <rect x="325" y="460" width="185" height="120" rx="4" fill="#5B8DEF" stroke="#1A1D24" stroke-width="2.5"/>
+  <text x="418" y="524" text-anchor="middle" fill="#FBF8F1" font-size="22" font-weight="900">80.6%</text>
+  <text x="418" y="548" text-anchor="middle" fill="#FBF8F1" font-size="11">DeepSeek V4 Pro</text>
+  <text x="418" y="590" text-anchor="middle" fill="#1A1D24" font-size="12">クローズド</text>
+
+  <!-- Qwen 3.6 (STAR) -->
+  <rect x="530" y="453" width="210" height="127" rx="4" fill="#1A1D24" stroke="#1A1D24" stroke-width="2.5"/>
+  <text x="635" y="520" text-anchor="middle" fill="#FBF8F1" font-size="28" font-weight="900">73.4% ★</text>
+  <text x="635" y="548" text-anchor="middle" fill="#5B8DEF" font-size="12">Qwen 3.6-35B</text>
+  <text x="635" y="566" text-anchor="middle" fill="#E8E2D3" font-size="11">Apache 2.0</text>
+  <text x="635" y="590" text-anchor="middle" fill="#FFF9C4" font-size="12" font-weight="700">オープン最強</text>
+
+  <!-- GPT-5.5 Spud -->
+  <rect x="760" y="475" width="175" height="105" rx="4" fill="#8B7DB8" stroke="#1A1D24" stroke-width="2.5"/>
+  <text x="848" y="533" text-anchor="middle" fill="#FBF8F1" font-size="22" font-weight="900">58.6%</text>
+  <text x="848" y="557" text-anchor="middle" fill="#FBF8F1" font-size="11">GPT-5.5 Spud</text>
+  <text x="848" y="590" text-anchor="middle" fill="#1A1D24" font-size="12">クローズド</text>
+
+  <!-- Llama 4 Maverick -->
+  <rect x="955" y="508" width="165" height="72" rx="4" fill="#E8A87C" stroke="#1A1D24" stroke-width="2.5"/>
+  <text x="1038" y="545" text-anchor="middle" fill="#1A1D24" font-size="22" font-weight="900">52.1%</text>
+  <text x="1038" y="565" text-anchor="middle" fill="#1A1D24" font-size="11">Llama 4 Maverick</text>
+  <text x="1038" y="590" text-anchor="middle" fill="#1A1D24" font-size="12">制限ライセンス</text>
+
+  <!-- Granite 4.1 8B -->
+  <rect x="1140" y="548" width="165" height="32" rx="4" fill="#5CA46E" stroke="#1A1D24" stroke-width="2.5"/>
+  <text x="1223" y="570" text-anchor="middle" fill="#FBF8F1" font-size="16" font-weight="900">N/A</text>
+  <text x="1223" y="590" text-anchor="middle" fill="#1A1D24" font-size="12">Granite 4.1（特化）</text>
+
+  <!-- Cards -->
+  <rect x="80" y="635" width="295" height="130" rx="8" fill="#F5F0E8" stroke="#1A1D24" stroke-width="2.5" filter="url(#softShadow)"/>
+  <text x="100" y="663" fill="#1A1D24" font-size="14" font-weight="800">ローカル実行の現実性</text>
+  <line x1="100" y1="670" x2="355" y2="670" stroke="#1A1D24" stroke-width="1.5"/>
+  <text x="100" y="690" fill="#555" font-size="12">RTX 4090（24GB）で Q4量子化</text>
+  <text x="100" y="708" fill="#555" font-size="12">約20GB VRAM で動作報告あり</text>
+  <text x="100" y="726" fill="#5B8DEF" font-size="12" font-weight="700">→ 月$0ローカルコードエージェントが実現</text>
+  <text x="100" y="752" fill="#888" font-size="11">企業オンプレ展開の主力候補に</text>
+
+  <rect x="395" y="635" width="295" height="130" rx="8" fill="#F5F0E8" stroke="#1A1D24" stroke-width="2.5" filter="url(#softShadow)"/>
+  <text x="415" y="663" fill="#1A1D24" font-size="14" font-weight="800">Apache 2.0 vs Llama 4</text>
+  <line x1="415" y1="670" x2="670" y2="670" stroke="#1A1D24" stroke-width="1.5"/>
+  <text x="415" y="690" fill="#555" font-size="12">Llama 4：カスタム制限ライセンス</text>
+  <text x="415" y="708" fill="#555" font-size="12">Qwen3.6：Apache 2.0（完全自由）</text>
+  <text x="415" y="726" fill="#1A1D24" font-size="12" font-weight="700">→ r/LocalLLaMA「実質Llama 4を超えた」</text>
+  <text x="415" y="752" fill="#888" font-size="11">性能+ライセンス両軸で優位</text>
+
+  <rect x="710" y="635" width="295" height="130" rx="8" fill="#F5F0E8" stroke="#1A1D24" stroke-width="2.5" filter="url(#softShadow)"/>
+  <text x="730" y="663" fill="#1A1D24" font-size="14" font-weight="800">中国製モデルの信頼性議論</text>
+  <line x1="730" y1="670" x2="985" y2="670" stroke="#1A1D24" stroke-width="1.5"/>
+  <text x="730" y="690" fill="#555" font-size="12">Apache 2.0で透明性をアピール</text>
+  <text x="730" y="708" fill="#555" font-size="12">ただし学習データ・政府関係は不透明</text>
+  <text x="730" y="726" fill="#E8A87C" font-size="12" font-weight="700">→ 規制環境次第で企業採用が制限も</text>
+  <text x="730" y="752" fill="#888" font-size="11">米政府契約では利用不可の可能性</text>
+
+  <rect x="1025" y="635" width="295" height="130" rx="8" fill="#F5F0E8" stroke="#1A1D24" stroke-width="2.5" filter="url(#softShadow)"/>
+  <text x="1045" y="663" fill="#1A1D24" font-size="14" font-weight="800">Qwen 4 の展望</text>
+  <line x1="1045" y1="670" x2="1300" y2="670" stroke="#1A1D24" stroke-width="1.5"/>
+  <text x="1045" y="690" fill="#555" font-size="12">Qwen 3.6 → Qwen 4 は半年以内か</text>
+  <text x="1045" y="708" fill="#555" font-size="12">DeepSeek V4 Flashと並ぶ最安コスパ</text>
+  <text x="1045" y="726" fill="#5B8DEF" font-size="12" font-weight="700">→ フロンティア対オープンの差がさらに縮む</text>
+  <text x="1045" y="752" fill="#888" font-size="11">API経済モデル vs 自社ホスティングの分岐</text>
+
+  <!-- Sticky notes -->
+  <rect x="85" y="795" width="255" height="110" rx="5" fill="#FFF9C4" stroke="#1A1D24" stroke-width="2" filter="url(#stickyShadow)" transform="rotate(-1.5, 85, 795)"/>
+  <text x="105" y="823" fill="#1A1D24" font-size="13" font-weight="800" transform="rotate(-1.5)">🔥 r/LocalLLaMA の熱狂</text>
+  <text x="105" y="844" fill="#555" font-size="11" transform="rotate(-1.5)">「RTX 4090でGPT-5.5水準の</text>
+  <text x="105" y="861" fill="#555" font-size="11" transform="rotate(-1.5)">コーディングができる時代に」</text>
+  <text x="105" y="878" fill="#555" font-size="11" transform="rotate(-1.5)">ベンチ再現報告が続々投稿</text>
+  <text x="105" y="895" fill="#888" font-size="10" transform="rotate(-1.5)">HFトレンド独走中</text>
+
+  <rect x="363" y="808" width="255" height="100" rx="5" fill="#C8E6C9" stroke="#1A1D24" stroke-width="2" filter="url(#stickyShadow)" transform="rotate(1, 363, 808)"/>
+  <text x="383" y="836" fill="#1A1D24" font-size="13" font-weight="800" transform="rotate(1)">💡 Granite vs Qwen の使い分け</text>
+  <text x="383" y="857" fill="#555" font-size="11" transform="rotate(1)">汎用コーディング→ Qwen 3.6</text>
+  <text x="383" y="874" fill="#555" font-size="11" transform="rotate(1)">文書AI/エッジ/規制対応→ Granite</text>
+  <text x="383" y="891" fill="#555" font-size="11" transform="rotate(1)">用途で明確に棲み分けへ</text>
+
+  <rect x="641" y="795" width="255" height="110" rx="5" fill="#FFE0B2" stroke="#1A1D24" stroke-width="2" filter="url(#stickyShadow)" transform="rotate(-1, 641, 795)"/>
+  <text x="661" y="823" fill="#1A1D24" font-size="13" font-weight="800" transform="rotate(-1)">🔮 フロンティアとの差</text>
+  <text x="661" y="844" fill="#555" font-size="11" transform="rotate(-1)">Qwen3.6（73.4%）と</text>
+  <text x="661" y="861" fill="#555" font-size="11" transform="rotate(-1)">DeepSeek V4 Pro（80.6%）の差は7pt</text>
+  <text x="661" y="878" fill="#555" font-size="11" transform="rotate(-1)">1年前は20-30pt差 → 急速接近中</text>
+  <text x="661" y="895" fill="#555" font-size="11" transform="rotate(-1)">Qwen 4 で逆転も視野に</text>
+
+  <rect x="919" y="808" width="255" height="100" rx="5" fill="#E1BEE7" stroke="#1A1D24" stroke-width="2" filter="url(#stickyShadow)" transform="rotate(1.5, 919, 808)"/>
+  <text x="939" y="836" fill="#1A1D24" font-size="13" font-weight="800" transform="rotate(1.5)">⚡ API vs ローカルの経済</text>
+  <text x="939" y="857" fill="#555" font-size="11" transform="rotate(1.5)">Qwen3.6 ローカル月$0</text>
+  <text x="939" y="874" fill="#555" font-size="11" transform="rotate(1.5)">GPT-5.5 API $30/1M tokens</text>
+  <text x="939" y="891" fill="#555" font-size="11" transform="rotate(1.5)">→ 大量コード生成はローカルが圧勝</text>
+
+  <text x="700" y="1035" text-anchor="middle" fill="#999" font-size="13" font-style="italic">AI News · 2026-04-30 · Qwen 3.6: Open-Weight Coding Frontier — 73.4% SWE-Bench, Apache 2.0</text>
+</svg>

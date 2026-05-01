@@ -1,0 +1,171 @@
+<svg viewBox="0 0 1400 1050" xmlns="http://www.w3.org/2000/svg" font-family="-apple-system, 'Hiragino Sans', 'Yu Gothic', sans-serif">
+  <defs>
+    <pattern id="paperTexture" patternUnits="userSpaceOnUse" width="4" height="4">
+      <rect width="4" height="4" fill="#FBF8F1"/>
+      <circle cx="1" cy="1" r="0.4" fill="#E8E2D3" opacity="0.5"/>
+      <circle cx="3" cy="3" r="0.3" fill="#E8E2D3" opacity="0.3"/>
+    </pattern>
+    <filter id="softShadow">
+      <feDropShadow dx="2" dy="3" stdDeviation="4" flood-color="#1A1D24" flood-opacity="0.15"/>
+    </filter>
+    <filter id="stickyShadow">
+      <feDropShadow dx="3" dy="4" stdDeviation="5" flood-color="#1A1D24" flood-opacity="0.2"/>
+    </filter>
+  </defs>
+  <rect width="1400" height="1050" fill="url(#paperTexture)"/>
+
+  <!-- Binding holes -->
+  <line x1="40" y1="80" x2="40" y2="980" stroke="#E8E2D3" stroke-width="2"/>
+  <circle cx="40" cy="150" r="14" fill="#FBF8F1" stroke="#E8E2D3" stroke-width="2"/>
+  <circle cx="40" cy="280" r="14" fill="#FBF8F1" stroke="#E8E2D3" stroke-width="2"/>
+  <circle cx="40" cy="410" r="14" fill="#FBF8F1" stroke="#E8E2D3" stroke-width="2"/>
+  <circle cx="40" cy="540" r="14" fill="#FBF8F1" stroke="#E8E2D3" stroke-width="2"/>
+  <circle cx="40" cy="670" r="14" fill="#FBF8F1" stroke="#E8E2D3" stroke-width="2"/>
+  <circle cx="40" cy="800" r="14" fill="#FBF8F1" stroke="#E8E2D3" stroke-width="2"/>
+
+  <!-- Category tape - SNS orange -->
+  <rect x="1180" y="-10" width="140" height="46" rx="4" fill="#E8A87C" stroke="#1A1D24" stroke-width="2" transform="rotate(-3, 1180, -10)" filter="url(#stickyShadow)"/>
+  <text x="1250" y="22" text-anchor="middle" fill="#1A1D24" font-size="15" font-weight="700" transform="rotate(-3, 1250, 22)">#SNS</text>
+
+  <rect x="80" y="30" width="200" height="42" rx="6" fill="#2F3842" stroke="#1A1D24" stroke-width="2"/>
+  <text x="180" y="57" text-anchor="middle" fill="#FBF8F1" font-size="16" font-weight="700">2026-04-30</text>
+  <text x="1310" y="90" text-anchor="middle" font-size="28">⭐⭐</text>
+
+  <!-- Title -->
+  <text x="80" y="115" fill="#1A1D24" font-size="36" font-weight="900">🦊 Mozilla「Chrome Prompt API」に正式異議申し立て</text>
+  <text x="80" y="158" fill="#1A1D24" font-size="24" font-weight="800">HN 341pt・「Googleがウェブ標準のAIチョークポイントを握ろうとしている」</text>
+  <line x1="80" y1="170" x2="1350" y2="170" stroke="#1A1D24" stroke-width="3"/>
+  <text x="80" y="193" fill="#666" font-size="14">The Register / Hacker News  ·  2026-04-30  ·  #Chrome #Mozilla #WebStandard #AI</text>
+
+  <!-- Hero -->
+  <g transform="translate(1245, 240)">
+    <circle cx="0" cy="0" r="65" fill="#F5F0E8" stroke="#1A1D24" stroke-width="3"/>
+    <text x="0" y="15" text-anchor="middle" font-size="55">🦊</text>
+  </g>
+
+  <!-- Key numbers -->
+  <rect x="80" y="215" width="280" height="155" rx="10" fill="#F5F0E8" stroke="#1A1D24" stroke-width="3" filter="url(#softShadow)"/>
+  <text x="220" y="248" text-anchor="middle" fill="#666" font-size="13" font-weight="600">HN スコア</text>
+  <text x="220" y="302" text-anchor="middle" fill="#1A1D24" font-size="62" font-weight="900">341pt</text>
+  <text x="220" y="335" text-anchor="middle" fill="#555" font-size="13">130 コメント</text>
+  <text x="220" y="355" text-anchor="middle" fill="#888" font-size="12">The Register 記事経由で拡散</text>
+
+  <rect x="380" y="215" width="280" height="155" rx="10" fill="#F5F0E8" stroke="#1A1D24" stroke-width="3" filter="url(#softShadow)"/>
+  <text x="520" y="248" text-anchor="middle" fill="#666" font-size="13" font-weight="600">Chromeシェア</text>
+  <text x="520" y="302" text-anchor="middle" fill="#1A1D24" font-size="62" font-weight="900">70%+</text>
+  <text x="520" y="335" text-anchor="middle" fill="#555" font-size="13">「事実上Googleが決める」</text>
+  <text x="520" y="355" text-anchor="middle" fill="#888" font-size="12">（HN現実論コメントより）</text>
+
+  <rect x="680" y="215" width="440" height="155" rx="10" fill="#F5F0E8" stroke="#1A1D24" stroke-width="3" filter="url(#softShadow)"/>
+  <text x="900" y="248" text-anchor="middle" fill="#666" font-size="13" font-weight="600">Mozillaの主要批判</text>
+  <text x="900" y="285" text-anchor="middle" fill="#1A1D24" font-size="16" font-weight="800">① 中立性 ② 更新可能性 ③ ベンダーロック</text>
+  <text x="900" y="315" text-anchor="middle" fill="#555" font-size="13">Google Nano が事実上の標準モデルに</text>
+  <text x="900" y="340" text-anchor="middle" fill="#555" font-size="13">利用にGoogle GenAI禁止ポリシー同意が必要</text>
+  <text x="900" y="360" text-anchor="middle" fill="#888" font-size="12">Apple・Mozilla は「ライセンスか断片化か」の二択</text>
+
+  <!-- Stakeholder diagram -->
+  <rect x="80" y="395" width="1260" height="215" rx="10" fill="#F5F0E8" stroke="#1A1D24" stroke-width="2.5" filter="url(#softShadow)"/>
+  <text x="110" y="425" fill="#1A1D24" font-size="18" font-weight="800">🗺️ Prompt API を巡る勢力図</text>
+  <line x1="110" y1="435" x2="1320" y2="435" stroke="#1A1D24" stroke-width="1.5" stroke-dasharray="4,3"/>
+
+  <!-- Google (推進) -->
+  <rect x="130" y="450" width="220" height="130" rx="8" fill="#5CA46E" stroke="#1A1D24" stroke-width="2.5"/>
+  <text x="240" y="478" text-anchor="middle" fill="#FBF8F1" font-size="16" font-weight="900">Google（推進）</text>
+  <line x1="150" y1="485" x2="330" y2="485" stroke="#FBF8F1" stroke-width="1"/>
+  <text x="240" y="505" text-anchor="middle" fill="#FBF8F1" font-size="12">Chrome + Edge でテスト中</text>
+  <text x="240" y="523" text-anchor="middle" fill="#FBF8F1" font-size="12">Nano モデルをバンドル</text>
+  <text x="240" y="541" text-anchor="middle" fill="#FBF8F1" font-size="12">「標準化で開発者体験向上」</text>
+  <text x="240" y="561" text-anchor="middle" fill="#FFF9C4" font-size="11">→ 自社懸念も一部認める</text>
+
+  <!-- Arrow -->
+  <text x="375" y="525" text-anchor="middle" fill="#1A1D24" font-size="28">⚔️</text>
+
+  <!-- Mozilla (反対) -->
+  <rect x="415" y="450" width="220" height="130" rx="8" fill="#E8A87C" stroke="#1A1D24" stroke-width="2.5"/>
+  <text x="525" y="478" text-anchor="middle" fill="#1A1D24" font-size="16" font-weight="900">Mozilla（反対）</text>
+  <line x1="435" y1="485" x2="615" y2="485" stroke="#1A1D24" stroke-width="1"/>
+  <text x="525" y="505" text-anchor="middle" fill="#1A1D24" font-size="12">「中立性・更新可能性に悪影響」</text>
+  <text x="525" y="523" text-anchor="middle" fill="#1A1D24" font-size="12">Firefox キルスイッチ追加を約束</text>
+  <text x="525" y="541" text-anchor="middle" fill="#1A1D24" font-size="12">W3Cへの代替提案を検討中</text>
+  <text x="525" y="561" text-anchor="middle" fill="#333" font-size="11">→ 具体的対案はまだない</text>
+
+  <!-- Apple -->
+  <rect x="700" y="450" width="220" height="130" rx="8" fill="#E8E2D3" stroke="#1A1D24" stroke-width="2.5"/>
+  <text x="810" y="478" text-anchor="middle" fill="#1A1D24" font-size="16" font-weight="900">Apple（様子見）</text>
+  <line x1="720" y1="485" x2="900" y2="485" stroke="#1A1D24" stroke-width="1"/>
+  <text x="810" y="505" text-anchor="middle" fill="#555" font-size="12">Core ML / Safari AI独自実装</text>
+  <text x="810" y="523" text-anchor="middle" fill="#555" font-size="12">Prompt API には公式コメントなし</text>
+  <text x="810" y="541" text-anchor="middle" fill="#555" font-size="12">「Nano ライセンスか独自路線か」</text>
+  <text x="810" y="561" text-anchor="middle" fill="#888" font-size="11">→ 判断待ちが続く</text>
+
+  <!-- W3C -->
+  <rect x="985" y="450" width="220" height="130" rx="8" fill="#E8E2D3" stroke="#1A1D24" stroke-width="2.5"/>
+  <text x="1095" y="478" text-anchor="middle" fill="#1A1D24" font-size="16" font-weight="900">W3C / WHATWG</text>
+  <line x1="1005" y1="485" x2="1185" y2="485" stroke="#1A1D24" stroke-width="1"/>
+  <text x="1095" y="505" text-anchor="middle" fill="#555" font-size="12">AI Community Group 活動中</text>
+  <text x="1095" y="523" text-anchor="middle" fill="#555" font-size="12">ベンダーニュートラル仕様を模索</text>
+  <text x="1095" y="541" text-anchor="middle" fill="#555" font-size="12">ただし進行が遅く Chrome が先行</text>
+  <text x="1095" y="561" text-anchor="middle" fill="#888" font-size="11">→ 標準化の空白を Chrome が埋める</text>
+
+  <!-- Cards -->
+  <rect x="80" y="640" width="295" height="130" rx="8" fill="#F5F0E8" stroke="#1A1D24" stroke-width="2.5" filter="url(#softShadow)"/>
+  <text x="100" y="668" fill="#1A1D24" font-size="14" font-weight="800">IE問題の現代版</text>
+  <line x1="100" y1="675" x2="355" y2="675" stroke="#1A1D24" stroke-width="1.5"/>
+  <text x="100" y="695" fill="#555" font-size="12">かつての「IE専用サイト」のように</text>
+  <text x="100" y="713" fill="#555" font-size="12">「Chrome AI専用機能」が広まる懸念</text>
+  <text x="100" y="731" fill="#E8A87C" font-size="12" font-weight="700">→ ウェブの多様性が失われるリスク</text>
+  <text x="100" y="757" fill="#888" font-size="11">開発者は最大シェアに追従する</text>
+
+  <rect x="395" y="640" width="295" height="130" rx="8" fill="#F5F0E8" stroke="#1A1D24" stroke-width="2.5" filter="url(#softShadow)"/>
+  <text x="415" y="668" fill="#1A1D24" font-size="14" font-weight="800">規制との衝突</text>
+  <line x1="415" y1="675" x2="670" y2="675" stroke="#1A1D24" stroke-width="1.5"/>
+  <text x="415" y="695" fill="#555" font-size="12">EU DSA / DMA で Google には</text>
+  <text x="415" y="713" fill="#555" font-size="12">「自社製品の優遇禁止」義務</text>
+  <text x="415" y="731" fill="#5CA46E" font-size="12" font-weight="700">→ Prompt API はDSA抵触の可能性</text>
+  <text x="415" y="757" fill="#888" font-size="11">EU当局の調査が入るか要注目</text>
+
+  <rect x="710" y="640" width="295" height="130" rx="8" fill="#F5F0E8" stroke="#1A1D24" stroke-width="2.5" filter="url(#softShadow)"/>
+  <text x="730" y="668" fill="#1A1D24" font-size="14" font-weight="800">ベンチマーク禁止ポリシー</text>
+  <line x1="730" y1="675" x2="985" y2="675" stroke="#1A1D24" stroke-width="1.5"/>
+  <text x="730" y="695" fill="#555" font-size="12">Google GenAI Prohibited Uses Policy</text>
+  <text x="730" y="713" fill="#555" font-size="12">競合比較・ベンチ公開を禁じうる</text>
+  <text x="730" y="731" fill="#E8A87C" font-size="12" font-weight="700">→ 「合法だが禁止」の領域が問題</text>
+  <text x="730" y="757" fill="#888" font-size="11">Mozilla が最も強く批判した点</text>
+
+  <rect x="1025" y="640" width="295" height="130" rx="8" fill="#F5F0E8" stroke="#1A1D24" stroke-width="2.5" filter="url(#softShadow)"/>
+  <text x="1045" y="668" fill="#1A1D24" font-size="14" font-weight="800">今後のシナリオ</text>
+  <line x1="1045" y1="675" x2="1300" y2="675" stroke="#1A1D24" stroke-width="1.5"/>
+  <text x="1045" y="695" fill="#555" font-size="12">① Google が修正版APIを提案</text>
+  <text x="1045" y="713" fill="#555" font-size="12">② W3C が中立仕様を策定</text>
+  <text x="1045" y="731" fill="#5B8DEF" font-size="12" font-weight="700">③ デファクト標準として既成事実化</text>
+  <text x="1045" y="757" fill="#888" font-size="11">③ が最も可能性高いと観測者</text>
+
+  <!-- Sticky notes -->
+  <rect x="85" y="797" width="255" height="110" rx="5" fill="#FFF9C4" stroke="#1A1D24" stroke-width="2" filter="url(#stickyShadow)" transform="rotate(-1.5, 85, 797)"/>
+  <text x="105" y="825" fill="#1A1D24" font-size="13" font-weight="800" transform="rotate(-1.5)">😅 Google自身も認める</text>
+  <text x="105" y="846" fill="#555" font-size="11" transform="rotate(-1.5)">Chrome Engineer Rick Byers</text>
+  <text x="105" y="863" fill="#555" font-size="11" transform="rotate(-1.5)">「Mozillaの懸念はもっともだ</text>
+  <text x="105" y="880" fill="#555" font-size="11" transform="rotate(-1.5)">と個人的に思う」と公言</text>
+  <text x="105" y="897" fill="#888" font-size="10" transform="rotate(-1.5)">でも実装は止まらない</text>
+
+  <rect x="363" y="810" width="255" height="100" rx="5" fill="#C8E6C9" stroke="#1A1D24" stroke-width="2" filter="url(#stickyShadow)" transform="rotate(1, 363, 810)"/>
+  <text x="383" y="838" fill="#1A1D24" font-size="13" font-weight="800" transform="rotate(1)">🔥 HNの主要論点</text>
+  <text x="383" y="859" fill="#555" font-size="11" transform="rotate(1)">「モデル選択を可能にするAPI</text>
+  <text x="383" y="876" fill="#555" font-size="11" transform="rotate(1)">仕様自体は良い / Nanoを</text>
+  <text x="383" y="893" fill="#555" font-size="11" transform="rotate(1)">デフォルトにするのが問題」</text>
+
+  <rect x="641" y="797" width="255" height="110" rx="5" fill="#FFE0B2" stroke="#1A1D24" stroke-width="2" filter="url(#stickyShadow)" transform="rotate(-0.8, 641, 797)"/>
+  <text x="661" y="825" fill="#1A1D24" font-size="13" font-weight="800" transform="rotate(-0.8)">🔮 1年後の予測</text>
+  <text x="661" y="846" fill="#555" font-size="11" transform="rotate(-0.8)">Prompt APIは普及するが</text>
+  <text x="661" y="863" fill="#555" font-size="11" transform="rotate(-0.8)">「モデルプロバイダー選択」が</text>
+  <text x="661" y="880" fill="#555" font-size="11" transform="rotate(-0.8)">仕様に追加されて決着か</text>
+  <text x="661" y="897" fill="#555" font-size="11" transform="rotate(-0.8)">Chrome の Chrome 支配は続く</text>
+
+  <rect x="919" y="810" width="255" height="100" rx="5" fill="#E1BEE7" stroke="#1A1D24" stroke-width="2" filter="url(#stickyShadow)" transform="rotate(1.5, 919, 810)"/>
+  <text x="939" y="838" fill="#1A1D24" font-size="13" font-weight="800" transform="rotate(1.5)">💡 Firefox の対抗策</text>
+  <text x="939" y="859" fill="#555" font-size="11" transform="rotate(1.5)">AI機能キルスイッチ追加を約束</text>
+  <text x="939" y="876" fill="#555" font-size="11" transform="rotate(1.5)">「ユーザー選択を守る」姿勢</text>
+  <text x="939" y="893" fill="#555" font-size="11" transform="rotate(1.5)">→ Firefox シェアへの影響は不明</text>
+
+  <text x="700" y="1035" text-anchor="middle" fill="#999" font-size="13" font-style="italic">AI News · 2026-04-30 · Mozilla Formally Opposes Chrome Prompt API — HN 341pts, Web Neutrality Debate</text>
+</svg>

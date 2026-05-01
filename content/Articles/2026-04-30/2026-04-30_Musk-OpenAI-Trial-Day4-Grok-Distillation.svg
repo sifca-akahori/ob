@@ -1,0 +1,181 @@
+<svg viewBox="0 0 1400 1050" xmlns="http://www.w3.org/2000/svg" font-family="-apple-system, 'Hiragino Sans', 'Yu Gothic', sans-serif">
+  <defs>
+    <pattern id="paperTexture" patternUnits="userSpaceOnUse" width="4" height="4">
+      <rect width="4" height="4" fill="#FBF8F1"/>
+      <circle cx="1" cy="1" r="0.4" fill="#E8E2D3" opacity="0.5"/>
+      <circle cx="3" cy="3" r="0.3" fill="#E8E2D3" opacity="0.3"/>
+    </pattern>
+    <filter id="softShadow" x="-5%" y="-5%" width="110%" height="110%">
+      <feDropShadow dx="2" dy="3" stdDeviation="4" flood-color="#1A1D24" flood-opacity="0.15"/>
+    </filter>
+    <filter id="stickyShadow" x="-10%" y="-10%" width="120%" height="120%">
+      <feDropShadow dx="3" dy="4" stdDeviation="5" flood-color="#1A1D24" flood-opacity="0.2"/>
+    </filter>
+  </defs>
+
+  <!-- Background -->
+  <rect width="1400" height="1050" fill="url(#paperTexture)"/>
+
+  <!-- Binding holes -->
+  <circle cx="40" cy="150" r="14" fill="#FBF8F1" stroke="#E8E2D3" stroke-width="2"/>
+  <circle cx="40" cy="280" r="14" fill="#FBF8F1" stroke="#E8E2D3" stroke-width="2"/>
+  <circle cx="40" cy="410" r="14" fill="#FBF8F1" stroke="#E8E2D3" stroke-width="2"/>
+  <circle cx="40" cy="540" r="14" fill="#FBF8F1" stroke="#E8E2D3" stroke-width="2"/>
+  <circle cx="40" cy="670" r="14" fill="#FBF8F1" stroke="#E8E2D3" stroke-width="2"/>
+  <circle cx="40" cy="800" r="14" fill="#FBF8F1" stroke="#E8E2D3" stroke-width="2"/>
+  <line x1="40" y1="80" x2="40" y2="980" stroke="#E8E2D3" stroke-width="2"/>
+
+  <!-- Category tape - SNS orange -->
+  <rect x="1180" y="-10" width="140" height="46" rx="4" fill="#E8A87C" stroke="#1A1D24" stroke-width="2" transform="rotate(-3, 1180, -10)" filter="url(#stickyShadow)"/>
+  <text x="1250" y="22" text-anchor="middle" fill="#1A1D24" font-size="15" font-weight="700" transform="rotate(-3, 1250, 22)">#SNS</text>
+
+  <!-- Date badge -->
+  <rect x="80" y="30" width="200" height="42" rx="6" fill="#2F3842" stroke="#1A1D24" stroke-width="2"/>
+  <text x="180" y="57" text-anchor="middle" fill="#FBF8F1" font-size="16" font-weight="700">2026-04-30</text>
+
+  <!-- Impact stars -->
+  <text x="1310" y="90" text-anchor="middle" font-size="28">⭐⭐⭐</text>
+
+  <!-- Title -->
+  <text x="80" y="115" fill="#1A1D24" font-size="38" font-weight="900">⚖️ マスクOpenAI裁判Day4</text>
+  <text x="80" y="160" fill="#1A1D24" font-size="30" font-weight="800">「Grokの訓練にOpenAIモデルを使用」法廷で認める</text>
+  <line x1="80" y1="172" x2="1350" y2="172" stroke="#1A1D24" stroke-width="3"/>
+
+  <!-- Subline -->
+  <text x="80" y="196" fill="#666" font-size="15">TechCrunch / CNBC / Decrypt  ·  2026-04-30  ·  #xAI #Grok #蒸留 #裁判</text>
+
+  <!-- Hero: Scales of Justice icon -->
+  <g transform="translate(1220, 220)">
+    <circle cx="0" cy="0" r="70" fill="#F5F0E8" stroke="#1A1D24" stroke-width="3"/>
+    <text x="0" y="12" text-anchor="middle" font-size="60">⚖️</text>
+  </g>
+
+  <!-- Key numbers block -->
+  <rect x="80" y="215" width="380" height="160" rx="10" fill="#F5F0E8" stroke="#1A1D24" stroke-width="3" filter="url(#softShadow)"/>
+  <text x="100" y="248" fill="#666" font-size="13" font-weight="600">損害請求額</text>
+  <text x="100" y="300" fill="#1A1D24" font-size="60" font-weight="900">$130B</text>
+  <text x="100" y="330" fill="#888" font-size="13">*マスク vs. OpenAI訴訟</text>
+  <text x="100" y="352" fill="#888" font-size="13">判決期待：2026年5月中旬</text>
+
+  <rect x="480" y="215" width="280" height="160" rx="10" fill="#F5F0E8" stroke="#1A1D24" stroke-width="3" filter="url(#softShadow)"/>
+  <text x="500" y="248" fill="#666" font-size="13" font-weight="600">HN コメント数</text>
+  <text x="500" y="300" fill="#1A1D24" font-size="60" font-weight="900">450+</text>
+  <text x="500" y="330" fill="#888" font-size="13">「自分もやってる」vs「法的抜け穴」</text>
+  <text x="500" y="352" fill="#888" font-size="13">X で1万RT超</text>
+
+  <rect x="780" y="215" width="280" height="160" rx="10" fill="#F5F0E8" stroke="#1A1D24" stroke-width="3" filter="url(#softShadow)"/>
+  <text x="800" y="248" fill="#666" font-size="13" font-weight="600">OpenAI IPO評価額</text>
+  <text x="800" y="300" fill="#1A1D24" font-size="55" font-weight="900">$2,000億+</text>
+  <text x="800" y="330" fill="#888" font-size="13">判決前後でIPO価格に影響</text>
+  <text x="800" y="352" fill="#888" font-size="13">2026後半IPO計画中</text>
+
+  <!-- Main visual: Timeline of trial -->
+  <rect x="80" y="400" width="1260" height="200" rx="10" fill="#F5F0E8" stroke="#1A1D24" stroke-width="2.5" filter="url(#softShadow)"/>
+  <text x="110" y="430" fill="#1A1D24" font-size="18" font-weight="800">📅 裁判タイムライン</text>
+  <line x1="110" y1="440" x2="1320" y2="440" stroke="#1A1D24" stroke-width="1.5" stroke-dasharray="4,3"/>
+
+  <!-- Timeline items -->
+  <circle cx="200" cy="510" r="22" fill="#E8A87C" stroke="#1A1D24" stroke-width="2.5"/>
+  <text x="200" y="516" text-anchor="middle" fill="#1A1D24" font-size="13" font-weight="800">Day1</text>
+  <text x="200" y="548" text-anchor="middle" fill="#1A1D24" font-size="12">4/28</text>
+  <text x="200" y="568" text-anchor="middle" fill="#666" font-size="11">開廷・Musk</text>
+  <text x="200" y="585" text-anchor="middle" fill="#666" font-size="11">初証言</text>
+  <line x1="222" y1="510" x2="398" y2="510" stroke="#1A1D24" stroke-width="2"/>
+
+  <circle cx="420" cy="510" r="22" fill="#E8A87C" stroke="#1A1D24" stroke-width="2.5"/>
+  <text x="420" y="516" text-anchor="middle" fill="#1A1D24" font-size="13" font-weight="800">Day2</text>
+  <text x="420" y="548" text-anchor="middle" fill="#1A1D24" font-size="12">4/29</text>
+  <text x="420" y="568" text-anchor="middle" fill="#666" font-size="11">「ケーキを</text>
+  <text x="420" y="585" text-anchor="middle" fill="#666" font-size="11">持ちながら食べる」</text>
+  <line x1="442" y1="510" x2="618" y2="510" stroke="#1A1D24" stroke-width="2"/>
+
+  <circle cx="640" cy="510" r="22" fill="#1A1D24" stroke="#1A1D24" stroke-width="2.5"/>
+  <text x="640" y="516" text-anchor="middle" fill="#FBF8F1" font-size="13" font-weight="800">Day4</text>
+  <text x="640" y="548" text-anchor="middle" fill="#1A1D24" font-size="12">4/30 今日</text>
+  <text x="640" y="568" text-anchor="middle" fill="#E8A87C" font-size="12" font-weight="700">🔥 Grok蒸留</text>
+  <text x="640" y="585" text-anchor="middle" fill="#E8A87C" font-size="12" font-weight="700">認める</text>
+  <line x1="662" y1="510" x2="838" y2="510" stroke="#1A1D24" stroke-width="2"/>
+
+  <circle cx="860" cy="510" r="22" fill="#E8E2D3" stroke="#1A1D24" stroke-width="2.5"/>
+  <text x="860" y="516" text-anchor="middle" fill="#888" font-size="11" font-weight="800">証人2</text>
+  <text x="860" y="548" text-anchor="middle" fill="#888" font-size="12">5月上旬</text>
+  <text x="860" y="568" text-anchor="middle" fill="#888" font-size="11">Brockman等</text>
+  <text x="860" y="585" text-anchor="middle" fill="#888" font-size="11">証言予定</text>
+  <line x1="882" y1="510" x2="1058" y2="510" stroke="#1A1D24" stroke-width="2" stroke-dasharray="5,3"/>
+
+  <circle cx="1080" cy="510" r="22" fill="#E8E2D3" stroke="#1A1D24" stroke-width="2.5"/>
+  <text x="1080" y="513" text-anchor="middle" fill="#888" font-size="11" font-weight="800">判決</text>
+  <text x="1080" y="548" text-anchor="middle" fill="#888" font-size="12">5月中旬</text>
+  <text x="1080" y="568" text-anchor="middle" fill="#888" font-size="11">責任フェーズ</text>
+  <text x="1080" y="585" text-anchor="middle" fill="#888" font-size="11">評決予定</text>
+  <line x1="1102" y1="510" x2="1278" y2="510" stroke="#1A1D24" stroke-width="2" stroke-dasharray="5,3"/>
+
+  <circle cx="1300" cy="510" r="22" fill="#E8E2D3" stroke="#1A1D24" stroke-width="2.5"/>
+  <text x="1300" y="513" text-anchor="middle" fill="#888" font-size="10" font-weight="800">損害</text>
+  <text x="1300" y="548" text-anchor="middle" fill="#888" font-size="12">未定</text>
+  <text x="1300" y="568" text-anchor="middle" fill="#888" font-size="11">$130B</text>
+  <text x="1300" y="585" text-anchor="middle" fill="#888" font-size="11">請求フェーズ</text>
+
+  <!-- Cards -->
+  <rect x="80" y="625" width="295" height="130" rx="8" fill="#F5F0E8" stroke="#1A1D24" stroke-width="2.5" filter="url(#softShadow)"/>
+  <text x="100" y="655" fill="#1A1D24" font-size="14" font-weight="800">蒸留（Distillation）とは</text>
+  <line x1="100" y1="662" x2="355" y2="662" stroke="#1A1D24" stroke-width="1.5"/>
+  <text x="100" y="682" fill="#555" font-size="12">既存モデルのAPI出力を訓練データに</text>
+  <text x="100" y="700" fill="#555" font-size="12">使って新モデルを学習させる手法</text>
+  <text x="100" y="718" fill="#E8A87C" font-size="12" font-weight="700">→ ToS違反だが業界慣行として横行</text>
+  <text x="100" y="742" fill="#555" font-size="12">マスク「業界全体がやっている」と証言</text>
+
+  <rect x="395" y="625" width="295" height="130" rx="8" fill="#F5F0E8" stroke="#1A1D24" stroke-width="2.5" filter="url(#softShadow)"/>
+  <text x="415" y="655" fill="#1A1D24" font-size="14" font-weight="800">OpenAI の反論</text>
+  <line x1="415" y1="662" x2="670" y2="662" stroke="#1A1D24" stroke-width="1.5"/>
+  <text x="415" y="682" fill="#555" font-size="12">「xAIの競合的地位はOpenAIの</text>
+  <text x="415" y="700" fill="#555" font-size="12">研究に依存していた」</text>
+  <text x="415" y="718" fill="#1A1D24" font-size="12" font-weight="700">→ 訴訟の「競合封じ論」を補強</text>
+  <text x="415" y="742" fill="#555" font-size="12">蒸留認定がOpenAI側の武器に逆転</text>
+
+  <rect x="710" y="625" width="295" height="130" rx="8" fill="#F5F0E8" stroke="#1A1D24" stroke-width="2.5" filter="url(#softShadow)"/>
+  <text x="730" y="655" fill="#1A1D24" font-size="14" font-weight="800">IPO への影響</text>
+  <line x1="730" y1="662" x2="985" y2="662" stroke="#1A1D24" stroke-width="1.5"/>
+  <text x="730" y="682" fill="#555" font-size="12">OpenAI IPO 評価額 $2,000億+</text>
+  <text x="730" y="700" fill="#555" font-size="12">判決が5月中旬 → IPOと時期重複</text>
+  <text x="730" y="718" fill="#E8A87C" font-size="12" font-weight="700">→ 敗訴なら引受条件に影響も</text>
+  <text x="730" y="742" fill="#555" font-size="12">投資銀行各行がリスク織り込み中</text>
+
+  <rect x="1025" y="625" width="295" height="130" rx="8" fill="#F5F0E8" stroke="#1A1D24" stroke-width="2.5" filter="url(#softShadow)"/>
+  <text x="1045" y="655" fill="#1A1D24" font-size="14" font-weight="800">業界への波及リスク</text>
+  <line x1="1045" y1="662" x2="1300" y2="662" stroke="#1A1D24" stroke-width="1.5"/>
+  <text x="1045" y="682" fill="#555" font-size="12">蒸留禁止の自主規制が加速か</text>
+  <text x="1045" y="700" fill="#555" font-size="12">競合各社が互いに訴訟できる先例</text>
+  <text x="1045" y="718" fill="#1A1D24" font-size="12" font-weight="700">→ AI知財エコシステムの転換点</text>
+  <text x="1045" y="742" fill="#555" font-size="12">Google・Anthropicも同様リスクあり</text>
+
+  <!-- Sticky notes -->
+  <rect x="85" y="785" width="250" height="110" rx="5" fill="#FFF9C4" stroke="#1A1D24" stroke-width="2" filter="url(#stickyShadow)" transform="rotate(-1.5, 85, 785)"/>
+  <text x="105" y="815" fill="#1A1D24" font-size="13" font-weight="800" transform="rotate(-1.5, 105, 815)">🤔 逆説的状況</text>
+  <text x="105" y="836" fill="#555" font-size="11" transform="rotate(-1.5, 105, 836)">OpenAIを「裏切り者」と訴える</text>
+  <text x="105" y="853" fill="#555" font-size="11" transform="rotate(-1.5, 105, 853)">Muskが同じくOpenAIデータを</text>
+  <text x="105" y="870" fill="#555" font-size="11" transform="rotate(-1.5, 105, 870)">使ってGrokを作っていた皮肉</text>
+  <text x="105" y="887" fill="#888" font-size="10" transform="rotate(-1.5, 105, 887)">HN 450+コメント</text>
+
+  <rect x="360" y="800" width="250" height="100" rx="5" fill="#C8E6C9" stroke="#1A1D24" stroke-width="2" filter="url(#stickyShadow)" transform="rotate(1, 360, 800)"/>
+  <text x="380" y="828" fill="#1A1D24" font-size="13" font-weight="800" transform="rotate(1, 380, 828)">📋 法的グレーゾーン</text>
+  <text x="380" y="849" fill="#555" font-size="11" transform="rotate(1, 380, 849)">蒸留は明示的に違法ではないが</text>
+  <text x="380" y="866" fill="#555" font-size="11" transform="rotate(1, 380, 866)">ToS違反。初の公開法廷認定で</text>
+  <text x="380" y="883" fill="#555" font-size="11" transform="rotate(1, 380, 883)">業界の慣行が白日の下に</text>
+
+  <rect x="635" y="790" width="250" height="110" rx="5" fill="#FFE0B2" stroke="#1A1D24" stroke-width="2" filter="url(#stickyShadow)" transform="rotate(-1, 635, 790)"/>
+  <text x="655" y="818" fill="#1A1D24" font-size="13" font-weight="800" transform="rotate(-1, 655, 818)">🔮 1年後予測</text>
+  <text x="655" y="839" fill="#555" font-size="11" transform="rotate(-1, 655, 839)">蒸留禁止を契約で明文化する</text>
+  <text x="655" y="856" fill="#555" font-size="11" transform="rotate(-1, 655, 856)">AI ToSが業界標準になる。訴訟</text>
+  <text x="655" y="873" fill="#555" font-size="11" transform="rotate(-1, 655, 873)">後の損害賠償が業界規制の</text>
+  <text x="655" y="890" fill="#555" font-size="11" transform="rotate(-1, 655, 890)">トリガーになる可能性</text>
+
+  <rect x="910" y="800" width="250" height="100" rx="5" fill="#E1BEE7" stroke="#1A1D24" stroke-width="2" filter="url(#stickyShadow)" transform="rotate(1.5, 910, 800)"/>
+  <text x="930" y="828" fill="#1A1D24" font-size="13" font-weight="800" transform="rotate(1.5, 930, 828)">💡 Grok5への影響</text>
+  <text x="930" y="849" fill="#555" font-size="11" transform="rotate(1.5, 930, 849)">6兆パラメータのGrok5が</text>
+  <text x="930" y="866" fill="#555" font-size="11" transform="rotate(1.5, 930, 866)">訓練完了間近。OpenAIデータ</text>
+  <text x="930" y="883" fill="#555" font-size="11" transform="rotate(1.5, 930, 883)">蒸留疑惑が品質評価を歪める</text>
+
+  <!-- Footer -->
+  <text x="700" y="1035" text-anchor="middle" fill="#999" font-size="13" font-style="italic">AI News · 2026-04-30 · Musk OpenAI Trial Day4: xAI Admitted Grok Distillation from OpenAI Models</text>
+</svg>

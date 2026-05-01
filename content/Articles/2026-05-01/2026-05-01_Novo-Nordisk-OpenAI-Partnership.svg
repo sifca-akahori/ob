@@ -1,0 +1,144 @@
+<svg viewBox="0 0 1400 1050" xmlns="http://www.w3.org/2000/svg" font-family="-apple-system, 'Hiragino Sans', 'Yu Gothic', sans-serif">
+  <defs>
+    <pattern id="paperTexture" patternUnits="userSpaceOnUse" width="4" height="4">
+      <rect width="4" height="4" fill="#FBF8F1"/>
+      <circle cx="1" cy="1" r="0.4" fill="#E8E2D3" opacity="0.5"/>
+      <circle cx="3" cy="3" r="0.3" fill="#E8E2D3" opacity="0.3"/>
+    </pattern>
+    <filter id="softShadow">
+      <feDropShadow dx="2" dy="3" stdDeviation="4" flood-color="#1A1D24" flood-opacity="0.15"/>
+    </filter>
+    <filter id="stickyShadow">
+      <feDropShadow dx="3" dy="4" stdDeviation="5" flood-color="#1A1D24" flood-opacity="0.2"/>
+    </filter>
+  </defs>
+  <rect width="1400" height="1050" fill="url(#paperTexture)"/>
+  <line x1="40" y1="80" x2="40" y2="980" stroke="#E8E2D3" stroke-width="2"/>
+  <circle cx="40" cy="150" r="14" fill="#FBF8F1" stroke="#E8E2D3" stroke-width="2"/>
+  <circle cx="40" cy="280" r="14" fill="#FBF8F1" stroke="#E8E2D3" stroke-width="2"/>
+  <circle cx="40" cy="410" r="14" fill="#FBF8F1" stroke="#E8E2D3" stroke-width="2"/>
+  <circle cx="40" cy="540" r="14" fill="#FBF8F1" stroke="#E8E2D3" stroke-width="2"/>
+  <circle cx="40" cy="670" r="14" fill="#FBF8F1" stroke="#E8E2D3" stroke-width="2"/>
+  <circle cx="40" cy="800" r="14" fill="#FBF8F1" stroke="#E8E2D3" stroke-width="2"/>
+  <rect x="1185" y="-10" width="160" height="46" rx="4" fill="#5CA46E" stroke="#1A1D24" stroke-width="2" transform="rotate(-3, 1185, -10)" filter="url(#stickyShadow)"/>
+  <text x="1265" y="22" text-anchor="middle" fill="#FBF8F1" font-size="15" font-weight="700" transform="rotate(-3, 1265, 22)">#ビジネス</text>
+  <rect x="80" y="30" width="200" height="42" rx="6" fill="#2F3842" stroke="#1A1D24" stroke-width="2"/>
+  <text x="180" y="57" text-anchor="middle" fill="#FBF8F1" font-size="16" font-weight="700">2026-05-01</text>
+  <text x="1340" y="92" text-anchor="middle" font-size="26">⭐⭐</text>
+  <text x="80" y="118" fill="#1A1D24" font-size="36" font-weight="900">💊 Novo Nordisk × OpenAI 全社戦略提携</text>
+  <text x="80" y="158" fill="#1A1D24" font-size="24" font-weight="700">創薬・臨床・製造・SCM・販売の全バリューチェーンにAI統合——2026年末完全展開</text>
+  <line x1="80" y1="172" x2="1340" y2="172" stroke="#1A1D24" stroke-width="3"/>
+  <text x="80" y="193" fill="#666" font-size="13">Bloomberg / LLM Stats  ·  2026-05-01  ·  #製薬 #OpenAI #創薬 #ヘルスケア</text>
+  <g transform="translate(1265, 258)">
+    <circle cx="0" cy="0" r="68" fill="#F5F0E8" stroke="#1A1D24" stroke-width="3"/>
+    <text x="0" y="18" text-anchor="middle" font-size="58">💊</text>
+  </g>
+  <!-- Value chain flow -->
+  <rect x="80" y="215" width="1280" height="180" rx="10" fill="#F5F0E8" stroke="#1A1D24" stroke-width="2.5" filter="url(#softShadow)"/>
+  <text x="110" y="246" fill="#1A1D24" font-size="17" font-weight="800">🔄 全バリューチェーンAI統合フロー（2026年末完全展開）</text>
+  <line x1="110" y1="256" x2="1330" y2="256" stroke="#1A1D24" stroke-width="1.5" stroke-dasharray="4,3"/>
+  <!-- Flow boxes -->
+  <rect x="110" y="270" width="185" height="100" rx="8" fill="#5B8DEF" stroke="#1A1D24" stroke-width="2.5"/>
+  <text x="202" y="308" text-anchor="middle" fill="#FBF8F1" font-size="22">🔬</text>
+  <text x="202" y="334" text-anchor="middle" fill="#FBF8F1" font-size="14" font-weight="700">創薬探索</text>
+  <text x="202" y="354" text-anchor="middle" fill="#FBF8F1" font-size="11">候補化合物AI生成</text>
+  <text x="297" y="322" fill="#1A1D24" font-size="20" font-weight="700">→</text>
+  <rect x="310" y="270" width="185" height="100" rx="8" fill="#5CA46E" stroke="#1A1D24" stroke-width="2.5"/>
+  <text x="402" y="308" text-anchor="middle" fill="#FBF8F1" font-size="22">🧪</text>
+  <text x="402" y="334" text-anchor="middle" fill="#FBF8F1" font-size="14" font-weight="700">臨床試験</text>
+  <text x="402" y="354" text-anchor="middle" fill="#FBF8F1" font-size="11">プロトコル・解析</text>
+  <text x="497" y="322" fill="#1A1D24" font-size="20" font-weight="700">→</text>
+  <rect x="510" y="270" width="185" height="100" rx="8" fill="#8B7DB8" stroke="#1A1D24" stroke-width="2.5"/>
+  <text x="602" y="308" text-anchor="middle" fill="#FBF8F1" font-size="22">🏭</text>
+  <text x="602" y="334" text-anchor="middle" fill="#FBF8F1" font-size="14" font-weight="700">製造最適化</text>
+  <text x="602" y="354" text-anchor="middle" fill="#FBF8F1" font-size="11">収率・品質管理</text>
+  <text x="697" y="322" fill="#1A1D24" font-size="20" font-weight="700">→</text>
+  <rect x="710" y="270" width="185" height="100" rx="8" fill="#E8A87C" stroke="#1A1D24" stroke-width="2.5"/>
+  <text x="802" y="308" text-anchor="middle" fill="#1A1D24" font-size="22">📦</text>
+  <text x="802" y="334" text-anchor="middle" fill="#1A1D24" font-size="14" font-weight="700">サプライチェーン</text>
+  <text x="802" y="354" text-anchor="middle" fill="#1A1D24" font-size="11">需要予測・物流</text>
+  <text x="897" y="322" fill="#1A1D24" font-size="20" font-weight="700">→</text>
+  <rect x="910" y="270" width="185" height="100" rx="8" fill="#2F3842" stroke="#1A1D24" stroke-width="2.5"/>
+  <text x="1002" y="308" text-anchor="middle" fill="#FBF8F1" font-size="22">📊</text>
+  <text x="1002" y="334" text-anchor="middle" fill="#FBF8F1" font-size="14" font-weight="700">商業運営</text>
+  <text x="1002" y="354" text-anchor="middle" fill="#FBF8F1" font-size="11">販売・マーケ最適化</text>
+
+  <!-- Key number cards -->
+  <rect x="80" y="415" width="270" height="145" rx="10" fill="#F5F0E8" stroke="#1A1D24" stroke-width="3" filter="url(#softShadow)"/>
+  <text x="215" y="447" text-anchor="middle" fill="#5CA46E" font-size="13" font-weight="700">💰 Novo Nordisk時価総額</text>
+  <text x="215" y="497" text-anchor="middle" fill="#1A1D24" font-size="46" font-weight="900">$500B+</text>
+  <text x="215" y="527" text-anchor="middle" fill="#555" font-size="13">欧州最大時価総額（2025年）</text>
+  <text x="215" y="549" text-anchor="middle" fill="#888" font-size="12">オゼンピック・ウゴービ独占</text>
+
+  <rect x="370" y="415" width="270" height="145" rx="10" fill="#F5F0E8" stroke="#1A1D24" stroke-width="3" filter="url(#softShadow)"/>
+  <text x="505" y="447" text-anchor="middle" fill="#5B8DEF" font-size="13" font-weight="700">📅 完全展開目標</text>
+  <text x="505" y="497" text-anchor="middle" fill="#1A1D24" font-size="46" font-weight="900">2026末</text>
+  <text x="505" y="527" text-anchor="middle" fill="#555" font-size="13">全バリューチェーン統合完了</text>
+  <text x="505" y="549" text-anchor="middle" fill="#888" font-size="12">製薬AI統合史上最大規模</text>
+
+  <rect x="660" y="415" width="270" height="145" rx="10" fill="#F5F0E8" stroke="#1A1D24" stroke-width="3" filter="url(#softShadow)"/>
+  <text x="795" y="447" text-anchor="middle" fill="#8B7DB8" font-size="13" font-weight="700">🔬 GLP-1市場規模</text>
+  <text x="795" y="497" text-anchor="middle" fill="#1A1D24" font-size="46" font-weight="900">$130B+</text>
+  <text x="795" y="527" text-anchor="middle" fill="#555" font-size="13">2026年GLP-1薬市場推計</text>
+  <text x="795" y="549" text-anchor="middle" fill="#888" font-size="12">製造AI最適化のROI最大</text>
+
+  <!-- 4 feature cards -->
+  <rect x="80" y="580" width="285" height="130" rx="8" fill="#F5F0E8" stroke="#1A1D24" stroke-width="2.5" filter="url(#softShadow)"/>
+  <text x="222" y="610" text-anchor="middle" fill="#5CA46E" font-size="13" font-weight="800">🏭 製造最適化の威力</text>
+  <text x="222" y="634" text-anchor="middle" fill="#1A1D24" font-size="14">製造効率 +10%</text>
+  <text x="222" y="655" text-anchor="middle" fill="#555" font-size="12">= 年間数十億ドル規模</text>
+  <text x="222" y="675" text-anchor="middle" fill="#555" font-size="12">需要が供給を大幅超過中</text>
+  <text x="222" y="700" text-anchor="middle" fill="#888" font-size="11">AI ROI最大化の動機</text>
+
+  <rect x="385" y="580" width="285" height="130" rx="8" fill="#F5F0E8" stroke="#1A1D24" stroke-width="2.5" filter="url(#softShadow)"/>
+  <text x="527" y="610" text-anchor="middle" fill="#5B8DEF" font-size="13" font-weight="800">🏥 競合ファーマの動向</text>
+  <text x="527" y="634" text-anchor="middle" fill="#1A1D24" font-size="13">Roche → DeepMind</text>
+  <text x="527" y="655" text-anchor="middle" fill="#555" font-size="12">Pfizer → Insilico</text>
+  <text x="527" y="675" text-anchor="middle" fill="#555" font-size="12">AstraZeneca → 独自開発</text>
+  <text x="527" y="700" text-anchor="middle" fill="#888" font-size="11">AIパートナー選択競争勃発</text>
+
+  <rect x="690" y="580" width="285" height="130" rx="8" fill="#F5F0E8" stroke="#1A1D24" stroke-width="2.5" filter="url(#softShadow)"/>
+  <text x="832" y="610" text-anchor="middle" fill="#8B7DB8" font-size="13" font-weight="800">⚕️ データ規制の壁</text>
+  <text x="832" y="634" text-anchor="middle" fill="#1A1D24" font-size="13">患者データ × AI</text>
+  <text x="832" y="655" text-anchor="middle" fill="#555" font-size="12">FDA/EMA/HIPAAの制約</text>
+  <text x="832" y="675" text-anchor="middle" fill="#555" font-size="12">データガバナンス設計が鍵</text>
+  <text x="832" y="700" text-anchor="middle" fill="#888" font-size="11">業界コンプライアンスモデルに</text>
+
+  <rect x="995" y="580" width="285" height="130" rx="8" fill="#F5F0E8" stroke="#1A1D24" stroke-width="2.5" filter="url(#softShadow)"/>
+  <text x="1137" y="610" text-anchor="middle" fill="#E8A87C" font-size="13" font-weight="800">📋 薬価交渉AI</text>
+  <text x="1137" y="634" text-anchor="middle" fill="#1A1D24" font-size="13">米国IRA薬価交渉拡大</text>
+  <text x="1137" y="655" text-anchor="middle" fill="#555" font-size="12">RWEデータ分析強化</text>
+  <text x="1137" y="675" text-anchor="middle" fill="#555" font-size="12">規制当局交渉に活用か</text>
+  <text x="1137" y="700" text-anchor="middle" fill="#888" font-size="11">単なる効率化以上の狙い</text>
+
+  <!-- Sticky notes -->
+  <rect x="80" y="732" width="265" height="115" rx="4" fill="#FFF9C4" stroke="#1A1D24" stroke-width="2" filter="url(#stickyShadow)" transform="rotate(-1.0, 80, 732)"/>
+  <text x="95" y="762" fill="#1A1D24" font-size="13" font-weight="700">💡 最初の「全社AI製薬」</text>
+  <text x="95" y="784" fill="#333" font-size="12">事業集中度が高いNNが</text>
+  <text x="95" y="802" fill="#333" font-size="12">最も試験成功しやすい。</text>
+  <text x="95" y="820" fill="#333" font-size="12">成功すれば業界全体の</text>
+  <text x="95" y="838" fill="#333" font-size="12">テンプレートになる。</text>
+
+  <rect x="370" y="737" width="265" height="115" rx="4" fill="#C8F7C5" stroke="#1A1D24" stroke-width="2" filter="url(#stickyShadow)" transform="rotate(0.7, 370, 737)"/>
+  <text x="385" y="767" fill="#1A1D24" font-size="13" font-weight="700">🔑 OpenAIの本当の狙い</text>
+  <text x="385" y="789" fill="#333" font-size="12">ヘルスケア実績構築と</text>
+  <text x="385" y="807" fill="#333" font-size="12">臨床データへのアクセス。</text>
+  <text x="385" y="825" fill="#333" font-size="12">次世代モデル改善の</text>
+  <text x="385" y="843" fill="#333" font-size="12">希少データ源として重要。</text>
+
+  <rect x="655" y="730" width="265" height="115" rx="4" fill="#FFD9B3" stroke="#1A1D24" stroke-width="2" filter="url(#stickyShadow)" transform="rotate(-0.8, 655, 730)"/>
+  <text x="670" y="760" fill="#1A1D24" font-size="13" font-weight="700">⚠️ プライバシーリスク</text>
+  <text x="670" y="782" fill="#333" font-size="12">患者同意・連合学習・</text>
+  <text x="670" y="800" fill="#333" font-size="12">オンプレミス推論の設計が</text>
+  <text x="670" y="818" fill="#333" font-size="12">未公開のまま。この事例が</text>
+  <text x="670" y="836" fill="#333" font-size="12">業界標準を決定する。</text>
+
+  <rect x="940" y="735" width="265" height="115" rx="4" fill="#E8D5F5" stroke="#1A1D24" stroke-width="2" filter="url(#stickyShadow)" transform="rotate(1.2, 940, 735)"/>
+  <text x="955" y="765" fill="#1A1D24" font-size="13" font-weight="700">🔮 2027年の地図</text>
+  <text x="955" y="787" fill="#333" font-size="12">「どのAIと組むか」の</text>
+  <text x="955" y="805" fill="#333" font-size="12">製薬業界全体の選択が</text>
+  <text x="955" y="823" fill="#333" font-size="12">2026〜2027年に一斉に</text>
+  <text x="955" y="841" fill="#333" font-size="12">行われる可能性が高い。</text>
+
+  <text x="700" y="1032" text-anchor="middle" fill="#999" font-size="13" font-style="italic">AI News · 2026-05-01 · Novo Nordisk × OpenAI Full-Company AI Partnership: Drug Discovery to Manufacturing</text>
+</svg>

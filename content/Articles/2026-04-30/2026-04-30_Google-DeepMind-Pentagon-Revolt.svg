@@ -1,0 +1,160 @@
+<svg viewBox="0 0 1400 1050" xmlns="http://www.w3.org/2000/svg" font-family="-apple-system, 'Hiragino Sans', 'Yu Gothic', sans-serif">
+  <defs>
+    <pattern id="paperTexture" patternUnits="userSpaceOnUse" width="4" height="4">
+      <rect width="4" height="4" fill="#FBF8F1"/>
+      <circle cx="1" cy="1" r="0.4" fill="#E8E2D3" opacity="0.5"/>
+      <circle cx="3" cy="3" r="0.3" fill="#E8E2D3" opacity="0.3"/>
+    </pattern>
+    <filter id="softShadow">
+      <feDropShadow dx="2" dy="3" stdDeviation="4" flood-color="#1A1D24" flood-opacity="0.15"/>
+    </filter>
+    <filter id="stickyShadow">
+      <feDropShadow dx="3" dy="4" stdDeviation="5" flood-color="#1A1D24" flood-opacity="0.2"/>
+    </filter>
+  </defs>
+  <rect width="1400" height="1050" fill="url(#paperTexture)"/>
+
+  <!-- Binding holes -->
+  <line x1="40" y1="80" x2="40" y2="980" stroke="#E8E2D3" stroke-width="2"/>
+  <circle cx="40" cy="150" r="14" fill="#FBF8F1" stroke="#E8E2D3" stroke-width="2"/>
+  <circle cx="40" cy="280" r="14" fill="#FBF8F1" stroke="#E8E2D3" stroke-width="2"/>
+  <circle cx="40" cy="410" r="14" fill="#FBF8F1" stroke="#E8E2D3" stroke-width="2"/>
+  <circle cx="40" cy="540" r="14" fill="#FBF8F1" stroke="#E8E2D3" stroke-width="2"/>
+  <circle cx="40" cy="670" r="14" fill="#FBF8F1" stroke="#E8E2D3" stroke-width="2"/>
+  <circle cx="40" cy="800" r="14" fill="#FBF8F1" stroke="#E8E2D3" stroke-width="2"/>
+
+  <!-- Category tape -->
+  <rect x="1175" y="-10" width="160" height="46" rx="4" fill="#5CA46E" stroke="#1A1D24" stroke-width="2" transform="rotate(-3)" filter="url(#stickyShadow)"/>
+  <text x="1255" y="22" text-anchor="middle" fill="#FBF8F1" font-size="15" font-weight="700" transform="rotate(-3)">#ビジネス</text>
+
+  <!-- Date badge -->
+  <rect x="80" y="30" width="200" height="42" rx="6" fill="#2F3842" stroke="#1A1D24" stroke-width="2"/>
+  <text x="180" y="57" text-anchor="middle" fill="#FBF8F1" font-size="16" font-weight="700">2026-04-30</text>
+  <text x="1310" y="90" text-anchor="middle" font-size="28">⭐⭐⭐</text>
+
+  <!-- Title -->
+  <text x="80" y="115" fill="#1A1D24" font-size="36" font-weight="900">😡 Google DeepMind研究者580人超が「Pentagon AI契約」に反旗</text>
+  <text x="80" y="158" fill="#1A1D24" font-size="24" font-weight="800">「信じられない恥ずかしさ」——Project Maven 2018の悪夢が再来するか</text>
+  <line x1="80" y1="170" x2="1350" y2="170" stroke="#1A1D24" stroke-width="3"/>
+  <text x="80" y="193" fill="#666" font-size="14">TransformerNews / IBTimes / The Hill  ·  2026-04-30  ·  #AI倫理 #軍事AI #Google</text>
+
+  <!-- Hero -->
+  <g transform="translate(1240, 240)">
+    <circle cx="0" cy="0" r="65" fill="#F5F0E8" stroke="#1A1D24" stroke-width="3"/>
+    <text x="0" y="15" text-anchor="middle" font-size="55">🛑</text>
+  </g>
+
+  <!-- Key numbers -->
+  <rect x="80" y="215" width="290" height="155" rx="10" fill="#F5F0E8" stroke="#1A1D24" stroke-width="3" filter="url(#softShadow)"/>
+  <text x="225" y="248" text-anchor="middle" fill="#666" font-size="13" font-weight="600">署名従業員数</text>
+  <text x="225" y="300" text-anchor="middle" fill="#1A1D24" font-size="62" font-weight="900">580+</text>
+  <text x="225" y="335" text-anchor="middle" fill="#888" font-size="12">公開書簡への署名</text>
+  <text x="225" y="355" text-anchor="middle" fill="#888" font-size="12">（Jeff Dean宛100人超）</text>
+
+  <rect x="390" y="215" width="290" height="155" rx="10" fill="#F5F0E8" stroke="#1A1D24" stroke-width="3" filter="url(#softShadow)"/>
+  <text x="535" y="248" text-anchor="middle" fill="#666" font-size="13" font-weight="600">Project Maven 2018署名数</text>
+  <text x="535" y="300" text-anchor="middle" fill="#888" font-size="55" font-weight="900">4,000</text>
+  <text x="535" y="335" text-anchor="middle" fill="#888" font-size="12">→ Google 撤退に至る</text>
+  <text x="535" y="355" text-anchor="middle" fill="#888" font-size="12">今回は「署名を無視して強行」</text>
+
+  <rect x="700" y="215" width="340" height="155" rx="10" fill="#F5F0E8" stroke="#1A1D24" stroke-width="3" filter="url(#softShadow)"/>
+  <text x="870" y="248" text-anchor="middle" fill="#666" font-size="13" font-weight="600">Anthropic との対比</text>
+  <text x="870" y="285" text-anchor="middle" fill="#1A1D24" font-size="18" font-weight="800">自律兵器・監視AI拒否</text>
+  <text x="870" y="315" text-anchor="middle" fill="#888" font-size="13">Anthropic → 「供給リスク」指定</text>
+  <text x="870" y="340" text-anchor="middle" fill="#555" font-size="13">Google → 「合法なら何でも可」</text>
+  <text x="870" y="360" text-anchor="middle" fill="#555" font-size="12">翌日に空いた椅子を埋める形で契約</text>
+
+  <!-- Comparison chart: Maven 2018 vs 2026 -->
+  <rect x="80" y="395" width="1260" height="215" rx="10" fill="#F5F0E8" stroke="#1A1D24" stroke-width="2.5" filter="url(#softShadow)"/>
+  <text x="110" y="425" fill="#1A1D24" font-size="18" font-weight="800">🔄 Project Maven 2018 vs 2026 Pentagon Deal 比較</text>
+  <line x1="110" y1="435" x2="1320" y2="435" stroke="#1A1D24" stroke-width="1.5" stroke-dasharray="4,3"/>
+
+  <!-- Headers -->
+  <text x="300" y="460" text-anchor="middle" fill="#888" font-size="14" font-weight="700">Project Maven（2018）</text>
+  <text x="720" y="460" text-anchor="middle" fill="#888" font-size="14" font-weight="700">項目</text>
+  <text x="1100" y="460" text-anchor="middle" fill="#1A1D24" font-size="14" font-weight="700">Pentagon Deal（2026）</text>
+  <line x1="580" y1="440" x2="580" y2="595" stroke="#1A1D24" stroke-width="1.5" stroke-dasharray="3,2"/>
+  <line x1="860" y1="440" x2="860" y2="595" stroke="#1A1D24" stroke-width="1.5" stroke-dasharray="3,2"/>
+
+  <text x="300" y="490" text-anchor="middle" fill="#555" font-size="13">~4,000人</text>
+  <text x="720" y="490" text-anchor="middle" fill="#1A1D24" font-size="13" font-weight="700">署名数</text>
+  <text x="1100" y="490" text-anchor="middle" fill="#555" font-size="13">580人超</text>
+
+  <text x="300" y="515" text-anchor="middle" fill="#555" font-size="13">ドローン映像分析</text>
+  <text x="720" y="515" text-anchor="middle" fill="#1A1D24" font-size="13" font-weight="700">AI用途</text>
+  <text x="1100" y="515" text-anchor="middle" fill="#555" font-size="13">機密ネットワーク全般</text>
+
+  <text x="300" y="540" text-anchor="middle" fill="#5CA46E" font-size="13" font-weight="700">✓ 撤退・契約更新せず</text>
+  <text x="720" y="540" text-anchor="middle" fill="#1A1D24" font-size="13" font-weight="700">Googleの対応</text>
+  <text x="1100" y="540" text-anchor="middle" fill="#E8A87C" font-size="13" font-weight="700">✗ 署名無視・契約強行</text>
+
+  <text x="300" y="565" text-anchor="middle" fill="#555" font-size="13">「AI原則」に禁止文言あり</text>
+  <text x="720" y="565" text-anchor="middle" fill="#1A1D24" font-size="13" font-weight="700">AI原則の状況</text>
+  <text x="1100" y="565" text-anchor="middle" fill="#555" font-size="13">2025年2月に禁止文言を削除済み</text>
+
+  <text x="300" y="590" text-anchor="middle" fill="#555" font-size="13">複数の従業員が辞職</text>
+  <text x="720" y="590" text-anchor="middle" fill="#1A1D24" font-size="13" font-weight="700">従業員の行動</text>
+  <text x="1100" y="590" text-anchor="middle" fill="#888" font-size="13">（辞職は未報告、進行中）</text>
+
+  <!-- Cards -->
+  <rect x="80" y="635" width="290" height="130" rx="8" fill="#F5F0E8" stroke="#1A1D24" stroke-width="2.5" filter="url(#softShadow)"/>
+  <text x="100" y="663" fill="#1A1D24" font-size="14" font-weight="800">研究者採用への影響</text>
+  <line x1="100" y1="670" x2="350" y2="670" stroke="#1A1D24" stroke-width="1.5"/>
+  <text x="100" y="690" fill="#555" font-size="12">DeepMind離職・就職忌避が加速</text>
+  <text x="100" y="708" fill="#555" font-size="12">Anthropicは「倫理姿勢」が採用差別化</text>
+  <text x="100" y="726" fill="#E8A87C" font-size="12" font-weight="700">→ Google研究者競争力に赤信号</text>
+  <text x="100" y="752" fill="#888" font-size="11">特にSafety研究者・欧州系</text>
+
+  <rect x="390" y="635" width="290" height="130" rx="8" fill="#F5F0E8" stroke="#1A1D24" stroke-width="2.5" filter="url(#softShadow)"/>
+  <text x="410" y="663" fill="#1A1D24" font-size="14" font-weight="800">EU AI Actへの波及</text>
+  <line x1="410" y1="670" x2="660" y2="670" stroke="#1A1D24" stroke-width="1.5"/>
+  <text x="410" y="690" fill="#555" font-size="12">「合法なら何でも可」は欧州では</text>
+  <text x="410" y="708" fill="#555" font-size="12">高リスクAI分類にかかる可能性</text>
+  <text x="410" y="726" fill="#1A1D24" font-size="12" font-weight="700">→ 欧州事業に規制リスク</text>
+  <text x="410" y="752" fill="#888" font-size="11">EU AI Act 8月施行まで100日</text>
+
+  <rect x="700" y="635" width="290" height="130" rx="8" fill="#F5F0E8" stroke="#1A1D24" stroke-width="2.5" filter="url(#softShadow)"/>
+  <text x="720" y="663" fill="#1A1D24" font-size="14" font-weight="800">Anthropicの立場</text>
+  <line x1="720" y1="670" x2="970" y2="670" stroke="#1A1D24" stroke-width="1.5"/>
+  <text x="720" y="690" fill="#555" font-size="12">拒否 → 「供給リスク」指定のペナルティ</text>
+  <text x="720" y="708" fill="#555" font-size="12">但しDOD契約はなく倫理面を保持</text>
+  <text x="720" y="726" fill="#5CA46E" font-size="12" font-weight="700">→ ブランド価値上昇中</text>
+  <text x="720" y="752" fill="#888" font-size="11">Google社員も支持の声を上げる</text>
+
+  <rect x="1010" y="635" width="310" height="130" rx="8" fill="#F5F0E8" stroke="#1A1D24" stroke-width="2.5" filter="url(#softShadow)"/>
+  <text x="1030" y="663" fill="#1A1D24" font-size="14" font-weight="800">「倫理の価格」の可視化</text>
+  <line x1="1030" y1="670" x2="1300" y2="670" stroke="#1A1D24" stroke-width="1.5"/>
+  <text x="1030" y="690" fill="#555" font-size="12">Anthropic拒否 → 供給リスク指定</text>
+  <text x="1030" y="708" fill="#555" font-size="12">Google同意 → 契約獲得</text>
+  <text x="1030" y="726" fill="#E8A87C" font-size="12" font-weight="700">→ 倫理を守ると政府から排除</text>
+  <text x="1030" y="752" fill="#888" font-size="11">業界全体への悪影響が懸念される</text>
+
+  <!-- Sticky notes -->
+  <rect x="85" y="793" width="250" height="110" rx="5" fill="#FFF9C4" stroke="#1A1D24" stroke-width="2" filter="url(#stickyShadow)" transform="rotate(-1.5, 85, 793)"/>
+  <text x="105" y="822" fill="#1A1D24" font-size="13" font-weight="800" transform="rotate(-1.5)">😤 Kirschの発言全文</text>
+  <text x="105" y="843" fill="#555" font-size="11" transform="rotate(-1.5)">"I personally feel incredibly</text>
+  <text x="105" y="860" fill="#555" font-size="11" transform="rotate(-1.5)">ashamed right now to be</text>
+  <text x="105" y="877" fill="#555" font-size="11" transform="rotate(-1.5)">Senior Research Scientist</text>
+  <text x="105" y="894" fill="#555" font-size="11" transform="rotate(-1.5)">at Google DeepMind"</text>
+
+  <rect x="360" y="808" width="255" height="100" rx="5" fill="#FFCDD2" stroke="#1A1D24" stroke-width="2" filter="url(#stickyShadow)" transform="rotate(1, 360, 808)"/>
+  <text x="380" y="836" fill="#1A1D24" font-size="13" font-weight="800" transform="rotate(1)">🔍 「Do the right thing」</text>
+  <text x="380" y="857" fill="#555" font-size="11" transform="rotate(1)">Googleの旧モットー「Don't be</text>
+  <text x="380" y="874" fill="#555" font-size="11" transform="rotate(1)">evil」から変更済み。研究者は</text>
+  <text x="380" y="891" fill="#555" font-size="11" transform="rotate(1)">この変遷自体を批判</text>
+
+  <rect x="638" y="793" width="255" height="110" rx="5" fill="#FFE0B2" stroke="#1A1D24" stroke-width="2" filter="url(#stickyShadow)" transform="rotate(-1, 638, 793)"/>
+  <text x="658" y="822" fill="#1A1D24" font-size="13" font-weight="800" transform="rotate(-1)">🔮 今後のシグナル</text>
+  <text x="658" y="843" fill="#555" font-size="11" transform="rotate(-1)">Anthropicへの「供給リスク」指定</text>
+  <text x="658" y="860" fill="#555" font-size="11" transform="rotate(-1)">が解除されるか否かが次の</text>
+  <text x="658" y="877" fill="#555" font-size="11" transform="rotate(-1)">分岐点。解除なら倫理姿勢が</text>
+  <text x="658" y="894" fill="#555" font-size="11" transform="rotate(-1)">Googleを逆転できる機会に</text>
+
+  <rect x="916" y="808" width="255" height="100" rx="5" fill="#C8E6C9" stroke="#1A1D24" stroke-width="2" filter="url(#stickyShadow)" transform="rotate(1.5, 916, 808)"/>
+  <text x="936" y="836" fill="#1A1D24" font-size="13" font-weight="800" transform="rotate(1.5)">⚡ 辞職ドミノは来るか</text>
+  <text x="936" y="857" fill="#555" font-size="11" transform="rotate(1.5)">2018は複数役員・研究者が辞職</text>
+  <text x="936" y="874" fill="#555" font-size="11" transform="rotate(1.5)">今回は今のところ辞職報告なし</text>
+  <text x="936" y="891" fill="#555" font-size="11" transform="rotate(1.5)">→ 次週が正念場</text>
+
+  <text x="700" y="1035" text-anchor="middle" fill="#999" font-size="13" font-style="italic">AI News · 2026-04-30 · Google DeepMind 580+ Employees Revolt Over Pentagon AI Deal</text>
+</svg>
