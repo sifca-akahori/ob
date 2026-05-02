@@ -1,0 +1,156 @@
+<svg viewBox="0 0 1400 1050" xmlns="http://www.w3.org/2000/svg" font-family="-apple-system, 'Hiragino Sans', 'Yu Gothic', sans-serif">
+  <defs>
+    <pattern id="paperTexture" patternUnits="userSpaceOnUse" width="4" height="4">
+      <rect width="4" height="4" fill="#FBF8F1"/>
+      <circle cx="1" cy="1" r="0.4" fill="#E8E2D3" opacity="0.5"/>
+      <circle cx="3" cy="3" r="0.3" fill="#E8E2D3" opacity="0.3"/>
+    </pattern>
+    <filter id="softShadow">
+      <feDropShadow dx="2" dy="3" stdDeviation="4" flood-color="#1A1D24" flood-opacity="0.15"/>
+    </filter>
+    <filter id="stickyShadow">
+      <feDropShadow dx="3" dy="4" stdDeviation="5" flood-color="#1A1D24" flood-opacity="0.2"/>
+    </filter>
+  </defs>
+  <rect width="1400" height="1050" fill="url(#paperTexture)"/>
+  <!-- Binding holes -->
+  <line x1="40" y1="80" x2="40" y2="980" stroke="#E8E2D3" stroke-width="2"/>
+  <circle cx="40" cy="150" r="14" fill="#FBF8F1" stroke="#E8E2D3" stroke-width="2"/>
+  <circle cx="40" cy="280" r="14" fill="#FBF8F1" stroke="#E8E2D3" stroke-width="2"/>
+  <circle cx="40" cy="410" r="14" fill="#FBF8F1" stroke="#E8E2D3" stroke-width="2"/>
+  <circle cx="40" cy="540" r="14" fill="#FBF8F1" stroke="#E8E2D3" stroke-width="2"/>
+  <circle cx="40" cy="670" r="14" fill="#FBF8F1" stroke="#E8E2D3" stroke-width="2"/>
+  <circle cx="40" cy="800" r="14" fill="#FBF8F1" stroke="#E8E2D3" stroke-width="2"/>
+  <!-- Category tape - ビジネス green -->
+  <rect x="1190" y="-10" width="160" height="46" rx="4" fill="#5CA46E" stroke="#1A1D24" stroke-width="2" transform="rotate(-3, 1190, -10)" filter="url(#stickyShadow)"/>
+  <text x="1270" y="22" text-anchor="middle" fill="#FBF8F1" font-size="15" font-weight="700" transform="rotate(-3, 1270, 22)">#ビジネス</text>
+  <!-- Date badge -->
+  <rect x="80" y="30" width="200" height="42" rx="6" fill="#2F3842" stroke="#1A1D24" stroke-width="2"/>
+  <text x="180" y="57" text-anchor="middle" fill="#FBF8F1" font-size="16" font-weight="700">2026-05-02</text>
+  <!-- Impact -->
+  <text x="1340" y="92" text-anchor="middle" font-size="26">⭐⭐⭐</text>
+  <!-- Title -->
+  <text x="80" y="118" fill="#1A1D24" font-size="36" font-weight="900">⚖️ Musk v. OpenAI 裁判 Week 1 総括</text>
+  <text x="80" y="158" fill="#1A1D24" font-size="22" font-weight="700">xAI蒸留認定・「AIで人類滅亡」発言・7時間超証言——判決5月中旬</text>
+  <line x1="80" y1="172" x2="1340" y2="172" stroke="#1A1D24" stroke-width="3"/>
+  <text x="80" y="193" fill="#666" font-size="13">MIT Technology Review / Washington Post  ·  2026-05-02  ·  #OpenAI #Musk #xAI #裁判</text>
+
+  <!-- Hero -->
+  <g transform="translate(1270, 255)">
+    <circle cx="0" cy="0" r="68" fill="#F5F0E8" stroke="#1A1D24" stroke-width="3"/>
+    <text x="0" y="18" text-anchor="middle" font-size="60">⚖️</text>
+  </g>
+
+  <!-- Key number blocks -->
+  <rect x="80" y="215" width="255" height="155" rx="10" fill="#F5F0E8" stroke="#1A1D24" stroke-width="3" filter="url(#softShadow)"/>
+  <text x="207" y="248" text-anchor="middle" fill="#5CA46E" font-size="13" font-weight="700">💰 損害賠償請求額</text>
+  <text x="207" y="305" text-anchor="middle" fill="#1A1D24" font-size="52" font-weight="900">$150B</text>
+  <text x="207" y="335" text-anchor="middle" fill="#555" font-size="13">Musk が要求</text>
+  <text x="207" y="355" text-anchor="middle" fill="#888" font-size="12">＋Altman・Brockman 解任</text>
+
+  <rect x="355" y="215" width="255" height="155" rx="10" fill="#F5F0E8" stroke="#1A1D24" stroke-width="3" filter="url(#softShadow)"/>
+  <text x="482" y="248" text-anchor="middle" fill="#5B8DEF" font-size="13" font-weight="700">⏱️ 証言時間</text>
+  <text x="482" y="305" text-anchor="middle" fill="#1A1D24" font-size="52" font-weight="900">7h+</text>
+  <text x="482" y="335" text-anchor="middle" fill="#555" font-size="13">Musk 本人が証言台へ</text>
+  <text x="482" y="355" text-anchor="middle" fill="#888" font-size="12">月火で合計 7 時間超</text>
+
+  <rect x="630" y="215" width="255" height="155" rx="10" fill="#F5F0E8" stroke="#1A1D24" stroke-width="3" filter="url(#softShadow)"/>
+  <text x="757" y="248" text-anchor="middle" fill="#E8A87C" font-size="13" font-weight="700">🏛️ OpenAI 評価額</text>
+  <text x="757" y="305" text-anchor="middle" fill="#1A1D24" font-size="48" font-weight="900">$852B</text>
+  <text x="757" y="335" text-anchor="middle" fill="#555" font-size="13">非営利→営利転換後</text>
+  <text x="757" y="355" text-anchor="middle" fill="#888" font-size="12">IPO 目標 $200B+</text>
+
+  <!-- Timeline block -->
+  <rect x="80" y="390" width="1270" height="145" rx="10" fill="#F5F0E8" stroke="#1A1D24" stroke-width="2.5" filter="url(#softShadow)"/>
+  <text x="110" y="420" fill="#1A1D24" font-size="17" font-weight="800">📅 裁判タイムライン</text>
+  <line x1="110" y1="430" x2="1320" y2="430" stroke="#1A1D24" stroke-width="1.5" stroke-dasharray="4,3"/>
+
+  <!-- Timeline line -->
+  <line x1="130" y1="480" x2="1310" y2="480" stroke="#1A1D24" stroke-width="3"/>
+  <!-- Points -->
+  <circle cx="220" cy="480" r="10" fill="#5CA46E" stroke="#1A1D24" stroke-width="2"/>
+  <text x="220" y="460" text-anchor="middle" fill="#1A1D24" font-size="12" font-weight="700">4/28</text>
+  <text x="220" y="505" text-anchor="middle" fill="#555" font-size="11">開廷</text>
+  <text x="220" y="520" text-anchor="middle" fill="#555" font-size="11">Musk 証言開始</text>
+
+  <circle cx="460" cy="480" r="10" fill="#5B8DEF" stroke="#1A1D24" stroke-width="2"/>
+  <text x="460" y="460" text-anchor="middle" fill="#1A1D24" font-size="12" font-weight="700">4/30</text>
+  <text x="460" y="505" text-anchor="middle" fill="#555" font-size="11">Day4</text>
+  <text x="460" y="520" text-anchor="middle" fill="#555" font-size="11">xAI蒸留認定</text>
+
+  <circle cx="700" cy="480" r="10" fill="#8B7DB8" stroke="#1A1D24" stroke-width="2"/>
+  <text x="700" y="460" text-anchor="middle" fill="#1A1D24" font-size="12" font-weight="700">5/1</text>
+  <text x="700" y="505" text-anchor="middle" fill="#555" font-size="11">Day5</text>
+  <text x="700" y="520" text-anchor="middle" fill="#555" font-size="11">X投稿制限命令</text>
+
+  <circle cx="940" cy="480" r="10" fill="#E8A87C" stroke="#1A1D24" stroke-width="2"/>
+  <text x="940" y="460" text-anchor="middle" fill="#1A1D24" font-size="12" font-weight="700">5/21</text>
+  <text x="940" y="505" text-anchor="middle" fill="#555" font-size="11">第1フェーズ</text>
+  <text x="940" y="520" text-anchor="middle" fill="#555" font-size="11">（違法行為認定）終了予定</text>
+
+  <circle cx="1180" cy="480" r="12" fill="#1A1D24" stroke="#1A1D24" stroke-width="2"/>
+  <text x="1180" y="460" text-anchor="middle" fill="#1A1D24" font-size="12" font-weight="700">5月中旬〜末</text>
+  <text x="1180" y="505" text-anchor="middle" fill="#E8A87C" font-size="12" font-weight="700">⚡ 判決</text>
+  <text x="1180" y="520" text-anchor="middle" fill="#555" font-size="11">IPO直撃リスク</text>
+
+  <!-- 4 claim cards -->
+  <rect x="80" y="553" width="280" height="120" rx="8" fill="#F5F0E8" stroke="#1A1D24" stroke-width="2.5" filter="url(#softShadow)"/>
+  <text x="220" y="581" text-anchor="middle" fill="#5CA46E" font-size="13" font-weight="800">Musk 主張 ①</text>
+  <text x="220" y="603" text-anchor="middle" fill="#1A1D24" font-size="15" font-weight="700">「自分は騙された」</text>
+  <text x="220" y="623" text-anchor="middle" fill="#555" font-size="12">非営利設立の理念を裏切り</text>
+  <text x="220" y="641" text-anchor="middle" fill="#555" font-size="12">営利化で慈善財産を「奪取」</text>
+  <text x="220" y="659" text-anchor="middle" fill="#888" font-size="11">損害$150B求める</text>
+
+  <rect x="380" y="553" width="280" height="120" rx="8" fill="#F5F0E8" stroke="#1A1D24" stroke-width="2.5" filter="url(#softShadow)"/>
+  <text x="520" y="581" text-anchor="middle" fill="#5B8DEF" font-size="13" font-weight="800">Musk 主張 ②</text>
+  <text x="520" y="603" text-anchor="middle" fill="#1A1D24" font-size="15" font-weight="700">「AIで人類滅亡」</text>
+  <text x="520" y="623" text-anchor="middle" fill="#555" font-size="12">AGIは人類消滅リスクがある</text>
+  <text x="520" y="641" text-anchor="middle" fill="#555" font-size="12">だから非営利安全研究が必要</text>
+  <text x="520" y="659" text-anchor="middle" fill="#888" font-size="11">法廷を驚かせた発言</text>
+
+  <rect x="680" y="553" width="280" height="120" rx="8" fill="#F5F0E8" stroke="#1A1D24" stroke-width="2.5" filter="url(#softShadow)"/>
+  <text x="820" y="581" text-anchor="middle" fill="#E8A87C" font-size="13" font-weight="800">法廷認定事項</text>
+  <text x="820" y="603" text-anchor="middle" fill="#1A1D24" font-size="15" font-weight="700">xAI ≡ 蒸留使用</text>
+  <text x="820" y="623" text-anchor="middle" fill="#555" font-size="12">Grok の訓練に OpenAI</text>
+  <text x="820" y="641" text-anchor="middle" fill="#555" font-size="12">モデルを使用「業界慣行」</text>
+  <text x="820" y="659" text-anchor="middle" fill="#888" font-size="11">公開記録に初掲載</text>
+
+  <rect x="980" y="553" width="280" height="120" rx="8" fill="#F5F0E8" stroke="#1A1D24" stroke-width="2.5" filter="url(#softShadow)"/>
+  <text x="1120" y="581" text-anchor="middle" fill="#8B7DB8" font-size="13" font-weight="800">OpenAI 反論</text>
+  <text x="1120" y="603" text-anchor="middle" fill="#1A1D24" font-size="15" font-weight="700">「Musk の私怨」</text>
+  <text x="1120" y="623" text-anchor="middle" fill="#555" font-size="12">コントロール失い</text>
+  <text x="1120" y="641" text-anchor="middle" fill="#555" font-size="12">xAI 競合封じのための</text>
+  <text x="1120" y="659" text-anchor="middle" fill="#888" font-size="11">訴訟と主張</text>
+
+  <!-- Sticky notes -->
+  <rect x="82" y="696" width="250" height="112" rx="6" fill="#FFEAA7" stroke="#1A1D24" stroke-width="2" transform="rotate(-1.2, 82, 696)" filter="url(#stickyShadow)"/>
+  <text x="97" y="723" fill="#1A1D24" font-size="13" font-weight="700">🔑 蒸留問題の波及</text>
+  <text x="97" y="743" fill="#333" font-size="12">業界全体の知的財産</text>
+  <text x="97" y="759" fill="#333" font-size="12">リスクに火が付く可能性</text>
+  <text x="97" y="775" fill="#333" font-size="12">Google・Metaにも波及か</text>
+  <text x="97" y="795" fill="#666" font-size="11">HN 450+ コメント</text>
+
+  <rect x="360" y="696" width="250" height="112" rx="6" fill="#DFE6FF" stroke="#1A1D24" stroke-width="2" transform="rotate(0.8, 360, 696)" filter="url(#stickyShadow)"/>
+  <text x="375" y="723" fill="#1A1D24" font-size="13" font-weight="700">💡 IPO への影響</text>
+  <text x="375" y="743" fill="#333" font-size="12">$200B+ 上場に</text>
+  <text x="375" y="759" fill="#333" font-size="12">資産移転命令が出れば</text>
+  <text x="375" y="775" fill="#333" font-size="12">構造的打撃の可能性</text>
+  <text x="375" y="795" fill="#666" font-size="11">判決 5月中旬見込み</text>
+
+  <rect x="638" y="696" width="250" height="112" rx="6" fill="#D5F5E3" stroke="#1A1D24" stroke-width="2" transform="rotate(-0.9, 638, 696)" filter="url(#stickyShadow)"/>
+  <text x="653" y="723" fill="#1A1D24" font-size="13" font-weight="700">📰 WaPo 報道角度</text>
+  <text x="653" y="743" fill="#333" font-size="12">「裁判は Musk 自身の</text>
+  <text x="653" y="759" fill="#333" font-size="12">物語になっている」</text>
+  <text x="653" y="775" fill="#333" font-size="12">自己矛盾が露呈と評価</text>
+  <text x="653" y="795" fill="#666" font-size="11">May 2 WashPost 記事</text>
+
+  <rect x="916" y="696" width="250" height="112" rx="6" fill="#FFDDF4" stroke="#1A1D24" stroke-width="2" transform="rotate(1.3, 916, 696)" filter="url(#stickyShadow)"/>
+  <text x="931" y="723" fill="#1A1D24" font-size="13" font-weight="700">🔮 半年後の予測</text>
+  <text x="931" y="743" fill="#333" font-size="12">「非営利→営利」転換の</text>
+  <text x="931" y="759" fill="#333" font-size="12">合法性が判例に</text>
+  <text x="931" y="775" fill="#333" font-size="12">業界ガバナンス標準へ波及</text>
+  <text x="931" y="795" fill="#666" font-size="11">世界的再設計のトリガーに</text>
+
+  <!-- Footer -->
+  <text x="700" y="1035" text-anchor="middle" fill="#888" font-size="12" font-style="italic">AI News · 2026-05-02 · Musk v. OpenAI Trial Week 1 Recap</text>
+</svg>

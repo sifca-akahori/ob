@@ -1,0 +1,143 @@
+<svg viewBox="0 0 1400 1050" xmlns="http://www.w3.org/2000/svg" font-family="-apple-system, 'Hiragino Sans', 'Yu Gothic', sans-serif">
+  <defs>
+    <pattern id="paperTexture" patternUnits="userSpaceOnUse" width="4" height="4">
+      <rect width="4" height="4" fill="#FBF8F1"/>
+      <circle cx="1" cy="1" r="0.4" fill="#E8E2D3" opacity="0.5"/>
+      <circle cx="3" cy="3" r="0.3" fill="#E8E2D3" opacity="0.3"/>
+    </pattern>
+    <filter id="softShadow">
+      <feDropShadow dx="2" dy="3" stdDeviation="4" flood-color="#1A1D24" flood-opacity="0.15"/>
+    </filter>
+    <filter id="stickyShadow">
+      <feDropShadow dx="3" dy="4" stdDeviation="5" flood-color="#1A1D24" flood-opacity="0.2"/>
+    </filter>
+  </defs>
+  <rect width="1400" height="1050" fill="url(#paperTexture)"/>
+  <line x1="40" y1="80" x2="40" y2="980" stroke="#E8E2D3" stroke-width="2"/>
+  <circle cx="40" cy="150" r="14" fill="#FBF8F1" stroke="#E8E2D3" stroke-width="2"/>
+  <circle cx="40" cy="280" r="14" fill="#FBF8F1" stroke="#E8E2D3" stroke-width="2"/>
+  <circle cx="40" cy="410" r="14" fill="#FBF8F1" stroke="#E8E2D3" stroke-width="2"/>
+  <circle cx="40" cy="540" r="14" fill="#FBF8F1" stroke="#E8E2D3" stroke-width="2"/>
+  <circle cx="40" cy="670" r="14" fill="#FBF8F1" stroke="#E8E2D3" stroke-width="2"/>
+  <circle cx="40" cy="800" r="14" fill="#FBF8F1" stroke="#E8E2D3" stroke-width="2"/>
+  <rect x="1190" y="-10" width="160" height="46" rx="4" fill="#5CA46E" stroke="#1A1D24" stroke-width="2" transform="rotate(-3, 1190, -10)" filter="url(#stickyShadow)"/>
+  <text x="1270" y="22" text-anchor="middle" fill="#FBF8F1" font-size="15" font-weight="700" transform="rotate(-3, 1270, 22)">#ビジネス</text>
+  <rect x="80" y="30" width="200" height="42" rx="6" fill="#2F3842" stroke="#1A1D24" stroke-width="2"/>
+  <text x="180" y="57" text-anchor="middle" fill="#FBF8F1" font-size="16" font-weight="700">2026-05-02</text>
+  <text x="1340" y="92" text-anchor="middle" font-size="24">⭐⭐</text>
+  <text x="80" y="118" fill="#1A1D24" font-size="36" font-weight="900">🦾 Rhoda AI が $4.5億 Series A で公開デビュー</text>
+  <text x="80" y="158" fill="#1A1D24" font-size="22" font-weight="700">FutureVision「映像予測制御」ロボット知能——身体AI week に登場</text>
+  <line x1="80" y1="172" x2="1340" y2="172" stroke="#1A1D24" stroke-width="3"/>
+  <text x="80" y="193" fill="#666" font-size="13">AI Funding Tracker  ·  2026-05-02  ·  #ロボティクス #身体AI #映像予測制御 #Series A</text>
+
+  <g transform="translate(1270, 255)">
+    <circle cx="0" cy="0" r="68" fill="#F5F0E8" stroke="#1A1D24" stroke-width="3"/>
+    <text x="0" y="18" text-anchor="middle" font-size="60">🦾</text>
+  </g>
+
+  <!-- Key numbers -->
+  <rect x="80" y="215" width="255" height="155" rx="10" fill="#F5F0E8" stroke="#1A1D24" stroke-width="3" filter="url(#softShadow)"/>
+  <text x="207" y="248" text-anchor="middle" fill="#5CA46E" font-size="13" font-weight="700">💰 調達額</text>
+  <text x="207" y="305" text-anchor="middle" fill="#1A1D24" font-size="52" font-weight="900">$450M</text>
+  <text x="207" y="335" text-anchor="middle" fill="#555" font-size="13">Series A（2026年5月）</text>
+  <text x="207" y="355" text-anchor="middle" fill="#888" font-size="12">公開デビュー時に発表</text>
+
+  <rect x="355" y="215" width="255" height="155" rx="10" fill="#F5F0E8" stroke="#1A1D24" stroke-width="3" filter="url(#softShadow)"/>
+  <text x="482" y="248" text-anchor="middle" fill="#5B8DEF" font-size="13" font-weight="700">🏭 ターゲット市場</text>
+  <text x="482" y="275" text-anchor="middle" fill="#1A1D24" font-size="28" font-weight="900">物流・製造</text>
+  <text x="482" y="305" text-anchor="middle" fill="#1A1D24" font-size="28" font-weight="900">家事・農業</text>
+  <text x="482" y="335" text-anchor="middle" fill="#555" font-size="13">汎用ロボット知能</text>
+  <text x="482" y="355" text-anchor="middle" fill="#888" font-size="12">FutureVision で全対応</text>
+
+  <rect x="630" y="215" width="255" height="155" rx="10" fill="#F5F0E8" stroke="#1A1D24" stroke-width="3" filter="url(#softShadow)"/>
+  <text x="757" y="248" text-anchor="middle" fill="#E8A87C" font-size="13" font-weight="700">📅 身体AI week</text>
+  <text x="757" y="280" text-anchor="middle" fill="#1A1D24" font-size="18" font-weight="900">同週ニュース</text>
+  <text x="757" y="305" text-anchor="middle" fill="#555" font-size="12">Meta ARI 買収</text>
+  <text x="757" y="322" text-anchor="middle" fill="#555" font-size="12">NVIDIA GR00T N1.7</text>
+  <text x="757" y="339" text-anchor="middle" fill="#555" font-size="12">Sony AI Ace 卓球制覇</text>
+  <text x="757" y="356" text-anchor="middle" fill="#888" font-size="11">身体AI 転換点の週</text>
+
+  <!-- FutureVision architecture -->
+  <rect x="80" y="392" width="1270" height="160" rx="10" fill="#F5F0E8" stroke="#1A1D24" stroke-width="2.5" filter="url(#softShadow)"/>
+  <text x="110" y="420" fill="#1A1D24" font-size="17" font-weight="800">🎯 FutureVision「映像予測制御」アーキテクチャ</text>
+  <line x1="110" y1="430" x2="1320" y2="430" stroke="#1A1D24" stroke-width="1.5" stroke-dasharray="4,3"/>
+
+  <!-- Architecture flow -->
+  <rect x="110" y="440" width="220" height="100" rx="6" fill="#2F3842" stroke="#1A1D24" stroke-width="2"/>
+  <text x="220" y="464" text-anchor="middle" fill="#FBF8F1" font-size="13" font-weight="700">現在の状態</text>
+  <text x="220" y="484" text-anchor="middle" fill="#AAA" font-size="11">カメラ映像</text>
+  <text x="220" y="500" text-anchor="middle" fill="#AAA" font-size="11">センサーデータ</text>
+  <text x="220" y="516" text-anchor="middle" fill="#AAA" font-size="11">環境認識</text>
+  <text x="220" y="534" text-anchor="middle" fill="#5B8DEF" font-size="11">t = 0</text>
+
+  <text x="355" y="500" text-anchor="middle" fill="#1A1D24" font-size="22">→</text>
+
+  <rect x="370" y="440" width="280" height="100" rx="6" fill="#5B8DEF" stroke="#1A1D24" stroke-width="2"/>
+  <text x="510" y="464" text-anchor="middle" fill="#FBF8F1" font-size="13" font-weight="700">未来フレーム予測</text>
+  <text x="510" y="484" text-anchor="middle" fill="#FBF8F1" font-size="11">世界モデルで</text>
+  <text x="510" y="500" text-anchor="middle" fill="#FBF8F1" font-size="11">数秒〜数十秒先を</text>
+  <text x="510" y="516" text-anchor="middle" fill="#FBF8F1" font-size="11">映像シーケンスとして生成</text>
+  <text x="510" y="534" text-anchor="middle" fill="#FBF8F1" font-size="11">t = +Δt〜+NΔt</text>
+
+  <text x="675" y="500" text-anchor="middle" fill="#1A1D24" font-size="22">→</text>
+
+  <rect x="690" y="440" width="280" height="100" rx="6" fill="#8B7DB8" stroke="#1A1D24" stroke-width="2"/>
+  <text x="830" y="464" text-anchor="middle" fill="#FBF8F1" font-size="13" font-weight="700">最適行動を逆算</text>
+  <text x="830" y="484" text-anchor="middle" fill="#FBF8F1" font-size="11">予測映像から</text>
+  <text x="830" y="500" text-anchor="middle" fill="#FBF8F1" font-size="11">目標達成に最適な</text>
+  <text x="830" y="516" text-anchor="middle" fill="#FBF8F1" font-size="11">モーターコマンドを算出</text>
+  <text x="830" y="534" text-anchor="middle" fill="#FBF8F1" font-size="11">逆動力学モデル</text>
+
+  <text x="995" y="500" text-anchor="middle" fill="#1A1D24" font-size="22">→</text>
+
+  <rect x="1010" y="440" width="270" height="100" rx="6" fill="#5CA46E" stroke="#1A1D24" stroke-width="2"/>
+  <text x="1145" y="464" text-anchor="middle" fill="#FBF8F1" font-size="13" font-weight="700">制御出力</text>
+  <text x="1145" y="484" text-anchor="middle" fill="#FBF8F1" font-size="11">アクチュエータへ指令</text>
+  <text x="1145" y="500" text-anchor="middle" fill="#FBF8F1" font-size="11">↺ 再ループ</text>
+  <text x="1145" y="516" text-anchor="middle" fill="#FBF8F1" font-size="11">実行→観測→再予測</text>
+  <text x="1145" y="534" text-anchor="middle" fill="#FBF8F1" font-size="11">継続的制御</text>
+
+  <!-- Comparison table -->
+  <rect x="80" y="570" width="630" height="110" rx="8" fill="#F5F0E8" stroke="#1A1D24" stroke-width="2.5" filter="url(#softShadow)"/>
+  <text x="110" y="596" fill="#1A1D24" font-size="15" font-weight="800">🆚 映像予測制御 vs 従来制御</text>
+  <text x="110" y="620" fill="#555" font-size="12">従来：センサー入力 → リアクティブ制御（現在だけ見る）</text>
+  <text x="110" y="640" fill="#555" font-size="12">FutureVision：未来映像を生成してから逆算（予測的制御）</text>
+  <text x="110" y="660" fill="#5B8DEF" font-size="12">→ DreamerV3・NVIDIA Cosmos と同じ「世界モデル」系譜</text>
+
+  <rect x="730" y="570" width="620" height="110" rx="8" fill="#F5F0E8" stroke="#1A1D24" stroke-width="2.5" filter="url(#softShadow)"/>
+  <text x="760" y="596" fill="#1A1D24" font-size="15" font-weight="800">📊 ロボットAI 資金調達 2026（参考比較）</text>
+  <text x="760" y="620" fill="#555" font-size="12">Physical Intelligence（PI）: $400M 調達済み</text>
+  <text x="760" y="640" fill="#555" font-size="12">Rhoda AI: $450M（本日デビュー）</text>
+  <text x="760" y="660" fill="#555" font-size="12">Agility Robotics・Figure AI・1X Technologies が先行</text>
+
+  <!-- Sticky notes -->
+  <rect x="82" y="704" width="250" height="112" rx="6" fill="#FFEAA7" stroke="#1A1D24" stroke-width="2" transform="rotate(-1.2, 82, 704)" filter="url(#stickyShadow)"/>
+  <text x="97" y="731" fill="#1A1D24" font-size="13" font-weight="700">🔍 実機デモ未公開</text>
+  <text x="97" y="751" fill="#333" font-size="12">$450M 調達したが</text>
+  <text x="97" y="767" fill="#333" font-size="12">実機デモは未公開</text>
+  <text x="97" y="783" fill="#333" font-size="12">技術実証が評価分岐点</text>
+  <text x="97" y="803" fill="#666" font-size="11">2026年後半が正念場</text>
+
+  <rect x="360" y="704" width="250" height="112" rx="6" fill="#DFE6FF" stroke="#1A1D24" stroke-width="2" transform="rotate(0.8, 360, 704)" filter="url(#stickyShadow)"/>
+  <text x="375" y="731" fill="#1A1D24" font-size="13" font-weight="700">⚡ NVIDIA Cosmos との関係</text>
+  <text x="375" y="751" fill="#333" font-size="12">Cosmos（世界モデル）上で</text>
+  <text x="375" y="767" fill="#333" font-size="12">事前学習→微調整の</text>
+  <text x="375" y="783" fill="#333" font-size="12">スタック分業が成立可能</text>
+  <text x="375" y="803" fill="#666" font-size="11">補完か競合かが焦点</text>
+
+  <rect x="638" y="704" width="250" height="112" rx="6" fill="#D5F5E3" stroke="#1A1D24" stroke-width="2" transform="rotate(-0.9, 638, 704)" filter="url(#stickyShadow)"/>
+  <text x="653" y="731" fill="#1A1D24" font-size="13" font-weight="700">🏭 短期の現実</text>
+  <text x="653" y="751" fill="#333" font-size="12">家庭用は 2028〜以降</text>
+  <text x="653" y="767" fill="#333" font-size="12">まずは物流・工場向け</text>
+  <text x="653" y="783" fill="#333" font-size="12">Data Center 付属ロボット</text>
+  <text x="653" y="803" fill="#666" font-size="11">コスト・規制が壁</text>
+
+  <rect x="916" y="704" width="250" height="112" rx="6" fill="#FFDDF4" stroke="#1A1D24" stroke-width="2" transform="rotate(1.3, 916, 704)" filter="url(#stickyShadow)"/>
+  <text x="931" y="731" fill="#1A1D24" font-size="13" font-weight="700">📅 身体AI week の文脈</text>
+  <text x="931" y="751" fill="#333" font-size="12">Meta ARI + Rhoda AI が</text>
+  <text x="931" y="767" fill="#333" font-size="12">同日登場＝投資家の</text>
+  <text x="931" y="783" fill="#333" font-size="12">ロボット関心が再点火</text>
+  <text x="931" y="803" fill="#666" font-size="11">上半期に追加大型案件も</text>
+
+  <text x="700" y="1035" text-anchor="middle" fill="#888" font-size="12" font-style="italic">AI News · 2026-05-02 · Rhoda AI $450M Series A, FutureVision Robot Intelligence</text>
+</svg>
