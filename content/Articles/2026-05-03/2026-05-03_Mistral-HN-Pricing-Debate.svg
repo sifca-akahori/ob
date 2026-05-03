@@ -1,0 +1,155 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1400 1050" font-family="-apple-system, 'Hiragino Sans', 'Yu Gothic', sans-serif">
+  <defs>
+    <pattern id="paperTexture" patternUnits="userSpaceOnUse" width="100" height="100">
+      <rect width="100" height="100" fill="#FBF8F1"/>
+      <circle cx="20" cy="30" r="0.4" fill="#C4B389" opacity="0.3"/>
+      <circle cx="70" cy="60" r="0.5" fill="#C4B389" opacity="0.3"/>
+    </pattern>
+    <filter id="stickyShadow" x="-10%" y="-10%" width="130%" height="130%">
+      <feGaussianBlur in="SourceAlpha" stdDeviation="3"/>
+      <feOffset dx="2" dy="3"/><feComponentTransfer><feFuncA type="linear" slope="0.25"/></feComponentTransfer>
+      <feMerge><feMergeNode/><feMergeNode in="SourceGraphic"/></feMerge>
+    </filter>
+    <filter id="softShadow" x="-10%" y="-10%" width="120%" height="120%">
+      <feGaussianBlur in="SourceAlpha" stdDeviation="2"/>
+      <feOffset dx="1" dy="2"/><feComponentTransfer><feFuncA type="linear" slope="0.18"/></feComponentTransfer>
+      <feMerge><feMergeNode/><feMergeNode in="SourceGraphic"/></feMerge>
+    </filter>
+  </defs>
+  <rect width="1400" height="1050" fill="url(#paperTexture)"/>
+  <line x1="110" y1="30" x2="110" y2="1020" stroke="#D88A8A" stroke-width="1.2" opacity="0.4"/>
+  <g fill="#D4C494" opacity="0.5">
+    <circle cx="50" cy="120" r="12"/><circle cx="50" cy="360" r="12"/>
+    <circle cx="50" cy="600" r="12"/><circle cx="50" cy="840" r="12"/>
+  </g>
+  <g transform="translate(1120, -8) rotate(-3)">
+    <rect x="0" y="0" width="250" height="36" fill="#E8A87C" opacity="0.9" rx="2"/>
+    <text x="125" y="24" text-anchor="middle" font-size="16" font-weight="700" fill="white">#SNS</text>
+  </g>
+  <rect x="120" y="22" width="180" height="36" rx="4" fill="#2F3842" filter="url(#softShadow)"/>
+  <text x="210" y="46" text-anchor="middle" font-size="16" font-weight="700" fill="white">2026-05-03</text>
+  <text x="1270" y="55" text-anchor="middle" font-size="22" fill="#F5B731">⭐</text>
+
+  <!-- Header -->
+  <text x="130" y="110" font-size="36" font-weight="900" fill="#1A1D24">💬 「オープンウェイトなのにAPI 20倍高い」</text>
+  <text x="130" y="155" font-size="24" font-weight="700" fill="#1A1D24">HN でMistral Medium 3.5 価格論争 · スコア1,300+ コメント 420+</text>
+  <line x1="130" y1="167" x2="1300" y2="167" stroke="#E8A87C" stroke-width="3"/>
+  <text x="130" y="190" font-size="14" fill="#6B7280">Hacker News · 2026-05-02〜03 (週末) · #SNS · #Mistral · #価格論争 · #LocalLLM</text>
+
+  <!-- Key numbers -->
+  <rect x="130" y="205" width="220" height="110" rx="8" fill="white" stroke="#1A1D24" stroke-width="2.5" filter="url(#softShadow)"/>
+  <text x="240" y="252" text-anchor="middle" font-size="44" font-weight="900" fill="#E8A87C">1,300+</text>
+  <text x="240" y="278" text-anchor="middle" font-size="13" fill="#6B7280">HN スコア</text>
+  <text x="240" y="305" text-anchor="middle" font-size="11" fill="#9CA3AF">週末トップ記事</text>
+
+  <rect x="368" y="205" width="220" height="110" rx="8" fill="white" stroke="#1A1D24" stroke-width="2.5" filter="url(#softShadow)"/>
+  <text x="478" y="252" text-anchor="middle" font-size="44" font-weight="900" fill="#E8A87C">420+</text>
+  <text x="478" y="278" text-anchor="middle" font-size="13" fill="#6B7280">コメント数</text>
+  <text x="478" y="305" text-anchor="middle" font-size="11" fill="#9CA3AF">活発な議論が継続中</text>
+
+  <rect x="606" y="205" width="220" height="110" rx="8" fill="white" stroke="#1A1D24" stroke-width="2.5" filter="url(#softShadow)"/>
+  <text x="716" y="248" text-anchor="middle" font-size="38" font-weight="900" fill="#EF4444">27x</text>
+  <text x="716" y="278" text-anchor="middle" font-size="13" fill="#6B7280">DeepSeek比 出力価格</text>
+  <text x="716" y="305" text-anchor="middle" font-size="11" fill="#EF4444">$7.50 vs $0.28/1Mトークン</text>
+
+  <rect x="844" y="205" width="220" height="110" rx="8" fill="white" stroke="#1A1D24" stroke-width="2.5" filter="url(#softShadow)"/>
+  <text x="954" y="248" text-anchor="middle" font-size="38" font-weight="900" fill="#EF4444">20x</text>
+  <text x="954" y="278" text-anchor="middle" font-size="13" fill="#6B7280">DeepSeek比 入力価格</text>
+  <text x="954" y="305" text-anchor="middle" font-size="11" fill="#EF4444">$1.50 vs $0.07/1Mトークン</text>
+
+  <rect x="1082" y="205" width="200" height="110" rx="8" fill="white" stroke="#1A1D24" stroke-width="2.5" filter="url(#softShadow)"/>
+  <text x="1182" y="248" text-anchor="middle" font-size="32" font-weight="900" fill="#5CA46E">$40K</text>
+  <text x="1182" y="278" text-anchor="middle" font-size="13" fill="#6B7280">自己ホスト概算コスト</text>
+  <text x="1182" y="305" text-anchor="middle" font-size="11" fill="#9CA3AF">4×A100 必要</text>
+
+  <!-- Price comparison chart -->
+  <text x="130" y="360" font-size="18" font-weight="700" fill="#1A1D24">💰 主要モデルAPI価格比較（出力 / 1Mトークン）</text>
+  <line x1="130" y1="367" x2="1300" y2="367" stroke="#E8A87C" stroke-width="2"/>
+
+  <g transform="translate(130, 380)">
+    <!-- Base: each unit = 13px per $0.10 (or scale) -->
+    <!-- DeepSeek V4 Flash: $0.28 = 14px -->
+    <rect x="200" y="5" width="14" height="30" fill="#5CA46E" rx="2"/>
+    <text x="195" y="25" text-anchor="end" font-size="12" fill="#374151">DeepSeek V4 Flash</text>
+    <text x="220" y="25" font-size="12" font-weight="700" fill="#5CA46E"> $0.28</text>
+
+    <!-- GPT-5.4 mini: $1.50 = 75px -->
+    <rect x="200" y="45" width="75" height="30" fill="#6B7280" rx="2"/>
+    <text x="195" y="65" text-anchor="end" font-size="12" fill="#374151">GPT-5.4 mini</text>
+    <text x="280" y="65" font-size="12" font-weight="700" fill="#374151"> $1.50</text>
+
+    <!-- Mistral M3.5: $7.50 = 375px -->
+    <rect x="200" y="85" width="375" height="30" fill="#5B8DEF" rx="2"/>
+    <text x="195" y="105" text-anchor="end" font-size="12" fill="#374151">Mistral Medium 3.5</text>
+    <text x="580" y="105" font-size="12" font-weight="700" fill="#EF4444"> $7.50 ← 論争の的</text>
+
+    <!-- Claude Haiku 4.5: $4.00 = 200px -->
+    <rect x="200" y="125" width="200" height="30" fill="#8B7DB8" rx="2"/>
+    <text x="195" y="145" text-anchor="end" font-size="12" fill="#374151">Claude Haiku 4.5</text>
+    <text x="405" y="145" font-size="12" font-weight="700" fill="#374151"> $4.00</text>
+
+    <!-- GPT-5.5: $15 = 750px (clipped) -->
+    <rect x="200" y="165" width="750" height="30" fill="#374151" rx="2"/>
+    <text x="195" y="185" text-anchor="end" font-size="12" fill="#374151">GPT-5.5（標準）</text>
+    <text x="955" y="185" font-size="12" font-weight="700" fill="#374151"> $15.00</text>
+  </g>
+
+  <!-- HN debate structure -->
+  <text x="130" y="615" font-size="18" font-weight="700" fill="#1A1D24">⚔️ HN 論争の構図：セルフホスト派 vs API派</text>
+  <line x1="130" y1="622" x2="1300" y2="622" stroke="#E8A87C" stroke-width="2"/>
+
+  <g transform="translate(130, 632)">
+    <rect x="0" y="0" width="530" height="120" rx="6" fill="#FEF2F2" stroke="#EF4444" stroke-width="2"/>
+    <text x="265" y="28" text-anchor="middle" font-size="14" font-weight="700" fill="#EF4444">セルフホスト派（批判側）</text>
+    <text x="14" y="55" font-size="12" fill="#374151">「Apache 2.0なのにAPIが高すぎる」</text>
+    <text x="14" y="75" font-size="12" fill="#374151">「4xA100 ≈ $40K——これが民主化か？」</text>
+    <text x="14" y="95" font-size="12" fill="#374151">「DeepSeek/Qwenの方が安くて同等性能」</text>
+    <text x="14" y="112" font-size="12" fill="#9CA3AF">→ 「オープンウェイト≠安いAPI」の混乱</text>
+
+    <rect x="550" y="0" width="530" height="120" rx="6" fill="#F0FDF4" stroke="#5CA46E" stroke-width="2"/>
+    <text x="815" y="28" text-anchor="middle" font-size="14" font-weight="700" fill="#5CA46E">API派（擁護側）</text>
+    <text x="564" y="55" font-size="12" fill="#374151">「モデルは無料、インフラ費用は別問題」</text>
+    <text x="564" y="75" font-size="12" fill="#374151">「EU規制準拠のプレミアムとして合理的」</text>
+    <text x="564" y="95" font-size="12" fill="#374151">「SaaSと同じ。インフラ費用をわかってない」</text>
+    <text x="564" y="112" font-size="12" fill="#9CA3AF">→ ターゲット顧客は欧州規制産業</text>
+  </g>
+
+  <!-- Sticky notes -->
+  <g transform="translate(130,800) rotate(-1.2)" filter="url(#stickyShadow)">
+    <rect width="290" height="130" rx="4" fill="#FEF9C3" stroke="#1A1D24" stroke-width="1.5"/>
+    <text x="145" y="28" text-anchor="middle" font-size="13" font-weight="700" fill="#1A1D24">💡 DeepSeek価格の持続性問題</text>
+    <text x="14" y="52" font-size="11" fill="#374151">$0.28/1Mは本当に持続可能？</text>
+    <text x="14" y="70" font-size="11" fill="#374151">政府補助・VC補填・ユーザー獲得戦略説</text>
+    <text x="14" y="88" font-size="11" fill="#374151">Anthropic関係者も「赤字覚悟」を示唆？</text>
+    <text x="14" y="106" font-size="11" fill="#374151">「価格破壊」か「持続不可能な補助」かは不明</text>
+  </g>
+
+  <g transform="translate(445,795) rotate(1.0)" filter="url(#stickyShadow)">
+    <rect width="290" height="130" rx="4" fill="#FCE7F3" stroke="#1A1D24" stroke-width="1.5"/>
+    <text x="145" y="28" text-anchor="middle" font-size="13" font-weight="700" fill="#1A1D24">🏭 AIコモディタイゼーションの証拠</text>
+    <text x="14" y="52" font-size="11" fill="#374151">「Mistral記事は毎回価格論争になる」</text>
+    <text x="14" y="70" font-size="11" fill="#374151">能力差縮小→価格が差別化軸に</text>
+    <text x="14" y="88" font-size="11" fill="#374151">クラウドがAWS→GCPと価格競争した再現</text>
+    <text x="14" y="106" font-size="11" fill="#374151">AIも「誰でも作れて安く出せる」時代へ</text>
+  </g>
+
+  <g transform="translate(760,798) rotate(-0.8)" filter="url(#stickyShadow)">
+    <rect width="290" height="130" rx="4" fill="#D1FAE5" stroke="#1A1D24" stroke-width="1.5"/>
+    <text x="145" y="28" text-anchor="middle" font-size="13" font-weight="700" fill="#1A1D24">🎯 Mistralを買うべき人</text>
+    <text x="14" y="52" font-size="11" fill="#374151">① GDPR必須の欧州企業</text>
+    <text x="14" y="70" font-size="11" fill="#374151">② 非英語ユーロ言語が必要</text>
+    <text x="14" y="88" font-size="11" fill="#374151">③ Claude/GPT依存リスク分散したい大企業</text>
+    <text x="14" y="106" font-size="11" fill="#374151">④ Vibeの非同期エージェントが欲しいDev</text>
+  </g>
+
+  <g transform="translate(1075,800) rotate(1.3)" filter="url(#stickyShadow)">
+    <rect width="265" height="130" rx="4" fill="#DBEAFE" stroke="#1A1D24" stroke-width="1.5"/>
+    <text x="132" y="28" text-anchor="middle" font-size="13" font-weight="700" fill="#1A1D24">📉 市場のコンセンサス</text>
+    <text x="14" y="52" font-size="11" fill="#374151">コスパ重視 → DeepSeek・Qwen3.6</text>
+    <text x="14" y="70" font-size="11" fill="#374151">プライバシー・EU → Mistral（価格正当化）</text>
+    <text x="14" y="88" font-size="11" fill="#374151">フロンティア品質 → Claude・GPT-5.5</text>
+    <text x="14" y="106" font-size="11" fill="#374151">三極化が鮮明に</text>
+  </g>
+
+  <text x="700" y="1035" text-anchor="middle" font-size="13" font-style="italic" fill="#9CA3AF">AI News · 2026-05-03 · HN Debate: Mistral Medium 3.5 API 20x More Expensive than DeepSeek</text>
+</svg>

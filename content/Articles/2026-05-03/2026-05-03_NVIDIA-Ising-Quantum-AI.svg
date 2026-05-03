@@ -1,0 +1,150 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1400 1050" font-family="-apple-system, 'Hiragino Sans', 'Yu Gothic', sans-serif">
+  <defs>
+    <pattern id="paperTexture" patternUnits="userSpaceOnUse" width="100" height="100">
+      <rect width="100" height="100" fill="#FBF8F1"/>
+      <circle cx="25" cy="35" r="0.4" fill="#C4B389" opacity="0.3"/>
+      <circle cx="72" cy="68" r="0.5" fill="#C4B389" opacity="0.3"/>
+      <circle cx="48" cy="15" r="0.3" fill="#C4B389" opacity="0.3"/>
+    </pattern>
+    <filter id="stickyShadow" x="-10%" y="-10%" width="130%" height="130%">
+      <feGaussianBlur in="SourceAlpha" stdDeviation="3"/>
+      <feOffset dx="2" dy="3"/><feComponentTransfer><feFuncA type="linear" slope="0.25"/></feComponentTransfer>
+      <feMerge><feMergeNode/><feMergeNode in="SourceGraphic"/></feMerge>
+    </filter>
+    <filter id="softShadow" x="-10%" y="-10%" width="120%" height="120%">
+      <feGaussianBlur in="SourceAlpha" stdDeviation="2"/>
+      <feOffset dx="1" dy="2"/><feComponentTransfer><feFuncA type="linear" slope="0.18"/></feComponentTransfer>
+      <feMerge><feMergeNode/><feMergeNode in="SourceGraphic"/></feMerge>
+    </filter>
+  </defs>
+  <rect width="1400" height="1050" fill="url(#paperTexture)"/>
+  <g opacity="0.1" stroke="#8B7A5A" stroke-width="0.6">
+    <line x1="80" y1="200" x2="1320" y2="200"/>
+    <line x1="80" y1="240" x2="1320" y2="240"/>
+  </g>
+  <line x1="110" y1="30" x2="110" y2="1020" stroke="#D88A8A" stroke-width="1.2" opacity="0.4"/>
+  <g fill="#D4C494" opacity="0.5">
+    <circle cx="50" cy="120" r="12"/><circle cx="50" cy="360" r="12"/>
+    <circle cx="50" cy="600" r="12"/><circle cx="50" cy="840" r="12"/>
+  </g>
+  <!-- Category tape -->
+  <g transform="translate(1120, -8) rotate(-3)">
+    <rect x="0" y="0" width="250" height="36" fill="#5B8DEF" opacity="0.85" rx="2"/>
+    <text x="125" y="24" text-anchor="middle" font-size="16" font-weight="700" fill="white">#研究</text>
+  </g>
+  <rect x="120" y="22" width="180" height="36" rx="4" fill="#2F3842" filter="url(#softShadow)"/>
+  <text x="210" y="46" text-anchor="middle" font-size="16" font-weight="700" fill="white">2026-05-03</text>
+  <text x="1270" y="55" text-anchor="middle" font-size="22" fill="#F5B731">⭐⭐⭐</text>
+
+  <!-- Header -->
+  <text x="130" y="115" font-size="38" font-weight="900" fill="#1A1D24">⚛️ NVIDIA Ising：量子コンピューティング向け世界初オープンAIモデル</text>
+  <text x="130" y="158" font-size="26" font-weight="700" fill="#1A1D24">エラー訂正 2.5x高速・3x精度 / Harvard・Fermilab が即採用</text>
+  <line x1="130" y1="170" x2="1300" y2="170" stroke="#5B8DEF" stroke-width="3"/>
+  <text x="130" y="192" font-size="14" fill="#6B7280">NVIDIA Newsroom · 2026-04-14 (week of May 3拡散) · #研究 · #量子 · #NVIDIA · #オープンモデル</text>
+
+  <!-- Key numbers -->
+  <rect x="130" y="210" width="240" height="120" rx="8" fill="white" stroke="#1A1D24" stroke-width="2.5" filter="url(#softShadow)"/>
+  <text x="250" y="260" text-anchor="middle" font-size="52" font-weight="900" fill="#5B8DEF">2.5x</text>
+  <text x="250" y="285" text-anchor="middle" font-size="13" fill="#6B7280">エラー訂正高速化</text>
+  <text x="250" y="315" text-anchor="middle" font-size="11" fill="#9CA3AF">Ising Decoding</text>
+
+  <rect x="390" y="210" width="240" height="120" rx="8" fill="white" stroke="#1A1D24" stroke-width="2.5" filter="url(#softShadow)"/>
+  <text x="510" y="260" text-anchor="middle" font-size="52" font-weight="900" fill="#5B8DEF">3x</text>
+  <text x="510" y="285" text-anchor="middle" font-size="13" fill="#6B7280">エラー訂正精度向上</text>
+  <text x="510" y="315" text-anchor="middle" font-size="11" fill="#9CA3AF">論理誤り率(LER)改善</text>
+
+  <rect x="650" y="210" width="240" height="120" rx="8" fill="white" stroke="#1A1D24" stroke-width="2.5" filter="url(#softShadow)"/>
+  <text x="770" y="255" text-anchor="middle" font-size="42" font-weight="900" fill="#5B8DEF">35B</text>
+  <text x="770" y="285" text-anchor="middle" font-size="13" fill="#6B7280">Calibration モデル規模</text>
+  <text x="770" y="315" text-anchor="middle" font-size="11" fill="#9CA3AF">VLM（視覚言語モデル）</text>
+
+  <rect x="910" y="210" width="360" height="120" rx="8" fill="white" stroke="#1A1D24" stroke-width="2.5" filter="url(#softShadow)"/>
+  <text x="1090" y="255" text-anchor="middle" font-size="36" font-weight="900" fill="#5B8DEF">QCalEval 1位</text>
+  <text x="1090" y="285" text-anchor="middle" font-size="13" fill="#6B7280">Gemini 3.1 Pro / Claude Opus 4.6 / GPT-5.4超</text>
+  <text x="1090" y="315" text-anchor="middle" font-size="11" fill="#EF4444">※自社設計ベンチ（独立評価待ち）</text>
+
+  <!-- Model components -->
+  <text x="130" y="375" font-size="18" font-weight="700" fill="#1A1D24">🔧 Ising モデルファミリー構成</text>
+  <line x1="130" y1="382" x2="650" y2="382" stroke="#5B8DEF" stroke-width="2"/>
+
+  <rect x="130" y="395" width="480" height="160" rx="8" fill="#EFF6FF" stroke="#5B8DEF" stroke-width="2.5"/>
+  <text x="370" y="425" text-anchor="middle" font-size="16" font-weight="700" fill="#1E40AF">① Ising Calibration</text>
+  <text x="150" y="455" font-size="13" fill="#374151">• 35Bパラメータ 視覚言語モデル（VLM）</text>
+  <text x="150" y="478" font-size="13" fill="#374151">• 量子ビットのマルチモーダルデータで事前学習</text>
+  <text x="150" y="501" font-size="13" fill="#374151">• 量子プロセッサの自律キャリブレーション自動化</text>
+  <text x="150" y="524" font-size="13" fill="#374151">• QCalEvalベンチ：Claude Opus 4.6・GPT-5.4超</text>
+  <text x="150" y="543" font-size="13" fill="#5B8DEF">→ キャリブレーション時間を大幅短縮</text>
+
+  <rect x="640" y="395" width="480" height="160" rx="8" fill="#EFF6FF" stroke="#5B8DEF" stroke-width="2.5"/>
+  <text x="880" y="425" text-anchor="middle" font-size="16" font-weight="700" fill="#1E40AF">② Ising Decoding</text>
+  <text x="660" y="455" font-size="13" fill="#374151">• 3D CNN ベースのエラー訂正フレームワーク</text>
+  <text x="660" y="478" font-size="13" fill="#374151">• リアルタイム量子エラー訂正デコーダ</text>
+  <text x="660" y="501" font-size="13" fill="#374151">• 様々な code distance・error rate に対応</text>
+  <text x="660" y="524" font-size="13" fill="#374151">• 推論速度 2.5x高速・論理誤り率(LER) 3x改善</text>
+  <text x="660" y="543" font-size="13" fill="#5B8DEF">→ 大規模量子コンピューティングの律速解消</text>
+
+  <!-- Adoption chart -->
+  <text x="130" y="600" font-size="18" font-weight="700" fill="#1A1D24">🏛️ 採用機関（発表時点）</text>
+  <line x1="130" y1="607" x2="1300" y2="607" stroke="#5B8DEF" stroke-width="2"/>
+
+  <g font-size="13">
+    <rect x="130" y="618" width="200" height="48" rx="6" fill="#DBEAFE" stroke="#3B82F6" stroke-width="1.5"/>
+    <text x="230" y="638" text-anchor="middle" font-weight="700" fill="#1E40AF">Harvard SEAS</text>
+    <text x="230" y="657" text-anchor="middle" fill="#374151">量子コンピューティング研究</text>
+
+    <rect x="345" y="618" width="200" height="48" rx="6" fill="#DBEAFE" stroke="#3B82F6" stroke-width="1.5"/>
+    <text x="445" y="638" text-anchor="middle" font-weight="700" fill="#1E40AF">Fermi National Lab</text>
+    <text x="445" y="657" text-anchor="middle" fill="#374151">粒子物理学×量子</text>
+
+    <rect x="560" y="618" width="200" height="48" rx="6" fill="#DBEAFE" stroke="#3B82F6" stroke-width="1.5"/>
+    <text x="660" y="638" text-anchor="middle" font-weight="700" fill="#1E40AF">Lawrence Berkeley</text>
+    <text x="660" y="657" text-anchor="middle" fill="#374151">Advanced Quantum Testbed</text>
+
+    <rect x="775" y="618" width="200" height="48" rx="6" fill="#DBEAFE" stroke="#3B82F6" stroke-width="1.5"/>
+    <text x="875" y="638" text-anchor="middle" font-weight="700" fill="#1E40AF">UK NPL</text>
+    <text x="875" y="657" text-anchor="middle" fill="#374151">国家物理学研究所</text>
+
+    <rect x="990" y="618" width="200" height="48" rx="6" fill="#DBEAFE" stroke="#3B82F6" stroke-width="1.5"/>
+    <text x="1090" y="638" text-anchor="middle" font-weight="700" fill="#1E40AF">Academia Sinica</text>
+    <text x="1090" y="657" text-anchor="middle" fill="#374151">台湾中央研究院</text>
+  </g>
+
+  <!-- Sticky notes -->
+  <g transform="translate(130,700) rotate(-1.2)" filter="url(#stickyShadow)">
+    <rect width="290" height="130" rx="4" fill="#FEF9C3" stroke="#1A1D24" stroke-width="1.5"/>
+    <text x="145" y="28" text-anchor="middle" font-size="13" font-weight="700" fill="#1A1D24">💡 なぜエラー訂正がAIの問題？</text>
+    <text x="14" y="52" font-size="11" fill="#374151">量子ビットはノイズで極めてエラーが発生しやすい</text>
+    <text x="14" y="70" font-size="11" fill="#374151">古典アルゴリズムは量子ビット数↑で指数的増大</text>
+    <text x="14" y="88" font-size="11" fill="#374151">AI高速デコーダがスケーリングの鍵</text>
+    <text x="14" y="106" font-size="11" fill="#374151">FTQC実現の「時計を早める」可能性</text>
+  </g>
+
+  <g transform="translate(450,695) rotate(1.3)" filter="url(#stickyShadow)">
+    <rect width="290" height="130" rx="4" fill="#FCE7F3" stroke="#1A1D24" stroke-width="1.5"/>
+    <text x="145" y="28" text-anchor="middle" font-size="13" font-weight="700" fill="#1A1D24">⚠️ QCalEval独立性問題</text>
+    <text x="14" y="52" font-size="11" fill="#374151">ベンチ設計者＝NVIDIAという利益相反</text>
+    <text x="14" y="70" font-size="11" fill="#374151">HN・r/MLで「自己評価」批判が噴出</text>
+    <text x="14" y="88" font-size="11" fill="#374151">独立機関の検証が必要</text>
+    <text x="14" y="106" font-size="11" fill="#374151">→ 採用機関の論文公表が真の評価</text>
+  </g>
+
+  <g transform="translate(770,700) rotate(-0.8)" filter="url(#stickyShadow)">
+    <rect width="290" height="130" rx="4" fill="#D1FAE5" stroke="#1A1D24" stroke-width="1.5"/>
+    <text x="145" y="28" text-anchor="middle" font-size="13" font-weight="700" fill="#1A1D24">🎯 NVIDIAの戦略的意図</text>
+    <text x="14" y="52" font-size="11" fill="#374151">「量子を管理するAIはNVIDIAが提供」戦略</text>
+    <text x="14" y="70" font-size="11" fill="#374151">CUDA-Q エコシステムとの統合が進行中</text>
+    <text x="14" y="88" font-size="11" fill="#374151">量子への「出口戦略」として機能</text>
+    <text x="14" y="106" font-size="11" fill="#374151">古典AI→量子AI の橋渡しポジション確保</text>
+  </g>
+
+  <g transform="translate(1090,697) rotate(1.2)" filter="url(#stickyShadow)">
+    <rect width="240" height="130" rx="4" fill="#DBEAFE" stroke="#1A1D24" stroke-width="1.5"/>
+    <text x="120" y="28" text-anchor="middle" font-size="13" font-weight="700" fill="#1A1D24">📅 実用化タイムライン</text>
+    <text x="14" y="52" font-size="11" fill="#374151">2026-28: 数百〜数千物理量子ビット</text>
+    <text x="14" y="70" font-size="11" fill="#374151">Ising: NISQ後期に最大貢献</text>
+    <text x="14" y="88" font-size="11" fill="#374151">2〜3年後: 採用機関の論文が基準</text>
+    <text x="14" y="106" font-size="11" fill="#374151">真の評価はそこから始まる</text>
+  </g>
+
+  <text x="700" y="1035" text-anchor="middle" font-size="13" font-style="italic" fill="#9CA3AF">AI News · 2026-05-03 · NVIDIA Ising: World's First Open AI Models for Quantum Computing</text>
+</svg>

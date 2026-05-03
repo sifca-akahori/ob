@@ -1,0 +1,151 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1400 1050" font-family="-apple-system, 'Hiragino Sans', 'Yu Gothic', sans-serif">
+  <defs>
+    <pattern id="paperTexture" patternUnits="userSpaceOnUse" width="100" height="100">
+      <rect width="100" height="100" fill="#FBF8F1"/>
+      <circle cx="20" cy="30" r="0.4" fill="#C4B389" opacity="0.3"/>
+      <circle cx="70" cy="60" r="0.5" fill="#C4B389" opacity="0.3"/>
+    </pattern>
+    <filter id="stickyShadow" x="-10%" y="-10%" width="130%" height="130%">
+      <feGaussianBlur in="SourceAlpha" stdDeviation="3"/>
+      <feOffset dx="2" dy="3"/><feComponentTransfer><feFuncA type="linear" slope="0.25"/></feComponentTransfer>
+      <feMerge><feMergeNode/><feMergeNode in="SourceGraphic"/></feMerge>
+    </filter>
+    <filter id="softShadow" x="-10%" y="-10%" width="120%" height="120%">
+      <feGaussianBlur in="SourceAlpha" stdDeviation="2"/>
+      <feOffset dx="1" dy="2"/><feComponentTransfer><feFuncA type="linear" slope="0.18"/></feComponentTransfer>
+      <feMerge><feMergeNode/><feMergeNode in="SourceGraphic"/></feMerge>
+    </filter>
+  </defs>
+  <rect width="1400" height="1050" fill="url(#paperTexture)"/>
+  <line x1="110" y1="30" x2="110" y2="1020" stroke="#D88A8A" stroke-width="1.2" opacity="0.4"/>
+  <g fill="#D4C494" opacity="0.5">
+    <circle cx="50" cy="120" r="12"/><circle cx="50" cy="360" r="12"/>
+    <circle cx="50" cy="600" r="12"/><circle cx="50" cy="840" r="12"/>
+  </g>
+  <g transform="translate(1120, -8) rotate(-3)">
+    <rect x="0" y="0" width="250" height="36" fill="#5B8DEF" opacity="0.85" rx="2"/>
+    <text x="125" y="24" text-anchor="middle" font-size="16" font-weight="700" fill="white">#研究</text>
+  </g>
+  <rect x="120" y="22" width="180" height="36" rx="4" fill="#2F3842" filter="url(#softShadow)"/>
+  <text x="210" y="46" text-anchor="middle" font-size="16" font-weight="700" fill="white">2026-05-03</text>
+  <text x="1270" y="55" text-anchor="middle" font-size="22" fill="#F5B731">⭐⭐</text>
+
+  <!-- Header -->
+  <text x="130" y="110" font-size="34" font-weight="900" fill="#1A1D24">🔭 DeepSeek V4 Pro CAISI/NIST独立評価</text>
+  <text x="130" y="155" font-size="24" font-weight="700" fill="#1A1D24">「フロンティアから8ヶ月遅れ」——数学・コーディングは例外的に同等</text>
+  <line x1="130" y1="167" x2="1300" y2="167" stroke="#5B8DEF" stroke-width="3"/>
+  <text x="130" y="190" font-size="14" fill="#6B7280">NIST CAISI · 2026年5月 · #研究 · #DeepSeek · #NIST · #評価 · #中国AI</text>
+
+  <!-- Key numbers -->
+  <rect x="130" y="205" width="240" height="115" rx="8" fill="white" stroke="#1A1D24" stroke-width="2.5" filter="url(#softShadow)"/>
+  <text x="250" y="250" text-anchor="middle" font-size="38" font-weight="900" fill="#EF4444">8ヶ月</text>
+  <text x="250" y="278" text-anchor="middle" font-size="13" fill="#6B7280">フロンティア比能力ギャップ</text>
+  <text x="250" y="308" text-anchor="middle" font-size="11" fill="#9CA3AF">CAISI全体評価</text>
+
+  <rect x="390" y="205" width="240" height="115" rx="8" fill="white" stroke="#1A1D24" stroke-width="2.5" filter="url(#softShadow)"/>
+  <text x="510" y="250" text-anchor="middle" font-size="38" font-weight="900" fill="#5CA46E">≒同等</text>
+  <text x="510" y="278" text-anchor="middle" font-size="13" fill="#6B7280">数学領域の能力</text>
+  <text x="510" y="308" text-anchor="middle" font-size="11" fill="#9CA3AF">GPT-5.5と統計的差なし</text>
+
+  <rect x="650" y="205" width="240" height="115" rx="8" fill="white" stroke="#1A1D24" stroke-width="2.5" filter="url(#softShadow)"/>
+  <text x="770" y="248" text-anchor="middle" font-size="38" font-weight="900" fill="#5B8DEF">93.5</text>
+  <text x="770" y="278" text-anchor="middle" font-size="13" fill="#6B7280">LiveCodeBench スコア</text>
+  <text x="770" y="308" text-anchor="middle" font-size="11" fill="#9CA3AF">V4 Pro（コーディング特化）</text>
+
+  <rect x="910" y="205" width="240" height="115" rx="8" fill="white" stroke="#1A1D24" stroke-width="2.5" filter="url(#softShadow)"/>
+  <text x="1030" y="248" text-anchor="middle" font-size="38" font-weight="900" fill="#5CA46E">$0.07</text>
+  <text x="1030" y="278" text-anchor="middle" font-size="13" fill="#6B7280">V4 Flash 入力/1Mトークン</text>
+  <text x="1030" y="308" text-anchor="middle" font-size="11" fill="#9CA3AF">GPT-5.4 mini比コスト50%安</text>
+
+  <rect x="1170" y="205" width="200" height="115" rx="8" fill="white" stroke="#1A1D24" stroke-width="2.5" filter="url(#softShadow)"/>
+  <text x="1270" y="248" text-anchor="middle" font-size="38" font-weight="900" fill="#5B8DEF">3,206</text>
+  <text x="1270" y="278" text-anchor="middle" font-size="13" fill="#6B7280">Codeforces ELO</text>
+  <text x="1270" y="308" text-anchor="middle" font-size="11" fill="#9CA3AF">GPT-5.5（3,168）超え</text>
+
+  <!-- Capability comparison chart -->
+  <text x="130" y="365" font-size="18" font-weight="700" fill="#1A1D24">📊 領域別能力比較：DeepSeek V4 Pro vs GPT-5.5</text>
+  <line x1="130" y1="372" x2="800" y2="372" stroke="#5B8DEF" stroke-width="2"/>
+
+  <g transform="translate(130, 385)" font-size="13">
+    <!-- Chart header -->
+    <text x="200" y="20" font-weight="700" fill="#374151">能力領域</text>
+    <text x="550" y="20" text-anchor="middle" font-weight="700" fill="#374151">DeepSeek V4 Pro</text>
+    <text x="710" y="20" text-anchor="middle" font-weight="700" fill="#374151">GPT-5.5</text>
+    <text x="870" y="20" text-anchor="middle" font-weight="700" fill="#374151">差分</text>
+    <line x1="0" y1="28" x2="950" y2="28" stroke="#E5E7EB" stroke-width="1"/>
+
+    <!-- Rows -->
+    <rect x="0" y="32" width="950" height="34" fill="#F9FAFB" rx="2"/>
+    <text x="200" y="55" fill="#374151">数学（AIME / GPQA）</text>
+    <text x="550" y="55" text-anchor="middle" font-weight="700" fill="#5CA46E">≒同等</text>
+    <text x="710" y="55" text-anchor="middle" fill="#374151">基準</text>
+    <text x="870" y="55" text-anchor="middle" fill="#5CA46E">統計的差なし</text>
+
+    <rect x="0" y="68" width="950" height="34" fill="white" rx="2"/>
+    <text x="200" y="91" fill="#374151">コーディング (LiveCode)</text>
+    <text x="550" y="91" text-anchor="middle" font-weight="700" fill="#5CA46E">93.5</text>
+    <text x="710" y="91" text-anchor="middle" fill="#374151">91.2</text>
+    <text x="870" y="91" text-anchor="middle" fill="#5CA46E">▲2.3pt 優位</text>
+
+    <rect x="0" y="104" width="950" height="34" fill="#F9FAFB" rx="2"/>
+    <text x="200" y="127" fill="#374151">推論・知識（MMLU-Pro）</text>
+    <text x="550" y="127" text-anchor="middle" fill="#374151">87.4</text>
+    <text x="710" y="127" text-anchor="middle" font-weight="700" fill="#374151">91.8</text>
+    <text x="870" y="127" text-anchor="middle" fill="#EF4444">▼4.4pt 劣位</text>
+
+    <rect x="0" y="140" width="950" height="34" fill="white" rx="2"/>
+    <text x="200" y="163" fill="#374151">マルチステップ推論</text>
+    <text x="550" y="163" text-anchor="middle" fill="#374151">中程度</text>
+    <text x="710" y="163" text-anchor="middle" font-weight="700" fill="#374151">高</text>
+    <text x="870" y="163" text-anchor="middle" fill="#EF4444">▼有意な差</text>
+
+    <rect x="0" y="176" width="950" height="34" fill="#F9FAFB" rx="2"/>
+    <text x="200" y="199" fill="#374151">コスト効率（総合）</text>
+    <text x="550" y="199" text-anchor="middle" font-weight="700" fill="#5CA46E">優位（5/7ベンチ）</text>
+    <text x="710" y="199" text-anchor="middle" fill="#374151">基準</text>
+    <text x="870" y="199" text-anchor="middle" fill="#5CA46E">53%安〜41%高まで</text>
+  </g>
+
+  <!-- Sticky notes -->
+  <g transform="translate(130,660) rotate(-1.2)" filter="url(#stickyShadow)">
+    <rect width="285" height="140" rx="4" fill="#FEF9C3" stroke="#1A1D24" stroke-width="1.5"/>
+    <text x="142" y="28" text-anchor="middle" font-size="13" font-weight="700" fill="#1A1D24">💡 「8ヶ月遅れ」の定義</text>
+    <text x="14" y="52" font-size="11" fill="#374151">能力推定曲線上の位置で算出</text>
+    <text x="14" y="70" font-size="11" fill="#374151">= 2025年9月時点の米国モデルと同水準</text>
+    <text x="14" y="88" font-size="11" fill="#374151">評価タスクの英語・米国文化バイアスあり</text>
+    <text x="14" y="106" font-size="11" fill="#374151">中国モデルを過小評価する可能性</text>
+    <text x="14" y="124" font-size="11" fill="#9CA3AF">→ 測定手法の限界を常に考慮すべき</text>
+  </g>
+
+  <g transform="translate(440,655) rotate(1.0)" filter="url(#stickyShadow)">
+    <rect width="285" height="140" rx="4" fill="#FCE7F3" stroke="#1A1D24" stroke-width="1.5"/>
+    <text x="142" y="28" text-anchor="middle" font-size="13" font-weight="700" fill="#1A1D24">⚠️ 数学・コーディング同等の含意</text>
+    <text x="14" y="52" font-size="11" fill="#374151">安全保障上の重要シグナル</text>
+    <text x="14" y="70" font-size="11" fill="#374151">暗号解析・セキュリティ・兵器設計に直結</text>
+    <text x="14" y="88" font-size="11" fill="#374151">「全体遅れ」+「特定能力同等」の組み合わせ</text>
+    <text x="14" y="106" font-size="11" fill="#374151">評価手法の再設計を迫る問い</text>
+    <text x="14" y="124" font-size="11" fill="#9CA3AF">意図的な特化か自然な結果かは不明</text>
+  </g>
+
+  <g transform="translate(750,658) rotate(-0.8)" filter="url(#stickyShadow)">
+    <rect width="285" height="140" rx="4" fill="#D1FAE5" stroke="#1A1D24" stroke-width="1.5"/>
+    <text x="142" y="28" text-anchor="middle" font-size="13" font-weight="700" fill="#1A1D24">💰 V4 Flash コスト革命</text>
+    <text x="14" y="52" font-size="11" fill="#374151">$0.07/$0.28 /1M tokens</text>
+    <text x="14" y="70" font-size="11" fill="#374151">GPT-5.4 mini比 53%安（5ベンチで）</text>
+    <text x="14" y="88" font-size="11" fill="#374151">中間品質APIの価格競争を根本変革</text>
+    <text x="14" y="106" font-size="11" fill="#374151">日本企業の「Haiku代替」として現実的</text>
+    <text x="14" y="124" font-size="11" fill="#9CA3AF">持続可能な価格かは未解決問題</text>
+  </g>
+
+  <g transform="translate(1060,660) rotate(1.3)" filter="url(#stickyShadow)">
+    <rect width="265" height="140" rx="4" fill="#DBEAFE" stroke="#1A1D24" stroke-width="1.5"/>
+    <text x="132" y="28" text-anchor="middle" font-size="13" font-weight="700" fill="#1A1D24">🔮 V4 Ultra の噂</text>
+    <text x="14" y="52" font-size="11" fill="#374151">HuggingFaceにプレースホルダ確認済み</text>
+    <text x="14" y="70" font-size="11" fill="#374151">「フロンティア完全追いつき」モデル？</text>
+    <text x="14" y="88" font-size="11" fill="#374151">r/LocalLLaMAで活発な議論</text>
+    <text x="14" y="106" font-size="11" fill="#374151">CAISI評価の前提が崩れる可能性</text>
+    <text x="14" y="124" font-size="11" fill="#9CA3AF">公式発表まで真偽不明</text>
+  </g>
+
+  <text x="700" y="1035" text-anchor="middle" font-size="13" font-style="italic" fill="#9CA3AF">AI News · 2026-05-03 · CAISI/NIST Evaluation of DeepSeek V4 Pro: 8 Months Behind Frontier</text>
+</svg>

@@ -1,0 +1,150 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1400 1050" font-family="-apple-system, 'Hiragino Sans', 'Yu Gothic', sans-serif">
+  <defs>
+    <pattern id="paperTexture" patternUnits="userSpaceOnUse" width="100" height="100">
+      <rect width="100" height="100" fill="#FBF8F1"/>
+      <circle cx="20" cy="30" r="0.4" fill="#C4B389" opacity="0.3"/>
+      <circle cx="70" cy="60" r="0.5" fill="#C4B389" opacity="0.3"/>
+    </pattern>
+    <filter id="stickyShadow" x="-10%" y="-10%" width="130%" height="130%">
+      <feGaussianBlur in="SourceAlpha" stdDeviation="3"/>
+      <feOffset dx="2" dy="3"/><feComponentTransfer><feFuncA type="linear" slope="0.25"/></feComponentTransfer>
+      <feMerge><feMergeNode/><feMergeNode in="SourceGraphic"/></feMerge>
+    </filter>
+    <filter id="softShadow" x="-10%" y="-10%" width="120%" height="120%">
+      <feGaussianBlur in="SourceAlpha" stdDeviation="2"/>
+      <feOffset dx="1" dy="2"/><feComponentTransfer><feFuncA type="linear" slope="0.18"/></feComponentTransfer>
+      <feMerge><feMergeNode/><feMergeNode in="SourceGraphic"/></feMerge>
+    </filter>
+  </defs>
+  <rect width="1400" height="1050" fill="url(#paperTexture)"/>
+  <line x1="110" y1="30" x2="110" y2="1020" stroke="#D88A8A" stroke-width="1.2" opacity="0.4"/>
+  <g fill="#D4C494" opacity="0.5">
+    <circle cx="50" cy="120" r="12"/><circle cx="50" cy="360" r="12"/>
+    <circle cx="50" cy="600" r="12"/><circle cx="50" cy="840" r="12"/>
+  </g>
+  <g transform="translate(1120, -8) rotate(-3)">
+    <rect x="0" y="0" width="250" height="36" fill="#5B8DEF" opacity="0.85" rx="2"/>
+    <text x="125" y="24" text-anchor="middle" font-size="16" font-weight="700" fill="white">#研究</text>
+  </g>
+  <rect x="120" y="22" width="180" height="36" rx="4" fill="#2F3842" filter="url(#softShadow)"/>
+  <text x="210" y="46" text-anchor="middle" font-size="16" font-weight="700" fill="white">2026-05-03</text>
+  <text x="1270" y="55" text-anchor="middle" font-size="22" fill="#F5B731">⭐⭐</text>
+
+  <!-- Header -->
+  <text x="130" y="110" font-size="36" font-weight="900" fill="#1A1D24">🧠 Qwen3.6-27B：27Bで397B超えのコーディング性能</text>
+  <text x="130" y="155" font-size="24" font-weight="700" fill="#1A1D24">業界初「Thinking Preservation」· Apache 2.0 · SWE-bench 77.2%</text>
+  <line x1="130" y1="167" x2="1300" y2="167" stroke="#5B8DEF" stroke-width="3"/>
+  <text x="130" y="190" font-size="14" fill="#6B7280">Alibaba Qwen / Hugging Face · 2026-04-22 (週末議論) · #研究 · #Qwen · #Apache2.0 · #コーディング</text>
+
+  <!-- Key numbers -->
+  <rect x="130" y="205" width="235" height="110" rx="8" fill="white" stroke="#1A1D24" stroke-width="2.5" filter="url(#softShadow)"/>
+  <text x="247" y="250" text-anchor="middle" font-size="46" font-weight="900" fill="#5B8DEF">77.2%</text>
+  <text x="247" y="276" text-anchor="middle" font-size="13" fill="#6B7280">SWE-bench Verified</text>
+  <text x="247" y="305" text-anchor="middle" font-size="11" fill="#9CA3AF">27B Dense モデルで達成</text>
+
+  <rect x="385" y="205" width="235" height="110" rx="8" fill="white" stroke="#1A1D24" stroke-width="2.5" filter="url(#softShadow)"/>
+  <text x="502" y="250" text-anchor="middle" font-size="46" font-weight="900" fill="#5B8DEF">59.3%</text>
+  <text x="502" y="276" text-anchor="middle" font-size="13" fill="#6B7280">Terminal-Bench 2.0</text>
+  <text x="502" y="305" text-anchor="middle" font-size="11" fill="#5B8DEF">Claude Opus 4.5 と同スコア</text>
+
+  <rect x="640" y="205" width="235" height="110" rx="8" fill="white" stroke="#1A1D24" stroke-width="2.5" filter="url(#softShadow)"/>
+  <text x="757" y="250" text-anchor="middle" font-size="46" font-weight="900" fill="#5B8DEF">27B</text>
+  <text x="757" y="276" text-anchor="middle" font-size="13" fill="#6B7280">Denseパラメータ数</text>
+  <text x="757" y="305" text-anchor="middle" font-size="11" fill="#9CA3AF">397B MoEを超える性能</text>
+
+  <rect x="895" y="205" width="235" height="110" rx="8" fill="white" stroke="#1A1D24" stroke-width="2.5" filter="url(#softShadow)"/>
+  <text x="1012" y="250" text-anchor="middle" font-size="38" font-weight="900" fill="#5CA46E">Apache</text>
+  <text x="1012" y="278" text-anchor="middle" font-size="24" font-weight="900" fill="#5CA46E">2.0</text>
+  <text x="1012" y="305" text-anchor="middle" font-size="11" fill="#5CA46E">完全商用利用可</text>
+
+  <rect x="1150" y="205" width="220" height="110" rx="8" fill="white" stroke="#1A1D24" stroke-width="2.5" filter="url(#softShadow)"/>
+  <text x="1260" y="248" text-anchor="middle" font-size="30" font-weight="900" fill="#5B8DEF">262K</text>
+  <text x="1260" y="276" text-anchor="middle" font-size="13" fill="#6B7280">ネイティブ コンテキスト</text>
+  <text x="1260" y="305" text-anchor="middle" font-size="11" fill="#9CA3AF">最大1.01Mトークン延長可</text>
+
+  <!-- Thinking Preservation feature diagram -->
+  <text x="130" y="358" font-size="18" font-weight="700" fill="#1A1D24">💡 Thinking Preservation：業界初機能の仕組み</text>
+  <line x1="130" y1="365" x2="1300" y2="365" stroke="#5B8DEF" stroke-width="2"/>
+
+  <g transform="translate(130, 378)">
+    <!-- Before: conventional -->
+    <rect x="0" y="0" width="480" height="180" rx="6" fill="#FEF2F2" stroke="#EF4444" stroke-width="2"/>
+    <text x="240" y="28" text-anchor="middle" font-size="14" font-weight="700" fill="#EF4444">❌ 従来モデル：推論チェーンがリセットされる</text>
+    <rect x="20" y="40" width="120" height="50" rx="4" fill="#FCA5A5" stroke="#EF4444" stroke-width="1.5"/>
+    <text x="80" y="60" text-anchor="middle" font-size="11" fill="#374151">Turn 1</text>
+    <text x="80" y="78" text-anchor="middle" font-size="11" fill="#374151">推論チェーン A</text>
+    <text x="155" y="68" text-anchor="middle" font-size="20" fill="#9CA3AF">→</text>
+    <rect x="170" y="40" width="120" height="50" rx="4" fill="#E5E7EB" stroke="#9CA3AF" stroke-width="1.5" stroke-dasharray="4"/>
+    <text x="230" y="60" text-anchor="middle" font-size="11" fill="#9CA3AF">Turn 2</text>
+    <text x="230" y="78" text-anchor="middle" font-size="11" fill="#EF4444">推論チェーン 消去</text>
+    <text x="305" y="68" text-anchor="middle" font-size="20" fill="#9CA3AF">→</text>
+    <rect x="320" y="40" width="120" height="50" rx="4" fill="#E5E7EB" stroke="#9CA3AF" stroke-width="1.5" stroke-dasharray="4"/>
+    <text x="380" y="60" text-anchor="middle" font-size="11" fill="#9CA3AF">Turn 3</text>
+    <text x="380" y="78" text-anchor="middle" font-size="11" fill="#EF4444">推論チェーン 消去</text>
+    <text x="240" y="130" text-anchor="middle" font-size="12" fill="#EF4444">→ 「なぜこの設計にしたか」をモデルが忘れる</text>
+    <text x="240" y="155" text-anchor="middle" font-size="12" fill="#9CA3AF">デバッグ・コードレビューで前後の文脈が断絶</text>
+
+    <!-- Arrow -->
+    <text x="510" y="100" text-anchor="middle" font-size="24" fill="#5B8DEF">→</text>
+
+    <!-- After: Thinking Preservation -->
+    <rect x="540" y="0" width="480" height="180" rx="6" fill="#EFF6FF" stroke="#5B8DEF" stroke-width="2.5"/>
+    <text x="780" y="28" text-anchor="middle" font-size="14" font-weight="700" fill="#1D4ED8">✅ Qwen3.6-27B：Thinking Preservation</text>
+    <rect x="560" y="40" width="120" height="50" rx="4" fill="#BFDBFE" stroke="#3B82F6" stroke-width="1.5"/>
+    <text x="620" y="60" text-anchor="middle" font-size="11" fill="#374151">Turn 1</text>
+    <text x="620" y="78" text-anchor="middle" font-size="11" fill="#1D4ED8">推論チェーン A ✓</text>
+    <text x="695" y="68" text-anchor="middle" font-size="20" fill="#3B82F6">→</text>
+    <rect x="710" y="40" width="120" height="50" rx="4" fill="#BFDBFE" stroke="#3B82F6" stroke-width="1.5"/>
+    <text x="770" y="60" text-anchor="middle" font-size="11" fill="#374151">Turn 2</text>
+    <text x="770" y="78" text-anchor="middle" font-size="11" fill="#1D4ED8">推論 A を参照 ✓</text>
+    <text x="845" y="68" text-anchor="middle" font-size="20" fill="#3B82F6">→</text>
+    <rect x="860" y="40" width="120" height="50" rx="4" fill="#BFDBFE" stroke="#3B82F6" stroke-width="1.5"/>
+    <text x="920" y="60" text-anchor="middle" font-size="11" fill="#374151">Turn 3</text>
+    <text x="920" y="78" text-anchor="middle" font-size="11" fill="#1D4ED8">推論 A+B を参照 ✓</text>
+    <text x="780" y="130" text-anchor="middle" font-size="12" fill="#1D4ED8">→ 長時間コーディングで「なぜ」を保持</text>
+    <text x="780" y="155" text-anchor="middle" font-size="12" fill="#9CA3AF">前のターンの推論チェーンがコンテキストに残る</text>
+  </g>
+
+  <!-- Sticky notes -->
+  <g transform="translate(130,620) rotate(-1.2)" filter="url(#stickyShadow)">
+    <rect width="285" height="135" rx="4" fill="#FEF9C3" stroke="#1A1D24" stroke-width="1.5"/>
+    <text x="142" y="28" text-anchor="middle" font-size="13" font-weight="700" fill="#1A1D24">💡 27Bで397B超えの背景</text>
+    <text x="14" y="52" font-size="11" fill="#374151">① 大モデルからの蒸留</text>
+    <text x="14" y="70" font-size="11" fill="#374151">② 合成データでコーディング特化訓練</text>
+    <text x="14" y="88" font-size="11" fill="#374151">③ KV-cacheの効率化</text>
+    <text x="14" y="106" font-size="11" fill="#374151">Dense＞MoEの「実運用有利」議論に火</text>
+    <text x="14" y="124" font-size="11" fill="#9CA3AF">→ 設備費・運用コストで Dense 優位</text>
+  </g>
+
+  <g transform="translate(440,615) rotate(1.0)" filter="url(#stickyShadow)">
+    <rect width="285" height="135" rx="4" fill="#FCE7F3" stroke="#1A1D24" stroke-width="1.5"/>
+    <text x="142" y="28" text-anchor="middle" font-size="13" font-weight="700" fill="#1A1D24">🆚 Apache 2.0 の戦略的意味</text>
+    <text x="14" y="52" font-size="11" fill="#374151">Meta Llama 4 カスタムライセンスへの直撃</text>
+    <text x="14" y="70" font-size="11" fill="#374151">コミュニティからの信頼急上昇</text>
+    <text x="14" y="88" font-size="11" fill="#374151">「Llama代替」として r/LocalLLaMA 沸騰</text>
+    <text x="14" y="106" font-size="11" fill="#374151">企業の商用利用ハードルが最小</text>
+    <text x="14" y="124" font-size="11" fill="#9CA3AF">→ Local AIのデファクト候補へ</text>
+  </g>
+
+  <g transform="translate(750,618) rotate(-0.8)" filter="url(#stickyShadow)">
+    <rect width="285" height="135" rx="4" fill="#D1FAE5" stroke="#1A1D24" stroke-width="1.5"/>
+    <text x="142" y="28" text-anchor="middle" font-size="13" font-weight="700" fill="#1A1D24">💰 コスト試算</text>
+    <text x="14" y="52" font-size="11" fill="#374151">Claude Opus 4.5 API vs 自己ホスト比較</text>
+    <text x="14" y="70" font-size="11" fill="#374151">推論費用を70〜80%削減の可能性</text>
+    <text x="14" y="88" font-size="11" fill="#374151">Terminal-Bench 同スコアが根拠</text>
+    <text x="14" y="106" font-size="11" fill="#374151">RTX 4090×2〜4台で動作報告</text>
+    <text x="14" y="124" font-size="11" fill="#9CA3AF">→ 中小企業のローカルAI導入が現実的に</text>
+  </g>
+
+  <g transform="translate(1060,620) rotate(1.3)" filter="url(#stickyShadow)">
+    <rect width="265" height="135" rx="4" fill="#DBEAFE" stroke="#1A1D24" stroke-width="1.5"/>
+    <text x="132" y="28" text-anchor="middle" font-size="13" font-weight="700" fill="#1A1D24">📅 次の展開</text>
+    <text x="14" y="52" font-size="11" fill="#374151">Qwen3-Coder-Next がHFに登場</text>
+    <text x="14" y="70" font-size="11" fill="#374151">コーディング特化後継モデルが準備中</text>
+    <text x="14" y="88" font-size="11" fill="#374151">Qwen3.6-35B-A3B MoEとの二本柱</text>
+    <text x="14" y="106" font-size="11" fill="#374151">Alibaba OSS攻勢は2026後半が本番</text>
+    <text x="14" y="124" font-size="11" fill="#9CA3AF">Llama 4との競合が激化必至</text>
+  </g>
+
+  <text x="700" y="1035" text-anchor="middle" font-size="13" font-style="italic" fill="#9CA3AF">AI News · 2026-05-03 · Qwen3.6-27B: 27B Model Surpasses 397B with First Thinking Preservation</text>
+</svg>

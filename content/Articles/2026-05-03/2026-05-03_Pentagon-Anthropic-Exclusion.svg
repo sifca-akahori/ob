@@ -1,0 +1,144 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1400 1050" font-family="-apple-system, 'Hiragino Sans', 'Yu Gothic', sans-serif">
+  <defs>
+    <pattern id="paperTexture" patternUnits="userSpaceOnUse" width="100" height="100">
+      <rect width="100" height="100" fill="#FBF8F1"/>
+      <circle cx="20" cy="30" r="0.4" fill="#C4B389" opacity="0.3"/>
+      <circle cx="70" cy="60" r="0.5" fill="#C4B389" opacity="0.3"/>
+    </pattern>
+    <filter id="stickyShadow" x="-10%" y="-10%" width="130%" height="130%">
+      <feGaussianBlur in="SourceAlpha" stdDeviation="3"/>
+      <feOffset dx="2" dy="3"/><feComponentTransfer><feFuncA type="linear" slope="0.25"/></feComponentTransfer>
+      <feMerge><feMergeNode/><feMergeNode in="SourceGraphic"/></feMerge>
+    </filter>
+    <filter id="softShadow" x="-10%" y="-10%" width="120%" height="120%">
+      <feGaussianBlur in="SourceAlpha" stdDeviation="2"/>
+      <feOffset dx="1" dy="2"/><feComponentTransfer><feFuncA type="linear" slope="0.18"/></feComponentTransfer>
+      <feMerge><feMergeNode/><feMergeNode in="SourceGraphic"/></feMerge>
+    </filter>
+  </defs>
+  <rect width="1400" height="1050" fill="url(#paperTexture)"/>
+  <line x1="110" y1="30" x2="110" y2="1020" stroke="#D88A8A" stroke-width="1.2" opacity="0.4"/>
+  <g fill="#D4C494" opacity="0.5">
+    <circle cx="50" cy="120" r="12"/><circle cx="50" cy="360" r="12"/>
+    <circle cx="50" cy="600" r="12"/><circle cx="50" cy="840" r="12"/>
+  </g>
+  <g transform="translate(1120, -8) rotate(-3)">
+    <rect x="0" y="0" width="250" height="36" fill="#5CA46E" opacity="0.85" rx="2"/>
+    <text x="125" y="24" text-anchor="middle" font-size="16" font-weight="700" fill="white">#ビジネス</text>
+  </g>
+  <rect x="120" y="22" width="180" height="36" rx="4" fill="#2F3842" filter="url(#softShadow)"/>
+  <text x="210" y="46" text-anchor="middle" font-size="16" font-weight="700" fill="white">2026-05-03</text>
+  <text x="1270" y="55" text-anchor="middle" font-size="22" fill="#F5B731">⭐⭐⭐</text>
+
+  <!-- Header -->
+  <text x="130" y="110" font-size="34" font-weight="900" fill="#1A1D24">🏛️ Pentagon AI 8社契約成立・Anthropic排除</text>
+  <text x="130" y="155" font-size="22" font-weight="700" fill="#1A1D24">安全性優先が「供給リスク」認定を招いた構造的矛盾 · DeepMind 580人反旗</text>
+  <line x1="130" y1="167" x2="1300" y2="167" stroke="#5CA46E" stroke-width="3"/>
+  <text x="130" y="190" font-size="14" fill="#6B7280">CNN Business · Robo Rhythms · 2026-05-01〜03 · #ビジネス · #Pentagon · #Anthropic · #規制</text>
+
+  <!-- Contracted 8 companies grid -->
+  <text x="130" y="225" font-size="18" font-weight="700" fill="#1A1D24">✅ Pentagon AI 契約 8社</text>
+  <line x1="130" y1="232" x2="900" y2="232" stroke="#5CA46E" stroke-width="2"/>
+
+  <g font-size="13" transform="translate(130, 242)">
+    <rect x="0" y="0" width="150" height="55" rx="6" fill="#DBEAFE" stroke="#3B82F6" stroke-width="2"/>
+    <text x="75" y="22" text-anchor="middle" font-weight="700" fill="#1E40AF">Microsoft</text>
+    <text x="75" y="42" text-anchor="middle" fill="#374151">Azure AI</text>
+
+    <rect x="165" y="0" width="150" height="55" rx="6" fill="#FEF3C7" stroke="#D97706" stroke-width="2"/>
+    <text x="240" y="22" text-anchor="middle" font-weight="700" fill="#92400E">Amazon AWS</text>
+    <text x="240" y="42" text-anchor="middle" fill="#374151">Bedrock</text>
+
+    <rect x="330" y="0" width="150" height="55" rx="6" fill="#FEE2E2" stroke="#EF4444" stroke-width="2"/>
+    <text x="405" y="22" text-anchor="middle" font-weight="700" fill="#B91C1C">Google</text>
+    <text x="405" y="42" text-anchor="middle" fill="#374151">Gemini / Vertex</text>
+
+    <rect x="495" y="0" width="150" height="55" rx="6" fill="#F0FDF4" stroke="#059669" stroke-width="2"/>
+    <text x="570" y="22" text-anchor="middle" font-weight="700" fill="#065F46">OpenAI</text>
+    <text x="570" y="42" text-anchor="middle" fill="#374151">GPT-5.5</text>
+
+    <rect x="660" y="0" width="150" height="55" rx="6" fill="#EFF6FF" stroke="#3B82F6" stroke-width="2"/>
+    <text x="735" y="22" text-anchor="middle" font-weight="700" fill="#1E40AF">NVIDIA</text>
+    <text x="735" y="42" text-anchor="middle" fill="#374151">AI Infrastructure</text>
+
+    <rect x="825" y="0" width="150" height="55" rx="6" fill="#F5F3FF" stroke="#7C3AED" stroke-width="2"/>
+    <text x="900" y="22" text-anchor="middle" font-weight="700" fill="#4C1D95">SpaceX</text>
+    <text x="900" y="42" text-anchor="middle" fill="#374151">Starshield</text>
+
+    <rect x="990" y="0" width="150" height="55" rx="6" fill="#FFFBEB" stroke="#F59E0B" stroke-width="2"/>
+    <text x="1065" y="22" text-anchor="middle" font-weight="700" fill="#92400E">Oracle</text>
+    <text x="1065" y="42" text-anchor="middle" fill="#374151">OCI AI</text>
+
+    <rect x="1155" y="0" width="150" height="55" rx="6" fill="#FDF4FF" stroke="#A855F7" stroke-width="2" stroke-dasharray="5"/>
+    <text x="1230" y="22" text-anchor="middle" font-weight="700" fill="#7E22CE">Reflection AI</text>
+    <text x="1230" y="42" text-anchor="middle" fill="#A855F7">謎のスタートアップ</text>
+  </g>
+
+  <!-- Exclusion box -->
+  <rect x="130" y="315" width="1240" height="65" rx="8" fill="#FEF2F2" stroke="#EF4444" stroke-width="3"/>
+  <text x="750" y="345" text-anchor="middle" font-size="20" font-weight="900" fill="#EF4444">❌ Anthropic — 排除</text>
+  <text x="750" y="368" text-anchor="middle" font-size="14" fill="#374151">理由：「自律兵器・大規模市民監視への利用を許可しない」制限条件を拒否 → DoD内部で「供給リスク企業」に分類</text>
+
+  <!-- Comparison: Anthropic vs Google -->
+  <text x="130" y="428" font-size="18" font-weight="700" fill="#1A1D24">⚖️ 対比：Anthropic vs Google の判断</text>
+  <line x1="130" y1="435" x2="1300" y2="435" stroke="#5CA46E" stroke-width="2"/>
+
+  <g transform="translate(130, 445)">
+    <rect x="0" y="0" width="500" height="150" rx="6" fill="#FEF2F2" stroke="#EF4444" stroke-width="2"/>
+    <text x="250" y="28" text-anchor="middle" font-size="15" font-weight="700" fill="#EF4444">Anthropic：排除された側</text>
+    <text x="14" y="58" font-size="12" fill="#374151">• 「自律兵器・大規模監視への使用禁止」を維持</text>
+    <text x="14" y="80" font-size="12" fill="#374151">• Constitutional AIブランドを守る</text>
+    <text x="14" y="102" font-size="12" fill="#374151">• 短期：政府契約（数億ドル規模）を失う</text>
+    <text x="14" y="124" font-size="12" fill="#374151">• 長期：「信頼できるAI」評判が強化される可能性</text>
+
+    <rect x="530" y="0" width="500" height="150" rx="6" fill="#F0FDF4" stroke="#5CA46E" stroke-width="2"/>
+    <text x="780" y="28" text-anchor="middle" font-size="15" font-weight="700" fill="#5CA46E">Google：「あらゆる合法的目的」で契約</text>
+    <text x="544" y="58" font-size="12" fill="#374151">• DeepMind研究者580人超の反旗を無視</text>
+    <text x="544" y="80" font-size="12" fill="#374151">• 2018年Project Maven以来3度目のパターン</text>
+    <text x="544" y="102" font-size="12" fill="#374151">• 短期：巨額政府契約を獲得</text>
+    <text x="544" y="124" font-size="12" fill="#374151">• 長期：研究者採用競争で評判リスク蓄積</text>
+  </g>
+
+  <!-- Sticky notes -->
+  <g transform="translate(130,660) rotate(-1.2)" filter="url(#stickyShadow)">
+    <rect width="290" height="135" rx="4" fill="#FEF9C3" stroke="#1A1D24" stroke-width="1.5"/>
+    <text x="145" y="28" text-anchor="middle" font-size="13" font-weight="700" fill="#1A1D24">❓ Reflection AI とは？</text>
+    <text x="14" y="52" font-size="11" fill="#374151">8社中唯一のスタートアップ</text>
+    <text x="14" y="70" font-size="11" fill="#374151">知名度が低く業界が驚き</text>
+    <text x="14" y="88" font-size="11" fill="#374151">「元国防関連人材が設立」説が浮上</text>
+    <text x="14" y="106" font-size="11" fill="#374151">DARPA出身者の創業可能性</text>
+    <text x="14" y="124" font-size="11" fill="#9CA3AF">→ 国防特化AI企業の台頭を予告？</text>
+  </g>
+
+  <g transform="translate(445,655) rotate(1.0)" filter="url(#stickyShadow)">
+    <rect width="290" height="135" rx="4" fill="#FCE7F3" stroke="#1A1D24" stroke-width="1.5"/>
+    <text x="145" y="28" text-anchor="middle" font-size="13" font-weight="700" fill="#1A1D24">⚠️ 「合法的目的」条項の危険性</text>
+    <text x="14" y="52" font-size="11" fill="#374151">「合法」の範囲は政権によって変わる</text>
+    <text x="14" y="70" font-size="11" fill="#374151">事実上「将来の何でもOK」条項</text>
+    <text x="14" y="88" font-size="11" fill="#374151">AI安全保障法学者が「ブランクチェック」警告</text>
+    <text x="14" y="106" font-size="11" fill="#374151">民主的統制の外に出るリスク</text>
+    <text x="14" y="124" font-size="11" fill="#9CA3AF">→ 長期的な法的・倫理的リスク</text>
+  </g>
+
+  <g transform="translate(760,658) rotate(-0.8)" filter="url(#stickyShadow)">
+    <rect width="290" height="135" rx="4" fill="#D1FAE5" stroke="#1A1D24" stroke-width="1.5"/>
+    <text x="145" y="28" text-anchor="middle" font-size="13" font-weight="700" fill="#1A1D24">📊 Googleの「3度目パターン」</text>
+    <text x="14" y="52" font-size="11" fill="#374151">2018年 Project Maven → 撤退</text>
+    <text x="14" y="70" font-size="11" fill="#374151">2022年 AI兵器禁止声明撤回</text>
+    <text x="14" y="88" font-size="11" fill="#374151">2026年 Pentagon契約強行</text>
+    <text x="14" y="106" font-size="11" fill="#374151">研究者580人の抗議を無視</text>
+    <text x="14" y="124" font-size="11" fill="#9CA3AF">採用競争での評判リスクが蓄積中</text>
+  </g>
+
+  <g transform="translate(1075,660) rotate(1.3)" filter="url(#stickyShadow)">
+    <rect width="265" height="135" rx="4" fill="#DBEAFE" stroke="#1A1D24" stroke-width="1.5"/>
+    <text x="132" y="28" text-anchor="middle" font-size="13" font-weight="700" fill="#1A1D24">📅 半年後の3シナリオ</text>
+    <text x="14" y="52" font-size="11" fill="#374151">①Pentagon方針変更→Anthropic再交渉</text>
+    <text x="14" y="70" font-size="11" fill="#374151">②「供給リスク」が商業契約に波及</text>
+    <text x="14" y="88" font-size="11" fill="#374151">③競合の問題事案→立場が逆転</text>
+    <text x="14" y="106" font-size="11" fill="#374151">投資家（Google・Amazon）の圧力が鍵</text>
+    <text x="14" y="124" font-size="11" fill="#9CA3AF">$400B+投資 vs 安全性ポリシー</text>
+  </g>
+
+  <text x="700" y="1035" text-anchor="middle" font-size="13" font-style="italic" fill="#9CA3AF">AI News · 2026-05-03 · Pentagon Signs 8 AI Vendors, Anthropic Excluded for Refusing Autonomous Weapons Clause</text>
+</svg>

@@ -1,0 +1,157 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1400 1050" font-family="-apple-system, 'Hiragino Sans', 'Yu Gothic', sans-serif">
+  <defs>
+    <pattern id="paperTexture" patternUnits="userSpaceOnUse" width="100" height="100">
+      <rect width="100" height="100" fill="#FBF8F1"/>
+      <circle cx="20" cy="30" r="0.4" fill="#C4B389" opacity="0.3"/>
+      <circle cx="70" cy="60" r="0.5" fill="#C4B389" opacity="0.3"/>
+    </pattern>
+    <filter id="stickyShadow" x="-10%" y="-10%" width="130%" height="130%">
+      <feGaussianBlur in="SourceAlpha" stdDeviation="3"/>
+      <feOffset dx="2" dy="3"/><feComponentTransfer><feFuncA type="linear" slope="0.25"/></feComponentTransfer>
+      <feMerge><feMergeNode/><feMergeNode in="SourceGraphic"/></feMerge>
+    </filter>
+    <filter id="softShadow" x="-10%" y="-10%" width="120%" height="120%">
+      <feGaussianBlur in="SourceAlpha" stdDeviation="2"/>
+      <feOffset dx="1" dy="2"/><feComponentTransfer><feFuncA type="linear" slope="0.18"/></feComponentTransfer>
+      <feMerge><feMergeNode/><feMergeNode in="SourceGraphic"/></feMerge>
+    </filter>
+  </defs>
+  <rect width="1400" height="1050" fill="url(#paperTexture)"/>
+  <line x1="110" y1="30" x2="110" y2="1020" stroke="#D88A8A" stroke-width="1.2" opacity="0.4"/>
+  <g fill="#D4C494" opacity="0.5">
+    <circle cx="50" cy="120" r="12"/><circle cx="50" cy="360" r="12"/>
+    <circle cx="50" cy="600" r="12"/><circle cx="50" cy="840" r="12"/>
+  </g>
+  <g transform="translate(1120, -8) rotate(-3)">
+    <rect x="0" y="0" width="250" height="36" fill="#5CA46E" opacity="0.85" rx="2"/>
+    <text x="125" y="24" text-anchor="middle" font-size="16" font-weight="700" fill="white">#ビジネス</text>
+  </g>
+  <rect x="120" y="22" width="180" height="36" rx="4" fill="#2F3842" filter="url(#softShadow)"/>
+  <text x="210" y="46" text-anchor="middle" font-size="16" font-weight="700" fill="white">2026-05-03</text>
+  <text x="1270" y="55" text-anchor="middle" font-size="22" fill="#F5B731">⭐⭐</text>
+
+  <!-- Header -->
+  <text x="130" y="110" font-size="34" font-weight="900" fill="#1A1D24">🔐 OpenAI GPT-5.5-Cyber：「Anthropicを批判した手法で」制限公開</text>
+  <text x="130" y="155" font-size="24" font-weight="700" fill="#1A1D24">英国AISI「最強クラスのサイバーモデル」評価 · 自己矛盾がSNSで燃える</text>
+  <line x1="130" y1="167" x2="1300" y2="167" stroke="#5CA46E" stroke-width="3"/>
+  <text x="130" y="190" font-size="14" fill="#6B7280">The Register · TechCrunch · 2026-05-01 · #ビジネス · #OpenAI · #サイバーセキュリティ</text>
+
+  <!-- Timeline: irony -->
+  <text x="130" y="230" font-size="18" font-weight="700" fill="#1A1D24">📅 「皮肉」のタイムライン</text>
+  <line x1="130" y1="237" x2="900" y2="237" stroke="#5CA46E" stroke-width="2"/>
+
+  <g transform="translate(130, 248)">
+    <!-- Timeline line -->
+    <line x1="0" y1="40" x2="760" y2="40" stroke="#E5E7EB" stroke-width="2"/>
+    <!-- Event 1 -->
+    <circle cx="80" cy="40" r="10" fill="#8B7DB8" stroke="#1A1D24" stroke-width="2"/>
+    <text x="80" y="22" text-anchor="middle" font-size="11" font-weight="700" fill="#1A1D24">4月上旬</text>
+    <text x="80" y="65" text-anchor="middle" font-size="11" fill="#374151">Anthropic Mythos</text>
+    <text x="80" y="80" text-anchor="middle" font-size="11" fill="#374151">研究機関限定公開</text>
+    <!-- Event 2 -->
+    <circle cx="300" cy="40" r="10" fill="#EF4444" stroke="#1A1D24" stroke-width="2"/>
+    <text x="300" y="22" text-anchor="middle" font-size="11" font-weight="700" fill="#1A1D24">4月中旬</text>
+    <text x="300" y="65" text-anchor="middle" font-size="11" fill="#EF4444">Altman X投稿：</text>
+    <text x="300" y="80" text-anchor="middle" font-size="11" fill="#EF4444">「恐怖マーケティングだ」</text>
+    <!-- Event 3 -->
+    <circle cx="530" cy="40" r="10" fill="#5CA46E" stroke="#1A1D24" stroke-width="2"/>
+    <text x="530" y="22" text-anchor="middle" font-size="11" font-weight="700" fill="#1A1D24">4月30日</text>
+    <text x="530" y="65" text-anchor="middle" font-size="11" fill="#374151">OpenAI GPT-5.5-Cyber</text>
+    <text x="530" y="80" text-anchor="middle" font-size="11" fill="#374151">TAC経由で制限公開 😏</text>
+    <!-- Event 4 -->
+    <circle cx="720" cy="40" r="10" fill="#F59E0B" stroke="#1A1D24" stroke-width="2"/>
+    <text x="720" y="22" text-anchor="middle" font-size="11" font-weight="700" fill="#1A1D24">5月1〜3日</text>
+    <text x="720" y="65" text-anchor="middle" font-size="11" fill="#F59E0B">The Register 報道</text>
+    <text x="720" y="80" text-anchor="middle" font-size="11" fill="#F59E0B">「自己矛盾」炎上</text>
+  </g>
+
+  <!-- Key metrics -->
+  <rect x="130" y="380" width="270" height="110" rx="8" fill="white" stroke="#1A1D24" stroke-width="2.5" filter="url(#softShadow)"/>
+  <text x="265" y="425" text-anchor="middle" font-size="14" font-weight="700" fill="#374151">英国 AISI 評価</text>
+  <text x="265" y="455" text-anchor="middle" font-size="32" font-weight="900" fill="#5CA46E">2番目</text>
+  <text x="265" y="478" text-anchor="middle" font-size="12" fill="#6B7280">多段階攻撃シミュレ完走システム</text>
+
+  <rect x="420" y="380" width="270" height="110" rx="8" fill="white" stroke="#1A1D24" stroke-width="2.5" filter="url(#softShadow)"/>
+  <text x="555" y="425" text-anchor="middle" font-size="14" font-weight="700" fill="#374151">TAC 参加対象</text>
+  <text x="555" y="455" text-anchor="middle" font-size="24" font-weight="900" fill="#5CA46E">5カテゴリ</text>
+  <text x="555" y="478" text-anchor="middle" font-size="11" fill="#6B7280">政府・重要インフラ・セキュリティベンダー等</text>
+
+  <rect x="710" y="380" width="270" height="110" rx="8" fill="white" stroke="#1A1D24" stroke-width="2.5" filter="url(#softShadow)"/>
+  <text x="845" y="425" text-anchor="middle" font-size="14" font-weight="700" fill="#374151">サイバーセキュリティ市場</text>
+  <text x="845" y="455" text-anchor="middle" font-size="32" font-weight="900" fill="#5CA46E">$2,000B</text>
+  <text x="845" y="478" text-anchor="middle" font-size="11" fill="#6B7280">2026年推計（AI防御分野$400B超）</text>
+
+  <!-- 5 pillars -->
+  <text x="130" y="535" font-size="18" font-weight="700" fill="#1A1D24">🏛️ OpenAI Trusted Access for Cyber (TAC) プログラム5本柱</text>
+  <line x1="130" y1="542" x2="1300" y2="542" stroke="#5CA46E" stroke-width="2"/>
+
+  <g font-size="13" transform="translate(130,555)">
+    <rect x="0" y="0" width="222" height="80" rx="6" fill="#F0FDF4" stroke="#5CA46E" stroke-width="1.5"/>
+    <text x="111" y="24" text-anchor="middle" font-weight="700" fill="#065F46">① 民主化</text>
+    <text x="111" y="45" text-anchor="middle" fill="#374151">防御ツールへの</text>
+    <text x="111" y="63" text-anchor="middle" fill="#374151">アクセス拡大</text>
+
+    <rect x="237" y="0" width="222" height="80" rx="6" fill="#F0FDF4" stroke="#5CA46E" stroke-width="1.5"/>
+    <text x="348" y="24" text-anchor="middle" font-weight="700" fill="#065F46">② 政府・産業連携</text>
+    <text x="348" y="45" text-anchor="middle" fill="#374151">官民協調型</text>
+    <text x="348" y="63" text-anchor="middle" fill="#374151">展開体制</text>
+
+    <rect x="474" y="0" width="222" height="80" rx="6" fill="#F0FDF4" stroke="#5CA46E" stroke-width="1.5"/>
+    <text x="585" y="24" text-anchor="middle" font-weight="700" fill="#065F46">③ 能力保護</text>
+    <text x="585" y="45" text-anchor="middle" fill="#374151">高度機能の</text>
+    <text x="585" y="63" text-anchor="middle" fill="#374151">悪用防止</text>
+
+    <rect x="711" y="0" width="222" height="80" rx="6" fill="#F0FDF4" stroke="#5CA46E" stroke-width="1.5"/>
+    <text x="822" y="24" text-anchor="middle" font-weight="700" fill="#065F46">④ 可視性</text>
+    <text x="822" y="45" text-anchor="middle" fill="#374151">デプロイ監視・</text>
+    <text x="822" y="63" text-anchor="middle" fill="#374151">監査ログ</text>
+
+    <rect x="948" y="0" width="222" height="80" rx="6" fill="#F0FDF4" stroke="#5CA46E" stroke-width="1.5"/>
+    <text x="1059" y="24" text-anchor="middle" font-weight="700" fill="#065F46">⑤ 自己防衛</text>
+    <text x="1059" y="45" text-anchor="middle" fill="#374151">ユーザーへの</text>
+    <text x="1059" y="63" text-anchor="middle" fill="#374151">自衛能力提供</text>
+  </g>
+
+  <!-- Sticky notes -->
+  <g transform="translate(130,680) rotate(-1.2)" filter="url(#stickyShadow)">
+    <rect width="285" height="135" rx="4" fill="#FEF9C3" stroke="#1A1D24" stroke-width="1.5"/>
+    <text x="142" y="28" text-anchor="middle" font-size="13" font-weight="700" fill="#1A1D24">💡 制限公開は合理的判断</text>
+    <text x="14" y="52" font-size="11" fill="#374151">「多段階攻撃完走」= 攻撃側にも同等能力</text>
+    <text x="14" y="70" font-size="11" fill="#374151">デュアルユース問題の核心</text>
+    <text x="14" y="88" font-size="11" fill="#374151">制限自体は正しい判断</text>
+    <text x="14" y="106" font-size="11" fill="#374151">問題はAltmanの一貫性のなさ</text>
+    <text x="14" y="124" font-size="11" fill="#9CA3AF">→ ブランド信頼性へのダメージ</text>
+  </g>
+
+  <g transform="translate(440,675) rotate(1.0)" filter="url(#stickyShadow)">
+    <rect width="285" height="135" rx="4" fill="#FCE7F3" stroke="#1A1D24" stroke-width="1.5"/>
+    <text x="142" y="28" text-anchor="middle" font-size="13" font-weight="700" fill="#1A1D24">🔥 HN・Xの反応</text>
+    <text x="14" y="52" font-size="11" fill="#374151">「ブーメラン案件」大量RT</text>
+    <text x="14" y="70" font-size="11" fill="#374151">Altman X投稿の削除・訂正なし</text>
+    <text x="14" y="88" font-size="11" fill="#374151">「批判した翌月に自分がやった」</text>
+    <text x="14" y="106" font-size="11" fill="#374151">The Register が詳細レポート掲載</text>
+    <text x="14" y="124" font-size="11" fill="#9CA3AF">OpenAI広報チームが沈黙</text>
+  </g>
+
+  <g transform="translate(750,678) rotate(-0.8)" filter="url(#stickyShadow)">
+    <rect width="285" height="135" rx="4" fill="#D1FAE5" stroke="#1A1D24" stroke-width="1.5"/>
+    <text x="142" y="28" text-anchor="middle" font-size="13" font-weight="700" fill="#1A1D24">🏭 AI安全保障の産業化</text>
+    <text x="14" y="52" font-size="11" fill="#374151">政府向け専用AIアクセスが主流化</text>
+    <text x="14" y="70" font-size="11" fill="#374151">Anthropic GovAI / Vertex Regulated Cloud</text>
+    <text x="14" y="88" font-size="11" fill="#374151">AI＝「認定製品」化の潮流</text>
+    <text x="14" y="106" font-size="11" fill="#374151">技術差よりコンプライアンスが勝敗を決める</text>
+    <text x="14" y="124" font-size="11" fill="#9CA3AF">エンタープライズAI市場の再編</text>
+  </g>
+
+  <g transform="translate(1060,680) rotate(1.3)" filter="url(#stickyShadow)">
+    <rect width="265" height="135" rx="4" fill="#DBEAFE" stroke="#1A1D24" stroke-width="1.5"/>
+    <text x="132" y="28" text-anchor="middle" font-size="13" font-weight="700" fill="#1A1D24">📅 半年後の分岐点</text>
+    <text x="14" y="52" font-size="11" fill="#374151">具体的防御事例が出るかどうか</text>
+    <text x="14" y="70" font-size="11" fill="#374151">「ゼロデイ事前発見」事例 → 正当性確立</text>
+    <text x="14" y="88" font-size="11" fill="#374151">事例なし → 「演出」批判継続</text>
+    <text x="14" y="106" font-size="11" fill="#374151">Anthropic Mythos vs GPT-5.5-Cyber</text>
+    <text x="14" y="124" font-size="11" fill="#9CA3AF">サイバー防御AI市場の競合軸</text>
+  </g>
+
+  <text x="700" y="1035" text-anchor="middle" font-size="13" font-style="italic" fill="#9CA3AF">AI News · 2026-05-03 · OpenAI GPT-5.5-Cyber: Restricted Release After Criticizing Anthropic for Doing the Same</text>
+</svg>
