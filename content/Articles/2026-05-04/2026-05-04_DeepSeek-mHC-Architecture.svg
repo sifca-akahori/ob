@@ -1,0 +1,175 @@
+<svg viewBox="0 0 1400 1050" xmlns="http://www.w3.org/2000/svg" font-family="-apple-system, 'Hiragino Sans', 'Yu Gothic', sans-serif">
+  <defs>
+    <pattern id="paperTexture" x="0" y="0" width="4" height="4" patternUnits="userSpaceOnUse">
+      <rect width="4" height="4" fill="#FBF8F1"/>
+      <circle cx="2" cy="2" r="0.4" fill="#E8E2D5" opacity="0.5"/>
+    </pattern>
+    <filter id="softShadow"><feDropShadow dx="2" dy="3" stdDeviation="4" flood-color="#1A1D24" flood-opacity="0.15"/></filter>
+    <filter id="stickyShadow"><feDropShadow dx="3" dy="4" stdDeviation="5" flood-color="#1A1D24" flood-opacity="0.2"/></filter>
+  </defs>
+  <rect width="1400" height="1050" fill="url(#paperTexture)"/>
+  <circle cx="32" cy="150" r="12" fill="none" stroke="#C8C0B0" stroke-width="2"/>
+  <circle cx="32" cy="300" r="12" fill="none" stroke="#C8C0B0" stroke-width="2"/>
+  <circle cx="32" cy="450" r="12" fill="none" stroke="#C8C0B0" stroke-width="2"/>
+  <circle cx="32" cy="600" r="12" fill="none" stroke="#C8C0B0" stroke-width="2"/>
+  <circle cx="32" cy="750" r="12" fill="none" stroke="#C8C0B0" stroke-width="2"/>
+  <circle cx="32" cy="900" r="12" fill="none" stroke="#C8C0B0" stroke-width="2"/>
+  <line x1="0" y1="0" x2="0" y2="1050" stroke="#D8D0C0" stroke-width="2"/>
+  <line x1="60" y1="0" x2="60" y2="1050" stroke="#E8E0D0" stroke-width="1" stroke-dasharray="4,4"/>
+
+  <g transform="translate(1210, 28) rotate(-3)">
+    <rect x="-60" y="0" width="200" height="44" rx="4" fill="#5B8DEF" stroke="#1A1D24" stroke-width="2" filter="url(#stickyShadow)"/>
+    <text x="40" y="28" text-anchor="middle" font-size="18" font-weight="700" fill="white">#研究</text>
+  </g>
+  <rect x="75" y="20" width="200" height="40" rx="6" fill="#2F3842"/>
+  <text x="175" y="46" text-anchor="middle" font-size="16" font-weight="700" fill="white">2026-05-04</text>
+  <text x="290" y="48" font-size="22" fill="#F0A500">⭐⭐</text>
+
+  <text x="80" y="110" font-size="36" font-weight="900" fill="#1A1D24">🔬 DeepSeek mHC：多様体制約型Hyper-Connections</text>
+  <text x="80" y="152" font-size="26" font-weight="700" fill="#3A3D44">残差接続を再発明——7%コスト増で大規模訓練の不安定性を解消</text>
+  <line x1="80" y1="165" x2="1340" y2="165" stroke="#5B8DEF" stroke-width="3"/>
+  <text x="80" y="190" font-size="15" fill="#7A8090">DeepSeek AI Blog / IBM Think / Introl Blog ｜ 2026-05-04 ｜ #研究 #DeepSeek #アーキテクチャ #効率化</text>
+
+  <g transform="translate(1240, 200)">
+    <rect x="-55" y="-10" width="110" height="100" rx="10" fill="#5B8DEF" stroke="#1A1D24" stroke-width="3"/>
+    <text x="0" y="45" text-anchor="middle" font-size="40" fill="white">🧬</text>
+    <text x="0" y="108" text-anchor="middle" font-size="11" fill="#3A3D44" font-weight="600">DeepSeek mHC</text>
+  </g>
+
+  <!-- KEY NUMBERS -->
+  <rect x="80" y="210" width="1100" height="130" rx="10" fill="white" stroke="#1A1D24" stroke-width="2" filter="url(#softShadow)"/>
+  <text x="175" y="248" text-anchor="middle" font-size="13" fill="#5A6070" font-weight="600">追加コスト</text>
+  <text x="175" y="295" text-anchor="middle" font-size="52" font-weight="900" fill="#5B8DEF">6〜7%</text>
+  <text x="175" y="325" text-anchor="middle" font-size="12" fill="#7A8090">ハードウェアオーバーヘッド</text>
+  <line x1="320" y1="225" x2="320" y2="330" stroke="#E0D8C8" stroke-width="1.5"/>
+  <text x="455" y="248" text-anchor="middle" font-size="13" fill="#5A6070" font-weight="600">検証モデルサイズ</text>
+  <text x="455" y="285" text-anchor="middle" font-size="32" font-weight="900" fill="#3A6DBF">3B / 9B</text>
+  <text x="455" y="313" text-anchor="middle" font-size="32" font-weight="900" fill="#3A6DBF">/ 27B</text>
+  <text x="455" y="325" text-anchor="middle" font-size="12" fill="#7A8090">全サイズで安定確認</text>
+  <line x1="590" y1="225" x2="590" y2="330" stroke="#E0D8C8" stroke-width="1.5"/>
+  <text x="730" y="248" text-anchor="middle" font-size="13" fill="#5A6070" font-weight="600">情報ストリーム数</text>
+  <text x="730" y="295" text-anchor="middle" font-size="52" font-weight="900" fill="#2A5DAF">複数</text>
+  <text x="730" y="325" text-anchor="middle" font-size="12" fill="#7A8090">並行ストリーム＋多様体制約</text>
+  <line x1="860" y1="225" x2="860" y2="330" stroke="#E0D8C8" stroke-width="1.5"/>
+  <text x="990" y="248" text-anchor="middle" font-size="13" fill="#5A6070" font-weight="600">共著者</text>
+  <text x="990" y="285" text-anchor="middle" font-size="24" font-weight="900" fill="#1A1D24">梁文鋒</text>
+  <text x="990" y="312" text-anchor="middle" font-size="18" font-weight="700" fill="#4A4040">Liang Wenfeng</text>
+  <text x="990" y="325" text-anchor="middle" font-size="12" fill="#7A8090">DeepSeek創業者</text>
+  <line x1="1100" y1="225" x2="1100" y2="330" stroke="#E0D8C8" stroke-width="1.5"/>
+  <text x="1170" y="248" text-anchor="middle" font-size="13" fill="#5A6070" font-weight="600">解消する問題</text>
+  <text x="1170" y="284" text-anchor="middle" font-size="20" font-weight="900" fill="#C03010">数値</text>
+  <text x="1170" y="308" text-anchor="middle" font-size="20" font-weight="900" fill="#C03010">不安定性</text>
+  <text x="1170" y="325" text-anchor="middle" font-size="12" fill="#7A8090">大規模訓練の壁</text>
+
+  <!-- Architecture comparison -->
+  <rect x="80" y="360" width="520" height="295" rx="8" fill="white" stroke="#1A1D24" stroke-width="2" filter="url(#softShadow)"/>
+  <text x="340" y="390" text-anchor="middle" font-size="17" font-weight="800" fill="#1A1D24">🏗️ 従来 vs mHC アーキテクチャ</text>
+  <line x1="100" y1="398" x2="580" y2="398" stroke="#5B8DEF" stroke-width="2"/>
+
+  <!-- Traditional -->
+  <text x="200" y="422" text-anchor="middle" font-size="14" font-weight="700" fill="#5A5050">従来の残差接続</text>
+  <rect x="155" y="430" width="90" height="36" rx="4" fill="#E0E8FF" stroke="#8090C0" stroke-width="1.5"/>
+  <text x="200" y="452" text-anchor="middle" font-size="12" fill="#2A3070">Layer N</text>
+  <line x1="200" y1="466" x2="200" y2="496" stroke="#8090C0" stroke-width="2"/>
+  <text x="225" y="486" font-size="11" fill="#7A8090">+</text>
+  <!-- skip connection -->
+  <line x1="246" y1="448" x2="280" y2="448" stroke="#8090C0" stroke-width="2"/>
+  <line x1="280" y1="448" x2="280" y2="512" stroke="#8090C0" stroke-width="2"/>
+  <line x1="246" y1="512" x2="280" y2="512" stroke="#8090C0" stroke-width="2"/>
+  <rect x="155" y="496" width="90" height="36" rx="4" fill="#E0E8FF" stroke="#8090C0" stroke-width="1.5"/>
+  <text x="200" y="518" text-anchor="middle" font-size="12" fill="#2A3070">Layer N+1</text>
+  <text x="200" y="558" text-anchor="middle" font-size="11" fill="#AA4020">1本のスカラー加算のみ</text>
+  <text x="200" y="575" text-anchor="middle" font-size="11" fill="#AA4020">→ 大規模で爆発・消失</text>
+
+  <!-- Arrow separator -->
+  <line x1="300" y1="410" x2="300" y2="638" stroke="#E0D8C8" stroke-width="1.5" stroke-dasharray="4,4"/>
+
+  <!-- mHC -->
+  <text x="440" y="422" text-anchor="middle" font-size="14" font-weight="700" fill="#2A4090">mHC（多様体制約型）</text>
+  <rect x="390" y="430" width="100" height="36" rx="4" fill="#5B8DEF" opacity="0.3" stroke="#5B8DEF" stroke-width="2"/>
+  <text x="440" y="452" text-anchor="middle" font-size="12" fill="#1A3070">Layer N</text>
+
+  <!-- Multiple streams -->
+  <line x1="415" y1="466" x2="415" y2="496" stroke="#5B8DEF" stroke-width="2"/>
+  <line x1="440" y1="466" x2="440" y2="496" stroke="#3A6DBF" stroke-width="2"/>
+  <line x1="465" y1="466" x2="465" y2="496" stroke="#2050AF" stroke-width="2"/>
+  <text x="495" y="484" font-size="10" fill="#5B8DEF">×N</text>
+  <!-- skip connections multiple -->
+  <line x1="492" y1="448" x2="540" y2="448" stroke="#5B8DEF" stroke-width="1.5"/>
+  <line x1="540" y1="448" x2="540" y2="520" stroke="#5B8DEF" stroke-width="1.5"/>
+  <line x1="492" y1="520" x2="540" y2="520" stroke="#5B8DEF" stroke-width="1.5"/>
+
+  <rect x="390" y="496" width="100" height="36" rx="4" fill="#5B8DEF" opacity="0.3" stroke="#5B8DEF" stroke-width="2"/>
+  <text x="440" y="518" text-anchor="middle" font-size="12" fill="#1A3070">Layer N+1</text>
+
+  <rect x="360" y="548" width="160" height="26" rx="4" fill="#E8F0FF" stroke="#5B8DEF" stroke-width="1.5"/>
+  <text x="440" y="565" text-anchor="middle" font-size="11" fill="#2A4090">多様体制約で安定保証</text>
+  <text x="440" y="585" text-anchor="middle" font-size="11" fill="#2A4090" font-weight="700">→ 大規模でも安定！</text>
+
+  <rect x="100" y="618" width="460" height="30" rx="4" fill="#EEF4FF" stroke="#5B8DEF" stroke-width="1.5"/>
+  <text x="330" y="637" text-anchor="middle" font-size="12" fill="#2A4090">数学的安定性保証 ＋ 6〜7%のみのオーバーヘッド</text>
+
+  <!-- Impact cards -->
+  <rect x="620" y="360" width="560" height="295" rx="8" fill="white" stroke="#1A1D24" stroke-width="2" filter="url(#softShadow)"/>
+  <text x="900" y="390" text-anchor="middle" font-size="17" font-weight="800" fill="#1A1D24">🌍 業界への波及影響</text>
+  <line x1="640" y1="398" x2="1160" y2="398" stroke="#5B8DEF" stroke-width="2"/>
+
+  <rect x="640" y="410" width="510" height="60" rx="6" fill="#EEF4FF" stroke="#5B8DEF" stroke-width="1.5"/>
+  <text x="660" y="432" font-size="13" font-weight="700" fill="#1A3070">🇨🇳 半導体制裁下での「効率革命」</text>
+  <text x="660" y="454" font-size="11" fill="#3A5090">H100制限下でもアーキテクチャ革新でスケール——効率ファースト戦略の次の一手</text>
+
+  <rect x="640" y="478" width="510" height="60" rx="6" fill="#F0F8EE" stroke="#70A870" stroke-width="1.5"/>
+  <text x="660" y="500" font-size="13" font-weight="700" fill="#2A5030">🔄 競合ラボへの採用シナリオ</text>
+  <text x="660" y="522" font-size="11" fill="#3A6040">既存モデルへの後付けは高コスト。Next-gen trainingsからの採用が現実的な路線</text>
+
+  <rect x="640" y="546" width="510" height="60" rx="6" fill="#FFF8E0" stroke="#D0A830" stroke-width="1.5"/>
+  <text x="660" y="568" font-size="13" font-weight="700" fill="#6A5010">🌏 非米中ラボへの福音</text>
+  <text x="660" y="590" font-size="11" fill="#7A6020">Sakana AI・GENIAC等GPU制約ラボが採用すればOSSモデルのコスパが劇的改善</text>
+
+  <rect x="640" y="614" width="510" height="36" rx="6" fill="#FFE8E0" stroke="#E06040" stroke-width="1.5"/>
+  <text x="895" y="636" text-anchor="middle" font-size="12" fill="#8A3010">⚠️ 公式実装公開前は外部再現実験での確認が必要</text>
+
+  <!-- Sticky notes -->
+  <g transform="translate(80, 670) rotate(-1.5)" filter="url(#stickyShadow)">
+    <rect width="295" height="110" rx="3" fill="#FFF9C4" stroke="#E0D080" stroke-width="1.5"/>
+    <text x="148" y="24" text-anchor="middle" font-size="13" font-weight="700" fill="#6A5A00">📌 ResNet以来の革新？</text>
+    <text x="15" y="46" font-size="11" fill="#5A4A00">残差接続（2015 ResNet）導入以来</text>
+    <text x="15" y="62" font-size="11" fill="#5A4A00">最大のアーキテクチャ革新との</text>
+    <text x="15" y="78" font-size="11" fill="#5A4A00">評価。「1本のスカラー加算」</text>
+    <text x="15" y="94" font-size="11" fill="#5A4A00">から「多様体制約付き複数ストリーム</text>
+    <text x="15" y="108" font-size="11" fill="#8A7010">テンソル演算」への移行</text>
+  </g>
+
+  <g transform="translate(396, 662) rotate(1.2)" filter="url(#stickyShadow)">
+    <rect width="295" height="110" rx="3" fill="#FFE0B2" stroke="#E08040" stroke-width="1.5"/>
+    <text x="148" y="24" text-anchor="middle" font-size="13" font-weight="700" fill="#8A3000">📌 「効率ファースト」の一貫性</text>
+    <text x="15" y="46" font-size="11" fill="#6A3000">DeepSeek-R1（2025）の訓練</text>
+    <text x="15" y="62" font-size="11" fill="#6A3000">コスト削減→mHCのスケール</text>
+    <text x="15" y="78" font-size="11" fill="#6A3000">安定化。米国のCapEx $700B</text>
+    <text x="15" y="94" font-size="11" fill="#6A3000">戦略に対し「アルゴリズムで</text>
+    <text x="15" y="108" font-size="11" fill="#AA5010">対抗する」DeepSeekの路線</text>
+  </g>
+
+  <g transform="translate(710, 670) rotate(-0.5)" filter="url(#stickyShadow)">
+    <rect width="295" height="110" rx="3" fill="#B3E5FC" stroke="#50A8D0" stroke-width="1.5"/>
+    <text x="148" y="24" text-anchor="middle" font-size="13" font-weight="700" fill="#0A3A60">📌 Omdia波及効果予測</text>
+    <text x="15" y="46" font-size="11" fill="#1A4A70">Chief Analyst Lian Jye Suが</text>
+    <text x="15" y="62" font-size="11" fill="#1A4A70">「ライバルラボが自社版mHCを</text>
+    <text x="15" y="78" font-size="11" fill="#1A4A70">開発する波及効果」を予測。</text>
+    <text x="15" y="94" font-size="11" fill="#1A4A70">mHCが次世代モデル訓練の</text>
+    <text x="15" y="108" font-size="11" fill="#2060A0">標準的手法になる可能性</text>
+  </g>
+
+  <g transform="translate(1026, 662) rotate(1.8)" filter="url(#stickyShadow)">
+    <rect width="295" height="110" rx="3" fill="#E1BEE7" stroke="#A070A0" stroke-width="1.5"/>
+    <text x="148" y="24" text-anchor="middle" font-size="13" font-weight="700" fill="#5A1A6A">📌 SCMP早期報道との温度差</text>
+    <text x="15" y="46" font-size="11" fill="#4A1A5A">南華早報が1月に先行報道した</text>
+    <text x="15" y="62" font-size="11" fill="#4A1A5A">当時は反応薄。IBM・Introlの</text>
+    <text x="15" y="78" font-size="11" fill="#4A1A5A">解説記事公開と5月のllama.cpp</text>
+    <text x="15" y="94" font-size="11" fill="#4A1A5A">実装で一気に注目。「論文より</text>
+    <text x="15" y="108" font-size="11" fill="#7A30A0">実装」という評価のリアリティ</text>
+  </g>
+
+  <rect x="0" y="1010" width="1400" height="40" fill="#E8E0D0"/>
+  <text x="700" y="1032" text-anchor="middle" font-size="13" fill="#7A7060" font-style="italic">AI News · 2026-05-04 · DeepSeek mHC: Manifold-Constrained Hyper-Connections — Solving LLM Training Instability at 7% Overhead</text>
+</svg>

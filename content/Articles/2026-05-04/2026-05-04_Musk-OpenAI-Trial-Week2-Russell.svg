@@ -1,0 +1,166 @@
+<svg viewBox="0 0 1400 1050" xmlns="http://www.w3.org/2000/svg" font-family="-apple-system, 'Hiragino Sans', 'Yu Gothic', sans-serif">
+  <defs>
+    <pattern id="paperTexture" x="0" y="0" width="4" height="4" patternUnits="userSpaceOnUse">
+      <rect width="4" height="4" fill="#FBF8F1"/>
+      <circle cx="2" cy="2" r="0.4" fill="#E8E2D5" opacity="0.5"/>
+    </pattern>
+    <filter id="softShadow"><feDropShadow dx="2" dy="3" stdDeviation="4" flood-color="#1A1D24" flood-opacity="0.15"/></filter>
+    <filter id="stickyShadow"><feDropShadow dx="3" dy="4" stdDeviation="5" flood-color="#1A1D24" flood-opacity="0.2"/></filter>
+  </defs>
+  <rect width="1400" height="1050" fill="url(#paperTexture)"/>
+  <circle cx="32" cy="150" r="12" fill="none" stroke="#C8C0B0" stroke-width="2"/>
+  <circle cx="32" cy="300" r="12" fill="none" stroke="#C8C0B0" stroke-width="2"/>
+  <circle cx="32" cy="450" r="12" fill="none" stroke="#C8C0B0" stroke-width="2"/>
+  <circle cx="32" cy="600" r="12" fill="none" stroke="#C8C0B0" stroke-width="2"/>
+  <circle cx="32" cy="750" r="12" fill="none" stroke="#C8C0B0" stroke-width="2"/>
+  <circle cx="32" cy="900" r="12" fill="none" stroke="#C8C0B0" stroke-width="2"/>
+  <line x1="0" y1="0" x2="0" y2="1050" stroke="#D8D0C0" stroke-width="2"/>
+  <line x1="60" y1="0" x2="60" y2="1050" stroke="#E8E0D0" stroke-width="1" stroke-dasharray="4,4"/>
+
+  <g transform="translate(1210, 28) rotate(-3)">
+    <rect x="-60" y="0" width="200" height="44" rx="4" fill="#E8A87C" stroke="#1A1D24" stroke-width="2" filter="url(#stickyShadow)"/>
+    <text x="40" y="28" text-anchor="middle" font-size="18" font-weight="700" fill="white">#SNS</text>
+  </g>
+  <rect x="75" y="20" width="200" height="40" rx="6" fill="#2F3842"/>
+  <text x="175" y="46" text-anchor="middle" font-size="16" font-weight="700" fill="white">2026-05-04</text>
+  <text x="290" y="48" font-size="22" fill="#F0A500">⭐⭐</text>
+
+  <text x="80" y="110" font-size="34" font-weight="900" fill="#1A1D24">⚖️ Musk v. OpenAI Week2：Stuart Russell証言</text>
+  <text x="80" y="152" font-size="26" font-weight="700" fill="#3A3D44">「AGIレース≒核軍拡」——裁判所が証言を限定、5/21判決へ</text>
+  <line x1="80" y1="165" x2="1340" y2="165" stroke="#E8A87C" stroke-width="3"/>
+  <text x="80" y="190" font-size="15" fill="#7A8090">TechCrunch / MIT Technology Review ｜ 2026-05-04 ｜ #SNS #Musk #OpenAI #裁判 #AGI</text>
+
+  <g transform="translate(1240, 200)">
+    <rect x="-55" y="-10" width="110" height="100" rx="10" fill="#E8A87C" stroke="#1A1D24" stroke-width="3"/>
+    <text x="0" y="45" text-anchor="middle" font-size="42" fill="white">⚖️</text>
+    <text x="0" y="108" text-anchor="middle" font-size="11" fill="#3A3D44" font-weight="600">Week 2</text>
+  </g>
+
+  <!-- KEY NUMBERS -->
+  <rect x="80" y="210" width="1100" height="130" rx="10" fill="white" stroke="#1A1D24" stroke-width="2" filter="url(#softShadow)"/>
+  <text x="170" y="248" text-anchor="middle" font-size="13" fill="#5A6070" font-weight="600">損害賠償請求</text>
+  <text x="170" y="290" text-anchor="middle" font-size="46" font-weight="900" fill="#C03010">$134億</text>
+  <text x="170" y="325" text-anchor="middle" font-size="12" fill="#7A8090">Musk側の主張</text>
+  <line x1="300" y1="225" x2="300" y2="330" stroke="#E0D8C8" stroke-width="1.5"/>
+  <text x="440" y="248" text-anchor="middle" font-size="13" fill="#5A6070" font-weight="600">OpenAI IPO評価額</text>
+  <text x="440" y="290" text-anchor="middle" font-size="46" font-weight="900" fill="#E8A87C">$2,000億+</text>
+  <text x="440" y="325" text-anchor="middle" font-size="12" fill="#7A8090">裁判の影響が直撃</text>
+  <line x1="580" y1="225" x2="580" y2="330" stroke="#E0D8C8" stroke-width="1.5"/>
+  <text x="720" y="248" text-anchor="middle" font-size="13" fill="#5A6070" font-weight="600">Musk証言時間（週1）</text>
+  <text x="720" y="290" text-anchor="middle" font-size="46" font-weight="900" fill="#1A1D24">7時間+</text>
+  <text x="720" y="325" text-anchor="middle" font-size="12" fill="#7A8090">Oakland連邦地裁</text>
+  <line x1="860" y1="225" x2="860" y2="330" stroke="#E0D8C8" stroke-width="1.5"/>
+  <text x="980" y="248" text-anchor="middle" font-size="13" fill="#5A6070" font-weight="600">判決予定</text>
+  <text x="980" y="285" text-anchor="middle" font-size="32" font-weight="900" fill="#1A1D24">5月中旬</text>
+  <text x="980" y="310" text-anchor="middle" font-size="22" font-weight="700" fill="#4A4040">〜末</text>
+  <text x="980" y="325" text-anchor="middle" font-size="12" fill="#7A8090">責任フェーズ5/21終了</text>
+  <line x1="1110" y1="225" x2="1110" y2="330" stroke="#E0D8C8" stroke-width="1.5"/>
+  <text x="1175" y="248" text-anchor="middle" font-size="13" fill="#5A6070" font-weight="600">専門家証人</text>
+  <text x="1175" y="285" text-anchor="middle" font-size="18" font-weight="700" fill="#1A1D24">Stuart</text>
+  <text x="1175" y="307" text-anchor="middle" font-size="18" font-weight="700" fill="#1A1D24">Russell</text>
+  <text x="1175" y="325" text-anchor="middle" font-size="12" fill="#7A8090">UCバークレー</text>
+
+  <!-- Timeline -->
+  <rect x="80" y="360" width="520" height="300" rx="8" fill="white" stroke="#1A1D24" stroke-width="2" filter="url(#softShadow)"/>
+  <text x="340" y="390" text-anchor="middle" font-size="17" font-weight="800" fill="#1A1D24">📅 裁判タイムライン</text>
+  <line x1="100" y1="398" x2="580" y2="398" stroke="#E8A87C" stroke-width="2"/>
+
+  <circle cx="150" cy="430" r="14" fill="#5CA46E"/>
+  <text x="150" y="434" text-anchor="middle" font-size="10" fill="white" font-weight="700">W1</text>
+  <text x="180" y="425" font-size="13" font-weight="700" fill="#1A1D24">Week 1（4/28〜5/2）</text>
+  <text x="180" y="443" font-size="11" fill="#4A6050">Musk7時間証言・Brockman証言</text>
+
+  <line x1="150" y1="446" x2="150" y2="478" stroke="#C8C0B0" stroke-width="2" stroke-dasharray="3,3"/>
+
+  <circle cx="150" cy="492" r="14" fill="#E8A87C"/>
+  <text x="150" y="496" text-anchor="middle" font-size="10" fill="white" font-weight="700">W2</text>
+  <text x="180" y="487" font-size="13" font-weight="700" fill="#1A1D24">Week 2（5/4〜）</text>
+  <text x="180" y="505" font-size="11" fill="#6A4020">Stuart Russell証言——AGIリスク部分は</text>
+  <text x="180" y="521" font-size="11" fill="#A03010">判事により法廷内で遮断 ⚠️</text>
+
+  <line x1="150" y1="538" x2="150" y2="570" stroke="#C8C0B0" stroke-width="2" stroke-dasharray="3,3"/>
+
+  <circle cx="150" cy="584" r="14" fill="#8B7DB8"/>
+  <text x="150" y="588" text-anchor="middle" font-size="10" fill="white" font-weight="700">判決</text>
+  <text x="180" y="579" font-size="13" font-weight="700" fill="#1A1D24">5/21 責任フェーズ終了</text>
+  <text x="180" y="597" font-size="11" fill="#4A3070">損害賠償フェーズ→判決 5月末</text>
+
+  <rect x="110" y="618" width="450" height="36" rx="6" fill="#FFF0E0" stroke="#E8A87C" stroke-width="1.5"/>
+  <text x="335" y="640" text-anchor="middle" font-size="12" fill="#8A4010">Altman解任要求含む——OpenAI IPOに甚大影響リスク</text>
+
+  <!-- Arguments comparison -->
+  <rect x="620" y="360" width="560" height="300" rx="8" fill="white" stroke="#1A1D24" stroke-width="2" filter="url(#softShadow)"/>
+  <text x="900" y="390" text-anchor="middle" font-size="17" font-weight="800" fill="#1A1D24">⚔️ 主張の対立構造</text>
+  <line x1="640" y1="398" x2="1160" y2="398" stroke="#E8A87C" stroke-width="2"/>
+
+  <rect x="640" y="410" width="240" height="30" rx="4" fill="#FFE8D0"/>
+  <text x="760" y="429" text-anchor="middle" font-size="13" font-weight="700" fill="#A04020">Musk側の主張</text>
+
+  <rect x="900" y="410" width="240" height="30" rx="4" fill="#D0E8FF"/>
+  <text x="1020" y="429" text-anchor="middle" font-size="13" font-weight="700" fill="#2040A0">OpenAI側の反論</text>
+
+  <text x="646" y="460" font-size="12" fill="#6A3010">「非営利ブランドで信頼獲得→</text>
+  <text x="646" y="478" font-size="12" fill="#6A3010">後から営利化=詐欺」</text>
+  <text x="906" y="460" font-size="12" fill="#203090">「xAIを作った競合が</text>
+  <text x="906" y="478" font-size="12" fill="#203090">競合封じ訴訟」</text>
+
+  <line x1="640" y1="492" x2="1160" y2="492" stroke="#E0E8F0" stroke-width="1"/>
+  <text x="646" y="514" font-size="12" fill="#6A3010">Russell「AGIレース≒核軍拡」</text>
+  <text x="646" y="532" font-size="12" fill="#6A3010">→ AI安全性の文脈で損害強調</text>
+  <text x="906" y="514" font-size="12" fill="#203090">「RussellはOpenAI固有の</text>
+  <text x="906" y="532" font-size="12" fill="#203090">安全方針を評価していない」</text>
+
+  <line x1="640" y1="548" x2="1160" y2="548" stroke="#E0E8F0" stroke-width="1"/>
+  <text x="646" y="570" font-size="12" fill="#6A3010">「人類のためのAI研究」</text>
+  <text x="646" y="588" font-size="12" fill="#6A3010">創業理念の裏切りを強調</text>
+  <text x="906" y="570" font-size="12" fill="#203090">「常に安全なAGI開発が目的。</text>
+  <text x="906" y="588" font-size="12" fill="#203090">姿勢は今も変わらない」</text>
+
+  <line x1="640" y1="602" x2="1160" y2="602" stroke="#E0E8F0" stroke-width="1"/>
+  <rect x="640" y="612" width="510" height="36" rx="4" fill="#F8F0E0"/>
+  <text x="895" y="634" text-anchor="middle" font-size="12" fill="#6A5010">⚠️ 「AGIレースに参加しながらレース停止を求める」矛盾——OpenAI側が突く</text>
+
+  <!-- Sticky notes -->
+  <g transform="translate(80, 678) rotate(-1.5)" filter="url(#stickyShadow)">
+    <rect width="295" height="110" rx="3" fill="#FFF9C4" stroke="#E0D080" stroke-width="1.5"/>
+    <text x="148" y="24" text-anchor="middle" font-size="13" font-weight="700" fill="#6A5A00">📌 証言制限の意味</text>
+    <text x="15" y="46" font-size="11" fill="#5A4A00">「AIの危険性」でなく「企業</text>
+    <text x="15" y="62" font-size="11" fill="#5A4A00">ガバナンスの裏切り」が争点と</text>
+    <text x="15" y="78" font-size="11" fill="#5A4A00">法廷が確認した形。Musk側の</text>
+    <text x="15" y="94" font-size="11" fill="#5A4A00">心証形成戦略が封じられた。</text>
+    <text x="15" y="108" font-size="11" fill="#8A7010">OpenAI弁護団の戦術的成功</text>
+  </g>
+
+  <g transform="translate(396, 670) rotate(1.2)" filter="url(#stickyShadow)">
+    <rect width="295" height="110" rx="3" fill="#FFE0B2" stroke="#E08040" stroke-width="1.5"/>
+    <text x="148" y="24" text-anchor="middle" font-size="13" font-weight="700" fill="#8A3000">📌 MIT TR体験記の反響</text>
+    <text x="15" y="46" font-size="11" fill="#6A3000">5/4公開のMIT TR法廷体験記が</text>
+    <text x="15" y="62" font-size="11" fill="#6A3000">X上で数万RT。「AI業界の</text>
+    <text x="15" y="78" font-size="11" fill="#6A3000">ウォーターゲート」と形容される</text>
+    <text x="15" y="94" font-size="11" fill="#6A3000">コメントが拡散。裁判を超えた</text>
+    <text x="15" y="108" font-size="11" fill="#AA5010">「価値観の問い」として消費される</text>
+  </g>
+
+  <g transform="translate(710, 678) rotate(-0.5)" filter="url(#stickyShadow)">
+    <rect width="295" height="110" rx="3" fill="#C8E6C9" stroke="#70A870" stroke-width="1.5"/>
+    <text x="148" y="24" text-anchor="middle" font-size="13" font-weight="700" fill="#1A5A30">📌 IPO評判リスク</text>
+    <text x="15" y="46" font-size="11" fill="#2A4A30">$2,000億IPO前に「創業理念を</text>
+    <text x="15" y="62" font-size="11" fill="#2A4A30">裏切った」ナラティブが定着する</text>
+    <text x="15" y="78" font-size="11" fill="#2A4A30">ことへの懸念。NYT・WSJでも</text>
+    <text x="15" y="94" font-size="11" fill="#2A4A30">引用拡散中。一般投資家層への</text>
+    <text x="15" y="108" font-size="11" fill="#3A7040">悪影響が法的帰結より深刻か</text>
+  </g>
+
+  <g transform="translate(1026, 670) rotate(1.8)" filter="url(#stickyShadow)">
+    <rect width="295" height="110" rx="3" fill="#E1BEE7" stroke="#A070A0" stroke-width="1.5"/>
+    <text x="148" y="24" text-anchor="middle" font-size="13" font-weight="700" fill="#5A1A6A">📌 日本への示唆</text>
+    <text x="15" y="46" font-size="11" fill="#4A1A5A">「非営利→営利転換」の問題は</text>
+    <text x="15" y="62" font-size="11" fill="#4A1A5A">内閣府AI戦略会議で議論中の</text>
+    <text x="15" y="78" font-size="11" fill="#4A1A5A">AI機構設計と直結。商業化圧力vs</text>
+    <text x="15" y="94" font-size="11" fill="#4A1A5A">ミッション維持の実証事例として</text>
+    <text x="15" y="108" font-size="11" fill="#7A30A0">政策立案者が参照すべき裁判</text>
+  </g>
+
+  <rect x="0" y="1010" width="1400" height="40" fill="#E8E0D0"/>
+  <text x="700" y="1032" text-anchor="middle" font-size="13" fill="#7A7060" font-style="italic">AI News · 2026-05-04 · Musk v. OpenAI Week 2 — Stuart Russell Testifies AGI Race Equals Nuclear Arms Race, Testimony Limited by Judge</text>
+</svg>

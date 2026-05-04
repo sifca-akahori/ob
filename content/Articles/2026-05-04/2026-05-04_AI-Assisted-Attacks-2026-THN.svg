@@ -1,0 +1,156 @@
+<svg viewBox="0 0 1400 1050" xmlns="http://www.w3.org/2000/svg" font-family="-apple-system, 'Hiragino Sans', 'Yu Gothic', sans-serif">
+  <defs>
+    <pattern id="paperTexture" x="0" y="0" width="4" height="4" patternUnits="userSpaceOnUse">
+      <rect width="4" height="4" fill="#FBF8F1"/>
+      <circle cx="2" cy="2" r="0.4" fill="#E8E2D5" opacity="0.5"/>
+    </pattern>
+    <filter id="softShadow"><feDropShadow dx="2" dy="3" stdDeviation="4" flood-color="#1A1D24" flood-opacity="0.15"/></filter>
+    <filter id="stickyShadow"><feDropShadow dx="3" dy="4" stdDeviation="5" flood-color="#1A1D24" flood-opacity="0.2"/></filter>
+  </defs>
+  <rect width="1400" height="1050" fill="url(#paperTexture)"/>
+  <circle cx="32" cy="150" r="12" fill="none" stroke="#C8C0B0" stroke-width="2"/>
+  <circle cx="32" cy="300" r="12" fill="none" stroke="#C8C0B0" stroke-width="2"/>
+  <circle cx="32" cy="450" r="12" fill="none" stroke="#C8C0B0" stroke-width="2"/>
+  <circle cx="32" cy="600" r="12" fill="none" stroke="#C8C0B0" stroke-width="2"/>
+  <circle cx="32" cy="750" r="12" fill="none" stroke="#C8C0B0" stroke-width="2"/>
+  <circle cx="32" cy="900" r="12" fill="none" stroke="#C8C0B0" stroke-width="2"/>
+  <line x1="0" y1="0" x2="0" y2="1050" stroke="#D8D0C0" stroke-width="2"/>
+  <line x1="60" y1="0" x2="60" y2="1050" stroke="#E8E0D0" stroke-width="1" stroke-dasharray="4,4"/>
+
+  <g transform="translate(1210, 28) rotate(-3)">
+    <rect x="-60" y="0" width="200" height="44" rx="4" fill="#E8A87C" stroke="#1A1D24" stroke-width="2" filter="url(#stickyShadow)"/>
+    <text x="40" y="28" text-anchor="middle" font-size="18" font-weight="700" fill="white">#SNS</text>
+  </g>
+  <rect x="75" y="20" width="200" height="40" rx="6" fill="#2F3842"/>
+  <text x="175" y="46" text-anchor="middle" font-size="16" font-weight="700" fill="white">2026-05-04</text>
+  <text x="290" y="48" font-size="22" fill="#F0A500">⭐⭐</text>
+
+  <text x="80" y="110" font-size="36" font-weight="900" fill="#1A1D24">🔐 2026：AIアシスト攻撃元年</text>
+  <text x="80" y="152" font-size="26" font-weight="700" fill="#C04020">単独アクターが「チーム作業」を実現——CVE悪用44日で発動</text>
+  <line x1="80" y1="165" x2="1340" y2="165" stroke="#E8A87C" stroke-width="3"/>
+  <text x="80" y="190" font-size="15" fill="#7A8090">The Hacker News 年次サイバーセキュリティレポート ｜ 2026-05-04 ｜ #SNS #セキュリティ #攻撃トレンド</text>
+
+  <!-- Hero -->
+  <g transform="translate(1240, 200)">
+    <rect x="-55" y="-10" width="110" height="100" rx="10" fill="#E8A87C" stroke="#1A1D24" stroke-width="3"/>
+    <text x="0" y="45" text-anchor="middle" font-size="42" fill="white">🔓</text>
+    <text x="0" y="108" text-anchor="middle" font-size="12" fill="#3A3D44" font-weight="600">AI Attacks</text>
+  </g>
+
+  <!-- KEY NUMBERS -->
+  <rect x="80" y="210" width="1100" height="130" rx="10" fill="white" stroke="#1A1D24" stroke-width="2" filter="url(#softShadow)"/>
+  <text x="180" y="248" text-anchor="middle" font-size="13" fill="#5A6070" font-weight="600">CVE悪用スピード（2026）</text>
+  <text x="180" y="295" text-anchor="middle" font-size="52" font-weight="900" fill="#C04020">44日</text>
+  <text x="180" y="325" text-anchor="middle" font-size="12" fill="#7A8090">2020年：700日</text>
+  <line x1="320" y1="225" x2="320" y2="330" stroke="#E0D8C8" stroke-width="1.5"/>
+  <text x="460" y="248" text-anchor="middle" font-size="13" fill="#5A6070" font-weight="600">24時間以内悪用率</text>
+  <text x="460" y="295" text-anchor="middle" font-size="52" font-weight="900" fill="#B03010">28.3%</text>
+  <text x="460" y="325" text-anchor="middle" font-size="12" fill="#7A8090">CVE開示から24h内</text>
+  <line x1="600" y1="225" x2="600" y2="330" stroke="#E0D8C8" stroke-width="1.5"/>
+  <text x="740" y="248" text-anchor="middle" font-size="13" fill="#5A6070" font-weight="600">スピード短縮率</text>
+  <text x="740" y="295" text-anchor="middle" font-size="52" font-weight="900" fill="#A02000">94%</text>
+  <text x="740" y="325" text-anchor="middle" font-size="12" fill="#7A8090">悪用までの日数削減</text>
+  <line x1="880" y1="225" x2="880" y2="330" stroke="#E0D8C8" stroke-width="1.5"/>
+  <text x="990" y="248" text-anchor="middle" font-size="13" fill="#5A6070" font-weight="600">2026年主要攻撃</text>
+  <text x="990" y="280" text-anchor="middle" font-size="18" font-weight="900" fill="#1A1D24">AI-Phishing</text>
+  <text x="990" y="302" text-anchor="middle" font-size="18" font-weight="900" fill="#1A1D24">AI-Malware</text>
+  <text x="990" y="325" text-anchor="middle" font-size="12" fill="#7A8090">AI-OSINT が三本柱</text>
+  <line x1="1100" y1="225" x2="1100" y2="330" stroke="#E0D8C8" stroke-width="1.5"/>
+  <text x="1170" y="248" text-anchor="middle" font-size="13" fill="#5A6070" font-weight="600">年</text>
+  <text x="1170" y="295" text-anchor="middle" font-size="52" font-weight="900" fill="#E8A87C">2026</text>
+  <text x="1170" y="325" text-anchor="middle" font-size="12" fill="#7A8090">AIアシスト攻撃元年</text>
+
+  <!-- Timeline chart -->
+  <rect x="80" y="360" width="530" height="290" rx="8" fill="white" stroke="#1A1D24" stroke-width="2" filter="url(#softShadow)"/>
+  <text x="345" y="390" text-anchor="middle" font-size="17" font-weight="800" fill="#1A1D24">⏱ CVE悪用スピードの変遷</text>
+  <line x1="100" y1="398" x2="590" y2="398" stroke="#E8A87C" stroke-width="2"/>
+
+  <!-- Timeline bars -->
+  <text x="110" y="430" font-size="12" fill="#5A6070">2020</text>
+  <rect x="155" y="416" width="410" height="28" rx="4" fill="#E8E0D0" stroke="#C8C0B0" stroke-width="1"/>
+  <text x="573" y="434" font-size="12" fill="#5A5050">700日</text>
+
+  <text x="110" y="468" font-size="12" fill="#5A6070">2022</text>
+  <rect x="155" y="454" width="300" height="28" rx="4" fill="#F0D0B0" stroke="#D0A080" stroke-width="1"/>
+  <text x="463" y="472" font-size="12" fill="#7A5030">480日</text>
+
+  <text x="110" y="506" font-size="12" fill="#5A6070">2024</text>
+  <rect x="155" y="492" width="160" height="28" rx="4" fill="#F0A880" stroke="#C08060" stroke-width="1.5"/>
+  <text x="323" y="510" font-size="12" fill="#8A4020">120日</text>
+
+  <text x="110" y="544" font-size="12" fill="#5A6070">2025</text>
+  <rect x="155" y="530" width="80" height="28" rx="4" fill="#E06040" stroke="#B04020" stroke-width="2"/>
+  <text x="243" y="548" font-size="12" fill="#C03010">60日</text>
+
+  <text x="110" y="582" font-size="12" font-weight="700" fill="#C02000">2026</text>
+  <rect x="155" y="568" width="28" height="28" rx="4" fill="#C02000" stroke="#1A1D24" stroke-width="2"/>
+  <text x="191" y="586" font-size="12" font-weight="700" fill="#C02000">44日 🔥</text>
+
+  <text x="345" y="625" text-anchor="middle" font-size="12" fill="#8A3010">6年で94%短縮——パッチより速く攻撃が来る時代へ</text>
+  <text x="345" y="645" text-anchor="middle" font-size="12" fill="#5A6070">標準パッチサイクル（30〜90日）が機能しなくなった</text>
+
+  <!-- Attack types -->
+  <rect x="630" y="360" width="550" height="290" rx="8" fill="white" stroke="#1A1D24" stroke-width="2" filter="url(#softShadow)"/>
+  <text x="905" y="390" text-anchor="middle" font-size="17" font-weight="800" fill="#1A1D24">🎯 2026年 主要AIアシスト攻撃類型</text>
+  <line x1="650" y1="398" x2="1160" y2="398" stroke="#E8A87C" stroke-width="2"/>
+
+  <rect x="650" y="410" width="510" height="56" rx="6" fill="#FFE8E0" stroke="#E06040" stroke-width="2"/>
+  <text x="660" y="432" font-size="13" font-weight="700" fill="#C03010">🎣 AI生成フィッシング</text>
+  <text x="660" y="452" font-size="11" fill="#5A3020">ターゲットSNS分析→個人化メール自動生成。文法エラーなし。従来検知不能化。</text>
+
+  <rect x="650" y="474" width="510" height="56" rx="6" fill="#FFE8E0" stroke="#E06040" stroke-width="2"/>
+  <text x="660" y="496" font-size="13" font-weight="700" fill="#C03010">🦠 AI支援マルウェア開発</text>
+  <text x="660" y="516" font-size="11" fill="#5A3020">EDRが分類ミスするよう微変形するGAN活用。個人アクターが組織APT水準を実現。</text>
+
+  <rect x="650" y="538" width="510" height="56" rx="6" fill="#FFE8E0" stroke="#E06040" stroke-width="2"/>
+  <text x="660" y="560" font-size="13" font-weight="700" fill="#C03010">🔍 AI-powered OSINT</text>
+  <text x="660" y="580" font-size="11" fill="#5A3020">公開情報を数分でターゲットプロファイリング。以前はチーム2週間分の作業。</text>
+
+  <rect x="650" y="602" width="510" height="44" rx="6" fill="#F0E8E0" stroke="#C08060" stroke-width="1.5"/>
+  <text x="660" y="620" font-size="13" font-weight="700" fill="#A05030">⚡ CVEゼロデイ自動化</text>
+  <text x="660" y="638" font-size="11" fill="#5A3020">CVE公開後24h以内に自動Exploit生成。PoC→武器化の時間が数時間に。</text>
+
+  <!-- Sticky notes -->
+  <g transform="translate(80, 668) rotate(-1.5)" filter="url(#stickyShadow)">
+    <rect width="295" height="120" rx="3" fill="#FFF9C4" stroke="#E0D080" stroke-width="1.5"/>
+    <text x="148" y="26" text-anchor="middle" font-size="13" font-weight="700" fill="#6A5A00">📌 防御崩壊の構造</text>
+    <text x="15" y="48" font-size="11" fill="#5A4A00">パッチ適用標準サイクル30〜90日</text>
+    <text x="15" y="64" font-size="11" fill="#5A4A00">vs悪用44日。多くの組織は</text>
+    <text x="15" y="80" font-size="11" fill="#5A4A00">「パッチ前に攻撃される」状態が</text>
+    <text x="15" y="96" font-size="11" fill="#5A4A00">デフォルト化。リアクティブ防御は</text>
+    <text x="15" y="112" font-size="11" fill="#8A7010">構造的に破綻している</text>
+  </g>
+
+  <g transform="translate(396, 660) rotate(1.2)" filter="url(#stickyShadow)">
+    <rect width="295" height="120" rx="3" fill="#FFE0B2" stroke="#E08040" stroke-width="1.5"/>
+    <text x="148" y="26" text-anchor="middle" font-size="13" font-weight="700" fill="#8A3000">📌 日本規制の空白</text>
+    <text x="15" y="48" font-size="11" fill="#6A3000">NISCのサイバー指針はAIアシスト</text>
+    <text x="15" y="64" font-size="11" fill="#6A3000">攻撃を前提としていない旧来設計。</text>
+    <text x="15" y="80" font-size="11" fill="#6A3000">EU NIS2も対応条項欠落。重要</text>
+    <text x="15" y="96" font-size="11" fill="#6A3000">インフラ（電力・金融・医療）での</text>
+    <text x="15" y="112" font-size="11" fill="#AA5010">被害表面化は時間の問題</text>
+  </g>
+
+  <g transform="translate(710, 668) rotate(-0.5)" filter="url(#stickyShadow)">
+    <rect width="295" height="120" rx="3" fill="#FFDDF0" stroke="#D070A0" stroke-width="1.5"/>
+    <text x="148" y="26" text-anchor="middle" font-size="13" font-weight="700" fill="#7A1050">📌 Axios攻撃との連続性</text>
+    <text x="15" y="48" font-size="11" fill="#6A1040">OpenAI/Axiosサプライチェーン</text>
+    <text x="15" y="64" font-size="11" fill="#6A1040">攻撃（4/30）と今回報告は連続。</text>
+    <text x="15" y="80" font-size="11" fill="#6A1040">AIインフラ自体が標的化する</text>
+    <text x="15" y="96" font-size="11" fill="#6A1040">「AI on AI」攻撃が2026年の</text>
+    <text x="15" y="112" font-size="11" fill="#A0208A">新常態として確立されつつある</text>
+  </g>
+
+  <g transform="translate(1026, 660) rotate(1.8)" filter="url(#stickyShadow)">
+    <rect width="295" height="120" rx="3" fill="#C8E6C9" stroke="#70A870" stroke-width="1.5"/>
+    <text x="148" y="26" text-anchor="middle" font-size="13" font-weight="700" fill="#1A5A30">📌 AI防御の逆説</text>
+    <text x="15" y="48" font-size="11" fill="#2A4A30">守る側もAI-SIEM・XDRを導入</text>
+    <text x="15" y="64" font-size="11" fill="#2A4A30">するが、Fitch同日発表がAI活用</text>
+    <text x="15" y="80" font-size="11" fill="#2A4A30">が短期的に脆弱性を増やすと</text>
+    <text x="15" y="96" font-size="11" fill="#2A4A30">指摘。AI採用が攻撃面積を広げる</text>
+    <text x="15" y="112" font-size="11" fill="#3A7040">という逆説が業界コンセンサスに</text>
+  </g>
+
+  <rect x="0" y="1010" width="1400" height="40" fill="#E8E0D0"/>
+  <text x="700" y="1032" text-anchor="middle" font-size="13" fill="#7A7060" font-style="italic">AI News · 2026-05-04 · 2026: The Year of AI-Assisted Attacks — Single Actors Now Match APT Teams, CVE Exploitation at 44 Days</text>
+</svg>

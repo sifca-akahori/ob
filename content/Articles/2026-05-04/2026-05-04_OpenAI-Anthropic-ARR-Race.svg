@@ -1,0 +1,185 @@
+<svg viewBox="0 0 1400 1050" xmlns="http://www.w3.org/2000/svg" font-family="-apple-system, 'Hiragino Sans', 'Yu Gothic', sans-serif">
+  <defs>
+    <pattern id="paperTexture" x="0" y="0" width="4" height="4" patternUnits="userSpaceOnUse">
+      <rect width="4" height="4" fill="#FBF8F1"/>
+      <circle cx="2" cy="2" r="0.4" fill="#E8E2D5" opacity="0.5"/>
+    </pattern>
+    <filter id="softShadow"><feDropShadow dx="2" dy="3" stdDeviation="4" flood-color="#1A1D24" flood-opacity="0.15"/></filter>
+    <filter id="stickyShadow"><feDropShadow dx="3" dy="4" stdDeviation="5" flood-color="#1A1D24" flood-opacity="0.2"/></filter>
+  </defs>
+  <rect width="1400" height="1050" fill="url(#paperTexture)"/>
+  <circle cx="32" cy="150" r="12" fill="none" stroke="#C8C0B0" stroke-width="2"/>
+  <circle cx="32" cy="300" r="12" fill="none" stroke="#C8C0B0" stroke-width="2"/>
+  <circle cx="32" cy="450" r="12" fill="none" stroke="#C8C0B0" stroke-width="2"/>
+  <circle cx="32" cy="600" r="12" fill="none" stroke="#C8C0B0" stroke-width="2"/>
+  <circle cx="32" cy="750" r="12" fill="none" stroke="#C8C0B0" stroke-width="2"/>
+  <circle cx="32" cy="900" r="12" fill="none" stroke="#C8C0B0" stroke-width="2"/>
+  <line x1="0" y1="0" x2="0" y2="1050" stroke="#D8D0C0" stroke-width="2"/>
+  <line x1="60" y1="0" x2="60" y2="1050" stroke="#E8E0D0" stroke-width="1" stroke-dasharray="4,4"/>
+
+  <g transform="translate(1210, 28) rotate(-3)">
+    <rect x="-60" y="0" width="220" height="44" rx="4" fill="#5CA46E" stroke="#1A1D24" stroke-width="2" filter="url(#stickyShadow)"/>
+    <text x="50" y="28" text-anchor="middle" font-size="18" font-weight="700" fill="white">#ビジネス</text>
+  </g>
+  <rect x="75" y="20" width="200" height="40" rx="6" fill="#2F3842"/>
+  <text x="175" y="46" text-anchor="middle" font-size="16" font-weight="700" fill="white">2026-05-04</text>
+  <text x="290" y="48" font-size="22" fill="#F0A500">⭐⭐</text>
+
+  <text x="80" y="110" font-size="34" font-weight="900" fill="#1A1D24">📈 OpenAI ARR $250億 vs Anthropic ARR $190億</text>
+  <text x="80" y="152" font-size="26" font-weight="700" fill="#3A3D44">史上最速SaaS成長——エンタープライズAI市場の真の覇者は誰か</text>
+  <line x1="80" y1="165" x2="1340" y2="165" stroke="#5CA46E" stroke-width="3"/>
+  <text x="80" y="190" font-size="15" fill="#7A8090">TechCrunch / CNBC / The-Decoder ｜ 2026-05-04 ｜ #ビジネス #OpenAI #Anthropic #ARR #IPO</text>
+
+  <g transform="translate(1240, 200)">
+    <rect x="-55" y="-10" width="110" height="100" rx="10" fill="#5CA46E" stroke="#1A1D24" stroke-width="3"/>
+    <text x="0" y="45" text-anchor="middle" font-size="40" fill="white">📊</text>
+    <text x="0" y="108" text-anchor="middle" font-size="11" fill="#3A3D44" font-weight="600">ARR Race</text>
+  </g>
+
+  <!-- KEY NUMBERS -->
+  <rect x="80" y="210" width="1100" height="130" rx="10" fill="white" stroke="#1A1D24" stroke-width="2" filter="url(#softShadow)"/>
+  <text x="190" y="248" text-anchor="middle" font-size="13" fill="#5A6070" font-weight="600">OpenAI ARR</text>
+  <text x="190" y="295" text-anchor="middle" font-size="52" font-weight="900" fill="#5CA46E">$250億</text>
+  <text x="190" y="325" text-anchor="middle" font-size="12" fill="#7A8090">3年で$0→$250億</text>
+  <line x1="340" y1="225" x2="340" y2="330" stroke="#E0D8C8" stroke-width="1.5"/>
+  <text x="480" y="248" text-anchor="middle" font-size="13" fill="#5A6070" font-weight="600">Anthropic ARR</text>
+  <text x="480" y="295" text-anchor="middle" font-size="52" font-weight="900" fill="#3A8050">$190億</text>
+  <text x="480" y="325" text-anchor="middle" font-size="12" fill="#7A8090">エンタープライズ主体</text>
+  <line x1="620" y1="225" x2="620" y2="330" stroke="#E0D8C8" stroke-width="1.5"/>
+  <text x="760" y="248" text-anchor="middle" font-size="13" fill="#5A6070" font-weight="600">OpenAI評価額（IPO）</text>
+  <text x="760" y="295" text-anchor="middle" font-size="52" font-weight="900" fill="#2A6040">$2,000億+</text>
+  <text x="760" y="325" text-anchor="middle" font-size="12" fill="#7A8090">準備進行中</text>
+  <line x1="900" y1="225" x2="900" y2="330" stroke="#E0D8C8" stroke-width="1.5"/>
+  <text x="1010" y="248" text-anchor="middle" font-size="13" fill="#5A6070" font-weight="600">Anthropic評価額</text>
+  <text x="1010" y="295" text-anchor="middle" font-size="52" font-weight="900" fill="#1A1D24">$3,500億</text>
+  <text x="1010" y="325" text-anchor="middle" font-size="12" fill="#7A8090">Google $400億投資後</text>
+  <line x1="1120" y1="225" x2="1120" y2="330" stroke="#E0D8C8" stroke-width="1.5"/>
+  <text x="1175" y="248" text-anchor="middle" font-size="13" fill="#5A6070" font-weight="600">Salesforceの速度</text>
+  <text x="1175" y="285" text-anchor="middle" font-size="22" font-weight="900" fill="#6A6060">$10B</text>
+  <text x="1175" y="307" text-anchor="middle" font-size="22" font-weight="900" fill="#6A6060">25年</text>
+  <text x="1175" y="325" text-anchor="middle" font-size="12" fill="#7A8090">AIは3年で同到達</text>
+
+  <!-- ARR Growth Chart -->
+  <rect x="80" y="358" width="540" height="295" rx="8" fill="white" stroke="#1A1D24" stroke-width="2" filter="url(#softShadow)"/>
+  <text x="350" y="388" text-anchor="middle" font-size="17" font-weight="800" fill="#1A1D24">📈 ARR成長グラフ（推定）</text>
+  <line x1="100" y1="396" x2="600" y2="396" stroke="#5CA46E" stroke-width="2"/>
+
+  <!-- Y axis labels -->
+  <line x1="130" y1="408" x2="130" y2="620" stroke="#E0D8C8" stroke-width="1.5"/>
+  <text x="125" y="625" text-anchor="end" font-size="11" fill="#7A8090">$0</text>
+  <text x="125" y="575" text-anchor="end" font-size="11" fill="#7A8090">$5B</text>
+  <text x="125" y="525" text-anchor="end" font-size="11" fill="#7A8090">$10B</text>
+  <text x="125" y="475" text-anchor="end" font-size="11" fill="#7A8090">$15B</text>
+  <text x="125" y="425" text-anchor="end" font-size="11" fill="#7A8090">$25B</text>
+
+  <!-- X axis labels -->
+  <text x="165" y="640" text-anchor="middle" font-size="11" fill="#7A8090">2023</text>
+  <text x="270" y="640" text-anchor="middle" font-size="11" fill="#7A8090">2024</text>
+  <text x="375" y="640" text-anchor="middle" font-size="11" fill="#7A8090">2025</text>
+  <text x="490" y="640" text-anchor="middle" font-size="11" fill="#7A8090">2026</text>
+
+  <!-- OpenAI line -->
+  <polyline points="165,620 270,590 375,530 490,415" stroke="#5CA46E" stroke-width="3" fill="none"/>
+  <circle cx="165" cy="620" r="5" fill="#5CA46E" stroke="white" stroke-width="2"/>
+  <circle cx="270" cy="590" r="5" fill="#5CA46E" stroke="white" stroke-width="2"/>
+  <circle cx="375" cy="530" r="5" fill="#5CA46E" stroke="white" stroke-width="2"/>
+  <circle cx="490" cy="415" r="7" fill="#5CA46E" stroke="#1A1D24" stroke-width="2"/>
+  <text x="500" y="413" font-size="12" font-weight="700" fill="#5CA46E">$25B</text>
+
+  <!-- Anthropic line -->
+  <polyline points="165,622 270,608 375,560 490,435" stroke="#3A8050" stroke-width="3" fill="none" stroke-dasharray="6,3"/>
+  <circle cx="165" cy="622" r="5" fill="#3A8050" stroke="white" stroke-width="2"/>
+  <circle cx="270" cy="608" r="5" fill="#3A8050" stroke="white" stroke-width="2"/>
+  <circle cx="375" cy="560" r="5" fill="#3A8050" stroke="white" stroke-width="2"/>
+  <circle cx="490" cy="435" r="7" fill="#3A8050" stroke="#1A1D24" stroke-width="2"/>
+  <text x="500" y="433" font-size="12" font-weight="700" fill="#3A8050">$19B</text>
+
+  <!-- Legend -->
+  <line x1="140" y1="668" x2="180" y2="668" stroke="#5CA46E" stroke-width="3"/>
+  <text x="188" y="672" font-size="12" fill="#5CA46E">OpenAI</text>
+  <line x1="270" y1="668" x2="310" y2="668" stroke="#3A8050" stroke-width="3" stroke-dasharray="6,3"/>
+  <text x="318" y="672" font-size="12" fill="#3A8050">Anthropic</text>
+
+  <!-- Comparison with SaaS companies -->
+  <rect x="640" y="358" width="540" height="295" rx="8" fill="white" stroke="#1A1D24" stroke-width="2" filter="url(#softShadow)"/>
+  <text x="910" y="388" text-anchor="middle" font-size="17" font-weight="800" fill="#1A1D24">🏆 SaaS成長速度 歴史的比較</text>
+  <line x1="660" y1="396" x2="1160" y2="396" stroke="#5CA46E" stroke-width="2"/>
+
+  <!-- Header -->
+  <text x="678" y="422" font-size="12" font-weight="700" fill="#5A5050">企業</text>
+  <text x="840" y="422" text-anchor="middle" font-size="12" font-weight="700" fill="#5A5050">$10B ARR到達</text>
+  <text x="1040" y="422" text-anchor="middle" font-size="12" font-weight="700" fill="#5A5050">現在のARR</text>
+  <line x1="660" y1="428" x2="1160" y2="428" stroke="#E0D8C8" stroke-width="1"/>
+
+  <text x="678" y="454" font-size="13" fill="#1A1D24">Salesforce</text>
+  <rect x="780" y="440" width="120" height="24" rx="4" fill="#E8E0D0"/>
+  <text x="840" y="456" text-anchor="middle" font-size="12" fill="#5A5050">25年</text>
+  <text x="1040" y="454" text-anchor="middle" font-size="12" fill="#5A5050">~$36B</text>
+
+  <text x="678" y="490" font-size="13" fill="#1A1D24">Workday</text>
+  <rect x="780" y="476" width="120" height="24" rx="4" fill="#E8E0D0"/>
+  <text x="840" y="492" text-anchor="middle" font-size="12" fill="#5A5050">14年</text>
+  <text x="1040" y="490" text-anchor="middle" font-size="12" fill="#5A5050">~$8B</text>
+
+  <text x="678" y="526" font-size="13" fill="#1A1D24">Snowflake</text>
+  <rect x="780" y="512" width="120" height="24" rx="4" fill="#F0E0C0"/>
+  <text x="840" y="528" text-anchor="middle" font-size="12" fill="#7A5010">6年（最速記録）</text>
+  <text x="1040" y="526" text-anchor="middle" font-size="12" fill="#5A5050">~$4B</text>
+
+  <text x="678" y="562" font-size="13" font-weight="700" fill="#5CA46E">OpenAI</text>
+  <rect x="780" y="548" width="120" height="24" rx="4" fill="#5CA46E" opacity="0.3" stroke="#5CA46E" stroke-width="1.5"/>
+  <text x="840" y="564" text-anchor="middle" font-size="12" font-weight="700" fill="#1A5030">3年未満 🚀</text>
+  <text x="1040" y="562" text-anchor="middle" font-size="13" font-weight="700" fill="#5CA46E">$25B</text>
+
+  <text x="678" y="598" font-size="13" font-weight="700" fill="#3A8050">Anthropic</text>
+  <rect x="780" y="584" width="120" height="24" rx="4" fill="#3A8050" opacity="0.3" stroke="#3A8050" stroke-width="1.5"/>
+  <text x="840" y="600" text-anchor="middle" font-size="12" font-weight="700" fill="#1A5030">3年未満 🚀</text>
+  <text x="1040" y="598" text-anchor="middle" font-size="13" font-weight="700" fill="#3A8050">$19B</text>
+
+  <rect x="660" y="622" width="490" height="26" rx="4" fill="#E8F4EC" stroke="#5CA46E" stroke-width="1.5"/>
+  <text x="905" y="639" text-anchor="middle" font-size="12" fill="#2A5A38">両社ともにPC革命・インターネット革命を上回る成長速度——Bloomberg Beta</text>
+
+  <!-- Sticky notes -->
+  <g transform="translate(80, 670) rotate(-1.5)" filter="url(#stickyShadow)">
+    <rect width="290" height="112" rx="3" fill="#FFF9C4" stroke="#E0D080" stroke-width="1.5"/>
+    <text x="145" y="24" text-anchor="middle" font-size="13" font-weight="700" fill="#6A5A00">📌 赤字拡大の現実</text>
+    <text x="15" y="46" font-size="11" fill="#5A4A00">ARR $25Bの一方で訓練・推論</text>
+    <text x="15" y="62" font-size="11" fill="#5A4A00">CapExが年$20〜30B超。成長</text>
+    <text x="15" y="78" font-size="11" fill="#5A4A00">しながら赤字拡大が続く。JV</text>
+    <text x="15" y="94" font-size="11" fill="#5A4A00">による実装課金収入が赤字縮小</text>
+    <text x="15" y="108" font-size="11" fill="#8A7010">への重要ステップ</text>
+  </g>
+
+  <g transform="translate(390, 662) rotate(1.2)" filter="url(#stickyShadow)">
+    <rect width="290" height="112" rx="3" fill="#FFE0B2" stroke="#E08040" stroke-width="1.5"/>
+    <text x="145" y="24" text-anchor="middle" font-size="13" font-weight="700" fill="#8A3000">📌 顧客構成の質的差異</text>
+    <text x="15" y="46" font-size="11" fill="#6A3000">OpenAI: 60%API/法人+40%</text>
+    <text x="15" y="62" font-size="11" fill="#6A3000">コンシューマサブスク。</text>
+    <text x="15" y="78" font-size="11" fill="#6A3000">Anthropic: ほぼ100%が</text>
+    <text x="15" y="94" font-size="11" fill="#6A3000">API/エンタープライズ。</text>
+    <text x="15" y="108" font-size="11" fill="#AA5010">Anthropicの収益の質が高い</text>
+  </g>
+
+  <g transform="translate(700, 670) rotate(-0.5)" filter="url(#stickyShadow)">
+    <rect width="290" height="112" rx="3" fill="#C8E6C9" stroke="#70A870" stroke-width="1.5"/>
+    <text x="145" y="24" text-anchor="middle" font-size="13" font-weight="700" fill="#1A5A30">📌 中国AI企業との格差</text>
+    <text x="15" y="48" font-size="11" fill="#2A4A30">DeepSeek等中国主要AIのARRは</text>
+    <text x="15" y="64" font-size="11" fill="#2A4A30">推定最大$5B程度。国内無料</text>
+    <text x="15" y="80" font-size="11" fill="#2A4A30">戦略の差もあるが、グローバル</text>
+    <text x="15" y="96" font-size="11" fill="#2A4A30">エンタープライズ競争力での</text>
+    <text x="15" y="108" font-size="11" fill="#3A7040">中国勢の遅れが鮮明</text>
+  </g>
+
+  <g transform="translate(1010, 662) rotate(1.8)" filter="url(#stickyShadow)">
+    <rect width="290" height="112" rx="3" fill="#E1BEE7" stroke="#A070A0" stroke-width="1.5"/>
+    <text x="145" y="24" text-anchor="middle" font-size="13" font-weight="700" fill="#5A1A6A">📌 IPOタイミング</text>
+    <text x="15" y="46" font-size="11" fill="#4A1A5A">OpenAI IPO窓口は2026年末〜</text>
+    <text x="15" y="62" font-size="11" fill="#4A1A5A">2027年初頭と観測。Musk裁判</text>
+    <text x="15" y="78" font-size="11" fill="#4A1A5A">（5月中旬判決）+ JVによる</text>
+    <text x="15" y="94" font-size="11" fill="#4A1A5A">Revenue visibility確保が</text>
+    <text x="15" y="108" font-size="11" fill="#7A30A0">IPO成功の必要条件</text>
+  </g>
+
+  <rect x="0" y="1010" width="1400" height="40" fill="#E8E0D0"/>
+  <text x="700" y="1032" text-anchor="middle" font-size="13" fill="#7A7060" font-style="italic">AI News · 2026-05-04 · OpenAI $25B ARR vs Anthropic $19B ARR — Fastest-Growing Enterprise SaaS Companies in History</text>
+</svg>

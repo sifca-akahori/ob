@@ -1,0 +1,172 @@
+<svg viewBox="0 0 1400 1050" xmlns="http://www.w3.org/2000/svg" font-family="-apple-system, 'Hiragino Sans', 'Yu Gothic', sans-serif">
+  <defs>
+    <pattern id="paperTexture" x="0" y="0" width="4" height="4" patternUnits="userSpaceOnUse">
+      <rect width="4" height="4" fill="#FBF8F1"/>
+      <circle cx="2" cy="2" r="0.4" fill="#E8E2D5" opacity="0.5"/>
+    </pattern>
+    <filter id="softShadow">
+      <feDropShadow dx="2" dy="3" stdDeviation="4" flood-color="#1A1D24" flood-opacity="0.15"/>
+    </filter>
+    <filter id="stickyShadow">
+      <feDropShadow dx="3" dy="4" stdDeviation="5" flood-color="#1A1D24" flood-opacity="0.2"/>
+    </filter>
+  </defs>
+
+  <rect width="1400" height="1050" fill="url(#paperTexture)"/>
+
+  <!-- Binding holes -->
+  <circle cx="32" cy="150" r="12" fill="none" stroke="#C8C0B0" stroke-width="2"/>
+  <circle cx="32" cy="300" r="12" fill="none" stroke="#C8C0B0" stroke-width="2"/>
+  <circle cx="32" cy="450" r="12" fill="none" stroke="#C8C0B0" stroke-width="2"/>
+  <circle cx="32" cy="600" r="12" fill="none" stroke="#C8C0B0" stroke-width="2"/>
+  <circle cx="32" cy="750" r="12" fill="none" stroke="#C8C0B0" stroke-width="2"/>
+  <circle cx="32" cy="900" r="12" fill="none" stroke="#C8C0B0" stroke-width="2"/>
+  <line x1="0" y1="0" x2="0" y2="1050" stroke="#D8D0C0" stroke-width="2"/>
+  <line x1="60" y1="0" x2="60" y2="1050" stroke="#E8E0D0" stroke-width="1" stroke-dasharray="4,4"/>
+
+  <!-- Category tape -->
+  <g transform="translate(1210, 28) rotate(-3)">
+    <rect x="-60" y="0" width="220" height="44" rx="4" fill="#5CA46E" stroke="#1A1D24" stroke-width="2" filter="url(#stickyShadow)"/>
+    <text x="50" y="28" text-anchor="middle" font-size="18" font-weight="700" fill="white">#ビジネス</text>
+  </g>
+
+  <!-- Date + Impact -->
+  <rect x="75" y="20" width="200" height="40" rx="6" fill="#2F3842"/>
+  <text x="175" y="46" text-anchor="middle" font-size="16" font-weight="700" fill="white">2026-05-04</text>
+  <text x="290" y="48" font-size="22" fill="#F0A500">⭐⭐⭐</text>
+
+  <!-- Title -->
+  <text x="80" y="110" font-size="36" font-weight="900" fill="#1A1D24">🚀 OpenAI "The Deployment Company" $100億JV</text>
+  <text x="80" y="152" font-size="26" font-weight="700" fill="#3A3D44">19社のPEが2,000社超に展開——エンタープライズAI実装軍</text>
+  <line x1="80" y1="165" x2="1340" y2="165" stroke="#5CA46E" stroke-width="3"/>
+  <text x="80" y="190" font-size="15" fill="#7A8090">Bloomberg · The-Decoder · Yahoo Finance ｜ 2026-05-04 ｜ #ビジネス #OpenAI #PE #JV</text>
+
+  <!-- Hero -->
+  <g transform="translate(1240, 200)">
+    <rect x="-60" y="-10" width="120" height="100" rx="10" fill="#5CA46E" stroke="#1A1D24" stroke-width="3"/>
+    <text x="0" y="40" text-anchor="middle" font-size="42" fill="white">🚀</text>
+    <text x="0" y="110" text-anchor="middle" font-size="12" fill="#3A3D44" font-weight="600">Deploy Co.</text>
+  </g>
+
+  <!-- KEY NUMBERS -->
+  <rect x="80" y="210" width="1100" height="130" rx="10" fill="white" stroke="#1A1D24" stroke-width="2" filter="url(#softShadow)"/>
+  <text x="175" y="248" text-anchor="middle" font-size="13" fill="#5A6070" font-weight="600">JV評価額</text>
+  <text x="175" y="295" text-anchor="middle" font-size="52" font-weight="900" fill="#5CA46E">$100億</text>
+  <text x="175" y="325" text-anchor="middle" font-size="12" fill="#7A8090">The Deployment Company</text>
+  <line x1="310" y1="225" x2="310" y2="330" stroke="#E0D8C8" stroke-width="1.5"/>
+  <text x="435" y="248" text-anchor="middle" font-size="13" fill="#5A6070" font-weight="600">外部投資家</text>
+  <text x="435" y="295" text-anchor="middle" font-size="52" font-weight="900" fill="#3A7A54">$40億+</text>
+  <text x="435" y="325" text-anchor="middle" font-size="12" fill="#7A8090">19社が拠出</text>
+  <line x1="560" y1="225" x2="560" y2="330" stroke="#E0D8C8" stroke-width="1.5"/>
+  <text x="680" y="248" text-anchor="middle" font-size="13" fill="#5A6070" font-weight="600">投資参加企業数</text>
+  <text x="680" y="295" text-anchor="middle" font-size="52" font-weight="900" fill="#2F8050">19社</text>
+  <text x="680" y="325" text-anchor="middle" font-size="12" fill="#7A8090">TPG・SoftBank・Bain等</text>
+  <line x1="810" y1="225" x2="810" y2="330" stroke="#E0D8C8" stroke-width="1.5"/>
+  <text x="940" y="248" text-anchor="middle" font-size="13" fill="#5A6070" font-weight="600">ポートフォリオ企業</text>
+  <text x="940" y="295" text-anchor="middle" font-size="52" font-weight="900" fill="#1A1D24">2,000+</text>
+  <text x="940" y="325" text-anchor="middle" font-size="12" fill="#7A8090">展開対象企業数</text>
+  <line x1="1060" y1="225" x2="1060" y2="330" stroke="#E0D8C8" stroke-width="1.5"/>
+  <text x="1140" y="248" text-anchor="middle" font-size="13" fill="#5A6070" font-weight="600">OpenAI出資</text>
+  <text x="1140" y="295" text-anchor="middle" font-size="52" font-weight="900" fill="#1A6040">$5億</text>
+  <text x="1140" y="325" text-anchor="middle" font-size="12" fill="#7A8090">＋$15億追加オプション</text>
+
+  <!-- Investor Grid -->
+  <rect x="80" y="360" width="540" height="290" rx="8" fill="white" stroke="#1A1D24" stroke-width="2" filter="url(#softShadow)"/>
+  <text x="350" y="388" text-anchor="middle" font-size="17" font-weight="800" fill="#1A1D24">💼 19社の主要投資家</text>
+  <line x1="100" y1="396" x2="600" y2="396" stroke="#5CA46E" stroke-width="2"/>
+
+  <!-- Tier 1 - anchor -->
+  <rect x="100" y="408" width="500" height="24" rx="3" fill="#E8F4EC"/>
+  <text x="350" y="424" text-anchor="middle" font-size="12" font-weight="700" fill="#2F6040">アンカー投資家</text>
+  <rect x="100" y="438" width="155" height="44" rx="5" fill="#5CA46E" opacity="0.2" stroke="#5CA46E" stroke-width="1.5"/>
+  <text x="178" y="464" text-anchor="middle" font-size="12" font-weight="700" fill="#1A5030">TPG Inc.</text>
+  <rect x="262" y="438" width="155" height="44" rx="5" fill="#5CA46E" opacity="0.2" stroke="#5CA46E" stroke-width="1.5"/>
+  <text x="340" y="464" text-anchor="middle" font-size="12" font-weight="700" fill="#1A5030">SoftBank Group</text>
+  <rect x="425" y="438" width="175" height="44" rx="5" fill="#5CA46E" opacity="0.2" stroke="#5CA46E" stroke-width="1.5"/>
+  <text x="512" y="464" text-anchor="middle" font-size="12" font-weight="700" fill="#1A5030">Bain Capital</text>
+
+  <!-- Tier 2 -->
+  <rect x="100" y="490" width="500" height="24" rx="3" fill="#F0F8F4"/>
+  <text x="350" y="506" text-anchor="middle" font-size="12" font-weight="600" fill="#3A7050">参加投資家</text>
+  <text x="115" y="530" font-size="11" fill="#4A6055">• Brookfield Asset Management</text>
+  <text x="115" y="548" font-size="11" fill="#4A6055">• Advent International</text>
+  <text x="115" y="566" font-size="11" fill="#4A6055">• Dragoneer Investment Group</text>
+  <text x="350" y="530" font-size="11" fill="#4A6055">• その他12社</text>
+  <text x="350" y="548" font-size="11" fill="#4A6055">• 計19社が外部参加</text>
+  <text x="350" y="566" font-size="11" fill="#4A6055">• $40億超を共同拠出</text>
+
+  <text x="350" y="620" text-anchor="middle" font-size="13" font-weight="700" fill="#1A1D24">OpenAI → 過半数議決権維持</text>
+  <text x="350" y="638" text-anchor="middle" font-size="12" fill="#5A6070">ガバナンス支配を手放さない設計</text>
+
+  <!-- Business Model Comparison -->
+  <rect x="640" y="360" width="540" height="290" rx="8" fill="white" stroke="#1A1D24" stroke-width="2" filter="url(#softShadow)"/>
+  <text x="910" y="388" text-anchor="middle" font-size="17" font-weight="800" fill="#1A1D24">💡 新ビジネスモデル</text>
+  <line x1="660" y1="396" x2="1160" y2="396" stroke="#5CA46E" stroke-width="2"/>
+
+  <!-- Traditional -->
+  <rect x="660" y="408" width="220" height="30" rx="4" fill="#E8E0D0"/>
+  <text x="770" y="428" text-anchor="middle" font-size="13" font-weight="700" fill="#4A4040">従来モデル</text>
+  <text x="660" y="460" font-size="12" fill="#5A5050">📦 ソフトウェア販売</text>
+  <text x="660" y="478" font-size="12" fill="#5A5050">   （API課金・サブスク）</text>
+  <text x="660" y="504" font-size="12" fill="#5A5050">⬇ 1社ずつ営業</text>
+  <text x="660" y="522" font-size="12" fill="#5A5050">⬇ 使い方はユーザー任せ</text>
+  <text x="660" y="548" font-size="12" fill="#5A5050">⬇ ROI実現率 33%</text>
+  <text x="660" y="574" font-size="12" fill="#AA4020">問題：導入しても使われない</text>
+
+  <!-- Arrow -->
+  <text x="895" y="510" font-size="28" fill="#5CA46E">→</text>
+
+  <!-- New -->
+  <rect x="940" y="408" width="220" height="30" rx="4" fill="#5CA46E"/>
+  <text x="1050" y="428" text-anchor="middle" font-size="13" font-weight="700" fill="white">JVモデル</text>
+  <text x="940" y="460" font-size="12" fill="#2A5030">✅ 実装支援・統合課金</text>
+  <text x="940" y="478" font-size="12" fill="#2A5030">   （成果報酬型）</text>
+  <text x="940" y="504" font-size="12" fill="#2A5030">✅ 2,000社一括アクセス</text>
+  <text x="940" y="522" font-size="12" fill="#2A5030">✅ エンジニアが常駐実装</text>
+  <text x="940" y="548" font-size="12" fill="#2A5030">✅ 使用量↑で収益↑</text>
+  <text x="940" y="574" font-size="12" fill="#3A7A40">解決：Cursor型usage-based</text>
+
+  <!-- Sticky notes -->
+  <g transform="translate(80, 670) rotate(-1.5)" filter="url(#stickyShadow)">
+    <rect width="300" height="120" rx="3" fill="#FFF9C4" stroke="#E0D080" stroke-width="1.5"/>
+    <text x="150" y="26" text-anchor="middle" font-size="13" font-weight="700" fill="#6A5A00">📌 SoftBankの全方位依存</text>
+    <text x="15" y="48" font-size="11" fill="#5A4A00">SoftBankはOpenAI $400億調達</text>
+    <text x="15" y="64" font-size="11" fill="#5A4A00">にも$100億参加予定。Armで</text>
+    <text x="15" y="80" font-size="11" fill="#5A4A00">半導体協力も。Vision Fund</text>
+    <text x="15" y="96" font-size="11" fill="#5A4A00">300社超がAI顧客候補に。</text>
+    <text x="15" y="112" font-size="11" fill="#8A7010">一石三鳥の投資戦略</text>
+  </g>
+
+  <g transform="translate(400, 662) rotate(1.2)" filter="url(#stickyShadow)">
+    <rect width="300" height="120" rx="3" fill="#FFE0B2" stroke="#E08040" stroke-width="1.5"/>
+    <text x="150" y="26" text-anchor="middle" font-size="13" font-weight="700" fill="#8A3000">📌 IPO前の収益固め</text>
+    <text x="15" y="48" font-size="11" fill="#6A3000">OpenAI IPO（$2,000億超）前に</text>
+    <text x="15" y="64" font-size="11" fill="#6A3000">「構造的収益」を確保。Bloomberg</text>
+    <text x="15" y="80" font-size="11" fill="#6A3000">内部目標未達報道への対策と</text>
+    <text x="15" y="96" font-size="11" fill="#6A3000">Revenue visibilityの改善が</text>
+    <text x="15" y="112" font-size="11" fill="#AA5010">真の狙いと見られる</text>
+  </g>
+
+  <g transform="translate(720, 670) rotate(-0.5)" filter="url(#stickyShadow)">
+    <rect width="300" height="120" rx="3" fill="#C8E6C9" stroke="#70A870" stroke-width="1.5"/>
+    <text x="150" y="26" text-anchor="middle" font-size="13" font-weight="700" fill="#1A5A30">📌 Anthropic JVとの差異</text>
+    <text x="15" y="48" font-size="11" fill="#2A4A30">Anthropic「質・深い実装」vs</text>
+    <text x="15" y="64" font-size="11" fill="#2A4A30">OpenAI「量・広い展開」の差。</text>
+    <text x="15" y="80" font-size="11" fill="#2A4A30">両社が同日発表した5/4は</text>
+    <text x="15" y="96" font-size="11" fill="#2A4A30">エンタープライズAI市場の</text>
+    <text x="15" y="112" font-size="11" fill="#3A7040">転換点として記録される日</text>
+  </g>
+
+  <g transform="translate(1040, 662) rotate(1.8)" filter="url(#stickyShadow)">
+    <rect width="300" height="120" rx="3" fill="#E1BEE7" stroke="#A070A0" stroke-width="1.5"/>
+    <text x="150" y="26" text-anchor="middle" font-size="13" font-weight="700" fill="#5A1A6A">📌 PE圧力 vs 安全性</text>
+    <text x="15" y="48" font-size="11" fill="#4A1A5A">PEは3〜5年でExit・倍率最大化</text>
+    <text x="15" y="64" font-size="11" fill="#4A1A5A">を目指す。OpenAI「AGIの安全</text>
+    <text x="15" y="80" font-size="11" fill="#4A1A5A">な開発」ミッションとの長期的</text>
+    <text x="15" y="96" font-size="11" fill="#4A1A5A">緊張は解消されない。Musk裁判</text>
+    <text x="15" y="112" font-size="11" fill="#7A30A0">が指摘する問題と同質</text>
+  </g>
+
+  <rect x="0" y="1010" width="1400" height="40" fill="#E8E0D0"/>
+  <text x="700" y="1032" text-anchor="middle" font-size="13" fill="#7A7060" font-style="italic">AI News · 2026-05-04 · OpenAI "The Deployment Company" — $10B Joint Venture with 19 PE Firms Targeting 2,000+ Companies</text>
+</svg>

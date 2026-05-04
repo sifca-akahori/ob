@@ -1,0 +1,162 @@
+<svg viewBox="0 0 1400 1050" xmlns="http://www.w3.org/2000/svg" font-family="-apple-system, 'Hiragino Sans', 'Yu Gothic', sans-serif">
+  <defs>
+    <pattern id="paperTexture" x="0" y="0" width="4" height="4" patternUnits="userSpaceOnUse">
+      <rect width="4" height="4" fill="#FBF8F1"/>
+      <circle cx="2" cy="2" r="0.4" fill="#E8E2D5" opacity="0.5"/>
+    </pattern>
+    <filter id="softShadow"><feDropShadow dx="2" dy="3" stdDeviation="4" flood-color="#1A1D24" flood-opacity="0.15"/></filter>
+    <filter id="stickyShadow"><feDropShadow dx="3" dy="4" stdDeviation="5" flood-color="#1A1D24" flood-opacity="0.2"/></filter>
+  </defs>
+  <rect width="1400" height="1050" fill="url(#paperTexture)"/>
+  <circle cx="32" cy="150" r="12" fill="none" stroke="#C8C0B0" stroke-width="2"/>
+  <circle cx="32" cy="300" r="12" fill="none" stroke="#C8C0B0" stroke-width="2"/>
+  <circle cx="32" cy="450" r="12" fill="none" stroke="#C8C0B0" stroke-width="2"/>
+  <circle cx="32" cy="600" r="12" fill="none" stroke="#C8C0B0" stroke-width="2"/>
+  <circle cx="32" cy="750" r="12" fill="none" stroke="#C8C0B0" stroke-width="2"/>
+  <circle cx="32" cy="900" r="12" fill="none" stroke="#C8C0B0" stroke-width="2"/>
+  <line x1="0" y1="0" x2="0" y2="1050" stroke="#D8D0C0" stroke-width="2"/>
+  <line x1="60" y1="0" x2="60" y2="1050" stroke="#E8E0D0" stroke-width="1" stroke-dasharray="4,4"/>
+
+  <g transform="translate(1210, 28) rotate(-3)">
+    <rect x="-60" y="0" width="200" height="44" rx="4" fill="#5B8DEF" stroke="#1A1D24" stroke-width="2" filter="url(#stickyShadow)"/>
+    <text x="40" y="28" text-anchor="middle" font-size="18" font-weight="700" fill="white">#研究</text>
+  </g>
+  <rect x="75" y="20" width="200" height="40" rx="6" fill="#2F3842"/>
+  <text x="175" y="46" text-anchor="middle" font-size="16" font-weight="700" fill="white">2026-05-04</text>
+  <text x="290" y="48" font-size="22" fill="#F0A500">⭐⭐⭐</text>
+
+  <text x="80" y="110" font-size="36" font-weight="900" fill="#1A1D24">🗜️ TurboQuant（ICLR 2026）：KVキャッシュ6倍圧縮</text>
+  <text x="80" y="152" font-size="26" font-weight="700" fill="#3A3D44">再学習不要・8x推論高速化——llama.cpp実装が本格化</text>
+  <line x1="80" y1="165" x2="1340" y2="165" stroke="#5B8DEF" stroke-width="3"/>
+  <text x="80" y="190" font-size="15" fill="#7A8090">Google Research / InfoQ / GitHub（llama.cpp実装）｜ 2026-05-04 ｜ #研究 #Google #量子化 #ICLR</text>
+
+  <!-- Hero -->
+  <g transform="translate(1240, 200)">
+    <rect x="-55" y="-10" width="110" height="100" rx="10" fill="#5B8DEF" stroke="#1A1D24" stroke-width="3"/>
+    <text x="0" y="45" text-anchor="middle" font-size="40" fill="white">🗜️</text>
+    <text x="0" y="108" text-anchor="middle" font-size="12" fill="#3A3D44" font-weight="600">Google ICLR</text>
+  </g>
+
+  <!-- KEY NUMBERS -->
+  <rect x="80" y="210" width="1100" height="130" rx="10" fill="white" stroke="#1A1D24" stroke-width="2" filter="url(#softShadow)"/>
+  <text x="190" y="248" text-anchor="middle" font-size="13" fill="#5A6070" font-weight="600">メモリ削減率</text>
+  <text x="190" y="295" text-anchor="middle" font-size="52" font-weight="900" fill="#5B8DEF">6x</text>
+  <text x="190" y="325" text-anchor="middle" font-size="12" fill="#7A8090">KVキャッシュ圧縮</text>
+  <line x1="340" y1="225" x2="340" y2="330" stroke="#E0D8C8" stroke-width="1.5"/>
+  <text x="460" y="248" text-anchor="middle" font-size="13" fill="#5A6070" font-weight="600">推論高速化（H100）</text>
+  <text x="460" y="295" text-anchor="middle" font-size="52" font-weight="900" fill="#3A6DBF">8x</text>
+  <text x="460" y="325" text-anchor="middle" font-size="12" fill="#7A8090">4bit量子化時</text>
+  <line x1="580" y1="225" x2="580" y2="330" stroke="#E0D8C8" stroke-width="1.5"/>
+  <text x="700" y="248" text-anchor="middle" font-size="13" fill="#5A6070" font-weight="600">量子化ビット数</text>
+  <text x="700" y="295" text-anchor="middle" font-size="52" font-weight="900" fill="#2A5DAF">3bit</text>
+  <text x="700" y="325" text-anchor="middle" font-size="12" fill="#7A8090">near-zero精度劣化</text>
+  <line x1="820" y1="225" x2="820" y2="330" stroke="#E0D8C8" stroke-width="1.5"/>
+  <text x="940" y="248" text-anchor="middle" font-size="13" fill="#5A6070" font-weight="600">再学習</text>
+  <text x="940" y="295" text-anchor="middle" font-size="52" font-weight="900" fill="#1A4D9F">不要</text>
+  <text x="940" y="325" text-anchor="middle" font-size="12" fill="#7A8090">ドロップイン適用可能</text>
+  <line x1="1060" y1="225" x2="1060" y2="330" stroke="#E0D8C8" stroke-width="1.5"/>
+  <text x="1140" y="248" text-anchor="middle" font-size="13" fill="#5A6070" font-weight="600">arXiv番号</text>
+  <text x="1140" y="288" text-anchor="middle" font-size="22" font-weight="900" fill="#1A1D24">2504.</text>
+  <text x="1140" y="315" text-anchor="middle" font-size="22" font-weight="900" fill="#1A1D24">19874</text>
+  <text x="1140" y="330" text-anchor="middle" font-size="12" fill="#7A8090">ICLR 2026</text>
+
+  <!-- Memory chart - before/after -->
+  <rect x="80" y="360" width="520" height="290" rx="8" fill="white" stroke="#1A1D24" stroke-width="2" filter="url(#softShadow)"/>
+  <text x="340" y="390" text-anchor="middle" font-size="17" font-weight="800" fill="#1A1D24">📊 KVキャッシュメモリ比較（70Bモデル）</text>
+  <line x1="100" y1="398" x2="580" y2="398" stroke="#5B8DEF" stroke-width="2"/>
+
+  <!-- Bar chart -->
+  <text x="120" y="424" font-size="12" fill="#5A6070">コンテキスト長</text>
+  <text x="120" y="445" font-size="13" font-weight="700" fill="#1A1D24">32K tokens</text>
+  <!-- Before bar -->
+  <rect x="120" y="452" width="300" height="28" rx="4" fill="#E8E0D0" stroke="#C8C0B0" stroke-width="1"/>
+  <text x="430" y="471" font-size="12" fill="#5A5050">~24GB</text>
+  <!-- After bar -->
+  <rect x="120" y="486" width="50" height="28" rx="4" fill="#5B8DEF" stroke="#1A1D24" stroke-width="1.5"/>
+  <text x="180" y="505" font-size="12" fill="#5B8DEF" font-weight="700">~4GB ↓6x</text>
+
+  <text x="120" y="534" font-size="13" font-weight="700" fill="#1A1D24">100K tokens</text>
+  <rect x="120" y="540" width="420" height="28" rx="4" fill="#E8E0D0" stroke="#C8C0B0" stroke-width="1"/>
+  <text x="550" y="559" font-size="12" fill="#5A5050">~75GB</text>
+  <rect x="120" y="574" width="70" height="28" rx="4" fill="#5B8DEF" stroke="#1A1D24" stroke-width="1.5"/>
+  <text x="200" y="593" font-size="12" fill="#5B8DEF" font-weight="700">~12GB ↓6x</text>
+
+  <text x="120" y="622" font-size="13" font-weight="700" fill="#1A1D24">200K tokens</text>
+  <rect x="120" y="628" width="400" height="28" rx="4" fill="#FFD0C0" stroke="#C0A090" stroke-width="1.5"/>
+  <text x="530" y="648" font-size="12" fill="#A06040">H100 1枚超え</text>
+  <rect x="120" y="628" width="67" height="28" rx="4" fill="#5B8DEF" stroke="#1A1D24" stroke-width="1.5"/>
+  <text x="200" y="647" font-size="12" fill="#5B8DEF" font-weight="700">~25GB ✅</text>
+
+  <!-- Legend -->
+  <rect x="120" y="670" width="20" height="14" rx="2" fill="#E8E0D0"/>
+  <text x="148" y="682" font-size="11" fill="#5A5050">FP16（従来）</text>
+  <rect x="260" y="670" width="20" height="14" rx="2" fill="#5B8DEF"/>
+  <text x="288" y="682" font-size="11" fill="#5B8DEF">TurboQuant 3bit</text>
+
+  <!-- 2-step Process -->
+  <rect x="620" y="360" width="560" height="290" rx="8" fill="white" stroke="#1A1D24" stroke-width="2" filter="url(#softShadow)"/>
+  <text x="900" y="390" text-anchor="middle" font-size="17" font-weight="800" fill="#1A1D24">⚙️ TurboQuant 2段階圧縮</text>
+  <line x1="640" y1="398" x2="1160" y2="398" stroke="#5B8DEF" stroke-width="2"/>
+
+  <!-- Step 1 -->
+  <rect x="640" y="410" width="520" height="105" rx="6" fill="#EEF4FF" stroke="#5B8DEF" stroke-width="2"/>
+  <text x="660" y="435" font-size="14" font-weight="800" fill="#1A3070">Step 1: PolarQuant（回転正規化）</text>
+  <text x="660" y="458" font-size="12" fill="#2A4090">ランダムHadamard変換でKV値の分布を正規化</text>
+  <text x="660" y="476" font-size="12" fill="#2A4090">外れ値が多いコーディネート分布を均等化</text>
+  <text x="660" y="494" font-size="12" fill="#2A4090">ユークリッド距離などのキー特性は保持</text>
+  <text x="660" y="512" font-size="12" fill="#3A5DA0" font-weight="600">→ 低ビット量子化の前処理として不可欠</text>
+
+  <!-- Arrow -->
+  <text x="900" y="545" text-anchor="middle" font-size="24" fill="#5B8DEF">↓</text>
+
+  <!-- Step 2 -->
+  <rect x="640" y="552" width="520" height="90" rx="6" fill="#DDF0FF" stroke="#3A7DBF" stroke-width="2"/>
+  <text x="660" y="577" font-size="14" font-weight="800" fill="#1A3070">Step 2: Quantized Johnson-Lindenstrauss</text>
+  <text x="660" y="598" font-size="12" fill="#2A4090">近傍保存性を維持したまま超圧縮を実現</text>
+  <text x="660" y="616" font-size="12" fill="#2A4090">3〜3.5bitに量子化しつつ精度劣化最小化</text>
+  <text x="660" y="634" font-size="12" fill="#3A5DA0" font-weight="600">→ 理論的精度保証付き圧縮</text>
+
+  <!-- Sticky notes -->
+  <g transform="translate(80, 668) rotate(-1.5)" filter="url(#stickyShadow)">
+    <rect width="300" height="120" rx="3" fill="#FFF9C4" stroke="#E0D080" stroke-width="1.5"/>
+    <text x="150" y="26" text-anchor="middle" font-size="13" font-weight="700" fill="#6A5A00">📌 llama.cpp沸騰中</text>
+    <text x="15" y="48" font-size="11" fill="#5A4A00">ICLR発表直後にOSSコミュニティ</text>
+    <text x="15" y="64" font-size="11" fill="#5A4A00">が実装を公開。r/LocalLLamaで</text>
+    <text x="15" y="80" font-size="11" fill="#5A4A00">「RTX 4090で200K 70B動作」の</text>
+    <text x="15" y="96" font-size="11" fill="#5A4A00">報告が相次ぐ。クラウドAPI代替</text>
+    <text x="15" y="112" font-size="11" fill="#8A7010">需要が急増</text>
+  </g>
+
+  <g transform="translate(400, 660) rotate(1.2)" filter="url(#stickyShadow)">
+    <rect width="300" height="120" rx="3" fill="#FFE0B2" stroke="#E08040" stroke-width="1.5"/>
+    <text x="150" y="26" text-anchor="middle" font-size="13" font-weight="700" fill="#8A3000">📌 「再学習不要」の意味</text>
+    <text x="15" y="48" font-size="11" fill="#6A3000">従来量子化（GPTQ等）は数百GPU</text>
+    <text x="15" y="64" font-size="11" fill="#6A3000">時間のキャリブレーションが必要。</text>
+    <text x="15" y="80" font-size="11" fill="#6A3000">TurboQuantは推論時リアルタイム</text>
+    <text x="15" y="96" font-size="11" fill="#6A3000">圧縮なのでどんなモデルにも</text>
+    <text x="15" y="112" font-size="11" fill="#AA5010">即座にドロップイン適用可能</text>
+  </g>
+
+  <g transform="translate(720, 668) rotate(-0.5)" filter="url(#stickyShadow)">
+    <rect width="300" height="120" rx="3" fill="#B3E5FC" stroke="#50A8D0" stroke-width="1.5"/>
+    <text x="150" y="26" text-anchor="middle" font-size="13" font-weight="700" fill="#0A3A60">📌 Googleの戦略的公開</text>
+    <text x="15" y="48" font-size="11" fill="#1A4A70">OSSで公開しICLRで発表した</text>
+    <text x="15" y="64" font-size="11" fill="#1A4A70">意図：(1)Gemini長文脈の</text>
+    <text x="15" y="80" font-size="11" fill="#1A4A70">優位性実証 (2)llama.cpp採用</text>
+    <text x="15" y="96" font-size="11" fill="#1A4A70">→Googleアーキテクチャが</text>
+    <text x="15" y="112" font-size="11" fill="#2060A0">デファクトスタンダードへ</text>
+  </g>
+
+  <g transform="translate(1040, 660) rotate(1.8)" filter="url(#stickyShadow)">
+    <rect width="300" height="120" rx="3" fill="#E1BEE7" stroke="#A070A0" stroke-width="1.5"/>
+    <text x="150" y="26" text-anchor="middle" font-size="13" font-weight="700" fill="#5A1A6A">📌 精度劣化ゼロの注意点</text>
+    <text x="15" y="48" font-size="11" fill="#4A1A5A">「ほぼゼロ」は平均ベンチ値。</text>
+    <text x="15" y="64" font-size="11" fill="#4A1A5A">数値計算・長距離依存タスクで</text>
+    <text x="15" y="80" font-size="11" fill="#4A1A5A">は量子化誤差蓄積の可能性。</text>
+    <text x="15" y="96" font-size="11" fill="#4A1A5A">公式実装コードが公開されるまで</text>
+    <text x="15" y="112" font-size="11" fill="#7A30A0">外部再現実験で確認が必要</text>
+  </g>
+
+  <rect x="0" y="1010" width="1400" height="40" fill="#E8E0D0"/>
+  <text x="700" y="1032" text-anchor="middle" font-size="13" fill="#7A7060" font-style="italic">AI News · 2026-05-04 · Google TurboQuant (ICLR 2026) — 6x KV Cache Compression, 8x Faster Inference, No Retraining Required</text>
+</svg>
