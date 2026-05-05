@@ -1,0 +1,198 @@
+<svg viewBox="0 0 1400 1050" xmlns="http://www.w3.org/2000/svg" font-family="-apple-system, 'Hiragino Sans', 'Yu Gothic', sans-serif">
+  <defs>
+    <pattern id="paperTexture" patternUnits="userSpaceOnUse" width="4" height="4">
+      <rect width="4" height="4" fill="#FBF8F1"/>
+      <circle cx="1" cy="1" r="0.3" fill="#E8E2D3" opacity="0.5"/>
+    </pattern>
+    <filter id="softShadow"><feDropShadow dx="2" dy="3" stdDeviation="3" flood-color="#1A1D24" flood-opacity="0.15"/></filter>
+    <filter id="stickyShadow"><feDropShadow dx="3" dy="4" stdDeviation="4" flood-color="#1A1D24" flood-opacity="0.2"/></filter>
+  </defs>
+  <rect width="1400" height="1050" fill="url(#paperTexture)"/>
+  <rect x="0" y="0" width="42" height="1050" fill="#F0EBE0" stroke="#E0D8CC" stroke-width="1"/>
+  <circle cx="21" cy="120" r="12" fill="#FBF8F1" stroke="#C8BFB0" stroke-width="2"/>
+  <circle cx="21" cy="280" r="12" fill="#FBF8F1" stroke="#C8BFB0" stroke-width="2"/>
+  <circle cx="21" cy="440" r="12" fill="#FBF8F1" stroke="#C8BFB0" stroke-width="2"/>
+  <circle cx="21" cy="600" r="12" fill="#FBF8F1" stroke="#C8BFB0" stroke-width="2"/>
+  <circle cx="21" cy="760" r="12" fill="#FBF8F1" stroke="#C8BFB0" stroke-width="2"/>
+  <circle cx="21" cy="920" r="12" fill="#FBF8F1" stroke="#C8BFB0" stroke-width="2"/>
+
+  <g transform="translate(1180, 18) rotate(-3)">
+    <rect x="0" y="0" width="200" height="36" fill="#5CA46E" stroke="#1A1D24" stroke-width="2" rx="3"/>
+    <text x="100" y="24" text-anchor="middle" font-size="15" font-weight="700" fill="white">#ビジネス</text>
+  </g>
+  <rect x="58" y="18" width="160" height="34" rx="4" fill="#2F3842" filter="url(#softShadow)"/>
+  <text x="138" y="39" text-anchor="middle" font-size="14" font-weight="600" fill="#F0EBE0">2026-05-05</text>
+  <text x="240" y="42" font-size="18" fill="#F5A623">⭐⭐</text>
+
+  <line x1="58" y1="68" x2="1360" y2="68" stroke="#1A1D24" stroke-width="3"/>
+  <text x="58" y="108" font-size="36" font-weight="900" fill="#1A1D24">📈 OpenAI IPO 2026 vs 2027：Altman vs Friar</text>
+  <text x="58" y="145" font-size="22" font-weight="500" fill="#4A5568">$852B評価額 · $140B年間損失 · 史上最大Tech IPOへの道</text>
+  <text x="58" y="172" font-size="14" fill="#888">Source: Gizmodo / TechTimes / CNBC · 2026-05-05 · #ビジネス #OpenAI #IPO</text>
+  <line x1="58" y1="182" x2="1360" y2="182" stroke="#1A1D24" stroke-width="2"/>
+
+  <!-- Key Numbers -->
+  <g transform="translate(58, 195)">
+    <rect x="0" y="0" width="220" height="110" rx="6" fill="white" stroke="#1A1D24" stroke-width="2.5" filter="url(#softShadow)"/>
+    <rect x="0" y="0" width="220" height="8" rx="6" fill="#5CA46E"/>
+    <text x="110" y="52" text-anchor="middle" font-size="36" font-weight="900" fill="#1A1D24">$25B</text>
+    <text x="110" y="74" text-anchor="middle" font-size="13" fill="#5CA46E" font-weight="700">年率換算収益(ARR)</text>
+    <text x="110" y="94" text-anchor="middle" font-size="11" fill="#888">2025年売上$13B (+225% YoY)</text>
+
+    <rect x="238" y="0" width="220" height="110" rx="6" fill="white" stroke="#1A1D24" stroke-width="2.5" filter="url(#softShadow)"/>
+    <rect x="238" y="0" width="220" height="8" rx="6" fill="#2F3842"/>
+    <text x="348" y="52" text-anchor="middle" font-size="36" font-weight="900" fill="#1A1D24">$852B</text>
+    <text x="348" y="74" text-anchor="middle" font-size="13" fill="#4A5568" font-weight="700">現在評価額</text>
+    <text x="348" y="94" text-anchor="middle" font-size="11" fill="#888">ARRの34倍マルチプル</text>
+
+    <rect x="476" y="0" width="220" height="110" rx="6" fill="white" stroke="#1A1D24" stroke-width="2.5" filter="url(#softShadow)"/>
+    <rect x="476" y="0" width="220" height="8" rx="6" fill="#E53935"/>
+    <text x="586" y="52" text-anchor="middle" font-size="36" font-weight="900" fill="#E53935">-$14B</text>
+    <text x="586" y="74" text-anchor="middle" font-size="13" fill="#E53935" font-weight="700">2026年予想損失</text>
+    <text x="586" y="94" text-anchor="middle" font-size="11" fill="#888">黒字化は2030年頃の見込み</text>
+
+    <rect x="714" y="0" width="220" height="110" rx="6" fill="white" stroke="#1A1D24" stroke-width="2.5" filter="url(#softShadow)"/>
+    <rect x="714" y="0" width="220" height="8" rx="6" fill="#5B8DEF"/>
+    <text x="824" y="52" text-anchor="middle" font-size="28" font-weight="900" fill="#1A1D24">2026Q4?</text>
+    <text x="824" y="74" text-anchor="middle" font-size="13" fill="#5B8DEF" font-weight="700">Altman推奨IPO時期</text>
+    <text x="824" y="94" text-anchor="middle" font-size="11" fill="#888">Friar反対→2027年延期を主張</text>
+  </g>
+
+  <!-- 2026 vs 2027 comparison -->
+  <rect x="58" y="328" width="660" height="310" rx="6" fill="white" stroke="#1A1D24" stroke-width="2" filter="url(#softShadow)"/>
+  <text x="80" y="356" font-size="15" font-weight="700" fill="#1A1D24">⚔️ 2026 Q4 IPO vs 2027 延期 比較</text>
+  <line x1="80" y1="364" x2="698" y2="364" stroke="#E0D8CC" stroke-width="1"/>
+  <g transform="translate(80, 376)">
+    <rect x="0" y="0" width="270" height="36" rx="4" fill="#E3F2FD" stroke="#5B8DEF" stroke-width="1.5"/>
+    <text x="135" y="23" text-anchor="middle" font-size="13" font-weight="700" fill="#5B8DEF">2026 Q4（Altman案）</text>
+    <rect x="300" y="0" width="270" height="36" rx="4" fill="#FCE4EC" stroke="#E53935" stroke-width="1.5"/>
+    <text x="435" y="23" text-anchor="middle" font-size="13" font-weight="700" fill="#E53935">2027（Friar案）</text>
+    <line x1="0" y1="44" x2="570" y2="44" stroke="#E0D8CC" stroke-width="1"/>
+    <!-- Row 1 -->
+    <text x="0" y="68" font-size="12" font-weight="700" fill="#4A5568">主張理由</text>
+    <text x="0" y="88" font-size="11" fill="#4A5568">AI市場先行者利益の確保</text>
+    <text x="300" y="68" font-size="12" font-weight="700" fill="#4A5568">主張理由</text>
+    <text x="300" y="88" font-size="11" fill="#4A5568">キャッシュフロー安定化が先決</text>
+    <!-- Row 2 -->
+    <line x1="0" y1="100" x2="570" y2="100" stroke="#E0D8CC" stroke-width="1"/>
+    <text x="0" y="120" font-size="12" font-weight="700" fill="#4A5568">有利な点</text>
+    <text x="0" y="140" font-size="11" fill="#4A5568">AI bubble絶頂期の高倍率狙い</text>
+    <text x="300" y="120" font-size="12" font-weight="700" fill="#4A5568">有利な点</text>
+    <text x="300" y="140" font-size="11" fill="#4A5568">損失構造改善で信頼性向上</text>
+    <!-- Row 3 -->
+    <line x1="0" y1="152" x2="570" y2="152" stroke="#E0D8CC" stroke-width="1"/>
+    <text x="0" y="172" font-size="12" font-weight="700" fill="#4A5568">リスク</text>
+    <text x="0" y="192" font-size="11" fill="#4A5568">Musk裁判・損失懸念で投資家離れ</text>
+    <text x="300" y="172" font-size="12" font-weight="700" fill="#4A5568">リスク</text>
+    <text x="300" y="192" font-size="11" fill="#4A5568">Anthropic先行IPOで相対的希薄化</text>
+    <!-- Row 4 -->
+    <line x1="0" y1="204" x2="570" y2="204" stroke="#E0D8CC" stroke-width="1"/>
+    <text x="0" y="224" font-size="12" font-weight="700" fill="#4A5568">ロック解除</text>
+    <text x="0" y="244" font-size="11" fill="#4A5568">2027年Q1〜Q2に売り圧集中</text>
+    <text x="300" y="224" font-size="12" font-weight="700" fill="#4A5568">追加調達</text>
+    <text x="300" y="244" font-size="11" fill="#4A5568">その間$5B+ 補完調達が必要か</text>
+  </g>
+
+  <!-- Revenue growth chart -->
+  <rect x="736" y="328" width="624" height="310" rx="6" fill="white" stroke="#1A1D24" stroke-width="2" filter="url(#softShadow)"/>
+  <text x="758" y="356" font-size="15" font-weight="700" fill="#1A1D24">📊 OpenAI 収益 vs 損失トレンド</text>
+  <line x1="758" y1="364" x2="1340" y2="364" stroke="#E0D8CC" stroke-width="1"/>
+  <g transform="translate(758, 378)">
+    <!-- Legend -->
+    <rect x="0" y="0" width="12" height="12" fill="#5CA46E"/>
+    <text x="18" y="11" font-size="11" fill="#4A5568">ARR ($B)</text>
+    <rect x="110" y="0" width="12" height="12" fill="#E53935"/>
+    <text x="128" y="11" font-size="11" fill="#4A5568">損失 ($B)</text>
+    <!-- Bars -->
+    <g transform="translate(0, 20)">
+      <line x1="60" y1="0" x2="60" y2="240" stroke="#1A1D24" stroke-width="1.5"/>
+      <line x1="60" y1="240" x2="570" y2="240" stroke="#1A1D24" stroke-width="1.5"/>
+      <!-- 2023 -->
+      <rect x="80" y="214" width="35" height="26" fill="#5CA46E" stroke="#1A1D24" stroke-width="1"/>
+      <rect x="117" y="232" width="35" height="8" fill="#E53935" stroke="#1A1D24" stroke-width="1"/>
+      <text x="109" y="258" text-anchor="middle" font-size="11" fill="#4A5568">2023</text>
+      <text x="97" y="208" text-anchor="middle" font-size="10" fill="#5CA46E">$2B</text>
+      <!-- 2024 -->
+      <rect x="170" y="174" width="35" height="66" fill="#5CA46E" stroke="#1A1D24" stroke-width="1"/>
+      <rect x="207" y="218" width="35" height="22" fill="#E53935" stroke="#1A1D24" stroke-width="1"/>
+      <text x="199" y="258" text-anchor="middle" font-size="11" fill="#4A5568">2024</text>
+      <text x="187" y="168" text-anchor="middle" font-size="10" fill="#5CA46E">$4B</text>
+      <!-- 2025 -->
+      <rect x="260" y="76" width="35" height="164" fill="#5CA46E" stroke="#1A1D24" stroke-width="1"/>
+      <rect x="297" y="196" width="35" height="44" fill="#E53935" stroke="#1A1D24" stroke-width="1"/>
+      <text x="289" y="258" text-anchor="middle" font-size="11" fill="#4A5568">2025</text>
+      <text x="277" y="70" text-anchor="middle" font-size="10" fill="#5CA46E">$13B</text>
+      <!-- 2026E -->
+      <rect x="350" y="14" width="35" height="226" fill="#A8D5B5" stroke="#5CA46E" stroke-width="1.5" stroke-dasharray="4,4"/>
+      <rect x="387" y="180" width="35" height="60" fill="#FFCDD2" stroke="#E53935" stroke-width="1.5" stroke-dasharray="4,4"/>
+      <text x="379" y="258" text-anchor="middle" font-size="11" fill="#4A5568">2026E</text>
+      <text x="367" y="8" text-anchor="middle" font-size="10" fill="#5CA46E">$25B+</text>
+      <text x="404" y="174" text-anchor="middle" font-size="10" fill="#E53935">-$14B</text>
+      <!-- 2030E -->
+      <rect x="460" y="0" width="35" height="240" fill="#E8F5E9" stroke="#5CA46E" stroke-width="1" stroke-dasharray="6,3"/>
+      <text x="477" y="258" text-anchor="middle" font-size="11" fill="#4A5568">2030E</text>
+      <text x="477" y="-6" text-anchor="middle" font-size="10" fill="#5CA46E">黒字化?</text>
+    </g>
+  </g>
+
+  <!-- Sticky Notes -->
+  <g transform="translate(58, 660)">
+    <g transform="rotate(-1.0) translate(0, 0)">
+      <rect x="0" y="0" width="290" height="148" fill="#FFF9C4" stroke="#1A1D24" stroke-width="1.5" filter="url(#stickyShadow)"/>
+      <text x="14" y="24" font-size="13" font-weight="700" fill="#1A1D24">💡 $852Bの根拠と限界</text>
+      <text x="14" y="46" font-size="11" fill="#4A5568">ARR $25Bの34倍マルチプル。</text>
+      <text x="14" y="62" font-size="11" fill="#4A5568">Palantir等優良SaaSが15〜20倍なら</text>
+      <text x="14" y="78" font-size="11" fill="#4A5568">「AI期待値プレミアム」は倍以上。</text>
+      <text x="14" y="94" font-size="11" fill="#4A5568">機関投資家がこれを認めるかが鍵。</text>
+      <text x="14" y="118" font-size="10" fill="#888">IPO後初の決算発表が真の評価軸</text>
+    </g>
+    <g transform="rotate(0.8) translate(305, 0)">
+      <rect x="0" y="0" width="290" height="148" fill="#D1ECF1" stroke="#1A1D24" stroke-width="1.5" filter="url(#stickyShadow)"/>
+      <text x="14" y="24" font-size="13" font-weight="700" fill="#1A1D24">⚖️ Musk裁判との連動</text>
+      <text x="14" y="46" font-size="11" fill="#4A5568">責任フェーズ5月21日終了予定。</text>
+      <text x="14" y="62" font-size="11" fill="#4A5568">S-1提出が裁判と重なれば</text>
+      <text x="14" y="78" font-size="11" fill="#4A5568">訴訟リスク開示が投資家に悪影響。</text>
+      <text x="14" y="94" font-size="11" fill="#4A5568">Musk敗訴→IPOタイミング最適化。</text>
+      <text x="14" y="118" font-size="10" fill="#888">裁判結果がIPO時期を実質決定</text>
+    </g>
+    <g transform="rotate(-0.5) translate(610, 0)">
+      <rect x="0" y="0" width="290" height="148" fill="#FCE4EC" stroke="#1A1D24" stroke-width="1.5" filter="url(#stickyShadow)"/>
+      <text x="14" y="24" font-size="13" font-weight="700" fill="#1A1D24">👤 リテール配分の逆説</text>
+      <text x="14" y="46" font-size="11" fill="#4A5568">Friarは「リテール優先配分」を明言。</text>
+      <text x="14" y="62" font-size="11" fill="#4A5568">民主化ブランドには合致するが</text>
+      <text x="14" y="78" font-size="11" fill="#4A5568">機関投資家は「リテール多い=</text>
+      <text x="14" y="94" font-size="11" fill="#4A5568">初値後値崩れリスク」と見る。</text>
+      <text x="14" y="118" font-size="10" fill="#888">Twitter IPOの轍を踏むか</text>
+    </g>
+    <g transform="rotate(1.3) translate(915, 0)">
+      <rect x="0" y="0" width="290" height="148" fill="#EDE7F6" stroke="#1A1D24" stroke-width="1.5" filter="url(#stickyShadow)"/>
+      <text x="14" y="24" font-size="13" font-weight="700" fill="#1A1D24">🔮 Anthropic先行IPO シナリオ</text>
+      <text x="14" y="46" font-size="11" fill="#4A5568">OpenAI延期→Anthropic上場先行なら</text>
+      <text x="14" y="62" font-size="11" fill="#4A5568">「AIラボ株」カテゴリで比較評価が始まる。</text>
+      <text x="14" y="78" font-size="11" fill="#4A5568">OpenAIのプレミアムは</text>
+      <text x="14" y="94" font-size="11" fill="#4A5568">相対的に圧縮される逆説。</text>
+      <text x="14" y="118" font-size="10" fill="#888">ARR比較: OAI $25B vs ANT $19B</text>
+    </g>
+  </g>
+
+  <!-- Bottom: SaaS comparison -->
+  <rect x="58" y="830" width="1302" height="100" rx="6" fill="white" stroke="#1A1D24" stroke-width="2" filter="url(#softShadow)"/>
+  <text x="80" y="858" font-size="13" font-weight="700" fill="#1A1D24">📊 史上最速SaaS成長 比較（$10B ARR到達まで）</text>
+  <line x1="80" y1="866" x2="1340" y2="866" stroke="#E0D8CC" stroke-width="1"/>
+  <g transform="translate(80, 874)">
+    <text x="0" y="20" font-size="12" fill="#4A5568">Salesforce（CRM）</text>
+    <rect x="170" y="6" width="510" height="16" fill="#E0D8CC" stroke="#1A1D24" stroke-width="1"/>
+    <text x="690" y="20" font-size="12" fill="#888">25年</text>
+    <text x="740" y="20" font-size="12" fill="#4A5568">OpenAI</text>
+    <rect x="840" y="6" width="72" height="16" fill="#5CA46E" stroke="#1A1D24" stroke-width="1"/>
+    <text x="922" y="20" font-size="12" fill="#5CA46E" font-weight="700">3年未満</text>
+    <text x="0" y="44" font-size="12" fill="#4A5568">Snowflake（Data Cloud）</text>
+    <rect x="170" y="30" width="300" height="16" fill="#E0D8CC" stroke="#1A1D24" stroke-width="1"/>
+    <text x="480" y="44" font-size="12" fill="#888">15年</text>
+    <text x="740" y="44" font-size="12" fill="#4A5568">Anthropic</text>
+    <rect x="840" y="30" width="84" height="16" fill="#5B8DEF" stroke="#1A1D24" stroke-width="1"/>
+    <text x="934" y="44" font-size="12" fill="#5B8DEF" font-weight="700">3.5年未満</text>
+  </g>
+
+  <line x1="58" y1="1020" x2="1360" y2="1020" stroke="#1A1D24" stroke-width="1.5"/>
+  <text x="709" y="1040" text-anchor="middle" font-size="12" fill="#888" font-style="italic">AI News · 2026-05-05 · OpenAI IPO Debate — Altman vs Friar and the $1 Trillion Question</text>
+</svg>

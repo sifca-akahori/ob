@@ -1,0 +1,166 @@
+<svg viewBox="0 0 1400 1050" xmlns="http://www.w3.org/2000/svg" font-family="-apple-system, 'Hiragino Sans', 'Yu Gothic', sans-serif">
+  <defs>
+    <pattern id="paperTexture" patternUnits="userSpaceOnUse" width="4" height="4">
+      <rect width="4" height="4" fill="#FBF8F1"/>
+      <circle cx="1" cy="1" r="0.3" fill="#E8E2D3" opacity="0.5"/>
+    </pattern>
+    <filter id="softShadow"><feDropShadow dx="2" dy="3" stdDeviation="3" flood-color="#1A1D24" flood-opacity="0.15"/></filter>
+    <filter id="stickyShadow"><feDropShadow dx="3" dy="4" stdDeviation="4" flood-color="#1A1D24" flood-opacity="0.2"/></filter>
+  </defs>
+  <rect width="1400" height="1050" fill="url(#paperTexture)"/>
+  <rect x="0" y="0" width="42" height="1050" fill="#F0EBE0" stroke="#E0D8CC" stroke-width="1"/>
+  <circle cx="21" cy="120" r="12" fill="#FBF8F1" stroke="#C8BFB0" stroke-width="2"/>
+  <circle cx="21" cy="280" r="12" fill="#FBF8F1" stroke="#C8BFB0" stroke-width="2"/>
+  <circle cx="21" cy="440" r="12" fill="#FBF8F1" stroke="#C8BFB0" stroke-width="2"/>
+  <circle cx="21" cy="600" r="12" fill="#FBF8F1" stroke="#C8BFB0" stroke-width="2"/>
+  <circle cx="21" cy="760" r="12" fill="#FBF8F1" stroke="#C8BFB0" stroke-width="2"/>
+  <circle cx="21" cy="920" r="12" fill="#FBF8F1" stroke="#C8BFB0" stroke-width="2"/>
+
+  <g transform="translate(1180, 18) rotate(-3)">
+    <rect x="0" y="0" width="200" height="36" fill="#5CA46E" stroke="#1A1D24" stroke-width="2" rx="3"/>
+    <text x="100" y="24" text-anchor="middle" font-size="15" font-weight="700" fill="white">#ビジネス</text>
+  </g>
+  <rect x="58" y="18" width="160" height="34" rx="4" fill="#2F3842" filter="url(#softShadow)"/>
+  <text x="138" y="39" text-anchor="middle" font-size="14" font-weight="600" fill="#F0EBE0">2026-05-05</text>
+  <text x="240" y="42" font-size="18" fill="#F5A623">⭐⭐</text>
+
+  <line x1="58" y1="68" x2="1360" y2="68" stroke="#1A1D24" stroke-width="3"/>
+  <text x="58" y="108" font-size="36" font-weight="900" fill="#1A1D24">🪖 Reflection AI：Pentagonの7番目の椅子</text>
+  <text x="58" y="145" font-size="22" font-weight="500" fill="#4A5568">元DeepMind研究者 · $2B調達 · Trump Jr.資本 · オープンソース戦略</text>
+  <text x="58" y="172" font-size="14" fill="#888">Source: Breaking Defense / CNBC / TechFundingNews · 2026-05-05 · #ビジネス #軍事AI #ReflectionAI</text>
+  <line x1="58" y1="182" x2="1360" y2="182" stroke="#1A1D24" stroke-width="2"/>
+
+  <!-- Key Numbers -->
+  <g transform="translate(58, 195)">
+    <rect x="0" y="0" width="220" height="110" rx="6" fill="white" stroke="#1A1D24" stroke-width="2.5" filter="url(#softShadow)"/>
+    <rect x="0" y="0" width="220" height="8" rx="6" fill="#4A5568"/>
+    <text x="110" y="52" text-anchor="middle" font-size="40" font-weight="900" fill="#1A1D24">$2B</text>
+    <text x="110" y="74" text-anchor="middle" font-size="13" fill="#4A5568" font-weight="700">2025年10月調達額</text>
+    <text x="110" y="94" text-anchor="middle" font-size="11" fill="#888">評価額 $8B · NVIDIAリード</text>
+
+    <rect x="238" y="0" width="220" height="110" rx="6" fill="white" stroke="#1A1D24" stroke-width="2.5" filter="url(#softShadow)"/>
+    <rect x="238" y="0" width="220" height="8" rx="6" fill="#4A5568"/>
+    <text x="348" y="52" text-anchor="middle" font-size="40" font-weight="900" fill="#1A1D24">7社</text>
+    <text x="348" y="74" text-anchor="middle" font-size="13" fill="#4A5568" font-weight="700">Pentagon AI契約企業</text>
+    <text x="348" y="94" text-anchor="middle" font-size="11" fill="#888">OpenAI/Google/MS/AWS/NVIDIA/SpaceX+</text>
+
+    <rect x="476" y="0" width="220" height="110" rx="6" fill="white" stroke="#1A1D24" stroke-width="2.5" filter="url(#softShadow)"/>
+    <rect x="476" y="0" width="220" height="8" rx="6" fill="#E53935"/>
+    <text x="586" y="52" text-anchor="middle" font-size="28" font-weight="900" fill="#1A1D24">除外</text>
+    <text x="586" y="74" text-anchor="middle" font-size="13" fill="#E53935" font-weight="700">Anthropic</text>
+    <text x="586" y="94" text-anchor="middle" font-size="11" fill="#888">「supply chain risk」指定で排除</text>
+
+    <rect x="714" y="0" width="220" height="110" rx="6" fill="white" stroke="#1A1D24" stroke-width="2.5" filter="url(#softShadow)"/>
+    <rect x="714" y="0" width="220" height="8" rx="6" fill="#4A5568"/>
+    <text x="824" y="52" text-anchor="middle" font-size="28" font-weight="900" fill="#1A1D24">$25B?</text>
+    <text x="824" y="74" text-anchor="middle" font-size="13" fill="#4A5568" font-weight="700">次回ラウンド交渉額</text>
+    <text x="824" y="94" text-anchor="middle" font-size="11" fill="#888">JPMorgan・Disruptive主導の報道</text>
+  </g>
+
+  <!-- Pentagon 7 companies -->
+  <rect x="58" y="328" width="680" height="300" rx="6" fill="white" stroke="#1A1D24" stroke-width="2" filter="url(#softShadow)"/>
+  <rect x="58" y="328" width="680" height="40" rx="6" fill="#2F3842"/>
+  <text x="398" y="353" text-anchor="middle" font-size="15" font-weight="700" fill="white">🏛️ Pentagon AI分類ネットワーク契約（2026-05-01）</text>
+  <g transform="translate(78, 380)">
+    <rect x="0" y="0" width="140" height="52" rx="6" fill="#E8F5E9" stroke="#5CA46E" stroke-width="2"/>
+    <text x="70" y="32" text-anchor="middle" font-size="14" font-weight="700" fill="#1A1D24">OpenAI</text>
+    <rect x="156" y="0" width="140" height="52" rx="6" fill="#E8F5E9" stroke="#5CA46E" stroke-width="2"/>
+    <text x="226" y="32" text-anchor="middle" font-size="14" font-weight="700" fill="#1A1D24">Google</text>
+    <rect x="312" y="0" width="140" height="52" rx="6" fill="#E8F5E9" stroke="#5CA46E" stroke-width="2"/>
+    <text x="382" y="32" text-anchor="middle" font-size="14" font-weight="700" fill="#1A1D24">Microsoft</text>
+    <rect x="468" y="0" width="140" height="52" rx="6" fill="#E8F5E9" stroke="#5CA46E" stroke-width="2"/>
+    <text x="538" y="32" text-anchor="middle" font-size="14" font-weight="700" fill="#1A1D24">AWS</text>
+    <rect x="0" y="68" width="140" height="52" rx="6" fill="#E8F5E9" stroke="#5CA46E" stroke-width="2"/>
+    <text x="70" y="100" text-anchor="middle" font-size="14" font-weight="700" fill="#1A1D24">NVIDIA</text>
+    <rect x="156" y="68" width="140" height="52" rx="6" fill="#E8F5E9" stroke="#5CA46E" stroke-width="2"/>
+    <text x="226" y="100" text-anchor="middle" font-size="14" font-weight="700" fill="#1A1D24">SpaceX</text>
+    <rect x="312" y="68" width="140" height="52" rx="6" fill="#FFF9C4" stroke="#F5A623" stroke-width="2.5"/>
+    <text x="382" y="90" text-anchor="middle" font-size="13" font-weight="700" fill="#1A1D24">Reflection AI</text>
+    <text x="382" y="108" text-anchor="middle" font-size="10" fill="#888">★ 唯一のスタートアップ</text>
+    <!-- Anthropic excluded -->
+    <rect x="468" y="68" width="140" height="52" rx="6" fill="#FFEBEE" stroke="#E53935" stroke-width="2.5"/>
+    <text x="538" y="86" text-anchor="middle" font-size="13" font-weight="700" fill="#E53935">Anthropic</text>
+    <text x="538" y="104" text-anchor="middle" font-size="10" fill="#E53935">❌ 除外</text>
+    <line x1="0" y1="142" x2="608" y2="142" stroke="#E0D8CC" stroke-width="1"/>
+    <text x="0" y="166" font-size="12" fill="#4A5568">目的：AIを分類ネットワーク（機密）で活用</text>
+    <text x="0" y="186" font-size="12" fill="#4A5568">条件：「all lawful purposes」への使用許可</text>
+    <text x="0" y="206" font-size="12" fill="#888" font-style="italic">Anthropicは「自律兵器・国内大量監視」用途を理由に契約拒否</text>
+  </g>
+
+  <!-- Reflection AI profile -->
+  <rect x="756" y="328" width="604" height="300" rx="6" fill="white" stroke="#1A1D24" stroke-width="2" filter="url(#softShadow)"/>
+  <text x="778" y="356" font-size="15" font-weight="700" fill="#1A1D24">🏢 Reflection AI プロフィール</text>
+  <line x1="778" y1="364" x2="1340" y2="364" stroke="#E0D8CC" stroke-width="1"/>
+  <g transform="translate(778, 376)">
+    <text x="0" y="24" font-size="13" font-weight="700" fill="#1A1D24">共同創業者</text>
+    <text x="150" y="24" font-size="12" fill="#4A5568">Misha Laskin（元UCバークレー→DeepMind）</text>
+    <text x="150" y="44" font-size="12" fill="#4A5568">Ioannis Antonoglou（AlphaGo/AlphaZeroコア開発者）</text>
+    <text x="0" y="70" font-size="13" font-weight="700" fill="#1A1D24">拠点</text>
+    <text x="150" y="70" font-size="12" fill="#4A5568">New York</text>
+    <text x="0" y="96" font-size="13" font-weight="700" fill="#1A1D24">ミッション</text>
+    <text x="150" y="96" font-size="12" fill="#4A5568">「中国製AIへの西側オルタナティブ」</text>
+    <text x="150" y="116" font-size="12" fill="#4A5568">オープンソースフロンティアモデル開発</text>
+    <text x="0" y="142" font-size="13" font-weight="700" fill="#1A1D24">主要投資家</text>
+    <text x="150" y="142" font-size="12" fill="#4A5568">NVIDIA · Lightspeed VP · Sequoia · Citi</text>
+    <text x="150" y="162" font-size="12" fill="#4A5568">Eric Schmidt · DST Global</text>
+    <text x="150" y="182" font-size="12" fill="#E67E22" font-weight="700">1789 Capital（Trump Jr.系 $100M出資）</text>
+    <line x1="0" y1="196" x2="524" y2="196" stroke="#E0D8CC" stroke-width="1"/>
+    <text x="0" y="216" font-size="12" fill="#888" font-style="italic">Pentagon声明：「U.S. national securityを支援する第一歩」</text>
+  </g>
+
+  <!-- Sticky Notes -->
+  <g transform="translate(58, 650)">
+    <g transform="rotate(-1.1) translate(0, 0)">
+      <rect x="0" y="0" width="290" height="148" fill="#FFF9C4" stroke="#1A1D24" stroke-width="1.5" filter="url(#stickyShadow)"/>
+      <text x="14" y="24" font-size="13" font-weight="700" fill="#1A1D24">🔓 OSS = 国防省フレンドリー</text>
+      <text x="14" y="46" font-size="11" fill="#4A5568">オープンウェイトは政府が独自</text>
+      <text x="14" y="62" font-size="11" fill="#4A5568">展開・改変できる戦略資産。</text>
+      <text x="14" y="78" font-size="11" fill="#4A5568">DIUが2025年から優先方針を</text>
+      <text x="14" y="94" font-size="11" fill="#4A5568">示した初の具体的実例。</text>
+      <text x="14" y="118" font-size="10" fill="#888">クローズドモデル = 外部依存リスク</text>
+    </g>
+    <g transform="rotate(0.9) translate(305, 0)">
+      <rect x="0" y="0" width="290" height="148" fill="#FCE4EC" stroke="#1A1D24" stroke-width="1.5" filter="url(#stickyShadow)"/>
+      <text x="14" y="24" font-size="13" font-weight="700" fill="#1A1D24">🏛️ 1789 Capital問題</text>
+      <text x="14" y="46" font-size="11" fill="#4A5568">Trump Jr.系VCの出資は5%相当。</text>
+      <text x="14" y="62" font-size="11" fill="#4A5568">政治的優遇疑惑は根強いが</text>
+      <text x="14" y="78" font-size="11" fill="#4A5568">Palantir等で繰り返された構図。</text>
+      <text x="14" y="94" font-size="11" fill="#4A5568">契約金額・条件の開示が判断の鍵。</text>
+      <text x="14" y="118" font-size="10" fill="#888">利益相反か否かは開示次第</text>
+    </g>
+    <g transform="rotate(-0.4) translate(610, 0)">
+      <rect x="0" y="0" width="290" height="148" fill="#E8F5E9" stroke="#1A1D24" stroke-width="1.5" filter="url(#stickyShadow)"/>
+      <text x="14" y="24" font-size="13" font-weight="700" fill="#1A1D24">🎯 AlphaGo→軍事AI</text>
+      <text x="14" y="46" font-size="11" fill="#4A5568">AntonoglouはAIゲームの神を</text>
+      <text x="14" y="62" font-size="11" fill="#4A5568">作った研究者。</text>
+      <text x="14" y="78" font-size="11" fill="#4A5568">その技術が軍事AIに転用される</text>
+      <text x="14" y="94" font-size="11" fill="#4A5568">という倫理的問いは長期的課題。</text>
+      <text x="14" y="118" font-size="10" fill="#888">DeepMind卒業生の分岐路</text>
+    </g>
+    <g transform="rotate(1.2) translate(915, 0)">
+      <rect x="0" y="0" width="290" height="148" fill="#EDE7F6" stroke="#1A1D24" stroke-width="1.5" filter="url(#stickyShadow)"/>
+      <text x="14" y="24" font-size="13" font-weight="700" fill="#1A1D24">💰 $25B評価ラウンド</text>
+      <text x="14" y="46" font-size="11" fill="#4A5568">Pentagon選定を追い風に</text>
+      <text x="14" y="62" font-size="11" fill="#4A5568">$25B評価/$2.5B調達が交渉中。</text>
+      <text x="14" y="78" font-size="11" fill="#4A5568">OSS企業の商業化の難しさを</text>
+      <text x="14" y="94" font-size="11" fill="#4A5568">政府長期契約で解決できるか。</text>
+      <text x="14" y="118" font-size="10" fill="#888">前評価$8B→$25Bで3倍超の上昇</text>
+    </g>
+  </g>
+
+  <!-- Bottom: Open source vs Closed model comparison -->
+  <rect x="58" y="820" width="1302" height="110" rx="6" fill="white" stroke="#1A1D24" stroke-width="2" filter="url(#softShadow)"/>
+  <text x="80" y="848" font-size="14" font-weight="700" fill="#1A1D24">🔍 オープンソース vs クローズドモデル — 国防省視点</text>
+  <line x1="80" y1="858" x2="1340" y2="858" stroke="#E0D8CC" stroke-width="1"/>
+  <g transform="translate(80, 866)">
+    <rect x="0" y="0" width="580" height="48" rx="4" fill="#E8F5E9" stroke="#5CA46E" stroke-width="1.5"/>
+    <text x="290" y="22" text-anchor="middle" font-size="13" font-weight="700" fill="#1A1D24">✅ オープンウェイト（Reflection AI）</text>
+    <text x="290" y="40" text-anchor="middle" font-size="11" fill="#4A5568">政府が独自改変・独自展開可能 · 外部依存なし · 中国製代替として適格</text>
+    <rect x="620" y="0" width="580" height="48" rx="4" fill="#FFEBEE" stroke="#E53935" stroke-width="1.5"/>
+    <text x="910" y="22" text-anchor="middle" font-size="13" font-weight="700" fill="#1A1D24">❌ クローズドモデル（Anthropic等）</text>
+    <text x="910" y="40" text-anchor="middle" font-size="11" fill="#4A5568">企業ポリシー依存 · 「all lawful」条件拒否リスク · supply chain vulnerabilityあり</text>
+  </g>
+
+  <line x1="58" y1="1020" x2="1360" y2="1020" stroke="#1A1D24" stroke-width="1.5"/>
+  <text x="709" y="1040" text-anchor="middle" font-size="12" fill="#888" font-style="italic">AI News · 2026-05-05 · Reflection AI — The Pentagon's Dark Horse and the Open-Source Military AI Gambit</text>
+</svg>

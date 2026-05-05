@@ -1,0 +1,183 @@
+<svg viewBox="0 0 1400 1050" xmlns="http://www.w3.org/2000/svg" font-family="-apple-system, 'Hiragino Sans', 'Yu Gothic', sans-serif">
+  <defs>
+    <pattern id="paperTexture" patternUnits="userSpaceOnUse" width="4" height="4">
+      <rect width="4" height="4" fill="#FBF8F1"/>
+      <circle cx="1" cy="1" r="0.3" fill="#E8E2D3" opacity="0.5"/>
+    </pattern>
+    <filter id="softShadow"><feDropShadow dx="2" dy="3" stdDeviation="3" flood-color="#1A1D24" flood-opacity="0.15"/></filter>
+    <filter id="stickyShadow"><feDropShadow dx="3" dy="4" stdDeviation="4" flood-color="#1A1D24" flood-opacity="0.2"/></filter>
+  </defs>
+  <rect width="1400" height="1050" fill="url(#paperTexture)"/>
+  <rect x="0" y="0" width="42" height="1050" fill="#F0EBE0" stroke="#E0D8CC" stroke-width="1"/>
+  <circle cx="21" cy="120" r="12" fill="#FBF8F1" stroke="#C8BFB0" stroke-width="2"/>
+  <circle cx="21" cy="280" r="12" fill="#FBF8F1" stroke="#C8BFB0" stroke-width="2"/>
+  <circle cx="21" cy="440" r="12" fill="#FBF8F1" stroke="#C8BFB0" stroke-width="2"/>
+  <circle cx="21" cy="600" r="12" fill="#FBF8F1" stroke="#C8BFB0" stroke-width="2"/>
+  <circle cx="21" cy="760" r="12" fill="#FBF8F1" stroke="#C8BFB0" stroke-width="2"/>
+  <circle cx="21" cy="920" r="12" fill="#FBF8F1" stroke="#C8BFB0" stroke-width="2"/>
+
+  <g transform="translate(1180, 18) rotate(-3)">
+    <rect x="0" y="0" width="200" height="36" fill="#8B7DB8" stroke="#1A1D24" stroke-width="2" rx="3"/>
+    <text x="100" y="24" text-anchor="middle" font-size="15" font-weight="700" fill="white">#論文</text>
+  </g>
+  <rect x="58" y="18" width="160" height="34" rx="4" fill="#2F3842" filter="url(#softShadow)"/>
+  <text x="138" y="39" text-anchor="middle" font-size="14" font-weight="600" fill="#F0EBE0">2026-05-05</text>
+  <text x="240" y="42" font-size="18" fill="#F5A623">⭐⭐</text>
+
+  <line x1="58" y1="68" x2="1360" y2="68" stroke="#1A1D24" stroke-width="3"/>
+  <text x="58" y="108" font-size="36" font-weight="900" fill="#1A1D24">∑ Aletheia：Google AI、Erdős予想4問を自律解決</text>
+  <text x="58" y="145" font-size="22" font-weight="500" fill="#4A5568">Gemini Deep Think搭載数学研究エージェント · 700問評価 · 「数学者AI」臨界点</text>
+  <text x="58" y="172" font-size="14" fill="#888">Source: arXiv 2602.10177 · 2026-05-05（V2更新・HN議論活発化） · #論文 #数学 #Aletheia</text>
+  <line x1="58" y1="182" x2="1360" y2="182" stroke="#1A1D24" stroke-width="2"/>
+
+  <!-- Key Numbers -->
+  <g transform="translate(58, 195)">
+    <rect x="0" y="0" width="220" height="110" rx="6" fill="white" stroke="#1A1D24" stroke-width="2.5" filter="url(#softShadow)"/>
+    <rect x="0" y="0" width="220" height="8" rx="6" fill="#8B7DB8"/>
+    <text x="110" y="52" text-anchor="middle" font-size="40" font-weight="900" fill="#1A1D24">700</text>
+    <text x="110" y="74" text-anchor="middle" font-size="13" fill="#8B7DB8" font-weight="700">Erdős予想を評価</text>
+    <text x="110" y="94" text-anchor="middle" font-size="11" fill="#888">Bloom's Databaseから半自律評価</text>
+
+    <rect x="238" y="0" width="220" height="110" rx="6" fill="white" stroke="#1A1D24" stroke-width="2.5" filter="url(#softShadow)"/>
+    <rect x="238" y="0" width="220" height="8" rx="6" fill="#8B7DB8"/>
+    <text x="348" y="52" text-anchor="middle" font-size="40" font-weight="900" fill="#1A1D24">4問</text>
+    <text x="348" y="74" text-anchor="middle" font-size="13" fill="#8B7DB8" font-weight="700">自律解決した未解決問題</text>
+    <text x="348" y="94" text-anchor="middle" font-size="11" fill="#888">Erdős-652/654/1040/1051</text>
+
+    <rect x="476" y="0" width="220" height="110" rx="6" fill="white" stroke="#1A1D24" stroke-width="2.5" filter="url(#softShadow)"/>
+    <rect x="476" y="0" width="220" height="8" rx="6" fill="#8B7DB8"/>
+    <text x="586" y="42" text-anchor="middle" font-size="28" font-weight="900" fill="#1A1D24">Gemini</text>
+    <text x="586" y="66" text-anchor="middle" font-size="18" font-weight="700" fill="#1A1D24">Deep Think</text>
+    <text x="586" y="86" text-anchor="middle" font-size="13" fill="#8B7DB8" font-weight="700">ベースモデル</text>
+    <text x="586" y="104" text-anchor="middle" font-size="11" fill="#888">Lean 4形式証明と組み合わせ</text>
+
+    <rect x="714" y="0" width="220" height="110" rx="6" fill="white" stroke="#1A1D24" stroke-width="2.5" filter="url(#softShadow)"/>
+    <rect x="714" y="0" width="220" height="8" rx="6" fill="#8B7DB8"/>
+    <text x="824" y="42" text-anchor="middle" font-size="28" font-weight="900" fill="#1A1D24">1,500+</text>
+    <text x="824" y="66" text-anchor="middle" font-size="16" font-weight="700" fill="#1A1D24">Erdős予想総数</text>
+    <text x="824" y="86" text-anchor="middle" font-size="13" fill="#8B7DB8" font-weight="700">解決はその0.3%</text>
+    <text x="824" y="104" text-anchor="middle" font-size="11" fill="#888">数学的価値は高い（整数論・組合せ論）</text>
+  </g>
+
+  <!-- Aletheia loop diagram -->
+  <rect x="58" y="328" width="660" height="310" rx="6" fill="white" stroke="#1A1D24" stroke-width="2" filter="url(#softShadow)"/>
+  <text x="80" y="356" font-size="16" font-weight="700" fill="#1A1D24">🔄 Aletheia 自律証明ループ</text>
+  <line x1="80" y1="364" x2="698" y2="364" stroke="#E0D8CC" stroke-width="1"/>
+  <g transform="translate(80, 380)">
+    <!-- Loop boxes -->
+    <rect x="200" y="0" width="230" height="50" rx="8" fill="#EDE7F6" stroke="#8B7DB8" stroke-width="2.5"/>
+    <text x="315" y="30" text-anchor="middle" font-size="14" font-weight="700" fill="#1A1D24">① 問題入力</text>
+    <text x="315" y="46" text-anchor="middle" font-size="11" fill="#4A5568">Erdős予想をNL形式でロード</text>
+    <!-- Arrow down -->
+    <line x1="315" y1="50" x2="315" y2="76" stroke="#8B7DB8" stroke-width="2"/>
+    <polygon points="309,76 321,76 315,88" fill="#8B7DB8"/>
+    <rect x="200" y="88" width="230" height="50" rx="8" fill="#EDE7F6" stroke="#8B7DB8" stroke-width="2.5"/>
+    <text x="315" y="118" text-anchor="middle" font-size="14" font-weight="700" fill="#1A1D24">② 仮説生成</text>
+    <text x="315" y="134" text-anchor="middle" font-size="11" fill="#4A5568">Gemini Deep Thinkが証明案を生成</text>
+    <!-- Arrow down -->
+    <line x1="315" y1="138" x2="315" y2="164" stroke="#8B7DB8" stroke-width="2"/>
+    <polygon points="309,164 321,164 315,176" fill="#8B7DB8"/>
+    <rect x="200" y="176" width="230" height="50" rx="8" fill="#EDE7F6" stroke="#8B7DB8" stroke-width="2.5"/>
+    <text x="315" y="206" text-anchor="middle" font-size="14" font-weight="700" fill="#1A1D24">③ Lean 4 形式検証</text>
+    <text x="315" y="222" text-anchor="middle" font-size="11" fill="#4A5568">定理証明支援系で自動検証</text>
+    <!-- Arrow - conditional -->
+    <line x1="315" y1="226" x2="315" y2="252" stroke="#8B7DB8" stroke-width="2"/>
+    <polygon points="309,252 321,252 315,264" fill="#8B7DB8"/>
+    <rect x="130" y="264" width="115" height="44" rx="8" fill="#FCE4EC" stroke="#E53935" stroke-width="2"/>
+    <text x="187" y="291" text-anchor="middle" font-size="12" font-weight="700" fill="#E53935">❌ エラー</text>
+    <!-- Error loop back -->
+    <line x1="130" y1="286" x2="80" y2="286" stroke="#E53935" stroke-width="2"/>
+    <line x1="80" y1="286" x2="80" y2="113" stroke="#E53935" stroke-width="2"/>
+    <line x1="80" y1="113" x2="200" y2="113" stroke="#E53935" stroke-width="2"/>
+    <polygon points="198,107 210,113 198,119" fill="#E53935"/>
+    <text x="40" y="210" text-anchor="middle" font-size="11" fill="#E53935" transform="rotate(-90, 40, 210)">修正・再試行</text>
+    <rect x="385" y="264" width="115" height="44" rx="8" fill="#E8F5E9" stroke="#5CA46E" stroke-width="2"/>
+    <text x="442" y="291" text-anchor="middle" font-size="12" font-weight="700" fill="#5CA46E">✅ 証明完成</text>
+  </g>
+
+  <!-- Solved problems panel -->
+  <rect x="736" y="328" width="624" height="310" rx="6" fill="white" stroke="#1A1D24" stroke-width="2" filter="url(#softShadow)"/>
+  <text x="758" y="356" font-size="15" font-weight="700" fill="#1A1D24">✅ 自律解決された4問</text>
+  <line x1="758" y1="364" x2="1340" y2="364" stroke="#E0D8CC" stroke-width="1"/>
+  <g transform="translate(758, 380)">
+    <rect x="0" y="0" width="564" height="60" rx="6" fill="#F3E5F5" stroke="#8B7DB8" stroke-width="1.5"/>
+    <text x="14" y="22" font-size="14" font-weight="700" fill="#8B7DB8">Erdős-652</text>
+    <text x="14" y="42" font-size="11" fill="#4A5568">整数の集合と加法的構造に関する問題 · 組合せ論領域</text>
+    <text x="14" y="58" font-size="10" fill="#888">完全自律解決（Human intervention: none）</text>
+    <rect x="0" y="70" width="564" height="60" rx="6" fill="#F3E5F5" stroke="#8B7DB8" stroke-width="1.5"/>
+    <text x="14" y="92" font-size="14" font-weight="700" fill="#8B7DB8">Erdős-654</text>
+    <text x="14" y="112" font-size="11" fill="#4A5568">連続整数列の差集合に関する予想 · 数論領域</text>
+    <text x="14" y="128" font-size="10" fill="#888">完全自律解決（Lean 4検証済み）</text>
+    <rect x="0" y="140" width="564" height="60" rx="6" fill="#F3E5F5" stroke="#8B7DB8" stroke-width="1.5"/>
+    <text x="14" y="162" font-size="14" font-weight="700" fill="#8B7DB8">Erdős-1040</text>
+    <text x="14" y="182" font-size="11" fill="#4A5568">グラフの彩色数と独立集合に関する予想 · グラフ理論</text>
+    <text x="14" y="198" font-size="10" fill="#888">完全自律解決</text>
+    <rect x="0" y="210" width="564" height="72" rx="6" fill="#EDE7F6" stroke="#8B7DB8" stroke-width="2"/>
+    <text x="14" y="232" font-size="14" font-weight="700" fill="#8B7DB8">Erdős-1051 ⭐ 最重要</text>
+    <text x="14" y="252" font-size="11" fill="#4A5568">数論的独立集合の濃度上限 · 「非自明な」未解決問題</text>
+    <text x="14" y="270" font-size="11" fill="#8B7DB8" font-weight="700">→ 著名数学者複数が「AIが数学の境界を押し広げた初例」と評価</text>
+  </g>
+
+  <!-- Sticky Notes -->
+  <g transform="translate(58, 660)">
+    <g transform="rotate(-1.2) translate(0, 0)">
+      <rect x="0" y="0" width="290" height="148" fill="#FFF9C4" stroke="#1A1D24" stroke-width="1.5" filter="url(#stickyShadow)"/>
+      <text x="14" y="24" font-size="13" font-weight="700" fill="#1A1D24">📚 Erdős予想とは</text>
+      <text x="14" y="46" font-size="11" fill="#4A5568">Paul Erdős（1913-1996）が残した</text>
+      <text x="14" y="62" font-size="11" fill="#4A5568">未解決問題群。整数論・グラフ理論・</text>
+      <text x="14" y="78" font-size="11" fill="#4A5568">組合せ論の核心的問題を含む。</text>
+      <text x="14" y="94" font-size="11" fill="#4A5568">4/1,500問 = 0.3%だが数学的価値高。</text>
+      <text x="14" y="118" font-size="10" fill="#888">「小さな一歩」だが歴史的転換点か</text>
+    </g>
+    <g transform="rotate(0.8) translate(305, 0)">
+      <rect x="0" y="0" width="290" height="148" fill="#D1F2EB" stroke="#1A1D24" stroke-width="1.5" filter="url(#stickyShadow)"/>
+      <text x="14" y="24" font-size="13" font-weight="700" fill="#1A1D24">🤔 「組み合わせ」批判</text>
+      <text x="14" y="46" font-size="11" fill="#4A5568">「既知手法の再組み合わせで</text>
+      <text x="14" y="62" font-size="11" fill="#4A5568">新しい洞察はない」という批判。</text>
+      <text x="14" y="78" font-size="11" fill="#4A5568">Tao教授「ツールとして使える段階」</text>
+      <text x="14" y="94" font-size="11" fill="#4A5568">「フィールズ賞は程遠い」と評価。</text>
+      <text x="14" y="118" font-size="10" fill="#888">数学的創造性の定義が問われる</text>
+    </g>
+    <g transform="rotate(-0.6) translate(610, 0)">
+      <rect x="0" y="0" width="290" height="148" fill="#FCE4EC" stroke="#1A1D24" stroke-width="1.5" filter="url(#stickyShadow)"/>
+      <text x="14" y="24" font-size="13" font-weight="700" fill="#1A1D24">🏅 AIMO Prize $1M</text>
+      <text x="14" y="46" font-size="11" fill="#4A5568">IMOゴールドレベルを目指す</text>
+      <text x="14" y="62" font-size="11" fill="#4A5568">「AI-IMO」に複数ラボが挑戦中。</text>
+      <text x="14" y="78" font-size="11" fill="#4A5568">Aletheiaの次の目標は</text>
+      <text x="14" y="94" font-size="11" fill="#4A5568">「組合せ論の20年来の未解決問題」。</text>
+      <text x="14" y="118" font-size="10" fill="#888">Riemann仮説はまだ視野外</text>
+    </g>
+    <g transform="rotate(1.3) translate(915, 0)">
+      <rect x="0" y="0" width="290" height="148" fill="#EDE7F6" stroke="#1A1D24" stroke-width="1.5" filter="url(#stickyShadow)"/>
+      <text x="14" y="24" font-size="13" font-weight="700" fill="#1A1D24">🪜 AI数学の4段階</text>
+      <text x="14" y="46" font-size="11" fill="#4A5568">①既知定理検索 ②既知証明検証</text>
+      <text x="14" y="62" font-size="11" fill="#4A5568">③既知手法の組み合わせ ←今ここ</text>
+      <text x="14" y="78" font-size="11" fill="#4A5568">④新しい数学的概念の生成 ←次</text>
+      <text x="14" y="94" font-size="11" fill="#4A5568">「数学者の仕事の半分は代替可能」</text>
+      <text x="14" y="110" font-size="11" fill="#4A5568">という2026年コンセンサス形成中。</text>
+      <text x="14" y="130" font-size="10" fill="#888">③の上限→④の入口が現在地</text>
+    </g>
+  </g>
+
+  <!-- Bottom math formula decorations -->
+  <rect x="58" y="830" width="1302" height="100" rx="6" fill="white" stroke="#1A1D24" stroke-width="2" filter="url(#softShadow)"/>
+  <text x="80" y="856" font-size="14" font-weight="700" fill="#1A1D24">📐 Aletheia が使用する数学的手法と関連研究</text>
+  <line x1="80" y1="864" x2="1340" y2="864" stroke="#E0D8CC" stroke-width="1"/>
+  <g transform="translate(80, 872)">
+    <rect x="0" y="0" width="300" height="44" rx="4" fill="#F3E5F5" stroke="#8B7DB8" stroke-width="1.5"/>
+    <text x="150" y="20" text-anchor="middle" font-size="12" font-weight="700" fill="#8B7DB8">Lean 4 形式証明</text>
+    <text x="150" y="36" text-anchor="middle" font-size="10" fill="#4A5568">自動検証で「確かに正しい証明」を保証</text>
+    <rect x="316" y="0" width="300" height="44" rx="4" fill="#F3E5F5" stroke="#8B7DB8" stroke-width="1.5"/>
+    <text x="466" y="20" text-anchor="middle" font-size="12" font-weight="700" fill="#8B7DB8">半自律Erdős評価 (arXiv 2601.22401)</text>
+    <text x="466" y="36" text-anchor="middle" font-size="10" fill="#4A5568">Gemini連携でErdős問題をシステム化評価</text>
+    <rect x="632" y="0" width="300" height="44" rx="4" fill="#F3E5F5" stroke="#8B7DB8" stroke-width="1.5"/>
+    <text x="782" y="20" text-anchor="middle" font-size="12" font-weight="700" fill="#8B7DB8">HorizonMath ベンチ (arXiv 2603.15617)</text>
+    <text x="782" y="36" text-anchor="middle" font-size="10" fill="#4A5568">数学的発見進捗の自動検証フレームワーク</text>
+    <rect x="948" y="0" width="300" height="44" rx="4" fill="#F3E5F5" stroke="#8B7DB8" stroke-width="1.5"/>
+    <text x="1098" y="20" text-anchor="middle" font-size="12" font-weight="700" fill="#8B7DB8">推論時スケーリング則</text>
+    <text x="1098" y="36" text-anchor="middle" font-size="10" fill="#4A5568">Olympiad超の問題に拡張する独自手法</text>
+  </g>
+
+  <line x1="58" y1="1020" x2="1360" y2="1020" stroke="#1A1D24" stroke-width="1.5"/>
+  <text x="709" y="1040" text-anchor="middle" font-size="12" fill="#888" font-style="italic">AI News · 2026-05-05 · Aletheia — Google AI Autonomously Solves Four Erdős Conjectures</text>
+</svg>

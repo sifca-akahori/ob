@@ -1,0 +1,198 @@
+<svg viewBox="0 0 1400 1050" xmlns="http://www.w3.org/2000/svg" font-family="-apple-system, 'Hiragino Sans', 'Yu Gothic', sans-serif">
+  <defs>
+    <pattern id="paperTexture" patternUnits="userSpaceOnUse" width="4" height="4">
+      <rect width="4" height="4" fill="#FBF8F1"/>
+      <circle cx="1" cy="1" r="0.3" fill="#E8E2D3" opacity="0.5"/>
+      <circle cx="3" cy="3" r="0.2" fill="#D8D0C4" opacity="0.4"/>
+    </pattern>
+    <filter id="softShadow"><feDropShadow dx="2" dy="3" stdDeviation="3" flood-color="#1A1D24" flood-opacity="0.15"/></filter>
+    <filter id="stickyShadow"><feDropShadow dx="3" dy="4" stdDeviation="4" flood-color="#1A1D24" flood-opacity="0.2"/></filter>
+  </defs>
+  <rect width="1400" height="1050" fill="url(#paperTexture)"/>
+  <rect x="0" y="0" width="42" height="1050" fill="#F0EBE0" stroke="#E0D8CC" stroke-width="1"/>
+  <circle cx="21" cy="120" r="12" fill="#FBF8F1" stroke="#C8BFB0" stroke-width="2"/>
+  <circle cx="21" cy="280" r="12" fill="#FBF8F1" stroke="#C8BFB0" stroke-width="2"/>
+  <circle cx="21" cy="440" r="12" fill="#FBF8F1" stroke="#C8BFB0" stroke-width="2"/>
+  <circle cx="21" cy="600" r="12" fill="#FBF8F1" stroke="#C8BFB0" stroke-width="2"/>
+  <circle cx="21" cy="760" r="12" fill="#FBF8F1" stroke="#C8BFB0" stroke-width="2"/>
+  <circle cx="21" cy="920" r="12" fill="#FBF8F1" stroke="#C8BFB0" stroke-width="2"/>
+
+  <g transform="translate(1180, 18) rotate(-3)">
+    <rect x="0" y="0" width="200" height="36" fill="#5CA46E" stroke="#1A1D24" stroke-width="2" rx="3"/>
+    <text x="100" y="24" text-anchor="middle" font-size="15" font-weight="700" fill="white">#ビジネス</text>
+  </g>
+  <rect x="58" y="18" width="160" height="34" rx="4" fill="#2F3842" filter="url(#softShadow)"/>
+  <text x="138" y="39" text-anchor="middle" font-size="14" font-weight="600" fill="#F0EBE0">2026-05-05</text>
+  <text x="240" y="42" font-size="18" fill="#F5A623">⭐⭐⭐</text>
+
+  <line x1="58" y1="68" x2="1360" y2="68" stroke="#1A1D24" stroke-width="3"/>
+  <text x="58" y="108" font-size="36" font-weight="900" fill="#1A1D24">🧠 Cerebras IPO：$3.5B調達・$26.6B評価</text>
+  <text x="58" y="145" font-size="22" font-weight="500" fill="#4A5568">OpenAIとの$10B密接関係・WSE-3チップ・2026年最大Tech IPO候補</text>
+  <text x="58" y="172" font-size="14" fill="#888">Source: TechCrunch / CNBC / SiliconANGLE · 2026-05-05 · #ビジネス #Cerebras #IPO #チップ</text>
+  <line x1="58" y1="182" x2="1360" y2="182" stroke="#1A1D24" stroke-width="2"/>
+
+  <!-- Hero: Chip icon -->
+  <g transform="translate(1240, 195)">
+    <rect x="20" y="20" width="100" height="100" rx="8" fill="#2F3842" stroke="#1A1D24" stroke-width="3"/>
+    <rect x="36" y="36" width="68" height="68" rx="4" fill="#5CA46E" stroke="#1A1D24" stroke-width="2"/>
+    <line x1="20" y1="50" x2="0" y2="50" stroke="#1A1D24" stroke-width="4"/>
+    <line x1="20" y1="70" x2="0" y2="70" stroke="#1A1D24" stroke-width="4"/>
+    <line x1="20" y1="90" x2="0" y2="90" stroke="#1A1D24" stroke-width="4"/>
+    <line x1="120" y1="50" x2="140" y2="50" stroke="#1A1D24" stroke-width="4"/>
+    <line x1="120" y1="70" x2="140" y2="70" stroke="#1A1D24" stroke-width="4"/>
+    <line x1="120" y1="90" x2="140" y2="90" stroke="#1A1D24" stroke-width="4"/>
+    <line x1="50" y1="20" x2="50" y2="0" stroke="#1A1D24" stroke-width="4"/>
+    <line x1="70" y1="20" x2="70" y2="0" stroke="#1A1D24" stroke-width="4"/>
+    <line x1="90" y1="20" x2="90" y2="0" stroke="#1A1D24" stroke-width="4"/>
+    <line x1="50" y1="120" x2="50" y2="140" stroke="#1A1D24" stroke-width="4"/>
+    <line x1="70" y1="120" x2="70" y2="140" stroke="#1A1D24" stroke-width="4"/>
+    <line x1="90" y1="120" x2="90" y2="140" stroke="#1A1D24" stroke-width="4"/>
+    <text x="70" y="78" text-anchor="middle" font-size="22" font-weight="900" fill="white">C</text>
+  </g>
+
+  <!-- Key Numbers -->
+  <g transform="translate(58, 195)">
+    <rect x="0" y="0" width="220" height="110" rx="6" fill="white" stroke="#1A1D24" stroke-width="2.5" filter="url(#softShadow)"/>
+    <rect x="0" y="0" width="220" height="8" rx="6" fill="#5CA46E"/>
+    <text x="110" y="52" text-anchor="middle" font-size="40" font-weight="900" fill="#1A1D24">$3.5B</text>
+    <text x="110" y="74" text-anchor="middle" font-size="13" fill="#5CA46E" font-weight="700">IPO調達目標額</text>
+    <text x="110" y="94" text-anchor="middle" font-size="11" fill="#888">2,800万株 · $115〜$125/株</text>
+
+    <rect x="238" y="0" width="220" height="110" rx="6" fill="white" stroke="#1A1D24" stroke-width="2.5" filter="url(#softShadow)"/>
+    <rect x="238" y="0" width="220" height="8" rx="6" fill="#5CA46E"/>
+    <text x="348" y="52" text-anchor="middle" font-size="40" font-weight="900" fill="#1A1D24">$26.6B</text>
+    <text x="348" y="74" text-anchor="middle" font-size="13" fill="#5CA46E" font-weight="700">上場時想定評価額</text>
+    <text x="348" y="94" text-anchor="middle" font-size="11" fill="#888">2026年最大Tech IPO候補</text>
+
+    <rect x="476" y="0" width="220" height="110" rx="6" fill="white" stroke="#1A1D24" stroke-width="2.5" filter="url(#softShadow)"/>
+    <rect x="476" y="0" width="220" height="8" rx="6" fill="#5CA46E"/>
+    <text x="586" y="52" text-anchor="middle" font-size="40" font-weight="900" fill="#1A1D24">$10B+</text>
+    <text x="586" y="74" text-anchor="middle" font-size="13" fill="#5CA46E" font-weight="700">OpenAI多年契約</text>
+    <text x="586" y="94" text-anchor="middle" font-size="11" fill="#888">$1Bローン+3,300万株ワラント</text>
+
+    <rect x="714" y="0" width="220" height="110" rx="6" fill="white" stroke="#1A1D24" stroke-width="2.5" filter="url(#softShadow)"/>
+    <rect x="714" y="0" width="220" height="8" rx="6" fill="#5CA46E"/>
+    <text x="824" y="52" text-anchor="middle" font-size="40" font-weight="900" fill="#1A1D24">+76%</text>
+    <text x="824" y="74" text-anchor="middle" font-size="13" fill="#5CA46E" font-weight="700">2025年売上成長率</text>
+    <text x="824" y="94" text-anchor="middle" font-size="11" fill="#888">$290.3M · 黒字転換$87.9M</text>
+  </g>
+
+  <!-- WSE-3 vs GPU comparison -->
+  <rect x="58" y="328" width="680" height="300" rx="6" fill="white" stroke="#1A1D24" stroke-width="2" filter="url(#softShadow)"/>
+  <text x="80" y="356" font-size="16" font-weight="700" fill="#1A1D24">⚡ WSE-3 vs GPU 性能比較</text>
+  <line x1="80" y1="364" x2="718" y2="364" stroke="#E0D8CC" stroke-width="1"/>
+  <g transform="translate(80, 376)">
+    <text x="0" y="20" font-size="13" font-weight="700" fill="#1A1D24">指標</text>
+    <text x="180" y="20" font-size="13" font-weight="700" fill="#5CA46E">Cerebras WSE-3</text>
+    <text x="380" y="20" font-size="13" font-weight="700" fill="#4A5568">NVIDIA H100 (8x)</text>
+    <line x1="0" y1="28" x2="600" y2="28" stroke="#E0D8CC" stroke-width="1"/>
+    <text x="0" y="54" font-size="12" fill="#4A5568">推論速度</text>
+    <text x="180" y="54" font-size="12" fill="#5CA46E" font-weight="700">最大15倍高速</text>
+    <text x="380" y="54" font-size="12" fill="#4A5568">基準</text>
+    <text x="0" y="82" font-size="12" fill="#4A5568">消費電力/compute</text>
+    <text x="180" y="82" font-size="12" fill="#5CA46E" font-weight="700">大幅削減</text>
+    <text x="380" y="82" font-size="12" fill="#4A5568">基準</text>
+    <text x="0" y="110" font-size="12" fill="#4A5568">通信オーバーヘッド</text>
+    <text x="180" y="110" font-size="12" fill="#5CA46E" font-weight="700">ほぼゼロ</text>
+    <text x="380" y="110" font-size="12" fill="#4A5568">NVLink/PCIe依存</text>
+    <text x="0" y="138" font-size="12" fill="#4A5568">トークン生成速度</text>
+    <text x="180" y="138" font-size="12" fill="#5CA46E" font-weight="700">業界最速水準</text>
+    <text x="380" y="138" font-size="12" fill="#4A5568">基準</text>
+    <text x="0" y="166" font-size="12" fill="#4A5568">ソフトウェアエコシステム</text>
+    <text x="180" y="166" font-size="12" fill="#E57373" font-weight="700">CUDA非互換</text>
+    <text x="380" y="166" font-size="12" fill="#5CA46E" font-weight="700">CUDA完全対応</text>
+    <line x1="0" y1="180" x2="600" y2="180" stroke="#E0D8CC" stroke-width="1"/>
+    <text x="0" y="200" font-size="11" fill="#888" font-style="italic">Wafer-Scale Engine: チップ全体で1枚のウエハー = 内部通信コストほぼゼロ</text>
+    <text x="0" y="218" font-size="11" fill="#888" font-style="italic">リスク: CUDA非互換 + OpenAI集中 + NVIDIA Blackwell Ultra競争激化</text>
+  </g>
+
+  <!-- OpenAI relationship diagram -->
+  <rect x="756" y="328" width="604" height="300" rx="6" fill="white" stroke="#1A1D24" stroke-width="2" filter="url(#softShadow)"/>
+  <rect x="756" y="328" width="604" height="40" rx="6" fill="#2F3842"/>
+  <text x="1058" y="353" text-anchor="middle" font-size="15" font-weight="700" fill="white">🔗 OpenAI × Cerebras 相互依存関係</text>
+  <g transform="translate(776, 380)">
+    <!-- OpenAI box -->
+    <rect x="0" y="20" width="180" height="80" rx="8" fill="#E8F5E9" stroke="#5CA46E" stroke-width="2.5"/>
+    <text x="90" y="56" text-anchor="middle" font-size="16" font-weight="700" fill="#1A1D24">OpenAI</text>
+    <text x="90" y="78" text-anchor="middle" font-size="12" fill="#4A5568">ARR $25B / Val $852B</text>
+    <!-- Cerebras box -->
+    <rect x="380" y="20" width="180" height="80" rx="8" fill="#E3F2FD" stroke="#5CA46E" stroke-width="2.5"/>
+    <text x="470" y="56" text-anchor="middle" font-size="16" font-weight="700" fill="#1A1D24">Cerebras</text>
+    <text x="470" y="78" text-anchor="middle" font-size="12" fill="#4A5568">Rev $290M / Val $26.6B</text>
+    <!-- Arrows -->
+    <line x1="180" y1="48" x2="380" y2="48" stroke="#5CA46E" stroke-width="2.5"/>
+    <polygon points="380,42 392,48 380,54" fill="#5CA46E"/>
+    <text x="280" y="42" text-anchor="middle" font-size="11" fill="#5CA46E" font-weight="700">$10B+契約</text>
+    <line x1="380" y1="70" x2="180" y2="70" stroke="#1A1D24" stroke-width="2"/>
+    <polygon points="180,64 168,70 180,76" fill="#1A1D24"/>
+    <text x="280" y="90" text-anchor="middle" font-size="11" fill="#4A5568">推論インフラ提供</text>
+    <!-- Loan/Warrant -->
+    <text x="10" y="140" font-size="12" fill="#4A5568">← $1Bローン供与</text>
+    <text x="10" y="162" font-size="12" fill="#4A5568">← 3,300万株ワラント保有</text>
+    <text x="10" y="190" font-size="12" fill="#888" font-style="italic">リスク: OpenAIが自社チップ開発(Tigris)を加速</text>
+    <text x="10" y="212" font-size="12" fill="#888" font-style="italic">すれば依存度が長期的に低下する可能性</text>
+  </g>
+
+  <!-- Sticky Notes -->
+  <g transform="translate(58, 650)">
+    <g transform="rotate(-1.2) translate(0, 0)">
+      <rect x="0" y="0" width="290" height="148" fill="#FFF9C4" stroke="#1A1D24" stroke-width="1.5" filter="url(#stickyShadow)"/>
+      <text x="14" y="24" font-size="13" font-weight="700" fill="#1A1D24">💡 WSE-3の賞味期限</text>
+      <text x="14" y="46" font-size="11" fill="#4A5568">Blackwell Ultra(GB300)が</text>
+      <text x="14" y="62" font-size="11" fill="#4A5568">Q3以降普及すると優位縮小リスク。</text>
+      <text x="14" y="78" font-size="11" fill="#4A5568">CUDA非互換という</text>
+      <text x="14" y="94" font-size="11" fill="#4A5568">エコシステム壁が最大弱点。</text>
+      <text x="14" y="118" font-size="10" fill="#888">AMD MI400 / Google TPU v6も競合</text>
+    </g>
+    <g transform="rotate(0.8) translate(305, 0)">
+      <rect x="0" y="0" width="290" height="148" fill="#D1ECF1" stroke="#1A1D24" stroke-width="1.5" filter="url(#stickyShadow)"/>
+      <text x="14" y="24" font-size="13" font-weight="700" fill="#1A1D24">⚠️ 黒字の品質チェック</text>
+      <text x="14" y="46" font-size="11" fill="#4A5568">$87.9M純利益の内訳要確認。</text>
+      <text x="14" y="62" font-size="11" fill="#4A5568">在庫評価益・ワラント時価変動</text>
+      <text x="14" y="78" font-size="11" fill="#4A5568">等の一時項目を除くと</text>
+      <text x="14" y="94" font-size="11" fill="#4A5568">実態が損失という可能性も。</text>
+      <text x="14" y="118" font-size="10" fill="#888">S-1脚注の非GAAPとの乖離を注視</text>
+    </g>
+    <g transform="rotate(-0.6) translate(610, 0)">
+      <rect x="0" y="0" width="290" height="148" fill="#FCE4EC" stroke="#1A1D24" stroke-width="1.5" filter="url(#stickyShadow)"/>
+      <text x="14" y="24" font-size="13" font-weight="700" fill="#1A1D24">📊 CoreWeave比較</text>
+      <text x="14" y="46" font-size="11" fill="#4A5568">CoreWeave IPO後+60%は</text>
+      <text x="14" y="62" font-size="11" fill="#4A5568">強気プライシングの根拠に。</text>
+      <text x="14" y="78" font-size="11" fill="#4A5568">ただしCoreWave=GPU賃貸(資産型)</text>
+      <text x="14" y="94" font-size="11" fill="#4A5568">Cerebras=チップIP(技術型)と</text>
+      <text x="14" y="110" font-size="11" fill="#4A5568">性格が異なる点に注意。</text>
+      <text x="14" y="128" font-size="10" fill="#888">マルチプル算定のカテゴリ問題</text>
+    </g>
+    <g transform="rotate(1.4) translate(915, 0)">
+      <rect x="0" y="0" width="290" height="148" fill="#EDE7F6" stroke="#1A1D24" stroke-width="1.5" filter="url(#stickyShadow)"/>
+      <text x="14" y="24" font-size="13" font-weight="700" fill="#1A1D24">📅 IPO後シナリオ</text>
+      <text x="14" y="46" font-size="11" fill="#4A5568">ロックアップ解除2026年8月が</text>
+      <text x="14" y="62" font-size="11" fill="#4A5568">最初の波乱要因。</text>
+      <text x="14" y="78" font-size="11" fill="#4A5568">OpenAIワラント株の扱いが</text>
+      <text x="14" y="94" font-size="11" fill="#4A5568">需給に大きく影響する見込み。</text>
+      <text x="14" y="118" font-size="10" fill="#888">AIインフラ株センチメント最重要指標に</text>
+    </g>
+  </g>
+
+  <!-- Revenue chart -->
+  <rect x="58" y="820" width="1302" height="110" rx="6" fill="white" stroke="#1A1D24" stroke-width="2" filter="url(#softShadow)"/>
+  <text x="80" y="848" font-size="14" font-weight="700" fill="#1A1D24">📊 Cerebras 財務ハイライト</text>
+  <line x1="80" y1="858" x2="1340" y2="858" stroke="#E0D8CC" stroke-width="1"/>
+  <g transform="translate(80, 866)">
+    <rect x="0" y="0" width="270" height="48" rx="4" fill="#E8F5E9" stroke="#5CA46E" stroke-width="1.5"/>
+    <text x="135" y="22" text-anchor="middle" font-size="12" font-weight="700" fill="#1A1D24">📈 2025年売上</text>
+    <text x="135" y="40" text-anchor="middle" font-size="14" font-weight="900" fill="#5CA46E">$290.3M (+76% YoY)</text>
+    <rect x="290" y="0" width="270" height="48" rx="4" fill="#E8F5E9" stroke="#5CA46E" stroke-width="1.5"/>
+    <text x="425" y="22" text-anchor="middle" font-size="12" font-weight="700" fill="#1A1D24">💰 2025年純利益</text>
+    <text x="425" y="40" text-anchor="middle" font-size="14" font-weight="900" fill="#5CA46E">$87.9M（黒字転換）</text>
+    <rect x="580" y="0" width="270" height="48" rx="4" fill="#FFF9C4" stroke="#F5A623" stroke-width="1.5"/>
+    <text x="715" y="22" text-anchor="middle" font-size="12" font-weight="700" fill="#1A1D24">🏦 OpenAI依存度</text>
+    <text x="715" y="40" text-anchor="middle" font-size="14" font-weight="900" fill="#E67E22">売上の大半をOpenAIが占有</text>
+    <rect x="870" y="0" width="270" height="48" rx="4" fill="#E3F2FD" stroke="#5B8DEF" stroke-width="1.5"/>
+    <text x="1005" y="22" text-anchor="middle" font-size="12" font-weight="700" fill="#1A1D24">📅 IPOタイムライン</text>
+    <text x="1005" y="40" text-anchor="middle" font-size="14" font-weight="900" fill="#5B8DEF">2026-05-04 ロードショー開始</text>
+  </g>
+
+  <line x1="58" y1="1020" x2="1360" y2="1020" stroke="#1A1D24" stroke-width="1.5"/>
+  <text x="709" y="1040" text-anchor="middle" font-size="12" fill="#888" font-style="italic">AI News · 2026-05-05 · Cerebras IPO — The $26.6B Bet on Wafer-Scale AI Inference</text>
+</svg>

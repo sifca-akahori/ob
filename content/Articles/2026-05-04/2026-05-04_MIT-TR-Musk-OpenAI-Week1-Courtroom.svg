@@ -1,0 +1,151 @@
+<svg viewBox="0 0 1400 1050" xmlns="http://www.w3.org/2000/svg" font-family="-apple-system, 'Hiragino Sans', 'Yu Gothic', sans-serif">
+  <defs>
+    <pattern id="paperTexture" x="0" y="0" width="4" height="4" patternUnits="userSpaceOnUse">
+      <rect width="4" height="4" fill="#FBF8F1"/>
+      <circle cx="2" cy="2" r="0.4" fill="#E8E2D5" opacity="0.5"/>
+    </pattern>
+    <filter id="softShadow"><feDropShadow dx="2" dy="3" stdDeviation="4" flood-color="#1A1D24" flood-opacity="0.15"/></filter>
+    <filter id="stickyShadow"><feDropShadow dx="3" dy="4" stdDeviation="5" flood-color="#1A1D24" flood-opacity="0.2"/></filter>
+  </defs>
+  <rect width="1400" height="1050" fill="url(#paperTexture)"/>
+  <circle cx="32" cy="150" r="12" fill="none" stroke="#C8C0B0" stroke-width="2"/>
+  <circle cx="32" cy="300" r="12" fill="none" stroke="#C8C0B0" stroke-width="2"/>
+  <circle cx="32" cy="450" r="12" fill="none" stroke="#C8C0B0" stroke-width="2"/>
+  <circle cx="32" cy="600" r="12" fill="none" stroke="#C8C0B0" stroke-width="2"/>
+  <circle cx="32" cy="750" r="12" fill="none" stroke="#C8C0B0" stroke-width="2"/>
+  <circle cx="32" cy="900" r="12" fill="none" stroke="#C8C0B0" stroke-width="2"/>
+  <line x1="0" y1="0" x2="0" y2="1050" stroke="#D8D0C0" stroke-width="2"/>
+  <line x1="60" y1="0" x2="60" y2="1050" stroke="#E8E0D0" stroke-width="1" stroke-dasharray="4,4"/>
+
+  <g transform="translate(1210, 28) rotate(-3)">
+    <rect x="-60" y="0" width="200" height="44" rx="4" fill="#E8A87C" stroke="#1A1D24" stroke-width="2" filter="url(#stickyShadow)"/>
+    <text x="40" y="28" text-anchor="middle" font-size="18" font-weight="700" fill="white">#SNS</text>
+  </g>
+  <rect x="75" y="20" width="200" height="40" rx="6" fill="#2F3842"/>
+  <text x="175" y="46" text-anchor="middle" font-size="16" font-weight="700" fill="white">2026-05-04</text>
+  <text x="290" y="48" font-size="22" fill="#F0A500">⭐⭐</text>
+
+  <text x="80" y="110" font-size="34" font-weight="900" fill="#1A1D24">📋 MIT TR法廷体験記：Musk v. OpenAI Week1</text>
+  <text x="80" y="152" font-size="26" font-weight="700" fill="#3A3D44">「信じられない現実がそこにあった」——数万RTの必読記事</text>
+  <line x1="80" y1="165" x2="1340" y2="165" stroke="#E8A87C" stroke-width="3"/>
+  <text x="80" y="190" font-size="15" fill="#7A8090">MIT Technology Review ｜ 2026-05-04 ｜ #SNS #Musk #OpenAI #AGI #ガバナンス #法廷</text>
+
+  <g transform="translate(1240, 200)">
+    <rect x="-55" y="-10" width="110" height="100" rx="10" fill="#E8A87C" stroke="#1A1D24" stroke-width="3"/>
+    <text x="0" y="45" text-anchor="middle" font-size="40" fill="white">📋</text>
+    <text x="0" y="108" text-anchor="middle" font-size="11" fill="#3A3D44" font-weight="600">MIT TR Week1</text>
+  </g>
+
+  <!-- KEY NUMBERS -->
+  <rect x="80" y="210" width="1100" height="130" rx="10" fill="white" stroke="#1A1D24" stroke-width="2" filter="url(#softShadow)"/>
+  <text x="175" y="248" text-anchor="middle" font-size="13" fill="#5A6070" font-weight="600">X RT数（推定）</text>
+  <text x="175" y="295" text-anchor="middle" font-size="52" font-weight="900" fill="#E8A87C">数万</text>
+  <text x="175" y="325" text-anchor="middle" font-size="12" fill="#7A8090">週内最多AI記事</text>
+  <line x1="305" y1="225" x2="305" y2="330" stroke="#E0D8C8" stroke-width="1.5"/>
+  <text x="440" y="248" text-anchor="middle" font-size="13" fill="#5A6070" font-weight="600">Musk証言時間</text>
+  <text x="440" y="295" text-anchor="middle" font-size="52" font-weight="900" fill="#C08040">7時間+</text>
+  <text x="440" y="325" text-anchor="middle" font-size="12" fill="#7A8090">Oakland連邦地裁</text>
+  <line x1="580" y1="225" x2="580" y2="330" stroke="#E0D8C8" stroke-width="1.5"/>
+  <text x="720" y="248" text-anchor="middle" font-size="13" fill="#5A6070" font-weight="600">裁判を形容したX表現</text>
+  <text x="720" y="280" text-anchor="middle" font-size="24" font-weight="900" fill="#1A1D24">AI業界の</text>
+  <text x="720" y="308" text-anchor="middle" font-size="24" font-weight="900" fill="#8A3010">ウォーターゲート</text>
+  <text x="720" y="325" text-anchor="middle" font-size="12" fill="#7A8090">X上で拡散したフレーズ</text>
+  <line x1="860" y1="225" x2="860" y2="330" stroke="#E0D8C8" stroke-width="1.5"/>
+  <text x="980" y="248" text-anchor="middle" font-size="13" fill="#5A6070" font-weight="600">媒体</text>
+  <text x="980" y="285" text-anchor="middle" font-size="28" font-weight="900" fill="#1A1D24">MIT TR</text>
+  <text x="980" y="308" text-anchor="middle" font-size="16" fill="#4A4040">5/4付体験記</text>
+  <text x="980" y="325" text-anchor="middle" font-size="12" fill="#7A8090">NYT/WSJでも引用</text>
+  <line x1="1100" y1="225" x2="1100" y2="330" stroke="#E0D8C8" stroke-width="1.5"/>
+  <text x="1175" y="248" text-anchor="middle" font-size="13" fill="#5A6070" font-weight="600">裁判のパラドックス</text>
+  <text x="1175" y="280" text-anchor="middle" font-size="18" font-weight="900" fill="#C04020">一般陪審員</text>
+  <text x="1175" y="302" text-anchor="middle" font-size="18" font-weight="900" fill="#C04020">がAGIを</text>
+  <text x="1175" y="320" text-anchor="middle" font-size="18" font-weight="900" fill="#C04020">裁く構造</text>
+
+  <!-- 3 Key Quotes -->
+  <rect x="80" y="360" width="540" height="295" rx="8" fill="white" stroke="#1A1D24" stroke-width="2" filter="url(#softShadow)"/>
+  <text x="350" y="390" text-anchor="middle" font-size="17" font-weight="800" fill="#1A1D24">💬 Week1 3大注目発言</text>
+  <line x1="100" y1="398" x2="600" y2="398" stroke="#E8A87C" stroke-width="2"/>
+
+  <rect x="100" y="410" width="500" height="72" rx="6" fill="#FFE8D0" stroke="#E08040" stroke-width="2"/>
+  <text x="120" y="430" font-size="12" font-weight="700" fill="#8A3010">Musk（証言台）：</text>
+  <text x="120" y="450" font-size="11" fill="#6A3010">「OpenAIは私の名前とビジョンを使って信頼を構築し、</text>
+  <text x="120" y="466" font-size="11" fill="#6A3010">後から手のひらを返した」</text>
+  <text x="120" y="479" font-size="11" fill="#AA5010" font-style="italic">— SNS最多RTフレーズ #1</text>
+
+  <rect x="100" y="490" width="500" height="72" rx="6" fill="#D0E8FF" stroke="#6090D0" stroke-width="1.5"/>
+  <text x="120" y="510" font-size="12" font-weight="700" fill="#2040A0">Brockman（OpenAI側）：</text>
+  <text x="120" y="530" font-size="11" fill="#1A3090">「私たちは常にAGIを安全に開発することを目的としていた。</text>
+  <text x="120" y="546" font-size="11" fill="#1A3090">その姿勢は今も変わらない」</text>
+  <text x="120" y="559" font-size="11" fill="#4060C0" font-style="italic">— 裁判支持派の反響多数</text>
+
+  <rect x="100" y="570" width="500" height="78" rx="6" fill="#E8F8E0" stroke="#70A850" stroke-width="1.5"/>
+  <text x="120" y="590" font-size="12" font-weight="700" fill="#2A6010">OpenAI弁護士（反対尋問）：</text>
+  <text x="120" y="610" font-size="11" fill="#1A5010">「あなたはxAIを設立してOpenAIと直接競合しながら、</text>
+  <text x="120" y="626" font-size="11" fill="#1A5010">なぜOpenAIが競合と戦えないことを問題にするのか？」</text>
+  <text x="120" y="641" font-size="11" fill="#5A9030" font-style="italic">— 論理矛盾への最も鋭い指摘</text>
+
+  <!-- Context analysis -->
+  <rect x="640" y="360" width="540" height="295" rx="8" fill="white" stroke="#1A1D24" stroke-width="2" filter="url(#softShadow)"/>
+  <text x="910" y="390" text-anchor="middle" font-size="17" font-weight="800" fill="#1A1D24">🔍 「法廷体験記」が示す3つの意味</text>
+  <line x1="660" y1="398" x2="1160" y2="398" stroke="#E8A87C" stroke-width="2"/>
+
+  <rect x="660" y="410" width="510" height="72" rx="6" fill="#FFF8E0" stroke="#D0A830" stroke-width="1.5"/>
+  <text x="680" y="432" font-size="13" font-weight="700" fill="#7A5010">① 「陪審員がAGIを裁く」構造の奇妙さ</text>
+  <text x="680" y="452" font-size="11" fill="#6A4010">AIガバナンスが法的に曖昧なまま商業化が進んだことの帰結。</text>
+  <text x="680" y="468" font-size="11" fill="#6A4010">30分の審議で世界最重要AI企業のガバナンスが判断される。</text>
+
+  <rect x="660" y="490" width="510" height="72" rx="6" fill="#FFF0E8" stroke="#D08060" stroke-width="1.5"/>
+  <text x="680" y="512" font-size="13" font-weight="700" fill="#8A4020">② 「技術的争点」から「物語の戦い」へ</text>
+  <text x="680" y="532" font-size="11" fill="#6A3010">法的議論よりも「マスクvsアルトマン」というドラマが</text>
+  <text x="680" y="548" font-size="11" fill="#6A3010">消費される。SNSで「どちらが正しいか」投票まで発展。</text>
+
+  <rect x="660" y="570" width="510" height="78" rx="6" fill="#F0F8FF" stroke="#6090D0" stroke-width="1.5"/>
+  <text x="680" y="592" font-size="13" font-weight="700" fill="#2040A0">③ IPO前の評判形成リスク</text>
+  <text x="680" y="612" font-size="11" fill="#1A3090">NYT・WSJへの引用拡散で一般投資家層に「創業理念裏切り」</text>
+  <text x="680" y="628" font-size="11" fill="#1A3090">ナラティブが浸透。法的帰結より評判リスクが深刻かもしれない。</text>
+  <text x="680" y="644" font-size="11" fill="#4060C0">→ $2,000億IPOへの最大の非法的リスク</text>
+
+  <!-- Sticky notes -->
+  <g transform="translate(80, 672) rotate(-1.5)" filter="url(#stickyShadow)">
+    <rect width="285" height="110" rx="3" fill="#FFF9C4" stroke="#E0D080" stroke-width="1.5"/>
+    <text x="143" y="24" text-anchor="middle" font-size="13" font-weight="700" fill="#6A5A00">📌 「見世物化」の懸念</text>
+    <text x="15" y="46" font-size="11" fill="#5A4A00">MIT TRが法廷内の雰囲気まで</text>
+    <text x="15" y="62" font-size="11" fill="#5A4A00">詳細記述した長文記事は確かに</text>
+    <text x="15" y="78" font-size="11" fill="#5A4A00">技術的争点よりドラマを消費。</text>
+    <text x="15" y="94" font-size="11" fill="#5A4A00">判決後の業界的影響力考えると</text>
+    <text x="15" y="108" font-size="11" fill="#8A7010">歪んだ世論形成リスクがある</text>
+  </g>
+
+  <g transform="translate(386, 664) rotate(1.2)" filter="url(#stickyShadow)">
+    <rect width="285" height="110" rx="3" fill="#FFE0B2" stroke="#E08040" stroke-width="1.5"/>
+    <text x="143" y="24" text-anchor="middle" font-size="13" font-weight="700" fill="#8A3000">📌 「ウォーターゲート」比較</text>
+    <text x="15" y="46" font-size="11" fill="#6A3000">X上で拡散した「AI業界の</text>
+    <text x="15" y="62" font-size="11" fill="#6A3000">ウォーターゲート」表現は</text>
+    <text x="15" y="78" font-size="11" fill="#6A3000">やや過剰だが、「信頼を構築した</text>
+    <text x="15" y="94" font-size="11" fill="#6A3000">組織が内部から崩れた」という</text>
+    <text x="15" y="108" font-size="11" fill="#AA5010">構造的類似は否定できない</text>
+  </g>
+
+  <g transform="translate(692, 672) rotate(-0.5)" filter="url(#stickyShadow)">
+    <rect width="285" height="110" rx="3" fill="#C8E6C9" stroke="#70A870" stroke-width="1.5"/>
+    <text x="143" y="24" text-anchor="middle" font-size="13" font-weight="700" fill="#1A5A30">📌 日本政策立案への示唆</text>
+    <text x="15" y="48" font-size="11" fill="#2A4A30">「非営利→営利転換の問題」は</text>
+    <text x="15" y="64" font-size="11" fill="#2A4A30">内閣府AI戦略会議のAI機構</text>
+    <text x="15" y="80" font-size="11" fill="#2A4A30">設計と直結。商業化圧力vs</text>
+    <text x="15" y="96" font-size="11" fill="#2A4A30">ミッション維持の実証事例と</text>
+    <text x="15" y="108" font-size="11" fill="#3A7040">して政策立案者が参照すべき</text>
+  </g>
+
+  <g transform="translate(998, 664) rotate(1.8)" filter="url(#stickyShadow)">
+    <rect width="285" height="110" rx="3" fill="#E1BEE7" stroke="#A070A0" stroke-width="1.5"/>
+    <text x="143" y="24" text-anchor="middle" font-size="13" font-weight="700" fill="#5A1A6A">📌 物語の先にある問い</text>
+    <text x="15" y="46" font-size="11" fill="#4A1A5A">「AGIをどう管理するか」という</text>
+    <text x="15" y="62" font-size="11" fill="#4A1A5A">本質的問いが、弁護士・陪審員・</text>
+    <text x="15" y="78" font-size="11" fill="#4A1A5A">傍聴席のAI企業員が一堂に会す</text>
+    <text x="15" y="94" font-size="11" fill="#4A1A5A">空間で扱われた。「法廷」が</text>
+    <text x="15" y="108" font-size="11" fill="#7A30A0">最初のAI政策フォーラムになった</text>
+  </g>
+
+  <rect x="0" y="1010" width="1400" height="40" fill="#E8E0D0"/>
+  <text x="700" y="1032" text-anchor="middle" font-size="13" fill="#7A7060" font-style="italic">AI News · 2026-05-04 · MIT Technology Review: Inside Week 1 of Musk v. OpenAI — The Courtroom Where AGI Was Put on Trial</text>
+</svg>

@@ -1,0 +1,234 @@
+<svg viewBox="0 0 1400 1050" xmlns="http://www.w3.org/2000/svg" font-family="-apple-system, 'Hiragino Sans', 'Yu Gothic', sans-serif">
+  <defs>
+    <pattern id="paperTexture" patternUnits="userSpaceOnUse" width="4" height="4">
+      <rect width="4" height="4" fill="#FBF8F1"/>
+      <circle cx="1" cy="1" r="0.3" fill="#E8E2D3" opacity="0.5"/>
+      <circle cx="3" cy="3" r="0.2" fill="#D8D0C4" opacity="0.4"/>
+    </pattern>
+    <filter id="softShadow" x="-10%" y="-10%" width="120%" height="120%">
+      <feDropShadow dx="2" dy="3" stdDeviation="3" flood-color="#1A1D24" flood-opacity="0.15"/>
+    </filter>
+    <filter id="stickyShadow" x="-10%" y="-10%" width="130%" height="130%">
+      <feDropShadow dx="3" dy="4" stdDeviation="4" flood-color="#1A1D24" flood-opacity="0.2"/>
+    </filter>
+  </defs>
+
+  <!-- Background -->
+  <rect width="1400" height="1050" fill="url(#paperTexture)"/>
+  <rect width="1400" height="1050" fill="#FBF8F1" opacity="0.3"/>
+
+  <!-- Binding holes (left edge) -->
+  <rect x="0" y="0" width="42" height="1050" fill="#F0EBE0" stroke="#E0D8CC" stroke-width="1"/>
+  <circle cx="21" cy="120" r="12" fill="#FBF8F1" stroke="#C8BFB0" stroke-width="2"/>
+  <circle cx="21" cy="280" r="12" fill="#FBF8F1" stroke="#C8BFB0" stroke-width="2"/>
+  <circle cx="21" cy="440" r="12" fill="#FBF8F1" stroke="#C8BFB0" stroke-width="2"/>
+  <circle cx="21" cy="600" r="12" fill="#FBF8F1" stroke="#C8BFB0" stroke-width="2"/>
+  <circle cx="21" cy="760" r="12" fill="#FBF8F1" stroke="#C8BFB0" stroke-width="2"/>
+  <circle cx="21" cy="920" r="12" fill="#FBF8F1" stroke="#C8BFB0" stroke-width="2"/>
+
+  <!-- Category tape (top right) -->
+  <g transform="translate(1180, 18) rotate(-3)">
+    <rect x="0" y="0" width="200" height="36" fill="#5CA46E" stroke="#1A1D24" stroke-width="2" rx="3"/>
+    <text x="100" y="24" text-anchor="middle" font-size="15" font-weight="700" fill="white">#ビジネス</text>
+  </g>
+
+  <!-- Date badge (top left) -->
+  <rect x="58" y="18" width="160" height="34" rx="4" fill="#2F3842" filter="url(#softShadow)"/>
+  <text x="138" y="39" text-anchor="middle" font-size="14" font-weight="600" fill="#F0EBE0">2026-05-05</text>
+
+  <!-- Impact stars -->
+  <text x="240" y="42" font-size="18" fill="#F5A623">⭐⭐⭐</text>
+
+  <!-- Main Title -->
+  <line x1="58" y1="68" x2="1360" y2="68" stroke="#1A1D24" stroke-width="3"/>
+  <text x="58" y="108" font-size="38" font-weight="900" fill="#1A1D24">🏔️ Sierra $950M Series E · 評価額 $15.8B</text>
+  <text x="58" y="145" font-size="22" font-weight="500" fill="#4A5568">Fortune 50の40%が採用するAIカスタマーサービス覇者 · Bret Taylor率いる最速エンタープライズ成長</text>
+  <text x="58" y="172" font-size="14" fill="#888">Source: TechCrunch / CNBC · 2026-05-05 · #ビジネス #Sierra #エンタープライズ</text>
+  <line x1="58" y1="182" x2="1360" y2="182" stroke="#1A1D24" stroke-width="2"/>
+
+  <!-- Hero: Mountain icon (Sierra = mountain) -->
+  <g transform="translate(1240, 190)">
+    <polygon points="80,160 0,160 40,60" fill="#5CA46E" stroke="#1A1D24" stroke-width="3"/>
+    <polygon points="120,160 50,160 85,80" fill="#4A8F5E" stroke="#1A1D24" stroke-width="3"/>
+    <polygon points="40,90 20,90 30,65" fill="white" opacity="0.5"/>
+  </g>
+
+  <!-- Key Numbers Row -->
+  <g transform="translate(58, 195)">
+    <!-- $950M -->
+    <rect x="0" y="0" width="230" height="110" rx="6" fill="white" stroke="#1A1D24" stroke-width="2.5" filter="url(#softShadow)"/>
+    <rect x="0" y="0" width="230" height="8" rx="6" fill="#5CA46E"/>
+    <text x="115" y="52" text-anchor="middle" font-size="40" font-weight="900" fill="#1A1D24">$950M</text>
+    <text x="115" y="76" text-anchor="middle" font-size="14" fill="#5CA46E" font-weight="700">Series E 調達額</text>
+    <text x="115" y="96" text-anchor="middle" font-size="11" fill="#888">Tiger Global · Google GV リード</text>
+
+    <!-- $15.8B -->
+    <rect x="248" y="0" width="230" height="110" rx="6" fill="white" stroke="#1A1D24" stroke-width="2.5" filter="url(#softShadow)"/>
+    <rect x="248" y="0" width="230" height="8" rx="6" fill="#5CA46E"/>
+    <text x="363" y="52" text-anchor="middle" font-size="40" font-weight="900" fill="#1A1D24">$15.8B</text>
+    <text x="363" y="76" text-anchor="middle" font-size="14" fill="#5CA46E" font-weight="700">Post-Money評価額</text>
+    <text x="363" y="96" text-anchor="middle" font-size="11" fill="#888">3年で到達した最速水準</text>
+
+    <!-- 40% -->
+    <rect x="496" y="0" width="230" height="110" rx="6" fill="white" stroke="#1A1D24" stroke-width="2.5" filter="url(#softShadow)"/>
+    <rect x="496" y="0" width="230" height="8" rx="6" fill="#5CA46E"/>
+    <text x="611" y="52" text-anchor="middle" font-size="40" font-weight="900" fill="#1A1D24">40%</text>
+    <text x="611" y="76" text-anchor="middle" font-size="14" fill="#5CA46E" font-weight="700">Fortune 50 採用率</text>
+    <text x="611" y="96" text-anchor="middle" font-size="11" fill="#888">Prudential, Cigna, Rocket Mortgage...</text>
+
+    <!-- $150M ARR -->
+    <rect x="744" y="0" width="230" height="110" rx="6" fill="white" stroke="#1A1D24" stroke-width="2.5" filter="url(#softShadow)"/>
+    <rect x="744" y="0" width="230" height="8" rx="6" fill="#5CA46E"/>
+    <text x="859" y="52" text-anchor="middle" font-size="40" font-weight="900" fill="#1A1D24">$150M+</text>
+    <text x="859" y="76" text-anchor="middle" font-size="14" fill="#5CA46E" font-weight="700">ARR（年間経常収益）</text>
+    <text x="859" y="96" text-anchor="middle" font-size="11" fill="#888">8四半期連続で超過維持</text>
+  </g>
+
+  <!-- Main Visual: Customer Service Market Bar Chart -->
+  <rect x="58" y="328" width="700" height="290" rx="6" fill="white" stroke="#1A1D24" stroke-width="2" filter="url(#softShadow)"/>
+  <text x="80" y="358" font-size="16" font-weight="700" fill="#1A1D24">📊 カスタマーサービス市場 vs 競合比較</text>
+  <line x1="80" y1="366" x2="738" y2="366" stroke="#E0D8CC" stroke-width="1"/>
+
+  <!-- Bar chart: Market sizes / ARR comparisons -->
+  <g transform="translate(80, 380)">
+    <!-- Labels -->
+    <text x="0" y="30" font-size="13" fill="#4A5568">市場規模 ($T)</text>
+
+    <!-- Y axis -->
+    <line x1="130" y1="10" x2="130" y2="250" stroke="#1A1D24" stroke-width="1.5"/>
+    <line x1="130" y1="250" x2="620" y2="250" stroke="#1A1D24" stroke-width="1.5"/>
+
+    <!-- Bars: TAM / competitors ARR-->
+    <rect x="155" y="60" width="60" height="190" fill="#5CA46E" stroke="#1A1D24" stroke-width="1.5"/>
+    <text x="185" y="52" text-anchor="middle" font-size="12" font-weight="700" fill="#1A1D24">$4,000B</text>
+    <text x="185" y="270" text-anchor="middle" font-size="12" fill="#4A5568">CS市場TAM</text>
+
+    <rect x="255" y="160" width="60" height="90" fill="#A8D5B5" stroke="#1A1D24" stroke-width="1.5"/>
+    <text x="285" y="152" text-anchor="middle" font-size="12" font-weight="700" fill="#1A1D24">$150M</text>
+    <text x="285" y="270" text-anchor="middle" font-size="12" fill="#4A5568">Sierra ARR</text>
+
+    <rect x="355" y="100" width="60" height="150" fill="#C8E6C9" stroke="#1A1D24" stroke-width="1.5"/>
+    <text x="385" y="92" text-anchor="middle" font-size="12" font-weight="700" fill="#1A1D24">$2.1B</text>
+    <text x="385" y="270" text-anchor="middle" font-size="12" fill="#4A5568">Intercom ARR</text>
+
+    <rect x="455" y="40" width="60" height="210" fill="#E8F5E9" stroke="#1A1D24" stroke-width="1.5"/>
+    <text x="485" y="32" text-anchor="middle" font-size="12" font-weight="700" fill="#1A1D24">$25B</text>
+    <text x="485" y="270" text-anchor="middle" font-size="12" fill="#4A5568">SF Service ARR</text>
+  </g>
+
+  <!-- Feature Cards -->
+  <g transform="translate(780, 328)">
+    <!-- Card 1: Founders -->
+    <rect x="0" y="0" width="270" height="135" rx="6" fill="white" stroke="#1A1D24" stroke-width="2" filter="url(#softShadow)"/>
+    <rect x="0" y="0" width="270" height="6" rx="6" fill="#5CA46E"/>
+    <text x="135" y="32" text-anchor="middle" font-size="14" font-weight="700" fill="#1A1D24">👥 創業者プロフィール</text>
+    <text x="14" y="58" font-size="12" fill="#4A5568">Bret Taylor</text>
+    <text x="14" y="76" font-size="11" fill="#888">元Salesforce共同CEO / OpenAI会長</text>
+    <text x="14" y="100" font-size="12" fill="#4A5568">Clay Bavor</text>
+    <text x="14" y="118" font-size="11" fill="#888">元Google VP (AR/VR/Workspace)</text>
+
+    <!-- Card 2: Investors -->
+    <rect x="0" y="150" width="270" height="135" rx="6" fill="white" stroke="#1A1D24" stroke-width="2" filter="url(#softShadow)"/>
+    <rect x="0" y="150" width="270" height="6" rx="6" fill="#5CA46E"/>
+    <text x="135" y="182" text-anchor="middle" font-size="14" font-weight="700" fill="#1A1D24">💼 主要投資家</text>
+    <text x="14" y="208" font-size="12" fill="#4A5568">🔵 Tiger Global（リード）</text>
+    <text x="14" y="228" font-size="12" fill="#4A5568">🔴 Google GV（リード）</text>
+    <text x="14" y="248" font-size="12" fill="#4A5568">◆ Benchmark · Sequoia · Greenoaks</text>
+    <text x="14" y="268" font-size="11" fill="#888">Benchmark(partner: Bill Gurley参加)</text>
+  </g>
+
+  <!-- Sticky Notes Row -->
+  <g transform="translate(58, 640)">
+    <!-- Note 1 -->
+    <g transform="rotate(-1.2) translate(0, 0)">
+      <rect x="0" y="0" width="290" height="140" fill="#FFF9C4" stroke="#1A1D24" stroke-width="1.5" filter="url(#stickyShadow)"/>
+      <text x="14" y="24" font-size="13" font-weight="700" fill="#1A1D24">💡 信頼性プレミアム</text>
+      <text x="14" y="46" font-size="11" fill="#4A5568">Taylorのネットワークが</text>
+      <text x="14" y="62" font-size="11" fill="#4A5568">Fortune 50への直接アクセスを実現。</text>
+      <text x="14" y="78" font-size="11" fill="#4A5568">製品力より創業者力が先行した</text>
+      <text x="14" y="94" font-size="11" fill="#4A5568">AIスタートアップの典型事例。</text>
+      <text x="14" y="116" font-size="10" fill="#888">成功の本質 = プロダクト×ネットワーク</text>
+    </g>
+
+    <!-- Note 2 -->
+    <g transform="rotate(0.8) translate(305, 0)">
+      <rect x="0" y="0" width="290" height="140" fill="#D1F2EB" stroke="#1A1D24" stroke-width="1.5" filter="url(#stickyShadow)"/>
+      <text x="14" y="24" font-size="13" font-weight="700" fill="#1A1D24">📌 $4,000B市場の罠</text>
+      <text x="14" y="46" font-size="11" fill="#4A5568">AI実際置換可能率は40〜60%。</text>
+      <text x="14" y="62" font-size="11" fill="#4A5568">規制・感情対話・高度判断は残存。</text>
+      <text x="14" y="78" font-size="11" fill="#4A5568">実質TAM = $1.6〜2.4T、</text>
+      <text x="14" y="94" font-size="11" fill="#4A5568">NRR（純収益維持率）が勝負の鍵。</text>
+      <text x="14" y="116" font-size="10" fill="#888">評価 = ARR × NRR × 将来置換率</text>
+    </g>
+
+    <!-- Note 3 -->
+    <g transform="rotate(-0.5) translate(610, 0)">
+      <rect x="0" y="0" width="290" height="140" fill="#FCE4EC" stroke="#1A1D24" stroke-width="1.5" filter="url(#stickyShadow)"/>
+      <text x="14" y="24" font-size="13" font-weight="700" fill="#1A1D24">⚡ Google GVの戦略意図</text>
+      <text x="14" y="46" font-size="11" fill="#4A5568">SierraはGemini APIへの</text>
+      <text x="14" y="62" font-size="11" fill="#4A5568">大規模導入パイプラインとなり得る。</text>
+      <text x="14" y="78" font-size="11" fill="#4A5568">OpenAI会長率いる会社への</text>
+      <text x="14" y="94" font-size="11" fill="#4A5568">Google投資という構造的逆説。</text>
+      <text x="14" y="116" font-size="10" fill="#888">AI産業の複雑な共依存関係を象徴</text>
+    </g>
+
+    <!-- Note 4 -->
+    <g transform="rotate(1.5) translate(915, 0)">
+      <rect x="0" y="0" width="290" height="140" fill="#EDE7F6" stroke="#1A1D24" stroke-width="1.5" filter="url(#stickyShadow)"/>
+      <text x="14" y="24" font-size="13" font-weight="700" fill="#1A1D24">🚀 1年後の展望</text>
+      <text x="14" y="46" font-size="11" fill="#4A5568">ARR $150M→$500M達成で</text>
+      <text x="14" y="62" font-size="11" fill="#4A5568">2027年前半IPOが射程内。</text>
+      <text x="14" y="78" font-size="11" fill="#4A5568">「エージェント完了率」が</text>
+      <text x="14" y="94" font-size="11" fill="#4A5568">新たな投資家評価軸となる予測。</text>
+      <text x="14" y="116" font-size="10" fill="#888">競合はIntercom・Freshworks・HubSpot</text>
+    </g>
+  </g>
+
+  <!-- Timeline: Funding history -->
+  <rect x="58" y="806" width="700" height="130" rx="6" fill="white" stroke="#1A1D24" stroke-width="2" filter="url(#softShadow)"/>
+  <text x="78" y="832" font-size="14" font-weight="700" fill="#1A1D24">📅 Sierra 資金調達タイムライン</text>
+  <line x1="78" y1="845" x2="738" y2="845" stroke="#E0D8CC" stroke-width="1"/>
+  <line x1="100" y1="880" x2="700" y2="880" stroke="#1A1D24" stroke-width="2"/>
+  <!-- Timeline dots -->
+  <circle cx="150" cy="880" r="8" fill="#5CA46E" stroke="#1A1D24" stroke-width="2"/>
+  <text x="150" y="910" text-anchor="middle" font-size="11" fill="#4A5568">2023</text>
+  <text x="150" y="924" text-anchor="middle" font-size="11" fill="#888">Seed $30M</text>
+  <circle cx="300" cy="880" r="8" fill="#5CA46E" stroke="#1A1D24" stroke-width="2"/>
+  <text x="300" y="910" text-anchor="middle" font-size="11" fill="#4A5568">2024Q1</text>
+  <text x="300" y="924" text-anchor="middle" font-size="11" fill="#888">A $110M</text>
+  <circle cx="460" cy="880" r="8" fill="#5CA46E" stroke="#1A1D24" stroke-width="2"/>
+  <text x="460" y="910" text-anchor="middle" font-size="11" fill="#4A5568">2025Q2</text>
+  <text x="460" y="924" text-anchor="middle" font-size="11" fill="#888">B/C $750M</text>
+  <circle cx="640" cy="880" r="10" fill="#1A1D24" stroke="#5CA46E" stroke-width="3"/>
+  <text x="640" y="910" text-anchor="middle" font-size="11" fill="#1A1D24" font-weight="700">2026Q2</text>
+  <text x="640" y="924" text-anchor="middle" font-size="11" fill="#5CA46E" font-weight="700">E $950M 🎯</text>
+
+  <!-- Right bottom: Salesforce comparison -->
+  <rect x="780" y="640" width="580" height="296" rx="6" fill="white" stroke="#1A1D24" stroke-width="2" filter="url(#softShadow)"/>
+  <text x="800" y="668" font-size="15" font-weight="700" fill="#1A1D24">⚔️ 競合ポジション比較</text>
+  <line x1="800" y1="678" x2="1340" y2="678" stroke="#E0D8CC" stroke-width="1"/>
+  <g transform="translate(800, 690)">
+    <text x="0" y="18" font-size="12" font-weight="700" fill="#1A1D24">企業</text>
+    <text x="160" y="18" font-size="12" font-weight="700" fill="#1A1D24">ARR/売上</text>
+    <text x="300" y="18" font-size="12" font-weight="700" fill="#1A1D24">アプローチ</text>
+    <text x="0" y="20" font-size="1" fill="none"/><line x1="0" y1="24" x2="540" y2="24" stroke="#E0D8CC" stroke-width="1"/>
+    <text x="0" y="48" font-size="12" fill="#5CA46E" font-weight="700">● Sierra</text>
+    <text x="160" y="48" font-size="12" fill="#4A5568">$150M ARR</text>
+    <text x="300" y="48" font-size="11" fill="#4A5568">スタンドアロン型AIエージェント</text>
+    <text x="0" y="72" font-size="12" fill="#4A5568">● Salesforce Agentforce</text>
+    <text x="160" y="72" font-size="12" fill="#4A5568">$25B ARR</text>
+    <text x="300" y="72" font-size="11" fill="#4A5568">CRM統合型（既存顧客展開）</text>
+    <text x="0" y="96" font-size="12" fill="#4A5568">● Intercom Fin AI</text>
+    <text x="160" y="96" font-size="12" fill="#4A5568">$2.1B ARR</text>
+    <text x="300" y="96" font-size="11" fill="#4A5568">SMB向けSaaS型</text>
+    <text x="0" y="120" font-size="12" fill="#4A5568">● Zendesk AI</text>
+    <text x="160" y="120" font-size="12" fill="#4A5568">$1.7B ARR</text>
+    <text x="300" y="120" font-size="11" fill="#4A5568">チケット管理+AI追加型</text>
+    <line x1="0" y1="130" x2="540" y2="130" stroke="#E0D8CC" stroke-width="1"/>
+    <text x="0" y="152" font-size="11" fill="#888" font-style="italic">Sierra差別化 = 完全自律エージェント × Fortune 50 ネットワーク × 高完了率</text>
+  </g>
+
+  <!-- Footer -->
+  <line x1="58" y1="1020" x2="1360" y2="1020" stroke="#1A1D24" stroke-width="1.5"/>
+  <text x="709" y="1040" text-anchor="middle" font-size="12" fill="#888" font-style="italic">AI News · 2026-05-05 · Sierra $950M Series E — Enterprise AI Agent Race Heats Up</text>
+</svg>

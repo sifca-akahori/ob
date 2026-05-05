@@ -1,0 +1,175 @@
+<svg viewBox="0 0 1400 1050" xmlns="http://www.w3.org/2000/svg" font-family="-apple-system, 'Hiragino Sans', 'Yu Gothic', sans-serif">
+  <defs>
+    <pattern id="paperTexture" patternUnits="userSpaceOnUse" width="4" height="4">
+      <rect width="4" height="4" fill="#FBF8F1"/>
+      <circle cx="1" cy="1" r="0.3" fill="#E8E2D3" opacity="0.5"/>
+    </pattern>
+    <filter id="softShadow"><feDropShadow dx="2" dy="3" stdDeviation="3" flood-color="#1A1D24" flood-opacity="0.15"/></filter>
+    <filter id="stickyShadow"><feDropShadow dx="3" dy="4" stdDeviation="4" flood-color="#1A1D24" flood-opacity="0.2"/></filter>
+  </defs>
+  <rect width="1400" height="1050" fill="url(#paperTexture)"/>
+  <rect x="0" y="0" width="42" height="1050" fill="#F0EBE0" stroke="#E0D8CC" stroke-width="1"/>
+  <circle cx="21" cy="120" r="12" fill="#FBF8F1" stroke="#C8BFB0" stroke-width="2"/>
+  <circle cx="21" cy="280" r="12" fill="#FBF8F1" stroke="#C8BFB0" stroke-width="2"/>
+  <circle cx="21" cy="440" r="12" fill="#FBF8F1" stroke="#C8BFB0" stroke-width="2"/>
+  <circle cx="21" cy="600" r="12" fill="#FBF8F1" stroke="#C8BFB0" stroke-width="2"/>
+  <circle cx="21" cy="760" r="12" fill="#FBF8F1" stroke="#C8BFB0" stroke-width="2"/>
+  <circle cx="21" cy="920" r="12" fill="#FBF8F1" stroke="#C8BFB0" stroke-width="2"/>
+
+  <g transform="translate(1180, 18) rotate(-3)">
+    <rect x="0" y="0" width="200" height="36" fill="#5CA46E" stroke="#1A1D24" stroke-width="2" rx="3"/>
+    <text x="100" y="24" text-anchor="middle" font-size="15" font-weight="700" fill="white">#ビジネス</text>
+  </g>
+  <rect x="58" y="18" width="160" height="34" rx="4" fill="#2F3842" filter="url(#softShadow)"/>
+  <text x="138" y="39" text-anchor="middle" font-size="14" font-weight="600" fill="#F0EBE0">2026-05-05</text>
+  <text x="240" y="42" font-size="18" fill="#F5A623">⭐⭐</text>
+
+  <line x1="58" y1="68" x2="1360" y2="68" stroke="#1A1D24" stroke-width="3"/>
+  <text x="58" y="108" font-size="34" font-weight="900" fill="#1A1D24">💰 OpenAI、Hiro Finance買収：2度目の個人金融acqui-hire</text>
+  <text x="58" y="145" font-size="22" font-weight="500" fill="#4A5568">ChatGPT財務アドバイザー化加速 · $7兆市場 · Wealthfront・Betterment脅威</text>
+  <text x="58" y="172" font-size="14" fill="#888">Source: TechCrunch / Banking Dive · 2026-05-05 · #ビジネス #OpenAI #フィンテック #HiroFinance</text>
+  <line x1="58" y1="182" x2="1360" y2="182" stroke="#1A1D24" stroke-width="2"/>
+
+  <!-- Key Numbers -->
+  <g transform="translate(58, 195)">
+    <rect x="0" y="0" width="220" height="110" rx="6" fill="white" stroke="#1A1D24" stroke-width="2.5" filter="url(#softShadow)"/>
+    <rect x="0" y="0" width="220" height="8" rx="6" fill="#5CA46E"/>
+    <text x="110" y="52" text-anchor="middle" font-size="34" font-weight="900" fill="#1A1D24">$7兆</text>
+    <text x="110" y="74" text-anchor="middle" font-size="13" fill="#5CA46E" font-weight="700">個人金融アドバイス市場規模</text>
+    <text x="110" y="94" text-anchor="middle" font-size="11" fill="#888">米国消費者向け PFM + 投資一体</text>
+
+    <rect x="238" y="0" width="220" height="110" rx="6" fill="white" stroke="#1A1D24" stroke-width="2.5" filter="url(#softShadow)"/>
+    <rect x="238" y="0" width="220" height="8" rx="6" fill="#5CA46E"/>
+    <text x="348" y="48" text-anchor="middle" font-size="28" font-weight="900" fill="#1A1D24">7件目</text>
+    <text x="348" y="72" text-anchor="middle" font-size="16" font-weight="700" fill="#1A1D24">2026年買収</text>
+    <text x="348" y="94" text-anchor="middle" font-size="11" fill="#888">フロンティアラボ最速M&Aペース</text>
+
+    <rect x="476" y="0" width="220" height="110" rx="6" fill="white" stroke="#1A1D24" stroke-width="2.5" filter="url(#softShadow)"/>
+    <rect x="476" y="0" width="220" height="8" rx="6" fill="#E67E22"/>
+    <text x="586" y="48" text-anchor="middle" font-size="28" font-weight="900" fill="#1A1D24">Hiro終了</text>
+    <text x="586" y="72" text-anchor="middle" font-size="16" font-weight="700" fill="#E67E22">2026年5月</text>
+    <text x="586" y="94" text-anchor="middle" font-size="11" fill="#888">サービス廃止 → ChatGPTへ統合</text>
+
+    <rect x="714" y="0" width="220" height="110" rx="6" fill="white" stroke="#1A1D24" stroke-width="2.5" filter="url(#softShadow)"/>
+    <rect x="714" y="0" width="220" height="8" rx="6" fill="#5CA46E"/>
+    <text x="824" y="48" text-anchor="middle" font-size="28" font-weight="900" fill="#1A1D24">2件</text>
+    <text x="824" y="72" text-anchor="middle" font-size="16" font-weight="700" fill="#1A1D24">個人金融アプリ取得</text>
+    <text x="824" y="94" text-anchor="middle" font-size="11" fill="#888">Roi (Oct'25) + Hiro (Apr'26)</text>
+  </g>
+
+  <!-- OpenAI fintech strategy -->
+  <rect x="58" y="328" width="660" height="320" rx="6" fill="white" stroke="#1A1D24" stroke-width="2" filter="url(#softShadow)"/>
+  <text x="80" y="356" font-size="15" font-weight="700" fill="#1A1D24">🏗️ OpenAI フィンテック垂直化ロードマップ</text>
+  <line x1="80" y1="364" x2="698" y2="364" stroke="#E0D8CC" stroke-width="1"/>
+  <g transform="translate(80, 380)">
+    <!-- Timeline -->
+    <line x1="40" y1="0" x2="40" y2="280" stroke="#5CA46E" stroke-width="3"/>
+    <!-- Steps -->
+    <circle cx="40" cy="30" r="12" fill="#C8C8C8" stroke="#1A1D24" stroke-width="2"/>
+    <text x="40" y="35" text-anchor="middle" font-size="10" fill="white" font-weight="700">1</text>
+    <text x="68" y="26" font-size="13" font-weight="700" fill="#4A5568">基盤能力</text>
+    <text x="68" y="44" font-size="11" fill="#888">コード実行・データ分析・PDFリーダー（既存）</text>
+
+    <circle cx="40" cy="100" r="12" fill="#A0B8E8" stroke="#1A1D24" stroke-width="2"/>
+    <text x="40" y="105" text-anchor="middle" font-size="10" fill="white" font-weight="700">2</text>
+    <text x="68" y="96" font-size="13" font-weight="700" fill="#4A5568">人材獲得（今ここ）</text>
+    <text x="68" y="114" font-size="11" fill="#888">Roi (Oct'25) + Hiro (Apr'26) acqui-hire</text>
+
+    <circle cx="40" cy="170" r="12" fill="#5B8DEF" stroke="#1A1D24" stroke-width="2"/>
+    <text x="40" y="175" text-anchor="middle" font-size="10" fill="white" font-weight="700">3</text>
+    <text x="68" y="166" font-size="13" font-weight="700" fill="#4A5568">機能統合（2026後半予定）</text>
+    <text x="68" y="184" font-size="11" fill="#888">ChatGPT内に財務プランニングUI・シナリオ分析</text>
+
+    <circle cx="40" cy="240" r="12" fill="#5CA46E" stroke="#1A1D24" stroke-width="2"/>
+    <text x="40" y="245" text-anchor="middle" font-size="10" fill="white" font-weight="700">4</text>
+    <text x="68" y="236" font-size="13" font-weight="700" fill="#4A5568">フルサービス（2027以降）</text>
+    <text x="68" y="254" font-size="11" fill="#888">Plaid連携・口座残高把握・AI CFOとしてのChatGPT</text>
+    <text x="68" y="272" font-size="10" fill="#E53935">⚠️ 要：RIA登録または「情報提供」のままを維持</text>
+  </g>
+
+  <!-- Competitive landscape -->
+  <rect x="736" y="328" width="624" height="320" rx="6" fill="white" stroke="#1A1D24" stroke-width="2" filter="url(#softShadow)"/>
+  <text x="758" y="356" font-size="15" font-weight="700" fill="#1A1D24">⚔️ 個人金融AI 競合マップ</text>
+  <line x1="758" y1="364" x2="1340" y2="364" stroke="#E0D8CC" stroke-width="1"/>
+  <g transform="translate(758, 380)">
+    <text x="0" y="18" font-size="12" font-weight="700" fill="#1A1D24">プレイヤー</text>
+    <text x="180" y="18" font-size="12" font-weight="700" fill="#1A1D24">AUM/価格</text>
+    <text x="320" y="18" font-size="12" font-weight="700" fill="#1A1D24">アプローチ</text>
+    <line x1="0" y1="24" x2="564" y2="24" stroke="#E0D8CC" stroke-width="1"/>
+    <!-- OpenAI -->
+    <rect x="0" y="30" width="564" height="36" rx="3" fill="#E8F5E9"/>
+    <text x="8" y="53" font-size="12" fill="#5CA46E" font-weight="700">● OpenAI (ChatGPT)</text>
+    <text x="180" y="53" font-size="12" fill="#4A5568">$20/月</text>
+    <text x="320" y="53" font-size="11" fill="#4A5568">AI対話型 · 計画提案→実行は自己責任</text>
+    <!-- Betterment -->
+    <text x="8" y="88" font-size="12" fill="#4A5568">Betterment</text>
+    <text x="180" y="88" font-size="12" fill="#4A5568">AUM $50B</text>
+    <text x="320" y="88" font-size="11" fill="#4A5568">自動投資 · 0.25%/年</text>
+    <!-- Wealthfront -->
+    <text x="8" y="112" font-size="12" fill="#4A5568">Wealthfront</text>
+    <text x="180" y="112" font-size="12" fill="#4A5568">AUM $70B</text>
+    <text x="320" y="112" font-size="11" fill="#4A5568">自動投資 · 0.25%/年</text>
+    <!-- Human FA -->
+    <text x="8" y="136" font-size="12" fill="#888">Human FA</text>
+    <text x="180" y="136" font-size="12" fill="#888">AUM 1-5%</text>
+    <text x="320" y="136" font-size="11" fill="#888">$2,000〜$10,000/年（対面）</text>
+    <line x1="0" y1="148" x2="564" y2="148" stroke="#E0D8CC" stroke-width="1"/>
+    <text x="0" y="170" font-size="12" fill="#4A5568" font-weight="700">OpenAI参入の場合：</text>
+    <text x="0" y="192" font-size="12" fill="#4A5568">$20/月（$240/年）でHuman FAの1/10価格を提供可能。</text>
+    <text x="0" y="214" font-size="12" fill="#4A5568">Betterment/Wealthfrontとは「計画」vs「実行」で住み分け。</text>
+    <text x="0" y="236" font-size="12" fill="#888" font-style="italic">残り障壁：RIA登録 / Plaid接続 / 州ごとの投資顧問法</text>
+    <text x="0" y="258" font-size="12" fill="#888" font-style="italic">→ OpenAIは「推奨ではなく情報提供」スタンスを維持か</text>
+  </g>
+
+  <!-- Sticky Notes -->
+  <g transform="translate(58, 670)">
+    <g transform="rotate(-1.0) translate(0, 0)">
+      <rect x="0" y="0" width="290" height="148" fill="#FFF9C4" stroke="#1A1D24" stroke-width="1.5" filter="url(#stickyShadow)"/>
+      <text x="14" y="24" font-size="13" font-weight="700" fill="#1A1D24">⚖️ 規制の壁</text>
+      <text x="14" y="46" font-size="11" fill="#4A5568">投資顧問業務にはRIA登録が必要。</text>
+      <text x="14" y="62" font-size="11" fill="#4A5568">OpenAIは「推奨ではなく情報提供」</text>
+      <text x="14" y="78" font-size="11" fill="#4A5568">スタンスを維持し続ける可能性大。</text>
+      <text x="14" y="94" font-size="11" fill="#4A5568">SEC・FINRAの対応が分かれ目。</text>
+      <text x="14" y="118" font-size="10" fill="#888">CA・NY 個人金融データ保護法も影響</text>
+    </g>
+    <g transform="rotate(0.8) translate(305, 0)">
+      <rect x="0" y="0" width="290" height="148" fill="#D1ECF1" stroke="#1A1D24" stroke-width="1.5" filter="url(#stickyShadow)"/>
+      <text x="14" y="24" font-size="13" font-weight="700" fill="#1A1D24">💼 垂直AI買収戦略</text>
+      <text x="14" y="46" font-size="11" fill="#4A5568">OpenAIは2026年に7件を買収。</text>
+      <text x="14" y="62" font-size="11" fill="#4A5568">フィンテック・スクリーンリーダー・</text>
+      <text x="14" y="78" font-size="11" fill="#4A5568">コード解析・科学論文等に分散。</text>
+      <text x="14" y="94" font-size="11" fill="#4A5568">ChatGPT = App Storeのプラグイン戦略。</text>
+      <text x="14" y="118" font-size="10" fill="#888">Google/Meta/Anthropicへの差別化軸</text>
+    </g>
+    <g transform="rotate(-0.5) translate(610, 0)">
+      <rect x="0" y="0" width="290" height="148" fill="#FCE4EC" stroke="#1A1D24" stroke-width="1.5" filter="url(#stickyShadow)"/>
+      <text x="14" y="24" font-size="13" font-weight="700" fill="#1A1D24">🔍 訓練データ問題</text>
+      <text x="14" y="46" font-size="11" fill="#4A5568">Hiro廃止でユーザーの財務データが</text>
+      <text x="14" y="62" font-size="11" fill="#4A5568">OpenAIに移管される可能性。</text>
+      <text x="14" y="78" font-size="11" fill="#4A5568">「財務データを訓練に使うか」は</text>
+      <text x="14" y="94" font-size="11" fill="#4A5568">明示されておらず、プライバシー問題化。</text>
+      <text x="14" y="118" font-size="10" fill="#888">CCPA・NY SHIELD法との整合性が問題</text>
+    </g>
+    <g transform="rotate(1.3) translate(915, 0)">
+      <rect x="0" y="0" width="290" height="148" fill="#E8F5E9" stroke="#1A1D24" stroke-width="1.5" filter="url(#stickyShadow)"/>
+      <text x="14" y="24" font-size="13" font-weight="700" fill="#1A1D24">🏦 Anthropicとの比較</text>
+      <text x="14" y="46" font-size="11" fill="#4A5568">AnthropicはB2B（金融機関向けAPI）</text>
+      <text x="14" y="62" font-size="11" fill="#4A5568">OpenAIはB2C（ChatGPT消費者向け）</text>
+      <text x="14" y="78" font-size="11" fill="#4A5568">という棲み分けが現状成立中。</text>
+      <text x="14" y="94" font-size="11" fill="#4A5568">この境界線が崩れる日が焦点。</text>
+      <text x="14" y="118" font-size="10" fill="#888">金融AI市場の最終形は1社独占か競存か</text>
+    </g>
+  </g>
+
+  <!-- Bottom: Hiro about -->
+  <rect x="58" y="840" width="1302" height="90" rx="6" fill="white" stroke="#1A1D24" stroke-width="2" filter="url(#softShadow)"/>
+  <text x="80" y="866" font-size="13" font-weight="700" fill="#1A1D24">📋 Hiro Finance プロフィール</text>
+  <line x1="80" y1="874" x2="1340" y2="874" stroke="#E0D8CC" stroke-width="1"/>
+  <g transform="translate(80, 882)">
+    <text x="0" y="18" font-size="12" fill="#4A5568">創業: 2023年 / 創業者: Ethan Bloch（元Digit創業者→Google買収）/ 機能: 収入・負債・支出入力→将来シナリオモデリング</text>
+    <text x="0" y="38" font-size="12" fill="#4A5568">調達: 非公開 / 買収: Acqui-hire（2026年4月発表） / サービス廃止: 2026年5月 / 先行取得: Roi（2025年10月）</text>
+  </g>
+
+  <line x1="58" y1="1020" x2="1360" y2="1020" stroke="#1A1D24" stroke-width="1.5"/>
+  <text x="709" y="1040" text-anchor="middle" font-size="12" fill="#888" font-style="italic">AI News · 2026-05-05 · OpenAI Acquires Hiro Finance — ChatGPT's Steady March into Personal Financial Planning</text>
+</svg>

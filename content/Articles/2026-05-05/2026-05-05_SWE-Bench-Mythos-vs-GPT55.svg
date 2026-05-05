@@ -1,0 +1,208 @@
+<svg viewBox="0 0 1400 1050" xmlns="http://www.w3.org/2000/svg" font-family="-apple-system, 'Hiragino Sans', 'Yu Gothic', sans-serif">
+  <defs>
+    <pattern id="paperTexture" patternUnits="userSpaceOnUse" width="4" height="4">
+      <rect width="4" height="4" fill="#FBF8F1"/>
+      <circle cx="1" cy="1" r="0.3" fill="#E8E2D3" opacity="0.5"/>
+    </pattern>
+    <filter id="softShadow"><feDropShadow dx="2" dy="3" stdDeviation="3" flood-color="#1A1D24" flood-opacity="0.15"/></filter>
+    <filter id="stickyShadow"><feDropShadow dx="3" dy="4" stdDeviation="4" flood-color="#1A1D24" flood-opacity="0.2"/></filter>
+  </defs>
+  <rect width="1400" height="1050" fill="url(#paperTexture)"/>
+  <rect x="0" y="0" width="42" height="1050" fill="#F0EBE0" stroke="#E0D8CC" stroke-width="1"/>
+  <circle cx="21" cy="120" r="12" fill="#FBF8F1" stroke="#C8BFB0" stroke-width="2"/>
+  <circle cx="21" cy="280" r="12" fill="#FBF8F1" stroke="#C8BFB0" stroke-width="2"/>
+  <circle cx="21" cy="440" r="12" fill="#FBF8F1" stroke="#C8BFB0" stroke-width="2"/>
+  <circle cx="21" cy="600" r="12" fill="#FBF8F1" stroke="#C8BFB0" stroke-width="2"/>
+  <circle cx="21" cy="760" r="12" fill="#FBF8F1" stroke="#C8BFB0" stroke-width="2"/>
+  <circle cx="21" cy="920" r="12" fill="#FBF8F1" stroke="#C8BFB0" stroke-width="2"/>
+
+  <g transform="translate(1180, 18) rotate(-3)">
+    <rect x="0" y="0" width="200" height="36" fill="#5B8DEF" stroke="#1A1D24" stroke-width="2" rx="3"/>
+    <text x="100" y="24" text-anchor="middle" font-size="15" font-weight="700" fill="white">#研究</text>
+  </g>
+  <rect x="58" y="18" width="160" height="34" rx="4" fill="#2F3842" filter="url(#softShadow)"/>
+  <text x="138" y="39" text-anchor="middle" font-size="14" font-weight="600" fill="#F0EBE0">2026-05-05</text>
+  <text x="240" y="42" font-size="18" fill="#F5A623">⭐⭐</text>
+
+  <line x1="58" y1="68" x2="1360" y2="68" stroke="#1A1D24" stroke-width="3"/>
+  <text x="58" y="108" font-size="34" font-weight="900" fill="#1A1D24">📊 SWE-bench最前線：Mythos 93.9% vs GPT-5.5 88.7%</text>
+  <text x="58" y="145" font-size="22" font-weight="500" fill="#4A5568">「使えない1位」が示すベンチマーク危機と次世代評価軸</text>
+  <text x="58" y="172" font-size="14" fill="#888">Source: LLM Stats / BenchLM / TokenMix · 2026-05-05 · #研究 #SWEbench #ベンチマーク</text>
+  <line x1="58" y1="182" x2="1360" y2="182" stroke="#1A1D24" stroke-width="2"/>
+
+  <!-- Key Numbers -->
+  <g transform="translate(58, 195)">
+    <rect x="0" y="0" width="220" height="110" rx="6" fill="white" stroke="#1A1D24" stroke-width="2.5" filter="url(#softShadow)"/>
+    <rect x="0" y="0" width="220" height="8" rx="6" fill="#1A1D24"/>
+    <text x="110" y="50" text-anchor="middle" font-size="38" font-weight="900" fill="#1A1D24">93.9%</text>
+    <text x="110" y="72" text-anchor="middle" font-size="13" fill="#1A1D24" font-weight="700">🔒 Mythos（非公開）</text>
+    <text x="110" y="94" text-anchor="middle" font-size="11" fill="#888">SWE-bench Verified 1位</text>
+
+    <rect x="238" y="0" width="220" height="110" rx="6" fill="white" stroke="#1A1D24" stroke-width="2.5" filter="url(#softShadow)"/>
+    <rect x="238" y="0" width="220" height="8" rx="6" fill="#5B8DEF"/>
+    <text x="348" y="50" text-anchor="middle" font-size="38" font-weight="900" fill="#1A1D24">88.7%</text>
+    <text x="348" y="72" text-anchor="middle" font-size="13" fill="#5B8DEF" font-weight="700">GPT-5.5（公開）</text>
+    <text x="348" y="94" text-anchor="middle" font-size="11" fill="#888">SWE-bench Verified 2位</text>
+
+    <rect x="476" y="0" width="220" height="110" rx="6" fill="white" stroke="#1A1D24" stroke-width="2.5" filter="url(#softShadow)"/>
+    <rect x="476" y="0" width="220" height="8" rx="6" fill="#8B7DB8"/>
+    <text x="586" y="50" text-anchor="middle" font-size="38" font-weight="900" fill="#1A1D24">87.6%</text>
+    <text x="586" y="72" text-anchor="middle" font-size="13" fill="#8B7DB8" font-weight="700">Claude Opus 4.7</text>
+    <text x="586" y="94" text-anchor="middle" font-size="11" fill="#888">SWE-bench Verified 3位</text>
+
+    <rect x="714" y="0" width="220" height="110" rx="6" fill="white" stroke="#1A1D24" stroke-width="2.5" filter="url(#softShadow)"/>
+    <rect x="714" y="0" width="220" height="8" rx="6" fill="#E67E22"/>
+    <text x="824" y="50" text-anchor="middle" font-size="38" font-weight="900" fill="#1A1D24">58.6%</text>
+    <text x="824" y="72" text-anchor="middle" font-size="13" fill="#E67E22" font-weight="700">GPT-5.5（Pro版）</text>
+    <text x="824" y="94" text-anchor="middle" font-size="11" fill="#888">SWE-bench Proで急落 ← 要注意</text>
+  </g>
+
+  <!-- Main leaderboard -->
+  <rect x="58" y="328" width="700" height="350" rx="6" fill="white" stroke="#1A1D24" stroke-width="2" filter="url(#softShadow)"/>
+  <text x="80" y="356" font-size="16" font-weight="700" fill="#1A1D24">🏆 SWE-bench リーダーボード（2026-05-05）</text>
+  <line x1="80" y1="364" x2="738" y2="364" stroke="#E0D8CC" stroke-width="1"/>
+  <g transform="translate(80, 376)">
+    <text x="0" y="20" font-size="12" font-weight="700" fill="#1A1D24">Rank</text>
+    <text x="56" y="20" font-size="12" font-weight="700" fill="#1A1D24">モデル</text>
+    <text x="280" y="20" font-size="12" font-weight="700" fill="#1A1D24">Verified</text>
+    <text x="380" y="20" font-size="12" font-weight="700" fill="#1A1D24">Pro</text>
+    <text x="450" y="20" font-size="12" font-weight="700" fill="#1A1D24">Lite</text>
+    <text x="520" y="20" font-size="12" font-weight="700" fill="#1A1D24">状態</text>
+    <line x1="0" y1="28" x2="620" y2="28" stroke="#E0D8CC" stroke-width="1"/>
+    <!-- Row 1 -->
+    <rect x="0" y="34" width="620" height="34" rx="3" fill="#F5F5F5"/>
+    <text x="14" y="56" font-size="13" font-weight="700" fill="#1A1D24">1</text>
+    <text x="56" y="56" font-size="13" font-weight="700" fill="#1A1D24">Claude Mythos Preview</text>
+    <text x="280" y="56" font-size="13" font-weight="700" fill="#5B8DEF">93.9%</text>
+    <text x="380" y="56" font-size="13" fill="#4A5568">77.8%</text>
+    <text x="450" y="56" font-size="13" fill="#4A5568">—</text>
+    <text x="520" y="56" font-size="11" fill="#E53935" font-weight="700">🔒 非公開</text>
+    <!-- Row 2 -->
+    <text x="14" y="90" font-size="12" fill="#4A5568">2</text>
+    <text x="56" y="90" font-size="12" fill="#4A5568">GPT-5.5</text>
+    <text x="280" y="90" font-size="12" fill="#5B8DEF">88.7%</text>
+    <text x="380" y="90" font-size="12" fill="#E67E22">58.6% ↓</text>
+    <text x="450" y="90" font-size="12" fill="#4A5568">—</text>
+    <text x="520" y="90" font-size="11" fill="#5CA46E">✅ 公開</text>
+    <!-- Row 3 -->
+    <rect x="0" y="100" width="620" height="34" rx="3" fill="#F5F5F5"/>
+    <text x="14" y="122" font-size="12" fill="#4A5568">3</text>
+    <text x="56" y="122" font-size="12" fill="#4A5568">Claude Opus 4.7</text>
+    <text x="280" y="122" font-size="12" fill="#8B7DB8">87.6%</text>
+    <text x="380" y="122" font-size="12" fill="#5CA46E">72.4%</text>
+    <text x="450" y="122" font-size="12" fill="#4A5568">—</text>
+    <text x="520" y="122" font-size="11" fill="#5CA46E">✅ 公開</text>
+    <!-- Row 4 -->
+    <text x="14" y="156" font-size="12" fill="#4A5568">4</text>
+    <text x="56" y="156" font-size="12" fill="#4A5568">GPT-5.3 Codex</text>
+    <text x="280" y="156" font-size="12" fill="#4A5568">85.0%</text>
+    <text x="380" y="156" font-size="12" fill="#4A5568">—</text>
+    <text x="450" y="156" font-size="12" fill="#4A5568">—</text>
+    <text x="520" y="156" font-size="11" fill="#5CA46E">✅ 公開</text>
+    <!-- Row 5 -->
+    <rect x="0" y="166" width="620" height="34" rx="3" fill="#F5F5F5"/>
+    <text x="14" y="188" font-size="12" fill="#4A5568">5</text>
+    <text x="56" y="188" font-size="12" fill="#4A5568">Claude Opus 4.6</text>
+    <text x="280" y="188" font-size="12" fill="#4A5568">80.8%</text>
+    <text x="380" y="188" font-size="12" fill="#4A5568">—</text>
+    <text x="450" y="188" font-size="12" fill="#5B8DEF">62.7%</text>
+    <text x="520" y="188" font-size="11" fill="#5CA46E">✅ 公開</text>
+    <!-- Row 6 -->
+    <text x="14" y="222" font-size="12" fill="#4A5568">6</text>
+    <text x="56" y="222" font-size="12" fill="#4A5568">Gemini 3.1 Pro</text>
+    <text x="280" y="222" font-size="12" fill="#4A5568">79.2%</text>
+    <text x="380" y="222" font-size="12" fill="#4A5568">—</text>
+    <text x="450" y="222" font-size="12" fill="#4A5568">—</text>
+    <text x="520" y="222" font-size="11" fill="#5CA46E">✅ 公開</text>
+    <line x1="0" y1="236" x2="620" y2="236" stroke="#E0D8CC" stroke-width="1"/>
+    <text x="0" y="256" font-size="11" fill="#888" font-style="italic">* SWE-bench Pro = より複雑な複数ファイル変更タスク / Lite = 300問の軽量版</text>
+  </g>
+
+  <!-- Benchmark variants panel -->
+  <rect x="776" y="328" width="584" height="350" rx="6" fill="white" stroke="#1A1D24" stroke-width="2" filter="url(#softShadow)"/>
+  <text x="796" y="356" font-size="15" font-weight="700" fill="#1A1D24">🔬 SWE-bench バリアント別 設計思想</text>
+  <line x1="796" y1="364" x2="1340" y2="364" stroke="#E0D8CC" stroke-width="1"/>
+  <g transform="translate(796, 376)">
+    <rect x="0" y="0" width="544" height="70" rx="6" fill="#E3F2FD" stroke="#5B8DEF" stroke-width="1.5"/>
+    <text x="14" y="24" font-size="13" font-weight="700" fill="#5B8DEF">SWE-bench Verified</text>
+    <text x="14" y="44" font-size="11" fill="#4A5568">1,000問（人間確認済み） · 再現性重視 · 単一ファイル修正中心</text>
+    <text x="14" y="62" font-size="11" fill="#888">GPT-5.5が強い → 短い問題への最適化が有利</text>
+    <rect x="0" y="80" width="544" height="70" rx="6" fill="#F3E5F5" stroke="#8B7DB8" stroke-width="1.5"/>
+    <text x="14" y="104" font-size="13" font-weight="700" fill="#8B7DB8">SWE-bench Pro（難度↑↑）</text>
+    <text x="14" y="124" font-size="11" fill="#4A5568">複数ファイル変更 · 長期依存性 · 推論チェーン必須</text>
+    <text x="14" y="142" font-size="11" fill="#888">Opus 4.7が優位 → 長文推論・文脈管理能力の差が出る</text>
+    <rect x="0" y="160" width="544" height="70" rx="6" fill="#E8F5E9" stroke="#5CA46E" stroke-width="1.5"/>
+    <text x="14" y="184" font-size="13" font-weight="700" fill="#5CA46E">SWE-bench Lite（軽量版）</text>
+    <text x="14" y="204" font-size="11" fill="#4A5568">300問 · 評価コスト低 · コミュニティ標準</text>
+    <text x="14" y="222" font-size="11" fill="#888">Opus 4.6が62.7%でリード中</text>
+    <rect x="0" y="250" width="544" height="62" rx="6" fill="#FFF9C4" stroke="#F5A623" stroke-width="1.5"/>
+    <text x="14" y="274" font-size="13" font-weight="700" fill="#E67E22">次世代：SWE-bench Ultra / SWE-gym</text>
+    <text x="14" y="294" font-size="11" fill="#4A5568">推定20時間+タスク / リアルタイムGitHub Issue評価 / 動的評価</text>
+    <text x="14" y="310" font-size="11" fill="#888">2026年後半に移行が本格化の見込み</text>
+  </g>
+
+  <!-- Sticky Notes -->
+  <g transform="translate(58, 700)">
+    <g transform="rotate(-1.0) translate(0, 0)">
+      <rect x="0" y="0" width="290" height="148" fill="#FFF9C4" stroke="#1A1D24" stroke-width="1.5" filter="url(#stickyShadow)"/>
+      <text x="14" y="24" font-size="13" font-weight="700" fill="#1A1D24">🤔 ベンチ汚染疑惑</text>
+      <text x="14" y="46" font-size="11" fill="#4A5568">SWE-benchはGitHub公開コードが元。</text>
+      <text x="14" y="62" font-size="11" fill="#4A5568">特にGPT-5.5は広範な訓練データを</text>
+      <text x="14" y="78" font-size="11" fill="#4A5568">収集できるため汚染リスクが高い。</text>
+      <text x="14" y="94" font-size="11" fill="#4A5568">透明性不足が「ベンチ信頼危機」加速。</text>
+      <text x="14" y="118" font-size="10" fill="#888">Thomas Wolf(HF CTO)も指摘</text>
+    </g>
+    <g transform="rotate(0.7) translate(305, 0)">
+      <rect x="0" y="0" width="290" height="148" fill="#E8F5E9" stroke="#1A1D24" stroke-width="1.5" filter="url(#stickyShadow)"/>
+      <text x="14" y="24" font-size="13" font-weight="700" fill="#1A1D24">📐 天井の定義</text>
+      <text x="14" y="46" font-size="11" fill="#4A5568">理論上限100%だが実際は96〜97%。</text>
+      <text x="14" y="62" font-size="11" fill="#4A5568">「仕様曖昧・テストバグ・</text>
+      <text x="14" y="78" font-size="11" fill="#4A5568">複数合法解法」が不解問題として残存。</text>
+      <text x="14" y="94" font-size="11" fill="#4A5568">「AI=人間超え」のナラティブに限界線。</text>
+      <text x="14" y="118" font-size="10" fill="#888">Pro版77.8%には依然大きな伸び代</text>
+    </g>
+    <g transform="rotate(-0.5) translate(610, 0)">
+      <rect x="0" y="0" width="290" height="148" fill="#FCE4EC" stroke="#1A1D24" stroke-width="1.5" filter="url(#stickyShadow)"/>
+      <text x="14" y="24" font-size="13" font-weight="700" fill="#1A1D24">🎯 用途別モデル選択</text>
+      <text x="14" y="46" font-size="11" fill="#4A5568">Verified高スコア=短いissue処理に強い</text>
+      <text x="14" y="62" font-size="11" fill="#4A5568">（GPT-5.5）</text>
+      <text x="14" y="78" font-size="11" fill="#4A5568">Pro高スコア=長大な依存タスクに強い</text>
+      <text x="14" y="94" font-size="11" fill="#4A5568">（Opus 4.7）</text>
+      <text x="14" y="118" font-size="10" fill="#888">「何のコードを書くか」で最適モデルが違う</text>
+    </g>
+    <g transform="rotate(1.2) translate(915, 0)">
+      <rect x="0" y="0" width="290" height="148" fill="#EDE7F6" stroke="#1A1D24" stroke-width="1.5" filter="url(#stickyShadow)"/>
+      <text x="14" y="24" font-size="13" font-weight="700" fill="#1A1D24">🔮 2026年末予測</text>
+      <text x="14" y="46" font-size="11" fill="#4A5568">97%の壁を超えるモデルが</text>
+      <text x="14" y="62" font-size="11" fill="#4A5568">2026年末〜2027年Q1に登場か。</text>
+      <text x="14" y="78" font-size="11" fill="#4A5568">その頃にはSWE-gym動的評価への</text>
+      <text x="14" y="94" font-size="11" fill="#4A5568">移行が主流になっている可能性大。</text>
+      <text x="14" y="118" font-size="10" fill="#888">静的ベンチの飽和→動的評価の時代へ</text>
+    </g>
+  </g>
+
+  <!-- 2 year race bar -->
+  <rect x="58" y="870" width="1302" height="60" rx="6" fill="white" stroke="#1A1D24" stroke-width="2" filter="url(#softShadow)"/>
+  <text x="80" y="898" font-size="13" font-weight="700" fill="#1A1D24">⚡ SWE-bench 2年間の加速（Verified トップスコア）</text>
+  <line x1="80" y1="906" x2="1340" y2="906" stroke="#E0D8CC" stroke-width="1"/>
+  <g transform="translate(80, 910)">
+    <text x="0" y="18" font-size="11" fill="#888">Aug'24</text>
+    <rect x="60" y="4" width="66" height="12" fill="#C8C8C8" stroke="#1A1D24" stroke-width="1"/>
+    <text x="132" y="18" font-size="11" fill="#888">33%</text>
+    <text x="200" y="18" font-size="11" fill="#888">→ Dec'24</text>
+    <rect x="270" y="4" width="114" height="12" fill="#A0B8E8" stroke="#1A1D24" stroke-width="1"/>
+    <text x="390" y="18" font-size="11" fill="#888">57%</text>
+    <text x="460" y="18" font-size="11" fill="#888">→ Apr'25</text>
+    <rect x="530" y="4" width="152" height="12" fill="#7EA8E0" stroke="#1A1D24" stroke-width="1"/>
+    <text x="688" y="18" font-size="11" fill="#888">76%</text>
+    <text x="760" y="18" font-size="11" fill="#888">→ Jan'26</text>
+    <rect x="830" y="4" width="168" height="12" fill="#5B8DEF" stroke="#1A1D24" stroke-width="1"/>
+    <text x="1004" y="18" font-size="11" fill="#888">84%</text>
+    <text x="1070" y="18" font-size="11" fill="#888">→ May'26</text>
+    <rect x="1140" y="4" width="178" height="12" fill="#1A1D24" stroke="#5B8DEF" stroke-width="1.5"/>
+    <text x="1324" y="18" font-size="11" fill="#1A1D24" font-weight="700">93.9%🔒</text>
+  </g>
+
+  <line x1="58" y1="1020" x2="1360" y2="1020" stroke="#1A1D24" stroke-width="1.5"/>
+  <text x="709" y="1040" text-anchor="middle" font-size="12" fill="#888" font-style="italic">AI News · 2026-05-05 · SWE-bench Leaderboard Analysis — When #1 is Inaccessible</text>
+</svg>

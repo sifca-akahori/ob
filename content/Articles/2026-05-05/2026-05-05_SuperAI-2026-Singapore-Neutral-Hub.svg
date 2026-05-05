@@ -1,0 +1,180 @@
+<svg viewBox="0 0 1400 1050" xmlns="http://www.w3.org/2000/svg" font-family="-apple-system, 'Hiragino Sans', 'Yu Gothic', sans-serif">
+  <defs>
+    <pattern id="paperTexture" patternUnits="userSpaceOnUse" width="4" height="4">
+      <rect width="4" height="4" fill="#FBF8F1"/>
+      <circle cx="1" cy="1" r="0.3" fill="#E8E2D3" opacity="0.5"/>
+    </pattern>
+    <filter id="softShadow"><feDropShadow dx="2" dy="3" stdDeviation="3" flood-color="#1A1D24" flood-opacity="0.15"/></filter>
+    <filter id="stickyShadow"><feDropShadow dx="3" dy="4" stdDeviation="4" flood-color="#1A1D24" flood-opacity="0.2"/></filter>
+  </defs>
+  <rect width="1400" height="1050" fill="url(#paperTexture)"/>
+  <rect x="0" y="0" width="42" height="1050" fill="#F0EBE0" stroke="#E0D8CC" stroke-width="1"/>
+  <circle cx="21" cy="120" r="12" fill="#FBF8F1" stroke="#C8BFB0" stroke-width="2"/>
+  <circle cx="21" cy="280" r="12" fill="#FBF8F1" stroke="#C8BFB0" stroke-width="2"/>
+  <circle cx="21" cy="440" r="12" fill="#FBF8F1" stroke="#C8BFB0" stroke-width="2"/>
+  <circle cx="21" cy="600" r="12" fill="#FBF8F1" stroke="#C8BFB0" stroke-width="2"/>
+  <circle cx="21" cy="760" r="12" fill="#FBF8F1" stroke="#C8BFB0" stroke-width="2"/>
+  <circle cx="21" cy="920" r="12" fill="#FBF8F1" stroke="#C8BFB0" stroke-width="2"/>
+
+  <g transform="translate(1180, 18) rotate(-3)">
+    <rect x="0" y="0" width="200" height="36" fill="#E8A87C" stroke="#1A1D24" stroke-width="2" rx="3"/>
+    <text x="100" y="24" text-anchor="middle" font-size="15" font-weight="700" fill="white">#SNS</text>
+  </g>
+  <rect x="58" y="18" width="160" height="34" rx="4" fill="#2F3842" filter="url(#softShadow)"/>
+  <text x="138" y="39" text-anchor="middle" font-size="14" font-weight="600" fill="#F0EBE0">2026-05-05</text>
+  <text x="240" y="42" font-size="18" fill="#F5A623">⭐</text>
+
+  <line x1="58" y1="68" x2="1360" y2="68" stroke="#1A1D24" stroke-width="3"/>
+  <text x="58" y="108" font-size="36" font-weight="900" fill="#1A1D24">🦁 SuperAI 2026 Singapore：「AI中立地帯」の野望</text>
+  <text x="58" y="145" font-size="22" font-weight="500" fill="#4A5568">OpenAI・DeepMind・Anthropic集結 · 1万人来場 · 6月Marina Bay Sands</text>
+  <text x="58" y="172" font-size="14" fill="#888">Source: The Manila Times / SuperAI · 2026-05-05 · #SNS #地政学 #Singapore #カンファレンス</text>
+  <line x1="58" y1="182" x2="1360" y2="182" stroke="#1A1D24" stroke-width="2"/>
+
+  <!-- Key Numbers -->
+  <g transform="translate(58, 195)">
+    <rect x="0" y="0" width="220" height="110" rx="6" fill="white" stroke="#1A1D24" stroke-width="2.5" filter="url(#softShadow)"/>
+    <rect x="0" y="0" width="220" height="8" rx="6" fill="#E8A87C"/>
+    <text x="110" y="52" text-anchor="middle" font-size="40" font-weight="900" fill="#1A1D24">10,000</text>
+    <text x="110" y="74" text-anchor="middle" font-size="13" fill="#E8A87C" font-weight="700">来場者見込み</text>
+    <text x="110" y="94" text-anchor="middle" font-size="11" fill="#888">前回比 +30% · Davosの3倍以上</text>
+
+    <rect x="238" y="0" width="220" height="110" rx="6" fill="white" stroke="#1A1D24" stroke-width="2.5" filter="url(#softShadow)"/>
+    <rect x="238" y="0" width="220" height="8" rx="6" fill="#E8A87C"/>
+    <text x="348" y="52" text-anchor="middle" font-size="32" font-weight="900" fill="#1A1D24">6/10-11</text>
+    <text x="348" y="74" text-anchor="middle" font-size="13" fill="#E8A87C" font-weight="700">開催日</text>
+    <text x="348" y="94" text-anchor="middle" font-size="11" fill="#888">Marina Bay Sands · Singapore</text>
+
+    <rect x="476" y="0" width="220" height="110" rx="6" fill="white" stroke="#1A1D24" stroke-width="2.5" filter="url(#softShadow)"/>
+    <rect x="476" y="0" width="220" height="8" rx="6" fill="#E8A87C"/>
+    <text x="586" y="52" text-anchor="middle" font-size="32" font-weight="900" fill="#1A1D24">$50B+</text>
+    <text x="586" y="74" text-anchor="middle" font-size="13" fill="#E8A87C" font-weight="700">SG AI投資誘致額</text>
+    <text x="586" y="94" text-anchor="middle" font-size="11" fill="#888">NVIDIA/Google/MS アジパシHQ誘致</text>
+
+    <rect x="714" y="0" width="220" height="110" rx="6" fill="white" stroke="#1A1D24" stroke-width="2.5" filter="url(#softShadow)"/>
+    <rect x="714" y="0" width="220" height="8" rx="6" fill="#E8A87C"/>
+    <text x="824" y="42" text-anchor="middle" font-size="20" font-weight="900" fill="#1A1D24">ASEAN AI市場</text>
+    <text x="824" y="66" text-anchor="middle" font-size="18" font-weight="900" fill="#1A1D24">CAGR 35%</text>
+    <text x="824" y="86" text-anchor="middle" font-size="13" fill="#E8A87C" font-weight="700">2025-2030</text>
+    <text x="824" y="104" text-anchor="middle" font-size="11" fill="#888">6億5千万人市場のポテンシャル</text>
+  </g>
+
+  <!-- Geopolitics Map -->
+  <rect x="58" y="328" width="660" height="310" rx="6" fill="white" stroke="#1A1D24" stroke-width="2" filter="url(#softShadow)"/>
+  <text x="80" y="356" font-size="15" font-weight="700" fill="#1A1D24">🗺️ シンガポール「AI版スイス」戦略</text>
+  <line x1="80" y1="364" x2="698" y2="364" stroke="#E0D8CC" stroke-width="1"/>
+  <g transform="translate(80, 380)">
+    <!-- Three-way positioning -->
+    <rect x="0" y="0" width="180" height="80" rx="8" fill="#E3F2FD" stroke="#5B8DEF" stroke-width="2.5"/>
+    <text x="90" y="30" text-anchor="middle" font-size="14" font-weight="700" fill="#5B8DEF">🇺🇸 US AI</text>
+    <text x="90" y="52" text-anchor="middle" font-size="11" fill="#4A5568">OpenAI / Claude</text>
+    <text x="90" y="70" text-anchor="middle" font-size="11" fill="#4A5568">制裁・輸出規制</text>
+    <rect x="440" y="0" width="180" height="80" rx="8" fill="#FFEBEE" stroke="#E53935" stroke-width="2.5"/>
+    <text x="530" y="30" text-anchor="middle" font-size="14" font-weight="700" fill="#E53935">🇨🇳 China AI</text>
+    <text x="530" y="52" text-anchor="middle" font-size="11" fill="#4A5568">DeepSeek / Qwen</text>
+    <text x="530" y="70" text-anchor="middle" font-size="11" fill="#4A5568">制裁対象リスク</text>
+    <!-- Singapore in middle -->
+    <rect x="200" y="110" width="220" height="80" rx="8" fill="#FFF9C4" stroke="#E8A87C" stroke-width="3"/>
+    <text x="310" y="140" text-anchor="middle" font-size="16" font-weight="700" fill="#1A1D24">🇸🇬 Singapore</text>
+    <text x="310" y="162" text-anchor="middle" font-size="12" fill="#4A5568">両方と関係維持</text>
+    <text x="310" y="180" text-anchor="middle" font-size="12" fill="#E8A87C" font-weight="700">= AI版スイス</text>
+    <!-- Arrows to Singapore -->
+    <line x1="180" y1="40" x2="220" y2="120" stroke="#5B8DEF" stroke-width="2" stroke-dasharray="6,3"/>
+    <line x1="440" y1="40" x2="400" y2="120" stroke="#E53935" stroke-width="2" stroke-dasharray="6,3"/>
+    <!-- ASEAN countries below -->
+    <text x="0" y="230" font-size="12" font-weight="700" fill="#1A1D24">ASEAN各国の板挟み：</text>
+    <text x="0" y="252" font-size="11" fill="#4A5568">🇮🇩 Indonesia (2.8億) · 🇻🇳 Vietnam (1億) · 🇵🇭 Philippines (1.2億)</text>
+    <text x="0" y="272" font-size="11" fill="#888">→ 中国製AIも米国製AIも選べる Singapore経由モデルに</text>
+  </g>
+
+  <!-- Speakers panel -->
+  <rect x="736" y="328" width="624" height="310" rx="6" fill="white" stroke="#1A1D24" stroke-width="2" filter="url(#softShadow)"/>
+  <rect x="736" y="328" width="624" height="40" rx="6" fill="#2F3842"/>
+  <text x="1048" y="353" text-anchor="middle" font-size="15" font-weight="700" fill="white">🎤 SuperAI 2026 第1陣スピーカー</text>
+  <g transform="translate(756, 380)">
+    <rect x="0" y="0" width="270" height="60" rx="6" fill="#E3F2FD" stroke="#5B8DEF" stroke-width="1.5"/>
+    <text x="14" y="26" font-size="13" font-weight="700" fill="#5B8DEF">OpenAI</text>
+    <text x="14" y="46" font-size="11" fill="#4A5568">Indranil Sarkar（代表）</text>
+    <rect x="286" y="0" width="270" height="60" rx="6" fill="#E8F5E9" stroke="#5CA46E" stroke-width="1.5"/>
+    <text x="300" y="26" font-size="13" font-weight="700" fill="#5CA46E">Google DeepMind</text>
+    <text x="300" y="46" font-size="11" fill="#4A5568">Ramine Tinati（代表）</text>
+    <rect x="0" y="70" width="270" height="60" rx="6" fill="#FCE4EC" stroke="#E53935" stroke-width="1.5"/>
+    <text x="14" y="96" font-size="13" font-weight="700" fill="#E53935">Anthropic</text>
+    <text x="14" y="116" font-size="11" fill="#4A5568">Charu Maheshwari（代表）</text>
+    <rect x="286" y="70" width="270" height="60" rx="6" fill="#F3E5F5" stroke="#8B7DB8" stroke-width="1.5"/>
+    <text x="300" y="96" font-size="13" font-weight="700" fill="#8B7DB8">Mistral AI</text>
+    <text x="300" y="116" font-size="11" fill="#4A5568">代表スピーカー（調整中）</text>
+    <line x1="0" y1="142" x2="556" y2="142" stroke="#E0D8CC" stroke-width="1"/>
+    <text x="0" y="166" font-size="12" fill="#4A5568">注目点：Pentagon排除後のAnthropicが</text>
+    <text x="0" y="186" font-size="12" fill="#4A5568">アジア太平洋地域で存在感を維持する場として活用。</text>
+    <text x="0" y="210" font-size="12" fill="#4A5568">「米政府に不適合でも国際市場では信頼」という</text>
+    <text x="0" y="230" font-size="12" fill="#888" font-style="italic">逆説的ブランドポジショニングのテスト場に。</text>
+  </g>
+
+  <!-- Sticky Notes -->
+  <g transform="translate(58, 660)">
+    <g transform="rotate(-1.0) translate(0, 0)">
+      <rect x="0" y="0" width="290" height="148" fill="#FFF9C4" stroke="#1A1D24" stroke-width="1.5" filter="url(#stickyShadow)"/>
+      <text x="14" y="24" font-size="13" font-weight="700" fill="#1A1D24">🏛️ AI外交の新局面</text>
+      <text x="14" y="46" font-size="11" fill="#4A5568">EU AI Act完全適用（8月）前に</text>
+      <text x="14" y="62" font-size="11" fill="#4A5568">欧州企業のアジア回避が進む可能性。</text>
+      <text x="14" y="78" font-size="11" fill="#4A5568">SingaporeがEU・ASEAN・US規制の</text>
+      <text x="14" y="94" font-size="11" fill="#4A5568">「翻訳者」として機能できれば独自の地位。</text>
+      <text x="14" y="118" font-size="10" fill="#888">AIコンプライアンス産業の中心地狙い</text>
+    </g>
+    <g transform="rotate(0.8) translate(305, 0)">
+      <rect x="0" y="0" width="290" height="148" fill="#D1F2EB" stroke="#1A1D24" stroke-width="1.5" filter="url(#stickyShadow)"/>
+      <text x="14" y="24" font-size="13" font-weight="700" fill="#1A1D24">🌏 ASEAN言語の壁</text>
+      <text x="14" y="46" font-size="11" fill="#4A5568">インドネシア語・タガログ語・タイ語等</text>
+      <text x="14" y="62" font-size="11" fill="#4A5568">では中国勢（Qwen・ERNIE）が優位。</text>
+      <text x="14" y="78" font-size="11" fill="#4A5568">英語中心のOpenAI/Anthropicが</text>
+      <text x="14" y="94" font-size="11" fill="#4A5568">ASEAN市場を制するには言語対応が鍵。</text>
+      <text x="14" y="118" font-size="10" fill="#888">多言語AI能力が市場制覇の分岐点</text>
+    </g>
+    <g transform="rotate(-0.4) translate(610, 0)">
+      <rect x="0" y="0" width="290" height="148" fill="#FCE4EC" stroke="#1A1D24" stroke-width="1.5" filter="url(#stickyShadow)"/>
+      <text x="14" y="24" font-size="13" font-weight="700" fill="#1A1D24">🤝 Anthropicのジレンマ</text>
+      <text x="14" y="46" font-size="11" fill="#4A5568">Pentagon排除→Singapore登壇という</text>
+      <text x="14" y="62" font-size="11" fill="#4A5568">対比が象徴的。</text>
+      <text x="14" y="78" font-size="11" fill="#4A5568">欧州・アジアへの展開継続で</text>
+      <text x="14" y="94" font-size="11" fill="#4A5568">「非米国市場での信頼醸成」を図る戦略。</text>
+      <text x="14" y="118" font-size="10" fill="#888">GlasswingはAll-Western構成と対照的</text>
+    </g>
+    <g transform="rotate(1.2) translate(915, 0)">
+      <rect x="0" y="0" width="290" height="148" fill="#EDE7F6" stroke="#1A1D24" stroke-width="1.5" filter="url(#stickyShadow)"/>
+      <text x="14" y="24" font-size="13" font-weight="700" fill="#1A1D24">📅 GovTechの提案</text>
+      <text x="14" y="46" font-size="11" fill="#4A5568">GovTech Singaporeは既に</text>
+      <text x="14" y="62" font-size="11" fill="#4A5568">多国間AI規制互換性フレームワークを</text>
+      <text x="14" y="78" font-size="11" fill="#4A5568">国際会議に提出済み。</text>
+      <text x="14" y="94" font-size="11" fill="#4A5568">「AI規制のISO標準化」を先導する野心。</text>
+      <text x="14" y="118" font-size="10" fill="#888">AIガバナンスの輸出国を目指す</text>
+    </g>
+  </g>
+
+  <!-- Bottom: conference comparison -->
+  <rect x="58" y="830" width="1302" height="100" rx="6" fill="white" stroke="#1A1D24" stroke-width="2" filter="url(#softShadow)"/>
+  <text x="80" y="856" font-size="13" font-weight="700" fill="#1A1D24">📊 主要AIカンファレンス比較（2026年）</text>
+  <line x1="80" y1="864" x2="1340" y2="864" stroke="#E0D8CC" stroke-width="1"/>
+  <g transform="translate(80, 872)">
+    <text x="0" y="18" font-size="12" font-weight="700" fill="#1A1D24">カンファレンス</text>
+    <text x="220" y="18" font-size="12" font-weight="700" fill="#1A1D24">規模</text>
+    <text x="340" y="18" font-size="12" font-weight="700" fill="#1A1D24">対象</text>
+    <text x="680" y="18" font-size="12" font-weight="700" fill="#1A1D24">カンファレンス</text>
+    <text x="900" y="18" font-size="12" font-weight="700" fill="#1A1D24">規模</text>
+    <text x="1020" y="18" font-size="12" font-weight="700" fill="#1A1D24">対象</text>
+    <text x="0" y="40" font-size="12" fill="#4A5568">SuperAI 2026</text>
+    <text x="220" y="40" font-size="12" fill="#E8A87C" font-weight="700">10,000人</text>
+    <text x="340" y="40" font-size="12" fill="#4A5568">産業×地政学×商業化</text>
+    <text x="680" y="40" font-size="12" fill="#4A5568">NeurIPS / ICML</text>
+    <text x="900" y="40" font-size="12" fill="#4A5568">16,000+</text>
+    <text x="1020" y="40" font-size="12" fill="#4A5568">学術研究</text>
+    <text x="0" y="60" font-size="12" fill="#4A5568">Davos AI</text>
+    <text x="220" y="60" font-size="12" fill="#4A5568">3,000人</text>
+    <text x="340" y="60" font-size="12" fill="#4A5568">政策・世界経済</text>
+    <text x="680" y="60" font-size="12" fill="#4A5568">Google Cloud Next</text>
+    <text x="900" y="60" font-size="12" fill="#4A5568">30,000+</text>
+    <text x="1020" y="60" font-size="12" fill="#4A5568">Enterprise技術</text>
+  </g>
+
+  <line x1="58" y1="1020" x2="1360" y2="1020" stroke="#1A1D24" stroke-width="1.5"/>
+  <text x="709" y="1040" text-anchor="middle" font-size="12" fill="#888" font-style="italic">AI News · 2026-05-05 · SuperAI 2026 Singapore — The Neutral Ground Gambit in the AI Geopolitics Race</text>
+</svg>

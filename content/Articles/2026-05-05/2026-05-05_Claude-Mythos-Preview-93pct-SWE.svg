@@ -1,0 +1,196 @@
+<svg viewBox="0 0 1400 1050" xmlns="http://www.w3.org/2000/svg" font-family="-apple-system, 'Hiragino Sans', 'Yu Gothic', sans-serif">
+  <defs>
+    <pattern id="paperTexture" patternUnits="userSpaceOnUse" width="4" height="4">
+      <rect width="4" height="4" fill="#FBF8F1"/>
+      <circle cx="1" cy="1" r="0.3" fill="#E8E2D3" opacity="0.5"/>
+      <circle cx="3" cy="3" r="0.2" fill="#D8D0C4" opacity="0.4"/>
+    </pattern>
+    <filter id="softShadow"><feDropShadow dx="2" dy="3" stdDeviation="3" flood-color="#1A1D24" flood-opacity="0.15"/></filter>
+    <filter id="stickyShadow"><feDropShadow dx="3" dy="4" stdDeviation="4" flood-color="#1A1D24" flood-opacity="0.2"/></filter>
+  </defs>
+  <rect width="1400" height="1050" fill="url(#paperTexture)"/>
+  <rect x="0" y="0" width="42" height="1050" fill="#F0EBE0" stroke="#E0D8CC" stroke-width="1"/>
+  <circle cx="21" cy="120" r="12" fill="#FBF8F1" stroke="#C8BFB0" stroke-width="2"/>
+  <circle cx="21" cy="280" r="12" fill="#FBF8F1" stroke="#C8BFB0" stroke-width="2"/>
+  <circle cx="21" cy="440" r="12" fill="#FBF8F1" stroke="#C8BFB0" stroke-width="2"/>
+  <circle cx="21" cy="600" r="12" fill="#FBF8F1" stroke="#C8BFB0" stroke-width="2"/>
+  <circle cx="21" cy="760" r="12" fill="#FBF8F1" stroke="#C8BFB0" stroke-width="2"/>
+  <circle cx="21" cy="920" r="12" fill="#FBF8F1" stroke="#C8BFB0" stroke-width="2"/>
+
+  <!-- Category tape -->
+  <g transform="translate(1180, 18) rotate(-3)">
+    <rect x="0" y="0" width="200" height="36" fill="#5B8DEF" stroke="#1A1D24" stroke-width="2" rx="3"/>
+    <text x="100" y="24" text-anchor="middle" font-size="15" font-weight="700" fill="white">#研究</text>
+  </g>
+  <rect x="58" y="18" width="160" height="34" rx="4" fill="#2F3842" filter="url(#softShadow)"/>
+  <text x="138" y="39" text-anchor="middle" font-size="14" font-weight="600" fill="#F0EBE0">2026-05-05</text>
+  <text x="240" y="42" font-size="18" fill="#F5A623">⭐⭐⭐</text>
+
+  <line x1="58" y1="68" x2="1360" y2="68" stroke="#1A1D24" stroke-width="3"/>
+  <text x="58" y="108" font-size="36" font-weight="900" fill="#1A1D24">🗝️ Claude Mythos Preview — SWE-bench 93.9%</text>
+  <text x="58" y="145" font-size="22" font-weight="500" fill="#4A5568">「最強だが使えない」AI ——Project Glasswing限定公開の逆説</text>
+  <text x="58" y="172" font-size="14" fill="#888">Source: Anthropic / NxCode / MindStudio · 2026-05-05 · #研究 #ClaudeMythos #SWEbench</text>
+  <line x1="58" y1="182" x2="1360" y2="182" stroke="#1A1D24" stroke-width="2"/>
+
+  <!-- Hero: Key/Lock icon -->
+  <g transform="translate(1230, 190)">
+    <rect x="30" y="50" width="80" height="70" rx="8" fill="#5B8DEF" stroke="#1A1D24" stroke-width="3"/>
+    <circle cx="70" cy="38" r="28" fill="none" stroke="#1A1D24" stroke-width="4"/>
+    <circle cx="70" cy="38" r="18" fill="#FBF8F1"/>
+    <rect x="58" y="72" width="24" height="22" rx="4" fill="#1A1D24"/>
+    <text x="70" y="130" text-anchor="middle" font-size="30" fill="white" font-weight="900">🔒</text>
+  </g>
+
+  <!-- Key Numbers -->
+  <g transform="translate(58, 195)">
+    <rect x="0" y="0" width="220" height="110" rx="6" fill="white" stroke="#1A1D24" stroke-width="2.5" filter="url(#softShadow)"/>
+    <rect x="0" y="0" width="220" height="8" rx="6" fill="#5B8DEF"/>
+    <text x="110" y="52" text-anchor="middle" font-size="40" font-weight="900" fill="#1A1D24">93.9%</text>
+    <text x="110" y="74" text-anchor="middle" font-size="13" fill="#5B8DEF" font-weight="700">SWE-bench Verified</text>
+    <text x="110" y="94" text-anchor="middle" font-size="11" fill="#888">2位 GPT-5.5 88.7%に+5.2pt差</text>
+
+    <rect x="238" y="0" width="220" height="110" rx="6" fill="white" stroke="#1A1D24" stroke-width="2.5" filter="url(#softShadow)"/>
+    <rect x="238" y="0" width="220" height="8" rx="6" fill="#5B8DEF"/>
+    <text x="348" y="52" text-anchor="middle" font-size="40" font-weight="900" fill="#1A1D24">94.6%</text>
+    <text x="348" y="74" text-anchor="middle" font-size="13" fill="#5B8DEF" font-weight="700">GPQA Diamond</text>
+    <text x="348" y="94" text-anchor="middle" font-size="11" fill="#888">全ベンチ中最高スコア</text>
+
+    <rect x="476" y="0" width="220" height="110" rx="6" fill="white" stroke="#1A1D24" stroke-width="2.5" filter="url(#softShadow)"/>
+    <rect x="476" y="0" width="220" height="8" rx="6" fill="#5B8DEF"/>
+    <text x="586" y="52" text-anchor="middle" font-size="40" font-weight="900" fill="#1A1D24">12社</text>
+    <text x="586" y="74" text-anchor="middle" font-size="13" fill="#5B8DEF" font-weight="700">Project Glasswing参加</text>
+    <text x="586" y="94" text-anchor="middle" font-size="11" fill="#888">Apple・Google・MS・Amazon...</text>
+
+    <rect x="714" y="0" width="220" height="110" rx="6" fill="white" stroke="#1A1D24" stroke-width="2.5" filter="url(#softShadow)"/>
+    <rect x="714" y="0" width="220" height="8" rx="6" fill="#5B8DEF"/>
+    <text x="824" y="52" text-anchor="middle" font-size="40" font-weight="900" fill="#1A1D24">+13.1pt</text>
+    <text x="824" y="74" text-anchor="middle" font-size="13" fill="#5B8DEF" font-weight="700">vs Opus 4.6 (80.8%)</text>
+    <text x="824" y="94" text-anchor="middle" font-size="11" fill="#888">公開モデルとの最大差</text>
+  </g>
+
+  <!-- SWE-bench Progress Chart -->
+  <rect x="58" y="328" width="720" height="300" rx="6" fill="white" stroke="#1A1D24" stroke-width="2" filter="url(#softShadow)"/>
+  <text x="80" y="356" font-size="16" font-weight="700" fill="#1A1D24">📈 SWE-bench Verified スコア推移（トップモデル）</text>
+  <line x1="80" y1="364" x2="758" y2="364" stroke="#E0D8CC" stroke-width="1"/>
+  <g transform="translate(80, 378)">
+    <line x1="80" y1="0" x2="80" y2="220" stroke="#1A1D24" stroke-width="1.5"/>
+    <line x1="80" y1="220" x2="620" y2="220" stroke="#1A1D24" stroke-width="1.5"/>
+    <!-- Y gridlines -->
+    <line x1="80" y1="176" x2="620" y2="176" stroke="#E0D8CC" stroke-width="1" stroke-dasharray="4,4"/>
+    <line x1="80" y1="132" x2="620" y2="132" stroke="#E0D8CC" stroke-width="1" stroke-dasharray="4,4"/>
+    <line x1="80" y1="88" x2="620" y2="88" stroke="#E0D8CC" stroke-width="1" stroke-dasharray="4,4"/>
+    <line x1="80" y1="44" x2="620" y2="44" stroke="#E0D8CC" stroke-width="1" stroke-dasharray="4,4"/>
+    <line x1="80" y1="0" x2="620" y2="0" stroke="#E0D8CC" stroke-width="1" stroke-dasharray="4,4"/>
+    <!-- Y labels -->
+    <text x="72" y="4" text-anchor="end" font-size="11" fill="#888">100%</text>
+    <text x="72" y="48" text-anchor="end" font-size="11" fill="#888">80%</text>
+    <text x="72" y="92" text-anchor="end" font-size="11" fill="#888">60%</text>
+    <text x="72" y="136" text-anchor="end" font-size="11" fill="#888">40%</text>
+    <text x="72" y="180" text-anchor="end" font-size="11" fill="#888">20%</text>
+    <!-- Data bars -->
+    <rect x="110" y="150.8" width="50" height="69.2" fill="#C8C8C8" stroke="#1A1D24" stroke-width="1.5"/>
+    <text x="135" y="142" text-anchor="middle" font-size="11" fill="#4A5568">33%</text>
+    <text x="135" y="236" text-anchor="middle" font-size="11" fill="#4A5568">Aug'24</text>
+    <rect x="195" y="94.4" width="50" height="125.6" fill="#A0B8E8" stroke="#1A1D24" stroke-width="1.5"/>
+    <text x="220" y="86" text-anchor="middle" font-size="11" fill="#4A5568">57%</text>
+    <text x="220" y="236" text-anchor="middle" font-size="11" fill="#4A5568">Dec'24</text>
+    <rect x="280" y="52.8" width="50" height="167.2" fill="#7EA8E0" stroke="#1A1D24" stroke-width="1.5"/>
+    <text x="305" y="44" text-anchor="middle" font-size="11" fill="#4A5568">76%</text>
+    <text x="305" y="236" text-anchor="middle" font-size="11" fill="#4A5568">Apr'25</text>
+    <rect x="365" y="35.2" width="50" height="184.8" fill="#5B8DEF" stroke="#1A1D24" stroke-width="1.5"/>
+    <text x="390" y="27" text-anchor="middle" font-size="11" fill="#4A5568">84%</text>
+    <text x="390" y="236" text-anchor="middle" font-size="11" fill="#4A5568">Jan'26</text>
+    <rect x="450" y="17.2" width="50" height="202.8" fill="#4070D0" stroke="#1A1D24" stroke-width="1.5"/>
+    <text x="475" y="9" text-anchor="middle" font-size="11" fill="#4A5568">88.7%</text>
+    <text x="475" y="236" text-anchor="middle" font-size="11" fill="#4A5568">GPT-5.5</text>
+    <rect x="540" y="2.9" width="50" height="217.1" fill="#1A1D24" stroke="#5B8DEF" stroke-width="2.5"/>
+    <text x="565" y="-5" text-anchor="middle" font-size="11" font-weight="700" fill="#1A1D24">93.9%</text>
+    <text x="565" y="236" text-anchor="middle" font-size="11" font-weight="700" fill="#5B8DEF">Mythos🔒</text>
+  </g>
+
+  <!-- Project Glasswing Panel -->
+  <rect x="796" y="328" width="564" height="300" rx="6" fill="white" stroke="#1A1D24" stroke-width="2" filter="url(#softShadow)"/>
+  <rect x="796" y="328" width="564" height="40" rx="6" fill="#5B8DEF"/>
+  <text x="1078" y="353" text-anchor="middle" font-size="16" font-weight="700" fill="white">🦋 Project Glasswing 参加企業（12社）</text>
+  <g transform="translate(816, 380)">
+    <text x="0" y="20" font-size="13" fill="#4A5568">🍎 Apple</text>
+    <text x="180" y="20" font-size="13" fill="#4A5568">🔍 Google</text>
+    <text x="360" y="20" font-size="13" fill="#4A5568">🪟 Microsoft</text>
+    <text x="0" y="48" font-size="13" fill="#4A5568">🛒 Amazon</text>
+    <text x="180" y="48" font-size="13" fill="#4A5568">👤 Meta</text>
+    <text x="360" y="48" font-size="13" fill="#4A5568">💳 JPMorgan</text>
+    <text x="0" y="76" font-size="13" fill="#4A5568">⚡ Nvidia</text>
+    <text x="180" y="76" font-size="13" fill="#4A5568">🔐 Palantir</text>
+    <text x="360" y="76" font-size="13" fill="#4A5568">🔵 IBM</text>
+    <text x="0" y="104" font-size="13" fill="#888">+ 3社（非公開）</text>
+    <line x1="0" y1="120" x2="524" y2="120" stroke="#E0D8CC" stroke-width="1"/>
+    <text x="0" y="142" font-size="12" fill="#4A5568">目的：重要インフラの脆弱性発見・修正</text>
+    <text x="0" y="162" font-size="12" fill="#4A5568">用途：電力網・金融基盤・通信ネットワーク</text>
+    <text x="0" y="182" font-size="12" fill="#888" font-style="italic">一般ユーザーへの公開は「現時点では予定なし」(Anthropic)</text>
+    <text x="0" y="204" font-size="12" font-weight="700" fill="#5B8DEF">→ HN 400+コメント「なぜ公開しないのか」議論沸騰中</text>
+  </g>
+
+  <!-- Sticky Notes -->
+  <g transform="translate(58, 650)">
+    <g transform="rotate(-1.0) translate(0, 0)">
+      <rect x="0" y="0" width="285" height="148" fill="#FFF9C4" stroke="#1A1D24" stroke-width="1.5" filter="url(#stickyShadow)"/>
+      <text x="14" y="24" font-size="13" font-weight="700" fill="#1A1D24">🔢 93.9%の真の意味</text>
+      <text x="14" y="46" font-size="11" fill="#4A5568">エラー率6.1%まで低下。</text>
+      <text x="14" y="62" font-size="11" fill="#4A5568">「監視なしでバックログを</text>
+      <text x="14" y="78" font-size="11" fill="#4A5568">処理できる」臨界点を超えた。</text>
+      <text x="14" y="94" font-size="11" fill="#4A5568">開発フロー再設計が不可避に。</text>
+      <text x="14" y="118" font-size="10" fill="#888">SWE-bench Pro 77.8%にも依然余地あり</text>
+    </g>
+    <g transform="rotate(0.7) translate(300, 0)">
+      <rect x="0" y="0" width="285" height="148" fill="#D1ECF1" stroke="#1A1D24" stroke-width="1.5" filter="url(#stickyShadow)"/>
+      <text x="14" y="24" font-size="13" font-weight="700" fill="#1A1D24">🏛️ 政治的文脈</text>
+      <text x="14" y="46" font-size="11" fill="#4A5568">Pentagon supply chain risk指定と</text>
+      <text x="14" y="62" font-size="11" fill="#4A5568">Glasswing限定公開が同時期。</text>
+      <text x="14" y="78" font-size="11" fill="#4A5568">「軍事AI拒否、民間インフラ防衛」</text>
+      <text x="14" y="94" font-size="11" fill="#4A5568">という選択的展開の実装例。</text>
+      <text x="14" y="118" font-size="10" fill="#888">GlasswingはAll-Western Big Tech構成</text>
+    </g>
+    <g transform="rotate(-0.5) translate(600, 0)">
+      <rect x="0" y="0" width="285" height="148" fill="#FCE4EC" stroke="#1A1D24" stroke-width="1.5" filter="url(#stickyShadow)"/>
+      <text x="14" y="24" font-size="13" font-weight="700" fill="#1A1D24">⚖️ 業界初の前例</text>
+      <text x="14" y="46" font-size="11" fill="#4A5568">コーディング能力を理由に</text>
+      <text x="14" y="62" font-size="11" fill="#4A5568">非公開にするのは業界初。</text>
+      <text x="14" y="78" font-size="11" fill="#4A5568">EU AI Actの「高リスク」判定に</text>
+      <text x="14" y="94" font-size="11" fill="#4A5568">影響する規制設計上の先例。</text>
+      <text x="14" y="118" font-size="10" fill="#888">「ダブルユース能力」基準の拡大か</text>
+    </g>
+    <g transform="rotate(1.3) translate(900, 0)">
+      <rect x="0" y="0" width="285" height="148" fill="#E8F5E9" stroke="#1A1D24" stroke-width="1.5" filter="url(#stickyShadow)"/>
+      <text x="14" y="24" font-size="13" font-weight="700" fill="#1A1D24">🔮 2026年後半の予測</text>
+      <text x="14" y="46" font-size="11" fill="#4A5568">Glasswing実績公開がトリガーとなり</text>
+      <text x="14" y="62" font-size="11" fill="#4A5568">一般公開議論が再燃する見込み。</text>
+      <text x="14" y="78" font-size="11" fill="#4A5568">競合が93.9%超を達成すれば</text>
+      <text x="14" y="94" font-size="11" fill="#4A5568">非公開理由が消滅するシナリオも。</text>
+      <text x="14" y="118" font-size="10" fill="#888">「安全バリアント」商業化の可能性</text>
+    </g>
+  </g>
+
+  <!-- Bottom comparison bar: 2024 top vs 2026 Mythos -->
+  <rect x="58" y="820" width="1302" height="120" rx="6" fill="white" stroke="#1A1D24" stroke-width="2" filter="url(#softShadow)"/>
+  <text x="80" y="848" font-size="15" font-weight="700" fill="#1A1D24">📊 SWE-bench トップスコア比較（2026-05-05現在）</text>
+  <line x1="80" y1="858" x2="1340" y2="858" stroke="#E0D8CC" stroke-width="1"/>
+  <!-- Horizontal mini bars -->
+  <g transform="translate(80, 866)">
+    <text x="0" y="16" font-size="12" fill="#1A1D24" font-weight="700">Mythos Preview 🔒</text>
+    <rect x="200" y="4" width="563" height="18" fill="#5B8DEF" stroke="#1A1D24" stroke-width="1"/>
+    <text x="772" y="18" font-size="13" font-weight="700" fill="#1A1D24">93.9%</text>
+    <text x="0" y="48" font-size="12" fill="#4A5568">GPT-5.5</text>
+    <rect x="200" y="36" width="532" height="18" fill="#A0B8E8" stroke="#1A1D24" stroke-width="1"/>
+    <text x="740" y="50" font-size="13" fill="#4A5568">88.7%</text>
+    <text x="0" y="16" font-size="1" fill="none"/>
+    <text x="860" y="16" font-size="12" fill="#4A5568">Claude Opus 4.7</text>
+    <rect x="1060" y="4" width="526" height="18" fill="#7EA8E0" stroke="#1A1D24" stroke-width="1"/>
+    <text x="1592" y="18" font-size="12" fill="#4A5568">87.6%</text>
+    <text x="860" y="48" font-size="12" fill="#888">GPT-5.3 Codex</text>
+    <rect x="1060" y="36" width="510" height="18" fill="#C8C8C8" stroke="#1A1D24" stroke-width="1"/>
+    <text x="1578" y="50" font-size="12" fill="#888">85.0%</text>
+  </g>
+
+  <line x1="58" y1="1020" x2="1360" y2="1020" stroke="#1A1D24" stroke-width="1.5"/>
+  <text x="709" y="1040" text-anchor="middle" font-size="12" fill="#888" font-style="italic">AI News · 2026-05-05 · Claude Mythos Preview — The Most Powerful AI You Cannot Use</text>
+</svg>
