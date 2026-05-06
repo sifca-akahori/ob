@@ -1,0 +1,229 @@
+<svg viewBox="0 0 1400 1050" xmlns="http://www.w3.org/2000/svg" font-family="-apple-system,'Hiragino Sans','Yu Gothic',sans-serif">
+  <defs>
+    <pattern id="paperTexture" patternUnits="userSpaceOnUse" width="4" height="4">
+      <rect width="4" height="4" fill="#FBF8F1"/>
+      <circle cx="1" cy="1" r="0.3" fill="#E8E2D3" opacity="0.6"/>
+      <circle cx="3" cy="3" r="0.3" fill="#E8E2D3" opacity="0.4"/>
+    </pattern>
+    <filter id="softShadow" x="-10%" y="-10%" width="120%" height="120%">
+      <feDropShadow dx="2" dy="3" stdDeviation="4" flood-color="#1A1D24" flood-opacity="0.15"/>
+    </filter>
+    <filter id="stickyShadow" x="-10%" y="-10%" width="130%" height="130%">
+      <feDropShadow dx="3" dy="4" stdDeviation="6" flood-color="#1A1D24" flood-opacity="0.2"/>
+    </filter>
+  </defs>
+
+  <rect width="1400" height="1050" fill="url(#paperTexture)"/>
+
+  <!-- Binding -->
+  <rect x="0" y="0" width="44" height="1050" fill="#F0EBE0" stroke="#E8E2D3" stroke-width="1"/>
+  <circle cx="22" cy="120" r="12" fill="white" stroke="#E8E2D3" stroke-width="2"/>
+  <circle cx="22" cy="120" r="7" fill="#E8E2D3"/>
+  <circle cx="22" cy="280" r="12" fill="white" stroke="#E8E2D3" stroke-width="2"/>
+  <circle cx="22" cy="280" r="7" fill="#E8E2D3"/>
+  <circle cx="22" cy="440" r="12" fill="white" stroke="#E8E2D3" stroke-width="2"/>
+  <circle cx="22" cy="440" r="7" fill="#E8E2D3"/>
+  <circle cx="22" cy="600" r="12" fill="white" stroke="#E8E2D3" stroke-width="2"/>
+  <circle cx="22" cy="600" r="7" fill="#E8E2D3"/>
+  <circle cx="22" cy="760" r="12" fill="white" stroke="#E8E2D3" stroke-width="2"/>
+  <circle cx="22" cy="760" r="7" fill="#E8E2D3"/>
+  <circle cx="22" cy="920" r="12" fill="white" stroke="#E8E2D3" stroke-width="2"/>
+  <circle cx="22" cy="920" r="7" fill="#E8E2D3"/>
+
+  <!-- Category tape -->
+  <g transform="rotate(-3, 1250, 60)">
+    <rect x="1120" y="20" width="240" height="44" rx="4" fill="#5B8DEF" stroke="#1A1D24" stroke-width="2" filter="url(#stickyShadow)"/>
+    <text x="1240" y="48" text-anchor="middle" font-size="18" font-weight="700" fill="white">#研究</text>
+  </g>
+
+  <!-- Date badge -->
+  <rect x="60" y="22" width="200" height="40" rx="6" fill="#2F3842" filter="url(#softShadow)"/>
+  <text x="160" y="47" text-anchor="middle" font-size="18" font-weight="700" fill="white">2026-05-06</text>
+
+  <!-- Impact -->
+  <text x="1310" y="90" text-anchor="middle" font-size="28">⭐⭐</text>
+
+  <!-- Title block -->
+  <rect x="60" y="80" width="1040" height="110" rx="8" fill="white" stroke="#1A1D24" stroke-width="2.5" filter="url(#softShadow)"/>
+  <line x1="60" y1="80" x2="60" y2="190" stroke="#5B8DEF" stroke-width="8" stroke-linecap="round"/>
+  <text x="90" y="122" font-size="33" font-weight="900" fill="#1A1D24">🤖 Tufts大：ニューロシンボリックAIで消費電力1/100</text>
+  <text x="90" y="162" font-size="21" font-weight="500" fill="#555">ロボット精度95%・未訓練タスク78%——ICRA 2026（ウィーン）で発表</text>
+  <text x="90" y="190" font-size="15" fill="#888">ScienceDaily / Tufts University · 2026-04 · #研究 #ロボティクス #ニューロシンボリック #エネルギー</text>
+
+  <!-- Hero icon -->
+  <g transform="translate(1115, 80)">
+    <rect x="0" y="0" width="220" height="220" rx="10" fill="white" stroke="#1A1D24" stroke-width="2" filter="url(#softShadow)"/>
+    <!-- Robot with lightning -->
+    <rect x="55" y="30" width="110" height="90" rx="12" fill="#EBF3FF" stroke="#5B8DEF" stroke-width="3"/>
+    <circle cx="88" cy="65" r="12" fill="white" stroke="#1A1D24" stroke-width="2"/>
+    <circle cx="88" cy="65" r="7" fill="#5B8DEF"/>
+    <circle cx="132" cy="65" r="12" fill="white" stroke="#1A1D24" stroke-width="2"/>
+    <circle cx="132" cy="65" r="7" fill="#5B8DEF"/>
+    <path d="M 82 95 Q 110 112 138 95" stroke="#1A1D24" stroke-width="2.5" fill="none"/>
+    <rect x="70" y="130" width="80" height="45" rx="8" fill="#D6E8FF" stroke="#5B8DEF" stroke-width="2"/>
+    <!-- Energy icon -->
+    <text x="110" y="162" text-anchor="middle" font-size="22" fill="#5B8DEF">⚡</text>
+    <text x="110" y="195" text-anchor="middle" font-size="11" fill="#555">1% Energy</text>
+    <text x="110" y="208" text-anchor="middle" font-size="11" fill="#5B8DEF">95% Accuracy</text>
+    <text x="110" y="216" text-anchor="middle" font-size="11" fill="#888">34min Training</text>
+  </g>
+
+  <!-- Key numbers -->
+  <rect x="60" y="210" width="1040" height="100" rx="8" fill="#1A1D24" stroke="#1A1D24" stroke-width="2" filter="url(#softShadow)"/>
+  <text x="155" y="250" text-anchor="middle" font-size="44" font-weight="900" fill="#5B8DEF">1/100</text>
+  <text x="155" y="282" text-anchor="middle" font-size="14" fill="#aaa">訓練エネルギー（従来VLA比）</text>
+  <line x1="270" y1="220" x2="270" y2="300" stroke="#444" stroke-width="1.5"/>
+  <text x="410" y="250" text-anchor="middle" font-size="44" font-weight="900" fill="#5CA46E">95%</text>
+  <text x="410" y="282" text-anchor="middle" font-size="14" fill="#aaa">Hanoiテスト成功率（従来34%）</text>
+  <line x1="550" y1="220" x2="550" y2="300" stroke="#444" stroke-width="1.5"/>
+  <text x="690" y="250" text-anchor="middle" font-size="44" font-weight="900" fill="#E8A87C">78%</text>
+  <text x="690" y="282" text-anchor="middle" font-size="14" fill="#aaa">未訓練タスク成功率（従来0%）</text>
+  <line x1="820" y1="220" x2="820" y2="300" stroke="#444" stroke-width="1.5"/>
+  <text x="955" y="250" text-anchor="middle" font-size="44" font-weight="900" fill="#E87C7C">34分</text>
+  <text x="955" y="282" text-anchor="middle" font-size="14" fill="#aaa">訓練時間（従来VLA 1.5日以上）</text>
+
+  <!-- Performance bar chart -->
+  <rect x="60" y="325" width="510" height="330" rx="8" fill="white" stroke="#1A1D24" stroke-width="2" filter="url(#softShadow)"/>
+  <text x="315" y="355" text-anchor="middle" font-size="16" font-weight="700" fill="#1A1D24">ニューロシンボリック vs 従来VLAの比較</text>
+  <line x1="120" y1="380" x2="120" y2="610" stroke="#ccc" stroke-width="1.5"/>
+  <text x="108" y="384" text-anchor="end" font-size="10" fill="#888">100%</text>
+  <text x="108" y="462" text-anchor="end" font-size="10" fill="#888">75%</text>
+  <text x="108" y="540" text-anchor="end" font-size="10" fill="#888">50%</text>
+  <text x="108" y="610" text-anchor="end" font-size="10" fill="#888">0%</text>
+  <line x1="120" y1="610" x2="490" y2="610" stroke="#1A1D24" stroke-width="1.5"/>
+  <!-- Neuro-Symbolic bars (blue) -->
+  <rect x="140" y="380" width="55" height="230" rx="3" fill="#5B8DEF" stroke="#1A1D24" stroke-width="1.5"/>
+  <text x="168" y="376" text-anchor="middle" font-size="11" font-weight="700" fill="#5B8DEF">95%</text>
+  <rect x="280" y="433" width="55" height="177" rx="3" fill="#5B8DEF" stroke="#1A1D24" stroke-width="1.5"/>
+  <text x="308" y="429" text-anchor="middle" font-size="11" font-weight="700" fill="#5B8DEF">78%</text>
+  <rect x="420" y="608" width="55" height="2" rx="1" fill="#5B8DEF"/>
+  <text x="448" y="604" text-anchor="middle" font-size="11" font-weight="700" fill="#5B8DEF">1%</text>
+  <!-- Standard VLA bars (gray) -->
+  <rect x="200" y="527" width="55" height="83" rx="3" fill="#ccc" stroke="#888" stroke-width="1.5"/>
+  <text x="228" y="523" text-anchor="middle" font-size="11" fill="#888">34%</text>
+  <rect x="340" y="610" width="55" height="0"/>
+  <text x="368" y="606" text-anchor="middle" font-size="11" fill="#888">0%</text>
+  <rect x="480" y="600" width="55" height="10" rx="2" fill="#ccc" stroke="#888" stroke-width="1.5"/>
+  <text x="508" y="596" text-anchor="middle" font-size="11" fill="#888">100%</text>
+  <!-- X labels -->
+  <text x="193" y="628" text-anchor="middle" font-size="11">標準Hanoi</text>
+  <text x="193" y="641" text-anchor="middle" font-size="10" fill="#888">成功率</text>
+  <text x="333" y="628" text-anchor="middle" font-size="11">未見Hanoi</text>
+  <text x="333" y="641" text-anchor="middle" font-size="10" fill="#888">汎化率</text>
+  <text x="473" y="628" text-anchor="middle" font-size="11">訓練電力</text>
+  <text x="473" y="641" text-anchor="middle" font-size="10" fill="#888">（相対値）</text>
+  <!-- Legend -->
+  <rect x="130" y="655" width="14" height="10" fill="#5B8DEF"/>
+  <text x="150" y="664" font-size="11" fill="#5B8DEF">ニューロシンボリック</text>
+  <rect x="310" y="655" width="14" height="10" fill="#ccc"/>
+  <text x="330" y="664" font-size="11" fill="#888">従来VLA</text>
+
+  <!-- Architecture diagram -->
+  <rect x="590" y="325" width="510" height="330" rx="8" fill="white" stroke="#1A1D24" stroke-width="2" filter="url(#softShadow)"/>
+  <text x="845" y="355" text-anchor="middle" font-size="16" font-weight="700" fill="#1A1D24">ニューロシンボリックVLAのアーキテクチャ</text>
+  <!-- Left: Traditional -->
+  <rect x="615" y="372" width="200" height="255" rx="6" fill="#F5F5F5" stroke="#888" stroke-width="2" stroke-dasharray="6,3"/>
+  <text x="715" y="395" text-anchor="middle" font-size="13" fill="#888">従来VLA</text>
+  <rect x="630" y="407" width="170" height="50" rx="4" fill="#e0e0e0" stroke="#888" stroke-width="1.5"/>
+  <text x="715" y="437" text-anchor="middle" font-size="12">視覚 + 言語 + 動作</text>
+  <text x="715" y="450" text-anchor="middle" font-size="11" fill="#888">全部ニューラルで処理</text>
+  <text x="715" y="480" text-anchor="middle" font-size="11" fill="#888">↓</text>
+  <rect x="630" y="490" width="170" height="50" rx="4" fill="#e0e0e0" stroke="#888" stroke-width="1.5"/>
+  <text x="715" y="520" text-anchor="middle" font-size="12">確率的出力</text>
+  <text x="715" y="533" text-anchor="middle" font-size="11" fill="#888">計算量大・未知弱</text>
+  <text x="715" y="570" text-anchor="middle" font-size="16">❌</text>
+  <text x="715" y="590" text-anchor="middle" font-size="11" fill="#888">未訓練タスク 0%</text>
+  <text x="715" y="605" text-anchor="middle" font-size="11" fill="#888">訓練 1.5日・100%電力</text>
+  <!-- Right: Neuro-Symbolic -->
+  <rect x="830" y="372" width="250" height="255" rx="6" fill="#EBF3FF" stroke="#5B8DEF" stroke-width="2.5"/>
+  <text x="955" y="395" text-anchor="middle" font-size="13" fill="#5B8DEF" font-weight="700">ニューロシンボリック</text>
+  <rect x="845" y="407" width="220" height="45" rx="4" fill="#D6E8FF" stroke="#5B8DEF" stroke-width="1.5"/>
+  <text x="955" y="430" text-anchor="middle" font-size="12">ニューラル：視覚知覚</text>
+  <text x="955" y="443" text-anchor="middle" font-size="11" fill="#555">物体認識・環境把握</text>
+  <text x="955" y="465" text-anchor="middle" font-size="11" fill="#5B8DEF">↓ ルール抽象化</text>
+  <rect x="845" y="475" width="220" height="45" rx="4" fill="#C8E6C9" stroke="#5CA46E" stroke-width="1.5"/>
+  <text x="955" y="498" text-anchor="middle" font-size="12">シンボリック：論理推論</text>
+  <text x="955" y="511" text-anchor="middle" font-size="11" fill="#555">「大円→小円の上 NG」等のルール</text>
+  <text x="955" y="533" text-anchor="middle" font-size="11" fill="#5CA46E">↓ 計画生成</text>
+  <rect x="845" y="543" width="220" height="45" rx="4" fill="#D6E8FF" stroke="#5B8DEF" stroke-width="1.5"/>
+  <text x="955" y="566" text-anchor="middle" font-size="12">ニューラル：動作実行</text>
+  <text x="955" y="579" text-anchor="middle" font-size="11" fill="#555">ロボットアーム制御</text>
+  <text x="955" y="605" text-anchor="middle" font-size="15" fill="#5B8DEF">✅</text>
+  <text x="955" y="620" text-anchor="middle" font-size="11" fill="#5B8DEF">未訓練タスク 78%・電力1%</text>
+
+  <!-- Feature cards -->
+  <rect x="60" y="668" width="235" height="130" rx="8" fill="white" stroke="#1A1D24" stroke-width="2" filter="url(#softShadow)"/>
+  <rect x="60" y="668" width="235" height="5" rx="2" fill="#5B8DEF"/>
+  <text x="178" y="695" text-anchor="middle" font-size="13" font-weight="700">🔬 ICRA 2026発表</text>
+  <text x="178" y="715" text-anchor="middle" font-size="11" fill="#555">ウィーン・2026年5月</text>
+  <text x="178" y="731" text-anchor="middle" font-size="11" fill="#555">arXiv: 2026年2月投稿</text>
+  <text x="178" y="747" text-anchor="middle" font-size="11" fill="#555">ロボット自動化国際会議</text>
+  <text x="178" y="763" text-anchor="middle" font-size="11" fill="#555">ScienceDaily/SciTechDailyで紹介</text>
+  <text x="178" y="785" text-anchor="middle" font-size="10" fill="#888">査読済み・正式発表</text>
+
+  <rect x="310" y="668" width="235" height="130" rx="8" fill="white" stroke="#1A1D24" stroke-width="2" filter="url(#softShadow)"/>
+  <rect x="310" y="668" width="235" height="5" rx="2" fill="#5CA46E"/>
+  <text x="428" y="695" text-anchor="middle" font-size="13" font-weight="700">⚡ エネルギー危機への答え</text>
+  <text x="428" y="715" text-anchor="middle" font-size="11" fill="#555">AI電力消費：世界の1%超</text>
+  <text x="428" y="731" text-anchor="middle" font-size="11" fill="#555">2030年：3〜5%予測（IEA）</text>
+  <text x="428" y="747" text-anchor="middle" font-size="11" fill="#555">エッジデバイス推論を可能に</text>
+  <text x="428" y="763" text-anchor="middle" font-size="11" fill="#555">工場・物流・医療ロボへの適用</text>
+  <text x="428" y="785" text-anchor="middle" font-size="10" fill="#888">1/100電力でオンデバイス化</text>
+
+  <rect x="560" y="668" width="235" height="130" rx="8" fill="white" stroke="#1A1D24" stroke-width="2" filter="url(#softShadow)"/>
+  <rect x="560" y="668" width="235" height="5" rx="2" fill="#E8A87C"/>
+  <text x="678" y="695" text-anchor="middle" font-size="13" font-weight="700">⚠️ 産業化の課題</text>
+  <text x="678" y="715" text-anchor="middle" font-size="11" fill="#555">製造業には99.5%以上が必要</text>
+  <text x="678" y="731" text-anchor="middle" font-size="11" fill="#555">制御実験→現実のバラつき</text>
+  <text x="678" y="747" text-anchor="middle" font-size="11" fill="#555">シンボリック規則の手設計</text>
+  <text x="678" y="763" text-anchor="middle" font-size="11" fill="#555">「未知タスクのルール設計者」</text>
+  <text x="678" y="785" text-anchor="middle" font-size="10" fill="#888">完全自律化はまだ遠い</text>
+
+  <rect x="810" y="668" width="235" height="130" rx="8" fill="white" stroke="#1A1D24" stroke-width="2" filter="url(#softShadow)"/>
+  <rect x="810" y="668" width="235" height="5" rx="2" fill="#8B7DB8"/>
+  <text x="928" y="695" text-anchor="middle" font-size="13" font-weight="700">🧠 なぜ汎化できるか</text>
+  <text x="928" y="715" text-anchor="middle" font-size="11" fill="#555">「パターン暗記」ではなく</text>
+  <text x="928" y="731" text-anchor="middle" font-size="11" fill="#555">「ルール理解」が核心</text>
+  <text x="928" y="747" text-anchor="middle" font-size="11" fill="#555">LLM暗記vs推論論争に示唆</text>
+  <text x="928" y="763" text-anchor="middle" font-size="11" fill="#555">規則保有→ペグ数変化に対応</text>
+  <text x="928" y="785" text-anchor="middle" font-size="10" fill="#888">Hanoiは真の計画能力テスト</text>
+
+  <!-- Sticky notes -->
+  <g transform="rotate(-1.5, 160, 855)">
+    <rect x="60" y="820" width="200" height="95" rx="4" fill="#FFF9C4" stroke="#E8D44D" stroke-width="1.5" filter="url(#stickyShadow)"/>
+    <text x="160" y="845" text-anchor="middle" font-size="13" font-weight="700" fill="#555">1990年代の再評価</text>
+    <text x="160" y="862" text-anchor="middle" font-size="11" fill="#777">ニューロシンボリックは古い</text>
+    <text x="160" y="878" text-anchor="middle" font-size="11" fill="#777">LLM知覚×シンボリック推論</text>
+    <text x="160" y="894" text-anchor="middle" font-size="11" fill="#777">という2020年代的融合へ</text>
+    <text x="160" y="910" text-anchor="middle" font-size="10" fill="#bbb">🔄 パラダイムの回帰</text>
+  </g>
+  <g transform="rotate(1.2, 390, 855)">
+    <rect x="285" y="820" width="200" height="95" rx="4" fill="#C8E6C9" stroke="#5CA46E" stroke-width="1.5" filter="url(#stickyShadow)"/>
+    <text x="385" y="845" text-anchor="middle" font-size="13" font-weight="700" fill="#2E7D32">データセンター不要論</text>
+    <text x="385" y="862" text-anchor="middle" font-size="11" fill="#555">1/100電力なら</text>
+    <text x="385" y="878" text-anchor="middle" font-size="11" fill="#555">大型GPUクラスタ不要</text>
+    <text x="385" y="894" text-anchor="middle" font-size="11" fill="#555">エッジAIの新局面</text>
+    <text x="385" y="910" text-anchor="middle" font-size="10" fill="#bbb">📡 インフラ革命の芽</text>
+  </g>
+  <g transform="rotate(-0.8, 615, 855)">
+    <rect x="510" y="820" width="200" height="95" rx="4" fill="#BBDEFB" stroke="#5B8DEF" stroke-width="1.5" filter="url(#stickyShadow)"/>
+    <text x="610" y="845" text-anchor="middle" font-size="13" font-weight="700" fill="#1565C0">Hanoiテストの価値</text>
+    <text x="610" y="862" text-anchor="middle" font-size="11" fill="#555">囲碁・チェスと違い</text>
+    <text x="610" y="878" text-anchor="middle" font-size="11" fill="#555">物理実行エラーが入る</text>
+    <text x="610" y="894" text-anchor="middle" font-size="11" fill="#555">「半開世界」の計画テスト</text>
+    <text x="610" y="910" text-anchor="middle" font-size="10" fill="#bbb">🧩 評価設計の妥当性</text>
+  </g>
+  <g transform="rotate(1.5, 840, 855)">
+    <rect x="730" y="820" width="200" height="95" rx="4" fill="#FFE0B2" stroke="#E8A87C" stroke-width="1.5" filter="url(#stickyShadow)"/>
+    <text x="830" y="845" text-anchor="middle" font-size="13" font-weight="700" fill="#BF360C">半自動化が現実的</text>
+    <text x="830" y="862" text-anchor="middle" font-size="11" fill="#555">専門家がルールを設計</text>
+    <text x="830" y="878" text-anchor="middle" font-size="11" fill="#555">AIが高精度で実行</text>
+    <text x="830" y="894" text-anchor="middle" font-size="11" fill="#555">完全自律は2028年以降</text>
+    <text x="830" y="910" text-anchor="middle" font-size="10" fill="#bbb">🔧 実用化の現実</text>
+  </g>
+
+  <!-- Footer -->
+  <line x1="60" y1="942" x2="1340" y2="942" stroke="#E8E2D3" stroke-width="1.5"/>
+  <text x="700" y="967" text-anchor="middle" font-size="13" font-style="italic" fill="#aaa">AI News · 2026-05-06 · Neuro-Symbolic AI Cuts Robot Energy Use by 100x While Boosting Accuracy to 95% (ICRA 2026)</text>
+  <text x="700" y="990" text-anchor="middle" font-size="11" fill="#ccc">Sources: ScienceDaily, Tufts Now, SciTechDaily, Nerd Level Tech</text>
+</svg>

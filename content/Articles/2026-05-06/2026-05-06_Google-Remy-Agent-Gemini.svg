@@ -1,0 +1,216 @@
+<svg viewBox="0 0 1400 1050" xmlns="http://www.w3.org/2000/svg" font-family="-apple-system,'Hiragino Sans','Yu Gothic',sans-serif">
+  <defs>
+    <pattern id="paperTexture" patternUnits="userSpaceOnUse" width="4" height="4">
+      <rect width="4" height="4" fill="#FBF8F1"/>
+      <circle cx="1" cy="1" r="0.3" fill="#E8E2D3" opacity="0.6"/>
+      <circle cx="3" cy="3" r="0.3" fill="#E8E2D3" opacity="0.4"/>
+    </pattern>
+    <filter id="softShadow" x="-10%" y="-10%" width="120%" height="120%">
+      <feDropShadow dx="2" dy="3" stdDeviation="4" flood-color="#1A1D24" flood-opacity="0.15"/>
+    </filter>
+    <filter id="stickyShadow" x="-10%" y="-10%" width="130%" height="130%">
+      <feDropShadow dx="3" dy="4" stdDeviation="6" flood-color="#1A1D24" flood-opacity="0.2"/>
+    </filter>
+  </defs>
+
+  <rect width="1400" height="1050" fill="url(#paperTexture)"/>
+
+  <!-- Binding -->
+  <rect x="0" y="0" width="44" height="1050" fill="#F0EBE0" stroke="#E8E2D3" stroke-width="1"/>
+  <circle cx="22" cy="120" r="12" fill="white" stroke="#E8E2D3" stroke-width="2"/>
+  <circle cx="22" cy="120" r="7" fill="#E8E2D3"/>
+  <circle cx="22" cy="280" r="12" fill="white" stroke="#E8E2D3" stroke-width="2"/>
+  <circle cx="22" cy="280" r="7" fill="#E8E2D3"/>
+  <circle cx="22" cy="440" r="12" fill="white" stroke="#E8E2D3" stroke-width="2"/>
+  <circle cx="22" cy="440" r="7" fill="#E8E2D3"/>
+  <circle cx="22" cy="600" r="12" fill="white" stroke="#E8E2D3" stroke-width="2"/>
+  <circle cx="22" cy="600" r="7" fill="#E8E2D3"/>
+  <circle cx="22" cy="760" r="12" fill="white" stroke="#E8E2D3" stroke-width="2"/>
+  <circle cx="22" cy="760" r="7" fill="#E8E2D3"/>
+  <circle cx="22" cy="920" r="12" fill="white" stroke="#E8E2D3" stroke-width="2"/>
+  <circle cx="22" cy="920" r="7" fill="#E8E2D3"/>
+
+  <!-- Category tape -->
+  <g transform="rotate(-3, 1250, 60)">
+    <rect x="1120" y="20" width="240" height="44" rx="4" fill="#5CA46E" stroke="#1A1D24" stroke-width="2" filter="url(#stickyShadow)"/>
+    <text x="1240" y="48" text-anchor="middle" font-size="18" font-weight="700" fill="white">#ビジネス</text>
+  </g>
+
+  <!-- Date badge -->
+  <rect x="60" y="22" width="200" height="40" rx="6" fill="#2F3842" filter="url(#softShadow)"/>
+  <text x="160" y="47" text-anchor="middle" font-size="18" font-weight="700" fill="white">2026-05-06</text>
+
+  <!-- Impact stars -->
+  <text x="1310" y="90" text-anchor="middle" font-size="28">⭐⭐</text>
+
+  <!-- Title block -->
+  <rect x="60" y="80" width="1040" height="110" rx="8" fill="white" stroke="#1A1D24" stroke-width="2.5" filter="url(#softShadow)"/>
+  <line x1="60" y1="80" x2="60" y2="190" stroke="#5CA46E" stroke-width="8" stroke-linecap="round"/>
+  <text x="90" y="122" font-size="33" font-weight="900" fill="#1A1D24">🤖 Google「Remy」：24時間365日パーソナルAIエージェント</text>
+  <text x="90" y="162" font-size="21" font-weight="500" fill="#555">Marinerを吸収してGemini内部テスト中——OpenClawへの直接対抗馬</text>
+  <text x="90" y="190" font-size="15" fill="#888">AI News / Analytics Insight · 2026-05-06 · #ビジネス #Google #Gemini #エージェント</text>
+
+  <!-- Hero mascot -->
+  <g transform="translate(1115, 80)">
+    <rect x="0" y="0" width="220" height="220" rx="10" fill="white" stroke="#1A1D24" stroke-width="2" filter="url(#softShadow)"/>
+    <!-- Remy robot -->
+    <rect x="55" y="40" width="110" height="100" rx="15" fill="#E8F5EC" stroke="#5CA46E" stroke-width="3"/>
+    <!-- Eyes -->
+    <circle cx="88" cy="75" r="14" fill="white" stroke="#1A1D24" stroke-width="2"/>
+    <circle cx="132" cy="75" r="14" fill="white" stroke="#1A1D24" stroke-width="2"/>
+    <circle cx="88" cy="75" r="8" fill="#5CA46E"/>
+    <circle cx="132" cy="75" r="8" fill="#5CA46E"/>
+    <!-- Mouth -->
+    <rect x="80" y="105" width="50" height="8" rx="4" fill="#5CA46E"/>
+    <!-- Antenna -->
+    <line x1="110" y1="40" x2="110" y2="20" stroke="#1A1D24" stroke-width="2.5"/>
+    <circle cx="110" cy="18" r="6" fill="#E8A87C" stroke="#1A1D24" stroke-width="2"/>
+    <!-- Body -->
+    <rect x="70" y="150" width="80" height="40" rx="8" fill="#D4EDDA" stroke="#5CA46E" stroke-width="2"/>
+    <text x="110" y="175" text-anchor="middle" font-size="11" fill="#555">Remy 24/7</text>
+    <text x="110" y="210" text-anchor="middle" font-size="13" fill="#555">dogfooding中</text>
+    <text x="110" y="222" text-anchor="middle" font-size="12" fill="#888">Mariner → Remy</text>
+  </g>
+
+  <!-- Key stats -->
+  <rect x="60" y="210" width="1040" height="100" rx="8" fill="#1A1D24" stroke="#1A1D24" stroke-width="2" filter="url(#softShadow)"/>
+  <text x="180" y="250" text-anchor="middle" font-size="36" font-weight="900" fill="#5CA46E">24/7</text>
+  <text x="180" y="282" text-anchor="middle" font-size="14" fill="#aaa">常時稼働型パーソナルエージェント</text>
+  <line x1="300" y1="220" x2="300" y2="300" stroke="#444" stroke-width="1.5"/>
+  <text x="440" y="250" text-anchor="middle" font-size="36" font-weight="900" fill="#E8A87C">Mariner廃止</text>
+  <text x="440" y="282" text-anchor="middle" font-size="14" fill="#aaa">2026-05-04 終了→Remy集約</text>
+  <line x1="570" y1="220" x2="570" y2="300" stroke="#444" stroke-width="1.5"/>
+  <text x="705" y="250" text-anchor="middle" font-size="36" font-weight="900" fill="#5B8DEF">Dogfood</text>
+  <text x="705" y="282" text-anchor="middle" font-size="14" fill="#aaa">社員限定テスト段階（公開未定）</text>
+  <line x1="830" y1="220" x2="830" y2="300" stroke="#444" stroke-width="1.5"/>
+  <text x="945" y="250" text-anchor="middle" font-size="36" font-weight="900" fill="#E87C7C">vs OpenClaw</text>
+  <text x="945" y="282" text-anchor="middle" font-size="14" fill="#aaa">直接対抗馬として位置付け</text>
+
+  <!-- Agent comparison table -->
+  <rect x="60" y="325" width="510" height="330" rx="8" fill="white" stroke="#1A1D24" stroke-width="2" filter="url(#softShadow)"/>
+  <text x="315" y="355" text-anchor="middle" font-size="16" font-weight="700" fill="#1A1D24">パーソナルエージェント競合比較</text>
+  <rect x="80" y="368" width="470" height="30" rx="4" fill="#1A1D24"/>
+  <text x="175" y="388" text-anchor="middle" font-size="12" fill="white">エージェント</text>
+  <text x="310" y="388" text-anchor="middle" font-size="12" fill="white">エコシステム</text>
+  <text x="445" y="388" text-anchor="middle" font-size="12" fill="white">ステータス</text>
+  <!-- Rows -->
+  <rect x="80" y="398" width="470" height="35" rx="2" fill="#E8F5EC"/>
+  <text x="175" y="421" text-anchor="middle" font-size="13" font-weight="700" fill="#5CA46E">Google Remy</text>
+  <text x="310" y="421" text-anchor="middle" font-size="12">G-Suite全体</text>
+  <text x="445" y="421" text-anchor="middle" font-size="12" fill="#E8A87C">内部Dogfood</text>
+  <rect x="80" y="433" width="470" height="35" rx="2" fill="#F5F5F5"/>
+  <text x="175" y="456" text-anchor="middle" font-size="13">OpenClaw</text>
+  <text x="310" y="456" text-anchor="middle" font-size="12">オープン・汎用</text>
+  <text x="445" y="456" text-anchor="middle" font-size="13" font-weight="700" fill="#5CA46E">一般公開中</text>
+  <rect x="80" y="468" width="470" height="35" rx="2" fill="#F5F5F5"/>
+  <text x="175" y="491" text-anchor="middle" font-size="13">Claude Cowork</text>
+  <text x="310" y="491" text-anchor="middle" font-size="12">Anthropic製品</text>
+  <text x="445" y="491" text-anchor="middle" font-size="13" font-weight="700" fill="#5CA46E">一般公開中</text>
+  <rect x="80" y="503" width="470" height="35" rx="2" fill="#F5F5F5"/>
+  <text x="175" y="526" text-anchor="middle" font-size="13">MS Copilot</text>
+  <text x="310" y="526" text-anchor="middle" font-size="12">Microsoft 365</text>
+  <text x="445" y="526" text-anchor="middle" font-size="13" font-weight="700" fill="#5CA46E">一般公開中</text>
+  <text x="315" y="580" text-anchor="middle" font-size="12" fill="#888">Remyは唯一の非公開状態——I/O 2026での発表が焦点</text>
+  <text x="315" y="600" text-anchor="middle" font-size="12" fill="#888">Google Workspace統合の深さが最大差別化軸</text>
+
+  <!-- Ecosystem diagram -->
+  <rect x="590" y="325" width="510" height="330" rx="8" fill="white" stroke="#1A1D24" stroke-width="2" filter="url(#softShadow)"/>
+  <text x="845" y="355" text-anchor="middle" font-size="16" font-weight="700" fill="#1A1D24">Remy が横断するGoogleエコシステム</text>
+  <!-- Central Remy -->
+  <circle cx="845" cy="480" r="55" fill="#E8F5EC" stroke="#5CA46E" stroke-width="3"/>
+  <text x="845" y="476" text-anchor="middle" font-size="20" font-weight="900" fill="#5CA46E">Remy</text>
+  <text x="845" y="496" text-anchor="middle" font-size="13" fill="#555">24/7 Agent</text>
+  <!-- Surrounding services -->
+  <circle cx="700" cy="395" r="38" fill="#FFF3CD" stroke="#E8A87C" stroke-width="2"/>
+  <text x="700" y="400" text-anchor="middle" font-size="12" font-weight="700">Gmail</text>
+  <line x1="740" y1="413" x2="795" y2="437" stroke="#ccc" stroke-width="1.5"/>
+  <circle cx="990" cy="395" r="38" fill="#BBDEFB" stroke="#5B8DEF" stroke-width="2"/>
+  <text x="990" y="400" text-anchor="middle" font-size="12" font-weight="700">Calendar</text>
+  <line x1="950" y1="413" x2="895" y2="437" stroke="#ccc" stroke-width="1.5"/>
+  <circle cx="670" cy="510" r="38" fill="#D4EDDA" stroke="#5CA46E" stroke-width="2"/>
+  <text x="670" y="515" text-anchor="middle" font-size="12" font-weight="700">Drive</text>
+  <line x1="708" y1="503" x2="790" y2="475" stroke="#ccc" stroke-width="1.5"/>
+  <circle cx="1020" cy="510" r="38" fill="#FFE8E8" stroke="#E87C7C" stroke-width="2"/>
+  <text x="1020" y="515" text-anchor="middle" font-size="12" font-weight="700">Meet</text>
+  <line x1="982" y1="503" x2="900" y2="475" stroke="#ccc" stroke-width="1.5"/>
+  <circle cx="845" cy="590" r="38" fill="#F3E5F5" stroke="#8B7DB8" stroke-width="2"/>
+  <text x="845" y="595" text-anchor="middle" font-size="12" font-weight="700">Docs</text>
+  <line x1="845" y1="552" x2="845" y2="535" stroke="#ccc" stroke-width="1.5"/>
+  <text x="845" y="640" text-anchor="middle" font-size="11" fill="#888">プライバシー懸念（データ集中）が普及の頭打ち要因</text>
+
+  <!-- Feature cards -->
+  <rect x="60" y="668" width="230" height="130" rx="8" fill="white" stroke="#1A1D24" stroke-width="2" filter="url(#softShadow)"/>
+  <rect x="60" y="668" width="230" height="5" rx="2" fill="#5CA46E"/>
+  <text x="175" y="695" text-anchor="middle" font-size="13" font-weight="700">⚡ Remyの主要機能</text>
+  <text x="175" y="715" text-anchor="middle" font-size="11" fill="#555">メール要約・返信の自動化</text>
+  <text x="175" y="731" text-anchor="middle" font-size="11" fill="#555">スケジュール調整・最適化</text>
+  <text x="175" y="747" text-anchor="middle" font-size="11" fill="#555">多段タスクの自律実行</text>
+  <text x="175" y="763" text-anchor="middle" font-size="11" fill="#555">ユーザー優先事項を学習</text>
+  <text x="175" y="785" text-anchor="middle" font-size="10" fill="#888">プロアクティブ型（指示不要）</text>
+
+  <rect x="305" y="668" width="230" height="130" rx="8" fill="white" stroke="#1A1D24" stroke-width="2" filter="url(#softShadow)"/>
+  <rect x="305" y="668" width="230" height="5" rx="2" fill="#5B8DEF"/>
+  <text x="420" y="695" text-anchor="middle" font-size="13" font-weight="700">📋 Mariner廃止の意味</text>
+  <text x="420" y="715" text-anchor="middle" font-size="11" fill="#555">ブラウジングエージェント終了</text>
+  <text x="420" y="731" text-anchor="middle" font-size="11" fill="#555">チーム・コードをRemy吸収</text>
+  <text x="420" y="747" text-anchor="middle" font-size="11" fill="#555">「分散→統合」戦略転換</text>
+  <text x="420" y="763" text-anchor="middle" font-size="11" fill="#555">Geminiへの一本化加速</text>
+  <text x="420" y="785" text-anchor="middle" font-size="10" fill="#888">Google製品墓場の批判もあり</text>
+
+  <rect x="550" y="668" width="230" height="130" rx="8" fill="white" stroke="#1A1D24" stroke-width="2" filter="url(#softShadow)"/>
+  <rect x="550" y="668" width="230" height="5" rx="2" fill="#E8A87C"/>
+  <text x="665" y="695" text-anchor="middle" font-size="13" font-weight="700">🔮 I/O 2026での発表</text>
+  <text x="665" y="715" text-anchor="middle" font-size="11" fill="#555">5〜6月が公開の最有力</text>
+  <text x="665" y="731" text-anchor="middle" font-size="11" fill="#555">OpenAI・Anthropicも夏前に</text>
+  <text x="665" y="747" text-anchor="middle" font-size="11" fill="#555">大型エージェント発表を控える</text>
+  <text x="665" y="763" text-anchor="middle" font-size="11" fill="#555">5〜7月「エージェント戦争開幕」</text>
+  <text x="665" y="785" text-anchor="middle" font-size="10" fill="#888">デフォルト獲得競争が本番</text>
+
+  <rect x="795" y="668" width="230" height="130" rx="8" fill="white" stroke="#1A1D24" stroke-width="2" filter="url(#softShadow)"/>
+  <rect x="795" y="668" width="230" height="5" rx="2" fill="#8B7DB8"/>
+  <text x="910" y="695" text-anchor="middle" font-size="13" font-weight="700">🔐 User Control問題</text>
+  <text x="910" y="715" text-anchor="middle" font-size="11" fill="#555">OpenClawへの批判</text>
+  <text x="910" y="731" text-anchor="middle" font-size="11" fill="#555">「勝手にやりすぎる」</text>
+  <text x="910" y="747" text-anchor="middle" font-size="11" fill="#555">Google版は保守的初期設定か</text>
+  <text x="910" y="763" text-anchor="middle" font-size="11" fill="#555">確認ダイアログ多め予測</text>
+  <text x="910" y="785" text-anchor="middle" font-size="10" fill="#888">信頼設計が普及の鍵</text>
+
+  <!-- Sticky notes -->
+  <g transform="rotate(-1.5, 160, 855)">
+    <rect x="60" y="820" width="200" height="95" rx="4" fill="#FFF9C4" stroke="#E8D44D" stroke-width="1.5" filter="url(#stickyShadow)"/>
+    <text x="160" y="845" text-anchor="middle" font-size="13" font-weight="700" fill="#555">制高点争い</text>
+    <text x="160" y="862" text-anchor="middle" font-size="11" fill="#777">OS・ブラウザ戦争に次ぐ</text>
+    <text x="160" y="878" text-anchor="middle" font-size="11" fill="#777">「デフォルトAgent」が</text>
+    <text x="160" y="894" text-anchor="middle" font-size="11" fill="#777">次の覇権ポイント</text>
+    <text x="160" y="910" text-anchor="middle" font-size="10" fill="#bbb">🏆 プラットフォーム戦争</text>
+  </g>
+  <g transform="rotate(1.2, 390, 855)">
+    <rect x="285" y="820" width="200" height="95" rx="4" fill="#C8E6C9" stroke="#5CA46E" stroke-width="1.5" filter="url(#stickyShadow)"/>
+    <text x="385" y="845" text-anchor="middle" font-size="13" font-weight="700" fill="#2E7D32">Workspace優位</text>
+    <text x="385" y="862" text-anchor="middle" font-size="11" fill="#555">Gmail×Drive×Docs×Meet</text>
+    <text x="385" y="878" text-anchor="middle" font-size="11" fill="#555">全部を横断できるのは</text>
+    <text x="385" y="894" text-anchor="middle" font-size="11" fill="#555">Googleだけ</text>
+    <text x="385" y="910" text-anchor="middle" font-size="10" fill="#bbb">💪 競合との差別化</text>
+  </g>
+  <g transform="rotate(-0.8, 615, 855)">
+    <rect x="510" y="820" width="200" height="95" rx="4" fill="#BBDEFB" stroke="#5B8DEF" stroke-width="1.5" filter="url(#stickyShadow)"/>
+    <text x="610" y="845" text-anchor="middle" font-size="13" font-weight="700" fill="#1565C0">プライバシー懸念</text>
+    <text x="610" y="862" text-anchor="middle" font-size="11" fill="#555">全Googleデータが</text>
+    <text x="610" y="878" text-anchor="middle" font-size="11" fill="#555">Remyに集中する構造</text>
+    <text x="610" y="894" text-anchor="middle" font-size="11" fill="#555">欧州では特に問題に</text>
+    <text x="610" y="910" text-anchor="middle" font-size="10" fill="#bbb">⚠️ 規制リスク</text>
+  </g>
+  <g transform="rotate(1.5, 840, 855)">
+    <rect x="730" y="820" width="200" height="95" rx="4" fill="#FFE0B2" stroke="#E8A87C" stroke-width="1.5" filter="url(#stickyShadow)"/>
+    <text x="830" y="845" text-anchor="middle" font-size="13" font-weight="700" fill="#BF360C">Googleの墓場</text>
+    <text x="830" y="862" text-anchor="middle" font-size="11" fill="#555">Mariner・Stadia・Inbox</text>
+    <text x="830" y="878" text-anchor="middle" font-size="11" fill="#555">Remyも同じ運命か</text>
+    <text x="830" y="894" text-anchor="middle" font-size="11" fill="#555">vs I/O発表で本気モード</text>
+    <text x="830" y="910" text-anchor="middle" font-size="10" fill="#bbb">😅 過去のパターン</text>
+  </g>
+
+  <!-- Footer -->
+  <line x1="60" y1="942" x2="1340" y2="942" stroke="#E8E2D3" stroke-width="1.5"/>
+  <text x="700" y="967" text-anchor="middle" font-size="13" font-style="italic" fill="#aaa">AI News · 2026-05-06 · Google Tests Remy AI Agent for Gemini as Focus Turns to User Control</text>
+  <text x="700" y="990" text-anchor="middle" font-size="11" fill="#ccc">Sources: AI News, Analytics Insight, eWeek, Storyboard18, PANews</text>
+</svg>

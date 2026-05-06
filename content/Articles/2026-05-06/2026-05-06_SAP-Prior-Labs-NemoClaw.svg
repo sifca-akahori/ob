@@ -1,0 +1,208 @@
+<svg viewBox="0 0 1400 1050" xmlns="http://www.w3.org/2000/svg" font-family="-apple-system,'Hiragino Sans','Yu Gothic',sans-serif">
+  <defs>
+    <pattern id="paperTexture" patternUnits="userSpaceOnUse" width="4" height="4">
+      <rect width="4" height="4" fill="#FBF8F1"/>
+      <circle cx="1" cy="1" r="0.3" fill="#E8E2D3" opacity="0.6"/>
+      <circle cx="3" cy="3" r="0.3" fill="#E8E2D3" opacity="0.4"/>
+    </pattern>
+    <filter id="softShadow" x="-10%" y="-10%" width="120%" height="120%">
+      <feDropShadow dx="2" dy="3" stdDeviation="4" flood-color="#1A1D24" flood-opacity="0.15"/>
+    </filter>
+    <filter id="stickyShadow" x="-10%" y="-10%" width="130%" height="130%">
+      <feDropShadow dx="3" dy="4" stdDeviation="6" flood-color="#1A1D24" flood-opacity="0.2"/>
+    </filter>
+  </defs>
+
+  <rect width="1400" height="1050" fill="url(#paperTexture)"/>
+
+  <!-- Binding -->
+  <rect x="0" y="0" width="44" height="1050" fill="#F0EBE0" stroke="#E8E2D3" stroke-width="1"/>
+  <circle cx="22" cy="120" r="12" fill="white" stroke="#E8E2D3" stroke-width="2"/>
+  <circle cx="22" cy="120" r="7" fill="#E8E2D3"/>
+  <circle cx="22" cy="280" r="12" fill="white" stroke="#E8E2D3" stroke-width="2"/>
+  <circle cx="22" cy="280" r="7" fill="#E8E2D3"/>
+  <circle cx="22" cy="440" r="12" fill="white" stroke="#E8E2D3" stroke-width="2"/>
+  <circle cx="22" cy="440" r="7" fill="#E8E2D3"/>
+  <circle cx="22" cy="600" r="12" fill="white" stroke="#E8E2D3" stroke-width="2"/>
+  <circle cx="22" cy="600" r="7" fill="#E8E2D3"/>
+  <circle cx="22" cy="760" r="12" fill="white" stroke="#E8E2D3" stroke-width="2"/>
+  <circle cx="22" cy="760" r="7" fill="#E8E2D3"/>
+  <circle cx="22" cy="920" r="12" fill="white" stroke="#E8E2D3" stroke-width="2"/>
+  <circle cx="22" cy="920" r="7" fill="#E8E2D3"/>
+
+  <!-- Category tape -->
+  <g transform="rotate(-3, 1250, 60)">
+    <rect x="1120" y="20" width="240" height="44" rx="4" fill="#5CA46E" stroke="#1A1D24" stroke-width="2" filter="url(#stickyShadow)"/>
+    <text x="1240" y="48" text-anchor="middle" font-size="18" font-weight="700" fill="white">#ビジネス</text>
+  </g>
+
+  <!-- Date badge -->
+  <rect x="60" y="22" width="200" height="40" rx="6" fill="#2F3842" filter="url(#softShadow)"/>
+  <text x="160" y="47" text-anchor="middle" font-size="18" font-weight="700" fill="white">2026-05-06</text>
+
+  <!-- Impact stars -->
+  <text x="1310" y="90" text-anchor="middle" font-size="28">⭐⭐⭐</text>
+
+  <!-- Title block -->
+  <rect x="60" y="80" width="1040" height="110" rx="8" fill="white" stroke="#1A1D24" stroke-width="2.5" filter="url(#softShadow)"/>
+  <line x1="60" y1="80" x2="60" y2="190" stroke="#5CA46E" stroke-width="8" stroke-linecap="round"/>
+  <text x="90" y="122" font-size="33" font-weight="900" fill="#1A1D24">🏭 SAP、18カ月独スタートアップPrior Labsに€10億投資</text>
+  <text x="90" y="162" font-size="21" font-weight="500" fill="#555">＋NemoClaw（NVIDIA）をSAP公認エージェント基盤に採用——欧州AI再編の号砲</text>
+  <text x="90" y="190" font-size="15" fill="#888">TechCrunch / SAP公式 · 2026-05-05 · #ビジネス #SAP #欧州AI #エンタープライズ</text>
+
+  <!-- Hero icon (SAP + lab beaker) -->
+  <g transform="translate(1115, 80)">
+    <rect x="0" y="0" width="220" height="220" rx="10" fill="white" stroke="#1A1D24" stroke-width="2" filter="url(#softShadow)"/>
+    <!-- Lab beaker icon -->
+    <rect x="75" y="50" width="70" height="90" rx="6" fill="#E8F5EC" stroke="#5CA46E" stroke-width="3"/>
+    <polygon points="55,170 165,170 140,140 80,140" fill="#D4EDDA" stroke="#5CA46E" stroke-width="2.5"/>
+    <ellipse cx="110" cy="172" rx="55" ry="16" fill="#D4EDDA" stroke="#5CA46E" stroke-width="2.5"/>
+    <!-- Bubbles -->
+    <circle cx="100" cy="100" r="8" fill="#5CA46E" opacity="0.7"/>
+    <circle cx="120" cy="80" r="5" fill="#5CA46E" opacity="0.5"/>
+    <circle cx="90" cy="120" r="6" fill="#5CA46E" opacity="0.6"/>
+    <text x="110" y="205" text-anchor="middle" font-size="13" fill="#555">Prior Labs GmbH</text>
+    <text x="110" y="218" text-anchor="middle" font-size="12" fill="#888">フライブルク・設立18カ月</text>
+  </g>
+
+  <!-- Key numbers -->
+  <rect x="60" y="210" width="1040" height="100" rx="8" fill="#1A1D24" stroke="#1A1D24" stroke-width="2" filter="url(#softShadow)"/>
+  <text x="170" y="250" text-anchor="middle" font-size="44" font-weight="900" fill="#5CA46E">€10億</text>
+  <text x="170" y="282" text-anchor="middle" font-size="14" fill="#aaa">4年間投資コミット ($1.16B)</text>
+  <line x1="300" y1="220" x2="300" y2="300" stroke="#444" stroke-width="1.5"/>
+  <text x="430" y="250" text-anchor="middle" font-size="44" font-weight="900" fill="#E8A87C">18ヶ月</text>
+  <text x="430" y="282" text-anchor="middle" font-size="14" fill="#aaa">創業からの期間（異例の早期評価）</text>
+  <line x1="560" y1="220" x2="560" y2="300" stroke="#444" stroke-width="1.5"/>
+  <text x="700" y="250" text-anchor="middle" font-size="44" font-weight="900" fill="#5B8DEF">+Dremio</text>
+  <text x="700" y="282" text-anchor="middle" font-size="14" fill="#aaa">データレイク同時買収</text>
+  <line x1="840" y1="220" x2="840" y2="300" stroke="#444" stroke-width="1.5"/>
+  <text x="960" y="250" text-anchor="middle" font-size="44" font-weight="900" fill="#8B7DB8">NemoClaw</text>
+  <text x="960" y="282" text-anchor="middle" font-size="14" fill="#aaa">NVIDIA公認エージェントフレームワーク採用</text>
+
+  <!-- Architecture diagram -->
+  <rect x="60" y="325" width="510" height="330" rx="8" fill="white" stroke="#1A1D24" stroke-width="2" filter="url(#softShadow)"/>
+  <text x="315" y="355" text-anchor="middle" font-size="16" font-weight="700" fill="#1A1D24">SAPのAI垂直統合スタック</text>
+  <!-- Stack layers -->
+  <rect x="100" y="375" width="370" height="45" rx="6" fill="#E8F5EC" stroke="#5CA46E" stroke-width="2"/>
+  <text x="285" y="404" text-anchor="middle" font-size="14" font-weight="700" fill="#5CA46E">🤖 NemoClaw エージェントランタイム</text>
+  <rect x="100" y="432" width="370" height="45" rx="6" fill="#D4EDDA" stroke="#5CA46E" stroke-width="2"/>
+  <text x="285" y="461" text-anchor="middle" font-size="14" font-weight="700">Prior Labs テーブル基盤モデル</text>
+  <rect x="100" y="489" width="370" height="45" rx="6" fill="#FFF3CD" stroke="#E8A87C" stroke-width="2"/>
+  <text x="285" y="518" text-anchor="middle" font-size="14" font-weight="700">Dremio データレイク（統合クエリ）</text>
+  <rect x="100" y="546" width="370" height="45" rx="6" fill="#BBDEFB" stroke="#5B8DEF" stroke-width="2"/>
+  <text x="285" y="575" text-anchor="middle" font-size="14" font-weight="700">SAP S/4HANA · BTP（業務データ）</text>
+  <!-- Arrows between layers -->
+  <text x="285" y="425" text-anchor="middle" font-size="18" fill="#5CA46E">↓</text>
+  <text x="285" y="482" text-anchor="middle" font-size="18" fill="#E8A87C">↓</text>
+  <text x="285" y="539" text-anchor="middle" font-size="18" fill="#5B8DEF">↓</text>
+  <text x="285" y="630" text-anchor="middle" font-size="13" fill="#888">「データ→AI→エージェント実行」を</text>
+  <text x="285" y="648" text-anchor="middle" font-size="13" fill="#888">SAP単独エコシステムで完結させる構想</text>
+
+  <!-- Competitor comparison table -->
+  <rect x="590" y="325" width="510" height="330" rx="8" fill="white" stroke="#1A1D24" stroke-width="2" filter="url(#softShadow)"/>
+  <text x="845" y="355" text-anchor="middle" font-size="16" font-weight="700" fill="#1A1D24">ERP大手AI戦略比較</text>
+  <!-- Table header -->
+  <rect x="610" y="368" width="470" height="32" rx="4" fill="#1A1D24"/>
+  <text x="700" y="389" text-anchor="middle" font-size="12" fill="white">企業</text>
+  <text x="830" y="389" text-anchor="middle" font-size="12" fill="white">AI戦略</text>
+  <text x="990" y="389" text-anchor="middle" font-size="12" fill="white">投資規模</text>
+  <!-- Rows -->
+  <rect x="610" y="400" width="470" height="35" rx="2" fill="#E8F5EC"/>
+  <text x="700" y="422" text-anchor="middle" font-size="13" font-weight="700" fill="#5CA46E">SAP</text>
+  <text x="830" y="422" text-anchor="middle" font-size="12">独自基盤モデル獲得</text>
+  <text x="990" y="422" text-anchor="middle" font-size="13" font-weight="700" fill="#5CA46E">€10億/4yr</text>
+  <rect x="610" y="435" width="470" height="35" rx="2" fill="#F5F5F5"/>
+  <text x="700" y="457" text-anchor="middle" font-size="13">Oracle</text>
+  <text x="830" y="457" text-anchor="middle" font-size="12">OCI + LLM提携</text>
+  <text x="990" y="457" text-anchor="middle" font-size="12">未開示</text>
+  <rect x="610" y="470" width="470" height="35" rx="2" fill="#F5F5F5"/>
+  <text x="700" y="492" text-anchor="middle" font-size="13">Salesforce</text>
+  <text x="830" y="492" text-anchor="middle" font-size="12">Einstein AI + Agentforce</text>
+  <text x="990" y="492" text-anchor="middle" font-size="12">~$4B投資計画</text>
+  <rect x="610" y="505" width="470" height="35" rx="2" fill="#F5F5F5"/>
+  <text x="700" y="527" text-anchor="middle" font-size="13">Workday</text>
+  <text x="830" y="527" text-anchor="middle" font-size="12">Illuminate AI</text>
+  <text x="990" y="527" text-anchor="middle" font-size="12">~$1B</text>
+  <rect x="610" y="540" width="470" height="35" rx="2" fill="#FFF3CD"/>
+  <text x="700" y="562" text-anchor="middle" font-size="13" fill="#BF360C">NemoClaw</text>
+  <text x="830" y="562" text-anchor="middle" font-size="12">NVIDIA AgentFW</text>
+  <text x="990" y="562" text-anchor="middle" font-size="12">SAP・他社採用中</text>
+  <text x="845" y="620" text-anchor="middle" font-size="12" fill="#888">※ SAPが「独自基盤モデル保有」で一歩リード</text>
+  <text x="845" y="638" text-anchor="middle" font-size="12" fill="#888">OpenClaw vs NemoClaw の代理戦争にも注目</text>
+
+  <!-- Feature cards row -->
+  <rect x="60" y="668" width="235" height="130" rx="8" fill="white" stroke="#1A1D24" stroke-width="2" filter="url(#softShadow)"/>
+  <rect x="60" y="668" width="235" height="5" rx="2" fill="#5CA46E"/>
+  <text x="178" y="695" text-anchor="middle" font-size="13" font-weight="700">📋 Prior Labsとは</text>
+  <text x="178" y="715" text-anchor="middle" font-size="11" fill="#555">テーブル基盤モデルのパイオニア</text>
+  <text x="178" y="731" text-anchor="middle" font-size="11" fill="#555">TabPFN論文から派生した研究</text>
+  <text x="178" y="747" text-anchor="middle" font-size="11" fill="#555">ERP×財務×SCMデータ特化</text>
+  <text x="178" y="763" text-anchor="middle" font-size="11" fill="#555">フライブルク拠点・独立継続</text>
+  <text x="178" y="785" text-anchor="middle" font-size="10" fill="#888">LLMより表データ処理で優位</text>
+
+  <rect x="310" y="668" width="235" height="130" rx="8" fill="white" stroke="#1A1D24" stroke-width="2" filter="url(#softShadow)"/>
+  <rect x="310" y="668" width="235" height="5" rx="2" fill="#8B7DB8"/>
+  <text x="428" y="695" text-anchor="middle" font-size="13" font-weight="700">🔧 NemoClaw採用効果</text>
+  <text x="428" y="715" text-anchor="middle" font-size="11" fill="#555">SAP顧客でエージェント標準化</text>
+  <text x="428" y="731" text-anchor="middle" font-size="11" fill="#555">数十万社規模の普及可能性</text>
+  <text x="428" y="747" text-anchor="middle" font-size="11" fill="#555">OpenClaw対抗のERP版基盤</text>
+  <text x="428" y="763" text-anchor="middle" font-size="11" fill="#555">NVIDIAとのパートナー強化</text>
+  <text x="428" y="785" text-anchor="middle" font-size="10" fill="#888">エンタープライズAgent市場争奪</text>
+
+  <rect x="560" y="668" width="235" height="130" rx="8" fill="white" stroke="#1A1D24" stroke-width="2" filter="url(#softShadow)"/>
+  <rect x="560" y="668" width="235" height="5" rx="2" fill="#E8A87C"/>
+  <text x="678" y="695" text-anchor="middle" font-size="13" font-weight="700">🇪🇺 EU戦略的意味</text>
+  <text x="678" y="715" text-anchor="middle" font-size="11" fill="#555">EU初のフロンティアAIラボ</text>
+  <text x="678" y="731" text-anchor="middle" font-size="11" fill="#555">GDPR・AI Act対応コア</text>
+  <text x="678" y="747" text-anchor="middle" font-size="11" fill="#555">Mistral・Aleph Alphaと棲み分け</text>
+  <text x="678" y="763" text-anchor="middle" font-size="11" fill="#555">米中への「第三極」ポジション</text>
+  <text x="678" y="785" text-anchor="middle" font-size="10" fill="#888">EU補助金受領の可能性</text>
+
+  <rect x="810" y="668" width="235" height="130" rx="8" fill="white" stroke="#1A1D24" stroke-width="2" filter="url(#softShadow)"/>
+  <rect x="810" y="668" width="235" height="5" rx="2" fill="#5B8DEF"/>
+  <text x="928" y="695" text-anchor="middle" font-size="13" font-weight="700">📅 今後のマイルストーン</text>
+  <text x="928" y="715" text-anchor="middle" font-size="11" fill="#555">Q2〜Q3 2026：買収クローズ</text>
+  <text x="928" y="731" text-anchor="middle" font-size="11" fill="#555">Sapphire NOW：追加発表？</text>
+  <text x="928" y="747" text-anchor="middle" font-size="11" fill="#555">Oracle・Salesforceの追随動向</text>
+  <text x="928" y="763" text-anchor="middle" font-size="11" fill="#555">Dremio統合完了時期</text>
+  <text x="928" y="785" text-anchor="middle" font-size="10" fill="#888">EU AI Act適合認証の行方</text>
+
+  <!-- Sticky notes -->
+  <g transform="rotate(-1.5, 160, 855)">
+    <rect x="60" y="820" width="200" height="95" rx="4" fill="#FFF9C4" stroke="#E8D44D" stroke-width="1.5" filter="url(#stickyShadow)"/>
+    <text x="160" y="845" text-anchor="middle" font-size="13" font-weight="700" fill="#555">18カ月で€10億</text>
+    <text x="160" y="862" text-anchor="middle" font-size="11" fill="#777">Mistral: 2年超で$6B</text>
+    <text x="160" y="878" text-anchor="middle" font-size="11" fill="#777">特定用途プレミアムか</text>
+    <text x="160" y="894" text-anchor="middle" font-size="11" fill="#777">研究委託説もあり</text>
+    <text x="160" y="910" text-anchor="middle" font-size="10" fill="#bbb">🤔 評価妥当性</text>
+  </g>
+  <g transform="rotate(1.2, 390, 855)">
+    <rect x="285" y="820" width="200" height="95" rx="4" fill="#C8E6C9" stroke="#5CA46E" stroke-width="1.5" filter="url(#stickyShadow)"/>
+    <text x="385" y="845" text-anchor="middle" font-size="13" font-weight="700" fill="#2E7D32">テーブルAIの壁</text>
+    <text x="385" y="862" text-anchor="middle" font-size="11" fill="#555">実用事例がまだ限定的</text>
+    <text x="385" y="878" text-anchor="middle" font-size="11" fill="#555">LLMとの差が出るのは</text>
+    <text x="385" y="894" text-anchor="middle" font-size="11" fill="#555">非常に大量のERP履歴</text>
+    <text x="385" y="910" text-anchor="middle" font-size="10" fill="#bbb">📊 実証が鍵</text>
+  </g>
+  <g transform="rotate(-0.8, 615, 855)">
+    <rect x="510" y="820" width="200" height="95" rx="4" fill="#BBDEFB" stroke="#5B8DEF" stroke-width="1.5" filter="url(#stickyShadow)"/>
+    <text x="610" y="845" text-anchor="middle" font-size="13" font-weight="700" fill="#1565C0">Agent戦場は2分</text>
+    <text x="610" y="862" text-anchor="middle" font-size="11" fill="#555">コンシューマ: OpenClaw</text>
+    <text x="610" y="878" text-anchor="middle" font-size="11" fill="#555">エンタープライズ: NemoClaw</text>
+    <text x="610" y="894" text-anchor="middle" font-size="11" fill="#555">Sapphire NOWが決戦場</text>
+    <text x="610" y="910" text-anchor="middle" font-size="10" fill="#bbb">⚔️ フレームワーク戦争</text>
+  </g>
+  <g transform="rotate(1.5, 840, 855)">
+    <rect x="730" y="820" width="200" height="95" rx="4" fill="#FFE0B2" stroke="#E8A87C" stroke-width="1.5" filter="url(#stickyShadow)"/>
+    <text x="830" y="845" text-anchor="middle" font-size="13" font-weight="700" fill="#BF360C">Dremio同時買収</text>
+    <text x="830" y="862" text-anchor="middle" font-size="11" fill="#555">データ→AI→Agent</text>
+    <text x="830" y="878" text-anchor="middle" font-size="11" fill="#555">垂直統合を一気に加速</text>
+    <text x="830" y="894" text-anchor="middle" font-size="11" fill="#555">サプライヤー囲い込み</text>
+    <text x="830" y="910" text-anchor="middle" font-size="10" fill="#bbb">🔗 垂直統合戦略</text>
+  </g>
+
+  <!-- Footer -->
+  <line x1="60" y1="942" x2="1340" y2="942" stroke="#E8E2D3" stroke-width="1.5"/>
+  <text x="700" y="967" text-anchor="middle" font-size="13" font-style="italic" fill="#aaa">AI News · 2026-05-06 · SAP Bets $1.16B on 18-Month-Old German AI Lab and Embraces NemoClaw Strategy</text>
+  <text x="700" y="990" text-anchor="middle" font-size="11" fill="#ccc">Sources: TechCrunch, SAP Press Release, Sifted, CXO Digitalpulse</text>
+</svg>

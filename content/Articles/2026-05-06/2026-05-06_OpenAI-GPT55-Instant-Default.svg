@@ -1,0 +1,215 @@
+<svg viewBox="0 0 1400 1050" xmlns="http://www.w3.org/2000/svg" font-family="-apple-system,'Hiragino Sans','Yu Gothic',sans-serif">
+  <defs>
+    <pattern id="paperTexture" patternUnits="userSpaceOnUse" width="4" height="4">
+      <rect width="4" height="4" fill="#FBF8F1"/>
+      <circle cx="1" cy="1" r="0.3" fill="#E8E2D3" opacity="0.6"/>
+      <circle cx="3" cy="3" r="0.3" fill="#E8E2D3" opacity="0.4"/>
+    </pattern>
+    <filter id="softShadow" x="-10%" y="-10%" width="120%" height="120%">
+      <feDropShadow dx="2" dy="3" stdDeviation="4" flood-color="#1A1D24" flood-opacity="0.15"/>
+    </filter>
+    <filter id="stickyShadow" x="-10%" y="-10%" width="130%" height="130%">
+      <feDropShadow dx="3" dy="4" stdDeviation="6" flood-color="#1A1D24" flood-opacity="0.2"/>
+    </filter>
+  </defs>
+
+  <rect width="1400" height="1050" fill="url(#paperTexture)"/>
+
+  <!-- Binding -->
+  <rect x="0" y="0" width="44" height="1050" fill="#F0EBE0" stroke="#E8E2D3" stroke-width="1"/>
+  <circle cx="22" cy="120" r="12" fill="white" stroke="#E8E2D3" stroke-width="2"/>
+  <circle cx="22" cy="120" r="7" fill="#E8E2D3"/>
+  <circle cx="22" cy="280" r="12" fill="white" stroke="#E8E2D3" stroke-width="2"/>
+  <circle cx="22" cy="280" r="7" fill="#E8E2D3"/>
+  <circle cx="22" cy="440" r="12" fill="white" stroke="#E8E2D3" stroke-width="2"/>
+  <circle cx="22" cy="440" r="7" fill="#E8E2D3"/>
+  <circle cx="22" cy="600" r="12" fill="white" stroke="#E8E2D3" stroke-width="2"/>
+  <circle cx="22" cy="600" r="7" fill="#E8E2D3"/>
+  <circle cx="22" cy="760" r="12" fill="white" stroke="#E8E2D3" stroke-width="2"/>
+  <circle cx="22" cy="760" r="7" fill="#E8E2D3"/>
+  <circle cx="22" cy="920" r="12" fill="white" stroke="#E8E2D3" stroke-width="2"/>
+  <circle cx="22" cy="920" r="7" fill="#E8E2D3"/>
+
+  <!-- Category tape -->
+  <g transform="rotate(-3, 1250, 60)">
+    <rect x="1120" y="20" width="240" height="44" rx="4" fill="#5CA46E" stroke="#1A1D24" stroke-width="2" filter="url(#stickyShadow)"/>
+    <text x="1240" y="48" text-anchor="middle" font-size="18" font-weight="700" fill="white">#ビジネス</text>
+  </g>
+
+  <!-- Date badge -->
+  <rect x="60" y="22" width="200" height="40" rx="6" fill="#2F3842" filter="url(#softShadow)"/>
+  <text x="160" y="47" text-anchor="middle" font-size="18" font-weight="700" fill="white">2026-05-06</text>
+
+  <!-- Impact -->
+  <text x="1310" y="90" text-anchor="middle" font-size="28">⭐⭐</text>
+
+  <!-- Title block -->
+  <rect x="60" y="80" width="1040" height="110" rx="8" fill="white" stroke="#1A1D24" stroke-width="2.5" filter="url(#softShadow)"/>
+  <line x1="60" y1="80" x2="60" y2="190" stroke="#E8A87C" stroke-width="8" stroke-linecap="round"/>
+  <text x="90" y="122" font-size="33" font-weight="900" fill="#1A1D24">⚡ OpenAI、GPT-5.5 InstantをChatGPTのデフォルトに</text>
+  <text x="90" y="162" font-size="21" font-weight="500" fill="#555">幻覚削減×低レイテンシ——法律・医療・金融の高リスク3分野に最適化</text>
+  <text x="90" y="190" font-size="15" fill="#888">llm-stats.com / OpenAI · 2026-05-05 · #ビジネス #OpenAI #GPT-5.5 #ChatGPT</text>
+
+  <!-- Hero icon -->
+  <g transform="translate(1115, 80)">
+    <rect x="0" y="0" width="220" height="220" rx="10" fill="white" stroke="#1A1D24" stroke-width="2" filter="url(#softShadow)"/>
+    <!-- ChatGPT logo simplified -->
+    <circle cx="110" cy="95" r="60" fill="#1A1D24" stroke="#E8E2D3" stroke-width="2"/>
+    <text x="110" y="105" text-anchor="middle" font-size="36" fill="white" font-weight="900">5.5</text>
+    <!-- Lightning bolt -->
+    <text x="110" y="160" text-anchor="middle" font-size="28">⚡</text>
+    <text x="110" y="185" text-anchor="middle" font-size="13" fill="#555">GPT-5.5 Instant</text>
+    <text x="110" y="200" text-anchor="middle" font-size="12" fill="#888">ChatGPT新デフォルト</text>
+    <text x="110" y="214" text-anchor="middle" font-size="11" fill="#888">MAU 7億+に即展開</text>
+  </g>
+
+  <!-- Key numbers -->
+  <rect x="60" y="210" width="1040" height="100" rx="8" fill="#1A1D24" stroke="#1A1D24" stroke-width="2" filter="url(#softShadow)"/>
+  <text x="155" y="250" text-anchor="middle" font-size="44" font-weight="900" fill="#E8A87C">88.7%</text>
+  <text x="155" y="282" text-anchor="middle" font-size="14" fill="#aaa">SWE-bench Verified（公開アクセスモデル最高）</text>
+  <line x1="285" y1="220" x2="285" y2="300" stroke="#444" stroke-width="1.5"/>
+  <text x="430" y="250" text-anchor="middle" font-size="44" font-weight="900" fill="#5B8DEF">93.9%</text>
+  <text x="430" y="282" text-anchor="middle" font-size="14" fill="#aaa">Claude Mythos（非公開・比較用）</text>
+  <line x1="570" y1="220" x2="570" y2="300" stroke="#444" stroke-width="1.5"/>
+  <text x="720" y="250" text-anchor="middle" font-size="44" font-weight="900" fill="#5CA46E">7億+</text>
+  <text x="720" y="282" text-anchor="middle" font-size="14" fill="#aaa">ChatGPT MAU（即時展開対象）</text>
+  <line x1="850" y1="220" x2="850" y2="300" stroke="#444" stroke-width="1.5"/>
+  <text x="975" y="250" text-anchor="middle" font-size="44" font-weight="900" fill="#E87C7C">58.6%</text>
+  <text x="975" y="282" text-anchor="middle" font-size="14" fill="#aaa">GPT-5.5のSWE-bench Pro版スコア</text>
+
+  <!-- Model comparison chart -->
+  <rect x="60" y="325" width="510" height="330" rx="8" fill="white" stroke="#1A1D24" stroke-width="2" filter="url(#softShadow)"/>
+  <text x="315" y="355" text-anchor="middle" font-size="16" font-weight="700" fill="#1A1D24">SWE-bench比較（Verified vs Pro）</text>
+  <!-- Y-axis -->
+  <line x1="120" y1="380" x2="120" y2="610" stroke="#ccc" stroke-width="1.5"/>
+  <text x="110" y="384" text-anchor="end" font-size="10" fill="#888">100%</text>
+  <text x="110" y="449" text-anchor="end" font-size="10" fill="#888">75%</text>
+  <text x="110" y="514" text-anchor="end" font-size="10" fill="#888">50%</text>
+  <text x="110" y="580" text-anchor="end" font-size="10" fill="#888">25%</text>
+  <line x1="120" y1="610" x2="500" y2="610" stroke="#1A1D24" stroke-width="1.5"/>
+  <!-- Verified bars -->
+  <rect x="140" y="392" width="55" height="218" rx="3" fill="#5B8DEF" stroke="#1A1D24" stroke-width="1.5"/>
+  <text x="168" y="388" text-anchor="middle" font-size="11" font-weight="700" fill="#5B8DEF">93.9%</text>
+  <rect x="215" y="435" width="55" height="175" rx="3" fill="#E8A87C" stroke="#1A1D24" stroke-width="1.5"/>
+  <text x="243" y="431" text-anchor="middle" font-size="11" font-weight="700" fill="#E8A87C">88.7%</text>
+  <rect x="290" y="442" width="55" height="168" rx="3" fill="#5CA46E" stroke="#1A1D24" stroke-width="1.5"/>
+  <text x="318" y="438" text-anchor="middle" font-size="11" font-weight="700" fill="#5CA46E">87.2%</text>
+  <!-- Pro bars -->
+  <rect x="150" y="510" width="35" height="100" rx="3" fill="#5B8DEF" opacity="0.4" stroke="#1A1D24" stroke-width="1"/>
+  <text x="168" y="507" text-anchor="middle" font-size="10" fill="#888">~62%</text>
+  <rect x="225" y="521" width="35" height="89" rx="3" fill="#E8A87C" opacity="0.4" stroke="#1A1D24" stroke-width="1"/>
+  <text x="243" y="518" text-anchor="middle" font-size="10" fill="#888">58.6%</text>
+  <rect x="300" y="505" width="35" height="105" rx="3" fill="#5CA46E" opacity="0.4" stroke="#1A1D24" stroke-width="1"/>
+  <text x="318" y="502" text-anchor="middle" font-size="10" fill="#888">~63%</text>
+  <!-- X labels -->
+  <text x="168" y="628" text-anchor="middle" font-size="11" fill="#5B8DEF">Mythos</text>
+  <text x="168" y="641" text-anchor="middle" font-size="10" fill="#888">(非公開)</text>
+  <text x="243" y="628" text-anchor="middle" font-size="11" fill="#E8A87C">GPT-5.5</text>
+  <text x="243" y="641" text-anchor="middle" font-size="10" fill="#888">(公開)</text>
+  <text x="318" y="628" text-anchor="middle" font-size="11" fill="#5CA46E">Opus 4.7</text>
+  <text x="318" y="641" text-anchor="middle" font-size="10" fill="#888">(公開)</text>
+  <!-- Legend -->
+  <rect x="360" y="450" width="15" height="12" fill="#1A1D24" opacity="0.7"/>
+  <text x="380" y="461" font-size="11" fill="#555">Verified</text>
+  <rect x="360" y="470" width="15" height="12" fill="#888" opacity="0.4"/>
+  <text x="380" y="481" font-size="11" fill="#555">Pro</text>
+  <text x="315" y="650" text-anchor="middle" font-size="11" fill="#E87C7C">ProでMythosが急落・Opus 4.7が逆転という逆転劇</text>
+
+  <!-- 3 risk domains -->
+  <rect x="590" y="325" width="510" height="330" rx="8" fill="white" stroke="#1A1D24" stroke-width="2" filter="url(#softShadow)"/>
+  <text x="845" y="355" text-anchor="middle" font-size="16" font-weight="700" fill="#1A1D24">GPT-5.5 Instantの最適化領域</text>
+  <rect x="615" y="370" width="460" height="80" rx="6" fill="#FFE8E8" stroke="#E87C7C" stroke-width="2"/>
+  <text x="845" y="398" text-anchor="middle" font-size="16">⚕️</text>
+  <text x="845" y="416" text-anchor="middle" font-size="14" font-weight="700" fill="#C62828">医療情報</text>
+  <text x="845" y="434" text-anchor="middle" font-size="12" fill="#555">診断補助・薬剤情報・治療法の誤情報削減</text>
+  <text x="845" y="449" text-anchor="middle" font-size="11" fill="#888">FDA承認情報との整合性強化</text>
+
+  <rect x="615" y="460" width="460" height="80" rx="6" fill="#EBF3FF" stroke="#5B8DEF" stroke-width="2"/>
+  <text x="845" y="488" text-anchor="middle" font-size="16">⚖️</text>
+  <text x="845" y="506" text-anchor="middle" font-size="14" font-weight="700" fill="#1565C0">法律情報</text>
+  <text x="845" y="524" text-anchor="middle" font-size="12" fill="#555">判例・条文の誤引用削減・不確実性の明示</text>
+  <text x="845" y="539" text-anchor="middle" font-size="11" fill="#888">「私は弁護士ではありません」フレーム強化</text>
+
+  <rect x="615" y="550" width="460" height="80" rx="6" fill="#E8F5EC" stroke="#5CA46E" stroke-width="2"/>
+  <text x="845" y="578" text-anchor="middle" font-size="16">💰</text>
+  <text x="845" y="596" text-anchor="middle" font-size="14" font-weight="700" fill="#2E7D32">金融情報</text>
+  <text x="845" y="614" text-anchor="middle" font-size="12" fill="#555">投資情報の誤り・過度な断言の削減</text>
+  <text x="845" y="629" text-anchor="middle" font-size="11" fill="#888">「これは投資アドバイスではありません」強化</text>
+  <text x="845" y="645" text-anchor="middle" font-size="11" fill="#E87C7C">実装詳細は非開示・第三者検証が待たれる</text>
+
+  <!-- Feature cards -->
+  <rect x="60" y="668" width="240" height="130" rx="8" fill="white" stroke="#1A1D24" stroke-width="2" filter="url(#softShadow)"/>
+  <rect x="60" y="668" width="240" height="5" rx="2" fill="#E8A87C"/>
+  <text x="180" y="695" text-anchor="middle" font-size="13" font-weight="700">📈 デフォルト変更の意味</text>
+  <text x="180" y="715" text-anchor="middle" font-size="11" fill="#555">GPT-5.3 Instantから即切替</text>
+  <text x="180" y="731" text-anchor="middle" font-size="11" fill="#555">無料・有料全ユーザーに適用</text>
+  <text x="180" y="747" text-anchor="middle" font-size="11" fill="#555">7億MAUが自動更新</text>
+  <text x="180" y="763" text-anchor="middle" font-size="11" fill="#555">「最も正確なAI」ブランド維持</text>
+  <text x="180" y="785" text-anchor="middle" font-size="10" fill="#888">ユーザー選択より体験品質が重要</text>
+
+  <rect x="315" y="668" width="240" height="130" rx="8" fill="white" stroke="#1A1D24" stroke-width="2" filter="url(#softShadow)"/>
+  <rect x="315" y="668" width="240" height="5" rx="2" fill="#E87C7C"/>
+  <text x="435" y="695" text-anchor="middle" font-size="13" font-weight="700">🤔 モデル名混乱問題</text>
+  <text x="435" y="715" text-anchor="middle" font-size="11" fill="#555">GPT-5.5 Instant / 5.5思考型</text>
+  <text x="435" y="731" text-anchor="middle" font-size="11" fill="#555">GPT-5.3 / 5.3 Instant等</text>
+  <text x="435" y="747" text-anchor="middle" font-size="11" fill="#555">一般ユーザーに判別不能</text>
+  <text x="435" y="763" text-anchor="middle" font-size="11" fill="#555">EU AI Act的「透明性要件」不足</text>
+  <text x="435" y="785" text-anchor="middle" font-size="10" fill="#888">命名規則の整理が急務</text>
+
+  <rect x="570" y="668" width="240" height="130" rx="8" fill="white" stroke="#1A1D24" stroke-width="2" filter="url(#softShadow)"/>
+  <rect x="570" y="668" width="240" height="5" rx="2" fill="#5B8DEF"/>
+  <text x="690" y="695" text-anchor="middle" font-size="13" font-weight="700">🏆 ベンチ王不在の逆説</text>
+  <text x="690" y="715" text-anchor="middle" font-size="11" fill="#555">Mythosが93.9%で1位</text>
+  <text x="690" y="731" text-anchor="middle" font-size="11" fill="#555">しかし一般非公開</text>
+  <text x="690" y="747" text-anchor="middle" font-size="11" fill="#555">→GPT-5.5が実質王者</text>
+  <text x="690" y="763" text-anchor="middle" font-size="11" fill="#555">Pro版では順位が逆転</text>
+  <text x="690" y="785" text-anchor="middle" font-size="10" fill="#888">ベンチ単一評価の危険性</text>
+
+  <rect x="825" y="668" width="240" height="130" rx="8" fill="white" stroke="#1A1D24" stroke-width="2" filter="url(#softShadow)"/>
+  <rect x="825" y="668" width="240" height="5" rx="2" fill="#5CA46E"/>
+  <text x="945" y="695" text-anchor="middle" font-size="13" font-weight="700">🔮 GPT-6への布石</text>
+  <text x="945" y="715" text-anchor="middle" font-size="11" fill="#555">5.5=「上場前最後の準備」か</text>
+  <text x="945" y="731" text-anchor="middle" font-size="11" fill="#555">Stargate稼働（2026末〜）</text>
+  <text x="945" y="747" text-anchor="middle" font-size="11" fill="#555">GPT-6：マルチモーダル×Agent</text>
+  <text x="945" y="763" text-anchor="middle" font-size="11" fill="#555">×超長文脈の統合が予想</text>
+  <text x="945" y="785" text-anchor="middle" font-size="10" fill="#888">IPOタイムライン次第で変化</text>
+
+  <!-- Sticky notes -->
+  <g transform="rotate(-1.5, 160, 855)">
+    <rect x="60" y="820" width="200" height="95" rx="4" fill="#FFF9C4" stroke="#E8D44D" stroke-width="1.5" filter="url(#stickyShadow)"/>
+    <text x="160" y="845" text-anchor="middle" font-size="13" font-weight="700" fill="#555">UK AI安全研究所</text>
+    <text x="160" y="862" text-anchor="middle" font-size="11" fill="#777">Mythosと同一95問で</text>
+    <text x="160" y="878" text-anchor="middle" font-size="11" fill="#777">GPT-5.5を並列評価</text>
+    <text x="160" y="894" text-anchor="middle" font-size="11" fill="#777">透明性確保の試み</text>
+    <text x="160" y="910" text-anchor="middle" font-size="10" fill="#bbb">🇬🇧 独立評価の重要性</text>
+  </g>
+  <g transform="rotate(1.2, 390, 855)">
+    <rect x="285" y="820" width="200" height="95" rx="4" fill="#C8E6C9" stroke="#5CA46E" stroke-width="1.5" filter="url(#stickyShadow)"/>
+    <text x="385" y="845" text-anchor="middle" font-size="13" font-weight="700" fill="#2E7D32">Remyとの競争</text>
+    <text x="385" y="862" text-anchor="middle" font-size="11" fill="#555">Google Remyが公開されると</text>
+    <text x="385" y="878" text-anchor="middle" font-size="11" fill="#555">ChatGPTデフォルト体験が</text>
+    <text x="385" y="894" text-anchor="middle" font-size="11" fill="#555">離反防止の最前線に</text>
+    <text x="385" y="910" text-anchor="middle" font-size="10" fill="#bbb">⚔️ エージェント戦争の基盤</text>
+  </g>
+  <g transform="rotate(-0.8, 615, 855)">
+    <rect x="510" y="820" width="200" height="95" rx="4" fill="#BBDEFB" stroke="#5B8DEF" stroke-width="1.5" filter="url(#stickyShadow)"/>
+    <text x="610" y="845" text-anchor="middle" font-size="13" font-weight="700" fill="#1565C0">DPO最適化の実態</text>
+    <text x="610" y="862" text-anchor="middle" font-size="11" fill="#555">「高リスク分野特化」は</text>
+    <text x="610" y="878" text-anchor="middle" font-size="11" fill="#555">DPOの重み付けと推定</text>
+    <text x="610" y="894" text-anchor="middle" font-size="11" fill="#555">独立検証なしには不明</text>
+    <text x="610" y="910" text-anchor="middle" font-size="10" fill="#bbb">🔍 主張と実装の乖離</text>
+  </g>
+  <g transform="rotate(1.5, 840, 855)">
+    <rect x="730" y="820" width="200" height="95" rx="4" fill="#FFE0B2" stroke="#E8A87C" stroke-width="1.5" filter="url(#stickyShadow)"/>
+    <text x="830" y="845" text-anchor="middle" font-size="13" font-weight="700" fill="#BF360C">ARR $250億の意味</text>
+    <text x="830" y="862" text-anchor="middle" font-size="11" fill="#555">Salesforceが25年かけた</text>
+    <text x="830" y="878" text-anchor="middle" font-size="11" fill="#555">$10B ARRを3年で突破</text>
+    <text x="830" y="894" text-anchor="middle" font-size="11" fill="#555">デフォルト体験が収益基盤</text>
+    <text x="830" y="910" text-anchor="middle" font-size="10" fill="#bbb">💰 史上最速SaaS成長</text>
+  </g>
+
+  <!-- Footer -->
+  <line x1="60" y1="942" x2="1340" y2="942" stroke="#E8E2D3" stroke-width="1.5"/>
+  <text x="700" y="967" text-anchor="middle" font-size="13" font-style="italic" fill="#aaa">AI News · 2026-05-06 · OpenAI Rolls Out GPT-5.5 Instant as New Default ChatGPT Model</text>
+  <text x="700" y="990" text-anchor="middle" font-size="11" fill="#ccc">Sources: llm-stats.com, OpenAI, SWE-bench leaderboard</text>
+</svg>
