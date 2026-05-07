@@ -1,0 +1,197 @@
+<svg viewBox="0 0 1400 1050" xmlns="http://www.w3.org/2000/svg" font-family="-apple-system, 'Hiragino Sans', 'Yu Gothic', sans-serif">
+  <defs>
+    <pattern id="paperTexture" x="0" y="0" width="4" height="4" patternUnits="userSpaceOnUse">
+      <rect width="4" height="4" fill="#FBF8F1"/>
+      <circle cx="1" cy="1" r="0.4" fill="#E8E2D3" opacity="0.5"/>
+      <circle cx="3" cy="3" r="0.3" fill="#E8E2D3" opacity="0.4"/>
+    </pattern>
+    <filter id="softShadow" x="-10%" y="-10%" width="120%" height="120%">
+      <feDropShadow dx="2" dy="3" stdDeviation="4" flood-color="#1A1D24" flood-opacity="0.15"/>
+    </filter>
+    <filter id="stickyShadow" x="-10%" y="-10%" width="130%" height="130%">
+      <feDropShadow dx="3" dy="4" stdDeviation="5" flood-color="#1A1D24" flood-opacity="0.2"/>
+    </filter>
+  </defs>
+
+  <!-- Background -->
+  <rect width="1400" height="1050" fill="url(#paperTexture)"/>
+  <rect width="1400" height="1050" fill="#FBF8F1" opacity="0.3"/>
+
+  <!-- Binding holes (left edge) -->
+  <g fill="#E8E2D3" stroke="#C8C0B0" stroke-width="1.5">
+    <circle cx="30" cy="140" r="12"/>
+    <circle cx="30" cy="280" r="12"/>
+    <circle cx="30" cy="420" r="12"/>
+    <circle cx="30" cy="560" r="12"/>
+    <circle cx="30" cy="700" r="12"/>
+    <circle cx="30" cy="840" r="12"/>
+  </g>
+  <line x1="60" y1="0" x2="60" y2="1050" stroke="#E8E2D3" stroke-width="2"/>
+
+  <!-- Category tape (top right, rotated) -->
+  <g transform="translate(1260, 28) rotate(-3)">
+    <rect x="0" y="0" width="160" height="38" fill="#5CA46E" rx="4" filter="url(#softShadow)"/>
+    <text x="80" y="25" text-anchor="middle" fill="white" font-size="17" font-weight="700">#ビジネス</text>
+  </g>
+
+  <!-- Date badge (top left) -->
+  <rect x="80" y="18" width="170" height="36" fill="#2F3842" rx="6" filter="url(#softShadow)"/>
+  <text x="165" y="42" text-anchor="middle" fill="#F0EDE8" font-size="15" font-weight="600">2026-05-07</text>
+
+  <!-- Impact stars -->
+  <text x="280" y="46" fill="#F5A623" font-size="20">⭐⭐⭐</text>
+
+  <!-- Header title -->
+  <rect x="80" y="72" width="1240" height="3" fill="#5CA46E"/>
+  <text x="80" y="118" fill="#1A1D24" font-size="36" font-weight="900">💹 AnthropicがOpenAIの収益を初めて上回る</text>
+  <text x="80" y="158" fill="#2F3842" font-size="22" font-weight="500">ARR $30B達成・15ヶ月で30倍成長・企業顧客比率80%</text>
+
+  <!-- Hero icon: chart arrow going up -->
+  <g transform="translate(1230, 85)">
+    <rect x="0" y="0" width="120" height="90" fill="#E8F5EC" rx="12" stroke="#5CA46E" stroke-width="2.5"/>
+    <polyline points="15,65 35,45 55,50 80,25 105,15" stroke="#5CA46E" stroke-width="4" fill="none" stroke-linecap="round" stroke-linejoin="round"/>
+    <polygon points="95,8 115,18 98,28" fill="#5CA46E"/>
+    <text x="60" y="82" text-anchor="middle" fill="#5CA46E" font-size="11" font-weight="700">ARR成長</text>
+  </g>
+
+  <!-- KEY NUMBERS block -->
+  <g filter="url(#softShadow)">
+    <rect x="80" y="178" width="270" height="130" fill="white" rx="10" stroke="#1A1D24" stroke-width="2.5"/>
+    <text x="195" y="212" text-anchor="middle" fill="#5CA46E" font-size="58" font-weight="900">$30B</text>
+    <text x="195" y="240" text-anchor="middle" fill="#2F3842" font-size="15" font-weight="600">Anthropic ARR (2026-04)</text>
+    <text x="195" y="298" text-anchor="middle" fill="#888" font-size="12">出典: The AI Corner / SaaStr</text>
+  </g>
+  <g filter="url(#softShadow)">
+    <rect x="370" y="178" width="270" height="130" fill="white" rx="10" stroke="#1A1D24" stroke-width="2.5"/>
+    <text x="505" y="212" text-anchor="middle" fill="#A0A0A0" font-size="58" font-weight="900">$24B</text>
+    <text x="505" y="240" text-anchor="middle" fill="#2F3842" font-size="15" font-weight="600">OpenAI ARR (2026-04)</text>
+    <text x="505" y="298" text-anchor="middle" fill="#888" font-size="12">OpenAI: 純収益$22B相当と主張</text>
+  </g>
+  <g filter="url(#softShadow)">
+    <rect x="660" y="178" width="270" height="130" fill="white" rx="10" stroke="#1A1D24" stroke-width="2.5"/>
+    <text x="795" y="212" text-anchor="middle" fill="#1A1D24" font-size="58" font-weight="900">30×</text>
+    <text x="795" y="240" text-anchor="middle" fill="#2F3842" font-size="15" font-weight="600">Anthropic 15ヶ月成長倍率</text>
+    <text x="795" y="298" text-anchor="middle" fill="#888" font-size="12">$1B (2025-01) → $30B (2026-04)</text>
+  </g>
+  <g filter="url(#softShadow)">
+    <rect x="950" y="178" width="270" height="130" fill="white" rx="10" stroke="#1A1D24" stroke-width="2.5"/>
+    <text x="1085" y="212" text-anchor="middle" fill="#5CA46E" font-size="58" font-weight="900">80%</text>
+    <text x="1085" y="240" text-anchor="middle" fill="#2F3842" font-size="15" font-weight="600">エンタープライズ収益比率</text>
+    <text x="1085" y="298" text-anchor="middle" fill="#888" font-size="12">$100万超契約：1,000社超</text>
+  </g>
+
+  <!-- Main chart: ARR comparison bar chart -->
+  <rect x="80" y="328" width="760" height="260" fill="white" rx="10" stroke="#1A1D24" stroke-width="2.5" filter="url(#softShadow)"/>
+  <text x="460" y="358" text-anchor="middle" fill="#1A1D24" font-size="17" font-weight="800" text-decoration="underline">ARR推移比較（2024-2026）</text>
+
+  <!-- Chart grid lines -->
+  <line x1="140" y1="560" x2="810" y2="560" stroke="#E8E2D3" stroke-width="1.5"/>
+  <line x1="140" y1="520" x2="810" y2="520" stroke="#E8E2D3" stroke-width="1"/>
+  <line x1="140" y1="480" x2="810" y2="480" stroke="#E8E2D3" stroke-width="1"/>
+  <line x1="140" y1="440" x2="810" y2="440" stroke="#E8E2D3" stroke-width="1"/>
+  <line x1="140" y1="400" x2="810" y2="400" stroke="#E8E2D3" stroke-width="1"/>
+  <line x1="140" y1="370" x2="810" y2="370" stroke="#E8E2D3" stroke-width="1"/>
+
+  <!-- Y-axis labels -->
+  <text x="135" y="564" text-anchor="end" fill="#888" font-size="11">$0B</text>
+  <text x="135" y="484" text-anchor="end" fill="#888" font-size="11">$10B</text>
+  <text x="135" y="404" text-anchor="end" fill="#888" font-size="11">$20B</text>
+  <text x="135" y="374" text-anchor="end" fill="#888" font-size="11">$25B</text>
+
+  <!-- Anthropic bars (green) -->
+  <rect x="165" y="547" width="55" height="13" fill="#5CA46E" rx="3"/>
+  <rect x="325" y="520" width="55" height="40" fill="#5CA46E" rx="3"/>
+  <rect x="485" y="480" width="55" height="80" fill="#5CA46E" rx="3"/>
+  <rect x="645" y="370" width="55" height="190" fill="#5CA46E" rx="3"/>
+
+  <!-- OpenAI bars (gray) -->
+  <rect x="228" y="517" width="55" height="43" fill="#B0B0B0" rx="3"/>
+  <rect x="388" y="490" width="55" height="70" fill="#B0B0B0" rx="3"/>
+  <rect x="548" y="440" width="55" height="120" fill="#B0B0B0" rx="3"/>
+  <rect x="708" y="396" width="55" height="164" fill="#B0B0B0" rx="3"/>
+
+  <!-- X-axis labels -->
+  <text x="193" y="580" text-anchor="middle" fill="#555" font-size="11">2024 Q4</text>
+  <text x="353" y="580" text-anchor="middle" fill="#555" font-size="11">2025 Q2</text>
+  <text x="513" y="580" text-anchor="middle" fill="#555" font-size="11">2025 Q4</text>
+  <text x="673" y="580" text-anchor="middle" fill="#555" font-size="11">2026 Q2</text>
+
+  <!-- Legend -->
+  <rect x="650" y="340" width="16" height="16" fill="#5CA46E" rx="3"/>
+  <text x="672" y="353" fill="#333" font-size="13" font-weight="600">Anthropic</text>
+  <rect x="740" y="340" width="16" height="16" fill="#B0B0B0" rx="3"/>
+  <text x="762" y="353" fill="#333" font-size="13" font-weight="600">OpenAI</text>
+
+  <!-- Feature cards (right side) -->
+  <g filter="url(#softShadow)">
+    <rect x="860" y="328" width="360" height="118" fill="white" rx="10" stroke="#1A1D24" stroke-width="2.5"/>
+    <rect x="860" y="328" width="8" height="118" fill="#5CA46E" rx="4 0 0 4"/>
+    <text x="882" y="358" fill="#1A1D24" font-size="15" font-weight="800">成長の源泉：エンタープライズ集中</text>
+    <text x="882" y="381" fill="#444" font-size="13">• $100万超契約 1,000社超</text>
+    <text x="882" y="400" fill="#444" font-size="13">• エンタープライズ比率 80% (vs OpenAI ~50%)</text>
+    <text x="882" y="419" fill="#444" font-size="13">• Salesforce の$10B ARRに要した年数：25年</text>
+    <text x="882" y="438" fill="#444" font-size="13">• Anthropicの同達成：3年未満</text>
+  </g>
+  <g filter="url(#softShadow)">
+    <rect x="860" y="456" width="360" height="132" fill="white" rx="10" stroke="#1A1D24" stroke-width="2.5"/>
+    <rect x="860" y="456" width="8" height="132" fill="#E85757" rx="4 0 0 4"/>
+    <text x="882" y="486" fill="#1A1D24" font-size="15" font-weight="800">会計論争：$8Bの差</text>
+    <text x="882" y="509" fill="#444" font-size="13">Anthropic: 粗利ベースARR $30B</text>
+    <text x="882" y="528" fill="#444" font-size="13">OpenAI主張: 純収益ベースなら$22B</text>
+    <text x="882" y="547" fill="#444" font-size="13">差異要因: 推論コスト・クラウドコストの</text>
+    <text x="882" y="566" fill="#444" font-size="13">   売上控除方法の違い</text>
+    <text x="882" y="582" fill="#888" font-size="11">出典: OpenAI CRO Denise Dresser 内部メモ</text>
+  </g>
+
+  <!-- Sticky notes -->
+  <g transform="translate(80, 610) rotate(-1.5)" filter="url(#stickyShadow)">
+    <rect width="200" height="110" fill="#FFF9C4" rx="4" stroke="#E8D84C" stroke-width="1.5"/>
+    <text x="100" y="24" text-anchor="middle" fill="#5A5A00" font-size="13" font-weight="700">30倍成長の実態</text>
+    <text x="10" y="46" fill="#555" font-size="11">$1B (2025-01)</text>
+    <text x="10" y="64" fill="#555" font-size="11">↓ 15ヶ月</text>
+    <text x="10" y="82" fill="#5CA46E" font-size="14" font-weight="800">$30B (2026-04)</text>
+    <text x="10" y="100" fill="#888" font-size="10">「史上最速SaaS成長」</text>
+  </g>
+  <g transform="translate(300, 620) rotate(1.2)" filter="url(#stickyShadow)">
+    <rect width="200" height="110" fill="#FFE0CC" rx="4" stroke="#E8906C" stroke-width="1.5"/>
+    <text x="100" y="24" text-anchor="middle" fill="#7A2A00" font-size="13" font-weight="700">インフラコスト問題</text>
+    <text x="10" y="46" fill="#555" font-size="11">Google Cloud年間$40B超</text>
+    <text x="10" y="64" fill="#555" font-size="11">ARRの2倍超がインフラ費</text>
+    <text x="10" y="82" fill="#E85757" font-size="12" font-weight="700">粗利ARRの信頼性に疑問</text>
+    <text x="10" y="100" fill="#888" font-size="10">外部資本で穴埋めシナリオ</text>
+  </g>
+  <g transform="translate(520, 612) rotate(-0.8)" filter="url(#stickyShadow)">
+    <rect width="200" height="110" fill="#E8F5EC" rx="4" stroke="#5CA46E" stroke-width="1.5"/>
+    <text x="100" y="24" text-anchor="middle" fill="#1A5A30" font-size="13" font-weight="700">次の資金調達戦略</text>
+    <text x="10" y="46" fill="#555" font-size="11">$400億規模の調達予定</text>
+    <text x="10" y="64" fill="#555" font-size="11">「ARR超えた」物語で優位に</text>
+    <text x="10" y="82" fill="#555" font-size="11">IPO前の評価額競争が激化</text>
+    <text x="10" y="100" fill="#888" font-size="10">Anthropicは非上場継続予定</text>
+  </g>
+  <g transform="translate(740, 618) rotate(1.8)" filter="url(#stickyShadow)">
+    <rect width="200" height="110" fill="#EDE0FF" rx="4" stroke="#8B7DB8" stroke-width="1.5"/>
+    <text x="100" y="24" text-anchor="middle" fill="#3A1A7A" font-size="13" font-weight="700">競合の苦境</text>
+    <text x="10" y="46" fill="#555" font-size="11">Mistral ARR: ~$4億で停滞</text>
+    <text x="10" y="64" fill="#555" font-size="11">Cohere: $1億台を脱せず</text>
+    <text x="10" y="82" fill="#555" font-size="11">中国OSS系が唯一の突破口</text>
+    <text x="10" y="100" fill="#888" font-size="10">資本×営業の二強化が進む</text>
+  </g>
+
+  <!-- Additional info cards -->
+  <g filter="url(#softShadow)">
+    <rect x="80" y="748" width="540" height="90" fill="white" rx="8" stroke="#1A1D24" stroke-width="2"/>
+    <text x="100" y="776" fill="#1A1D24" font-size="14" font-weight="800">📊 Anthropic vs OpenAI 構造比較</text>
+    <text x="100" y="798" fill="#444" font-size="13">Anthropic: B2B中心・安全重視・非上場　｜　OpenAI: B2C重視・IPO前・ChatGPT依存</text>
+    <text x="100" y="818" fill="#5CA46E" font-size="13" font-weight="700">→ ARR逆転でIPO評価額・追加調達・採用競争に影響</text>
+  </g>
+  <g filter="url(#softShadow)">
+    <rect x="640" y="748" width="580" height="90" fill="white" rx="8" stroke="#1A1D24" stroke-width="2"/>
+    <text x="660" y="776" fill="#1A1D24" font-size="14" font-weight="800">🔮 6ヶ月後の予測</text>
+    <text x="660" y="798" fill="#444" font-size="13">OpenAI IPO評価倍率にARR比較が直接影響。会計開示の標準化圧力が高まる。</text>
+    <text x="660" y="818" fill="#5CA46E" font-size="13" font-weight="700">API単価引き下げ競争が激化し、どちらが先に粗利を開示するかが注目点。</text>
+  </g>
+
+  <!-- Footer -->
+  <rect x="80" y="858" width="1240" height="2" fill="#E8E2D3"/>
+  <text x="730" y="884" text-anchor="middle" fill="#999" font-size="13" font-style="italic">AI News · 2026-05-07 · Anthropic Passes OpenAI in ARR Revenue</text>
+</svg>

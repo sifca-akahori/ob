@@ -1,0 +1,197 @@
+<svg viewBox="0 0 1400 1050" xmlns="http://www.w3.org/2000/svg" font-family="-apple-system, 'Hiragino Sans', 'Yu Gothic', sans-serif">
+  <defs>
+    <pattern id="paperTexture" x="0" y="0" width="4" height="4" patternUnits="userSpaceOnUse">
+      <rect width="4" height="4" fill="#FBF8F1"/>
+      <circle cx="1" cy="1" r="0.4" fill="#E8E2D3" opacity="0.5"/>
+      <circle cx="3" cy="3" r="0.3" fill="#E8E2D3" opacity="0.4"/>
+    </pattern>
+    <filter id="softShadow">
+      <feDropShadow dx="2" dy="3" stdDeviation="4" flood-color="#1A1D24" flood-opacity="0.15"/>
+    </filter>
+    <filter id="stickyShadow">
+      <feDropShadow dx="3" dy="4" stdDeviation="5" flood-color="#1A1D24" flood-opacity="0.2"/>
+    </filter>
+  </defs>
+
+  <rect width="1400" height="1050" fill="url(#paperTexture)"/>
+  <rect width="1400" height="1050" fill="#FBF8F1" opacity="0.3"/>
+
+  <!-- Binding holes -->
+  <g fill="#E8E2D3" stroke="#C8C0B0" stroke-width="1.5">
+    <circle cx="30" cy="140" r="12"/><circle cx="30" cy="280" r="12"/>
+    <circle cx="30" cy="420" r="12"/><circle cx="30" cy="560" r="12"/>
+    <circle cx="30" cy="700" r="12"/><circle cx="30" cy="840" r="12"/>
+  </g>
+  <line x1="60" y1="0" x2="60" y2="1050" stroke="#E8E2D3" stroke-width="2"/>
+
+  <!-- Category tape -->
+  <g transform="translate(1265, 28) rotate(-3)">
+    <rect x="0" y="0" width="155" height="38" fill="#5CA46E" rx="4" filter="url(#softShadow)"/>
+    <text x="77" y="25" text-anchor="middle" fill="white" font-size="17" font-weight="700">#ビジネス</text>
+  </g>
+
+  <!-- Date badge -->
+  <rect x="80" y="18" width="170" height="36" fill="#2F3842" rx="6" filter="url(#softShadow)"/>
+  <text x="165" y="42" text-anchor="middle" fill="#F0EDE8" font-size="15" font-weight="600">2026-05-07</text>
+  <text x="280" y="46" fill="#F5A623" font-size="20">⭐⭐</text>
+
+  <!-- Header -->
+  <rect x="80" y="72" width="1240" height="3" fill="#5CA46E"/>
+  <text x="80" y="118" fill="#1A1D24" font-size="36" font-weight="900">🇪🇺 EU AI法オムニバス合意（5月7日）</text>
+  <text x="80" y="158" fill="#2F3842" font-size="22" font-weight="500">高リスクAI義務を2026年8月→2027年12月まで延期・SMC（500人以下）免除拡大</text>
+
+  <!-- Hero -->
+  <g transform="translate(1240, 80)">
+    <rect x="0" y="0" width="110" height="90" fill="#FFF5E0" rx="12" stroke="#E8A030" stroke-width="2.5"/>
+    <text x="55" y="50" text-anchor="middle" font-size="42">⚖️</text>
+    <text x="55" y="76" text-anchor="middle" fill="#E8A030" font-size="11" font-weight="700">AI Act</text>
+  </g>
+
+  <!-- Key numbers -->
+  <g filter="url(#softShadow)">
+    <rect x="80" y="178" width="275" height="120" fill="white" rx="10" stroke="#1A1D24" stroke-width="2.5"/>
+    <text x="217" y="205" text-anchor="middle" fill="#E85757" font-size="18" font-weight="800">延期：16ヶ月</text>
+    <text x="217" y="235" text-anchor="middle" fill="#E85757" font-size="36" font-weight="900">2027-12</text>
+    <text x="217" y="260" text-anchor="middle" fill="#2F3842" font-size="14" font-weight="600">高リスクAI義務（Annex III）</text>
+    <text x="217" y="290" text-anchor="middle" fill="#888" font-size="11">旧: 2026-08-02 → 新: 2027-12-02</text>
+  </g>
+  <g filter="url(#softShadow)">
+    <rect x="375" y="178" width="275" height="120" fill="white" rx="10" stroke="#1A1D24" stroke-width="2.5"/>
+    <text x="512" y="218" text-anchor="middle" fill="#5CA46E" font-size="52" font-weight="900">500人</text>
+    <text x="512" y="248" text-anchor="middle" fill="#2F3842" font-size="14" font-weight="600">SMC免除拡大（旧250人以下）</text>
+    <text x="512" y="290" text-anchor="middle" fill="#888" font-size="11">欧州企業の約90%が対象に</text>
+  </g>
+  <g filter="url(#softShadow)">
+    <rect x="670" y="178" width="275" height="120" fill="white" rx="10" stroke="#1A1D24" stroke-width="2.5"/>
+    <text x="807" y="210" text-anchor="middle" fill="#5B8DEF" font-size="26" font-weight="900">3ヶ月短縮</text>
+    <text x="807" y="248" text-anchor="middle" fill="#2F3842" font-size="14" font-weight="600">透明性義務の猶予期間</text>
+    <text x="807" y="268" text-anchor="middle" fill="#444" font-size="12">6ヶ月 → 3ヶ月に引き締め</text>
+    <text x="807" y="290" text-anchor="middle" fill="#888" font-size="11">新期限: 2026-12-02</text>
+  </g>
+  <g filter="url(#softShadow)">
+    <rect x="965" y="178" width="255" height="120" fill="white" rx="10" stroke="#1A1D24" stroke-width="2.5"/>
+    <text x="1092" y="210" text-anchor="middle" fill="#E85757" font-size="22" font-weight="900">禁止追加</text>
+    <text x="1092" y="240" text-anchor="middle" fill="#2F3842" font-size="14" font-weight="600">ヌードディープフェイク</text>
+    <text x="1092" y="260" text-anchor="middle" fill="#444" font-size="12">「nudifier」アプリを明示禁止</text>
+    <text x="1092" y="290" text-anchor="middle" fill="#888" font-size="11">欧州議会の主張が通る</text>
+  </g>
+
+  <!-- Main timeline chart -->
+  <rect x="80" y="318" width="760" height="300" fill="white" rx="10" stroke="#1A1D24" stroke-width="2.5" filter="url(#softShadow)"/>
+  <text x="460" y="348" text-anchor="middle" fill="#1A1D24" font-size="17" font-weight="800" text-decoration="underline">EU AI法 施行タイムライン（改訂版）</text>
+
+  <!-- Timeline line -->
+  <line x1="120" y1="460" x2="820" y2="460" stroke="#C8C0B0" stroke-width="3"/>
+
+  <!-- 2024-08 -->
+  <circle cx="130" cy="460" r="9" fill="#B0B0B0" stroke="#1A1D24" stroke-width="2"/>
+  <text x="130" y="425" text-anchor="middle" fill="#888" font-size="11" font-weight="700">2024-08</text>
+  <text x="130" y="442" text-anchor="middle" fill="#888" font-size="10">発効</text>
+  <text x="130" y="484" text-anchor="middle" fill="#888" font-size="10">施行</text>
+
+  <!-- 2025-02 -->
+  <circle cx="270" cy="460" r="9" fill="#B0B0B0" stroke="#1A1D24" stroke-width="2"/>
+  <text x="270" y="425" text-anchor="middle" fill="#888" font-size="11" font-weight="700">2025-02</text>
+  <text x="270" y="442" text-anchor="middle" fill="#555" font-size="10">禁止AI・</text>
+  <text x="270" y="484" text-anchor="middle" fill="#555" font-size="10">AIリテラシー</text>
+
+  <!-- 2025-08 -->
+  <circle cx="420" cy="460" r="9" fill="#5CA46E" stroke="#1A1D24" stroke-width="2"/>
+  <text x="420" y="425" text-anchor="middle" fill="#5CA46E" font-size="11" font-weight="700">2025-08</text>
+  <text x="420" y="442" text-anchor="middle" fill="#5CA46E" font-size="10">適用中</text>
+  <text x="420" y="484" text-anchor="middle" fill="#5CA46E" font-size="10">GPAI義務</text>
+
+  <!-- 2026-08 (struck) -->
+  <circle cx="570" cy="460" r="9" fill="#FFCDD2" stroke="#E85757" stroke-width="2"/>
+  <text x="570" y="425" text-anchor="middle" fill="#E85757" font-size="11" font-weight="700">2026-08</text>
+  <line x1="530" y1="438" x2="610" y2="430" stroke="#E85757" stroke-width="2"/>
+  <text x="570" y="442" text-anchor="middle" fill="#E85757" font-size="10">旧期限</text>
+  <text x="570" y="484" text-anchor="middle" fill="#E85757" font-size="10">⛔延期</text>
+
+  <!-- 2026-12 (透明性) -->
+  <circle cx="660" cy="460" r="9" fill="#5B8DEF" stroke="#1A1D24" stroke-width="2"/>
+  <text x="660" y="425" text-anchor="middle" fill="#5B8DEF" font-size="11" font-weight="700">2026-12</text>
+  <text x="660" y="442" text-anchor="middle" fill="#5B8DEF" font-size="10">透明性</text>
+  <text x="660" y="484" text-anchor="middle" fill="#5B8DEF" font-size="10">義務</text>
+
+  <!-- 2027-12 (新期限) -->
+  <circle cx="800" cy="460" r="12" fill="#5CA46E" stroke="#1A1D24" stroke-width="3"/>
+  <text x="800" y="425" text-anchor="middle" fill="#5CA46E" font-size="11" font-weight="800">2027-12</text>
+  <text x="800" y="442" text-anchor="middle" fill="#5CA46E" font-size="10">新期限</text>
+  <text x="800" y="484" text-anchor="middle" fill="#5CA46E" font-size="10">高リスクAI</text>
+
+  <!-- What changed summary -->
+  <rect x="110" y="508" width="710" height="90" fill="#FFF8E0" rx="8" stroke="#E8C030" stroke-width="2"/>
+  <text x="465" y="530" text-anchor="middle" fill="#1A1D24" font-size="14" font-weight="800">主要変更点サマリー</text>
+  <text x="130" y="552" fill="#444" font-size="12">① Annex III高リスクAI義務：2026-08 → 2027-12（雇用AIを含む）</text>
+  <text x="130" y="570" fill="#444" font-size="12">② SMC拡大：250人→500人以下の中堅企業が簡素化文書化対象へ</text>
+  <text x="130" y="590" fill="#444" font-size="12">③ 透明性義務猶予：6ヶ月→3ヶ月に短縮（2026-12-02 新期限）</text>
+
+  <!-- Right cards -->
+  <g filter="url(#softShadow)">
+    <rect x="860" y="318" width="360" height="130" fill="white" rx="10" stroke="#1A1D24" stroke-width="2.5"/>
+    <rect x="860" y="318" width="8" height="130" fill="#E85757" rx="4 0 0 4"/>
+    <text x="882" y="348" fill="#1A1D24" font-size="15" font-weight="800">「骨抜き」批判の根拠</text>
+    <text x="882" y="371" fill="#444" font-size="13">雇用AI（採用・評価・解雇）の</text>
+    <text x="882" y="391" fill="#444" font-size="13">透明性監査を1.4年猶予</text>
+    <text x="882" y="411" fill="#E85757" font-size="13">労働者権利団体が強く反発</text>
+    <text x="882" y="431" fill="#888" font-size="11">AlgorithmWatch：「企業ロビーに屈した」</text>
+  </g>
+  <g filter="url(#softShadow)">
+    <rect x="860" y="460" width="360" height="158" fill="white" rx="10" stroke="#1A1D24" stroke-width="2.5"/>
+    <rect x="860" y="460" width="8" height="158" fill="#5B8DEF" rx="4 0 0 4"/>
+    <text x="882" y="490" fill="#1A1D24" font-size="15" font-weight="800">日本企業への影響</text>
+    <text x="882" y="513" fill="#5CA46E" font-size="13">✅ 朗報：Annex III義務延期</text>
+    <text x="882" y="533" fill="#444" font-size="13">2026年8月準備が1.4年猶予</text>
+    <text x="882" y="553" fill="#E85757" font-size="13">⚠️ 注意：GPAI義務は継続中</text>
+    <text x="882" y="573" fill="#444" font-size="13">Claude・GPT採用時の供給者</text>
+    <text x="882" y="593" fill="#444" font-size="13">義務確認は引き続き必要</text>
+    <text x="882" y="612" fill="#888" font-size="11">経団連・欧日商が共同解釈ガイド準備</text>
+  </g>
+
+  <!-- Sticky notes -->
+  <g transform="translate(80, 644) rotate(-1.2)" filter="url(#stickyShadow)">
+    <rect width="195" height="100" fill="#FFF9C4" rx="4" stroke="#E8D84C" stroke-width="1.5"/>
+    <text x="97" y="22" text-anchor="middle" fill="#5A5A00" font-size="13" font-weight="700">「延期 = 骨抜き」か？</text>
+    <text x="10" y="44" fill="#555" font-size="11">産業競争力優先論 vs</text>
+    <text x="10" y="62" fill="#555" font-size="11">市民社会・労働団体の批判</text>
+    <text x="10" y="80" fill="#555" font-size="11">特に雇用AIの透明性遅れ</text>
+    <text x="10" y="96" fill="#888" font-size="10">解釈が二分する政治問題に</text>
+  </g>
+  <g transform="translate(298, 654) rotate(1.0)" filter="url(#stickyShadow)">
+    <rect width="200" height="100" fill="#FFE0CC" rx="4" stroke="#E8906C" stroke-width="1.5"/>
+    <text x="100" y="22" text-anchor="middle" fill="#7A2A00" font-size="13" font-weight="700">SMC抜け道の懸念</text>
+    <text x="10" y="44" fill="#555" font-size="11">500人以下SMCへの拡大で</text>
+    <text x="10" y="62" fill="#555" font-size="11">欧州法人分割の逆インセンティブ</text>
+    <text x="10" y="80" fill="#555" font-size="11">多国籍企業が悪用可能</text>
+    <text x="10" y="96" fill="#888" font-size="10">CCIAが「抜け道」と指摘</text>
+  </g>
+  <g transform="translate(520, 642) rotate(-0.8)" filter="url(#stickyShadow)">
+    <rect width="195" height="100" fill="#E8F5EC" rx="4" stroke="#5CA46E" stroke-width="1.5"/>
+    <text x="97" y="22" text-anchor="middle" fill="#1A5A30" font-size="13" font-weight="700">ヌードAI禁止の追加</text>
+    <text x="10" y="44" fill="#555" font-size="11">「nudifier」アプリ禁止を</text>
+    <text x="10" y="62" fill="#555" font-size="11">明示的に条文化</text>
+    <text x="10" y="80" fill="#555" font-size="11">欧州議会の要求が通る</text>
+    <text x="10" y="96" fill="#888" font-size="10">選挙前対策の政治的意図</text>
+  </g>
+  <g transform="translate(740, 648) rotate(1.5)" filter="url(#stickyShadow)">
+    <rect width="195" height="100" fill="#EDE0FF" rx="4" stroke="#8B7DB8" stroke-width="1.5"/>
+    <text x="97" y="22" text-anchor="middle" fill="#3A1A7A" font-size="13" font-weight="700">米国との規制格差</text>
+    <text x="10" y="44" fill="#555" font-size="11">トランプ：イノベーション優先</text>
+    <text x="10" y="62" fill="#555" font-size="11">EU延期で差がさらに拡大</text>
+    <text x="10" y="80" fill="#555" font-size="11">ただし州法で実質収斂</text>
+    <text x="10" y="96" fill="#888" font-size="10">Colorado・Texas AI法が施行</text>
+  </g>
+
+  <!-- Bottom summary -->
+  <g filter="url(#softShadow)">
+    <rect x="80" y="762" width="1240" height="76" fill="white" rx="8" stroke="#1A1D24" stroke-width="2"/>
+    <text x="100" y="786" fill="#1A1D24" font-size="14" font-weight="800">🔑 実務上の優先対応事項</text>
+    <text x="100" y="808" fill="#444" font-size="13">GPAI義務（Claude・GPT採用時の供給者確認）は継続。透明性義務の新期限2026-12-02は従来より短縮。雇用AI審査は2027-12まで猶予。</text>
+    <text x="100" y="828" fill="#5CA46E" font-size="13" font-weight="700">→ 欧州進出日本企業：GPAI確認と透明性対応を優先。Annex III雇用AI監査の猶予を活用して内部体制整備の時間を確保。</text>
+  </g>
+
+  <!-- Footer -->
+  <rect x="80" y="860" width="1240" height="2" fill="#E8E2D3"/>
+  <text x="730" y="884" text-anchor="middle" fill="#999" font-size="13" font-style="italic">AI News · 2026-05-07 · EU AI Act Digital Omnibus Agreement — High-Risk Delay to Dec 2027</text>
+</svg>

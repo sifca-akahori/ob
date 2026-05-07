@@ -1,0 +1,184 @@
+<svg viewBox="0 0 1400 1050" xmlns="http://www.w3.org/2000/svg" font-family="-apple-system, 'Hiragino Sans', 'Yu Gothic', sans-serif">
+  <defs>
+    <pattern id="paperTexture" x="0" y="0" width="4" height="4" patternUnits="userSpaceOnUse">
+      <rect width="4" height="4" fill="#FBF8F1"/>
+      <circle cx="1" cy="1" r="0.4" fill="#E8E2D3" opacity="0.5"/>
+      <circle cx="3" cy="3" r="0.3" fill="#E8E2D3" opacity="0.4"/>
+    </pattern>
+    <filter id="softShadow">
+      <feDropShadow dx="2" dy="3" stdDeviation="4" flood-color="#1A1D24" flood-opacity="0.15"/>
+    </filter>
+    <filter id="stickyShadow">
+      <feDropShadow dx="3" dy="4" stdDeviation="5" flood-color="#1A1D24" flood-opacity="0.2"/>
+    </filter>
+  </defs>
+
+  <rect width="1400" height="1050" fill="url(#paperTexture)"/>
+  <rect width="1400" height="1050" fill="#FBF8F1" opacity="0.3"/>
+
+  <g fill="#E8E2D3" stroke="#C8C0B0" stroke-width="1.5">
+    <circle cx="30" cy="140" r="12"/><circle cx="30" cy="280" r="12"/>
+    <circle cx="30" cy="420" r="12"/><circle cx="30" cy="560" r="12"/>
+    <circle cx="30" cy="700" r="12"/><circle cx="30" cy="840" r="12"/>
+  </g>
+  <line x1="60" y1="0" x2="60" y2="1050" stroke="#E8E2D3" stroke-width="2"/>
+
+  <!-- Category tape -->
+  <g transform="translate(1270, 28) rotate(-3)">
+    <rect x="0" y="0" width="150" height="38" fill="#5B8DEF" rx="4" filter="url(#softShadow)"/>
+    <text x="75" y="25" text-anchor="middle" fill="white" font-size="17" font-weight="700">#研究</text>
+  </g>
+
+  <rect x="80" y="18" width="170" height="36" fill="#2F3842" rx="6" filter="url(#softShadow)"/>
+  <text x="165" y="42" text-anchor="middle" fill="#F0EDE8" font-size="15" font-weight="600">2026-05-07</text>
+  <text x="280" y="46" fill="#F5A623" font-size="20">⭐⭐⭐</text>
+
+  <rect x="80" y="72" width="1240" height="3" fill="#5B8DEF"/>
+  <text x="80" y="118" fill="#1A1D24" font-size="36" font-weight="900">🇨🇳 中国4ラボが**12日間**でオープン重みコーディングモデルを一斉投入</text>
+  <text x="80" y="158" fill="#2F3842" font-size="22" font-weight="500">GLM-5.1・M2.7・Kimi K2.6・DeepSeek V4：西洋フロンティアと同等、コスト1/3〜1/10</text>
+
+  <!-- Hero -->
+  <g transform="translate(1240, 80)">
+    <rect x="0" y="0" width="110" height="90" fill="#FFF0E8" rx="12" stroke="#E87C3E" stroke-width="2.5"/>
+    <text x="55" y="50" text-anchor="middle" font-size="42">⚔️</text>
+    <text x="55" y="75" text-anchor="middle" fill="#E87C3E" font-size="11" font-weight="700">AI競争</text>
+  </g>
+
+  <!-- Key numbers -->
+  <g filter="url(#softShadow)">
+    <rect x="80" y="178" width="245" height="120" fill="white" rx="10" stroke="#1A1D24" stroke-width="2.5"/>
+    <text x="202" y="222" text-anchor="middle" fill="#E85757" font-size="56" font-weight="900">12日</text>
+    <text x="202" y="248" text-anchor="middle" fill="#2F3842" font-size="14" font-weight="600">4社同時リリース期間</text>
+    <text x="202" y="290" text-anchor="middle" fill="#888" font-size="11">4/25 → 5/6（12日間）</text>
+  </g>
+  <g filter="url(#softShadow)">
+    <rect x="345" y="178" width="245" height="120" fill="white" rx="10" stroke="#1A1D24" stroke-width="2.5"/>
+    <text x="467" y="222" text-anchor="middle" fill="#5B8DEF" font-size="40" font-weight="900">1/3〜1/10</text>
+    <text x="467" y="248" text-anchor="middle" fill="#2F3842" font-size="14" font-weight="600">API推論コスト（西洋比）</text>
+    <text x="467" y="290" text-anchor="middle" fill="#888" font-size="11">同等性能で大幅安価</text>
+  </g>
+  <g filter="url(#softShadow)">
+    <rect x="610" y="178" width="245" height="120" fill="white" rx="10" stroke="#1A1D24" stroke-width="2.5"/>
+    <text x="732" y="222" text-anchor="middle" fill="#5CA46E" font-size="40" font-weight="900">500万+</text>
+    <text x="732" y="248" text-anchor="middle" fill="#2F3842" font-size="14" font-weight="600">HF週間DL数（DeepSeek V4）</text>
+    <text x="732" y="290" text-anchor="middle" fill="#888" font-size="11">Llama3.xを上回るダウンロード</text>
+  </g>
+  <g filter="url(#softShadow)">
+    <rect x="875" y="178" width="345" height="120" fill="white" rx="10" stroke="#1A1D24" stroke-width="2.5"/>
+    <text x="1047" y="215" text-anchor="middle" fill="#2F3842" font-size="26" font-weight="900">Apache 2.0</text>
+    <text x="1047" y="248" text-anchor="middle" fill="#2F3842" font-size="14" font-weight="600">ライセンス（全4社）</text>
+    <text x="1047" y="290" text-anchor="middle" fill="#888" font-size="11">商用利用可・セルフホスト可</text>
+  </g>
+
+  <!-- Main chart: 12-day timeline -->
+  <rect x="80" y="318" width="760" height="280" fill="white" rx="10" stroke="#1A1D24" stroke-width="2.5" filter="url(#softShadow)"/>
+  <text x="460" y="348" text-anchor="middle" fill="#1A1D24" font-size="17" font-weight="800" text-decoration="underline">12日間・4ラボ一斉リリースタイムライン</text>
+
+  <!-- Timeline -->
+  <line x1="120" y1="430" x2="820" y2="430" stroke="#C8C0B0" stroke-width="3"/>
+
+  <!-- Day markers -->
+  <circle cx="155" cy="430" r="10" fill="#5B8DEF" stroke="#1A1D24" stroke-width="2"/>
+  <text x="155" y="400" text-anchor="middle" fill="#5B8DEF" font-size="12" font-weight="700">4/25</text>
+  <text x="155" y="388" text-anchor="middle" fill="#5B8DEF" font-size="11">Day 1</text>
+  <rect x="90" y="445" width="130" height="55" fill="#E8F0FD" rx="6" stroke="#5B8DEF" stroke-width="2"/>
+  <text x="155" y="466" text-anchor="middle" fill="#1A1D24" font-size="13" font-weight="700">Z.ai</text>
+  <text x="155" y="483" text-anchor="middle" fill="#5B8DEF" font-size="12">GLM-5.1</text>
+  <text x="155" y="497" text-anchor="middle" fill="#888" font-size="10">長コンテキスト特化</text>
+
+  <circle cx="357" cy="430" r="10" fill="#5CA46E" stroke="#1A1D24" stroke-width="2"/>
+  <text x="357" y="400" text-anchor="middle" fill="#5CA46E" font-size="12" font-weight="700">4/29</text>
+  <text x="357" y="388" text-anchor="middle" fill="#5CA46E" font-size="11">Day 5</text>
+  <rect x="295" y="445" width="125" height="55" fill="#E8F5EC" rx="6" stroke="#5CA46E" stroke-width="2"/>
+  <text x="357" y="466" text-anchor="middle" fill="#1A1D24" font-size="13" font-weight="700">MiniMax</text>
+  <text x="357" y="483" text-anchor="middle" fill="#5CA46E" font-size="12">M2.7</text>
+  <text x="357" y="497" text-anchor="middle" fill="#888" font-size="10">マルチモーダル強化</text>
+
+  <circle cx="570" cy="430" r="10" fill="#E87C3E" stroke="#1A1D24" stroke-width="2"/>
+  <text x="570" y="400" text-anchor="middle" fill="#E87C3E" font-size="12" font-weight="700">5/3</text>
+  <text x="570" y="388" text-anchor="middle" fill="#E87C3E" font-size="11">Day 9</text>
+  <rect x="510" y="445" width="120" height="55" fill="#FFF0E8" rx="6" stroke="#E87C3E" stroke-width="2"/>
+  <text x="570" y="466" text-anchor="middle" fill="#1A1D24" font-size="13" font-weight="700">Moonshot</text>
+  <text x="570" y="483" text-anchor="middle" fill="#E87C3E" font-size="12">Kimi K2.6</text>
+  <text x="570" y="497" text-anchor="middle" fill="#888" font-size="10">200万ctx 精度保持</text>
+
+  <circle cx="790" cy="430" r="14" fill="#1A1D24" stroke="#E85757" stroke-width="3"/>
+  <text x="790" y="400" text-anchor="middle" fill="#E85757" font-size="12" font-weight="700">5/6</text>
+  <text x="790" y="388" text-anchor="middle" fill="#E85757" font-size="11">Day 12</text>
+  <rect x="725" y="445" width="120" height="55" fill="#FFE0E0" rx="6" stroke="#E85757" stroke-width="2"/>
+  <text x="785" y="466" text-anchor="middle" fill="#1A1D24" font-size="13" font-weight="700">DeepSeek</text>
+  <text x="785" y="483" text-anchor="middle" fill="#E85757" font-size="12">V4</text>
+  <text x="785" y="497" text-anchor="middle" fill="#888" font-size="10">MoE 284B/13B</text>
+
+  <!-- Summary bar -->
+  <rect x="110" y="518" width="710" height="55" fill="#2F3842" rx="8"/>
+  <text x="465" y="540" text-anchor="middle" fill="white" font-size="13" font-weight="700">「協調なき収斂」——中国AI研究コミュニティが同一の技術的成熟点に同時到達</text>
+  <text x="465" y="562" text-anchor="middle" fill="#B0D0FF" font-size="12">MoE効率化・RL強化コーディング・オープンウェイト化という共通技術スタックが基盤</text>
+
+  <!-- Right side cards -->
+  <g filter="url(#softShadow)">
+    <rect x="860" y="318" width="360" height="128" fill="white" rx="10" stroke="#1A1D24" stroke-width="2.5"/>
+    <rect x="860" y="318" width="8" height="128" fill="#5B8DEF" rx="4 0 0 4"/>
+    <text x="882" y="348" fill="#1A1D24" font-size="15" font-weight="800">オープンウェイト戦略の意図</text>
+    <text x="882" y="371" fill="#444" font-size="13">① 西洋市場でのAPI顧客獲得</text>
+    <text x="882" y="391" fill="#444" font-size="13">② EU/ASEAN/中東「AIソブリン」訴求</text>
+    <text x="882" y="411" fill="#444" font-size="13">③ 輸出規制が及ばない普及策</text>
+    <text x="882" y="431" fill="#5CA46E" font-size="12">→ ソフトパワーとしてのオープンソース</text>
+    <text x="882" y="445" fill="#888" font-size="11">EU管轄グレーゾーンも追い風</text>
+  </g>
+  <g filter="url(#softShadow)">
+    <rect x="860" y="458" width="360" height="140" fill="white" rx="10" stroke="#1A1D24" stroke-width="2.5"/>
+    <rect x="860" y="458" width="8" height="140" fill="#E85757" rx="4 0 0 4"/>
+    <text x="882" y="488" fill="#1A1D24" font-size="15" font-weight="800">OSS APIエコシステムへの影響</text>
+    <text x="882" y="511" fill="#444" font-size="13">Vercel・Railwayがワンクリック展開標準化</text>
+    <text x="882" y="531" fill="#444" font-size="13">HFダウンロード：Llama3.x系超え</text>
+    <text x="882" y="551" fill="#E85757" font-size="13">OpenAI APIからの離脱トリガーに</text>
+    <text x="882" y="571" fill="#444" font-size="12">コモディティ化速度が予想を超過</text>
+    <text x="882" y="592" fill="#888" font-size="11">自社ファインチューニング採用企業増加</text>
+  </g>
+
+  <!-- Sticky notes -->
+  <g transform="translate(80, 622) rotate(-1.5)" filter="url(#stickyShadow)">
+    <rect width="195" height="100" fill="#FFF9C4" rx="4" stroke="#E8D84C" stroke-width="1.5"/>
+    <text x="97" y="22" text-anchor="middle" fill="#5A5A00" font-size="13" font-weight="700">輸出規制の効果の限界</text>
+    <text x="10" y="44" fill="#555" font-size="11">H100禁輸でも「8ヶ月遅れ」</text>
+    <text x="10" y="62" fill="#555" font-size="11">MoE最適化で差を縮小</text>
+    <text x="10" y="80" fill="#555" font-size="11">計算効率で補う中国の戦略</text>
+    <text x="10" y="96" fill="#888" font-size="10">NISTが公式に認める皮肉</text>
+  </g>
+  <g transform="translate(298, 632) rotate(1.2)" filter="url(#stickyShadow)">
+    <rect width="200" height="100" fill="#FFE0CC" rx="4" stroke="#E8906C" stroke-width="1.5"/>
+    <text x="100" y="22" text-anchor="middle" fill="#7A2A00" font-size="13" font-weight="700">API単価への下方圧力</text>
+    <text x="10" y="44" fill="#555" font-size="11">西洋ラボが値下げ余力を</text>
+    <text x="10" y="62" fill="#555" font-size="11">削られ続ける構造</text>
+    <text x="10" y="80" fill="#555" font-size="11">差別化へ：安全・コンプラ</text>
+    <text x="10" y="96" fill="#888" font-size="10">6ヶ月後に大幅値下げか</text>
+  </g>
+  <g transform="translate(520, 622) rotate(-0.8)" filter="url(#stickyShadow)">
+    <rect width="195" height="100" fill="#E8F5EC" rx="4" stroke="#5CA46E" stroke-width="1.5"/>
+    <text x="97" y="22" text-anchor="middle" fill="#1A5A30" font-size="13" font-weight="700">日本の採用機会</text>
+    <text x="10" y="44" fill="#555" font-size="11">NEDO助成でDeepSeek FT</text>
+    <text x="10" y="62" fill="#555" font-size="11">計画が複数進行中</text>
+    <text x="10" y="80" fill="#555" font-size="11">EU法管轄が曖昧→採用容易</text>
+    <text x="10" y="96" fill="#888" font-size="10">ただし地政学リスクあり</text>
+  </g>
+  <g transform="translate(740, 628) rotate(1.8)" filter="url(#stickyShadow)">
+    <rect width="195" height="100" fill="#EDE0FF" rx="4" stroke="#8B7DB8" stroke-width="1.5"/>
+    <text x="97" y="22" text-anchor="middle" fill="#3A1A7A" font-size="13" font-weight="700">Kimi K2.6の差別化</text>
+    <text x="10" y="44" fill="#555" font-size="11">200万トークン長ctx</text>
+    <text x="10" y="62" fill="#555" font-size="11">精度保持でGPT-5.4超と主張</text>
+    <text x="10" y="80" fill="#555" font-size="11">MAU 1億超のコンシューマー基盤</text>
+    <text x="10" y="96" fill="#888" font-size="10">独立検証はまだ限定的</text>
+  </g>
+
+  <!-- Bottom summary -->
+  <g filter="url(#softShadow)">
+    <rect x="80" y="748" width="1240" height="80" fill="white" rx="8" stroke="#1A1D24" stroke-width="2"/>
+    <text x="100" y="774" fill="#1A1D24" font-size="14" font-weight="800">📊 「8ヶ月遅れ」×「1/10コスト」が生む市場の現実</text>
+    <text x="100" y="796" fill="#444" font-size="13">NIST評価では「フロンティアから8ヶ月遅れ」だが、市場では「コスト感応性の高いユースケースで実質等価」になっている。</text>
+    <text x="100" y="818" fill="#5B8DEF" font-size="13" font-weight="700">→ 西洋ラボがAPIコモディティ化を防ぐには、「安全性・エンタープライズSLA・コンプライアンス対応」への差別化シフトが不可避。</text>
+  </g>
+
+  <rect x="80" y="858" width="1240" height="2" fill="#E8E2D3"/>
+  <text x="730" y="884" text-anchor="middle" fill="#999" font-size="13" font-style="italic">AI News · 2026-05-07 · China 4 Labs Open-Weight Coding Models Released in 12 Days</text>
+</svg>

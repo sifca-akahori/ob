@@ -1,0 +1,191 @@
+<svg viewBox="0 0 1400 1050" xmlns="http://www.w3.org/2000/svg" font-family="-apple-system, 'Hiragino Sans', 'Yu Gothic', sans-serif">
+  <defs>
+    <pattern id="paperTexture" x="0" y="0" width="4" height="4" patternUnits="userSpaceOnUse">
+      <rect width="4" height="4" fill="#FBF8F1"/>
+      <circle cx="1" cy="1" r="0.4" fill="#E8E2D3" opacity="0.5"/>
+      <circle cx="3" cy="3" r="0.3" fill="#E8E2D3" opacity="0.4"/>
+    </pattern>
+    <filter id="softShadow">
+      <feDropShadow dx="2" dy="3" stdDeviation="4" flood-color="#1A1D24" flood-opacity="0.15"/>
+    </filter>
+    <filter id="stickyShadow">
+      <feDropShadow dx="3" dy="4" stdDeviation="5" flood-color="#1A1D24" flood-opacity="0.2"/>
+    </filter>
+  </defs>
+
+  <rect width="1400" height="1050" fill="url(#paperTexture)"/>
+  <rect width="1400" height="1050" fill="#FBF8F1" opacity="0.3"/>
+
+  <g fill="#E8E2D3" stroke="#C8C0B0" stroke-width="1.5">
+    <circle cx="30" cy="140" r="12"/><circle cx="30" cy="280" r="12"/>
+    <circle cx="30" cy="420" r="12"/><circle cx="30" cy="560" r="12"/>
+    <circle cx="30" cy="700" r="12"/><circle cx="30" cy="840" r="12"/>
+  </g>
+  <line x1="60" y1="0" x2="60" y2="1050" stroke="#E8E2D3" stroke-width="2"/>
+
+  <!-- Category tape -->
+  <g transform="translate(1270, 28) rotate(-3)">
+    <rect x="0" y="0" width="150" height="38" fill="#5B8DEF" rx="4" filter="url(#softShadow)"/>
+    <text x="75" y="25" text-anchor="middle" fill="white" font-size="17" font-weight="700">#研究</text>
+  </g>
+
+  <rect x="80" y="18" width="170" height="36" fill="#2F3842" rx="6" filter="url(#softShadow)"/>
+  <text x="165" y="42" text-anchor="middle" fill="#F0EDE8" font-size="15" font-weight="600">2026-05-07</text>
+  <text x="280" y="46" fill="#F5A623" font-size="20">⭐⭐</text>
+
+  <rect x="80" y="72" width="1240" height="3" fill="#5B8DEF"/>
+  <text x="80" y="118" fill="#1A1D24" font-size="36" font-weight="900">⚡ GPT-5.5 Instant＋GPT-5.4：OSWorld-V 75%・1Mトークン対応</text>
+  <text x="80" y="158" fill="#2F3842" font-size="22" font-weight="500">ChatGPTデフォルト更新・MAU 7億に展開・デスクトップ自律タスク実行の閾値突破</text>
+
+  <!-- Hero -->
+  <g transform="translate(1240, 80)">
+    <rect x="0" y="0" width="110" height="90" fill="#E8F0FD" rx="12" stroke="#5B8DEF" stroke-width="2.5"/>
+    <text x="55" y="50" text-anchor="middle" font-size="42">🤖</text>
+    <text x="55" y="75" text-anchor="middle" fill="#5B8DEF" font-size="11" font-weight="700">OpenAI</text>
+  </g>
+
+  <!-- Key numbers -->
+  <g filter="url(#softShadow)">
+    <rect x="80" y="178" width="255" height="120" fill="white" rx="10" stroke="#1A1D24" stroke-width="2.5"/>
+    <text x="207" y="222" text-anchor="middle" fill="#5B8DEF" font-size="52" font-weight="900">75%</text>
+    <text x="207" y="248" text-anchor="middle" fill="#2F3842" font-size="14" font-weight="600">OSWorld-V（GPT-5.4）</text>
+    <text x="207" y="290" text-anchor="middle" fill="#888" font-size="11">従来最高を大幅更新（GPT-4: ~15%）</text>
+  </g>
+  <g filter="url(#softShadow)">
+    <rect x="355" y="178" width="255" height="120" fill="white" rx="10" stroke="#1A1D24" stroke-width="2.5"/>
+    <text x="482" y="222" text-anchor="middle" fill="#5B8DEF" font-size="52" font-weight="900">88.7%</text>
+    <text x="482" y="248" text-anchor="middle" fill="#2F3842" font-size="14" font-weight="600">SWE-bench（GPT-5.5）</text>
+    <text x="482" y="290" text-anchor="middle" fill="#888" font-size="11">公開アクセスモデル最高水準</text>
+  </g>
+  <g filter="url(#softShadow)">
+    <rect x="630" y="178" width="255" height="120" fill="white" rx="10" stroke="#1A1D24" stroke-width="2.5"/>
+    <text x="757" y="215" text-anchor="middle" fill="#2F3842" font-size="34" font-weight="900">1M tokens</text>
+    <text x="757" y="248" text-anchor="middle" fill="#2F3842" font-size="14" font-weight="600">GPT-5.4 コンテキスト長</text>
+    <text x="757" y="290" text-anchor="middle" fill="#888" font-size="11">本全冊+コードベース全体の処理</text>
+  </g>
+  <g filter="url(#softShadow)">
+    <rect x="905" y="178" width="315" height="120" fill="white" rx="10" stroke="#1A1D24" stroke-width="2.5"/>
+    <text x="1062" y="215" text-anchor="middle" fill="#5CA46E" font-size="34" font-weight="900">7億人超</text>
+    <text x="1062" y="248" text-anchor="middle" fill="#2F3842" font-size="14" font-weight="600">ChatGPT MAU</text>
+    <text x="1062" y="290" text-anchor="middle" fill="#888" font-size="11">GPT-5.5 Instantがデフォルトに</text>
+  </g>
+
+  <!-- Main chart: OSWorld benchmark evolution -->
+  <rect x="80" y="318" width="760" height="280" fill="white" rx="10" stroke="#1A1D24" stroke-width="2.5" filter="url(#softShadow)"/>
+  <text x="460" y="348" text-anchor="middle" fill="#1A1D24" font-size="17" font-weight="800" text-decoration="underline">OSWorld ベンチマーク進化（2024〜2026）</text>
+
+  <!-- Bar chart grid -->
+  <line x1="200" y1="520" x2="820" y2="520" stroke="#E8E2D3" stroke-width="1.5"/>
+  <line x1="200" y1="490" x2="820" y2="490" stroke="#E8E2D3" stroke-width="1"/>
+  <line x1="200" y1="460" x2="820" y2="460" stroke="#E8E2D3" stroke-width="1"/>
+  <line x1="200" y1="430" x2="820" y2="430" stroke="#E8E2D3" stroke-width="1"/>
+  <line x1="200" y1="400" x2="820" y2="400" stroke="#E8E2D3" stroke-width="1"/>
+  <line x1="200" y1="370" x2="820" y2="370" stroke="#E8E2D3" stroke-width="1"/>
+  <line x1="200" y1="340" x2="820" y2="340" stroke="#E8E2D3" stroke-width="1"/>
+
+  <!-- Y axis labels -->
+  <text x="195" y="524" text-anchor="end" fill="#888" font-size="11">0%</text>
+  <text x="195" y="434" text-anchor="end" fill="#888" font-size="11">25%</text>
+  <text x="195" y="344" text-anchor="end" fill="#888" font-size="11">50%</text>
+
+  <!-- Bars: GPT-4 (2024) -->
+  <rect x="235" y="466" width="60" height="54" fill="#C8C0B0" rx="4"/>
+  <text x="265" y="460" text-anchor="middle" fill="#888" font-size="11">15%</text>
+  <text x="265" y="540" text-anchor="middle" fill="#555" font-size="12">GPT-4</text>
+  <text x="265" y="554" text-anchor="middle" fill="#888" font-size="10">2024</text>
+
+  <!-- Claude 3 (2024) -->
+  <rect x="325" y="449" width="60" height="71" fill="#C8C8D8" rx="4"/>
+  <text x="355" y="443" text-anchor="middle" fill="#888" font-size="11">20%</text>
+  <text x="355" y="540" text-anchor="middle" fill="#555" font-size="12">Claude 3</text>
+  <text x="355" y="554" text-anchor="middle" fill="#888" font-size="10">2024</text>
+
+  <!-- GPT-4.5 (2025) -->
+  <rect x="415" y="430" width="60" height="90" fill="#A8A0B8" rx="4"/>
+  <text x="445" y="424" text-anchor="middle" fill="#888" font-size="11">25%</text>
+  <text x="445" y="540" text-anchor="middle" fill="#555" font-size="12">GPT-4.5</text>
+  <text x="445" y="554" text-anchor="middle" fill="#888" font-size="10">2025</text>
+
+  <!-- GPT-5 (2025) -->
+  <rect x="505" y="394" width="60" height="126" fill="#8B85C0" rx="4"/>
+  <text x="535" y="388" text-anchor="middle" fill="#555" font-size="11">35%</text>
+  <text x="535" y="540" text-anchor="middle" fill="#555" font-size="12">GPT-5</text>
+  <text x="535" y="554" text-anchor="middle" fill="#888" font-size="10">2025</text>
+
+  <!-- GPT-5.4 (2026) -->
+  <rect x="595" y="250" width="70" height="270" fill="#5B8DEF" rx="4" stroke="#1A1D24" stroke-width="2"/>
+  <text x="630" y="244" text-anchor="middle" fill="#1A1D24" font-size="13" font-weight="800">75%</text>
+  <text x="630" y="540" text-anchor="middle" fill="#1A1D24" font-size="13" font-weight="700">GPT-5.4</text>
+  <text x="630" y="554" text-anchor="middle" fill="#5B8DEF" font-size="11" font-weight="700">2026✓</text>
+
+  <!-- Threshold line: "実用閾値" -->
+  <line x1="200" y1="322" x2="820" y2="322" stroke="#E85757" stroke-width="2" stroke-dasharray="8,4"/>
+  <text x="825" y="318" fill="#E85757" font-size="12" font-weight="700">実用</text>
+  <text x="825" y="334" fill="#E85757" font-size="12" font-weight="700">閾値?</text>
+
+  <!-- Right cards -->
+  <g filter="url(#softShadow)">
+    <rect x="860" y="318" width="360" height="130" fill="white" rx="10" stroke="#1A1D24" stroke-width="2.5"/>
+    <rect x="860" y="318" width="8" height="130" fill="#5B8DEF" rx="4 0 0 4"/>
+    <text x="882" y="348" fill="#1A1D24" font-size="15" font-weight="800">OSWorld-Vとは</text>
+    <text x="882" y="371" fill="#444" font-size="13">デスクトップ生産性タスクを</text>
+    <text x="882" y="391" fill="#444" font-size="13">自動評価するベンチマーク</text>
+    <text x="882" y="411" fill="#444" font-size="13">Office・ブラウザ・ターミナルを</text>
+    <text x="882" y="431" fill="#444" font-size="13">組み合わせた現実的PCタスク</text>
+  </g>
+  <g filter="url(#softShadow)">
+    <rect x="860" y="460" width="360" height="138" fill="white" rx="10" stroke="#1A1D24" stroke-width="2.5"/>
+    <rect x="860" y="460" width="8" height="138" fill="#E87C3E" rx="4 0 0 4"/>
+    <text x="882" y="490" fill="#1A1D24" font-size="15" font-weight="800">1Mトークンの実際の壁</text>
+    <text x="882" y="513" fill="#444" font-size="13">① コスト増大（長大コンテキスト高単価）</text>
+    <text x="882" y="533" fill="#444" font-size="13">② 中間精度劣化（Needle問題）</text>
+    <text x="882" y="553" fill="#444" font-size="13">③ レイテンシー線形増加</text>
+    <text x="882" y="573" fill="#5CA46E" font-size="13">現実用途：コードリポジトリ全体監査</text>
+    <text x="882" y="592" fill="#888" font-size="11">規制文書包括分析が最初のユースケース</text>
+  </g>
+
+  <!-- Sticky notes -->
+  <g transform="translate(80, 622) rotate(-1.5)" filter="url(#stickyShadow)">
+    <rect width="195" height="100" fill="#FFF9C4" rx="4" stroke="#E8D84C" stroke-width="1.5"/>
+    <text x="97" y="22" text-anchor="middle" fill="#5A5A00" font-size="13" font-weight="700">デフォルト更新の影響</text>
+    <text x="10" y="44" fill="#555" font-size="11">MAU 7億人に即展開</text>
+    <text x="10" y="62" fill="#555" font-size="11">0.1%改善＝700万人に影響</text>
+    <text x="10" y="80" fill="#555" font-size="11">「普段使い競争」の核心</text>
+    <text x="10" y="96" fill="#888" font-size="10">Instant命名＝速さのブランド</text>
+  </g>
+  <g transform="translate(298, 632) rotate(1.2)" filter="url(#stickyShadow)">
+    <rect width="200" height="100" fill="#FFE0CC" rx="4" stroke="#E8906C" stroke-width="1.5"/>
+    <text x="100" y="22" text-anchor="middle" fill="#7A2A00" font-size="13" font-weight="700">ベンチ汚染疑惑</text>
+    <text x="10" y="44" fill="#555" font-size="11">SWE-bench 88.7%は高水準</text>
+    <text x="10" y="62" fill="#555" font-size="11">ICSE 2026で訓練データ汚染</text>
+    <text x="10" y="80" fill="#555" font-size="11">可能性を指摘するAbs発表</text>
+    <text x="10" y="96" fill="#888" font-size="10">絶対値より相対比較が重要</text>
+  </g>
+  <g transform="translate(520, 622) rotate(-0.8)" filter="url(#stickyShadow)">
+    <rect width="195" height="100" fill="#E8F5EC" rx="4" stroke="#5CA46E" stroke-width="1.5"/>
+    <text x="97" y="22" text-anchor="middle" fill="#1A5A30" font-size="13" font-weight="700">中国OSS勢の圧力</text>
+    <text x="10" y="44" fill="#555" font-size="11">DeepSeek V4 Pro: 80.6%</text>
+    <text x="10" y="62" fill="#555" font-size="11">（GPT-5.5: 88.7%との差8pt）</text>
+    <text x="10" y="80" fill="#555" font-size="11">しかしコストは1/10</text>
+    <text x="10" y="96" fill="#888" font-size="10">API単価への下方圧力継続</text>
+  </g>
+  <g transform="translate(740, 628) rotate(1.8)" filter="url(#stickyShadow)">
+    <rect width="195" height="100" fill="#EDE0FF" rx="4" stroke="#8B7DB8" stroke-width="1.5"/>
+    <text x="97" y="22" text-anchor="middle" fill="#3A1A7A" font-size="13" font-weight="700">コールセンター革命</text>
+    <text x="10" y="44" fill="#555" font-size="11">OSWorld 75%で</text>
+    <text x="10" y="62" fill="#555" font-size="11">定型事務作業のROI試算が一変</text>
+    <text x="10" y="80" fill="#555" font-size="11">コールセンター・データ入力</text>
+    <text x="10" y="96" fill="#888" font-size="10">自動化投資判断の分岐点</text>
+  </g>
+
+  <!-- Bottom summary -->
+  <g filter="url(#softShadow)">
+    <rect x="80" y="748" width="1240" height="80" fill="white" rx="8" stroke="#1A1D24" stroke-width="2"/>
+    <text x="100" y="774" fill="#1A1D24" font-size="14" font-weight="800">📊 OSWorld 75% が意味する「エージェント時代の幕開け」</text>
+    <text x="100" y="796" fill="#444" font-size="13">2024年GPT-4の15%から2026年GPT-5.4の75%へ。5倍の改善がデスクトップ生産性タスクの「AIエージェント委託可能」閾値に到達したとみなされる。</text>
+    <text x="100" y="818" fill="#5B8DEF" font-size="13" font-weight="700">→ ただしOSWorldタスクセットが企業IT環境を完全代表するかには疑問。「75%≠実業務の75%自動化」であることに注意が必要。</text>
+  </g>
+
+  <rect x="80" y="858" width="1240" height="2" fill="#E8E2D3"/>
+  <text x="730" y="884" text-anchor="middle" fill="#999" font-size="13" font-style="italic">AI News · 2026-05-07 · GPT-5.5 Instant &amp; GPT-5.4 OSWorld-V 75% Benchmark</text>
+</svg>
