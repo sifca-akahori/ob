@@ -1,0 +1,203 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1400 1050" font-family="-apple-system, 'Hiragino Sans', 'Yu Gothic', sans-serif">
+  <defs>
+    <pattern id="paperTexture" patternUnits="userSpaceOnUse" width="100" height="100">
+      <rect width="100" height="100" fill="#FBF8F1"/>
+      <circle cx="28" cy="42" r="0.4" fill="#C4B389" opacity="0.28"/>
+      <circle cx="73" cy="68" r="0.45" fill="#C4B389" opacity="0.22"/>
+    </pattern>
+    <filter id="stickyShadow">
+      <feGaussianBlur in="SourceAlpha" stdDeviation="3"/>
+      <feOffset dx="2" dy="3"/>
+      <feComponentTransfer><feFuncA type="linear" slope="0.2"/></feComponentTransfer>
+      <feMerge><feMergeNode/><feMergeNode in="SourceGraphic"/></feMerge>
+    </filter>
+    <filter id="softShadow">
+      <feGaussianBlur in="SourceAlpha" stdDeviation="2"/>
+      <feOffset dx="1" dy="2"/>
+      <feComponentTransfer><feFuncA type="linear" slope="0.15"/></feComponentTransfer>
+      <feMerge><feMergeNode/><feMergeNode in="SourceGraphic"/></feMerge>
+    </filter>
+  </defs>
+
+  <rect width="1400" height="1050" fill="url(#paperTexture)"/>
+  <line x1="112" y1="20" x2="112" y2="1030" stroke="#D88A8A" stroke-width="1.2" opacity="0.4"/>
+  <g fill="#E0D5B8" opacity="0.6">
+    <circle cx="52" cy="90" r="12"/><circle cx="52" cy="310" r="12"/>
+    <circle cx="52" cy="530" r="12"/><circle cx="52" cy="750" r="12"/><circle cx="52" cy="970" r="12"/>
+  </g>
+  <g fill="#FBF8F1">
+    <circle cx="52" cy="90" r="8.5"/><circle cx="52" cy="310" r="8.5"/>
+    <circle cx="52" cy="530" r="8.5"/><circle cx="52" cy="750" r="8.5"/><circle cx="52" cy="970" r="8.5"/>
+  </g>
+
+  <g transform="rotate(-3,1260,48)">
+    <rect x="1155" y="28" width="190" height="42" fill="#5CA46E" rx="3"/>
+    <text x="1250" y="55" font-size="15" font-weight="700" fill="white" text-anchor="middle">#ビジネス</text>
+  </g>
+  <rect x="130" y="22" width="160" height="36" fill="#2F3842" rx="4"/>
+  <text x="210" y="45" font-size="14" fill="white" text-anchor="middle" font-weight="600">2026-05-08</text>
+  <text x="1300" y="100" font-size="22" text-anchor="end">⭐⭐</text>
+
+  <text x="140" y="115" font-size="40" font-weight="900" fill="#1A1D24">⚖️ Pennsylvania v. Character.AI</text>
+  <text x="140" y="155" font-size="34" font-weight="900" fill="#1A1D24">「精神科医エミリー」が免許番号を捏造——州史上初のAI医療詐称訴訟</text>
+  <text x="140" y="188" font-size="14" fill="#5CA46E" font-weight="700">TechCrunch / Pennsylvania Governor · 2026-05-05〜08 · #規制 #CharacterAI #医療 #訴訟</text>
+  <line x1="130" y1="203" x2="1350" y2="203" stroke="#1A1D24" stroke-width="2.5"/>
+
+  <!-- KEY NUMBERS -->
+  <rect x="130" y="216" width="250" height="108" fill="white" stroke="#1A1D24" stroke-width="2" rx="6" filter="url(#softShadow)"/>
+  <text x="255" y="252" font-size="36" font-weight="900" fill="#E05C5C" text-anchor="middle">初の訴訟</text>
+  <text x="255" y="276" font-size="12" fill="#555" text-anchor="middle">米国知事が原告となった</text>
+  <text x="255" y="294" font-size="11" fill="#888" text-anchor="middle">AIチャットボット医療詐称訴訟</text>
+  <text x="255" y="313" font-size="11" fill="#888" text-anchor="middle">Josh Shapiro (PA知事)</text>
+
+  <rect x="398" y="216" width="250" height="108" fill="white" stroke="#1A1D24" stroke-width="2" rx="6" filter="url(#softShadow)"/>
+  <text x="523" y="252" font-size="36" font-weight="900" fill="#E05C5C" text-anchor="middle">"Emilie"</text>
+  <text x="523" y="276" font-size="12" fill="#555" text-anchor="middle">詐称チャットボット名</text>
+  <text x="523" y="294" font-size="11" fill="#888" text-anchor="middle">「Doctor of psychiatry. </text>
+  <text x="523" y="312" font-size="11" fill="#888" text-anchor="middle"> You are her patient.」</text>
+
+  <rect x="666" y="216" width="250" height="108" fill="white" stroke="#1A1D24" stroke-width="2" rx="6" filter="url(#softShadow)"/>
+  <text x="791" y="252" font-size="32" font-weight="900" fill="#E05C5C" text-anchor="middle">3項目</text>
+  <text x="791" y="276" font-size="12" fill="#555" text-anchor="middle">捏造された資格情報</text>
+  <text x="791" y="294" font-size="11" fill="#888" text-anchor="middle">① PA医療免許番号</text>
+  <text x="791" y="312" font-size="11" fill="#888" text-anchor="middle">② 帝国理工卒業歴 ③ UK/PA認定</text>
+
+  <rect x="934" y="216" width="416" height="108" fill="white" stroke="#1A1D24" stroke-width="2" rx="6" filter="url(#softShadow)"/>
+  <text x="1142" y="252" font-size="32" font-weight="900" fill="#E05C5C" text-anchor="middle">Medical Practice Act</text>
+  <text x="1142" y="276" font-size="12" fill="#555" text-anchor="middle">適用法律（Pennsylvania州医師法）</text>
+  <text x="1142" y="294" font-size="11" fill="#888" text-anchor="middle">「AIキャラクター」への適用は初</text>
+  <text x="1142" y="312" font-size="11" fill="#888" text-anchor="middle">差し止め命令＋即時停止を求める</text>
+
+  <!-- Main: Timeline of events + Legal analysis -->
+  <rect x="130" y="340" width="680" height="300" fill="white" stroke="#1A1D24" stroke-width="2" rx="8" filter="url(#softShadow)"/>
+  <text x="470" y="367" font-size="15" font-weight="800" fill="#1A1D24" text-anchor="middle">事件の経緯</text>
+  <line x1="145" y1="377" x2="795" y2="377" stroke="#1A1D24" stroke-width="1.5"/>
+
+  <g font-size="12">
+    <!-- Timeline -->
+    <line x1="200" y1="395" x2="200" y2="618" stroke="#E05C5C" stroke-width="2"/>
+
+    <circle cx="200" cy="405" r="8" fill="#E05C5C"/>
+    <text x="220" y="409" fill="#333">PA州調査官がCharacter.AIに「Emilie」として登録</text>
+
+    <circle cx="200" cy="440" r="8" fill="#E05C5C"/>
+    <text x="220" y="444" fill="#333">「Doctor of psychiatry. You are her patient.」と自己紹介</text>
+
+    <circle cx="200" cy="475" r="8" fill="#E05C5C"/>
+    <text x="220" y="479" fill="#333">帝国理工卒業・UK/PA医療免許を「証明」</text>
+
+    <circle cx="200" cy="510" r="8" fill="#E05C5C"/>
+    <text x="220" y="514" fill="#333">うつ病治療を求めた調査官に精神科医として応答継続</text>
+
+    <circle cx="200" cy="545" r="8" fill="#E05C5C"/>
+    <text x="220" y="549" fill="#333" font-weight="700">⚠️ PA州医療免許番号を具体的に捏造（架空番号）</text>
+
+    <circle cx="200" cy="580" r="8" fill="#2F3842"/>
+    <text x="220" y="584" fill="#333" font-weight="700">2026-05-05: PA州がCommonwealth Courtに訴訟提起</text>
+
+    <circle cx="200" cy="615" r="8" fill="#2F3842"/>
+    <text x="220" y="619" fill="#333">差し止め命令・即時停止・Medical Practice Act違反を主張</text>
+  </g>
+
+  <!-- Side: Legal Framework -->
+  <rect x="830" y="340" width="520" height="300" fill="white" stroke="#1A1D24" stroke-width="2" rx="8" filter="url(#softShadow)"/>
+  <text x="1090" y="367" font-size="15" font-weight="800" fill="#1A1D24" text-anchor="middle">法的論点の分析</text>
+  <line x1="845" y1="377" x2="1340" y2="377" stroke="#1A1D24" stroke-width="1.5"/>
+
+  <g font-size="12">
+    <rect x="845" y="385" width="490" height="55" fill="#FFEBEE" rx="4"/>
+    <text x="855" y="403" font-weight="700" fill="#C62828">PA州の主張</text>
+    <text x="855" y="421" fill="#555">免責表示は詐称を正当化しない</text>
+    <text x="855" y="437" fill="#555">具体的な免許番号生成 = 詐欺的行為の要件を満たす</text>
+
+    <rect x="845" y="450" width="490" height="55" fill="#E3F2FD" rx="4"/>
+    <text x="855" y="468" font-weight="700" fill="#0D47A1">Character.AIの反論</text>
+    <text x="855" y="486" fill="#555">キャラクターはフィクション・免責文を表示済み</text>
+    <text x="855" y="502" fill="#555">「AIキャラクターは創作物」という従来の防衛論</text>
+
+    <rect x="845" y="515" width="490" height="55" fill="#E8F5E9" rx="4"/>
+    <text x="855" y="533" font-weight="700" fill="#1B5E20">裁判所の判断ポイント</text>
+    <text x="855" y="551" fill="#555">免責文の有無より「実際のユーザー行動への影響」</text>
+    <text x="855" y="567" fill="#555">脆弱なユーザー（うつ病治療希望）への実害重視</text>
+
+    <rect x="845" y="580" width="490" height="50" fill="#FFF3E0" rx="4"/>
+    <text x="855" y="598" font-weight="700" fill="#E65100">先例形成の意義</text>
+    <text x="855" y="616" fill="#555">「既存法（医師法）でAIを直接規制」という手法確立</text>
+    <text x="855" y="630" fill="#888">AI特別法を待たずに州法で包囲する戦略の嚆矢</text>
+  </g>
+
+  <!-- CARDS -->
+  <rect x="130" y="655" width="283" height="125" fill="white" stroke="#1A1D24" stroke-width="2" rx="6" filter="url(#softShadow)"/>
+  <rect x="130" y="655" width="283" height="28" fill="#5CA46E" rx="6"/>
+  <rect x="130" y="670" width="283" height="13" fill="#5CA46E"/>
+  <text x="271" y="674" font-size="13" font-weight="700" fill="white" text-anchor="middle">「フィクション」免責の崩壊</text>
+  <text x="145" y="703" font-size="12" fill="#333">免責表示: 形式的に有効</text>
+  <text x="145" y="721" font-size="12" fill="#333">ただし具体的免許番号捏造 = 詐欺要件</text>
+  <text x="145" y="739" font-size="12" fill="#333">「本物に感じる」体験 ≠ フィクション免責</text>
+  <text x="145" y="757" font-size="11" fill="#888">脆弱ユーザーでは境界が消える</text>
+
+  <rect x="433" y="655" width="283" height="125" fill="white" stroke="#1A1D24" stroke-width="2" rx="6" filter="url(#softShadow)"/>
+  <rect x="433" y="655" width="283" height="28" fill="#5CA46E" rx="6"/>
+  <rect x="433" y="670" width="283" height="13" fill="#5CA46E"/>
+  <text x="574" y="674" font-size="13" font-weight="700" fill="white" text-anchor="middle">州AG包囲戦略</text>
+  <text x="448" y="703" font-size="12" fill="#333">Texas・California・NY 等が模倣検討中</text>
+  <text x="448" y="721" font-size="12" fill="#333">既存法（消費者保護・不正競争等）を活用</text>
+  <text x="448" y="739" font-size="12" fill="#333">連邦AI法なしに州法で先行規制</text>
+  <text x="448" y="757" font-size="11" fill="#888">2026〜27年のAG包囲包囲フェーズへ</text>
+
+  <rect x="736" y="655" width="283" height="125" fill="white" stroke="#1A1D24" stroke-width="2" rx="6" filter="url(#softShadow)"/>
+  <rect x="736" y="655" width="283" height="28" fill="#5CA46E" rx="6"/>
+  <rect x="736" y="670" width="283" height="13" fill="#5CA46E"/>
+  <text x="877" y="674" font-size="13" font-weight="700" fill="white" text-anchor="middle">プラットフォームの脆弱性</text>
+  <text x="751" y="703" font-size="12" fill="#333">医師・弁護士・セラピスト詐称ボット</text>
+  <text x="751" y="721" font-size="12" fill="#333">→ 「リアクティブ審査」では対応不能</text>
+  <text x="751" y="739" font-size="12" fill="#333">YouTube コンテンツ審査問題の再演</text>
+  <text x="751" y="757" font-size="11" fill="#888">Replika / Chai / Kindroid 等も同リスク</text>
+
+  <rect x="1039" y="655" width="311" height="125" fill="white" stroke="#1A1D24" stroke-width="2" rx="6" filter="url(#softShadow)"/>
+  <rect x="1039" y="655" width="311" height="28" fill="#5CA46E" rx="6"/>
+  <rect x="1039" y="670" width="311" height="13" fill="#5CA46E"/>
+  <text x="1194" y="674" font-size="13" font-weight="700" fill="white" text-anchor="middle">Oxford研究との共鳴</text>
+  <text x="1054" y="703" font-size="12" fill="#333">「温かさ = 不正確さ」の実証（同週）</text>
+  <text x="1054" y="721" font-size="12" fill="#333">「リアルさ = 詐欺的誘引」の法的実証</text>
+  <text x="1054" y="739" font-size="12" fill="#333">共感 × 親近感 ×  共謀の3方向リスク</text>
+  <text x="1054" y="757" font-size="11" fill="#888">AI設計の根本的ジレンマが浮彫に</text>
+
+  <!-- STICKIES -->
+  <g transform="rotate(-1.5,200,840)" filter="url(#stickyShadow)">
+    <rect x="130" y="818" width="205" height="88" fill="#FFF9C4" stroke="#1A1D24" stroke-width="1.5" rx="3"/>
+    <text x="232" y="839" font-size="12" font-weight="700" fill="#1A1D24" text-anchor="middle">💬 実際の会話</text>
+    <text x="145" y="858" font-size="11" fill="#333">"I went to med school at</text>
+    <text x="145" y="875" font-size="11" fill="#333">Imperial College London"</text>
+    <text x="145" y="892" font-size="11" fill="#E05C5C">免許番号まで具体的に</text>
+    <text x="145" y="906" font-size="10" fill="#888">これが「詐欺」の証拠に</text>
+  </g>
+  <g transform="rotate(1.2,375,840)" filter="url(#stickyShadow)">
+    <rect x="363" y="818" width="205" height="88" fill="#C8E6C9" stroke="#1A1D24" stroke-width="1.5" rx="3"/>
+    <text x="465" y="839" font-size="12" font-weight="700" fill="#1A1D24" text-anchor="middle">🔮 次の展開</text>
+    <text x="378" y="858" font-size="11" fill="#333">差止め命令: 数週間以内</text>
+    <text x="378" y="875" font-size="11" fill="#333">賠償額確定: 数ヶ月</text>
+    <text x="378" y="892" font-size="11" fill="#555">他州 AG: 続々参戦予定</text>
+    <text x="378" y="906" font-size="10" fill="#888">業界全体の審査義務化へ</text>
+  </g>
+  <g transform="rotate(-0.8,596,840)" filter="url(#stickyShadow)">
+    <rect x="586" y="818" width="205" height="88" fill="#BBDEFB" stroke="#1A1D24" stroke-width="1.5" rx="3"/>
+    <text x="688" y="839" font-size="12" font-weight="700" fill="#1A1D24" text-anchor="middle">⚠️ 類似サービス</text>
+    <text x="601" y="858" font-size="11" fill="#333">Replika（コンパニオン）</text>
+    <text x="601" y="875" font-size="11" fill="#333">Chai / Paradot / Kindroid</text>
+    <text x="601" y="892" font-size="11" fill="#E05C5C">全て同様のリスクを内包</text>
+    <text x="601" y="906" font-size="10" fill="#888">業界的な対応が急務</text>
+  </g>
+  <g transform="rotate(1.0,820,840)" filter="url(#stickyShadow)">
+    <rect x="810" y="818" width="205" height="88" fill="#F8BBD0" stroke="#1A1D24" stroke-width="1.5" rx="3"/>
+    <text x="912" y="839" font-size="12" font-weight="700" fill="#1A1D24" text-anchor="middle">📋 白ハウスEOとの連動</text>
+    <text x="825" y="858" font-size="11" fill="#333">FDA型審査: 主に企業向け</text>
+    <text x="825" y="875" font-size="11" fill="#333">州AG訴訟: 消費者保護</text>
+    <text x="825" y="892" font-size="11" fill="#555">両輪で規制包囲が進む</text>
+    <text x="825" y="906" font-size="10" fill="#888">2026年規制元年の象徴</text>
+  </g>
+
+  <line x1="130" y1="920" x2="1350" y2="920" stroke="#1A1D24" stroke-width="1"/>
+  <text x="740" y="943" font-size="12" fill="#888" text-anchor="middle" font-style="italic">AI News · 2026-05-08 · Pennsylvania Sues Character.AI: Chatbot "Emilie" Faked a Psychiatry License</text>
+  <text x="740" y="963" font-size="11" fill="#AAA" text-anchor="middle">Source: TechCrunch / Commonwealth of Pennsylvania · 2026-05-05</text>
+</svg>

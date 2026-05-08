@@ -1,0 +1,216 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1400 1050" font-family="-apple-system, 'Hiragino Sans', 'Yu Gothic', sans-serif">
+  <defs>
+    <pattern id="paperTexture" patternUnits="userSpaceOnUse" width="100" height="100">
+      <rect width="100" height="100" fill="#FBF8F1"/>
+      <circle cx="25" cy="40" r="0.4" fill="#C4B389" opacity="0.28"/>
+      <circle cx="72" cy="68" r="0.45" fill="#C4B389" opacity="0.22"/>
+    </pattern>
+    <filter id="stickyShadow">
+      <feGaussianBlur in="SourceAlpha" stdDeviation="3"/>
+      <feOffset dx="2" dy="3"/>
+      <feComponentTransfer><feFuncA type="linear" slope="0.2"/></feComponentTransfer>
+      <feMerge><feMergeNode/><feMergeNode in="SourceGraphic"/></feMerge>
+    </filter>
+    <filter id="softShadow">
+      <feGaussianBlur in="SourceAlpha" stdDeviation="2"/>
+      <feOffset dx="1" dy="2"/>
+      <feComponentTransfer><feFuncA type="linear" slope="0.15"/></feComponentTransfer>
+      <feMerge><feMergeNode/><feMergeNode in="SourceGraphic"/></feMerge>
+    </filter>
+  </defs>
+
+  <rect width="1400" height="1050" fill="url(#paperTexture)"/>
+  <line x1="112" y1="20" x2="112" y2="1030" stroke="#D88A8A" stroke-width="1.2" opacity="0.4"/>
+  <g fill="#E0D5B8" opacity="0.6">
+    <circle cx="52" cy="90" r="12"/><circle cx="52" cy="310" r="12"/>
+    <circle cx="52" cy="530" r="12"/><circle cx="52" cy="750" r="12"/><circle cx="52" cy="970" r="12"/>
+  </g>
+  <g fill="#FBF8F1">
+    <circle cx="52" cy="90" r="8.5"/><circle cx="52" cy="310" r="8.5"/>
+    <circle cx="52" cy="530" r="8.5"/><circle cx="52" cy="750" r="8.5"/><circle cx="52" cy="970" r="8.5"/>
+  </g>
+
+  <g transform="rotate(-3,1260,48)">
+    <rect x="1155" y="28" width="190" height="42" fill="#5B8DEF" rx="3"/>
+    <text x="1250" y="55" font-size="15" font-weight="700" fill="white" text-anchor="middle">#研究</text>
+  </g>
+  <rect x="130" y="22" width="160" height="36" fill="#2F3842" rx="4"/>
+  <text x="210" y="45" font-size="14" fill="white" text-anchor="middle" font-weight="600">2026-05-08</text>
+  <text x="1300" y="100" font-size="22" text-anchor="end">⭐⭐</text>
+
+  <text x="140" y="115" font-size="38" font-weight="900" fill="#1A1D24">📉 MITアセモグル研究：自動化は「生産性向上」より</text>
+  <text x="140" y="158" font-size="38" font-weight="900" fill="#1A1D24">「賃金プレミアム抑制」を52%主目的にしてきた</text>
+  <text x="140" y="188" font-size="14" fill="#5B8DEF" font-weight="700">MIT News / QJE · 2026-05-07 · #自動化 #経済 #不平等 #Acemoglu</text>
+  <line x1="130" y1="203" x2="1350" y2="203" stroke="#1A1D24" stroke-width="2.5"/>
+
+  <!-- KEY NUMBERS -->
+  <rect x="130" y="216" width="240" height="108" fill="white" stroke="#1A1D24" stroke-width="2" rx="6" filter="url(#softShadow)"/>
+  <text x="250" y="258" font-size="46" font-weight="900" fill="#E05C5C" text-anchor="middle">52%</text>
+  <text x="250" y="280" font-size="12" fill="#555" text-anchor="middle">所得格差の自動化起因</text>
+  <text x="250" y="298" font-size="11" fill="#888" text-anchor="middle">米国 1980〜2016年分</text>
+  <text x="250" y="314" font-size="11" fill="#888" text-anchor="middle">最大の格差要因と実証</text>
+
+  <rect x="385" y="216" width="240" height="108" fill="white" stroke="#1A1D24" stroke-width="2" rx="6" filter="url(#softShadow)"/>
+  <text x="505" y="258" font-size="46" font-weight="900" fill="#E05C5C" text-anchor="middle">10pt</text>
+  <text x="505" y="280" font-size="12" fill="#555" text-anchor="middle">意図的ターゲティング起因</text>
+  <text x="505" y="298" font-size="11" fill="#888" text-anchor="middle">「賃金コントロール」目的の</text>
+  <text x="505" y="314" font-size="11" fill="#888" text-anchor="middle">能動的な自動化選択</text>
+
+  <rect x="640" y="216" width="240" height="108" fill="white" stroke="#1A1D24" stroke-width="2" rx="6" filter="url(#softShadow)"/>
+  <text x="760" y="252" font-size="32" font-weight="900" fill="#E05C5C" text-anchor="middle">60〜90%</text>
+  <text x="760" y="276" font-size="12" fill="#555" text-anchor="middle">生産性向上の相殺率</text>
+  <text x="760" y="294" font-size="11" fill="#888" text-anchor="middle">「非効率なターゲティング」が</text>
+  <text x="760" y="312" font-size="11" fill="#888" text-anchor="middle">潜在的生産性を大幅に損なう</text>
+
+  <rect x="895" y="216" width="455" height="108" fill="white" stroke="#1A1D24" stroke-width="2" rx="6" filter="url(#softShadow)"/>
+  <text x="1122" y="252" font-size="32" font-weight="900" fill="#E05C5C" text-anchor="middle">70〜95パーセンタイル</text>
+  <text x="1122" y="276" font-size="12" fill="#555" text-anchor="middle">ターゲットにされた労働者層</text>
+  <text x="1122" y="294" font-size="11" fill="#888" text-anchor="middle">非大卒 ブルーカラー 中上位賃金帯</text>
+  <text x="1122" y="312" font-size="11" fill="#888" text-anchor="middle">意図的な選択 ← 偶然ではない</text>
+
+  <!-- MAIN VISUAL: Mechanism diagram -->
+  <rect x="130" y="340" width="700" height="300" fill="white" stroke="#1A1D24" stroke-width="2" rx="8" filter="url(#softShadow)"/>
+  <text x="480" y="367" font-size="15" font-weight="800" fill="#1A1D24" text-anchor="middle">自動化による格差拡大メカニズム (1980〜2016)</text>
+  <line x1="145" y1="377" x2="815" y2="377" stroke="#1A1D24" stroke-width="1.5"/>
+
+  <!-- Flow diagram -->
+  <!-- Step 1 -->
+  <rect x="155" y="392" width="175" height="50" fill="#FFF3E0" stroke="#E65100" stroke-width="2" rx="6"/>
+  <text x="242" y="414" font-size="12" font-weight="700" fill="#E65100" text-anchor="middle">企業の意思決定</text>
+  <text x="242" y="432" font-size="11" fill="#555" text-anchor="middle">「賃金プレミアム層」を</text>
+  <text x="242" y="447" font-size="10" fill="#888" text-anchor="middle">意図的に自動化ターゲットへ</text>
+
+  <text x="345" y="420" font-size="20" fill="#1A1D24" font-weight="700">→</text>
+
+  <rect x="360" y="392" width="175" height="50" fill="#FFF3E0" stroke="#E65100" stroke-width="2" rx="6"/>
+  <text x="447" y="414" font-size="12" font-weight="700" fill="#E65100" text-anchor="middle">組合弱体化との複合</text>
+  <text x="447" y="432" font-size="11" fill="#555" text-anchor="middle">団体交渉力の喪失が</text>
+  <text x="447" y="447" font-size="10" fill="#888" text-anchor="middle">自動化の効果を増幅</text>
+
+  <text x="548" y="420" font-size="20" fill="#1A1D24" font-weight="700">→</text>
+
+  <rect x="563" y="392" width="235" height="50" fill="#FFEBEE" stroke="#C62828" stroke-width="2" rx="6"/>
+  <text x="680" y="414" font-size="12" font-weight="700" fill="#C62828" text-anchor="middle">格差拡大 52% 説明</text>
+  <text x="680" y="432" font-size="11" fill="#555" text-anchor="middle">米国所得格差の半分以上が</text>
+  <text x="680" y="447" font-size="10" fill="#888" text-anchor="middle">自動化の意図的活用から</text>
+
+  <!-- Irony box -->
+  <rect x="155" y="460" width="643" height="55" fill="#F3E5F5" stroke="#6A1B9A" stroke-width="2" rx="6"/>
+  <text x="477" y="482" font-size="13" font-weight="700" fill="#6A1B9A" text-anchor="middle">🎭 最大の逆説：格差を拡大させたうえに生産性も達成できなかった</text>
+  <text x="477" y="502" font-size="12" fill="#555" text-anchor="middle">「間違った層」を自動化 → 潜在的生産性向上の 60〜90% を損失</text>
+
+  <!-- Comparison: Traditional vs New Interpretation -->
+  <rect x="155" y="528" width="300" height="100" fill="#E8EAF6" stroke="#3949AB" stroke-width="1.5" rx="4"/>
+  <text x="305" y="550" font-size="12" font-weight="700" fill="#3949AB" text-anchor="middle">従来解釈（SBTC論）</text>
+  <text x="165" y="570" font-size="11" fill="#555">「自動化は偶然に低スキル労働を代替</text>
+  <text x="165" y="588" font-size="11" fill="#555"> した結果として格差が生まれた」</text>
+  <text x="165" y="606" font-size="11" fill="#555">→ 技術決定論的・企業意図なし</text>
+  <text x="165" y="622" font-size="11" fill="#888">SBTC = Skill-Biased Technical Change</text>
+
+  <text x="470" y="580" font-size="22" fill="#1A1D24" font-weight="700">vs</text>
+
+  <rect x="498" y="528" width="300" height="100" fill="#FFEBEE" stroke="#C62828" stroke-width="2" rx="4"/>
+  <text x="648" y="550" font-size="12" font-weight="700" fill="#C62828" text-anchor="middle">アセモグル新解釈</text>
+  <text x="508" y="570" font-size="11" fill="#555">「企業が特定の賃金プレミアム層を</text>
+  <text x="508" y="588" font-size="11" fill="#555"> 意図的にターゲットにして自動化」</text>
+  <text x="508" y="606" font-size="11" fill="#555">→ 能動的選択・政策的責任あり</text>
+  <text x="508" y="622" font-size="11" fill="#C62828" font-weight="600">QJE 掲載・ノーベル賞受賞者の研究</text>
+
+  <!-- Side: AI age implications -->
+  <rect x="850" y="340" width="500" height="300" fill="white" stroke="#1A1D24" stroke-width="2" rx="8" filter="url(#softShadow)"/>
+  <text x="1100" y="367" font-size="15" font-weight="800" fill="#1A1D24" text-anchor="middle">AI世代への含意</text>
+  <line x1="865" y1="377" x2="1340" y2="377" stroke="#1A1D24" stroke-width="1.5"/>
+
+  <rect x="865" y="385" width="470" height="75" fill="#FFF8E1" rx="4"/>
+  <text x="875" y="405" font-size="13" font-weight="700" fill="#F57F17">過去（製造業自動化）</text>
+  <text x="875" y="423" font-size="12" fill="#555">ターゲット: 非大卒ブルーカラー (70〜95%ile)</text>
+  <text x="875" y="441" font-size="12" fill="#555">組合と賃金交渉力の同時破壊</text>
+  <text x="875" y="457" font-size="11" fill="#888">→ 1980〜2016年格差の52%を説明</text>
+
+  <rect x="865" y="470" width="470" height="75" fill="#FFEBEE" rx="4"/>
+  <text x="875" y="490" font-size="13" font-weight="700" fill="#C62828">現在（生成AI自動化）</text>
+  <text x="875" y="508" font-size="12" fill="#555">ターゲット: 弁護士・会計士・プログラマー</text>
+  <text x="875" y="526" font-size="12" fill="#555">知識労働・ホワイトカラー中間層が標的に</text>
+  <text x="875" y="542" font-size="11" fill="#C62828" font-weight="600">→ 格差は製造業時代以上に広がる可能性</text>
+
+  <rect x="865" y="555" width="470" height="75" fill="#E8F5E9" rx="4"/>
+  <text x="875" y="575" font-size="13" font-weight="700" fill="#1B5E20">政策的含意</text>
+  <text x="875" y="593" font-size="12" fill="#555">「自動化税」「労働転換基金」の法制化</text>
+  <text x="875" y="611" font-size="12" fill="#555">企業の AI 投資目的の開示義務</text>
+  <text x="875" y="627" font-size="11" fill="#888">Sanders/AOC 「DC停止法」よりも的確な政策</text>
+
+  <!-- CARDS -->
+  <rect x="130" y="655" width="290" height="125" fill="white" stroke="#1A1D24" stroke-width="2" rx="6" filter="url(#softShadow)"/>
+  <rect x="130" y="655" width="290" height="28" fill="#5B8DEF" rx="6"/>
+  <rect x="130" y="670" width="290" height="13" fill="#5B8DEF"/>
+  <text x="275" y="674" font-size="13" font-weight="700" fill="white" text-anchor="middle">ノーベル賞の権威</text>
+  <text x="145" y="703" font-size="12" fill="#333">Daron Acemoglu: 2024年経済学賞受賞</text>
+  <text x="145" y="721" font-size="12" fill="#333">「制度と繁栄」研究の延長線上</text>
+  <text x="145" y="739" font-size="12" fill="#333">QJE（最権威ある経済学誌）掲載</text>
+  <text x="145" y="757" font-size="11" fill="#888">政策立案への即時影響力</text>
+
+  <rect x="440" y="655" width="290" height="125" fill="white" stroke="#1A1D24" stroke-width="2" rx="6" filter="url(#softShadow)"/>
+  <rect x="440" y="655" width="290" height="28" fill="#5B8DEF" rx="6"/>
+  <rect x="440" y="670" width="290" height="13" fill="#5B8DEF"/>
+  <text x="585" y="674" font-size="13" font-weight="700" fill="white" text-anchor="middle">日本への示唆</text>
+  <text x="455" y="703" font-size="12" fill="#333">日本・ドイツ: 同期間の格差拡大が小</text>
+  <text x="455" y="721" font-size="12" fill="#333">要因: 組合維持・賃金協定の強制力</text>
+  <text x="455" y="739" font-size="12" fill="#333">ジョブ型・同一労働同一賃金への移行</text>
+  <text x="455" y="757" font-size="11" fill="#888">AI格差緩和の制度的条件</text>
+
+  <rect x="750" y="655" width="290" height="125" fill="white" stroke="#1A1D24" stroke-width="2" rx="6" filter="url(#softShadow)"/>
+  <rect x="750" y="655" width="290" height="28" fill="#5B8DEF" rx="6"/>
+  <rect x="750" y="670" width="290" height="13" fill="#5B8DEF"/>
+  <text x="895" y="674" font-size="13" font-weight="700" fill="white" text-anchor="middle">「置き換えやすい」≠「すべき」</text>
+  <text x="765" y="703" font-size="12" fill="#333">現在のAI自動化も「置き換えやすい仕事」と</text>
+  <text x="765" y="721" font-size="12" fill="#333">「置き換えるべき仕事」が乖離</text>
+  <text x="765" y="739" font-size="12" fill="#333">60〜90% 生産性損失の歴史が</text>
+  <text x="765" y="757" font-size="11" fill="#888">AI投資判断の教訓</text>
+
+  <rect x="1060" y="655" width="290" height="125" fill="white" stroke="#1A1D24" stroke-width="2" rx="6" filter="url(#softShadow)"/>
+  <rect x="1060" y="655" width="290" height="28" fill="#5B8DEF" rx="6"/>
+  <rect x="1060" y="670" width="290" height="13" fill="#5B8DEF"/>
+  <text x="1205" y="674" font-size="13" font-weight="700" fill="white" text-anchor="middle">規制の新しい問い</text>
+  <text x="1075" y="703" font-size="12" fill="#333">「企業が何目的でAIを導入するか」</text>
+  <text x="1075" y="721" font-size="12" fill="#333">を申告させる仕組みが必要</text>
+  <text x="1075" y="739" font-size="12" fill="#333">雇用転換コストを企業に負担させる</text>
+  <text x="1075" y="757" font-size="11" fill="#888">「自動化税」議論の根拠に</text>
+
+  <!-- STICKIES -->
+  <g transform="rotate(-1.5,200,840)" filter="url(#stickyShadow)">
+    <rect x="130" y="818" width="205" height="88" fill="#FFF9C4" stroke="#1A1D24" stroke-width="1.5" rx="3"/>
+    <text x="232" y="839" font-size="12" font-weight="700" fill="#1A1D24" text-anchor="middle">📊 QJE 解説</text>
+    <text x="145" y="858" font-size="11" fill="#333">Quarterly Journal of Economics</text>
+    <text x="145" y="875" font-size="11" fill="#333">= 経済学最高権威誌の一つ</text>
+    <text x="145" y="892" font-size="11" fill="#555">査読通過 = 業界コンセンサス化へ</text>
+    <text x="145" y="906" font-size="10" fill="#888">政策立案への即時影響</text>
+  </g>
+  <g transform="rotate(1.2,375,840)" filter="url(#stickyShadow)">
+    <rect x="363" y="818" width="205" height="88" fill="#C8E6C9" stroke="#1A1D24" stroke-width="1.5" rx="3"/>
+    <text x="465" y="839" font-size="12" font-weight="700" fill="#1A1D24" text-anchor="middle">⚡ パラダイム転換</text>
+    <text x="378" y="858" font-size="11" fill="#333">「技術が格差を生む」から</text>
+    <text x="378" y="875" font-size="11" fill="#333">「企業が格差を選ぶ」へ</text>
+    <text x="378" y="892" font-size="11" fill="#E05C5C">責任の所在が変わる</text>
+    <text x="378" y="906" font-size="10" fill="#888">法的含意は重大</text>
+  </g>
+  <g transform="rotate(-0.8,596,840)" filter="url(#stickyShadow)">
+    <rect x="586" y="818" width="205" height="88" fill="#BBDEFB" stroke="#1A1D24" stroke-width="1.5" rx="3"/>
+    <text x="688" y="839" font-size="12" font-weight="700" fill="#1A1D24" text-anchor="middle">🎯 ターゲット</text>
+    <text x="601" y="858" font-size="11" fill="#333">70〜95%ile 非大卒層</text>
+    <text x="601" y="875" font-size="11" fill="#333">= 組合員・中産階級の核心</text>
+    <text x="601" y="892" font-size="11" fill="#555">AIは今度は知識労働者へ</text>
+    <text x="601" y="906" font-size="10" fill="#888">プログラマーも例外ではない</text>
+  </g>
+  <g transform="rotate(1.0,820,840)" filter="url(#stickyShadow)">
+    <rect x="810" y="818" width="205" height="88" fill="#F8BBD0" stroke="#1A1D24" stroke-width="1.5" rx="3"/>
+    <text x="912" y="839" font-size="12" font-weight="700" fill="#1A1D24" text-anchor="middle">🔮 AI世代版</text>
+    <text x="825" y="858" font-size="11" fill="#333">Claude/GPTが弁護士・医師の</text>
+    <text x="825" y="875" font-size="11" fill="#333">「コモディティ化」を推進中</text>
+    <text x="825" y="892" font-size="11" fill="#E05C5C">次の格差はもっと広い</text>
+    <text x="825" y="906" font-size="10" fill="#888">政策対応が急務</text>
+  </g>
+
+  <line x1="130" y1="920" x2="1350" y2="920" stroke="#1A1D24" stroke-width="1"/>
+  <text x="740" y="943" font-size="12" fill="#888" text-anchor="middle" font-style="italic">AI News · 2026-05-08 · MIT Acemoglu: Automation Targeted Wage Premiums More Than Productivity</text>
+  <text x="740" y="963" font-size="11" fill="#AAA" text-anchor="middle">Source: MIT News / Quarterly Journal of Economics · 2026-05-07</text>
+</svg>

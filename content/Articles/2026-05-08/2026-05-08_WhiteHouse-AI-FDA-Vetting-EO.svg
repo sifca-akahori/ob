@@ -1,0 +1,248 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1400 1050" font-family="-apple-system, 'Hiragino Sans', 'Yu Gothic', sans-serif">
+  <defs>
+    <pattern id="paperTexture" patternUnits="userSpaceOnUse" width="100" height="100">
+      <rect width="100" height="100" fill="#FBF8F1"/>
+      <circle cx="20" cy="30" r="0.4" fill="#C4B389" opacity="0.3"/>
+      <circle cx="60" cy="55" r="0.5" fill="#C4B389" opacity="0.25"/>
+      <circle cx="80" cy="15" r="0.3" fill="#C4B389" opacity="0.3"/>
+      <circle cx="45" cy="80" r="0.4" fill="#C4B389" opacity="0.25"/>
+    </pattern>
+    <filter id="stickyShadow">
+      <feGaussianBlur in="SourceAlpha" stdDeviation="3"/>
+      <feOffset dx="2" dy="3"/>
+      <feComponentTransfer><feFuncA type="linear" slope="0.2"/></feComponentTransfer>
+      <feMerge><feMergeNode/><feMergeNode in="SourceGraphic"/></feMerge>
+    </filter>
+    <filter id="softShadow">
+      <feGaussianBlur in="SourceAlpha" stdDeviation="2"/>
+      <feOffset dx="1" dy="2"/>
+      <feComponentTransfer><feFuncA type="linear" slope="0.15"/></feComponentTransfer>
+      <feMerge><feMergeNode/><feMergeNode in="SourceGraphic"/></feMerge>
+    </filter>
+    <linearGradient id="accentGreen" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0%" stop-color="#5CA46E"/>
+      <stop offset="100%" stop-color="#4A8F5C"/>
+    </linearGradient>
+  </defs>
+
+  <!-- Background -->
+  <rect width="1400" height="1050" fill="url(#paperTexture)"/>
+  <!-- Ruled lines -->
+  <g opacity="0.08" stroke="#8B7A5A" stroke-width="0.7">
+    <line x1="80" y1="200" x2="1330" y2="200"/>
+    <line x1="80" y1="240" x2="1330" y2="240"/>
+    <line x1="80" y1="280" x2="1330" y2="280"/>
+  </g>
+  <!-- Left margin -->
+  <line x1="112" y1="20" x2="112" y2="1030" stroke="#D88A8A" stroke-width="1.2" opacity="0.4"/>
+  <!-- Binding holes -->
+  <g fill="#E0D5B8" opacity="0.6">
+    <circle cx="52" cy="90" r="12"/><circle cx="52" cy="310" r="12"/>
+    <circle cx="52" cy="530" r="12"/><circle cx="52" cy="750" r="12"/><circle cx="52" cy="970" r="12"/>
+  </g>
+  <g fill="#FBF8F1">
+    <circle cx="52" cy="90" r="8.5"/><circle cx="52" cy="310" r="8.5"/>
+    <circle cx="52" cy="530" r="8.5"/><circle cx="52" cy="750" r="8.5"/><circle cx="52" cy="970" r="8.5"/>
+  </g>
+
+  <!-- Category tape -->
+  <g transform="rotate(-3,1260,48)">
+    <rect x="1155" y="28" width="190" height="42" fill="#5CA46E" rx="3"/>
+    <text x="1250" y="55" font-size="15" font-weight="700" fill="white" text-anchor="middle">#ビジネス</text>
+  </g>
+
+  <!-- Date badge -->
+  <rect x="130" y="22" width="160" height="36" fill="#2F3842" rx="4"/>
+  <text x="210" y="45" font-size="14" fill="white" text-anchor="middle" font-weight="600">2026-05-08</text>
+
+  <!-- Impact stars -->
+  <text x="1300" y="100" font-size="22" text-anchor="end">⭐⭐⭐</text>
+
+  <!-- HEADER -->
+  <text x="140" y="115" font-size="42" font-weight="900" fill="#1A1D24">🏛️ ホワイトハウス AI「FDA型審査」大統領令草案</text>
+  <text x="140" y="155" font-size="18" fill="#5CA46E" font-weight="700">Mythos が引き金を引いた歴史的ガバナンス転換 · Insurance Journal / CNBC · 2026-05-08</text>
+  <text x="140" y="180" font-size="14" fill="#666">#AI #規制 #FDA #EO #WhiteHouse #ガバナンス</text>
+
+  <!-- Divider -->
+  <line x1="130" y1="195" x2="1350" y2="195" stroke="#1A1D24" stroke-width="2.5"/>
+
+  <!-- KEY NUMBERS ROW -->
+  <!-- Box 1 -->
+  <rect x="130" y="208" width="270" height="110" fill="white" stroke="#1A1D24" stroke-width="2" rx="6" filter="url(#softShadow)"/>
+  <text x="265" y="248" font-size="46" font-weight="900" fill="#5CA46E" text-anchor="middle">40+</text>
+  <text x="265" y="272" font-size="13" fill="#555" text-anchor="middle">回の事前評価実績</text>
+  <text x="265" y="290" font-size="11" fill="#888" text-anchor="middle">CAISI 任意テスト（既存）</text>
+  <text x="265" y="308" font-size="11" fill="#888" text-anchor="middle">→ 義務化へ転換</text>
+  <!-- Box 2 -->
+  <rect x="420" y="208" width="270" height="110" fill="white" stroke="#1A1D24" stroke-width="2" rx="6" filter="url(#softShadow)"/>
+  <text x="555" y="248" font-size="46" font-weight="900" fill="#5CA46E" text-anchor="middle">5社</text>
+  <text x="555" y="272" font-size="13" fill="#555" text-anchor="middle">主要フロンティアラボ対象</text>
+  <text x="555" y="290" font-size="11" fill="#888" text-anchor="middle">Google / Microsoft / xAI</text>
+  <text x="555" y="308" font-size="11" fill="#888" text-anchor="middle">OpenAI / Anthropic</text>
+  <!-- Box 3 -->
+  <rect x="710" y="208" width="270" height="110" fill="white" stroke="#1A1D24" stroke-width="2" rx="6" filter="url(#softShadow)"/>
+  <text x="845" y="248" font-size="38" font-weight="900" fill="#E05C5C" text-anchor="middle">数万件</text>
+  <text x="845" y="272" font-size="13" fill="#555" text-anchor="middle">Mythosが発見した脆弱性</text>
+  <text x="845" y="290" font-size="11" fill="#888" text-anchor="middle">Project Glasswing経由</text>
+  <text x="845" y="308" font-size="11" fill="#888" text-anchor="middle">EO草案の直接引き金</text>
+  <!-- Box 4 -->
+  <rect x="1000" y="208" width="340" height="110" fill="white" stroke="#1A1D24" stroke-width="2" rx="6" filter="url(#softShadow)"/>
+  <text x="1170" y="248" font-size="38" font-weight="900" fill="#5CA46E" text-anchor="middle">2027年</text>
+  <text x="1170" y="272" font-size="13" fill="#555" text-anchor="middle">EU AI法高リスク義務</text>
+  <text x="1170" y="290" font-size="11" fill="#888" text-anchor="middle">EU延期 vs US先行</text>
+  <text x="1170" y="308" font-size="11" fill="#888" text-anchor="middle">規制地政学の逆転</text>
+
+  <!-- MAIN VISUAL: Timeline / Process comparison -->
+  <rect x="130" y="335" width="790" height="300" fill="white" stroke="#1A1D24" stroke-width="2" rx="8" filter="url(#softShadow)"/>
+  <text x="525" y="365" font-size="16" font-weight="800" fill="#1A1D24" text-anchor="middle">FDA型 vs 現行 AI評価プロセス比較</text>
+  <line x1="145" y1="375" x2="905" y2="375" stroke="#1A1D24" stroke-width="1.5"/>
+
+  <!-- Headers -->
+  <rect x="145" y="382" width="200" height="28" fill="#5CA46E" rx="3"/>
+  <text x="245" y="401" font-size="13" font-weight="700" fill="white" text-anchor="middle">FDA型（草案目標）</text>
+  <rect x="555" y="382" width="200" height="28" fill="#8B8B8B" rx="3"/>
+  <text x="655" y="401" font-size="13" font-weight="700" fill="white" text-anchor="middle">現行（CAISI任意）</text>
+
+  <!-- Left: FDA process -->
+  <g fill="#1A1D24" font-size="13">
+    <circle cx="165" cy="448" r="14" fill="#5CA46E"/>
+    <text x="165" y="453" font-size="12" fill="white" text-anchor="middle" font-weight="700">1</text>
+    <text x="190" y="453" fill="#333">開発完了前に申請義務</text>
+    <circle cx="165" cy="488" r="14" fill="#5CA46E"/>
+    <text x="165" y="493" font-size="12" fill="white" text-anchor="middle" font-weight="700">2</text>
+    <text x="190" y="493" fill="#333">政府機関による独立評価</text>
+    <circle cx="165" cy="528" r="14" fill="#5CA46E"/>
+    <text x="165" y="533" font-size="12" fill="white" text-anchor="middle" font-weight="700">3</text>
+    <text x="190" y="533" fill="#333">サイバー/バイオ/化学リスク審査</text>
+    <circle cx="165" cy="568" r="14" fill="#5CA46E"/>
+    <text x="165" y="573" font-size="12" fill="white" text-anchor="middle" font-weight="700">4</text>
+    <text x="190" y="573" fill="#333">承認後に一般公開（義務）</text>
+    <circle cx="165" cy="608" r="14" fill="#5CA46E"/>
+    <text x="165" y="613" font-size="12" fill="white" text-anchor="middle" font-weight="700">5</text>
+    <text x="190" y="613" fill="#333">継続的モニタリング義務</text>
+  </g>
+
+  <!-- Divider in chart -->
+  <line x1="530" y1="385" x2="530" y2="635" stroke="#DDD" stroke-width="1.5" stroke-dasharray="5,3"/>
+
+  <!-- Right: Current process -->
+  <g fill="#1A1D24" font-size="13">
+    <circle cx="555" cy="448" r="14" fill="#8B8B8B"/>
+    <text x="555" y="453" font-size="12" fill="white" text-anchor="middle" font-weight="700">1</text>
+    <text x="580" y="453" fill="#666">自主的に参加（任意）</text>
+    <circle cx="555" cy="488" r="14" fill="#8B8B8B"/>
+    <text x="555" y="493" font-size="12" fill="white" text-anchor="middle" font-weight="700">2</text>
+    <text x="580" y="493" fill="#666">ラボ側スケジュールで実施</text>
+    <circle cx="555" cy="528" r="14" fill="#E89AA9"/>
+    <text x="555" y="533" font-size="12" fill="white" text-anchor="middle" font-weight="700">✗</text>
+    <text x="580" y="533" fill="#E05C5C">法的強制力なし</text>
+    <circle cx="555" cy="568" r="14" fill="#E89AA9"/>
+    <text x="555" y="573" font-size="12" fill="white" text-anchor="middle" font-weight="700">✗</text>
+    <text x="580" y="573" fill="#E05C5C">拒否しても制裁なし</text>
+    <circle cx="555" cy="608" r="14" fill="#E89AA9"/>
+    <text x="555" y="613" font-size="12" fill="white" text-anchor="middle" font-weight="700">✗</text>
+    <text x="580" y="613" fill="#E05C5C">非公開でリリース可能</text>
+  </g>
+
+  <!-- Side: Scenario boxes -->
+  <rect x="940" y="335" width="410" height="300" fill="white" stroke="#1A1D24" stroke-width="2" rx="8" filter="url(#softShadow)"/>
+  <text x="1145" y="363" font-size="15" font-weight="800" fill="#1A1D24" text-anchor="middle">影響シナリオ</text>
+  <line x1="950" y1="373" x2="1340" y2="373" stroke="#1A1D24" stroke-width="1.5"/>
+
+  <!-- Scenario rows -->
+  <rect x="955" y="382" width="380" height="60" fill="#FFF0F0" rx="4"/>
+  <text x="965" y="402" font-size="12" font-weight="700" fill="#E05C5C">❌ 最悪シナリオ</text>
+  <text x="965" y="420" font-size="11" fill="#555">義務審査 6〜12ヶ月 → 米国ラボ遅延</text>
+  <text x="965" y="436" font-size="11" fill="#555">→ 中国OSSが構造的優位を獲得</text>
+
+  <rect x="955" y="452" width="380" height="60" fill="#F0FFF4" rx="4"/>
+  <text x="965" y="472" font-size="12" font-weight="700" fill="#5CA46E">✅ 最良シナリオ</text>
+  <text x="965" y="490" font-size="11" fill="#555">限定評価（サイバー/バイオ/化学）義務化</text>
+  <text x="965" y="506" font-size="11" fill="#555">→ 既存CAISIとほぼ同等・影響最小</text>
+
+  <rect x="955" y="522" width="380" height="60" fill="#FFF8E1" rx="4"/>
+  <text x="965" y="542" font-size="12" font-weight="700" fill="#F5A623">📊 最も現実的</text>
+  <text x="965" y="560" font-size="11" fill="#555">高リスクカテゴリ限定の事前強化評価</text>
+  <text x="965" y="576" font-size="11" fill="#555">→ 最良シナリオに近い形で収束</text>
+
+  <text x="965" y="618" font-size="11" fill="#999">※ 実施細則策定にさらに6ヶ月を要する見通し</text>
+
+  <!-- FEATURE CARDS -->
+  <rect x="130" y="650" width="295" height="130" fill="white" stroke="#1A1D24" stroke-width="2" rx="6" filter="url(#softShadow)"/>
+  <rect x="130" y="650" width="295" height="28" fill="#5CA46E" rx="6"/>
+  <rect x="130" y="665" width="295" height="13" fill="#5CA46E"/>
+  <text x="277" y="669" font-size="13" font-weight="700" fill="white" text-anchor="middle">Mythos が開けたパンドラ</text>
+  <text x="145" y="700" font-size="12" fill="#333">• 一般非公開モデルが業界横断で脆弱性修復</text>
+  <text x="145" y="718" font-size="12" fill="#333">• AI が「インフラを守る主体」へ役割転換</text>
+  <text x="145" y="736" font-size="12" fill="#333">• 政府が能力を持つモデルを「統制」へ</text>
+  <text x="145" y="754" font-size="12" fill="#333">• Project Glasswing が制度設計の起爆剤</text>
+
+  <rect x="445" y="650" width="295" height="130" fill="white" stroke="#1A1D24" stroke-width="2" rx="6" filter="url(#softShadow)"/>
+  <rect x="445" y="650" width="295" height="28" fill="#5CA46E" rx="6"/>
+  <rect x="445" y="665" width="295" height="13" fill="#5CA46E"/>
+  <text x="592" y="669" font-size="13" font-weight="700" fill="white" text-anchor="middle">EU vs US 規制地政学</text>
+  <text x="460" y="700" font-size="12" fill="#333">• EU AI法: 高リスク義務を2027年12月に延期</text>
+  <text x="460" y="718" font-size="12" fill="#333">• US: FDA型事前評価を2026年内に義務化へ</text>
+  <text x="460" y="736" font-size="12" fill="#333">• 「EU先行・US遅延」の従来構図が逆転</text>
+  <text x="460" y="754" font-size="12" fill="#333">• WTO・貿易協定との整合が争点に</text>
+
+  <rect x="760" y="650" width="295" height="130" fill="white" stroke="#1A1D24" stroke-width="2" rx="6" filter="url(#softShadow)"/>
+  <rect x="760" y="650" width="295" height="28" fill="#5CA46E" rx="6"/>
+  <rect x="760" y="665" width="295" height="13" fill="#5CA46E"/>
+  <text x="907" y="669" font-size="13" font-weight="700" fill="white" text-anchor="middle">FDA比較の限界</text>
+  <text x="775" y="700" font-size="12" fill="#333">• FDA承認: 数年・数億ドル</text>
+  <text x="775" y="718" font-size="12" fill="#333">• AI更新サイクル: 数週間〜数ヶ月</text>
+  <text x="775" y="736" font-size="12" fill="#333">• 文字通り適用 → 頻繁更新が事実上停止</text>
+  <text x="775" y="754" font-size="12" fill="#333">• 結局「高リスク限定」に収束する見込み</text>
+
+  <rect x="1075" y="650" width="275" height="130" fill="white" stroke="#1A1D24" stroke-width="2" rx="6" filter="url(#softShadow)"/>
+  <rect x="1075" y="650" width="275" height="28" fill="#5CA46E" rx="6"/>
+  <rect x="1075" y="665" width="275" height="13" fill="#5CA46E"/>
+  <text x="1212" y="669" font-size="13" font-weight="700" fill="white" text-anchor="middle">議会並走リスク</text>
+  <text x="1090" y="700" font-size="12" fill="#333">• 超党派 AI Accountability Act 草案複数</text>
+  <text x="1090" y="718" font-size="12" fill="#333">• 大統領令 ＋ 立法が並走する混乱期へ</text>
+  <text x="1090" y="736" font-size="12" fill="#333">• 言論の自由条項との兼ね合いも争点</text>
+  <text x="1090" y="754" font-size="12" fill="#333">• 実施細則策定: さらに +6ヶ月以上</text>
+
+  <!-- STICKY NOTES -->
+  <g transform="rotate(-1.5,200,820)" filter="url(#stickyShadow)">
+    <rect x="130" y="800" width="230" height="105" fill="#FFF9C4" stroke="#1A1D24" stroke-width="1.5" rx="3"/>
+    <text x="245" y="825" font-size="12" font-weight="700" fill="#1A1D24" text-anchor="middle">🔑 キーワード</text>
+    <text x="145" y="845" font-size="11" fill="#333">Kevin Hassett (NEC Dir.)</text>
+    <text x="145" y="862" font-size="11" fill="#333">が「FDA型審査」を明言</text>
+    <text x="145" y="879" font-size="11" fill="#333">→ 行政府最初の公式声明</text>
+    <text x="145" y="896" font-size="11" fill="#666">任意→義務の歴史的転換点</text>
+  </g>
+
+  <g transform="rotate(1.2,490,820)" filter="url(#stickyShadow)">
+    <rect x="390" y="800" width="230" height="105" fill="#C8E6C9" stroke="#1A1D24" stroke-width="1.5" rx="3"/>
+    <text x="505" y="825" font-size="12" font-weight="700" fill="#1A1D24" text-anchor="middle">📊 前例</text>
+    <text x="405" y="845" font-size="11" fill="#333">自動車: NHTSA 安全評価</text>
+    <text x="405" y="862" font-size="11" fill="#333">医薬品: FDA 3段階承認</text>
+    <text x="405" y="879" font-size="11" fill="#333">AIへの適用は前例なし</text>
+    <text x="405" y="896" font-size="11" fill="#666">→ 法的根拠の構築が先決</text>
+  </g>
+
+  <g transform="rotate(-0.8,755,820)" filter="url(#stickyShadow)">
+    <rect x="650" y="800" width="230" height="105" fill="#BBDEFB" stroke="#1A1D24" stroke-width="1.5" rx="3"/>
+    <text x="765" y="825" font-size="12" font-weight="700" fill="#1A1D24" text-anchor="middle">⚠️ 業界の懸念</text>
+    <text x="665" y="845" font-size="11" fill="#333">「ソフトウェアに医薬品の</text>
+    <text x="665" y="862" font-size="11" fill="#333"> 物差しは機能的不可能」</text>
+    <text x="665" y="879" font-size="11" fill="#333">→ 大手ラボの共通ポジション</text>
+    <text x="665" y="896" font-size="11" fill="#666">スタートアップは特に被害大</text>
+  </g>
+
+  <g transform="rotate(1.0,1010,820)" filter="url(#stickyShadow)">
+    <rect x="910" y="800" width="230" height="105" fill="#F8BBD0" stroke="#1A1D24" stroke-width="1.5" rx="3"/>
+    <text x="1025" y="825" font-size="12" font-weight="700" fill="#1A1D24" text-anchor="middle">🌏 中国への影響</text>
+    <text x="925" y="845" font-size="11" fill="#333">義務審査で米国ラボ遅延</text>
+    <text x="925" y="862" font-size="11" fill="#333">→ 中国OSS（DeepSeek等）</text>
+    <text x="925" y="879" font-size="11" fill="#333">が規制なしで爆速リリース</text>
+    <text x="925" y="896" font-size="11" fill="#666">政策設計の最大のジレンマ</text>
+  </g>
+
+  <!-- Footer -->
+  <line x1="130" y1="925" x2="1350" y2="925" stroke="#1A1D24" stroke-width="1"/>
+  <text x="740" y="948" font-size="12" fill="#888" text-anchor="middle" font-style="italic">AI News · 2026-05-08 · White House Prepares FDA-Style AI Vetting Executive Order</text>
+  <text x="740" y="968" font-size="11" fill="#AAA" text-anchor="middle">Source: Insurance Journal / CNBC / NeuralBuddies</text>
+</svg>

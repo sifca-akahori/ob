@@ -1,0 +1,219 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1400 1050" font-family="-apple-system, 'Hiragino Sans', 'Yu Gothic', sans-serif">
+  <defs>
+    <pattern id="paperTexture" patternUnits="userSpaceOnUse" width="100" height="100">
+      <rect width="100" height="100" fill="#FBF8F1"/>
+      <circle cx="25" cy="38" r="0.4" fill="#C4B389" opacity="0.28"/>
+      <circle cx="70" cy="65" r="0.45" fill="#C4B389" opacity="0.22"/>
+    </pattern>
+    <filter id="stickyShadow">
+      <feGaussianBlur in="SourceAlpha" stdDeviation="3"/>
+      <feOffset dx="2" dy="3"/>
+      <feComponentTransfer><feFuncA type="linear" slope="0.2"/></feComponentTransfer>
+      <feMerge><feMergeNode/><feMergeNode in="SourceGraphic"/></feMerge>
+    </filter>
+    <filter id="softShadow">
+      <feGaussianBlur in="SourceAlpha" stdDeviation="2"/>
+      <feOffset dx="1" dy="2"/>
+      <feComponentTransfer><feFuncA type="linear" slope="0.15"/></feComponentTransfer>
+      <feMerge><feMergeNode/><feMergeNode in="SourceGraphic"/></feMerge>
+    </filter>
+  </defs>
+
+  <rect width="1400" height="1050" fill="url(#paperTexture)"/>
+  <line x1="112" y1="20" x2="112" y2="1030" stroke="#D88A8A" stroke-width="1.2" opacity="0.4"/>
+  <g fill="#E0D5B8" opacity="0.6">
+    <circle cx="52" cy="90" r="12"/><circle cx="52" cy="310" r="12"/>
+    <circle cx="52" cy="530" r="12"/><circle cx="52" cy="750" r="12"/><circle cx="52" cy="970" r="12"/>
+  </g>
+  <g fill="#FBF8F1">
+    <circle cx="52" cy="90" r="8.5"/><circle cx="52" cy="310" r="8.5"/>
+    <circle cx="52" cy="530" r="8.5"/><circle cx="52" cy="750" r="8.5"/><circle cx="52" cy="970" r="8.5"/>
+  </g>
+
+  <g transform="rotate(-3,1260,48)">
+    <rect x="1155" y="28" width="190" height="42" fill="#5CA46E" rx="3"/>
+    <text x="1250" y="55" font-size="15" font-weight="700" fill="white" text-anchor="middle">#ビジネス</text>
+  </g>
+  <rect x="130" y="22" width="160" height="36" fill="#2F3842" rx="4"/>
+  <text x="210" y="45" font-size="14" fill="white" text-anchor="middle" font-weight="600">2026-05-08</text>
+  <text x="1300" y="100" font-size="22" text-anchor="end">⭐⭐</text>
+
+  <text x="140" y="115" font-size="40" font-weight="900" fill="#1A1D24">📱 OpenAI AIエージェントPhoneを2027年前半に前倒し</text>
+  <text x="140" y="158" font-size="32" font-weight="900" fill="#1A1D24">MediaTek Dimensity 9600 × TSMC 2nm N2P × デュアルNPU</text>
+  <text x="140" y="188" font-size="14" fill="#5CA46E" font-weight="700">MSN / Ming-Chi Kuo · 2026-05-08 · #OpenAI #ハードウェア #スマートフォン #MediaTek #TSMC</text>
+  <line x1="130" y1="203" x2="1350" y2="203" stroke="#1A1D24" stroke-width="2.5"/>
+
+  <!-- KEY NUMBERS -->
+  <rect x="130" y="216" width="240" height="108" fill="white" stroke="#1A1D24" stroke-width="2" rx="6" filter="url(#softShadow)"/>
+  <text x="250" y="252" font-size="36" font-weight="900" fill="#5CA46E" text-anchor="middle">2027 H1</text>
+  <text x="250" y="276" font-size="12" fill="#555" text-anchor="middle">量産開始（前倒し）</text>
+  <text x="250" y="294" font-size="11" fill="#888" text-anchor="middle">従来: 2027後半〜2028</text>
+  <text x="250" y="312" font-size="11" fill="#888" text-anchor="middle">加速の背景は競争圧力</text>
+
+  <rect x="387" y="216" width="240" height="108" fill="white" stroke="#1A1D24" stroke-width="2" rx="6" filter="url(#softShadow)"/>
+  <text x="507" y="252" font-size="36" font-weight="900" fill="#5CA46E" text-anchor="middle">3000万</text>
+  <text x="507" y="276" font-size="12" fill="#555" text-anchor="middle">台（2028末までの累計）</text>
+  <text x="507" y="294" font-size="11" fill="#888" text-anchor="middle">2027: 最大1500万台</text>
+  <text x="507" y="312" font-size="11" fill="#888" text-anchor="middle">Ming-Chi Kuo 予測</text>
+
+  <rect x="644" y="216" width="240" height="108" fill="white" stroke="#1A1D24" stroke-width="2" rx="6" filter="url(#softShadow)"/>
+  <text x="764" y="252" font-size="36" font-weight="900" fill="#5CA46E" text-anchor="middle">2nm N2P</text>
+  <text x="764" y="276" font-size="12" fill="#555" text-anchor="middle">TSMC プロセスノード</text>
+  <text x="764" y="294" font-size="11" fill="#888" text-anchor="middle">2026年後半から量産本格化</text>
+  <text x="764" y="312" font-size="11" fill="#888" text-anchor="middle">Apple A20と製造ライン競合</text>
+
+  <rect x="901" y="216" width="449" height="108" fill="white" stroke="#1A1D24" stroke-width="2" rx="6" filter="url(#softShadow)"/>
+  <text x="1125" y="252" font-size="32" font-weight="900" fill="#5CA46E" text-anchor="middle">Jony Ive + OpenAI</text>
+  <text x="1125" y="276" font-size="12" fill="#555" text-anchor="middle">LoveFrom との共同開発</text>
+  <text x="1125" y="294" font-size="11" fill="#888" text-anchor="middle">iPhone・Apple Watch 設計者が参画</text>
+  <text x="1125" y="312" font-size="11" fill="#888" text-anchor="middle">「スマートフォンの再発明」を掲げる</text>
+
+  <!-- Main: Chip comparison / Device specs -->
+  <rect x="130" y="340" width="680" height="300" fill="white" stroke="#1A1D24" stroke-width="2" rx="8" filter="url(#softShadow)"/>
+  <text x="470" y="367" font-size="15" font-weight="800" fill="#1A1D24" text-anchor="middle">チップ仕様と競合比較</text>
+  <line x1="145" y1="377" x2="795" y2="377" stroke="#1A1D24" stroke-width="1.5"/>
+
+  <!-- Chip specs table -->
+  <g font-size="12">
+    <rect x="145" y="384" width="300" height="28" fill="#2F3842"/>
+    <rect x="447" y="384" width="335" height="28" fill="#2F3842"/>
+    <text x="295" y="403" fill="white" text-anchor="middle" font-weight="700">OpenAI Phone チップ</text>
+    <text x="614" y="403" fill="white" text-anchor="middle" font-weight="700">iPhone 18 チップ（Apple A20）</text>
+
+    <rect x="145" y="412" width="300" height="30" fill="#F0FFF4"/>
+    <text x="155" y="433" fill="#333" font-weight="600">ベースチップ</text>
+    <text x="310" y="433" fill="#5CA46E" font-weight="700">MediaTek Dimensity 9600</text>
+    <rect x="447" y="412" width="335" height="30" fill="#FFF5F5"/>
+    <text x="459" y="433" fill="#555">Apple 設計 A20 Bionic</text>
+
+    <rect x="145" y="442" width="300" height="30" fill="#E8F5E9"/>
+    <text x="155" y="463" fill="#333" font-weight="600">プロセス</text>
+    <text x="310" y="463" fill="#5CA46E" font-weight="700">TSMC 2nm (N2P)</text>
+    <rect x="447" y="442" width="335" height="30" fill="#FFF5F5"/>
+    <text x="459" y="463" fill="#555">TSMC 2nm (N2P) ← 同ライン競合</text>
+
+    <rect x="145" y="472" width="300" height="30" fill="#F0FFF4"/>
+    <text x="155" y="493" fill="#333" font-weight="600">NPU 構成</text>
+    <text x="310" y="493" fill="#5CA46E" font-weight="700">デュアル NPU（AI専用）</text>
+    <rect x="447" y="472" width="335" height="30" fill="#FFF5F5"/>
+    <text x="459" y="493" fill="#555">Apple Neural Engine (第N世代)</text>
+
+    <rect x="145" y="502" width="300" height="30" fill="#E8F5E9"/>
+    <text x="155" y="523" fill="#333" font-weight="600">カメラ</text>
+    <text x="310" y="523" fill="#5CA46E" font-weight="700">強化 HDR ISP（AI後処理）</text>
+    <rect x="447" y="502" width="335" height="30" fill="#FFF5F5"/>
+    <text x="459" y="523" fill="#555">A20 統合 ISP + Photonics</text>
+
+    <rect x="145" y="532" width="300" height="30" fill="#F0FFF4"/>
+    <text x="155" y="553" fill="#333" font-weight="600">最適化対象</text>
+    <text x="310" y="553" fill="#5CA46E" font-weight="700">GPT-5.x 推論 専用化（噂）</text>
+    <rect x="447" y="532" width="335" height="30" fill="#FFF5F5"/>
+    <text x="459" y="553" fill="#555">Apple Intelligence（汎用AI）</text>
+
+    <rect x="145" y="570" width="640" height="30" fill="#FFF8E1"/>
+    <text x="465" y="591" fill="#E65100" font-weight="700" text-anchor="middle">⚠️ TSMC 2nm帯域確保競争: $1〜2B規模の前払い契約が必要</text>
+
+    <text x="155" y="630" fill="#999" font-size="10">※ 仕様は Ming-Chi Kuo レポートおよびサプライチェーン情報源による（未確認含む）</text>
+  </g>
+
+  <!-- Side: Competitor history / Risk -->
+  <rect x="830" y="340" width="520" height="300" fill="white" stroke="#1A1D24" stroke-width="2" rx="8" filter="url(#softShadow)"/>
+  <text x="1090" y="367" font-size="15" font-weight="800" fill="#1A1D24" text-anchor="middle">過去の「AIファーストデバイス」の教訓</text>
+  <line x1="845" y1="377" x2="1340" y2="377" stroke="#1A1D24" stroke-width="1.5"/>
+
+  <g font-size="12">
+    <rect x="845" y="385" width="490" height="70" fill="#FFEBEE" rx="4"/>
+    <text x="855" y="405" font-weight="700" fill="#C62828">❌ Humane AI Pin (2024): 失敗</text>
+    <text x="855" y="423" fill="#555">要因: スマートフォン+アプリに実用性で劣る</text>
+    <text x="855" y="441" fill="#555">価格$699 → 大幅値引き → 販売終了</text>
+    <text x="855" y="455" fill="#888" font-size="11">「AI体験」の体験設計が本質的に欠如</text>
+
+    <rect x="845" y="465" width="490" height="70" fill="#FFEBEE" rx="4"/>
+    <text x="855" y="485" font-weight="700" fill="#C62828">❌ Rabbit R1 (2024): 失敗</text>
+    <text x="855" y="503" fill="#555">要因: Android エミュレータに過ぎないことが判明</text>
+    <text x="855" y="521" fill="#555">「AIエージェント」の実体がなかった</text>
+    <text x="855" y="535" fill="#888" font-size="11">差別化できない体験 = スマホで十分</text>
+
+    <rect x="845" y="545" width="490" height="85" fill="#E8F5E9" rx="4"/>
+    <text x="855" y="565" font-weight="700" fill="#1B5E20">✅ OpenAI Phoneが成功するための条件</text>
+    <text x="855" y="583" fill="#555">GPT-5.x エージェント能力が OSWorld 80%以上で</text>
+    <text x="855" y="601" fill="#555">実際のデバイス操作に転用できること</text>
+    <text x="855" y="619" fill="#555">「スマートフォンを使わずに済む」体験を提供</text>
+    <text x="855" y="630" fill="#888" font-size="11">HN: 「結局 Android ベースで同じでは」という懐疑論が根強い</text>
+  </g>
+
+  <!-- CARDS -->
+  <rect x="130" y="655" width="283" height="125" fill="white" stroke="#1A1D24" stroke-width="2" rx="6" filter="url(#softShadow)"/>
+  <rect x="130" y="655" width="283" height="28" fill="#5CA46E" rx="6"/>
+  <rect x="130" y="670" width="283" height="13" fill="#5CA46E"/>
+  <text x="271" y="674" font-size="13" font-weight="700" fill="white" text-anchor="middle">MediaTek選択の戦略</text>
+  <text x="145" y="703" font-size="12" fill="#333">Qualcommより柔軟なカスタマイゼーション</text>
+  <text x="145" y="721" font-size="12" fill="#333">GPT専用命令セット拡張が可能（噂）</text>
+  <text x="145" y="739" font-size="12" fill="#333">Qualcomm=Microsoft連携からの独立</text>
+  <text x="145" y="757" font-size="11" fill="#888">独自エコシステム構築の観点から</text>
+
+  <rect x="433" y="655" width="283" height="125" fill="white" stroke="#1A1D24" stroke-width="2" rx="6" filter="url(#softShadow)"/>
+  <rect x="433" y="655" width="283" height="28" fill="#5CA46E" rx="6"/>
+  <rect x="433" y="670" width="283" height="13" fill="#5CA46E"/>
+  <text x="574" y="674" font-size="13" font-weight="700" fill="white" text-anchor="middle">Appleへの挑戦状</text>
+  <text x="448" y="703" font-size="12" fill="#333">Jony Ive = iPhone/iPad/Watch 設計者</text>
+  <text x="448" y="721" font-size="12" fill="#333">Apple Intelligence の遅れを突く</text>
+  <text x="448" y="739" font-size="12" fill="#333">「ポストスマホ」の主導権争い</text>
+  <text x="448" y="757" font-size="11" fill="#888">iPhone 18との同時期市場投入</text>
+
+  <rect x="736" y="655" width="283" height="125" fill="white" stroke="#1A1D24" stroke-width="2" rx="6" filter="url(#softShadow)"/>
+  <rect x="736" y="655" width="283" height="28" fill="#5CA46E" rx="6"/>
+  <rect x="736" y="670" width="283" height="13" fill="#5CA46E"/>
+  <text x="877" y="674" font-size="13" font-weight="700" fill="white" text-anchor="middle">「エージェントPhone」の謎</text>
+  <text x="751" y="703" font-size="12" fill="#333">公式の機能仕様: ほぼ非公開</text>
+  <text x="751" y="721" font-size="12" fill="#333">OSレベル統合 vs アプリ乗せの差が鍵</text>
+  <text x="751" y="739" font-size="12" fill="#333">「常時稼働AIエージェント」が本当の差別化</text>
+  <text x="751" y="757" font-size="11" fill="#888">発表時の仕様公開が評価の分水嶺</text>
+
+  <rect x="1039" y="655" width="311" height="125" fill="white" stroke="#1A1D24" stroke-width="2" rx="6" filter="url(#softShadow)"/>
+  <rect x="1039" y="655" width="311" height="28" fill="#5CA46E" rx="6"/>
+  <rect x="1039" y="670" width="311" height="13" fill="#5CA46E"/>
+  <text x="1194" y="674" font-size="13" font-weight="700" fill="white" text-anchor="middle">TSMC 2nm 争奪戦</text>
+  <text x="1054" y="703" font-size="12" fill="#333">Apple A20 と製造ライン競合</text>
+  <text x="1054" y="721" font-size="12" fill="#333">前払い契約: $1〜2B 規模が必要</text>
+  <text x="1054" y="739" font-size="12" fill="#333">2026年中に帯域確保が必須</text>
+  <text x="1054" y="757" font-size="11" fill="#888">Anthropic $200B GPUとの類似構造</text>
+
+  <!-- STICKIES -->
+  <g transform="rotate(-1.5,200,840)" filter="url(#stickyShadow)">
+    <rect x="130" y="818" width="205" height="88" fill="#FFF9C4" stroke="#1A1D24" stroke-width="1.5" rx="3"/>
+    <text x="232" y="839" font-size="12" font-weight="700" fill="#1A1D24" text-anchor="middle">📱 市場規模感</text>
+    <text x="145" y="858" font-size="11" fill="#333">iPhone: 2億台/年</text>
+    <text x="145" y="875" font-size="11" fill="#333">OpenAI Phone 目標: 3000万台</text>
+    <text x="145" y="892" font-size="11" fill="#555">= iPhone の約15%</text>
+    <text x="145" y="906" font-size="10" fill="#888">2028末までの累計で</text>
+  </g>
+  <g transform="rotate(1.2,375,840)" filter="url(#stickyShadow)">
+    <rect x="363" y="818" width="205" height="88" fill="#C8E6C9" stroke="#1A1D24" stroke-width="1.5" rx="3"/>
+    <text x="465" y="839" font-size="12" font-weight="700" fill="#1A1D24" text-anchor="middle">🎨 Jony Ive の実績</text>
+    <text x="378" y="858" font-size="11" fill="#333">iMac G3 (1998)</text>
+    <text x="378" y="875" font-size="11" fill="#333">iPod / iPhone / iPad</text>
+    <text x="378" y="892" font-size="11" fill="#333">Apple Watch</text>
+    <text x="378" y="906" font-size="10" fill="#888">「再発明」の実績あり</text>
+  </g>
+  <g transform="rotate(-0.8,596,840)" filter="url(#stickyShadow)">
+    <rect x="586" y="818" width="205" height="88" fill="#BBDEFB" stroke="#1A1D24" stroke-width="1.5" rx="3"/>
+    <text x="688" y="839" font-size="12" font-weight="700" fill="#1A1D24" text-anchor="middle">💬 HN の懐疑論</text>
+    <text x="601" y="858" font-size="11" fill="#333">「結局AndroidベースでGPT</text>
+    <text x="601" y="875" font-size="11" fill="#333"> アプリが乗るだけでは?」</text>
+    <text x="601" y="892" font-size="11" fill="#E05C5C">OSレベル統合なければ差なし</text>
+    <text x="601" y="906" font-size="10" fill="#888">Rabbit R1の教訓を忘れるな</text>
+  </g>
+  <g transform="rotate(1.0,820,840)" filter="url(#stickyShadow)">
+    <rect x="810" y="818" width="205" height="88" fill="#F8BBD0" stroke="#1A1D24" stroke-width="1.5" rx="3"/>
+    <text x="912" y="839" font-size="12" font-weight="700" fill="#1A1D24" text-anchor="middle">🔮 成功条件</text>
+    <text x="825" y="858" font-size="11" fill="#333">エージェント能力: 80%超</text>
+    <text x="825" y="875" font-size="11" fill="#333">OS統合: 真のシステムレベル</text>
+    <text x="825" y="892" font-size="11" fill="#5CA46E">「スマホ不要」体験が必須</text>
+    <text x="825" y="906" font-size="10" fill="#888">2027年に実現できるか?</text>
+  </g>
+
+  <line x1="130" y1="920" x2="1350" y2="920" stroke="#1A1D24" stroke-width="1"/>
+  <text x="740" y="943" font-size="12" fill="#888" text-anchor="middle" font-style="italic">AI News · 2026-05-08 · OpenAI Fast-Tracks AI Agent Phone: MediaTek Dimensity 9600 × TSMC 2nm, H1 2027</text>
+  <text x="740" y="963" font-size="11" fill="#AAA" text-anchor="middle">Source: MSN / Ming-Chi Kuo · 2026-05-08</text>
+</svg>
