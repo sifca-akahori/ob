@@ -1,0 +1,181 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1400 1050" font-family="-apple-system, 'Hiragino Sans', 'Yu Gothic', sans-serif">
+  <defs>
+    <pattern id="paperTex" patternUnits="userSpaceOnUse" width="100" height="100">
+      <rect width="100" height="100" fill="#FBF8F1"/>
+      <circle cx="20" cy="30" r="0.4" fill="#C4B389" opacity="0.3"/>
+      <circle cx="70" cy="50" r="0.5" fill="#C4B389" opacity="0.25"/>
+      <circle cx="40" cy="85" r="0.3" fill="#C4B389" opacity="0.3"/>
+    </pattern>
+    <filter id="stickyShadow">
+      <feGaussianBlur in="SourceAlpha" stdDeviation="3"/>
+      <feOffset dx="2" dy="3" result="offsetblur"/>
+      <feComponentTransfer><feFuncA type="linear" slope="0.25"/></feComponentTransfer>
+      <feMerge><feMergeNode/><feMergeNode in="SourceGraphic"/></feMerge>
+    </filter>
+    <filter id="softShadow">
+      <feGaussianBlur in="SourceAlpha" stdDeviation="2"/>
+      <feOffset dx="1" dy="2" result="offsetblur"/>
+      <feComponentTransfer><feFuncA type="linear" slope="0.18"/></feComponentTransfer>
+      <feMerge><feMergeNode/><feMergeNode in="SourceGraphic"/></feMerge>
+    </filter>
+    <linearGradient id="barGreen" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0%" stop-color="#5CA46E"/>
+      <stop offset="100%" stop-color="#7EC490"/>
+    </linearGradient>
+  </defs>
+
+  <rect width="1400" height="1050" fill="url(#paperTex)"/>
+  <rect x="0" y="0" width="38" height="1050" fill="#E8E2D3" stroke="#D0C9B8" stroke-width="1"/>
+  <circle cx="19" cy="120" r="10" fill="#FBF8F1" stroke="#C4B8A0" stroke-width="1.5"/>
+  <circle cx="19" cy="280" r="10" fill="#FBF8F1" stroke="#C4B8A0" stroke-width="1.5"/>
+  <circle cx="19" cy="440" r="10" fill="#FBF8F1" stroke="#C4B8A0" stroke-width="1.5"/>
+  <circle cx="19" cy="600" r="10" fill="#FBF8F1" stroke="#C4B8A0" stroke-width="1.5"/>
+  <circle cx="19" cy="760" r="10" fill="#FBF8F1" stroke="#C4B8A0" stroke-width="1.5"/>
+  <circle cx="19" cy="920" r="10" fill="#FBF8F1" stroke="#C4B8A0" stroke-width="1.5"/>
+
+  <g transform="rotate(-3, 1300, 42)">
+    <rect x="1170" y="18" width="200" height="36" rx="3" fill="#5CA46E" opacity="0.88" stroke="#1A1D24" stroke-width="1.5"/>
+    <text x="1270" y="41" text-anchor="middle" font-size="15" font-weight="700" fill="white">#ビジネス</text>
+  </g>
+  <rect x="55" y="18" width="165" height="34" rx="4" fill="#2F3842" stroke="#1A1D24" stroke-width="1.5"/>
+  <text x="138" y="40" text-anchor="middle" font-size="14" font-weight="600" fill="white">2026-05-09</text>
+  <text x="260" y="42" font-size="20" fill="#F5A623">⭐⭐⭐</text>
+
+  <text x="55" y="95" font-size="36" font-weight="900" fill="#1A1D24">🏦 JPMorgan AI「コアインフラ」再分類：$198億テック予算に永久固定</text>
+  <text x="55" y="128" font-size="17" fill="#5C6370">Banking Exchange / JPMorgan Chase｜2026-05-09｜#ビジネス #金融 #インフラ</text>
+  <line x1="55" y1="140" x2="1350" y2="140" stroke="#1A1D24" stroke-width="2"/>
+
+  <g transform="translate(1240, 200)">
+    <circle cx="0" cy="0" r="65" fill="#5CA46E" opacity="0.12" stroke="#5CA46E" stroke-width="2"/>
+    <text x="0" y="12" text-anchor="middle" font-size="60">🏦</text>
+  </g>
+
+  <!-- Key numbers -->
+  <rect x="55" y="158" width="880" height="120" rx="6" fill="white" stroke="#1A1D24" stroke-width="2" filter="url(#softShadow)"/>
+  <text x="85" y="195" font-size="13" fill="#5C6370">年間AI専任予算</text>
+  <text x="85" y="240" font-size="48" font-weight="900" fill="#5CA46E">$20億</text>
+  <text x="85" y="262" font-size="12" fill="#9AA0AB">サイバーセキュリティと同列扱い</text>
+  <line x1="310" y1="173" x2="310" y2="265" stroke="#E8E2D3" stroke-width="1"/>
+  <text x="340" y="195" font-size="13" fill="#5C6370">AI節減効果（年）</text>
+  <text x="340" y="240" font-size="48" font-weight="900" fill="#1A1D24">$20億</text>
+  <text x="340" y="262" font-size="12" fill="#9AA0AB">自己資金調達を達成</text>
+  <line x1="565" y1="173" x2="565" y2="265" stroke="#E8E2D3" stroke-width="1"/>
+  <text x="595" y="195" font-size="13" fill="#5C6370">AML誤検知削減率</text>
+  <text x="595" y="240" font-size="48" font-weight="900" fill="#1A1D24">95%</text>
+  <text x="595" y="262" font-size="12" fill="#9AA0AB">近リアルタイムML監視</text>
+  <line x1="810" y1="173" x2="810" y2="265" stroke="#E8E2D3" stroke-width="1"/>
+  <text x="840" y="195" font-size="13" fill="#5C6370">AI専任スタッフ</text>
+  <text x="840" y="240" font-size="48" font-weight="900" fill="#1A1D24">2,000名</text>
+  <text x="840" y="262" font-size="12" fill="#9AA0AB">15万人の従業員をサポート</text>
+
+  <!-- Budget breakdown chart -->
+  <rect x="55" y="300" width="540" height="290" rx="6" fill="white" stroke="#1A1D24" stroke-width="2" filter="url(#softShadow)"/>
+  <text x="80" y="330" font-size="16" font-weight="700" fill="#1A1D24">JPMorgan 2026年テック予算 $198億の配分</text>
+  <line x1="80" y1="337" x2="400" y2="337" stroke="#5CA46E" stroke-width="2"/>
+  <!-- Pie-like bar breakdown -->
+  <text x="80" y="370" font-size="13" fill="#5C6370">AIインフラ（新分類）</text>
+  <rect x="250" y="355" width="130" height="22" rx="3" fill="url(#barGreen)" stroke="#5CA46E" stroke-width="1.5"/>
+  <text x="388" y="371" font-size="13" font-weight="700" fill="#5CA46E">~$20億</text>
+  <text x="80" y="407" font-size="13" fill="#5C6370">サイバーセキュリティ</text>
+  <rect x="250" y="392" width="100" height="22" rx="3" fill="#9AA0AB"/>
+  <text x="358" y="408" font-size="13" fill="#5C6370">~$15億</text>
+  <text x="80" y="444" font-size="13" fill="#5C6370">データセンター・クラウド</text>
+  <rect x="250" y="429" width="150" height="22" rx="3" fill="#BCC3CC"/>
+  <text x="408" y="445" font-size="13" fill="#5C6370">~$40億</text>
+  <text x="80" y="481" font-size="13" fill="#5C6370">決済・コアシステム</text>
+  <rect x="250" y="466" width="200" height="22" rx="3" fill="#D0D5DC"/>
+  <text x="458" y="482" font-size="13" fill="#5C6370">~$80億</text>
+  <text x="80" y="518" font-size="13" fill="#5C6370">その他IT運用</text>
+  <rect x="250" y="503" width="110" height="22" rx="3" fill="#E4E8ED"/>
+  <text x="368" y="519" font-size="13" fill="#5C6370">~$43億</text>
+  <text x="80" y="568" font-size="13" font-weight="700" fill="#1A1D24">合計</text>
+  <text x="250" y="568" font-size="13" font-weight="700" fill="#1A1D24">$198億（2026年テック総予算）</text>
+
+  <!-- Productivity gains -->
+  <rect x="615" y="300" width="420" height="290" rx="6" fill="white" stroke="#1A1D24" stroke-width="2" filter="url(#softShadow)"/>
+  <text x="640" y="330" font-size="16" font-weight="700" fill="#1A1D24">AI導入による生産性向上</text>
+  <line x1="640" y1="337" x2="860" y2="337" stroke="#5CA46E" stroke-width="2"/>
+  <!-- Metrics -->
+  <text x="640" y="380" font-size="13" fill="#5C6370">エンジニアリング生産性</text>
+  <rect x="640" y="390" width="198" height="30" rx="4" fill="url(#barGreen)"/>
+  <text x="845" y="410" font-size="16" font-weight="900" fill="#5CA46E"> +10〜11%</text>
+  <text x="640" y="445" font-size="13" fill="#5C6370">オペレーション効率</text>
+  <rect x="640" y="455" width="198" height="30" rx="4" fill="url(#barGreen)"/>
+  <text x="845" y="475" font-size="16" font-weight="900" fill="#5CA46E"> +10〜11%</text>
+  <text x="640" y="510" font-size="13" fill="#5C6370">不正検知精度</text>
+  <rect x="640" y="520" width="198" height="30" rx="4" fill="url(#barGreen)"/>
+  <text x="845" y="540" font-size="16" font-weight="900" fill="#5CA46E"> +大幅改善</text>
+  <text x="640" y="575" font-size="13" fill="#5C6370">AML誤検知削減</text>
+  <rect x="640" y="585" width="380" height="30" rx="4" fill="url(#barGreen)" stroke="#5CA46E" stroke-width="1.5"/>
+  <text x="1025" y="605" font-size="16" font-weight="900" fill="#5CA46E"> 95%↓</text>
+
+  <!-- Cards -->
+  <rect x="55" y="615" width="260" height="135" rx="6" fill="white" stroke="#1A1D24" stroke-width="2" filter="url(#softShadow)"/>
+  <rect x="55" y="615" width="260" height="7" rx="3" fill="#5CA46E"/>
+  <text x="75" y="642" font-size="13" font-weight="700" fill="#1A1D24">📌 「再分類」が持つ意味</text>
+  <text x="75" y="660" font-size="11" fill="#5C6370">景気後退でも削れない</text>
+  <text x="75" y="676" font-size="11" fill="#5C6370">非裁量支出へ格上げ</text>
+  <text x="75" y="692" font-size="11" fill="#5C6370">AIベンダーに安定収益を確約</text>
+  <text x="75" y="710" font-size="11" fill="#9AA0AB">BofA・Citi・WFが追随か注目</text>
+  <text x="75" y="735" font-size="17" font-weight="900" fill="#5CA46E">非裁量支出化</text>
+
+  <rect x="335" y="615" width="260" height="135" rx="6" fill="white" stroke="#1A1D24" stroke-width="2" filter="url(#softShadow)"/>
+  <rect x="335" y="615" width="260" height="7" rx="3" fill="#5CA46E"/>
+  <text x="355" y="642" font-size="13" font-weight="700" fill="#1A1D24">🔒 Azure + Snowflake依存</text>
+  <text x="355" y="660" font-size="11" fill="#5C6370">AIインフラをMS Azure・</text>
+  <text x="355" y="676" font-size="11" fill="#5C6370">Snowflakeで運用</text>
+  <text x="355" y="692" font-size="11" fill="#5C6370">規制当局（OCC・Fed）との</text>
+  <text x="355" y="710" font-size="11" fill="#9AA0AB">クラウド依存リスクが潜在</text>
+  <text x="355" y="735" font-size="17" font-weight="900" fill="#1A1D24">相互依存深化</text>
+
+  <rect x="615" y="615" width="260" height="135" rx="6" fill="white" stroke="#1A1D24" stroke-width="2" filter="url(#softShadow)"/>
+  <rect x="615" y="615" width="260" height="7" rx="3" fill="#5CA46E"/>
+  <text x="635" y="642" font-size="13" font-weight="700" fill="#1A1D24">🧠 2,000名モデルの意義</text>
+  <text x="635" y="660" font-size="11" fill="#5C6370">全従業員の1.3%専任が</text>
+  <text x="635" y="676" font-size="11" fill="#5C6370">全社AI基盤を維持管理</text>
+  <text x="635" y="692" font-size="11" fill="#5C6370">「AI対応組織」の典型的</text>
+  <text x="635" y="710" font-size="11" fill="#9AA0AB">アーキテクチャに</text>
+  <text x="635" y="735" font-size="17" font-weight="900" fill="#1A1D24">1.3%専任モデル</text>
+
+  <rect x="895" y="615" width="260" height="135" rx="6" fill="white" stroke="#1A1D24" stroke-width="2" filter="url(#softShadow)"/>
+  <rect x="895" y="615" width="260" height="7" rx="3" fill="#5CA46E"/>
+  <text x="915" y="642" font-size="13" font-weight="700" fill="#1A1D24">🌊 業界への波及効果</text>
+  <text x="915" y="660" font-size="11" fill="#5C6370">「AI=インフラ」認識転換の</text>
+  <text x="915" y="676" font-size="11" fill="#5C6370">象徴的決定。SaaS企業への</text>
+  <text x="915" y="692" font-size="11" fill="#5C6370">AI不採用リスク論と同日発表</text>
+  <text x="915" y="710" font-size="11" fill="#9AA0AB">AIは「やめたら負け」時代へ</text>
+  <text x="915" y="735" font-size="17" font-weight="900" fill="#5CA46E">転換点</text>
+
+  <!-- Sticky notes -->
+  <g transform="rotate(-1.2, 175, 820)" filter="url(#stickyShadow)">
+    <rect x="55" y="775" width="235" height="110" rx="3" fill="#FFF8C5" stroke="#E8D84A" stroke-width="1"/>
+    <text x="75" y="800" font-size="12" font-weight="700" fill="#5C4D00">💡 自己資金調達の意味</text>
+    <text x="75" y="818" font-size="11" fill="#7A6800">$20億投資→$20億節減で</text>
+    <text x="75" y="835" font-size="11" fill="#7A6800">AIが自分のコストを賄う</text>
+    <text x="75" y="852" font-size="11" fill="#7A6800">「フリーランチ」段階に到達</text>
+  </g>
+  <g transform="rotate(1.0, 415, 820)" filter="url(#stickyShadow)">
+    <rect x="310" y="775" width="235" height="110" rx="3" fill="#C8F0FF" stroke="#4DC0E8" stroke-width="1"/>
+    <text x="330" y="800" font-size="12" font-weight="700" fill="#003D5C">🏦 AML 95%削減の価値</text>
+    <text x="330" y="818" font-size="11" fill="#005C85">年間数百億円の人手調査</text>
+    <text x="330" y="835" font-size="11" fill="#005C85">コストが激減。規制当局</text>
+    <text x="330" y="852" font-size="11" fill="#005C85">との関係でも競争優位</text>
+  </g>
+  <g transform="rotate(-0.8, 695, 820)" filter="url(#stickyShadow)">
+    <rect x="575" y="775" width="235" height="110" rx="3" fill="#D4F5D4" stroke="#5CA46E" stroke-width="1"/>
+    <text x="595" y="800" font-size="12" font-weight="700" fill="#1A4D28">📢 次の追随者</text>
+    <text x="595" y="818" font-size="11" fill="#1F6033">BofA・Citi・Wells Fargoが</text>
+    <text x="595" y="835" font-size="11" fill="#1F6033">2026H2に同様の再分類を</text>
+    <text x="595" y="852" font-size="11" fill="#1F6033">発表するかが焦点</text>
+  </g>
+  <g transform="rotate(1.5, 975, 820)" filter="url(#stickyShadow)">
+    <rect x="845" y="775" width="235" height="110" rx="3" fill="#FFE8CC" stroke="#E8A040" stroke-width="1"/>
+    <text x="865" y="800" font-size="12" font-weight="700" fill="#5C3000">🇯🇵 日本金融への示唴</text>
+    <text x="865" y="818" font-size="11" fill="#7A4500">三菱UFJ・みずほ・三井住友</text>
+    <text x="865" y="835" font-size="11" fill="#7A4500">がAIインフラ扱いに移行する</text>
+    <text x="865" y="852" font-size="11" fill="#7A4500">圧力が高まる見通し</text>
+  </g>
+
+  <line x1="55" y1="1020" x2="1350" y2="1020" stroke="#D0C9B8" stroke-width="1"/>
+  <text x="700" y="1040" text-anchor="middle" font-size="12" fill="#9AA0AB" font-style="italic">AI News · 2026-05-09 · JPMorgan Reclassifies AI as Core Infrastructure — $19.8B Tech Budget</text>
+</svg>

@@ -1,0 +1,171 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1400 1050" font-family="-apple-system, 'Hiragino Sans', 'Yu Gothic', sans-serif">
+  <defs>
+    <pattern id="paperTex" patternUnits="userSpaceOnUse" width="100" height="100">
+      <rect width="100" height="100" fill="#FBF8F1"/>
+      <circle cx="20" cy="30" r="0.4" fill="#C4B389" opacity="0.3"/>
+      <circle cx="68" cy="52" r="0.45" fill="#C4B389" opacity="0.25"/>
+    </pattern>
+    <filter id="stickyShadow">
+      <feGaussianBlur in="SourceAlpha" stdDeviation="3"/>
+      <feOffset dx="2" dy="3"/>
+      <feComponentTransfer><feFuncA type="linear" slope="0.25"/></feComponentTransfer>
+      <feMerge><feMergeNode/><feMergeNode in="SourceGraphic"/></feMerge>
+    </filter>
+    <filter id="softShadow">
+      <feGaussianBlur in="SourceAlpha" stdDeviation="2"/>
+      <feOffset dx="1" dy="2"/>
+      <feComponentTransfer><feFuncA type="linear" slope="0.18"/></feComponentTransfer>
+      <feMerge><feMergeNode/><feMergeNode in="SourceGraphic"/></feMerge>
+    </filter>
+    <linearGradient id="barGreen" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0%" stop-color="#5CA46E"/>
+      <stop offset="100%" stop-color="#7EC490"/>
+    </linearGradient>
+  </defs>
+  <rect width="1400" height="1050" fill="url(#paperTex)"/>
+  <rect x="0" y="0" width="38" height="1050" fill="#E8E2D3" stroke="#D0C9B8" stroke-width="1"/>
+  <circle cx="19" cy="120" r="10" fill="#FBF8F1" stroke="#C4B8A0" stroke-width="1.5"/>
+  <circle cx="19" cy="280" r="10" fill="#FBF8F1" stroke="#C4B8A0" stroke-width="1.5"/>
+  <circle cx="19" cy="440" r="10" fill="#FBF8F1" stroke="#C4B8A0" stroke-width="1.5"/>
+  <circle cx="19" cy="600" r="10" fill="#FBF8F1" stroke="#C4B8A0" stroke-width="1.5"/>
+  <circle cx="19" cy="760" r="10" fill="#FBF8F1" stroke="#C4B8A0" stroke-width="1.5"/>
+  <circle cx="19" cy="920" r="10" fill="#FBF8F1" stroke="#C4B8A0" stroke-width="1.5"/>
+  <g transform="rotate(-3, 1300, 42)">
+    <rect x="1170" y="18" width="200" height="36" rx="3" fill="#5CA46E" opacity="0.88" stroke="#1A1D24" stroke-width="1.5"/>
+    <text x="1270" y="41" text-anchor="middle" font-size="15" font-weight="700" fill="white">#ビジネス</text>
+  </g>
+  <rect x="55" y="18" width="165" height="34" rx="4" fill="#2F3842" stroke="#1A1D24" stroke-width="1.5"/>
+  <text x="138" y="40" text-anchor="middle" font-size="14" font-weight="600" fill="white">2026-05-09</text>
+  <text x="260" y="42" font-size="20" fill="#F5A623">⭐⭐</text>
+  <text x="55" y="95" font-size="36" font-weight="900" fill="#1A1D24">💊 ノボ ノルディスク × OpenAI：創薬〜製造〜商業まで全社AI統合</text>
+  <text x="55" y="128" font-size="17" fill="#5C6370">Novo Nordisk / Reuters｜2026-05-09｜#ビジネス #製薬 #ヘルスケア #創薬</text>
+  <line x1="55" y1="140" x2="1350" y2="140" stroke="#1A1D24" stroke-width="2"/>
+  <g transform="translate(1250, 200)">
+    <circle cx="0" cy="0" r="65" fill="#5CA46E" opacity="0.12" stroke="#5CA46E" stroke-width="2"/>
+    <text x="0" y="12" text-anchor="middle" font-size="58">💊</text>
+  </g>
+  <!-- Key numbers -->
+  <rect x="55" y="158" width="880" height="120" rx="6" fill="white" stroke="#1A1D24" stroke-width="2" filter="url(#softShadow)"/>
+  <text x="85" y="195" font-size="13" fill="#5C6370">展開完了目標</text>
+  <text x="85" y="240" font-size="48" font-weight="900" fill="#5CA46E">2026年末</text>
+  <text x="85" y="262" font-size="12" fill="#9AA0AB">全事業領域にGPT-5.x統合</text>
+  <line x1="350" y1="173" x2="350" y2="265" stroke="#E8E2D3" stroke-width="1"/>
+  <text x="380" y="195" font-size="13" fill="#5C6370">対象事業領域</text>
+  <text x="380" y="240" font-size="36" font-weight="900" fill="#1A1D24">5領域全て</text>
+  <text x="380" y="262" font-size="12" fill="#9AA0AB">創薬・臨床・製造・SCM・商業</text>
+  <line x1="700" y1="173" x2="700" y2="265" stroke="#E8E2D3" stroke-width="1"/>
+  <text x="730" y="195" font-size="13" fill="#5C6370">GLP-1市場競合</text>
+  <text x="730" y="240" font-size="36" font-weight="900" fill="#1A1D24">Eli Lilly</text>
+  <text x="730" y="262" font-size="12" fill="#9AA0AB">ティルゼパチドで先行奪われ</text>
+  <!-- Business flow -->
+  <rect x="55" y="300" width="1080" height="110" rx="6" fill="white" stroke="#1A1D24" stroke-width="2" filter="url(#softShadow)"/>
+  <text x="80" y="327" font-size="16" font-weight="700" fill="#1A1D24">AI統合の5段階パイプライン（2026年末 完全展開）</text>
+  <line x1="80" y1="334" x2="440" y2="334" stroke="#5CA46E" stroke-width="2"/>
+  <!-- Step 1 -->
+  <rect x="80" y="348" width="175" height="50" rx="5" fill="#D4F5D4" stroke="#5CA46E" stroke-width="1.5"/>
+  <text x="167" y="369" text-anchor="middle" font-size="13" font-weight="700" fill="#1A4D28">① 創薬・候補探索</text>
+  <text x="167" y="389" text-anchor="middle" font-size="11" fill="#1F6033">文献解析・構造予測</text>
+  <text x="265" y="375" font-size="18" fill="#5CA46E">→</text>
+  <!-- Step 2 -->
+  <rect x="275" y="348" width="175" height="50" rx="5" fill="#D4F5D4" stroke="#5CA46E" stroke-width="1.5"/>
+  <text x="362" y="369" text-anchor="middle" font-size="13" font-weight="700" fill="#1A4D28">② 臨床試験設計</text>
+  <text x="362" y="389" text-anchor="middle" font-size="11" fill="#1F6033">プロトコル最適化</text>
+  <text x="460" y="375" font-size="18" fill="#5CA46E">→</text>
+  <!-- Step 3 -->
+  <rect x="470" y="348" width="175" height="50" rx="5" fill="#D4F5D4" stroke="#5CA46E" stroke-width="1.5"/>
+  <text x="557" y="369" text-anchor="middle" font-size="13" font-weight="700" fill="#1A4D28">③ 製造効率化</text>
+  <text x="557" y="389" text-anchor="middle" font-size="11" fill="#1F6033">品質管理・歩留まり</text>
+  <text x="655" y="375" font-size="18" fill="#5CA46E">→</text>
+  <!-- Step 4 -->
+  <rect x="665" y="348" width="175" height="50" rx="5" fill="#D4F5D4" stroke="#5CA46E" stroke-width="1.5"/>
+  <text x="752" y="369" text-anchor="middle" font-size="13" font-weight="700" fill="#1A4D28">④ SCM最適化</text>
+  <text x="752" y="389" text-anchor="middle" font-size="11" fill="#1F6033">需要予測・在庫</text>
+  <text x="850" y="375" font-size="18" fill="#5CA46E">→</text>
+  <!-- Step 5 -->
+  <rect x="860" y="348" width="175" height="50" rx="5" fill="#D4F5D4" stroke="#5CA46E" stroke-width="1.5"/>
+  <text x="947" y="369" text-anchor="middle" font-size="13" font-weight="700" fill="#1A4D28">⑤ 商業・マーケ</text>
+  <text x="947" y="389" text-anchor="middle" font-size="11" fill="#1F6033">営業支援・分析</text>
+  <!-- Drug timeline comparison -->
+  <rect x="55" y="430" width="540" height="220" rx="6" fill="white" stroke="#1A1D24" stroke-width="2" filter="url(#softShadow)"/>
+  <text x="80" y="460" font-size="16" font-weight="700" fill="#1A1D24">創薬タイムライン：AI前後比較</text>
+  <line x1="80" y1="467" x2="360" y2="467" stroke="#5CA46E" stroke-width="2"/>
+  <!-- Traditional -->
+  <text x="80" y="500" font-size="14" fill="#5C6370">従来型創薬サイクル</text>
+  <rect x="80" y="510" width="460" height="28" rx="4" fill="#D0D5DC"/>
+  <text x="310" y="529" text-anchor="middle" font-size="13" font-weight="700" fill="#5C6370">10〜15年</text>
+  <!-- AI assisted -->
+  <text x="80" y="560" font-size="14" fill="#5C6370">AI支援（ノボ目標）</text>
+  <rect x="80" y="570" width="230" height="28" rx="4" fill="url(#barGreen)" stroke="#5CA46E" stroke-width="1.5"/>
+  <text x="195" y="589" text-anchor="middle" font-size="13" font-weight="700" fill="white">大幅短縮目標</text>
+  <!-- Lilly comparison -->
+  <rect x="80" y="615" width="460" height="22" rx="3" fill="#FFE8E8" stroke="#E05C5C" stroke-width="1"/>
+  <text x="310" y="631" text-anchor="middle" font-size="12" fill="#B83030">競合 Eli Lilly ティルゼパチドで GLP-1先行奪取中</text>
+  <!-- OpenAI healthcare stack -->
+  <rect x="615" y="430" width="520" height="220" rx="6" fill="white" stroke="#1A1D24" stroke-width="2" filter="url(#softShadow)"/>
+  <text x="640" y="460" font-size="16" font-weight="700" fill="#1A1D24">OpenAIヘルスケア垂直統合戦略</text>
+  <line x1="640" y1="467" x2="940" y2="467" stroke="#5CA46E" stroke-width="2"/>
+  <!-- Timeline -->
+  <text x="640" y="500" font-size="13" fill="#5C6370">2025年10月：Roi（個人金融）acqui-hire</text>
+  <text x="640" y="522" font-size="13" fill="#5C6370">2026年4月：Hiro Finance acqui-hire</text>
+  <text x="640" y="544" font-size="13" font-weight="700" fill="#5CA46E">2026年5月：Novo Nordisk 戦略提携（創薬）</text>
+  <text x="640" y="566" font-size="13" fill="#5C6370">→「人生の二大リスク」市場：金融 + 医療</text>
+  <rect x="640" y="580" width="470" height="55" rx="4" fill="#E8F5E8" stroke="#5CA46E" stroke-width="1.5"/>
+  <text x="875" y="602" text-anchor="middle" font-size="13" font-weight="700" fill="#1A4D28">ChatGPTを「生活全般のAI OS」へ</text>
+  <text x="875" y="622" text-anchor="middle" font-size="12" fill="#1F6033">$7兆の個人金融 + $X兆の医療・製薬市場を同時攻略</text>
+  <!-- Cards -->
+  <rect x="55" y="670" width="280" height="120" rx="6" fill="white" stroke="#1A1D24" stroke-width="2" filter="url(#softShadow)"/>
+  <rect x="55" y="670" width="280" height="7" rx="3" fill="#5CA46E"/>
+  <text x="75" y="697" font-size="13" font-weight="700" fill="#1A1D24">🧬 GLP-1逆転の切り札</text>
+  <text x="75" y="715" font-size="11" fill="#5C6370">次世代GLP-1/GLP-2・アミリン</text>
+  <text x="75" y="731" font-size="11" fill="#5C6370">アナログでLilly追撃が目標</text>
+  <text x="75" y="747" font-size="11" fill="#9AA0AB">2026〜2028年の競争が鍵</text>
+  <rect x="355" y="670" width="280" height="120" rx="6" fill="white" stroke="#1A1D24" stroke-width="2" filter="url(#softShadow)"/>
+  <rect x="355" y="670" width="280" height="7" rx="3" fill="#5CA46E"/>
+  <text x="375" y="697" font-size="13" font-weight="700" fill="#1A1D24">👥 「AI加速」vs 採用抑制</text>
+  <text x="375" y="715" font-size="11" fill="#5C6370">「科学者を代替しない」が建前</text>
+  <text x="375" y="731" font-size="11" fill="#5C6370">採用抑制を同時に認める矛盾</text>
+  <text x="375" y="747" font-size="11" fill="#9AA0AB">製薬業界の本音が露呈</text>
+  <rect x="655" y="670" width="280" height="120" rx="6" fill="white" stroke="#1A1D24" stroke-width="2" filter="url(#softShadow)"/>
+  <rect x="655" y="670" width="280" height="7" rx="3" fill="#5CA46E"/>
+  <text x="675" y="697" font-size="13" font-weight="700" fill="#1A1D24">⚖️ FDA・EMAとの摩擦</text>
+  <text x="675" y="715" font-size="11" fill="#5C6370">AI支援創薬の透明性基準</text>
+  <text x="675" y="731" font-size="11" fill="#5C6370">未確立・臨床試験申請書での</text>
+  <text x="675" y="747" font-size="11" fill="#9AA0AB">説明責任が未解決</text>
+  <rect x="955" y="670" width="280" height="120" rx="6" fill="white" stroke="#1A1D24" stroke-width="2" filter="url(#softShadow)"/>
+  <rect x="955" y="670" width="280" height="7" rx="3" fill="#5CA46E"/>
+  <text x="975" y="697" font-size="13" font-weight="700" fill="#1A1D24">🌏 日本製薬への波及</text>
+  <text x="975" y="715" font-size="11" fill="#5C6370">武田・大塚・第一三共が</text>
+  <text x="975" y="731" font-size="11" fill="#5C6370">類似提携の交渉ベンチマーク</text>
+  <text x="975" y="747" font-size="11" fill="#9AA0AB">スコープ・価格の参照事例に</text>
+  <!-- Sticky notes -->
+  <g transform="rotate(-1.5, 175, 848)" filter="url(#stickyShadow)">
+    <rect x="55" y="810" width="235" height="100" rx="3" fill="#FFF8C5" stroke="#E8D84A" stroke-width="1"/>
+    <text x="75" y="831" font-size="12" font-weight="700" fill="#5C4D00">💡 OpenAIの最大契約</text>
+    <text x="75" y="849" font-size="11" fill="#7A6800">製薬全社統合は規模的に</text>
+    <text x="75" y="866" font-size="11" fill="#7A6800">OpenAIヘルスケア案件で</text>
+    <text x="75" y="883" font-size="11" fill="#7A6800">最大級のフラッグシップ</text>
+  </g>
+  <g transform="rotate(1.2, 420, 848)" filter="url(#stickyShadow)">
+    <rect x="310" y="810" width="235" height="100" rx="3" fill="#C8F0FF" stroke="#4DC0E8" stroke-width="1"/>
+    <text x="330" y="831" font-size="12" font-weight="700" fill="#003D5C">🔬 創薬AIの限界</text>
+    <text x="330" y="849" font-size="11" fill="#005C85">GPT系はテキスト/構造予測は</text>
+    <text x="330" y="866" font-size="11" fill="#005C85">得意だが実験・合成の自動化</text>
+    <text x="330" y="883" font-size="11" fill="#005C85">は依然として人間が必要</text>
+  </g>
+  <g transform="rotate(-0.8, 695, 848)" filter="url(#stickyShadow)">
+    <rect x="575" y="810" width="235" height="100" rx="3" fill="#D4F5D4" stroke="#5CA46E" stroke-width="1"/>
+    <text x="595" y="831" font-size="12" font-weight="700" fill="#1A4D28">📋 AIリテラシー条件</text>
+    <text x="595" y="849" font-size="11" fill="#1F6033">従業員AIリテラシープログラム</text>
+    <text x="595" y="866" font-size="11" fill="#1F6033">が契約に明示されるのは</text>
+    <text x="595" y="883" font-size="11" fill="#1F6033">業界初の先例</text>
+  </g>
+  <g transform="rotate(1.0, 950, 848)" filter="url(#stickyShadow)">
+    <rect x="825" y="810" width="235" height="100" rx="3" fill="#FFE8CC" stroke="#E8A040" stroke-width="1"/>
+    <text x="845" y="831" font-size="12" font-weight="700" fill="#5C3000">⏱️ 半年後の注目</text>
+    <text x="845" y="849" font-size="11" fill="#7A4500">2026年末完全展開後の</text>
+    <text x="845" y="866" font-size="11" fill="#7A4500">創薬パイプライン件数変化</text>
+    <text x="845" y="883" font-size="11" fill="#7A4500">が成果の最初の証拠に</text>
+  </g>
+  <line x1="55" y1="1020" x2="1350" y2="1020" stroke="#D0C9B8" stroke-width="1"/>
+  <text x="700" y="1040" text-anchor="middle" font-size="12" fill="#9AA0AB" font-style="italic">AI News · 2026-05-09 · Novo Nordisk × OpenAI — Full Business AI Integration by End of 2026</text>
+</svg>

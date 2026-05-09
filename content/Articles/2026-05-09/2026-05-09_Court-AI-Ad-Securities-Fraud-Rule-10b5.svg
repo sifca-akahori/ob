@@ -1,0 +1,151 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1400 1050" font-family="-apple-system, 'Hiragino Sans', 'Yu Gothic', sans-serif">
+  <defs>
+    <pattern id="paperTex" patternUnits="userSpaceOnUse" width="100" height="100">
+      <rect width="100" height="100" fill="#FBF8F1"/>
+      <circle cx="22" cy="32" r="0.4" fill="#C4B389" opacity="0.3"/>
+      <circle cx="70" cy="55" r="0.45" fill="#C4B389" opacity="0.25"/>
+    </pattern>
+    <filter id="stickyShadow">
+      <feGaussianBlur in="SourceAlpha" stdDeviation="3"/>
+      <feOffset dx="2" dy="3"/>
+      <feComponentTransfer><feFuncA type="linear" slope="0.25"/></feComponentTransfer>
+      <feMerge><feMergeNode/><feMergeNode in="SourceGraphic"/></feMerge>
+    </filter>
+    <filter id="softShadow">
+      <feGaussianBlur in="SourceAlpha" stdDeviation="2"/>
+      <feOffset dx="1" dy="2"/>
+      <feComponentTransfer><feFuncA type="linear" slope="0.18"/></feComponentTransfer>
+      <feMerge><feMergeNode/><feMergeNode in="SourceGraphic"/></feMerge>
+    </filter>
+  </defs>
+  <rect width="1400" height="1050" fill="url(#paperTex)"/>
+  <rect x="0" y="0" width="38" height="1050" fill="#E8E2D3" stroke="#D0C9B8" stroke-width="1"/>
+  <circle cx="19" cy="120" r="10" fill="#FBF8F1" stroke="#C4B8A0" stroke-width="1.5"/>
+  <circle cx="19" cy="280" r="10" fill="#FBF8F1" stroke="#C4B8A0" stroke-width="1.5"/>
+  <circle cx="19" cy="440" r="10" fill="#FBF8F1" stroke="#C4B8A0" stroke-width="1.5"/>
+  <circle cx="19" cy="600" r="10" fill="#FBF8F1" stroke="#C4B8A0" stroke-width="1.5"/>
+  <circle cx="19" cy="760" r="10" fill="#FBF8F1" stroke="#C4B8A0" stroke-width="1.5"/>
+  <circle cx="19" cy="920" r="10" fill="#FBF8F1" stroke="#C4B8A0" stroke-width="1.5"/>
+  <g transform="rotate(-3, 1300, 42)">
+    <rect x="1170" y="18" width="200" height="36" rx="3" fill="#E8A87C" opacity="0.88" stroke="#1A1D24" stroke-width="1.5"/>
+    <text x="1270" y="41" text-anchor="middle" font-size="15" font-weight="700" fill="white">#SNS</text>
+  </g>
+  <rect x="55" y="18" width="165" height="34" rx="4" fill="#2F3842" stroke="#1A1D24" stroke-width="1.5"/>
+  <text x="138" y="40" text-anchor="middle" font-size="14" font-weight="600" fill="white">2026-05-09</text>
+  <text x="260" y="42" font-size="20" fill="#F5A623">⭐⭐</text>
+  <text x="55" y="95" font-size="34" font-weight="900" fill="#1A1D24">⚖️ 連邦地裁：AI生成広告コンテンツが証券詐欺リスク——Meta・Google・Snap露出</text>
+  <text x="55" y="128" font-size="17" fill="#5C6370">Reuters / Law360｜2026-05-09｜#SNS #規制 #法律 #広告 #証券詐欺</text>
+  <line x1="55" y1="140" x2="1350" y2="140" stroke="#1A1D24" stroke-width="2"/>
+  <g transform="translate(1250, 200)">
+    <circle cx="0" cy="0" r="65" fill="#E8A87C" opacity="0.18" stroke="#E8A87C" stroke-width="2"/>
+    <text x="0" y="12" text-anchor="middle" font-size="58">⚖️</text>
+  </g>
+  <!-- Key numbers -->
+  <rect x="55" y="158" width="880" height="120" rx="6" fill="white" stroke="#1A1D24" stroke-width="2" filter="url(#softShadow)"/>
+  <text x="85" y="195" font-size="13" fill="#5C6370">影響受ける企業</text>
+  <text x="85" y="240" font-size="48" font-weight="900" fill="#E8A87C">5社</text>
+  <text x="85" y="262" font-size="12" fill="#9AA0AB">Meta・Alphabet・Snap・TikTok・X</text>
+  <line x1="310" y1="173" x2="310" y2="265" stroke="#E8E2D3" stroke-width="1"/>
+  <text x="340" y="195" font-size="13" fill="#5C6370">判決の根拠法</text>
+  <text x="340" y="240" font-size="36" font-weight="900" fill="#1A1D24">Rule 10b-5</text>
+  <text x="340" y="262" font-size="12" fill="#9AA0AB">証券取引所法10条・重要事実不開示</text>
+  <line x1="640" y1="173" x2="640" y2="265" stroke="#E8E2D3" stroke-width="1"/>
+  <text x="670" y="195" font-size="13" fill="#5C6370">Meta広告収益（2025）</text>
+  <text x="670" y="240" font-size="48" font-weight="900" fill="#1A1D24">$1,400億+</text>
+  <text x="670" y="262" font-size="12" fill="#9AA0AB">AI開示義務が課されると影響甚大</text>
+  <!-- Legal framework -->
+  <rect x="55" y="300" width="560" height="230" rx="6" fill="white" stroke="#1A1D24" stroke-width="2" filter="url(#softShadow)"/>
+  <text x="80" y="330" font-size="16" font-weight="700" fill="#1A1D24">法律理論の構造（Rule 10b-5）</text>
+  <line x1="80" y1="337" x2="380" y2="337" stroke="#E8A87C" stroke-width="2"/>
+  <!-- Logic chain -->
+  <rect x="80" y="355" width="460" height="40" rx="4" fill="#FFF0E0" stroke="#E8A87C" stroke-width="1.5"/>
+  <text x="310" y="371" text-anchor="middle" font-size="13" font-weight="700" fill="#5C3800">前提：AI生成広告が効果・ブランドリスク・規制リスクに影響</text>
+  <text x="310" y="387" text-anchor="middle" font-size="12" fill="#5C3800">→ 投資家判断に影響する「重要事実」に該当し得る</text>
+  <text x="310" y="412" text-anchor="middle" font-size="18" fill="#E8A87C">↓</text>
+  <rect x="80" y="420" width="460" height="40" rx="4" fill="#FFE8E0" stroke="#E05C5C" stroke-width="1.5"/>
+  <text x="310" y="436" text-anchor="middle" font-size="13" font-weight="700" fill="#B83030">結論：AI関与を開示しない場合 = 重要事実の不開示</text>
+  <text x="310" y="452" text-anchor="middle" font-size="12" fill="#B83030">→ Rule 10b-5の証券詐欺要件を満たし得る</text>
+  <text x="310" y="477" text-anchor="middle" font-size="18" fill="#E8A87C">↓</text>
+  <rect x="80" y="484" width="460" height="32" rx="4" fill="#E8F0FF" stroke="#5B8DEF" stroke-width="1.5"/>
+  <text x="310" y="501" text-anchor="middle" font-size="13" fill="#2952A3">未解決：「どの程度のAI関与が重要性閾値を超えるか」は不明</text>
+  <text x="310" y="516" text-anchor="middle" font-size="12" fill="#2952A3">→ 次の裁判所判断を待つ状態</text>
+  <!-- Companies at risk -->
+  <rect x="635" y="300" width="500" height="230" rx="6" fill="white" stroke="#1A1D24" stroke-width="2" filter="url(#softShadow)"/>
+  <text x="660" y="330" font-size="16" font-weight="700" fill="#1A1D24">リスクに露出する5社の状況</text>
+  <line x1="660" y1="337" x2="900" y2="337" stroke="#E8A87C" stroke-width="2"/>
+  <!-- Company list -->
+  <text x="660" y="368" font-size="13" font-weight="700" fill="#1A1D24">Meta</text>
+  <text x="760" y="368" font-size="13" fill="#5C6370">広告収益$1,400億 / AI Advantage广告最適化</text>
+  <rect x="660" y="374" width="440" height="2" rx="1" fill="#E8E2D3"/>
+  <text x="660" y="400" font-size="13" font-weight="700" fill="#1A1D24">Alphabet（Google）</text>
+  <text x="660" y="418" font-size="13" fill="#5C6370">Performance Max / 広告収益$1,700億+</text>
+  <rect x="660" y="424" width="440" height="2" rx="1" fill="#E8E2D3"/>
+  <text x="660" y="450" font-size="13" font-weight="700" fill="#1A1D24">Snap</text>
+  <text x="760" y="450" font-size="13" fill="#5C6370">AI生成AR広告 / 比較的小規模</text>
+  <rect x="660" y="456" width="440" height="2" rx="1" fill="#E8E2D3"/>
+  <text x="660" y="482" font-size="13" font-weight="700" fill="#1A1D24">TikTok</text>
+  <text x="760" y="482" font-size="13" fill="#5C6370">Symphony AI広告 / 米当局注視下</text>
+  <rect x="660" y="488" width="440" height="2" rx="1" fill="#E8E2D3"/>
+  <text x="660" y="514" font-size="13" font-weight="700" fill="#E05C5C">X Corp（最大リスク）</text>
+  <text x="660" y="532" font-size="13" fill="#E05C5C">広告透明性縮小・AI関与開示が最も低水準</text>
+  <!-- Cards -->
+  <rect x="55" y="550" width="280" height="125" rx="6" fill="white" stroke="#1A1D24" stroke-width="2" filter="url(#softShadow)"/>
+  <rect x="55" y="550" width="280" height="7" rx="3" fill="#E8A87C"/>
+  <text x="75" y="577" font-size="13" font-weight="700" fill="#1A1D24">📋 SEC調査の流れ</text>
+  <text x="75" y="595" font-size="11" fill="#5C6370">確定→SEC調査最初ターゲットは</text>
+  <text x="75" y="611" font-size="11" fill="#5C6370">透明性が最も低いX Corp</text>
+  <text x="75" y="627" font-size="11" fill="#5C6370">Musk係争中でのリスク追加</text>
+  <text x="75" y="658" font-size="17" font-weight="900" fill="#E8A87C">X Corp最大リスク</text>
+  <rect x="355" y="550" width="280" height="125" rx="6" fill="white" stroke="#1A1D24" stroke-width="2" filter="url(#softShadow)"/>
+  <rect x="355" y="550" width="280" height="7" rx="3" fill="#E8A87C"/>
+  <text x="375" y="577" font-size="13" font-weight="700" fill="#1A1D24">🎯 定義問題の曖昧さ</text>
+  <text x="375" y="595" font-size="11" fill="#5C6370">「何がAI生成か」の定義なし</text>
+  <text x="375" y="611" font-size="11" fill="#5C6370">完全自動〜人間選択まで</text>
+  <text x="375" y="627" font-size="11" fill="#5C6370">連続体が曖昧さを生む</text>
+  <text x="375" y="658" font-size="17" font-weight="900" fill="#1A1D24">定義未確立</text>
+  <rect x="655" y="550" width="280" height="125" rx="6" fill="white" stroke="#1A1D24" stroke-width="2" filter="url(#softShadow)"/>
+  <rect x="655" y="550" width="280" height="7" rx="3" fill="#E8A87C"/>
+  <text x="675" y="577" font-size="13" font-weight="700" fill="#1A1D24">🏢 代理店への波及</text>
+  <text x="675" y="595" font-size="11" fill="#5C6370">電通・WPP・Publicisが</text>
+  <text x="675" y="611" font-size="11" fill="#5C6370">新たなAI開示ガイドラインを</text>
+  <text x="675" y="627" font-size="11" fill="#5C6370">顧客向けに策定へ</text>
+  <text x="675" y="658" font-size="17" font-weight="900" fill="#1A1D24">代理店ガイドライン改定</text>
+  <rect x="955" y="550" width="280" height="125" rx="6" fill="white" stroke="#1A1D24" stroke-width="2" filter="url(#softShadow)"/>
+  <rect x="955" y="550" width="280" height="7" rx="3" fill="#E8A87C"/>
+  <text x="975" y="577" font-size="13" font-weight="700" fill="#1A1D24">🔏 C2PA義務化への道</text>
+  <text x="975" y="595" font-size="11" fill="#5C6370">AIコンテンツのウォーターマーク</text>
+  <text x="975" y="611" font-size="11" fill="#5C6370">（C2PA等）義務化への議会</text>
+  <text x="975" y="627" font-size="11" fill="#5C6370">立法圧力の伏線となる</text>
+  <text x="975" y="658" font-size="17" font-weight="900" fill="#E8A87C">C2PA立法化</text>
+  <!-- Sticky notes -->
+  <g transform="rotate(-1.5, 175, 848)" filter="url(#stickyShadow)">
+    <rect x="55" y="710" width="235" height="100" rx="3" fill="#FFF8C5" stroke="#E8D84A" stroke-width="1"/>
+    <text x="75" y="731" font-size="12" font-weight="700" fill="#5C4D00">⚖️ 一審レベルの注意</text>
+    <text x="75" y="749" font-size="11" fill="#7A6800">現在は地裁レベル・上訴確実</text>
+    <text x="75" y="766" font-size="11" fill="#7A6800">最高裁まで進む可能性を</text>
+    <text x="75" y="783" font-size="11" fill="#7A6800">排除できない重要判決</text>
+  </g>
+  <g transform="rotate(1.2, 420, 848)" filter="url(#stickyShadow)">
+    <rect x="310" y="710" width="235" height="100" rx="3" fill="#C8F0FF" stroke="#4DC0E8" stroke-width="1"/>
+    <text x="330" y="731" font-size="12" font-weight="700" fill="#003D5C">📢 PR戦術の見方も</text>
+    <text x="330" y="749" font-size="11" fill="#005C85">弁護士が「試してみる」誘因は</text>
+    <text x="330" y="766" font-size="11" fill="#005C85">定義の曖昧さで増える</text>
+    <text x="330" y="783" font-size="11" fill="#005C85">訴訟合戦の引き金になる可能性</text>
+  </g>
+  <g transform="rotate(-0.8, 695, 848)" filter="url(#stickyShadow)">
+    <rect x="575" y="710" width="235" height="100" rx="3" fill="#D4F5D4" stroke="#5CA46E" stroke-width="1"/>
+    <text x="595" y="731" font-size="12" font-weight="700" fill="#1A4D28">💡 EPS開示への影響</text>
+    <text x="595" y="749" font-size="11" fill="#1F6033">四半期EPSに「AIコンテンツ</text>
+    <text x="595" y="766" font-size="11" fill="#1F6033">リスク調整」項目が追加され</text>
+    <text x="595" y="783" font-size="11" fill="#1F6033">ボラティリティ上昇の懸念</text>
+  </g>
+  <g transform="rotate(1.0, 960, 848)" filter="url(#stickyShadow)">
+    <rect x="835" y="710" width="235" height="100" rx="3" fill="#FFE8CC" stroke="#E8A040" stroke-width="1"/>
+    <text x="855" y="731" font-size="12" font-weight="700" fill="#5C3000">🔭 長期的帰結</text>
+    <text x="855" y="749" font-size="11" fill="#7A4500">「人間と区別不能なAI広告」</text>
+    <text x="855" y="766" font-size="11" fill="#7A4500">展開リスクが高まり</text>
+    <text x="855" y="783" font-size="11" fill="#7A4500">透明性開示が業界標準化へ</text>
+  </g>
+  <line x1="55" y1="1020" x2="1350" y2="1020" stroke="#D0C9B8" stroke-width="1"/>
+  <text x="700" y="1040" text-anchor="middle" font-size="12" fill="#9AA0AB" font-style="italic">AI News · 2026-05-09 · Federal Court: AI-Assembled Ad Content May Trigger Securities Fraud Liability</text>
+</svg>

@@ -1,0 +1,183 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1400 1050" font-family="-apple-system, 'Hiragino Sans', 'Yu Gothic', sans-serif">
+  <defs>
+    <pattern id="paperTex" patternUnits="userSpaceOnUse" width="100" height="100">
+      <rect width="100" height="100" fill="#FBF8F1"/>
+      <circle cx="18" cy="25" r="0.4" fill="#C4B389" opacity="0.3"/>
+      <circle cx="68" cy="50" r="0.5" fill="#C4B389" opacity="0.25"/>
+    </pattern>
+    <filter id="stickyShadow">
+      <feGaussianBlur in="SourceAlpha" stdDeviation="3"/>
+      <feOffset dx="2" dy="3"/>
+      <feComponentTransfer><feFuncA type="linear" slope="0.25"/></feComponentTransfer>
+      <feMerge><feMergeNode/><feMergeNode in="SourceGraphic"/></feMerge>
+    </filter>
+    <filter id="softShadow">
+      <feGaussianBlur in="SourceAlpha" stdDeviation="2"/>
+      <feOffset dx="1" dy="2"/>
+      <feComponentTransfer><feFuncA type="linear" slope="0.18"/></feComponentTransfer>
+      <feMerge><feMergeNode/><feMergeNode in="SourceGraphic"/></feMerge>
+    </filter>
+    <linearGradient id="barBlue" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0%" stop-color="#5B8DEF"/>
+      <stop offset="100%" stop-color="#7BA7F5"/>
+    </linearGradient>
+  </defs>
+
+  <rect width="1400" height="1050" fill="url(#paperTex)"/>
+  <rect x="0" y="0" width="38" height="1050" fill="#E8E2D3" stroke="#D0C9B8" stroke-width="1"/>
+  <circle cx="19" cy="120" r="10" fill="#FBF8F1" stroke="#C4B8A0" stroke-width="1.5"/>
+  <circle cx="19" cy="280" r="10" fill="#FBF8F1" stroke="#C4B8A0" stroke-width="1.5"/>
+  <circle cx="19" cy="440" r="10" fill="#FBF8F1" stroke="#C4B8A0" stroke-width="1.5"/>
+  <circle cx="19" cy="600" r="10" fill="#FBF8F1" stroke="#C4B8A0" stroke-width="1.5"/>
+  <circle cx="19" cy="760" r="10" fill="#FBF8F1" stroke="#C4B8A0" stroke-width="1.5"/>
+  <circle cx="19" cy="920" r="10" fill="#FBF8F1" stroke="#C4B8A0" stroke-width="1.5"/>
+
+  <g transform="rotate(-3, 1300, 42)">
+    <rect x="1170" y="18" width="200" height="36" rx="3" fill="#5B8DEF" opacity="0.88" stroke="#1A1D24" stroke-width="1.5"/>
+    <text x="1270" y="41" text-anchor="middle" font-size="15" font-weight="700" fill="white">#研究</text>
+  </g>
+  <rect x="55" y="18" width="165" height="34" rx="4" fill="#2F3842" stroke="#1A1D24" stroke-width="1.5"/>
+  <text x="138" y="40" text-anchor="middle" font-size="14" font-weight="600" fill="white">2026-05-09</text>
+  <text x="260" y="42" font-size="20" fill="#F5A623">⭐⭐</text>
+
+  <text x="55" y="95" font-size="36" font-weight="900" fill="#1A1D24">🦜 Meta Muse Spark：Llamaを捨て独自旗艦へ・医療AI全競合超過</text>
+  <text x="55" y="128" font-size="17" fill="#5C6370">TechCrunch / VentureBeat｜2026-05-09｜#研究 #Meta #LLM #Muse-Spark</text>
+  <line x1="55" y1="140" x2="1350" y2="140" stroke="#1A1D24" stroke-width="2"/>
+
+  <g transform="translate(1250, 200)">
+    <circle cx="0" cy="0" r="65" fill="#5B8DEF" opacity="0.12" stroke="#5B8DEF" stroke-width="2"/>
+    <text x="0" y="12" text-anchor="middle" font-size="58">🦜</text>
+  </g>
+
+  <!-- Key numbers -->
+  <rect x="55" y="158" width="900" height="120" rx="6" fill="white" stroke="#1A1D24" stroke-width="2" filter="url(#softShadow)"/>
+  <text x="85" y="195" font-size="13" fill="#5C6370">AI Analysis IQ v4.0</text>
+  <text x="85" y="240" font-size="48" font-weight="900" fill="#5B8DEF">4位（52点）</text>
+  <text x="85" y="262" font-size="12" fill="#9AA0AB">GPT-5.4/Gemini 3.1（57点）に次ぐ</text>
+  <line x1="380" y1="173" x2="380" y2="265" stroke="#E8E2D3" stroke-width="1"/>
+  <text x="410" y="195" font-size="13" fill="#5C6370">2026年AI Capex</text>
+  <text x="410" y="240" font-size="48" font-weight="900" fill="#1A1D24">$1,350億</text>
+  <text x="410" y="262" font-size="12" fill="#9AA0AB">前年比ほぼ2倍（$115〜135B幅）</text>
+  <line x1="730" y1="173" x2="730" y2="265" stroke="#E8E2D3" stroke-width="1"/>
+  <text x="760" y="195" font-size="13" fill="#5C6370">Scale AI投資</text>
+  <text x="760" y="240" font-size="48" font-weight="900" fill="#1A1D24">$143億</text>
+  <text x="760" y="262" font-size="12" fill="#9AA0AB">49%株取得・Wang CEO転籍</text>
+
+  <!-- Benchmark comparison -->
+  <rect x="55" y="300" width="560" height="310" rx="6" fill="white" stroke="#1A1D24" stroke-width="2" filter="url(#softShadow)"/>
+  <text x="80" y="330" font-size="16" font-weight="700" fill="#1A1D24">AIモデル総合ベンチマーク比較（IQ v4.0）</text>
+  <line x1="80" y1="337" x2="420" y2="337" stroke="#5B8DEF" stroke-width="2"/>
+  <!-- Bars -->
+  <text x="80" y="375" font-size="13" fill="#5C6370">GPT-5.4</text>
+  <rect x="195" y="358" width="285" height="26" rx="3" fill="#D0D5DC"/>
+  <text x="488" y="377" font-size="13" fill="#5C6370">57点</text>
+  <text x="80" y="415" font-size="13" fill="#5C6370">Gemini 3.1 Pro</text>
+  <rect x="195" y="398" width="285" height="26" rx="3" fill="#D0D5DC"/>
+  <text x="488" y="417" font-size="13" fill="#5C6370">57点</text>
+  <text x="80" y="455" font-size="13" fill="#5C6370">Claude Opus 4.6</text>
+  <rect x="195" y="438" width="265" height="26" rx="3" fill="#BCC3CC"/>
+  <text x="468" y="457" font-size="13" fill="#5C6370">53点</text>
+  <text x="80" y="495" font-size="13" font-weight="700" fill="#5B8DEF">Muse Spark ✦</text>
+  <rect x="195" y="478" width="260" height="26" rx="3" fill="url(#barBlue)" stroke="#5B8DEF" stroke-width="1.5"/>
+  <text x="463" y="497" font-size="13" font-weight="700" fill="#5B8DEF">52点</text>
+  <text x="80" y="535" font-size="13" fill="#5C6370">Grok-4</text>
+  <rect x="195" y="518" width="230" height="26" rx="3" fill="#D0D5DC"/>
+  <text x="433" y="537" font-size="13" fill="#5C6370">46点</text>
+  <!-- Special note -->
+  <rect x="80" y="555" width="510" height="40" rx="4" fill="#E8F0FF" stroke="#5B8DEF" stroke-width="1.5"/>
+  <text x="100" y="572" font-size="12" fill="#2952A3">✅ 医療・健康AIベンチ: Muse Spark が全競合を超過（首位）</text>
+  <text x="100" y="587" font-size="12" fill="#2952A3">✅ Contemplatingモード (HLE): GPT-5.4・Gemini超過で1位</text>
+
+  <!-- Strategic shift diagram -->
+  <rect x="635" y="300" width="500" height="310" rx="6" fill="white" stroke="#1A1D24" stroke-width="2" filter="url(#softShadow)"/>
+  <text x="660" y="330" font-size="16" font-weight="700" fill="#1A1D24">Metaの戦略転換：オープン→閉源</text>
+  <line x1="660" y1="337" x2="880" y2="337" stroke="#5B8DEF" stroke-width="2"/>
+  <!-- Before -->
+  <rect x="660" y="360" width="200" height="90" rx="6" fill="#F5F7FA" stroke="#D0D5DC" stroke-width="2"/>
+  <text x="760" y="388" text-anchor="middle" font-size="13" font-weight="700" fill="#5C6370">〜2025年</text>
+  <text x="760" y="408" text-anchor="middle" font-size="12" fill="#5C6370">Llama（オープン）</text>
+  <text x="760" y="426" text-anchor="middle" font-size="12" fill="#5C6370">コミュニティ公開</text>
+  <text x="760" y="444" text-anchor="middle" font-size="12" fill="#5C6370">自画自賛戦略</text>
+  <!-- Arrow -->
+  <text x="885" y="410" text-anchor="middle" font-size="30" fill="#5B8DEF">→</text>
+  <!-- After -->
+  <rect x="920" y="360" width="200" height="90" rx="6" fill="#EBF0FF" stroke="#5B8DEF" stroke-width="2"/>
+  <text x="1020" y="388" text-anchor="middle" font-size="13" font-weight="700" fill="#5B8DEF">2026年〜</text>
+  <text x="1020" y="408" text-anchor="middle" font-size="12" fill="#5B8DEF">Muse Spark（閉源）</text>
+  <text x="1020" y="426" text-anchor="middle" font-size="12" fill="#5B8DEF">MSL独自開発</text>
+  <text x="1020" y="444" text-anchor="middle" font-size="12" fill="#5B8DEF">無料公開戦略</text>
+  <!-- Reason -->
+  <rect x="660" y="468" width="460" height="60" rx="4" fill="#FFF8E8" stroke="#E8C840" stroke-width="1.5"/>
+  <text x="890" y="490" text-anchor="middle" font-size="12" fill="#5C4D00">背景: DeepSeekら中国OSS勢がLlamaをコモディティ化</text>
+  <text x="890" y="510" text-anchor="middle" font-size="12" fill="#5C4D00">→ OSS戦略の競争優位が消滅→閉源へのピボット</text>
+  <!-- Two-layer strategy -->
+  <rect x="660" y="545" width="460" height="50" rx="4" fill="#E8F0FF" stroke="#5B8DEF" stroke-width="1.5"/>
+  <text x="890" y="567" text-anchor="middle" font-size="12" fill="#2952A3">今後の二層戦略: 閉源Muse Spark（商業）+ オープンLlama 5（コミュニティ）</text>
+  <text x="890" y="584" text-anchor="middle" font-size="12" fill="#2952A3">→ 両世界に足を置く前例のない戦略</text>
+
+  <!-- Cards -->
+  <rect x="55" y="630" width="280" height="130" rx="6" fill="white" stroke="#1A1D24" stroke-width="2" filter="url(#softShadow)"/>
+  <rect x="55" y="630" width="280" height="7" rx="3" fill="#5B8DEF"/>
+  <text x="75" y="657" font-size="13" font-weight="700" fill="#1A1D24">💡 完全新設計「Avocado」</text>
+  <text x="75" y="675" font-size="11" fill="#5C6370">Llamaと非互換の新アーキ</text>
+  <text x="75" y="691" font-size="11" fill="#5C6370">新インフラ・新データパイプ</text>
+  <text x="75" y="707" font-size="11" fill="#5C6370">March遅延の別モデル</text>
+  <text x="75" y="748" font-size="17" font-weight="900" fill="#5B8DEF">Ground-up Rebuild</text>
+
+  <rect x="355" y="630" width="280" height="130" rx="6" fill="white" stroke="#1A1D24" stroke-width="2" filter="url(#softShadow)"/>
+  <rect x="355" y="630" width="280" height="7" rx="3" fill="#5B8DEF"/>
+  <text x="375" y="657" font-size="13" font-weight="700" fill="#1A1D24">🆓 無料という差別化</text>
+  <text x="375" y="675" font-size="11" fill="#5C6370">GPT-5.4・Claude有料に対し</text>
+  <text x="375" y="691" font-size="11" fill="#5C6370">Muse Sparkは完全無料</text>
+  <text x="375" y="707" font-size="11" fill="#5C6370">医療・消費者ランドグラブ狙い</text>
+  <text x="375" y="748" font-size="17" font-weight="900" fill="#5B8DEF">無料公開戦略</text>
+
+  <rect x="655" y="630" width="280" height="130" rx="6" fill="white" stroke="#1A1D24" stroke-width="2" filter="url(#softShadow)"/>
+  <rect x="655" y="630" width="280" height="7" rx="3" fill="#5B8DEF"/>
+  <text x="675" y="657" font-size="13" font-weight="700" fill="#1A1D24">🧠 Wang acqui-hireの論理</text>
+  <text x="675" y="675" font-size="11" fill="#5C6370">$143億でScale AI 49%取得</text>
+  <text x="675" y="691" font-size="11" fill="#5C6370">elite研究者集団が同行</text>
+  <text x="675" y="707" font-size="11" fill="#5C6370">過去最大の人材M&A案件</text>
+  <text x="675" y="748" font-size="17" font-weight="900" fill="#1A1D24">$143億の人材投資</text>
+
+  <rect x="955" y="630" width="280" height="130" rx="6" fill="white" stroke="#1A1D24" stroke-width="2" filter="url(#softShadow)"/>
+  <rect x="955" y="630" width="280" height="7" rx="3" fill="#5B8DEF"/>
+  <text x="975" y="657" font-size="13" font-weight="700" fill="#1A1D24">📊 HLEマルチエージェント1位</text>
+  <text x="975" y="675" font-size="11" fill="#5C6370">Contemplatingモードが</text>
+  <text x="975" y="691" font-size="11" fill="#5C6370">Humanity's Last Examで首位</text>
+  <text x="975" y="707" font-size="11" fill="#5C6370">総合4位の数字を超える</text>
+  <text x="975" y="748" font-size="17" font-weight="900" fill="#5B8DEF">マルチエージェント1位</text>
+
+  <!-- Sticky notes -->
+  <g transform="rotate(-1.5, 175, 820)" filter="url(#stickyShadow)">
+    <rect x="55" y="778" width="235" height="108" rx="3" fill="#FFF8C5" stroke="#E8D84A" stroke-width="1"/>
+    <text x="75" y="800" font-size="12" font-weight="700" fill="#5C4D00">🦙 Llama 5の位置づけ</text>
+    <text x="75" y="818" font-size="11" fill="#7A6800">Muse Sparkと並行してLlama 5</text>
+    <text x="75" y="835" font-size="11" fill="#7A6800">もオープンリリース継続予定</text>
+    <text x="75" y="852" font-size="11" fill="#7A6800">二層戦略への移行が確実</text>
+  </g>
+  <g transform="rotate(1.2, 420, 820)" filter="url(#stickyShadow)">
+    <rect x="310" y="778" width="235" height="108" rx="3" fill="#C8F0FF" stroke="#4DC0E8" stroke-width="1"/>
+    <text x="330" y="800" font-size="12" font-weight="700" fill="#003D5C">🔍 HN逆張りコメント</text>
+    <text x="330" y="818" font-size="11" fill="#005C85">「Avocado没→Muse Sparkは</text>
+    <text x="330" y="835" font-size="11" fill="#005C85">別物」の指摘がXで多数RT</text>
+    <text x="330" y="852" font-size="11" fill="#005C85">混同報道への批判が多い</text>
+  </g>
+  <g transform="rotate(-1.0, 695, 820)" filter="url(#stickyShadow)">
+    <rect x="575" y="778" width="235" height="108" rx="3" fill="#D4F5D4" stroke="#5CA46E" stroke-width="1"/>
+    <text x="595" y="800" font-size="12" font-weight="700" fill="#1A4D28">💊 医療特化の価値</text>
+    <text x="595" y="818" font-size="11" fill="#1F6033">医療LLMは規制・説明責任</text>
+    <text x="595" y="835" font-size="11" fill="#1F6033">のハードルが高く本当に1位</text>
+    <text x="595" y="852" font-size="11" fill="#1F6033">なら医療市場を狙える強み</text>
+  </g>
+  <g transform="rotate(1.0, 945, 820)" filter="url(#stickyShadow)">
+    <rect x="825" y="778" width="235" height="108" rx="3" fill="#FFE8CC" stroke="#E8A040" stroke-width="1"/>
+    <text x="845" y="800" font-size="12" font-weight="700" fill="#5C3000">💰 $1,350億Capexの意味</text>
+    <text x="845" y="818" font-size="11" fill="#7A4500">前年比2倍という積極投資は</text>
+    <text x="845" y="835" font-size="11" fill="#7A4500">「Avocado失敗挽回」の覚悟</text>
+    <text x="845" y="852" font-size="11" fill="#7A4500">2〜3年で成果を求める圧力</text>
+  </g>
+
+  <line x1="55" y1="1020" x2="1350" y2="1020" stroke="#D0C9B8" stroke-width="1"/>
+  <text x="700" y="1040" text-anchor="middle" font-size="12" fill="#9AA0AB" font-style="italic">AI News · 2026-05-09 · Meta Muse Spark — First Proprietary Flagship LLM, Llama Strategy Pivot</text>
+</svg>

@@ -1,0 +1,246 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1400 1050" font-family="-apple-system, 'Hiragino Sans', 'Yu Gothic', sans-serif">
+  <defs>
+    <pattern id="paperTexture" patternUnits="userSpaceOnUse" width="100" height="100">
+      <rect width="100" height="100" fill="#FBF8F1"/>
+      <circle cx="24" cy="36" r="0.4" fill="#C4B389" opacity="0.28"/>
+      <circle cx="72" cy="70" r="0.45" fill="#C4B389" opacity="0.22"/>
+    </pattern>
+    <filter id="stickyShadow">
+      <feGaussianBlur in="SourceAlpha" stdDeviation="3"/>
+      <feOffset dx="2" dy="3"/>
+      <feComponentTransfer><feFuncA type="linear" slope="0.2"/></feComponentTransfer>
+      <feMerge><feMergeNode/><feMergeNode in="SourceGraphic"/></feMerge>
+    </filter>
+    <filter id="softShadow">
+      <feGaussianBlur in="SourceAlpha" stdDeviation="2"/>
+      <feOffset dx="1" dy="2"/>
+      <feComponentTransfer><feFuncA type="linear" slope="0.15"/></feComponentTransfer>
+      <feMerge><feMergeNode/><feMergeNode in="SourceGraphic"/></feMerge>
+    </filter>
+  </defs>
+
+  <rect width="1400" height="1050" fill="url(#paperTexture)"/>
+  <line x1="112" y1="20" x2="112" y2="1030" stroke="#D88A8A" stroke-width="1.2" opacity="0.4"/>
+  <g fill="#E0D5B8" opacity="0.6">
+    <circle cx="52" cy="90" r="12"/><circle cx="52" cy="310" r="12"/>
+    <circle cx="52" cy="530" r="12"/><circle cx="52" cy="750" r="12"/><circle cx="52" cy="970" r="12"/>
+  </g>
+  <g fill="#FBF8F1">
+    <circle cx="52" cy="90" r="8.5"/><circle cx="52" cy="310" r="8.5"/>
+    <circle cx="52" cy="530" r="8.5"/><circle cx="52" cy="750" r="8.5"/><circle cx="52" cy="970" r="8.5"/>
+  </g>
+
+  <!-- Category tape: SNS = orange -->
+  <g transform="rotate(-3,1260,48)">
+    <rect x="1155" y="28" width="190" height="42" fill="#E8A87C" rx="3"/>
+    <text x="1250" y="55" font-size="15" font-weight="700" fill="white" text-anchor="middle">#SNS</text>
+  </g>
+  <rect x="130" y="22" width="160" height="36" fill="#2F3842" rx="4"/>
+  <text x="210" y="45" font-size="14" fill="white" text-anchor="middle" font-weight="600">2026-05-08</text>
+  <text x="1300" y="100" font-size="22" text-anchor="end">⭐</text>
+
+  <text x="140" y="115" font-size="40" font-weight="900" fill="#1A1D24">🎙️ Grok Connectors & Custom Voices</text>
+  <text x="140" y="158" font-size="34" font-weight="900" fill="#1A1D24">xAIがワークスペース統合＋声パーソナライズを一挙実装</text>
+  <text x="140" y="188" font-size="14" fill="#E8A87C" font-weight="700">NeuralBuddies / xAI · 2026-05-08週 · #xAI #Grok #コネクタ #音声 #ワークスペース</text>
+  <line x1="130" y1="203" x2="1350" y2="203" stroke="#1A1D24" stroke-width="2.5"/>
+
+  <!-- KEY NUMBERS -->
+  <rect x="130" y="216" width="270" height="108" fill="white" stroke="#1A1D24" stroke-width="2" rx="6" filter="url(#softShadow)"/>
+  <text x="265" y="256" font-size="40" font-weight="900" fill="#E8A87C" text-anchor="middle">6サービス</text>
+  <text x="265" y="278" font-size="12" fill="#555" text-anchor="middle">Connectors 対応ツール数</text>
+  <text x="265" y="296" font-size="11" fill="#888" text-anchor="middle">Outlook / GWorkspace / Notion</text>
+  <text x="265" y="314" font-size="11" fill="#888" text-anchor="middle">SharePoint / GitHub / Linear</text>
+
+  <rect x="418" y="216" width="270" height="108" fill="white" stroke="#1A1D24" stroke-width="2" rx="6" filter="url(#softShadow)"/>
+  <text x="553" y="256" font-size="40" font-weight="900" fill="#E8A87C" text-anchor="middle">短音声</text>
+  <text x="553" y="278" font-size="12" fill="#555" text-anchor="middle">Custom Voices の入力</text>
+  <text x="553" y="296" font-size="11" fill="#888" text-anchor="middle">録音サンプル数十秒</text>
+  <text x="553" y="314" font-size="11" fill="#888" text-anchor="middle">→ 個人専用 TTS プロファイル</text>
+
+  <rect x="706" y="216" width="270" height="108" fill="white" stroke="#1A1D24" stroke-width="2" rx="6" filter="url(#softShadow)"/>
+  <text x="841" y="256" font-size="40" font-weight="900" fill="#E8A87C" text-anchor="middle">遅参</text>
+  <text x="841" y="278" font-size="12" fill="#555" text-anchor="middle">Workspace統合の参入時期</text>
+  <text x="841" y="296" font-size="11" fill="#888" text-anchor="middle">Copilot (2023) / Claude (2024)</text>
+  <text x="841" y="314" font-size="11" fill="#888" text-anchor="middle">Gemini (2024) に2年以上遅れ</text>
+
+  <rect x="994" y="216" width="356" height="108" fill="white" stroke="#1A1D24" stroke-width="2" rx="6" filter="url(#softShadow)"/>
+  <text x="1172" y="256" font-size="36" font-weight="900" fill="#E8A87C" text-anchor="middle">X データ</text>
+  <text x="1172" y="278" font-size="12" fill="#555" text-anchor="middle">他AIが持たない独自の強み</text>
+  <text x="1172" y="296" font-size="11" fill="#888" text-anchor="middle">リアルタイムX投稿・トレンド</text>
+  <text x="1172" y="314" font-size="11" fill="#888" text-anchor="middle">競合AIはアクセス不可</text>
+
+  <!-- MAIN VISUAL: Connector comparison chart -->
+  <rect x="130" y="340" width="680" height="300" fill="white" stroke="#1A1D24" stroke-width="2" rx="8" filter="url(#softShadow)"/>
+  <text x="470" y="367" font-size="15" font-weight="800" fill="#1A1D24" text-anchor="middle">AIアシスタント ワークスペース統合機能比較</text>
+  <line x1="145" y1="377" x2="795" y2="377" stroke="#1A1D24" stroke-width="1.5"/>
+
+  <!-- Table -->
+  <g font-size="12">
+    <!-- Headers -->
+    <rect x="145" y="382" width="140" height="24" fill="#2F3842"/>
+    <rect x="287" y="382" width="100" height="24" fill="#2F3842"/>
+    <rect x="389" y="382" width="100" height="24" fill="#2F3842"/>
+    <rect x="491" y="382" width="100" height="24" fill="#2F3842"/>
+    <rect x="593" y="382" width="100" height="24" fill="#E8A87C"/>
+    <rect x="695" y="382" width="92" height="24" fill="#2F3842"/>
+    <text x="215" y="399" fill="white" text-anchor="middle" font-size="11">機能</text>
+    <text x="337" y="399" fill="white" text-anchor="middle" font-size="11">Copilot</text>
+    <text x="439" y="399" fill="white" text-anchor="middle" font-size="11">Claude</text>
+    <text x="541" y="399" fill="white" text-anchor="middle" font-size="11">Gemini</text>
+    <text x="643" y="399" fill="white" text-anchor="middle" font-size="11" font-weight="700">Grok ★</text>
+    <text x="741" y="399" fill="white" text-anchor="middle" font-size="11">ChatGPT</text>
+
+    <!-- Rows -->
+    <g fill="#333">
+      <rect x="145" y="406" width="642" height="28" fill="#F5F5F5"/>
+      <text x="155" y="425">Microsoft 365統合</text>
+      <text x="337" y="425" text-anchor="middle" fill="#5CA46E">✅ ネイティブ</text>
+      <text x="439" y="425" text-anchor="middle" fill="#5CA46E">✅</text>
+      <text x="541" y="425" text-anchor="middle" fill="#5CA46E">✅</text>
+      <text x="643" y="425" text-anchor="middle" fill="#E8A87C">✅（新）</text>
+      <text x="741" y="425" text-anchor="middle" fill="#5CA46E">✅</text>
+
+      <rect x="145" y="434" width="642" height="28" fill="white"/>
+      <text x="155" y="453">Google Workspace</text>
+      <text x="337" y="453" text-anchor="middle" fill="#888">部分的</text>
+      <text x="439" y="453" text-anchor="middle" fill="#5CA46E">✅</text>
+      <text x="541" y="453" text-anchor="middle" fill="#5CA46E">✅ ネイティブ</text>
+      <text x="643" y="453" text-anchor="middle" fill="#E8A87C">✅（新）</text>
+      <text x="741" y="453" text-anchor="middle" fill="#5CA46E">✅</text>
+
+      <rect x="145" y="462" width="642" height="28" fill="#F5F5F5"/>
+      <text x="155" y="481">Notion / Linear</text>
+      <text x="337" y="481" text-anchor="middle" fill="#888">❌</text>
+      <text x="439" y="481" text-anchor="middle" fill="#5CA46E">✅</text>
+      <text x="541" y="481" text-anchor="middle" fill="#888">部分的</text>
+      <text x="643" y="481" text-anchor="middle" fill="#E8A87C">✅（新）</text>
+      <text x="741" y="481" text-anchor="middle" fill="#5CA46E">✅</text>
+
+      <rect x="145" y="490" width="642" height="28" fill="white"/>
+      <text x="155" y="509">GitHub</text>
+      <text x="337" y="509" text-anchor="middle" fill="#5CA46E">✅</text>
+      <text x="439" y="509" text-anchor="middle" fill="#5CA46E">✅</text>
+      <text x="541" y="509" text-anchor="middle" fill="#888">❌</text>
+      <text x="643" y="509" text-anchor="middle" fill="#E8A87C">✅（新）</text>
+      <text x="741" y="509" text-anchor="middle" fill="#5CA46E">✅</text>
+
+      <rect x="145" y="518" width="642" height="28" fill="#F5F5F5"/>
+      <text x="155" y="537">X/Twitter リアルタイム</text>
+      <text x="337" y="537" text-anchor="middle" fill="#888">❌</text>
+      <text x="439" y="537" text-anchor="middle" fill="#888">❌</text>
+      <text x="541" y="537" text-anchor="middle" fill="#888">❌</text>
+      <text x="643" y="537" text-anchor="middle" fill="#E8A87C" font-weight="700">✅ 独自</text>
+      <text x="741" y="537" text-anchor="middle" fill="#888">❌</text>
+
+      <rect x="145" y="546" width="642" height="28" fill="white"/>
+      <text x="155" y="565">Custom Voice（個人音声）</text>
+      <text x="337" y="565" text-anchor="middle" fill="#888">❌</text>
+      <text x="439" y="565" text-anchor="middle" fill="#888">❌</text>
+      <text x="541" y="565" text-anchor="middle" fill="#888">❌</text>
+      <text x="643" y="565" text-anchor="middle" fill="#E8A87C" font-weight="700">✅ 独自</text>
+      <text x="741" y="565" text-anchor="middle" fill="#888">❌</text>
+    </g>
+
+    <text x="155" y="610" fill="#888" font-size="10">機能パリティ時代: 「できること」の差別化から「エコシステム」での差別化へ</text>
+    <text x="155" y="628" fill="#E8A87C" font-size="11" font-weight="700">Grokの真の優位: X（旧Twitter）リアルタイムデータへの独占アクセス</text>
+  </g>
+
+  <!-- Side: Voice clone risks -->
+  <rect x="830" y="340" width="520" height="300" fill="white" stroke="#1A1D24" stroke-width="2" rx="8" filter="url(#softShadow)"/>
+  <text x="1090" y="367" font-size="15" font-weight="800" fill="#1A1D24" text-anchor="middle">🎙️ Custom Voices：可能性とリスク</text>
+  <line x1="845" y1="377" x2="1340" y2="377" stroke="#1A1D24" stroke-width="1.5"/>
+
+  <g font-size="12">
+    <rect x="845" y="385" width="490" height="80" fill="#E8F5E9" rx="4"/>
+    <text x="855" y="405" font-weight="700" fill="#1B5E20">✅ 正当なユースケース</text>
+    <text x="855" y="423" fill="#555">• ポッドキャスト制作・コンテンツパーソナライズ</text>
+    <text x="855" y="441" fill="#555">• アクセシビリティ（声を失った人の音声復元）</text>
+    <text x="855" y="459" fill="#555">• 多言語教育コンテンツの個人音声化</text>
+
+    <rect x="845" y="475" width="490" height="80" fill="#FFEBEE" rx="4"/>
+    <text x="855" y="495" font-weight="700" fill="#C62828">⚠️ 悪用リスク</text>
+    <text x="855" y="513" fill="#555">• 他者の声を無断でVoice Libraryに登録</text>
+    <text x="855" y="531" fill="#555">• 声紋詐欺・フィッシング音声の生成</text>
+    <text x="855" y="549" fill="#555">• ディープフェイク音声によるなりすまし</text>
+
+    <rect x="845" y="565" width="490" height="65" fill="#FFF3E0" rx="4"/>
+    <text x="855" y="585" font-weight="700" fill="#E65100">HN・Xコミュニティの反応（多数派コメント）</text>
+    <text x="855" y="603" fill="#555">「他者の声を無断登録できる仕組みが問題」</text>
+    <text x="855" y="621" fill="#555">「音声クローニングが標準機能化した最初のAI」</text>
+  </g>
+
+  <!-- CARDS -->
+  <rect x="130" y="655" width="283" height="125" fill="white" stroke="#1A1D24" stroke-width="2" rx="6" filter="url(#softShadow)"/>
+  <rect x="130" y="655" width="283" height="28" fill="#E8A87C" rx="6"/>
+  <rect x="130" y="670" width="283" height="13" fill="#E8A87C"/>
+  <text x="271" y="674" font-size="13" font-weight="700" fill="white" text-anchor="middle">遅参の逆転策</text>
+  <text x="145" y="703" font-size="12" fill="#333">Workspace統合: 2年遅れの参入</text>
+  <text x="145" y="721" font-size="12" fill="#333">しかしX リアルタイムデータが独自強み</text>
+  <text x="145" y="739" font-size="12" fill="#333">ソーシャルメディア監視・競合分析用途</text>
+  <text x="145" y="757" font-size="11" fill="#888">他AIが持てない情報ソース</text>
+
+  <rect x="433" y="655" width="283" height="125" fill="white" stroke="#1A1D24" stroke-width="2" rx="6" filter="url(#softShadow)"/>
+  <rect x="433" y="655" width="283" height="28" fill="#E8A87C" rx="6"/>
+  <rect x="433" y="670" width="283" height="13" fill="#E8A87C"/>
+  <text x="574" y="674" font-size="13" font-weight="700" fill="white" text-anchor="middle">機能パリティの時代</text>
+  <text x="448" y="703" font-size="12" fill="#333">全主要AIが「ほぼ同等機能」を提供</text>
+  <text x="448" y="721" font-size="12" fill="#333">競争は「できること」→「エコシステム」へ</text>
+  <text x="448" y="739" font-size="12" fill="#333">OS・既存ツール統合が選択基準に</text>
+  <text x="448" y="757" font-size="11" fill="#888">Microsoft派 vs Google派 vs Apple派</text>
+
+  <rect x="736" y="655" width="283" height="125" fill="white" stroke="#1A1D24" stroke-width="2" rx="6" filter="url(#softShadow)"/>
+  <rect x="736" y="655" width="283" height="28" fill="#E8A87C" rx="6"/>
+  <rect x="736" y="670" width="283" height="13" fill="#E8A87C"/>
+  <text x="877" y="674" font-size="13" font-weight="700" fill="white" text-anchor="middle">Voice Libraryの両刃性</text>
+  <text x="751" y="703" font-size="12" fill="#333">共有設定: 他ユーザーの声テンプレートを利用可能</text>
+  <text x="751" y="721" font-size="12" fill="#333">→ 悪用の温床になるリスク</text>
+  <text x="751" y="739" font-size="12" fill="#333">プラットフォームのモデレーション能力が問われる</text>
+  <text x="751" y="757" font-size="11" fill="#888">規制の標的になり得る</text>
+
+  <rect x="1039" y="655" width="311" height="125" fill="white" stroke="#1A1D24" stroke-width="2" rx="6" filter="url(#softShadow)"/>
+  <rect x="1039" y="655" width="311" height="28" fill="#E8A87C" rx="6"/>
+  <rect x="1039" y="670" width="311" height="13" fill="#E8A87C"/>
+  <text x="1194" y="674" font-size="13" font-weight="700" fill="white" text-anchor="middle">Grok×X の本当の価値</text>
+  <text x="1054" y="703" font-size="12" fill="#333">フォロー中アカウントの投稿を文脈に統合</text>
+  <text x="1054" y="721" font-size="12" fill="#333">Xトレンド×GitHub×Outlookを横断処理</text>
+  <text x="1054" y="739" font-size="12" fill="#333">マーケ・IR・PR担当者向けのニッチ強み</text>
+  <text x="1054" y="757" font-size="11" fill="#888">X有料ユーザーとの相乗効果</text>
+
+  <!-- STICKIES -->
+  <g transform="rotate(-1.5,200,840)" filter="url(#stickyShadow)">
+    <rect x="130" y="818" width="205" height="88" fill="#FFF9C4" stroke="#1A1D24" stroke-width="1.5" rx="3"/>
+    <text x="232" y="839" font-size="12" font-weight="700" fill="#1A1D24" text-anchor="middle">📅 参入時期</text>
+    <text x="145" y="858" font-size="11" fill="#333">Copilot: 2023年</text>
+    <text x="145" y="875" font-size="11" fill="#333">Claude/Gemini: 2024年</text>
+    <text x="145" y="892" font-size="11" fill="#E8A87C">Grok: 2026年（2年遅れ）</text>
+    <text x="145" y="906" font-size="10" fill="#888">ただし巻き返し可能か</text>
+  </g>
+  <g transform="rotate(1.2,375,840)" filter="url(#stickyShadow)">
+    <rect x="363" y="818" width="205" height="88" fill="#C8E6C9" stroke="#1A1D24" stroke-width="1.5" rx="3"/>
+    <text x="465" y="839" font-size="12" font-weight="700" fill="#1A1D24" text-anchor="middle">🎵 音声AI競争</text>
+    <text x="378" y="858" font-size="11" fill="#333">ElevenLabs: 専門音声合成</text>
+    <text x="378" y="875" font-size="11" fill="#333">OpenAI Voice: GPTと統合</text>
+    <text x="378" y="892" font-size="11" fill="#555">Grok: AIアシスタントに組込</text>
+    <text x="378" y="906" font-size="10" fill="#888">特化 vs 統合の戦略差</text>
+  </g>
+  <g transform="rotate(-0.8,596,840)" filter="url(#stickyShadow)">
+    <rect x="586" y="818" width="205" height="88" fill="#BBDEFB" stroke="#1A1D24" stroke-width="1.5" rx="3"/>
+    <text x="688" y="839" font-size="12" font-weight="700" fill="#1A1D24" text-anchor="middle">⚠️ 規制リスク</text>
+    <text x="601" y="858" font-size="11" fill="#333">音声クローニング = 詐欺手段</text>
+    <text x="601" y="875" font-size="11" fill="#333">複数州が規制立法を検討中</text>
+    <text x="601" y="892" font-size="11" fill="#E05C5C">Character AI 訴訟と類似</text>
+    <text x="601" y="906" font-size="10" fill="#888">プラットフォーム責任の問い</text>
+  </g>
+  <g transform="rotate(1.0,820,840)" filter="url(#stickyShadow)">
+    <rect x="810" y="818" width="205" height="88" fill="#F8BBD0" stroke="#1A1D24" stroke-width="1.5" rx="3"/>
+    <text x="912" y="839" font-size="12" font-weight="700" fill="#1A1D24" text-anchor="middle">💬 Xの反応</text>
+    <text x="825" y="858" font-size="11" fill="#333">「プライバシーが心配」</text>
+    <text x="825" y="875" font-size="11" fill="#333">「でもXデータ統合はユニーク」</text>
+    <text x="825" y="892" font-size="11" fill="#555">「遅すぎる参入」派も多い</text>
+    <text x="825" y="906" font-size="10" fill="#888">賛否が分かれる機能追加</text>
+  </g>
+
+  <line x1="130" y1="920" x2="1350" y2="920" stroke="#1A1D24" stroke-width="1"/>
+  <text x="740" y="943" font-size="12" fill="#888" text-anchor="middle" font-style="italic">AI News · 2026-05-08 · Grok Launches Workspace Connectors and Custom Voice Library</text>
+  <text x="740" y="963" font-size="11" fill="#AAA" text-anchor="middle">Source: NeuralBuddies / xAI · 2026-05-08</text>
+</svg>

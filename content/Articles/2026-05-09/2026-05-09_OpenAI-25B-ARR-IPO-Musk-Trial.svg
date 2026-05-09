@@ -1,0 +1,176 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1400 1050" font-family="-apple-system, 'Hiragino Sans', 'Yu Gothic', sans-serif">
+  <defs>
+    <pattern id="paperTex" patternUnits="userSpaceOnUse" width="100" height="100">
+      <rect width="100" height="100" fill="#FBF8F1"/>
+      <circle cx="22" cy="33" r="0.4" fill="#C4B389" opacity="0.3"/>
+      <circle cx="65" cy="55" r="0.45" fill="#C4B389" opacity="0.25"/>
+      <circle cx="38" cy="82" r="0.3" fill="#C4B389" opacity="0.3"/>
+    </pattern>
+    <filter id="stickyShadow">
+      <feGaussianBlur in="SourceAlpha" stdDeviation="3"/>
+      <feOffset dx="2" dy="3"/>
+      <feComponentTransfer><feFuncA type="linear" slope="0.25"/></feComponentTransfer>
+      <feMerge><feMergeNode/><feMergeNode in="SourceGraphic"/></feMerge>
+    </filter>
+    <filter id="softShadow">
+      <feGaussianBlur in="SourceAlpha" stdDeviation="2"/>
+      <feOffset dx="1" dy="2"/>
+      <feComponentTransfer><feFuncA type="linear" slope="0.18"/></feComponentTransfer>
+      <feMerge><feMergeNode/><feMergeNode in="SourceGraphic"/></feMerge>
+    </filter>
+    <linearGradient id="barBlue" x1="0" y1="1" x2="0" y2="0">
+      <stop offset="0%" stop-color="#5B8DEF"/>
+      <stop offset="100%" stop-color="#7BA7F5"/>
+    </linearGradient>
+    <linearGradient id="barAnth" x1="0" y1="1" x2="0" y2="0">
+      <stop offset="0%" stop-color="#5CA46E"/>
+      <stop offset="100%" stop-color="#7EC490"/>
+    </linearGradient>
+    <linearGradient id="barRed" x1="0" y1="1" x2="0" y2="0">
+      <stop offset="0%" stop-color="#E05C5C"/>
+      <stop offset="100%" stop-color="#F08080"/>
+    </linearGradient>
+  </defs>
+
+  <rect width="1400" height="1050" fill="url(#paperTex)"/>
+  <rect x="0" y="0" width="38" height="1050" fill="#E8E2D3" stroke="#D0C9B8" stroke-width="1"/>
+  <circle cx="19" cy="120" r="10" fill="#FBF8F1" stroke="#C4B8A0" stroke-width="1.5"/>
+  <circle cx="19" cy="280" r="10" fill="#FBF8F1" stroke="#C4B8A0" stroke-width="1.5"/>
+  <circle cx="19" cy="440" r="10" fill="#FBF8F1" stroke="#C4B8A0" stroke-width="1.5"/>
+  <circle cx="19" cy="600" r="10" fill="#FBF8F1" stroke="#C4B8A0" stroke-width="1.5"/>
+  <circle cx="19" cy="760" r="10" fill="#FBF8F1" stroke="#C4B8A0" stroke-width="1.5"/>
+  <circle cx="19" cy="920" r="10" fill="#FBF8F1" stroke="#C4B8A0" stroke-width="1.5"/>
+
+  <g transform="rotate(-3, 1300, 42)">
+    <rect x="1170" y="18" width="200" height="36" rx="3" fill="#5CA46E" opacity="0.88" stroke="#1A1D24" stroke-width="1.5"/>
+    <text x="1270" y="41" text-anchor="middle" font-size="15" font-weight="700" fill="white">#ビジネス</text>
+  </g>
+  <rect x="55" y="18" width="165" height="34" rx="4" fill="#2F3842" stroke="#1A1D24" stroke-width="1.5"/>
+  <text x="138" y="40" text-anchor="middle" font-size="14" font-weight="600" fill="white">2026-05-09</text>
+  <text x="260" y="42" font-size="20" fill="#F5A623">⭐⭐⭐</text>
+
+  <text x="55" y="95" font-size="36" font-weight="900" fill="#1A1D24">📈 OpenAI ARR $250億突破・IPO計画がMusk裁判で露呈</text>
+  <text x="55" y="128" font-size="17" fill="#5C6370">The Information / WSJ｜2026-05-09｜#ビジネス #IPO #ARR #OpenAI</text>
+  <line x1="55" y1="140" x2="1350" y2="140" stroke="#1A1D24" stroke-width="2"/>
+
+  <g transform="translate(1240, 200)">
+    <circle cx="0" cy="0" r="65" fill="#5B8DEF" opacity="0.12" stroke="#5B8DEF" stroke-width="2"/>
+    <text x="0" y="12" text-anchor="middle" font-size="60">📈</text>
+  </g>
+
+  <!-- Key numbers -->
+  <rect x="55" y="158" width="880" height="120" rx="6" fill="white" stroke="#1A1D24" stroke-width="2" filter="url(#softShadow)"/>
+  <text x="85" y="195" font-size="13" fill="#5C6370">OpenAI ARR</text>
+  <text x="85" y="240" font-size="48" font-weight="900" fill="#5B8DEF">$250億</text>
+  <text x="85" y="262" font-size="12" fill="#9AA0AB">Greg Brockman Musk裁判証言</text>
+  <line x1="310" y1="173" x2="310" y2="265" stroke="#E8E2D3" stroke-width="1"/>
+  <text x="340" y="195" font-size="13" fill="#5C6370">2026年損失予測</text>
+  <text x="340" y="240" font-size="48" font-weight="900" fill="#E05C5C">-$140億</text>
+  <text x="340" y="262" font-size="12" fill="#9AA0AB">Stargate依存コスト継続</text>
+  <line x1="580" y1="173" x2="580" y2="265" stroke="#E8E2D3" stroke-width="1"/>
+  <text x="610" y="195" font-size="13" fill="#5C6370">IPO目標時期</text>
+  <text x="610" y="240" font-size="48" font-weight="900" fill="#1A1D24">2026Q4</text>
+  <text x="610" y="262" font-size="12" fill="#9AA0AB">Altman説 ／ Friar反対論</text>
+  <line x1="840" y1="173" x2="840" y2="265" stroke="#E8E2D3" stroke-width="1"/>
+  <text x="870" y="195" font-size="13" fill="#5C6370">MAU</text>
+  <text x="870" y="240" font-size="48" font-weight="900" fill="#1A1D24">7億+</text>
+  <text x="870" y="262" font-size="12" fill="#9AA0AB">ChatGPT（GPT-5.5 Instant）</text>
+
+  <!-- ARR comparison chart -->
+  <rect x="55" y="300" width="460" height="310" rx="6" fill="white" stroke="#1A1D24" stroke-width="2" filter="url(#softShadow)"/>
+  <text x="80" y="330" font-size="16" font-weight="700" fill="#1A1D24">OpenAI vs Anthropic ARR競争</text>
+  <line x1="80" y1="337" x2="350" y2="337" stroke="#5B8DEF" stroke-width="2"/>
+
+  <!-- Bar chart vertical -->
+  <text x="150" y="580" text-anchor="middle" font-size="13" fill="#5B8DEF" font-weight="700">OpenAI</text>
+  <rect x="110" y="370" width="80" height="200" rx="4" fill="url(#barBlue)" stroke="#5B8DEF" stroke-width="1.5"/>
+  <text x="150" y="362" text-anchor="middle" font-size="14" font-weight="700" fill="#5B8DEF">$250億</text>
+
+  <text x="310" y="580" text-anchor="middle" font-size="13" fill="#5CA46E" font-weight="700">Anthropic</text>
+  <rect x="270" y="350" width="80" height="220" rx="4" fill="url(#barAnth)" stroke="#5CA46E" stroke-width="1.5"/>
+  <text x="310" y="342" text-anchor="middle" font-size="14" font-weight="700" fill="#5CA46E">$300億↑</text>
+
+  <text x="150" y="600" text-anchor="middle" font-size="11" fill="#9AA0AB">※会計基準差あり・論争中</text>
+
+  <!-- Revenue vs Loss chart -->
+  <rect x="535" y="300" width="500" height="310" rx="6" fill="white" stroke="#1A1D24" stroke-width="2" filter="url(#softShadow)"/>
+  <text x="560" y="330" font-size="16" font-weight="700" fill="#1A1D24">OpenAI 収益 vs 支出のパラドックス</text>
+  <line x1="560" y1="337" x2="850" y2="337" stroke="#5B8DEF" stroke-width="2"/>
+
+  <!-- Revenue bar -->
+  <text x="560" y="375" font-size="13" fill="#5C6370">ARR（収益）</text>
+  <rect x="680" y="360" width="250" height="28" rx="4" fill="url(#barBlue)"/>
+  <text x="938" y="379" font-size="14" font-weight="700" fill="#5B8DEF">$250億</text>
+
+  <!-- Compute cost bar -->
+  <text x="560" y="420" font-size="13" fill="#5C6370">Stargate/コンピュート</text>
+  <rect x="680" y="405" width="200" height="28" rx="4" fill="url(#barRed)"/>
+  <text x="888" y="424" font-size="14" fill="#E05C5C">-$200億</text>
+
+  <!-- R&D bar -->
+  <text x="560" y="465" font-size="13" fill="#5C6370">研究開発投資</text>
+  <rect x="680" y="450" width="80" height="28" rx="4" fill="url(#barRed)"/>
+  <text x="768" y="469" font-size="14" fill="#E05C5C">-$80億</text>
+
+  <!-- Personnel bar -->
+  <text x="560" y="510" font-size="13" fill="#5C6370">人件費</text>
+  <rect x="680" y="495" width="60" height="28" rx="4" fill="url(#barRed)"/>
+  <text x="748" y="514" font-size="14" fill="#E05C5C">-$60億</text>
+
+  <!-- Net loss -->
+  <line x1="560" y1="535" x2="1020" y2="535" stroke="#1A1D24" stroke-width="1.5" stroke-dasharray="5,3"/>
+  <text x="560" y="560" font-size="14" font-weight="700" fill="#E05C5C">純損失予測：-$140億（2026年）</text>
+  <text x="560" y="580" font-size="12" fill="#9AA0AB">収益性達成予測: 2030年〜</text>
+
+  <!-- IPO timeline -->
+  <rect x="55" y="630" width="980" height="110" rx="6" fill="white" stroke="#1A1D24" stroke-width="2" filter="url(#softShadow)"/>
+  <text x="80" y="658" font-size="16" font-weight="700" fill="#1A1D24">IPOタイムライン・対立構造</text>
+  <line x1="80" y1="665" x2="340" y2="665" stroke="#5B8DEF" stroke-width="2"/>
+  <!-- Timeline -->
+  <line x1="100" y1="700" x2="960" y2="700" stroke="#D0C9B8" stroke-width="2"/>
+  <circle cx="200" cy="700" r="8" fill="#5B8DEF" stroke="#1A1D24" stroke-width="1.5"/>
+  <text x="200" y="730" text-anchor="middle" font-size="11" fill="#5C6370">2026Q2</text>
+  <text x="200" y="745" text-anchor="middle" font-size="10" fill="#9AA0AB">PBC転換完了</text>
+  <circle cx="420" cy="700" r="8" fill="#5B8DEF" stroke="#1A1D24" stroke-width="1.5"/>
+  <text x="420" y="730" text-anchor="middle" font-size="11" fill="#5C6370">2026Q3</text>
+  <text x="420" y="745" text-anchor="middle" font-size="10" fill="#9AA0AB">Musk裁判終結</text>
+  <circle cx="650" cy="700" r="10" fill="#F5A623" stroke="#1A1D24" stroke-width="2"/>
+  <text x="650" y="730" text-anchor="middle" font-size="11" font-weight="700" fill="#F5A623">2026Q4</text>
+  <text x="650" y="745" text-anchor="middle" font-size="10" fill="#9AA0AB">Altman目標IPO</text>
+  <circle cx="870" cy="700" r="8" fill="#9AA0AB" stroke="#1A1D24" stroke-width="1.5"/>
+  <text x="870" y="730" text-anchor="middle" font-size="11" fill="#9AA0AB">2027</text>
+  <text x="870" y="745" text-anchor="middle" font-size="10" fill="#9AA0AB">Friar推奨延期</text>
+
+  <!-- Sticky notes -->
+  <g transform="rotate(-1.5, 175, 820)" filter="url(#stickyShadow)">
+    <rect x="55" y="775" width="235" height="105" rx="3" fill="#FFF8C5" stroke="#E8D84A" stroke-width="1"/>
+    <text x="75" y="798" font-size="12" font-weight="700" fill="#5C4D00">⚖️ 裁判で財務開示</text>
+    <text x="75" y="816" font-size="11" fill="#7A6800">Musk訴訟という公開の場で</text>
+    <text x="75" y="833" font-size="11" fill="#7A6800">ARR・IPO計画が漏れるのは</text>
+    <text x="75" y="850" font-size="11" fill="#7A6800">意図的PR戦略の可能性も</text>
+  </g>
+  <g transform="rotate(1.2, 420, 820)" filter="url(#stickyShadow)">
+    <rect x="310" y="775" width="235" height="105" rx="3" fill="#C8F0FF" stroke="#4DC0E8" stroke-width="1"/>
+    <text x="330" y="798" font-size="12" font-weight="700" fill="#003D5C">📊 Salesforce 25年の壁</text>
+    <text x="330" y="816" font-size="11" fill="#005C85">SalesforceがARR $10Bに</text>
+    <text x="330" y="833" font-size="11" fill="#005C85">25年かけた一方、OpenAIは</text>
+    <text x="330" y="850" font-size="11" fill="#005C85">3年未満で$25Bを達成</text>
+  </g>
+  <g transform="rotate(-1.0, 680, 820)" filter="url(#stickyShadow)">
+    <rect x="575" y="775" width="235" height="105" rx="3" fill="#D4F5D4" stroke="#5CA46E" stroke-width="1"/>
+    <text x="595" y="798" font-size="12" font-weight="700" fill="#1A4D28">🎯 Altman vs Friar</text>
+    <text x="595" y="816" font-size="11" fill="#1F6033">創業者は熱狂に乗りたい</text>
+    <text x="595" y="833" font-size="11" fill="#1F6033">CFOは開示・SOX対応の</text>
+    <text x="595" y="850" font-size="11" fill="#1F6033">現実を見ている定番対立</text>
+  </g>
+  <g transform="rotate(1.0, 930, 820)" filter="url(#stickyShadow)">
+    <rect x="830" y="775" width="235" height="105" rx="3" fill="#FFE8CC" stroke="#E8A040" stroke-width="1"/>
+    <text x="850" y="798" font-size="12" font-weight="700" fill="#5C3000">🚨 2030年まで赤字</text>
+    <text x="850" y="816" font-size="11" fill="#7A4500">$250億収益でも$140億赤字</text>
+    <text x="850" y="833" font-size="11" fill="#7A4500">EPS説明がIPO最大の難問</text>
+    <text x="850" y="850" font-size="11" fill="#7A4500">機関投資家の様子見シナリオ</text>
+  </g>
+
+  <line x1="55" y1="1020" x2="1350" y2="1020" stroke="#D0C9B8" stroke-width="1"/>
+  <text x="700" y="1040" text-anchor="middle" font-size="12" fill="#9AA0AB" font-style="italic">AI News · 2026-05-09 · OpenAI $25B ARR Crosses, IPO Plans Surface at Musk Trial</text>
+</svg>

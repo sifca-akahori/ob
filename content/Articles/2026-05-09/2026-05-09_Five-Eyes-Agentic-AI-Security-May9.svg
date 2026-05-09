@@ -1,0 +1,169 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1400 1050" font-family="-apple-system, 'Hiragino Sans', 'Yu Gothic', sans-serif">
+  <defs>
+    <pattern id="paperTex" patternUnits="userSpaceOnUse" width="100" height="100">
+      <rect width="100" height="100" fill="#FBF8F1"/>
+      <circle cx="20" cy="30" r="0.4" fill="#C4B389" opacity="0.3"/>
+      <circle cx="70" cy="55" r="0.45" fill="#C4B389" opacity="0.25"/>
+    </pattern>
+    <filter id="stickyShadow">
+      <feGaussianBlur in="SourceAlpha" stdDeviation="3"/>
+      <feOffset dx="2" dy="3"/>
+      <feComponentTransfer><feFuncA type="linear" slope="0.25"/></feComponentTransfer>
+      <feMerge><feMergeNode/><feMergeNode in="SourceGraphic"/></feMerge>
+    </filter>
+    <filter id="softShadow">
+      <feGaussianBlur in="SourceAlpha" stdDeviation="2"/>
+      <feOffset dx="1" dy="2"/>
+      <feComponentTransfer><feFuncA type="linear" slope="0.18"/></feComponentTransfer>
+      <feMerge><feMergeNode/><feMergeNode in="SourceGraphic"/></feMerge>
+    </filter>
+    <linearGradient id="barGreen" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0%" stop-color="#5CA46E"/>
+      <stop offset="100%" stop-color="#7EC490"/>
+    </linearGradient>
+  </defs>
+  <rect width="1400" height="1050" fill="url(#paperTex)"/>
+  <rect x="0" y="0" width="38" height="1050" fill="#E8E2D3" stroke="#D0C9B8" stroke-width="1"/>
+  <circle cx="19" cy="120" r="10" fill="#FBF8F1" stroke="#C4B8A0" stroke-width="1.5"/>
+  <circle cx="19" cy="280" r="10" fill="#FBF8F1" stroke="#C4B8A0" stroke-width="1.5"/>
+  <circle cx="19" cy="440" r="10" fill="#FBF8F1" stroke="#C4B8A0" stroke-width="1.5"/>
+  <circle cx="19" cy="600" r="10" fill="#FBF8F1" stroke="#C4B8A0" stroke-width="1.5"/>
+  <circle cx="19" cy="760" r="10" fill="#FBF8F1" stroke="#C4B8A0" stroke-width="1.5"/>
+  <circle cx="19" cy="920" r="10" fill="#FBF8F1" stroke="#C4B8A0" stroke-width="1.5"/>
+  <g transform="rotate(-3, 1300, 42)">
+    <rect x="1170" y="18" width="200" height="36" rx="3" fill="#5CA46E" opacity="0.88" stroke="#1A1D24" stroke-width="1.5"/>
+    <text x="1270" y="41" text-anchor="middle" font-size="15" font-weight="700" fill="white">#ビジネス</text>
+  </g>
+  <rect x="55" y="18" width="165" height="34" rx="4" fill="#2F3842" stroke="#1A1D24" stroke-width="1.5"/>
+  <text x="138" y="40" text-anchor="middle" font-size="14" font-weight="600" fill="white">2026-05-09</text>
+  <text x="260" y="42" font-size="20" fill="#F5A623">⭐⭐</text>
+  <text x="55" y="95" font-size="35" font-weight="900" fill="#1A1D24">🛡️ Five Eyes：エージェントAI 5大リスクと段階展開を勧告</text>
+  <text x="55" y="128" font-size="17" fill="#5C6370">CISA / Five Eyes Joint Guidance｜2026-05-01〜09｜#ビジネス #セキュリティ #規制</text>
+  <line x1="55" y1="140" x2="1350" y2="140" stroke="#1A1D24" stroke-width="2"/>
+  <g transform="translate(1250, 200)">
+    <circle cx="0" cy="0" r="65" fill="#5CA46E" opacity="0.12" stroke="#5CA46E" stroke-width="2"/>
+    <text x="0" y="12" text-anchor="middle" font-size="58">🛡️</text>
+  </g>
+  <!-- Key numbers -->
+  <rect x="55" y="158" width="880" height="120" rx="6" fill="white" stroke="#1A1D24" stroke-width="2" filter="url(#softShadow)"/>
+  <text x="85" y="195" font-size="13" fill="#5C6370">共同署名国</text>
+  <text x="85" y="240" font-size="48" font-weight="900" fill="#5CA46E">5カ国</text>
+  <text x="85" y="262" font-size="12" fill="#9AA0AB">米英加豪NZ（Six Agencies）</text>
+  <line x1="310" y1="173" x2="310" y2="265" stroke="#E8E2D3" stroke-width="1"/>
+  <text x="340" y="195" font-size="13" fill="#5C6370">定義リスクカテゴリ</text>
+  <text x="340" y="240" font-size="48" font-weight="900" fill="#1A1D24">23</text>
+  <text x="340" y="262" font-size="12" fill="#9AA0AB">特権・設計・行動・構造・説明責任</text>
+  <line x1="560" y1="173" x2="560" y2="265" stroke="#E8E2D3" stroke-width="1"/>
+  <text x="590" y="195" font-size="13" fill="#5C6370">ベストプラクティス</text>
+  <text x="590" y="240" font-size="48" font-weight="900" fill="#1A1D24">100+</text>
+  <text x="590" y="262" font-size="12" fill="#9AA0AB">30ページ文書で公開</text>
+  <line x1="820" y1="173" x2="820" y2="265" stroke="#E8E2D3" stroke-width="1"/>
+  <text x="850" y="195" font-size="13" fill="#5C6370">法的強制力</text>
+  <text x="850" y="240" font-size="36" font-weight="900" fill="#E05C5C">なし</text>
+  <text x="850" y="262" font-size="12" fill="#9AA0AB">現状は任意採用</text>
+  <!-- 5 Risk Categories -->
+  <rect x="55" y="300" width="1080" height="140" rx="6" fill="white" stroke="#1A1D24" stroke-width="2" filter="url(#softShadow)"/>
+  <text x="80" y="327" font-size="16" font-weight="700" fill="#1A1D24">5大リスクカテゴリ（Careful Adoption of Agentic AI Services）</text>
+  <line x1="80" y1="334" x2="500" y2="334" stroke="#5CA46E" stroke-width="2"/>
+  <!-- Risk boxes -->
+  <rect x="80" y="350" width="188" height="72" rx="5" fill="#FFE8E8" stroke="#E05C5C" stroke-width="1.5"/>
+  <text x="174" y="372" text-anchor="middle" font-size="14" font-weight="700" fill="#B83030">① 特権リスク</text>
+  <text x="174" y="392" text-anchor="middle" font-size="11" fill="#B83030">過剰なアクセス権限</text>
+  <text x="174" y="410" text-anchor="middle" font-size="11" fill="#B83030">最小権限の原則違反</text>
+  <rect x="282" y="350" width="188" height="72" rx="5" fill="#FFF0E0" stroke="#E87840" stroke-width="1.5"/>
+  <text x="376" y="372" text-anchor="middle" font-size="14" font-weight="700" fill="#C05820">② 設計・設定</text>
+  <text x="376" y="392" text-anchor="middle" font-size="11" fill="#C05820">エージェント連携の</text>
+  <text x="376" y="410" text-anchor="middle" font-size="11" fill="#C05820">誤った構成</text>
+  <rect x="484" y="350" width="188" height="72" rx="5" fill="#E8F0FF" stroke="#5B8DEF" stroke-width="1.5"/>
+  <text x="578" y="372" text-anchor="middle" font-size="14" font-weight="700" fill="#2952A3">③ 行動リスク</text>
+  <text x="578" y="392" text-anchor="middle" font-size="11" fill="#2952A3">予期しない自律行動</text>
+  <text x="578" y="410" text-anchor="middle" font-size="11" fill="#2952A3">ハルシネーション行動</text>
+  <rect x="686" y="350" width="188" height="72" rx="5" fill="#F0E8FF" stroke="#8B7DB8" stroke-width="1.5"/>
+  <text x="780" y="372" text-anchor="middle" font-size="14" font-weight="700" fill="#5B4D8A">④ 構造リスク</text>
+  <text x="780" y="392" text-anchor="middle" font-size="11" fill="#5B4D8A">マルチエージェント</text>
+  <text x="780" y="410" text-anchor="middle" font-size="11" fill="#5B4D8A">連鎖の複雑性</text>
+  <rect x="888" y="350" width="188" height="72" rx="5" fill="#D4F5D4" stroke="#5CA46E" stroke-width="1.5"/>
+  <text x="982" y="372" text-anchor="middle" font-size="14" font-weight="700" fill="#1A4D28">⑤ 説明責任</text>
+  <text x="982" y="392" text-anchor="middle" font-size="11" fill="#1A4D28">ログ・監査証跡の</text>
+  <text x="982" y="410" text-anchor="middle" font-size="11" fill="#1A4D28">欠如・不完全性</text>
+  <!-- Core Recommendations -->
+  <rect x="55" y="460" width="520" height="220" rx="6" fill="white" stroke="#1A1D24" stroke-width="2" filter="url(#softShadow)"/>
+  <text x="80" y="490" font-size="16" font-weight="700" fill="#1A1D24">コア推奨事項</text>
+  <line x1="80" y1="497" x2="280" y2="497" stroke="#5CA46E" stroke-width="2"/>
+  <text x="80" y="525" font-size="13" fill="#5C6370">🔑 各エージェントに暗号証明済みIDを付与</text>
+  <text x="80" y="548" font-size="13" fill="#5C6370">⏱️ 短命クレデンシャル（Short-lived Tokens）使用</text>
+  <text x="80" y="571" font-size="13" fill="#5C6370">🔐 エージェント間通信の暗号化必須</text>
+  <text x="80" y="594" font-size="13" fill="#5C6370">👤 高インパクト行動には必ず人間承認</text>
+  <text x="80" y="617" font-size="13" fill="#5C6370">📋 既存ゼロトラスト・多層防御に統合</text>
+  <text x="80" y="640" font-size="13" fill="#5C6370">🔬 段階的展開（低リスクタスクから開始）</text>
+  <rect x="80" y="653" width="470" height="20" rx="3" fill="#D4F5D4"/>
+  <text x="315" y="667" text-anchor="middle" font-size="12" font-weight="700" fill="#1A4D28">中心メッセージ：新規制ではなく既存フレームワークへの統合</text>
+  <!-- Why now -->
+  <rect x="595" y="460" width="540" height="220" rx="6" fill="white" stroke="#1A1D24" stroke-width="2" filter="url(#softShadow)"/>
+  <text x="620" y="490" font-size="16" font-weight="700" fill="#1A1D24">発行タイミングの背景</text>
+  <line x1="620" y1="497" x2="840" y2="497" stroke="#5CA46E" stroke-width="2"/>
+  <text x="620" y="525" font-size="13" fill="#5C6370">⚡ PyTorch Lightning マルウェア混入</text>
+  <text x="620" y="548" font-size="13" fill="#5C6370">🤖 HuggingFace LeRobot RCE（CVSS 9.3）</text>
+  <text x="620" y="571" font-size="13" fill="#5C6370">🔍 Claude Mythosが数万件の脆弱性自動発見</text>
+  <text x="620" y="594" font-size="13" fill="#5C6370">📈 AIコーディングツールへの攻撃急増</text>
+  <text x="620" y="617" font-size="13" fill="#5C6370">🏛️ 重要インフラ内への自律エージェント展開</text>
+  <rect x="620" y="640" width="490" height="32" rx="4" fill="#FFE8E8" stroke="#E05C5C" stroke-width="1.5"/>
+  <text x="865" y="657" text-anchor="middle" font-size="12" font-weight="700" fill="#B83030">「エージェントは既にインフラの中にいる」が前提</text>
+  <text x="865" y="672" text-anchor="middle" font-size="11" fill="#B83030">→ 対応は緊急、段階的移行が現実的</text>
+  <!-- Cards -->
+  <rect x="55" y="700" width="280" height="110" rx="6" fill="white" stroke="#1A1D24" stroke-width="2" filter="url(#softShadow)"/>
+  <rect x="55" y="700" width="280" height="7" rx="3" fill="#5CA46E"/>
+  <text x="75" y="726" font-size="13" font-weight="700" fill="#1A1D24">🏛️ 任意→義務化の道</text>
+  <text x="75" y="743" font-size="11" fill="#5C6370">ホワイトハウスFDA型EO草案と</text>
+  <text x="75" y="759" font-size="11" fill="#5C6370">組み合わさり重要インフラでの</text>
+  <text x="75" y="775" font-size="11" fill="#5C6370">義務化が視野に</text>
+  <rect x="355" y="700" width="280" height="110" rx="6" fill="white" stroke="#1A1D24" stroke-width="2" filter="url(#softShadow)"/>
+  <rect x="355" y="700" width="280" height="7" rx="3" fill="#5CA46E"/>
+  <text x="375" y="726" font-size="13" font-weight="700" fill="#1A1D24">🔑 暗号IDの実装難度</text>
+  <text x="375" y="743" font-size="11" fill="#5C6370">OAuth2+JWT+サービスメッシュが</text>
+  <text x="375" y="759" font-size="11" fill="#5C6370">前提。中小は未準備でHN</text>
+  <text x="375" y="775" font-size="11" fill="#5C6370">で数百コメントの批判</text>
+  <rect x="655" y="700" width="280" height="110" rx="6" fill="white" stroke="#1A1D24" stroke-width="2" filter="url(#softShadow)"/>
+  <rect x="655" y="700" width="280" height="7" rx="3" fill="#5CA46E"/>
+  <text x="675" y="726" font-size="13" font-weight="700" fill="#1A1D24">🇯🇵 日本への影響</text>
+  <text x="675" y="743" font-size="11" fill="#5C6370">NISC次期改訂がNIST AI RMF</text>
+  <text x="675" y="759" font-size="11" fill="#5C6370">経由でFive Eyes基準を反映</text>
+  <text x="675" y="775" font-size="11" fill="#5C6370">予定と見られる</text>
+  <rect x="955" y="700" width="280" height="110" rx="6" fill="white" stroke="#1A1D24" stroke-width="2" filter="url(#softShadow)"/>
+  <rect x="955" y="700" width="280" height="7" rx="3" fill="#5CA46E"/>
+  <text x="975" y="726" font-size="13" font-weight="700" fill="#1A1D24">📅 6〜18カ月後</text>
+  <text x="975" y="743" font-size="11" fill="#5C6370">防衛・電力・金融で先行義務化</text>
+  <text x="975" y="759" font-size="11" fill="#5C6370">→民間一般に波及する</text>
+  <text x="975" y="775" font-size="11" fill="#5C6370">規制史の典型パターン</text>
+  <!-- Sticky notes -->
+  <g transform="rotate(-1.5, 175, 868)" filter="url(#stickyShadow)">
+    <rect x="55" y="830" width="235" height="100" rx="3" fill="#FFF8C5" stroke="#E8D84A" stroke-width="1"/>
+    <text x="75" y="852" font-size="12" font-weight="700" fill="#5C4D00">💡 Mythos効果</text>
+    <text x="75" y="870" font-size="11" fill="#7A6800">Mythosが数万件脆弱性発見→</text>
+    <text x="75" y="887" font-size="11" fill="#7A6800">WhiteHouse EO草案が登場</text>
+    <text x="75" y="904" font-size="11" fill="#7A6800">→Five Eyes文書公開の連鎖</text>
+  </g>
+  <g transform="rotate(1.2, 420, 868)" filter="url(#stickyShadow)">
+    <rect x="310" y="830" width="235" height="100" rx="3" fill="#C8F0FF" stroke="#4DC0E8" stroke-width="1"/>
+    <text x="330" y="852" font-size="12" font-weight="700" fill="#003D5C">🇺🇸 米国流自律優先</text>
+    <text x="330" y="870" font-size="11" fill="#005C85">EU AI Actの義務化とは逆</text>
+    <text x="330" y="887" font-size="11" fill="#005C85">「既存フレームで対応」は</text>
+    <text x="330" y="904" font-size="11" fill="#005C85">業界自律優先の政治判断</text>
+  </g>
+  <g transform="rotate(-0.8, 695, 868)" filter="url(#stickyShadow)">
+    <rect x="575" y="830" width="235" height="100" rx="3" fill="#D4F5D4" stroke="#5CA46E" stroke-width="1"/>
+    <text x="595" y="852" font-size="12" font-weight="700" fill="#1A4D28">🔍 HN批判の要点</text>
+    <text x="595" y="870" font-size="11" fill="#1F6033">「ガイドは書けるが実装</text>
+    <text x="595" y="887" font-size="11" fill="#1F6033">できる組織は少数」という</text>
+    <text x="595" y="904" font-size="11" fill="#1F6033">現実的批判が多数</text>
+  </g>
+  <g transform="rotate(1.0, 960, 868)" filter="url(#stickyShadow)">
+    <rect x="835" y="830" width="235" height="100" rx="3" fill="#FFE8CC" stroke="#E8A040" stroke-width="1"/>
+    <text x="855" y="852" font-size="12" font-weight="700" fill="#5C3000">⚠️ Five Eyes加盟外</text>
+    <text x="855" y="870" font-size="11" fill="#7A4500">日本・EU・韓国は非加盟</text>
+    <text x="855" y="887" font-size="11" fill="#7A4500">NISC・ENISAがどう適合</text>
+    <text x="855" y="904" font-size="11" fill="#7A4500">するかが国別の焦点</text>
+  </g>
+  <line x1="55" y1="1020" x2="1350" y2="1020" stroke="#D0C9B8" stroke-width="1"/>
+  <text x="700" y="1040" text-anchor="middle" font-size="12" fill="#9AA0AB" font-style="italic">AI News · 2026-05-09 · Five Eyes Joint Agentic AI Security Guidance — 23 Risks, 100+ Best Practices</text>
+</svg>

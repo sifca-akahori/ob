@@ -1,0 +1,168 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1400 1050" font-family="-apple-system, 'Hiragino Sans', 'Yu Gothic', sans-serif">
+  <defs>
+    <pattern id="paperTex" patternUnits="userSpaceOnUse" width="100" height="100">
+      <rect width="100" height="100" fill="#FBF8F1"/>
+      <circle cx="20" cy="30" r="0.4" fill="#C4B389" opacity="0.3"/>
+    </pattern>
+    <filter id="stickyShadow">
+      <feGaussianBlur in="SourceAlpha" stdDeviation="3"/>
+      <feOffset dx="2" dy="3"/>
+      <feComponentTransfer><feFuncA type="linear" slope="0.25"/></feComponentTransfer>
+      <feMerge><feMergeNode/><feMergeNode in="SourceGraphic"/></feMerge>
+    </filter>
+    <filter id="softShadow">
+      <feGaussianBlur in="SourceAlpha" stdDeviation="2"/>
+      <feOffset dx="1" dy="2"/>
+      <feComponentTransfer><feFuncA type="linear" slope="0.18"/></feComponentTransfer>
+      <feMerge><feMergeNode/><feMergeNode in="SourceGraphic"/></feMerge>
+    </filter>
+    <linearGradient id="barPurple" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0%" stop-color="#8B7DB8"/>
+      <stop offset="100%" stop-color="#A897D0"/>
+    </linearGradient>
+  </defs>
+  <rect width="1400" height="1050" fill="url(#paperTex)"/>
+  <rect x="0" y="0" width="38" height="1050" fill="#E8E2D3" stroke="#D0C9B8" stroke-width="1"/>
+  <circle cx="19" cy="120" r="10" fill="#FBF8F1" stroke="#C4B8A0" stroke-width="1.5"/>
+  <circle cx="19" cy="280" r="10" fill="#FBF8F1" stroke="#C4B8A0" stroke-width="1.5"/>
+  <circle cx="19" cy="440" r="10" fill="#FBF8F1" stroke="#C4B8A0" stroke-width="1.5"/>
+  <circle cx="19" cy="600" r="10" fill="#FBF8F1" stroke="#C4B8A0" stroke-width="1.5"/>
+  <circle cx="19" cy="760" r="10" fill="#FBF8F1" stroke="#C4B8A0" stroke-width="1.5"/>
+  <circle cx="19" cy="920" r="10" fill="#FBF8F1" stroke="#C4B8A0" stroke-width="1.5"/>
+  <g transform="rotate(-3, 1300, 42)">
+    <rect x="1170" y="18" width="200" height="36" rx="3" fill="#8B7DB8" opacity="0.88" stroke="#1A1D24" stroke-width="1.5"/>
+    <text x="1270" y="41" text-anchor="middle" font-size="15" font-weight="700" fill="white">#論文</text>
+  </g>
+  <rect x="55" y="18" width="165" height="34" rx="4" fill="#2F3842" stroke="#1A1D24" stroke-width="1.5"/>
+  <text x="138" y="40" text-anchor="middle" font-size="14" font-weight="600" fill="white">2026-05-09</text>
+  <text x="260" y="42" font-size="20" fill="#F5A623">⭐</text>
+  <text x="55" y="95" font-size="36" font-weight="900" fill="#1A1D24">🤖 SensingAgents：ゼロショット79.5%——既存マルチエージェントを29pt超で凌駕</text>
+  <text x="55" y="128" font-size="17" fill="#5C6370">arXiv / Hugging Face Daily Papers｜2026-05-08｜#論文 #マルチエージェント #LLM</text>
+  <line x1="55" y1="140" x2="1350" y2="140" stroke="#1A1D24" stroke-width="2"/>
+  <g transform="translate(1250, 200)">
+    <circle cx="0" cy="0" r="65" fill="#8B7DB8" opacity="0.12" stroke="#8B7DB8" stroke-width="2"/>
+    <text x="0" y="12" text-anchor="middle" font-size="58">🤖</text>
+  </g>
+  <!-- Key numbers -->
+  <rect x="55" y="158" width="880" height="120" rx="6" fill="white" stroke="#1A1D24" stroke-width="2" filter="url(#softShadow)"/>
+  <text x="85" y="195" font-size="13" fill="#5C6370">ゼロショット精度</text>
+  <text x="85" y="240" font-size="48" font-weight="900" fill="#8B7DB8">79.5%</text>
+  <text x="85" y="262" font-size="12" fill="#9AA0AB">新タスク・ドメインへの事前学習なし</text>
+  <line x1="330" y1="173" x2="330" y2="265" stroke="#E8E2D3" stroke-width="1"/>
+  <text x="360" y="195" font-size="13" fill="#5C6370">既存マルチエージェント超過</text>
+  <text x="360" y="240" font-size="48" font-weight="900" fill="#1A1D24">+29pt</text>
+  <text x="360" y="262" font-size="12" fill="#9AA0AB">単一エージェント比も大幅向上</text>
+  <line x1="620" y1="173" x2="620" y2="265" stroke="#E8E2D3" stroke-width="1"/>
+  <text x="650" y="195" font-size="13" fill="#5C6370">深層学習ベースライン超過</text>
+  <text x="650" y="240" font-size="48" font-weight="900" fill="#1A1D24">+9.4pt</text>
+  <text x="650" y="262" font-size="12" fill="#9AA0AB">専用DLモデルをも凌駕</text>
+  <!-- Architecture diagram -->
+  <rect x="55" y="300" width="560" height="300" rx="6" fill="white" stroke="#1A1D24" stroke-width="2" filter="url(#softShadow)"/>
+  <text x="80" y="330" font-size="16" font-weight="700" fill="#1A1D24">SensingAgents アーキテクチャ</text>
+  <line x1="80" y1="337" x2="340" y2="337" stroke="#8B7DB8" stroke-width="2"/>
+  <!-- Sensing agents -->
+  <rect x="80" y="355" width="140" height="50" rx="5" fill="#F0EBFF" stroke="#8B7DB8" stroke-width="1.5"/>
+  <text x="150" y="376" text-anchor="middle" font-size="12" font-weight="700" fill="#5B4D8A">Sensing Agent A</text>
+  <text x="150" y="394" text-anchor="middle" font-size="11" fill="#5B4D8A">視覚センサー</text>
+  <rect x="80" y="420" width="140" height="50" rx="5" fill="#F0EBFF" stroke="#8B7DB8" stroke-width="1.5"/>
+  <text x="150" y="441" text-anchor="middle" font-size="12" font-weight="700" fill="#5B4D8A">Sensing Agent B</text>
+  <text x="150" y="459" text-anchor="middle" font-size="11" fill="#5B4D8A">聴覚センサー</text>
+  <rect x="80" y="485" width="140" height="50" rx="5" fill="#F0EBFF" stroke="#8B7DB8" stroke-width="1.5"/>
+  <text x="150" y="506" text-anchor="middle" font-size="12" font-weight="700" fill="#5B4D8A">Sensing Agent C</text>
+  <text x="150" y="524" text-anchor="middle" font-size="11" fill="#5B4D8A">環境センサー</text>
+  <!-- Arrows to aggregator -->
+  <line x1="220" y1="380" x2="290" y2="455" stroke="#8B7DB8" stroke-width="2" marker-end="url(#arrow)"/>
+  <line x1="220" y1="445" x2="290" y2="455" stroke="#8B7DB8" stroke-width="2"/>
+  <line x1="220" y1="510" x2="290" y2="455" stroke="#8B7DB8" stroke-width="2" marker-end="url(#arrow)"/>
+  <!-- Aggregation node -->
+  <circle cx="340" cy="455" r="35" fill="#8B7DB8" stroke="#1A1D24" stroke-width="2"/>
+  <text x="340" y="451" text-anchor="middle" font-size="11" font-weight="700" fill="white">集約</text>
+  <text x="340" y="467" text-anchor="middle" font-size="11" font-weight="700" fill="white">エージェント</text>
+  <!-- Arrow to reasoning -->
+  <line x1="375" y1="455" x2="430" y2="455" stroke="#8B7DB8" stroke-width="2"/>
+  <!-- Reasoning agent -->
+  <rect x="430" y="425" width="140" height="60" rx="5" fill="#5B4D8A" stroke="#1A1D24" stroke-width="2"/>
+  <text x="500" y="451" text-anchor="middle" font-size="12" font-weight="700" fill="white">推論エージェント</text>
+  <text x="500" y="469" text-anchor="middle" font-size="11" fill="#D0C8FF">最終判断出力</text>
+  <!-- Benchmark comparison -->
+  <rect x="635" y="300" width="500" height="300" rx="6" fill="white" stroke="#1A1D24" stroke-width="2" filter="url(#softShadow)"/>
+  <text x="660" y="330" font-size="16" font-weight="700" fill="#1A1D24">ベンチマーク比較（ゼロショット設定）</text>
+  <line x1="660" y1="337" x2="900" y2="337" stroke="#8B7DB8" stroke-width="2"/>
+  <!-- Comparison bars -->
+  <text x="660" y="375" font-size="13" fill="#5C6370">深層学習ベースライン</text>
+  <rect x="810" y="358" width="175" height="26" rx="4" fill="#D0D5DC"/>
+  <text x="993" y="376" font-size="13" fill="#5C6370">70.1%</text>
+  <text x="660" y="415" font-size="13" fill="#5C6370">既存シングルエージェントLLM</text>
+  <rect x="810" y="398" width="125" height="26" rx="4" fill="#D0D5DC"/>
+  <text x="943" y="416" font-size="13" fill="#5C6370">50.5%</text>
+  <text x="660" y="455" font-size="13" fill="#5C6370">既存マルチエージェントLLM</text>
+  <rect x="810" y="438" width="150" height="26" rx="4" fill="#BCC3CC"/>
+  <text x="968" y="456" font-size="13" fill="#5C6370">50.5%</text>
+  <text x="660" y="495" font-size="13" font-weight="700" fill="#8B7DB8">SensingAgents（本手法）✦</text>
+  <rect x="810" y="478" width="225" height="26" rx="4" fill="url(#barPurple)" stroke="#8B7DB8" stroke-width="1.5"/>
+  <text x="1043" y="496" font-size="13" font-weight="700" fill="#8B7DB8">79.5% 🎯</text>
+  <text x="660" y="540" font-size="13" fill="#5C6370">+29pt vs マルチエージェント、+9.4pt vs DLベースライン</text>
+  <!-- Applications -->
+  <rect x="810" y="555" width="290" height="32" rx="4" fill="#F0EBFF" stroke="#8B7DB8" stroke-width="1.5"/>
+  <text x="955" y="572" text-anchor="middle" font-size="12" fill="#5B4D8A">応用先：ロボティクス・IoT・環境モニタリング</text>
+  <!-- Cards -->
+  <rect x="55" y="620" width="280" height="125" rx="6" fill="white" stroke="#1A1D24" stroke-width="2" filter="url(#softShadow)"/>
+  <rect x="55" y="620" width="280" height="7" rx="3" fill="#8B7DB8"/>
+  <text x="75" y="647" font-size="13" font-weight="700" fill="#1A1D24">📊 29ptの解釈注意</text>
+  <text x="75" y="665" font-size="11" fill="#5C6370">タスク選択が結果を左右する</text>
+  <text x="75" y="681" font-size="11" fill="#5C6370">ベンチが手法に有利な設計か</text>
+  <text x="75" y="697" font-size="11" fill="#5C6370">独立再現実験が必要</text>
+  <text x="75" y="728" font-size="17" font-weight="900" fill="#8B7DB8">要独立再現</text>
+  <rect x="355" y="620" width="280" height="125" rx="6" fill="white" stroke="#1A1D24" stroke-width="2" filter="url(#softShadow)"/>
+  <rect x="355" y="620" width="280" height="7" rx="3" fill="#8B7DB8"/>
+  <text x="375" y="647" font-size="13" font-weight="700" fill="#1A1D24">🚀 ゼロショット強調の意味</text>
+  <text x="375" y="665" font-size="11" fill="#5C6370">FTなしで使える = 採用障壁↓</text>
+  <text x="375" y="681" font-size="11" fill="#5C6370">エンタープライズ展開加速に</text>
+  <text x="375" y="697" font-size="11" fill="#5C6370">直結する重要な方向性</text>
+  <text x="375" y="728" font-size="17" font-weight="900" fill="#1A1D24">展開コスト削減</text>
+  <rect x="655" y="620" width="280" height="125" rx="6" fill="white" stroke="#1A1D24" stroke-width="2" filter="url(#softShadow)"/>
+  <rect x="655" y="620" width="280" height="7" rx="3" fill="#8B7DB8"/>
+  <text x="675" y="647" font-size="13" font-weight="700" fill="#1A1D24">🌐 産業AIへの橋渡し</text>
+  <text x="675" y="665" font-size="11" fill="#5C6370">コーディングタスク特化とは</text>
+  <text x="675" y="681" font-size="11" fill="#5C6370">異なる汎用知覚エージェント</text>
+  <text x="675" y="697" font-size="11" fill="#5C6370">ロボット・自動運転に接続</text>
+  <text x="675" y="728" font-size="17" font-weight="900" fill="#1A1D24">Industrial AI方向性</text>
+  <rect x="955" y="620" width="280" height="125" rx="6" fill="white" stroke="#1A1D24" stroke-width="2" filter="url(#softShadow)"/>
+  <rect x="955" y="620" width="280" height="7" rx="3" fill="#8B7DB8"/>
+  <text x="975" y="647" font-size="13" font-weight="700" fill="#1A1D24">🔥 HF Daily Papersランクイン</text>
+  <text x="975" y="665" font-size="11" fill="#5C6370">GitHub実装・Colab化の</text>
+  <text x="975" y="681" font-size="11" fill="#5C6370">連鎖が起きる可能性</text>
+  <text x="975" y="697" font-size="11" fill="#5C6370">r/LocalLLaMA検証に注目</text>
+  <text x="975" y="728" font-size="17" font-weight="900" fill="#8B7DB8">コミュニティ加速</text>
+  <!-- Sticky notes -->
+  <g transform="rotate(-1.5, 175, 840)" filter="url(#stickyShadow)">
+    <rect x="55" y="800" width="235" height="100" rx="3" fill="#FFF8C5" stroke="#E8D84A" stroke-width="1"/>
+    <text x="75" y="821" font-size="12" font-weight="700" fill="#5C4D00">📐 評価基準の不統一</text>
+    <text x="75" y="839" font-size="11" fill="#7A6800">マルチエージェント評価は</text>
+    <text x="75" y="856" font-size="11" fill="#7A6800">標準ベンチが断片化中</text>
+    <text x="75" y="873" font-size="11" fill="#7A6800">統一後に真価が判明する</text>
+  </g>
+  <g transform="rotate(1.2, 420, 840)" filter="url(#stickyShadow)">
+    <rect x="310" y="800" width="235" height="100" rx="3" fill="#C8F0FF" stroke="#4DC0E8" stroke-width="1"/>
+    <text x="330" y="821" font-size="12" font-weight="700" fill="#003D5C">🔗 QuantAgentとの比較</text>
+    <text x="330" y="839" font-size="11" fill="#005C85">金融HFT特化のQuantAgentも</text>
+    <text x="330" y="856" font-size="11" fill="#005C85">同週トレンド。センシング特化</text>
+    <text x="330" y="873" font-size="11" fill="#005C85">vs金融特化の比較が有益</text>
+  </g>
+  <g transform="rotate(-0.8, 695, 840)" filter="url(#stickyShadow)">
+    <rect x="575" y="800" width="235" height="100" rx="3" fill="#D4F5D4" stroke="#5CA46E" stroke-width="1"/>
+    <text x="595" y="821" font-size="12" font-weight="700" fill="#1A4D28">📝 ACL/NeurIPS提出?</text>
+    <text x="595" y="839" font-size="11" fill="#1F6033">ACL 2026・NeurIPS 2026への</text>
+    <text x="595" y="856" font-size="11" fill="#1F6033">発表予定があるかが</text>
+    <text x="595" y="873" font-size="11" fill="#1F6033">次のフォローポイント</text>
+  </g>
+  <g transform="rotate(1.0, 960, 840)" filter="url(#stickyShadow)">
+    <rect x="835" y="800" width="235" height="100" rx="3" fill="#FFE8CC" stroke="#E8A040" stroke-width="1"/>
+    <text x="855" y="821" font-size="12" font-weight="700" fill="#5C3000">🔮 汎化性の問題</text>
+    <text x="855" y="839" font-size="11" fill="#7A4500">センシングタスク特化の</text>
+    <text x="855" y="856" font-size="11" fill="#7A4500">精度向上が汎用AIにどこまで</text>
+    <text x="855" y="873" font-size="11" fill="#7A4500">転移するかが本質的課題</text>
+  </g>
+  <line x1="55" y1="1020" x2="1350" y2="1020" stroke="#D0C9B8" stroke-width="1"/>
+  <text x="700" y="1040" text-anchor="middle" font-size="12" fill="#9AA0AB" font-style="italic">AI News · 2026-05-09 · SensingAgents: Zero-Shot 79.5% — Outperforms Multi-Agent LLMs by 29pts</text>
+</svg>

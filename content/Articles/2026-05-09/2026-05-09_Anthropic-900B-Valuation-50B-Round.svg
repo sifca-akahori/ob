@@ -1,0 +1,210 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1400 1050" font-family="-apple-system, 'Hiragino Sans', 'Yu Gothic', sans-serif">
+  <defs>
+    <pattern id="paperTex" patternUnits="userSpaceOnUse" width="100" height="100">
+      <rect width="100" height="100" fill="#FBF8F1"/>
+      <circle cx="18" cy="25" r="0.4" fill="#C4B389" opacity="0.3"/>
+      <circle cx="63" cy="47" r="0.5" fill="#C4B389" opacity="0.3"/>
+      <circle cx="35" cy="80" r="0.3" fill="#C4B389" opacity="0.3"/>
+      <circle cx="85" cy="12" r="0.4" fill="#C4B389" opacity="0.25"/>
+      <circle cx="52" cy="66" r="0.35" fill="#C4B389" opacity="0.2"/>
+    </pattern>
+    <filter id="stickyShadow">
+      <feGaussianBlur in="SourceAlpha" stdDeviation="3"/>
+      <feOffset dx="2" dy="3" result="offsetblur"/>
+      <feComponentTransfer><feFuncA type="linear" slope="0.25"/></feComponentTransfer>
+      <feMerge><feMergeNode/><feMergeNode in="SourceGraphic"/></feMerge>
+    </filter>
+    <filter id="softShadow">
+      <feGaussianBlur in="SourceAlpha" stdDeviation="2"/>
+      <feOffset dx="1" dy="2" result="offsetblur"/>
+      <feComponentTransfer><feFuncA type="linear" slope="0.18"/></feComponentTransfer>
+      <feMerge><feMergeNode/><feMergeNode in="SourceGraphic"/></feMerge>
+    </filter>
+    <linearGradient id="barGreen" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0%" stop-color="#5CA46E"/>
+      <stop offset="100%" stop-color="#7EC490"/>
+    </linearGradient>
+    <linearGradient id="barGray" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0%" stop-color="#9AA0AB"/>
+      <stop offset="100%" stop-color="#BCC3CC"/>
+    </linearGradient>
+  </defs>
+
+  <!-- Background -->
+  <rect width="1400" height="1050" fill="url(#paperTex)"/>
+  <rect width="1400" height="1050" fill="#FBF8F1" opacity="0.4"/>
+
+  <!-- Binding holes -->
+  <rect x="0" y="0" width="38" height="1050" fill="#E8E2D3" stroke="#D0C9B8" stroke-width="1"/>
+  <circle cx="19" cy="120" r="10" fill="#FBF8F1" stroke="#C4B8A0" stroke-width="1.5"/>
+  <circle cx="19" cy="280" r="10" fill="#FBF8F1" stroke="#C4B8A0" stroke-width="1.5"/>
+  <circle cx="19" cy="440" r="10" fill="#FBF8F1" stroke="#C4B8A0" stroke-width="1.5"/>
+  <circle cx="19" cy="600" r="10" fill="#FBF8F1" stroke="#C4B8A0" stroke-width="1.5"/>
+  <circle cx="19" cy="760" r="10" fill="#FBF8F1" stroke="#C4B8A0" stroke-width="1.5"/>
+  <circle cx="19" cy="920" r="10" fill="#FBF8F1" stroke="#C4B8A0" stroke-width="1.5"/>
+
+  <!-- Category tape top-right -->
+  <g transform="rotate(-3, 1300, 42)">
+    <rect x="1170" y="18" width="200" height="36" rx="3" fill="#5CA46E" opacity="0.88" stroke="#1A1D24" stroke-width="1.5"/>
+    <text x="1270" y="41" text-anchor="middle" font-size="15" font-weight="700" fill="white">#ビジネス</text>
+  </g>
+
+  <!-- Date badge -->
+  <rect x="55" y="18" width="165" height="34" rx="4" fill="#2F3842" stroke="#1A1D24" stroke-width="1.5"/>
+  <text x="138" y="40" text-anchor="middle" font-size="14" font-weight="600" fill="white">2026-05-09</text>
+
+  <!-- Impact stars -->
+  <text x="260" y="42" font-size="20" fill="#F5A623">⭐⭐⭐</text>
+
+  <!-- Header -->
+  <text x="55" y="95" font-size="38" font-weight="900" fill="#1A1D24">💰 Anthropic $9,000億評価 × $500億ラウンド計画</text>
+  <text x="55" y="128" font-size="18" fill="#5C6370">Financial Times報道｜2026-05-09｜#ビジネス #資金調達 #Anthropic</text>
+  <line x1="55" y1="140" x2="1350" y2="140" stroke="#1A1D24" stroke-width="2"/>
+
+  <!-- Hero element: money bag icon -->
+  <g transform="translate(1230, 185)">
+    <circle cx="0" cy="0" r="68" fill="#5CA46E" opacity="0.15" stroke="#5CA46E" stroke-width="2"/>
+    <text x="0" y="12" text-anchor="middle" font-size="68">💰</text>
+  </g>
+
+  <!-- Key numbers block -->
+  <rect x="55" y="158" width="820" height="120" rx="6" fill="white" stroke="#1A1D24" stroke-width="2" filter="url(#softShadow)"/>
+  <!-- Number 1 -->
+  <text x="85" y="198" font-size="13" fill="#5C6370">評価額</text>
+  <text x="85" y="238" font-size="46" font-weight="900" fill="#5CA46E">$9,000億</text>
+  <text x="85" y="262" font-size="12" fill="#9AA0AB">Source: Financial Times, 2026-05-09</text>
+  <!-- Divider -->
+  <line x1="330" y1="175" x2="330" y2="265" stroke="#E8E2D3" stroke-width="1"/>
+  <!-- Number 2 -->
+  <text x="360" y="198" font-size="13" fill="#5C6370">調達額（計画）</text>
+  <text x="360" y="238" font-size="46" font-weight="900" fill="#1A1D24">$500億</text>
+  <text x="360" y="262" font-size="12" fill="#9AA0AB">民間企業史上最大規模</text>
+  <!-- Divider -->
+  <line x1="590" y1="175" x2="590" y2="265" stroke="#E8E2D3" stroke-width="1"/>
+  <!-- Number 3 -->
+  <text x="620" y="198" font-size="13" fill="#5C6370">現在ARR</text>
+  <text x="620" y="238" font-size="46" font-weight="900" fill="#1A1D24">$190億</text>
+  <text x="620" y="262" font-size="12" fill="#9AA0AB">上位50社の40%が金融機関</text>
+
+  <!-- Valuation Comparison Chart -->
+  <rect x="55" y="300" width="540" height="300" rx="6" fill="white" stroke="#1A1D24" stroke-width="2" filter="url(#softShadow)"/>
+  <text x="80" y="330" font-size="16" font-weight="700" fill="#1A1D24">主要テック企業との評価額比較</text>
+  <line x1="80" y1="336" x2="340" y2="336" stroke="#5CA46E" stroke-width="2"/>
+  <!-- Bars -->
+  <!-- Apple $3.3T -->
+  <text x="80" y="365" font-size="12" fill="#5C6370">Apple</text>
+  <rect x="160" y="350" width="330" height="22" rx="3" fill="url(#barGray)"/>
+  <text x="498" y="366" font-size="12" fill="#5C6370">$3.3兆</text>
+  <!-- NVIDIA $3.1T -->
+  <text x="80" y="400" font-size="12" fill="#5C6370">NVIDIA</text>
+  <rect x="160" y="385" width="310" height="22" rx="3" fill="url(#barGray)"/>
+  <text x="478" y="401" font-size="12" fill="#5C6370">$3.1兆</text>
+  <!-- Meta $1.3T -->
+  <text x="80" y="435" font-size="12" fill="#5C6370">Meta</text>
+  <rect x="160" y="420" width="130" height="22" rx="3" fill="url(#barGray)"/>
+  <text x="298" y="436" font-size="12" fill="#5C6370">$1.3兆</text>
+  <!-- Anthropic $900B -->
+  <text x="80" y="470" font-size="12" font-weight="700" fill="#5CA46E">Anthropic</text>
+  <rect x="160" y="455" width="90" height="22" rx="3" fill="url(#barGreen)" stroke="#5CA46E" stroke-width="1.5"/>
+  <text x="258" y="471" font-size="12" font-weight="700" fill="#5CA46E">$9,000億 ✦</text>
+  <!-- OpenAI -->
+  <text x="80" y="505" font-size="12" fill="#5C6370">OpenAI</text>
+  <rect x="160" y="490" width="73" height="22" rx="3" fill="url(#barGray)"/>
+  <text x="241" y="506" font-size="12" fill="#5C6370">$7,300億</text>
+  <!-- xAI -->
+  <text x="80" y="540" font-size="12" fill="#5C6370">xAI</text>
+  <rect x="160" y="525" width="40" height="22" rx="3" fill="url(#barGray)"/>
+  <text x="208" y="541" font-size="12" fill="#5C6370">$400億</text>
+  <text x="80" y="578" font-size="10" fill="#9AA0AB">※民間評価額（流動性プレミアム未考慮）</text>
+
+  <!-- ARR Race Chart -->
+  <rect x="615" y="300" width="420" height="300" rx="6" fill="white" stroke="#1A1D24" stroke-width="2" filter="url(#softShadow)"/>
+  <text x="640" y="330" font-size="16" font-weight="700" fill="#1A1D24">ARR競争（2026年5月時点）</text>
+  <line x1="640" y1="336" x2="860" y2="336" stroke="#5CA46E" stroke-width="2"/>
+
+  <!-- ARR Bars Vertical -->
+  <!-- OpenAI bar -->
+  <text x="690" y="575" text-anchor="middle" font-size="12" fill="#5C6370">OpenAI</text>
+  <rect x="655" y="380" width="70" height="185" rx="4" fill="url(#barGray)"/>
+  <text x="690" y="374" text-anchor="middle" font-size="13" font-weight="700" fill="#5C6370">$250億</text>
+
+  <!-- Anthropic bar -->
+  <text x="820" y="575" text-anchor="middle" font-size="12" font-weight="700" fill="#5CA46E">Anthropic</text>
+  <rect x="785" y="355" width="70" height="210" rx="4" fill="url(#barGreen)" stroke="#5CA46E" stroke-width="1.5"/>
+  <text x="820" y="349" text-anchor="middle" font-size="13" font-weight="700" fill="#5CA46E">$300億↑</text>
+
+  <!-- Ramp note -->
+  <rect x="630" y="588" width="390" height="4" rx="2" fill="#E8E2D3"/>
+  <text x="640" y="605" font-size="11" fill="#5C6370">Ramp新規ビジネス顧客: Anthropic選択率 = OpenAIの3倍</text>
+
+  <!-- Cards row -->
+  <!-- Card 1 -->
+  <rect x="55" y="620" width="280" height="140" rx="6" fill="white" stroke="#1A1D24" stroke-width="2" filter="url(#softShadow)"/>
+  <rect x="55" y="620" width="280" height="8" rx="3" fill="#5CA46E"/>
+  <text x="75" y="650" font-size="14" font-weight="700" fill="#1A1D24">🏦 金融機関占有率</text>
+  <text x="75" y="672" font-size="12" fill="#5C6370">上位50顧客の40%が金融機関</text>
+  <text x="75" y="690" font-size="12" fill="#5C6370">規制準拠・監査可能性で優位</text>
+  <text x="75" y="708" font-size="12" fill="#5C6370">JPMorganらが継続契約を選択</text>
+  <text x="75" y="726" font-size="20" font-weight="900" fill="#5CA46E">40%</text>
+
+  <!-- Card 2 -->
+  <rect x="355" y="620" width="280" height="140" rx="6" fill="white" stroke="#1A1D24" stroke-width="2" filter="url(#softShadow)"/>
+  <rect x="355" y="620" width="280" height="8" rx="3" fill="#5CA46E"/>
+  <text x="375" y="650" font-size="14" font-weight="700" fill="#1A1D24">📊 Ramp 新規顧客選択</text>
+  <text x="375" y="672" font-size="12" fill="#5C6370">初回ビジネス契約でAnthropicを</text>
+  <text x="375" y="690" font-size="12" fill="#5C6370">選ぶ率がOpenAIの3倍に</text>
+  <text x="375" y="708" font-size="12" fill="#5C6370">エンタープライズ浸透が加速中</text>
+  <text x="375" y="726" font-size="20" font-weight="900" fill="#5CA46E">3× faster</text>
+
+  <!-- Card 3 -->
+  <rect x="655" y="620" width="280" height="140" rx="6" fill="white" stroke="#1A1D24" stroke-width="2" filter="url(#softShadow)"/>
+  <rect x="655" y="620" width="280" height="8" rx="3" fill="#5CA46E"/>
+  <text x="675" y="650" font-size="14" font-weight="700" fill="#1A1D24">🎯 Amodeiの規制提唱</text>
+  <text x="675" y="672" font-size="12" fill="#5C6370">「SaaSがAI不採用なら倒産」</text>
+  <text x="675" y="690" font-size="12" fill="#5C6370">強力モデルへの規制強化も支持</text>
+  <text x="675" y="708" font-size="12" fill="#5C6370">規制=競争優位の保護戦略</text>
+  <text x="675" y="726" font-size="12" fill="#9AA0AB">May 5, Financial Services Event</text>
+
+  <!-- Card 4 -->
+  <rect x="955" y="620" width="280" height="140" rx="6" fill="white" stroke="#1A1D24" stroke-width="2" filter="url(#softShadow)"/>
+  <rect x="955" y="620" width="280" height="8" rx="3" fill="#5CA46E"/>
+  <text x="975" y="650" font-size="14" font-weight="700" fill="#1A1D24">🚀 IPO前ウォームアップ</text>
+  <text x="975" y="672" font-size="12" fill="#5C6370">$9,000億は上場前の市場値踏み</text>
+  <text x="975" y="690" font-size="12" fill="#5C6370">2027年AI IPOレース本格化前に</text>
+  <text x="975" y="708" font-size="12" fill="#5C6370">ポジション固めの可能性</text>
+  <text x="975" y="726" font-size="12" fill="#9AA0AB">vs OpenAI IPO 2026Q4説</text>
+
+  <!-- Sticky notes -->
+  <g transform="rotate(-1.5, 200, 825)" filter="url(#stickyShadow)">
+    <rect x="55" y="785" width="240" height="110" rx="3" fill="#FFF8C5" stroke="#E8D84A" stroke-width="1"/>
+    <text x="75" y="810" font-size="13" font-weight="700" fill="#5C4D00">💡 IPOディスカウント注意</text>
+    <text x="75" y="830" font-size="11" fill="#7A6800">民間$9,000億→上場時に</text>
+    <text x="75" y="847" font-size="11" fill="#7A6800">30〜50%ディスカウントが</text>
+    <text x="75" y="864" font-size="11" fill="#7A6800">過去のIPOでは典型的</text>
+  </g>
+  <g transform="rotate(1.2, 465, 825)" filter="url(#stickyShadow)">
+    <rect x="330" y="785" width="240" height="110" rx="3" fill="#C8F0FF" stroke="#4DC0E8" stroke-width="1"/>
+    <text x="350" y="810" font-size="13" font-weight="700" fill="#003D5C">🏆 史上最大民間AIラウンド</text>
+    <text x="350" y="830" font-size="11" fill="#005C85">Microsoft投資（$130億）を</text>
+    <text x="350" y="847" font-size="11" fill="#005C85">大幅に超える$500億計画は</text>
+    <text x="350" y="864" font-size="11" fill="#005C85">民間市場の新記録水準</text>
+  </g>
+  <g transform="rotate(-0.8, 745, 825)" filter="url(#stickyShadow)">
+    <rect x="610" y="785" width="240" height="110" rx="3" fill="#D4F5D4" stroke="#5CA46E" stroke-width="1"/>
+    <text x="630" y="810" font-size="13" font-weight="700" fill="#1A4D28">📈 15カ月30倍成長</text>
+    <text x="630" y="830" font-size="11" fill="#1F6033">ARR $10億→$190億への</text>
+    <text x="630" y="847" font-size="11" fill="#1F6033">加速度は史上最速SaaSを</text>
+    <text x="630" y="864" font-size="11" fill="#1F6033">遥かに凌駕するペース</text>
+  </g>
+  <g transform="rotate(1.0, 1025, 825)" filter="url(#stickyShadow)">
+    <rect x="890" y="785" width="240" height="110" rx="3" fill="#FFE8CC" stroke="#E8A040" stroke-width="1"/>
+    <text x="910" y="810" font-size="13" font-weight="700" fill="#5C3000">⚖️ 規制支持の真意</text>
+    <text x="910" y="830" font-size="11" fill="#7A4500">規制強化＝中国OSS勢の</text>
+    <text x="910" y="847" font-size="11" fill="#7A4500">参入障壁 + 安全投資が</text>
+    <text x="910" y="864" font-size="11" fill="#7A4500">多いラボが優位の構造</text>
+  </g>
+
+  <!-- Footer -->
+  <line x1="55" y1="1020" x2="1350" y2="1020" stroke="#D0C9B8" stroke-width="1"/>
+  <text x="700" y="1040" text-anchor="middle" font-size="12" fill="#9AA0AB" font-style="italic">AI News · 2026-05-09 · Anthropic $900B Valuation — $50B Funding Round</text>
+</svg>

@@ -1,0 +1,213 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1400 1050" font-family="-apple-system, 'Hiragino Sans', 'Yu Gothic', sans-serif">
+  <defs>
+    <pattern id="paperTexture" patternUnits="userSpaceOnUse" width="100" height="100">
+      <rect width="100" height="100" fill="#FBF8F1"/>
+      <circle cx="22" cy="35" r="0.4" fill="#C4B389" opacity="0.28"/>
+      <circle cx="68" cy="72" r="0.45" fill="#C4B389" opacity="0.22"/>
+    </pattern>
+    <filter id="stickyShadow">
+      <feGaussianBlur in="SourceAlpha" stdDeviation="3"/>
+      <feOffset dx="2" dy="3"/>
+      <feComponentTransfer><feFuncA type="linear" slope="0.2"/></feComponentTransfer>
+      <feMerge><feMergeNode/><feMergeNode in="SourceGraphic"/></feMerge>
+    </filter>
+    <filter id="softShadow">
+      <feGaussianBlur in="SourceAlpha" stdDeviation="2"/>
+      <feOffset dx="1" dy="2"/>
+      <feComponentTransfer><feFuncA type="linear" slope="0.15"/></feComponentTransfer>
+      <feMerge><feMergeNode/><feMergeNode in="SourceGraphic"/></feMerge>
+    </filter>
+  </defs>
+
+  <rect width="1400" height="1050" fill="url(#paperTexture)"/>
+  <line x1="112" y1="20" x2="112" y2="1030" stroke="#D88A8A" stroke-width="1.2" opacity="0.4"/>
+  <g fill="#E0D5B8" opacity="0.6">
+    <circle cx="52" cy="90" r="12"/><circle cx="52" cy="310" r="12"/>
+    <circle cx="52" cy="530" r="12"/><circle cx="52" cy="750" r="12"/><circle cx="52" cy="970" r="12"/>
+  </g>
+  <g fill="#FBF8F1">
+    <circle cx="52" cy="90" r="8.5"/><circle cx="52" cy="310" r="8.5"/>
+    <circle cx="52" cy="530" r="8.5"/><circle cx="52" cy="750" r="8.5"/><circle cx="52" cy="970" r="8.5"/>
+  </g>
+
+  <g transform="rotate(-3,1260,48)">
+    <rect x="1155" y="28" width="190" height="42" fill="#5B8DEF" rx="3"/>
+    <text x="1250" y="55" font-size="15" font-weight="700" fill="white" text-anchor="middle">#研究</text>
+  </g>
+  <rect x="130" y="22" width="160" height="36" fill="#2F3842" rx="4"/>
+  <text x="210" y="45" font-size="14" fill="white" text-anchor="middle" font-weight="600">2026-05-08</text>
+  <text x="1300" y="100" font-size="22" text-anchor="end">⭐⭐</text>
+
+  <text x="140" y="115" font-size="40" font-weight="900" fill="#1A1D24">🌐 ClawBench：153本番Webタスク×144ライブサイト</text>
+  <text x="140" y="158" font-size="36" font-weight="900" fill="#1A1D24">現実エージェント能力を測定——Claude Sonnet 4.6が33.3%でトップ</text>
+  <text x="140" y="188" font-size="14" fill="#5B8DEF" font-weight="700">UBC / Vector Institute · 2026-05-上旬 · #ベンチマーク #エージェント #ClawBench #ウェブ自動化</text>
+  <line x1="130" y1="203" x2="1350" y2="203" stroke="#1A1D24" stroke-width="2.5"/>
+
+  <!-- KEY NUMBERS -->
+  <rect x="130" y="216" width="228" height="108" fill="white" stroke="#1A1D24" stroke-width="2" rx="6" filter="url(#softShadow)"/>
+  <text x="244" y="258" font-size="46" font-weight="900" fill="#5B8DEF" text-anchor="middle">153</text>
+  <text x="244" y="280" font-size="12" fill="#555" text-anchor="middle">タスク数</text>
+  <text x="244" y="298" font-size="11" fill="#888" text-anchor="middle">15カテゴリにわたる</text>
+  <text x="244" y="314" font-size="11" fill="#888" text-anchor="middle">実際の作業タスク</text>
+
+  <rect x="375" y="216" width="228" height="108" fill="white" stroke="#1A1D24" stroke-width="2" rx="6" filter="url(#softShadow)"/>
+  <text x="489" y="258" font-size="46" font-weight="900" fill="#5B8DEF" text-anchor="middle">144</text>
+  <text x="489" y="280" font-size="12" fill="#555" text-anchor="middle">本番ウェブサイト数</text>
+  <text x="489" y="298" font-size="11" fill="#888" text-anchor="middle">シミュレーションではなく</text>
+  <text x="489" y="314" font-size="11" fill="#888" text-anchor="middle">実稼働サイトで評価</text>
+
+  <rect x="620" y="216" width="228" height="108" fill="white" stroke="#1A1D24" stroke-width="2" rx="6" filter="url(#softShadow)"/>
+  <text x="734" y="258" font-size="46" font-weight="900" fill="#E05C5C" text-anchor="middle">33.3%</text>
+  <text x="734" y="280" font-size="12" fill="#555" text-anchor="middle">フロンティア最高スコア</text>
+  <text x="734" y="298" font-size="11" fill="#888" text-anchor="middle">Claude Sonnet 4.6</text>
+  <text x="734" y="314" font-size="11" fill="#E05C5C" text-anchor="middle">3回に1回しか成功しない</text>
+
+  <rect x="865" y="216" width="485" height="108" fill="white" stroke="#1A1D24" stroke-width="2" rx="6" filter="url(#softShadow)"/>
+  <text x="1107" y="256" font-size="36" font-weight="900" fill="#E05C5C" text-anchor="middle">50〜80%</text>
+  <text x="1107" y="280" font-size="12" fill="#555" text-anchor="middle">「自動化委託可能」の実用閾値（推定）</text>
+  <text x="1107" y="298" font-size="11" fill="#888" text-anchor="middle">33.3% → 閾値に届かず業界全体が未達</text>
+  <text x="1107" y="314" font-size="11" fill="#888" text-anchor="middle">Webエージェント実用化にはまだ距離</text>
+
+  <!-- MAIN VISUAL: Score comparison + category breakdown -->
+  <rect x="130" y="340" width="720" height="300" fill="white" stroke="#1A1D24" stroke-width="2" rx="8" filter="url(#softShadow)"/>
+  <text x="490" y="367" font-size="15" font-weight="800" fill="#1A1D24" text-anchor="middle">ClawBench スコア vs 従来ベンチ（モデル別）</text>
+  <line x1="145" y1="377" x2="835" y2="377" stroke="#1A1D24" stroke-width="1.5"/>
+
+  <g font-size="12">
+    <!-- Labels and legend -->
+    <rect x="480" y="382" width="14" height="14" fill="#5B8DEF"/>
+    <text x="500" y="394" fill="#555">ClawBench（本番Webライブ）</text>
+    <rect x="680" y="382" width="14" height="14" fill="#C8E6C9"/>
+    <text x="700" y="394" fill="#555">OSWorld-V（参考）</text>
+
+    <!-- Claude Sonnet 4.6 -->
+    <text x="160" y="432" fill="#8B7DB8" font-weight="700">Claude Sonnet 4.6</text>
+    <rect x="295" y="416" width="99" height="22" fill="#5B8DEF" stroke="#1A1D24" stroke-width="1.5" rx="2"/>
+    <text x="400" y="432" fill="#5B8DEF" font-weight="700"> 33.3% ← トップ</text>
+    <rect x="600" y="416" width="233" height="22" fill="#C8E6C9" stroke="#1A1D24" stroke-width="1"/>
+    <text x="840" y="432" fill="#666"> 78.0%</text>
+
+    <!-- GPT-5.5 -->
+    <text x="160" y="472" fill="#5B8DEF" font-weight="700">GPT-5.5</text>
+    <rect x="295" y="456" width="84" height="22" fill="#5B8DEF" stroke="#1A1D24" stroke-width="1.5" rx="2" opacity="0.7"/>
+    <text x="385" y="472" fill="#555"> ~28%</text>
+    <rect x="600" y="456" width="236" height="22" fill="#C8E6C9" stroke="#1A1D24" stroke-width="1" opacity="0.7"/>
+    <text x="840" y="472" fill="#666"> 78.7%</text>
+
+    <!-- Gemini 3.1 Pro -->
+    <text x="160" y="512" fill="#5CA46E" font-weight="700">Gemini 3.1 Pro</text>
+    <rect x="295" y="496" width="90" height="22" fill="#5B8DEF" stroke="#1A1D24" stroke-width="1.5" rx="2" opacity="0.6"/>
+    <text x="391" y="512" fill="#555"> ~30%</text>
+    <text x="600" y="512" fill="#888"> (未測定)</text>
+
+    <!-- OSS models -->
+    <text x="160" y="552" fill="#888" font-weight="700">OSS モデル群</text>
+    <rect x="295" y="536" width="54" height="22" fill="#EEE" stroke="#1A1D24" stroke-width="1.5" rx="2"/>
+    <text x="355" y="552" fill="#888"> ~18%</text>
+
+    <!-- Threshold line -->
+    <line x1="295" y1="580" x2="815" y2="580" stroke="#E05C5C" stroke-width="2" stroke-dasharray="6,3"/>
+    <text x="820" y="585" fill="#E05C5C" font-size="11" font-weight="700">実用閾値 50%+</text>
+
+    <text x="155" y="630" fill="#999" font-size="10">※ ClawBench スコアは概算値を含む。OSWorld-V は異なる評価環境の参考値。</text>
+  </g>
+
+  <!-- Side: Category breakdown and comparison vs simulation -->
+  <rect x="870" y="340" width="480" height="300" fill="white" stroke="#1A1D24" stroke-width="2" rx="8" filter="url(#softShadow)"/>
+  <text x="1110" y="367" font-size="15" font-weight="800" fill="#1A1D24" text-anchor="middle">ライブ vs シミュレーション評価の差</text>
+  <line x1="885" y1="377" x2="1340" y2="377" stroke="#1A1D24" stroke-width="1.5"/>
+
+  <g font-size="12">
+    <rect x="885" y="385" width="450" height="100" fill="#E3F2FD" rx="4"/>
+    <text x="895" y="405" font-weight="700" fill="#0D47A1">従来（WebArena / VisualWebArena）</text>
+    <text x="895" y="423" fill="#555">• 静的コピーサイトで評価</text>
+    <text x="895" y="441" fill="#555">• A/Bテスト・クッキー同意なし</text>
+    <text x="895" y="459" fill="#555">• 在庫変動・ダイナミック価格なし</text>
+    <text x="895" y="477" fill="#888" font-size="11">→ 「現実のウェブ」の複雑さを再現不可</text>
+
+    <rect x="885" y="495" width="450" height="100" fill="#FFEBEE" rx="4"/>
+    <text x="895" y="515" font-weight="700" fill="#C62828">ClawBench（ライブサイト評価）</text>
+    <text x="895" y="533" fill="#555">• 144 本番サイト（実稼働中）で実行</text>
+    <text x="895" y="551" fill="#555">• CAPTCHAブロック・bot検出対応必要</text>
+    <text x="895" y="569" fill="#555">• ポップアップ・動的UI・認証フローあり</text>
+    <text x="895" y="587" fill="#888" font-size="11">→ Lab-to-Deployment Gap が定量化される</text>
+
+    <rect x="885" y="605" width="450" height="25" fill="#FFF8E1" rx="3"/>
+    <text x="895" y="623" fill="#E65100" font-weight="700" font-size="12">結論: シミュレーション高スコア ≠ 本番実用性</text>
+  </g>
+
+  <!-- CARDS -->
+  <rect x="130" y="655" width="283" height="125" fill="white" stroke="#1A1D24" stroke-width="2" rx="6" filter="url(#softShadow)"/>
+  <rect x="130" y="655" width="283" height="28" fill="#5B8DEF" rx="6"/>
+  <rect x="130" y="670" width="283" height="13" fill="#5B8DEF"/>
+  <text x="271" y="674" font-size="13" font-weight="700" fill="white" text-anchor="middle">「33.3%」の意味</text>
+  <text x="145" y="703" font-size="12" fill="#333">3回に1回しか成功しない</text>
+  <text x="145" y="721" font-size="12" fill="#333">「失敗するとコストが発生する」タスク</text>
+  <text x="145" y="739" font-size="12" fill="#333">（購入・予約・申込）への無監視適用は危険</text>
+  <text x="145" y="757" font-size="11" fill="#888">人間の監視なしはまだ無理</text>
+
+  <rect x="433" y="655" width="283" height="125" fill="white" stroke="#1A1D24" stroke-width="2" rx="6" filter="url(#softShadow)"/>
+  <rect x="433" y="655" width="283" height="28" fill="#5B8DEF" rx="6"/>
+  <rect x="433" y="670" width="283" height="13" fill="#5B8DEF"/>
+  <text x="574" y="674" font-size="13" font-weight="700" fill="white" text-anchor="middle">Claudeが首位の理由</text>
+  <text x="448" y="703" font-size="12" fill="#333">Computer Use 機能との親和性</text>
+  <text x="448" y="721" font-size="12" fill="#333">スクリーンショット→クリック→タイピング</text>
+  <text x="448" y="739" font-size="12" fill="#333">汎用UI操作への頑健性が高い</text>
+  <text x="448" y="757" font-size="11" fill="#888">ただし33.3%という絶対値は低い</text>
+
+  <rect x="736" y="655" width="283" height="125" fill="white" stroke="#1A1D24" stroke-width="2" rx="6" filter="url(#softShadow)"/>
+  <rect x="736" y="655" width="283" height="28" fill="#5B8DEF" rx="6"/>
+  <rect x="736" y="670" width="283" height="13" fill="#5B8DEF"/>
+  <text x="877" y="674" font-size="13" font-weight="700" fill="white" text-anchor="middle">CAPTCHA 問題</text>
+  <text x="751" y="703" font-size="12" fill="#333">本番サイトの多くがbot検出を搭載</text>
+  <text x="751" y="721" font-size="12" fill="#333">AIエージェントが回避することは</text>
+  <text x="751" y="739" font-size="12" fill="#333">倫理的・技術的に困難</text>
+  <text x="751" y="757" font-size="11" fill="#888">→ プラットフォームとの契約が必須</text>
+
+  <rect x="1039" y="655" width="311" height="125" fill="white" stroke="#1A1D24" stroke-width="2" rx="6" filter="url(#softShadow)"/>
+  <rect x="1039" y="655" width="311" height="28" fill="#5B8DEF" rx="6"/>
+  <rect x="1039" y="670" width="311" height="13" fill="#5B8DEF"/>
+  <text x="1194" y="674" font-size="13" font-weight="700" fill="white" text-anchor="middle">6〜12ヶ月の予測</text>
+  <text x="1054" y="703" font-size="12" fill="#333">「Webエージェント50%超」が2027モデル目標に</text>
+  <text x="1054" y="721" font-size="12" fill="#333">Operator (OpenAI) / Computer Use (Anthropic)</text>
+  <text x="1054" y="739" font-size="12" fill="#333">Project Mariner (Google) が競う</text>
+  <text x="1054" y="757" font-size="11" fill="#888">共通ベンチ = 企業採用判断の客観化</text>
+
+  <!-- STICKIES -->
+  <g transform="rotate(-1.5,200,840)" filter="url(#stickyShadow)">
+    <rect x="130" y="818" width="205" height="88" fill="#FFF9C4" stroke="#1A1D24" stroke-width="1.5" rx="3"/>
+    <text x="232" y="839" font-size="12" font-weight="700" fill="#1A1D24" text-anchor="middle">🏫 開発元</text>
+    <text x="145" y="858" font-size="11" fill="#333">UBC（ブリティッシュコロンビア大）</text>
+    <text x="145" y="875" font-size="11" fill="#333">+ Vector Institute（カナダ）</text>
+    <text x="145" y="892" font-size="11" fill="#555">カナダAI研究の重要成果</text>
+    <text x="145" y="906" font-size="10" fill="#888">非米国発ベンチの台頭</text>
+  </g>
+  <g transform="rotate(1.2,375,840)" filter="url(#stickyShadow)">
+    <rect x="363" y="818" width="205" height="88" fill="#C8E6C9" stroke="#1A1D24" stroke-width="1.5" rx="3"/>
+    <text x="465" y="839" font-size="12" font-weight="700" fill="#1A1D24" text-anchor="middle">📊 実用閾値</text>
+    <text x="378" y="858" font-size="11" fill="#333">「無監視委託可能」= 80〜90%</text>
+    <text x="378" y="875" font-size="11" fill="#333">「補助ツールとして活用」= 50%+</text>
+    <text x="378" y="892" font-size="11" fill="#E05C5C">現状 33.3% = どちらも未達</text>
+    <text x="378" y="906" font-size="10" fill="#888">もう少し頑張れ感</text>
+  </g>
+  <g transform="rotate(-0.8,596,840)" filter="url(#stickyShadow)">
+    <rect x="586" y="818" width="205" height="88" fill="#BBDEFB" stroke="#1A1D24" stroke-width="1.5" rx="3"/>
+    <text x="688" y="839" font-size="12" font-weight="700" fill="#1A1D24" text-anchor="middle">🔬 検証の限界</text>
+    <text x="601" y="858" font-size="11" fill="#333">CAPTCHAの扱いが不明確</text>
+    <text x="601" y="875" font-size="11" fill="#333">「本番購入完了」は倫理的に困難</text>
+    <text x="601" y="892" font-size="11" fill="#555">テスト用アカウントで擬似実行?</text>
+    <text x="601" y="906" font-size="10" fill="#888">方法論の詳細公開が重要</text>
+  </g>
+  <g transform="rotate(1.0,820,840)" filter="url(#stickyShadow)">
+    <rect x="810" y="818" width="205" height="88" fill="#F8BBD0" stroke="#1A1D24" stroke-width="1.5" rx="3"/>
+    <text x="912" y="839" font-size="12" font-weight="700" fill="#1A1D24" text-anchor="middle">⚡ 2027目標</text>
+    <text x="825" y="858" font-size="11" fill="#333">ClawBench 50%超が</text>
+    <text x="825" y="875" font-size="11" fill="#333">次世代モデルの目標に</text>
+    <text x="825" y="892" font-size="11" fill="#5B8DEF">ゴールドスタンダード化？</text>
+    <text x="825" y="906" font-size="10" fill="#888">業界採用判断が変わる</text>
+  </g>
+
+  <line x1="130" y1="920" x2="1350" y2="920" stroke="#1A1D24" stroke-width="1"/>
+  <text x="740" y="943" font-size="12" fill="#888" text-anchor="middle" font-style="italic">AI News · 2026-05-08 · ClawBench: Evaluating Web Agents on 153 Tasks Across 144 Live Production Websites</text>
+  <text x="740" y="963" font-size="11" fill="#AAA" text-anchor="middle">Source: UBC / Vector Institute · 2026-05</text>
+</svg>
