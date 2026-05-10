@@ -1,0 +1,228 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1400 1050" font-family="-apple-system, 'Hiragino Sans', 'Yu Gothic', sans-serif">
+  <defs>
+    <pattern id="paperTex" patternUnits="userSpaceOnUse" width="100" height="100">
+      <rect width="100" height="100" fill="#FBF8F1"/>
+      <circle cx="22" cy="30" r="0.4" fill="#C4B389" opacity="0.3"/>
+      <circle cx="70" cy="55" r="0.5" fill="#C4B389" opacity="0.3"/>
+      <circle cx="42" cy="82" r="0.3" fill="#C4B389" opacity="0.3"/>
+      <circle cx="88" cy="18" r="0.4" fill="#C4B389" opacity="0.25"/>
+      <circle cx="58" cy="70" r="0.35" fill="#C4B389" opacity="0.2"/>
+    </pattern>
+    <filter id="stickyShadow">
+      <feGaussianBlur in="SourceAlpha" stdDeviation="3"/>
+      <feOffset dx="2" dy="3" result="offsetblur"/>
+      <feComponentTransfer><feFuncA type="linear" slope="0.25"/></feComponentTransfer>
+      <feMerge><feMergeNode/><feMergeNode in="SourceGraphic"/></feMerge>
+    </filter>
+    <filter id="softShadow">
+      <feGaussianBlur in="SourceAlpha" stdDeviation="2"/>
+      <feOffset dx="1" dy="2" result="offsetblur"/>
+      <feComponentTransfer><feFuncA type="linear" slope="0.18"/></feComponentTransfer>
+      <feMerge><feMergeNode/><feMergeNode in="SourceGraphic"/></feMerge>
+    </filter>
+    <linearGradient id="barRed" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0%" stop-color="#E05252"/>
+      <stop offset="100%" stop-color="#F07070"/>
+    </linearGradient>
+    <linearGradient id="barGray" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0%" stop-color="#9AA0AB"/>
+      <stop offset="100%" stop-color="#BCC3CC"/>
+    </linearGradient>
+  </defs>
+
+  <!-- Background -->
+  <rect width="1400" height="1050" fill="url(#paperTex)"/>
+  <rect width="1400" height="1050" fill="#FBF8F1" opacity="0.4"/>
+
+  <!-- Binding holes -->
+  <rect x="0" y="0" width="38" height="1050" fill="#E8E2D3" stroke="#D0C9B8" stroke-width="1"/>
+  <circle cx="19" cy="120" r="10" fill="#FBF8F1" stroke="#C4B8A0" stroke-width="1.5"/>
+  <circle cx="19" cy="280" r="10" fill="#FBF8F1" stroke="#C4B8A0" stroke-width="1.5"/>
+  <circle cx="19" cy="440" r="10" fill="#FBF8F1" stroke="#C4B8A0" stroke-width="1.5"/>
+  <circle cx="19" cy="600" r="10" fill="#FBF8F1" stroke="#C4B8A0" stroke-width="1.5"/>
+  <circle cx="19" cy="760" r="10" fill="#FBF8F1" stroke="#C4B8A0" stroke-width="1.5"/>
+  <circle cx="19" cy="920" r="10" fill="#FBF8F1" stroke="#C4B8A0" stroke-width="1.5"/>
+
+  <!-- Category tape -->
+  <g transform="rotate(-3, 1300, 42)">
+    <rect x="1170" y="18" width="200" height="36" rx="3" fill="#5B8DEF" opacity="0.88" stroke="#1A1D24" stroke-width="1.5"/>
+    <text x="1270" y="41" text-anchor="middle" font-size="15" font-weight="700" fill="white">#ビジネス</text>
+  </g>
+
+  <!-- Date badge -->
+  <rect x="55" y="18" width="165" height="34" rx="4" fill="#2F3842" stroke="#1A1D24" stroke-width="1.5"/>
+  <text x="138" y="40" text-anchor="middle" font-size="14" font-weight="600" fill="white">2026-05-10</text>
+
+  <!-- Impact stars -->
+  <text x="260" y="42" font-size="20" fill="#F5A623">⭐⭐⭐</text>
+
+  <!-- Header -->
+  <text x="55" y="90" font-size="36" font-weight="900" fill="#1A1D24">✊ DeepMind UK、98%賛成でCWU組合結成票決</text>
+  <text x="55" y="126" font-size="20" fill="#E05252" font-weight="700">Pentagon AI契約が引き金——フロンティアラボ初の組合誕生へ</text>
+  <text x="55" y="152" font-size="15" fill="#5C6370">Fortune / The Next Web｜2026-05-10｜#ビジネス #DeepMind #軍事AI #組合</text>
+  <line x1="55" y1="164" x2="1350" y2="164" stroke="#1A1D24" stroke-width="2"/>
+
+  <!-- Hero icon -->
+  <g transform="translate(1258, 200)">
+    <circle cx="0" cy="0" r="70" fill="#E05252" opacity="0.10" stroke="#E05252" stroke-width="2"/>
+    <text x="0" y="16" text-anchor="middle" font-size="72">✊</text>
+  </g>
+
+  <!-- Key numbers -->
+  <rect x="55" y="180" width="860" height="110" rx="6" fill="white" stroke="#1A1D24" stroke-width="2" filter="url(#softShadow)"/>
+  <text x="95" y="214" font-size="13" fill="#5C6370">組合結成賛成率</text>
+  <text x="95" y="258" font-size="46" font-weight="900" fill="#E05252">98%</text>
+  <text x="95" y="278" font-size="11" fill="#9AA0AB">CWUメンバー投票結果</text>
+  <line x1="310" y1="196" x2="310" y2="280" stroke="#E8E2D3" stroke-width="1"/>
+  <text x="340" y="214" font-size="13" fill="#5C6370">対象従業員数</text>
+  <text x="340" y="258" font-size="46" font-weight="900" fill="#1A1D24">~1,000</text>
+  <text x="340" y="278" font-size="11" fill="#9AA0AB">DeepMindロンドン拠点</text>
+  <line x1="580" y1="196" x2="580" y2="280" stroke="#E8E2D3" stroke-width="1"/>
+  <text x="610" y="214" font-size="13" fill="#5C6370">経営陣への期限</text>
+  <text x="610" y="258" font-size="42" font-weight="900" fill="#1A1D24">10営業日</text>
+  <text x="610" y="278" font-size="11" fill="#9AA0AB">自発的認定 or 調停合意期限</text>
+
+  <!-- Timeline: Project Maven vs today -->
+  <rect x="55" y="308" width="590" height="330" rx="6" fill="white" stroke="#1A1D24" stroke-width="2" filter="url(#softShadow)"/>
+  <text x="80" y="338" font-size="16" font-weight="700" fill="#1A1D24">GoogleのAI軍事問題：Project Maven → Pentagon 2026</text>
+  <line x1="80" y1="344" x2="560" y2="344" stroke="#E05252" stroke-width="2"/>
+
+  <!-- Timeline line -->
+  <line x1="120" y1="380" x2="120" y2="615" stroke="#E8E2D3" stroke-width="3"/>
+
+  <!-- Event 1: 2018 Project Maven -->
+  <circle cx="120" cy="395" r="12" fill="#9AA0AB" stroke="#1A1D24" stroke-width="2"/>
+  <text x="145" y="390" font-size="12" font-weight="700" fill="#9AA0AB">2018年4月</text>
+  <text x="145" y="407" font-size="12" fill="#1A1D24">Project Maven：従業員3,000人請願</text>
+  <text x="145" y="422" font-size="11" fill="#5C6370">→ Google、契約更新を断念</text>
+
+  <!-- Event 2: 2018 non-weapons pledge -->
+  <circle cx="120" cy="455" r="12" fill="#5CA46E" stroke="#1A1D24" stroke-width="2"/>
+  <text x="145" y="450" font-size="12" font-weight="700" fill="#5CA46E">2018年6月</text>
+  <text x="145" y="467" font-size="12" fill="#1A1D24">Google AI非軍事利用コミットメント公表</text>
+  <text x="145" y="482" font-size="11" fill="#5C6370">「兵器・監視へのAI使用はしない」</text>
+
+  <!-- Event 3: 2025 Feb removal -->
+  <circle cx="120" cy="520" r="12" fill="#E8A87C" stroke="#1A1D24" stroke-width="2"/>
+  <text x="145" y="515" font-size="12" font-weight="700" fill="#E8A87C">2025年2月</text>
+  <text x="145" y="532" font-size="12" fill="#1A1D24">コミットメントをウェブから静かに削除</text>
+  <text x="145" y="547" font-size="11" fill="#5C6370">従業員・外部に告知なし</text>
+
+  <!-- Event 4: 2026 May Pentagon -->
+  <circle cx="120" cy="580" r="12" fill="#E05252" stroke="#1A1D24" stroke-width="2"/>
+  <text x="145" y="575" font-size="12" font-weight="700" fill="#E05252">2026年5月</text>
+  <text x="145" y="592" font-size="12" fill="#1A1D24">Pentagon契約：Geminiを機密軍事ネット展開</text>
+  <text x="145" y="607" font-size="11" fill="#E05252">→ 98%組合票決——業界初の波紋</text>
+
+  <!-- Demands box -->
+  <rect x="660" y="308" width="685" height="330" rx="6" fill="white" stroke="#1A1D24" stroke-width="2" filter="url(#softShadow)"/>
+  <text x="685" y="338" font-size="16" font-weight="700" fill="#1A1D24">CWUの要求事項と業界への含意</text>
+  <line x1="685" y1="344" x2="1020" y2="344" stroke="#E05252" stroke-width="2"/>
+
+  <!-- Demand 1 -->
+  <rect x="685" y="356" width="630" height="52" rx="4" fill="#FFF0F0" stroke="#E05252" stroke-width="1.5"/>
+  <text x="705" y="376" font-size="13" font-weight="700" fill="#E05252">① 組合の法的認定</text>
+  <text x="705" y="396" font-size="12" fill="#1A1D24">CWU + Unite the Unionを代表組合として認定。10営業日以内に回答なければ法的手続きへ</text>
+
+  <!-- Demand 2 -->
+  <rect x="685" y="420" width="630" height="52" rx="4" fill="#FFF0F0" stroke="#E05252" stroke-width="1.5"/>
+  <text x="705" y="440" font-size="13" font-weight="700" fill="#E05252">② AI非軍事コミットメントの復活</text>
+  <text x="705" y="460" font-size="12" fill="#1A1D24">2018年に公表・2025年2月に削除されたポリシーの再掲と強制的遵守の仕組みを要求</text>
+
+  <!-- Demand 3 -->
+  <rect x="685" y="484" width="630" height="52" rx="4" fill="#FFF0F0" stroke="#E05252" stroke-width="1.5"/>
+  <text x="705" y="504" font-size="13" font-weight="700" fill="#E05252">③ 倫理審査への参加権</text>
+  <text x="705" y="524" font-size="12" fill="#1A1D24">軍事・監視用途の新契約に対し、従業員代表が事前に審査・拒否権を行使できる仕組みの設置</text>
+
+  <!-- Impact context -->
+  <rect x="685" y="548" width="630" height="80" rx="4" fill="#FFF3CD" stroke="#F5A623" stroke-width="1.5"/>
+  <text x="705" y="572" font-size="13" font-weight="700" fill="#856404">⚠️ 実現すれば「AIガバナンスの憲法」に</text>
+  <text x="705" y="592" font-size="12" fill="#1A1D24">AI倫理委員会・安全チームは経営陣が解散できるが、労働組合の交渉権は</text>
+  <text x="705" y="610" font-size="12" fill="#1A1D24">雇用法で保護。業界標準を下から変える可能性がある初の事例。</text>
+
+  <!-- Sticky notes -->
+  <g transform="rotate(-1.5, 170, 690)" filter="url(#stickyShadow)">
+    <rect x="55" y="655" width="222" height="118" rx="3" fill="#FFE0CC" stroke="#1A1D24" stroke-width="1.5"/>
+    <text x="75" y="681" font-size="13" font-weight="700" fill="#1A1D24">📌 前回との違い</text>
+    <text x="75" y="703" font-size="12" fill="#1A1D24">2018: 特定契約への反発</text>
+    <text x="75" y="719" font-size="12" fill="#1A1D24">2026: 白紙委任的な軍事</text>
+    <text x="75" y="735" font-size="12" fill="#1A1D24">AI展開への構造的拒否。</text>
+    <text x="75" y="751" font-size="12" fill="#1A1D24">不信の深さが桁違い</text>
+  </g>
+
+  <g transform="rotate(1.0, 390, 690)" filter="url(#stickyShadow)">
+    <rect x="290" y="655" width="222" height="118" rx="3" fill="#D4F4E8" stroke="#1A1D24" stroke-width="1.5"/>
+    <text x="310" y="681" font-size="13" font-weight="700" fill="#1A1D24">🌍 波及リスク</text>
+    <text x="310" y="703" font-size="12" fill="#1A1D24">OpenAI・Anthropic・Meta</text>
+    <text x="310" y="719" font-size="12" fill="#1A1D24">の欧州拠点への類似動き</text>
+    <text x="310" y="735" font-size="12" fill="#1A1D24">が予想される。AI企業の</text>
+    <text x="310" y="751" font-size="12" fill="#1A1D24">欧州進出コストが上昇</text>
+  </g>
+
+  <g transform="rotate(-0.8, 610, 690)" filter="url(#stickyShadow)">
+    <rect x="530" y="655" width="222" height="118" rx="3" fill="#EDE0FF" stroke="#1A1D24" stroke-width="1.5"/>
+    <text x="550" y="681" font-size="13" font-weight="700" fill="#1A1D24">💼 採用への影響</text>
+    <text x="550" y="703" font-size="12" fill="#1A1D24">ロンドンのAI人材市場で</text>
+    <text x="550" y="719" font-size="12" fill="#1A1D24">「組合なし」のOpenAI等</text>
+    <text x="550" y="735" font-size="12" fill="#1A1D24">に対してGoogleが不利に</text>
+    <text x="550" y="751" font-size="12" fill="#1A1D24">なる可能性がある</text>
+  </g>
+
+  <g transform="rotate(1.2, 840, 690)" filter="url(#stickyShadow)">
+    <rect x="768" y="655" width="222" height="118" rx="3" fill="#FFF9C4" stroke="#1A1D24" stroke-width="1.5"/>
+    <text x="788" y="681" font-size="13" font-weight="700" fill="#1A1D24">🔮 6ヶ月後の予測</text>
+    <text x="788" y="703" font-size="12" fill="#1A1D24">Googleが認定拒否→法的</text>
+    <text x="788" y="719" font-size="12" fill="#1A1D24">手続き→数ヶ月の審理。</text>
+    <text x="788" y="735" font-size="12" fill="#1A1D24">その間にEU AI Act施行と</text>
+    <text x="788" y="751" font-size="12" fill="#1A1D24">重なり政治化が加速</text>
+  </g>
+
+  <!-- Context banner -->
+  <rect x="55" y="790" width="1290" height="224" rx="6" fill="white" stroke="#1A1D24" stroke-width="2" filter="url(#softShadow)"/>
+  <text x="80" y="820" font-size="16" font-weight="700" fill="#1A1D24">フロンティアAIラボの組合・倫理ガバナンス状況（2026年5月）</text>
+  <line x1="80" y1="826" x2="560" y2="826" stroke="#E05252" stroke-width="2"/>
+
+  <!-- Table header -->
+  <rect x="80" y="838" width="1250" height="32" rx="3" fill="#F5F5F5" stroke="#D0D0D0" stroke-width="1"/>
+  <text x="100" y="859" font-size="13" font-weight="700" fill="#1A1D24">ラボ</text>
+  <text x="260" y="859" font-size="13" font-weight="700" fill="#1A1D24">組合状況</text>
+  <text x="520" y="859" font-size="13" font-weight="700" fill="#1A1D24">AI倫理公約</text>
+  <text x="780" y="859" font-size="13" font-weight="700" fill="#1A1D24">軍事AI姿勢</text>
+  <text x="1060" y="859" font-size="13" font-weight="700" fill="#1A1D24">倫理リスク</text>
+
+  <!-- Row 1: Google DeepMind -->
+  <rect x="80" y="870" width="1250" height="34" rx="0" fill="#FFEEEE" stroke="#E8D0D0" stroke-width="0.5"/>
+  <text x="100" y="892" font-size="12" font-weight="700" fill="#E05252">Google DeepMind</text>
+  <text x="260" y="892" font-size="12" fill="#E05252">🗳️ 98%票決・手続き中</text>
+  <text x="520" y="892" font-size="12" fill="#E05252">削除済み（2025年2月）</text>
+  <text x="780" y="892" font-size="12" fill="#1A1D24">Pentagon契約・Gemini軍事展開</text>
+  <text x="1060" y="892" font-size="12" fill="#E05252">🔴 高</text>
+
+  <!-- Row 2: OpenAI -->
+  <rect x="80" y="904" width="1250" height="34" rx="0" fill="white" stroke="#E8D0D0" stroke-width="0.5"/>
+  <text x="100" y="926" font-size="12" fill="#1A1D24">OpenAI</text>
+  <text x="260" y="926" font-size="12" fill="#9AA0AB">なし</text>
+  <text x="520" y="926" font-size="12" fill="#1A1D24">Usage Policy あり</text>
+  <text x="780" y="926" font-size="12" fill="#1A1D24">Pentagon契約 × Musk裁判</text>
+  <text x="1060" y="926" font-size="12" fill="#E8A87C">🟡 中</text>
+
+  <!-- Row 3: Anthropic -->
+  <rect x="80" y="938" width="1250" height="34" rx="0" fill="white" stroke="#E8D0D0" stroke-width="0.5"/>
+  <text x="100" y="960" font-size="12" fill="#1A1D24">Anthropic</text>
+  <text x="260" y="960" font-size="12" fill="#9AA0AB">なし</text>
+  <text x="520" y="960" font-size="12" fill="#5CA46E">Constitutional AI・RSP公開</text>
+  <text x="780" y="960" font-size="12" fill="#1A1D24">Pentagon契約から除外</text>
+  <text x="1060" y="960" font-size="12" fill="#5CA46E">🟢 低</text>
+
+  <!-- Row 4: Meta -->
+  <rect x="80" y="972" width="1250" height="34" rx="0" fill="white" stroke="#E8D0D0" stroke-width="0.5"/>
+  <text x="100" y="994" font-size="12" fill="#1A1D24">Meta AI</text>
+  <text x="260" y="994" font-size="12" fill="#9AA0AB">なし</text>
+  <text x="520" y="994" font-size="12" fill="#1A1D24">オープンソース重視</text>
+  <text x="780" y="994" font-size="12" fill="#1A1D24">軍事利用規約なし（Llama利用自由）</text>
+  <text x="1060" y="994" font-size="12" fill="#E8A87C">🟡 中</text>
+
+  <!-- Footer -->
+  <line x1="55" y1="1032" x2="1345" y2="1032" stroke="#E8E2D3" stroke-width="1"/>
+  <text x="700" y="1046" text-anchor="middle" font-size="12" fill="#9AA0AB" font-style="italic">AI News · 2026-05-10 · Google DeepMind UK Union Vote — Pentagon AI Deal Triggers World's First Frontier AI Lab Union</text>
+</svg>

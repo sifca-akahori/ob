@@ -1,0 +1,217 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1400 1050" font-family="-apple-system, 'Hiragino Sans', 'Yu Gothic', sans-serif">
+  <defs>
+    <pattern id="paperTex" patternUnits="userSpaceOnUse" width="100" height="100">
+      <rect width="100" height="100" fill="#FBF8F1"/>
+      <circle cx="18" cy="25" r="0.4" fill="#C4B389" opacity="0.3"/>
+      <circle cx="63" cy="47" r="0.5" fill="#C4B389" opacity="0.3"/>
+      <circle cx="35" cy="80" r="0.3" fill="#C4B389" opacity="0.3"/>
+      <circle cx="85" cy="12" r="0.4" fill="#C4B389" opacity="0.25"/>
+    </pattern>
+    <filter id="stickyShadow">
+      <feGaussianBlur in="SourceAlpha" stdDeviation="3"/>
+      <feOffset dx="2" dy="3" result="offsetblur"/>
+      <feComponentTransfer><feFuncA type="linear" slope="0.25"/></feComponentTransfer>
+      <feMerge><feMergeNode/><feMergeNode in="SourceGraphic"/></feMerge>
+    </filter>
+    <filter id="softShadow">
+      <feGaussianBlur in="SourceAlpha" stdDeviation="2"/>
+      <feOffset dx="1" dy="2" result="offsetblur"/>
+      <feComponentTransfer><feFuncA type="linear" slope="0.18"/></feComponentTransfer>
+      <feMerge><feMergeNode/><feMergeNode in="SourceGraphic"/></feMerge>
+    </filter>
+    <linearGradient id="barOrange" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#E8A87C"/>
+      <stop offset="100%" stop-color="#D4754A"/>
+    </linearGradient>
+    <linearGradient id="barGray" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#9AA0AB"/>
+      <stop offset="100%" stop-color="#777D88"/>
+    </linearGradient>
+  </defs>
+
+  <!-- Background -->
+  <rect width="1400" height="1050" fill="url(#paperTex)"/>
+  <rect width="1400" height="1050" fill="#FBF8F1" opacity="0.4"/>
+
+  <!-- Binding holes -->
+  <rect x="0" y="0" width="38" height="1050" fill="#E8E2D3" stroke="#D0C9B8" stroke-width="1"/>
+  <circle cx="19" cy="120" r="10" fill="#FBF8F1" stroke="#C4B8A0" stroke-width="1.5"/>
+  <circle cx="19" cy="280" r="10" fill="#FBF8F1" stroke="#C4B8A0" stroke-width="1.5"/>
+  <circle cx="19" cy="440" r="10" fill="#FBF8F1" stroke="#C4B8A0" stroke-width="1.5"/>
+  <circle cx="19" cy="600" r="10" fill="#FBF8F1" stroke="#C4B8A0" stroke-width="1.5"/>
+  <circle cx="19" cy="760" r="10" fill="#FBF8F1" stroke="#C4B8A0" stroke-width="1.5"/>
+  <circle cx="19" cy="920" r="10" fill="#FBF8F1" stroke="#C4B8A0" stroke-width="1.5"/>
+
+  <!-- Category tape -->
+  <g transform="rotate(-3, 1300, 42)">
+    <rect x="1182" y="18" width="180" height="36" rx="3" fill="#E8A87C" opacity="0.88" stroke="#1A1D24" stroke-width="1.5"/>
+    <text x="1272" y="41" text-anchor="middle" font-size="15" font-weight="700" fill="white">#SNS</text>
+  </g>
+
+  <!-- Date badge -->
+  <rect x="55" y="18" width="165" height="34" rx="4" fill="#2F3842" stroke="#1A1D24" stroke-width="1.5"/>
+  <text x="138" y="40" text-anchor="middle" font-size="14" font-weight="600" fill="white">2026-05-10</text>
+
+  <!-- Impact stars -->
+  <text x="260" y="42" font-size="20" fill="#F5A623">⭐⭐</text>
+
+  <!-- Header -->
+  <text x="55" y="92" font-size="34" font-weight="900" fill="#1A1D24">🏜️ ユタ州「Stratos Project」——40,000エーカーAIデータセンター承認</text>
+  <text x="55" y="126" font-size="20" fill="#E8A87C" font-weight="700">Kevin O'Leary後援・1,000人抗議も可決——「エネルギー植民地主義」論争</text>
+  <text x="55" y="152" font-size="15" fill="#5C6370">CNN Business / Gizmodo｜2026-05-10｜#SNS #データセンター #エネルギー #環境</text>
+  <line x1="55" y1="164" x2="1350" y2="164" stroke="#1A1D24" stroke-width="2"/>
+
+  <!-- Hero element -->
+  <g transform="translate(1260, 200)">
+    <circle cx="0" cy="0" r="70" fill="#E8A87C" opacity="0.12" stroke="#E8A87C" stroke-width="2"/>
+    <text x="0" y="16" text-anchor="middle" font-size="70">🏜️</text>
+  </g>
+
+  <!-- Key numbers -->
+  <rect x="55" y="180" width="860" height="110" rx="6" fill="white" stroke="#1A1D24" stroke-width="2" filter="url(#softShadow)"/>
+  <text x="95" y="214" font-size="13" fill="#5C6370">敷地面積</text>
+  <text x="95" y="256" font-size="42" font-weight="900" fill="#E8A87C">40,000エーカー</text>
+  <text x="95" y="276" font-size="11" fill="#9AA0AB">マンハッタンの2.5倍</text>
+  <line x1="380" y1="196" x2="380" y2="280" stroke="#E8E2D3" stroke-width="1"/>
+  <text x="410" y="214" font-size="13" fill="#5C6370">電力使用増加</text>
+  <text x="410" y="256" font-size="46" font-weight="900" fill="#1A1D24">2倍超</text>
+  <text x="410" y="276" font-size="11" fill="#9AA0AB">ユタ州現在の総電力使用量比</text>
+  <line x1="650" y1="196" x2="650" y2="280" stroke="#E8E2D3" stroke-width="1"/>
+  <text x="680" y="214" font-size="13" fill="#5C6370">抗議参加住民</text>
+  <text x="680" y="256" font-size="46" font-weight="900" fill="#1A1D24">1,000+</text>
+  <text x="680" y="276" font-size="11" fill="#9AA0AB">承認会議に押し掛け・会議一時中断</text>
+
+  <!-- Impact comparison chart -->
+  <rect x="55" y="308" width="540" height="320" rx="6" fill="white" stroke="#1A1D24" stroke-width="2" filter="url(#softShadow)"/>
+  <text x="80" y="338" font-size="16" font-weight="700" fill="#1A1D24">Stratos Projectの環境インパクト</text>
+  <line x1="80" y1="344" x2="380" y2="344" stroke="#E8A87C" stroke-width="2"/>
+
+  <!-- Bars: vertical comparison -->
+  <!-- Electricity 2x -->
+  <text x="120" y="590" text-anchor="middle" font-size="11" fill="#1A1D24">電力消費</text>
+  <rect x="88" y="380" width="64" height="200" rx="3" fill="url(#barGray)"/>
+  <text x="120" y="372" text-anchor="middle" font-size="11" fill="#9AA0AB">現在</text>
+
+  <rect x="170" y="280" width="64" height="300" rx="3" fill="url(#barOrange)" stroke="#E8A87C" stroke-width="1.5"/>
+  <text x="202" y="272" text-anchor="middle" font-size="11" font-weight="700" fill="#E8A87C">+2倍超</text>
+  <text x="202" y="590" text-anchor="middle" font-size="11" fill="#1A1D24">DC込み</text>
+
+  <!-- Carbon 50% -->
+  <text x="330" y="590" text-anchor="middle" font-size="11" fill="#1A1D24">CO₂排出</text>
+  <rect x="298" y="420" width="64" height="160" rx="3" fill="url(#barGray)"/>
+  <text x="330" y="412" text-anchor="middle" font-size="11" fill="#9AA0AB">現在</text>
+
+  <rect x="380" y="340" width="64" height="240" rx="3" fill="url(#barOrange)" stroke="#E8A87C" stroke-width="1.5"/>
+  <text x="412" y="332" text-anchor="middle" font-size="11" font-weight="700" fill="#E8A87C">+50%</text>
+  <text x="412" y="590" text-anchor="middle" font-size="11" fill="#1A1D24">DC込み</text>
+
+  <!-- Water -->
+  <text x="480" y="590" text-anchor="middle" font-size="11" fill="#1A1D24">水使用</text>
+  <rect x="448" y="500" width="64" height="80" rx="3" fill="url(#barGray)"/>
+  <text x="480" y="492" text-anchor="middle" font-size="11" fill="#9AA0AB">現在</text>
+
+  <rect x="528" y="350" width="45" height="230" rx="3" fill="#5B8DEF" stroke="#4070CC" stroke-width="1.5"/>
+  <text x="550" y="342" text-anchor="middle" font-size="10" font-weight="700" fill="#5B8DEF">未評価</text>
+  <text x="550" y="590" text-anchor="middle" font-size="10" fill="#5B8DEF">大塩湖</text>
+
+  <!-- Controversy box -->
+  <rect x="615" y="308" width="730" height="320" rx="6" fill="white" stroke="#1A1D24" stroke-width="2" filter="url(#softShadow)"/>
+  <text x="640" y="338" font-size="16" font-weight="700" fill="#1A1D24">論争の構図：推進派 vs 反対派</text>
+  <line x1="640" y1="344" x2="980" y2="344" stroke="#E8A87C" stroke-width="2"/>
+
+  <!-- Pros: O'Leary side -->
+  <rect x="640" y="356" width="338" height="254" rx="6" fill="#F0FFF4" stroke="#5CA46E" stroke-width="1.5"/>
+  <text x="660" y="380" font-size="14" font-weight="700" fill="#5CA46E">✅ 推進側（Kevin O'Leary）</text>
+  <text x="660" y="406" font-size="12" fill="#1A1D24">• ジョブ創出・地域経済活性化</text>
+  <text x="660" y="424" font-size="12" fill="#1A1D24">• 国家安全保障・計算能力確保</text>
+  <text x="660" y="442" font-size="12" fill="#1A1D24">• エネルギー生産能力の強化</text>
+  <text x="660" y="460" font-size="12" fill="#1A1D24">• 反対派は「プロの外部抗議者」</text>
+  <text x="660" y="478" font-size="12" fill="#1A1D24">• 再生可能エネルギーへの移行計画</text>
+  <text x="660" y="510" font-size="12" fill="#9AA0AB" font-style="italic">※郡委員会が2026-05-04に承認</text>
+  <text x="660" y="528" font-size="12" fill="#9AA0AB" font-style="italic">（一時Zoom審議に切り替え）</text>
+
+  <!-- Cons: Residents side -->
+  <rect x="994" y="356" width="338" height="254" rx="6" fill="#FFF0F0" stroke="#E05252" stroke-width="1.5"/>
+  <text x="1014" y="380" font-size="14" font-weight="700" fill="#E05252">❌ 反対側（Box Elder住民）</text>
+  <text x="1014" y="406" font-size="12" fill="#1A1D24">• 農業地帯・生態系の破壊</text>
+  <text x="1014" y="424" font-size="12" fill="#1A1D24">• グレートソルト湖のさらなる枯渇</text>
+  <text x="1014" y="442" font-size="12" fill="#1A1D24">• 電力・水インフラへの過大負荷</text>
+  <text x="1014" y="460" font-size="12" fill="#1A1D24">• 透明性ゼロの承認プロセス</text>
+  <text x="1014" y="478" font-size="12" fill="#1A1D24">• 「情報が足りない」が圧倒的民意</text>
+  <text x="1014" y="510" font-size="12" fill="#9AA0AB" font-style="italic">※NEPA環境影響評価義務付けを</text>
+  <text x="1014" y="528" font-size="12" fill="#9AA0AB" font-style="italic">求める訴訟を検討中</text>
+
+  <!-- Sticky notes -->
+  <g transform="rotate(-1.5, 170, 680)" filter="url(#stickyShadow)">
+    <rect x="55" y="648" width="222" height="122" rx="3" fill="#FFF9C4" stroke="#1A1D24" stroke-width="1.5"/>
+    <text x="75" y="672" font-size="13" font-weight="700" fill="#1A1D24">🌊 グレートソルト湖</text>
+    <text x="75" y="692" font-size="12" fill="#1A1D24">水位は10年で歴史的</text>
+    <text x="75" y="708" font-size="12" fill="#1A1D24">低水準。農業・塩業・</text>
+    <text x="75" y="724" font-size="12" fill="#1A1D24">野生生物全てに影響。</text>
+    <text x="75" y="740" font-size="12" fill="#1A1D24">追加の大量取水は致命的</text>
+    <text x="75" y="758" font-size="11" fill="#9AA0AB">州知事は条件付けた前例あり</text>
+  </g>
+
+  <g transform="rotate(1.0, 390, 680)" filter="url(#stickyShadow)">
+    <rect x="292" y="648" width="222" height="122" rx="3" fill="#D4F4E8" stroke="#1A1D24" stroke-width="1.5"/>
+    <text x="312" y="672" font-size="13" font-weight="700" fill="#1A1D24">⚡ 電力グリッド危機</text>
+    <text x="312" y="692" font-size="12" fill="#1A1D24">米国DCは2030年に</text>
+    <text x="312" y="708" font-size="12" fill="#1A1D24">電力需要の8〜12%を</text>
+    <text x="312" y="724" font-size="12" fill="#1A1D24">占める予測。グリッド</text>
+    <text x="312" y="740" font-size="12" fill="#1A1D24">安定性リスクが全米問題</text>
+    <text x="312" y="758" font-size="11" fill="#9AA0AB">VA州でも同様の住民運動</text>
+  </g>
+
+  <g transform="rotate(-0.8, 610, 680)" filter="url(#stickyShadow)">
+    <rect x="530" y="648" width="222" height="122" rx="3" fill="#EDE0FF" stroke="#1A1D24" stroke-width="1.5"/>
+    <text x="550" y="672" font-size="13" font-weight="700" fill="#1A1D24">⚖️ 法的次の手</text>
+    <text x="550" y="692" font-size="12" fill="#1A1D24">NEPA連邦評価義務化</text>
+    <text x="550" y="708" font-size="12" fill="#1A1D24">訴訟検討中。ユタ州議</text>
+    <text x="550" y="724" font-size="12" fill="#1A1D24">会で「州審査義務化法案</text>
+    <text x="550" y="740" font-size="12" fill="#1A1D24">提出」の見通し</text>
+    <text x="550" y="758" font-size="11" fill="#9AA0AB">Sanders/AOC法案は否決濃厚</text>
+  </g>
+
+  <g transform="rotate(1.3, 840, 680)" filter="url(#stickyShadow)">
+    <rect x="768" y="648" width="222" height="122" rx="3" fill="#FFE0CC" stroke="#1A1D24" stroke-width="1.5"/>
+    <text x="788" y="672" font-size="13" font-weight="700" fill="#1A1D24">🌐 HN/X反応</text>
+    <text x="788" y="692" font-size="12" fill="#1A1D24">「Zoomに逃げた民主</text>
+    <text x="788" y="708" font-size="12" fill="#1A1D24">主義の失敗」vs「必要</text>
+    <text x="788" y="724" font-size="12" fill="#1A1D24">な国家競争力投資」。</text>
+    <text x="788" y="740" font-size="12" fill="#1A1D24">HN 400+コメント</text>
+    <text x="788" y="758" font-size="11" fill="#9AA0AB">「エネルギー植民地主義」論争</text>
+  </g>
+
+  <!-- Nationwide DC controversy map -->
+  <rect x="55" y="790" width="1290" height="234" rx="6" fill="white" stroke="#1A1D24" stroke-width="2" filter="url(#softShadow)"/>
+  <text x="80" y="820" font-size="16" font-weight="700" fill="#1A1D24">全米AIデータセンター立地問題マップ（2026年）</text>
+  <line x1="80" y1="826" x2="500" y2="826" stroke="#E8A87C" stroke-width="2"/>
+
+  <!-- Simple US map outline idea using boxes -->
+  <text x="80" y="854" font-size="13" font-weight="700" fill="#5C6370">主要対立地点</text>
+  <!-- Utah -->
+  <rect x="80" y="862" width="290" height="54" rx="4" fill="#FFF0E0" stroke="#E8A87C" stroke-width="2"/>
+  <text x="100" y="882" font-size="13" font-weight="700" fill="#E8A87C">🏜️ ユタ州 Tremonton</text>
+  <text x="100" y="900" font-size="12" fill="#1A1D24">Stratos Project・40,000エーカー・住民1,000+抗議</text>
+
+  <rect x="386" y="862" width="290" height="54" rx="4" fill="#FFF0E0" stroke="#E8A87C" stroke-width="1.5"/>
+  <text x="406" y="882" font-size="13" font-weight="700" fill="#E8A87C">🏗️ バージニア州 Loudoun County</text>
+  <text x="406" y="900" font-size="12" fill="#1A1D24">Data Center Alley・住民運動で新規制議論</text>
+
+  <rect x="692" y="862" width="290" height="54" rx="4" fill="#FFF0E0" stroke="#E8A87C" stroke-width="1.5"/>
+  <text x="712" y="882" font-size="13" font-weight="700" fill="#E8A87C">💧 テキサス州 West Texas</text>
+  <text x="712" y="900" font-size="12" fill="#1A1D24">水不足地域にDC建設計画・農業用水争奪</text>
+
+  <rect x="998" y="862" width="327" height="54" rx="4" fill="#FFF0E0" stroke="#E8A87C" stroke-width="1.5"/>
+  <text x="1018" y="882" font-size="13" font-weight="700" fill="#E8A87C">⚡ アイオワ州 / ネブラスカ州</text>
+  <text x="1018" y="900" font-size="12" fill="#1A1D24">風力DC増設・農業地帯保全vs経済活性化</text>
+
+  <!-- Scale comparison -->
+  <rect x="80" y="928" width="1250" height="50" rx="4" fill="#F5F5F5" stroke="#D0D0D0" stroke-width="1"/>
+  <text x="700" y="950" text-anchor="middle" font-size="14" font-weight="700" fill="#1A1D24">Stratos Project規模感：40,000エーカー = 約162km² = マンハッタン（59km²）の約2.7倍 = 山手線内側（63km²）の約2.6倍</text>
+  <text x="700" y="970" text-anchor="middle" font-size="12" fill="#9AA0AB">比較：Microsoft Azure最大DC約40エーカー、Google Mesa DCキャンパス約650エーカー、Apple データセンター約100エーカー</text>
+
+  <!-- Footer -->
+  <line x1="55" y1="1033" x2="1345" y2="1033" stroke="#E8E2D3" stroke-width="1"/>
+  <text x="700" y="1046" text-anchor="middle" font-size="12" fill="#9AA0AB" font-style="italic">AI News · 2026-05-10 · Utah Stratos Project: Kevin O'Leary-backed 40,000-Acre AI Data Center Sparks Nationwide Controversy</text>
+</svg>

@@ -1,0 +1,236 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1400 1050" font-family="-apple-system, 'Hiragino Sans', 'Yu Gothic', sans-serif">
+  <defs>
+    <pattern id="paperTex" patternUnits="userSpaceOnUse" width="100" height="100">
+      <rect width="100" height="100" fill="#FBF8F1"/>
+      <circle cx="18" cy="25" r="0.4" fill="#C4B389" opacity="0.3"/>
+      <circle cx="63" cy="47" r="0.5" fill="#C4B389" opacity="0.3"/>
+      <circle cx="35" cy="80" r="0.3" fill="#C4B389" opacity="0.3"/>
+      <circle cx="85" cy="12" r="0.4" fill="#C4B389" opacity="0.25"/>
+    </pattern>
+    <filter id="stickyShadow">
+      <feGaussianBlur in="SourceAlpha" stdDeviation="3"/>
+      <feOffset dx="2" dy="3" result="offsetblur"/>
+      <feComponentTransfer><feFuncA type="linear" slope="0.25"/></feComponentTransfer>
+      <feMerge><feMergeNode/><feMergeNode in="SourceGraphic"/></feMerge>
+    </filter>
+    <filter id="softShadow">
+      <feGaussianBlur in="SourceAlpha" stdDeviation="2"/>
+      <feOffset dx="1" dy="2" result="offsetblur"/>
+      <feComponentTransfer><feFuncA type="linear" slope="0.18"/></feComponentTransfer>
+      <feMerge><feMergeNode/><feMergeNode in="SourceGraphic"/></feMerge>
+    </filter>
+    <linearGradient id="barPurple" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0%" stop-color="#8B7DB8"/>
+      <stop offset="100%" stop-color="#A99DD4"/>
+    </linearGradient>
+    <linearGradient id="barGray" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0%" stop-color="#9AA0AB"/>
+      <stop offset="100%" stop-color="#BCC3CC"/>
+    </linearGradient>
+  </defs>
+
+  <!-- Background -->
+  <rect width="1400" height="1050" fill="url(#paperTex)"/>
+  <rect width="1400" height="1050" fill="#FBF8F1" opacity="0.4"/>
+
+  <!-- Binding holes -->
+  <rect x="0" y="0" width="38" height="1050" fill="#E8E2D3" stroke="#D0C9B8" stroke-width="1"/>
+  <circle cx="19" cy="120" r="10" fill="#FBF8F1" stroke="#C4B8A0" stroke-width="1.5"/>
+  <circle cx="19" cy="280" r="10" fill="#FBF8F1" stroke="#C4B8A0" stroke-width="1.5"/>
+  <circle cx="19" cy="440" r="10" fill="#FBF8F1" stroke="#C4B8A0" stroke-width="1.5"/>
+  <circle cx="19" cy="600" r="10" fill="#FBF8F1" stroke="#C4B8A0" stroke-width="1.5"/>
+  <circle cx="19" cy="760" r="10" fill="#FBF8F1" stroke="#C4B8A0" stroke-width="1.5"/>
+  <circle cx="19" cy="920" r="10" fill="#FBF8F1" stroke="#C4B8A0" stroke-width="1.5"/>
+
+  <!-- Category tape -->
+  <g transform="rotate(-3, 1300, 42)">
+    <rect x="1182" y="18" width="180" height="36" rx="3" fill="#8B7DB8" opacity="0.88" stroke="#1A1D24" stroke-width="1.5"/>
+    <text x="1272" y="41" text-anchor="middle" font-size="15" font-weight="700" fill="white">#研究</text>
+  </g>
+
+  <!-- Date badge -->
+  <rect x="55" y="18" width="165" height="34" rx="4" fill="#2F3842" stroke="#1A1D24" stroke-width="1.5"/>
+  <text x="138" y="40" text-anchor="middle" font-size="14" font-weight="600" fill="white">2026-05-10</text>
+
+  <!-- Impact stars -->
+  <text x="260" y="42" font-size="20" fill="#F5A623">⭐⭐</text>
+
+  <!-- Header -->
+  <text x="55" y="90" font-size="36" font-weight="900" fill="#1A1D24">💤 Anthropic「Dreaming」：AIエージェントが眠りながら自律学習</text>
+  <text x="55" y="126" font-size="19" fill="#8B7DB8" font-weight="700">Harvey完了率6倍・Wisedocs文書レビュー50%削減——人間介在ゼロの改善ループ</text>
+  <text x="55" y="152" font-size="15" fill="#5C6370">VentureBeat / SiliconANGLE｜2026-05-10｜#研究 #Anthropic #エージェント #記憶</text>
+  <line x1="55" y1="164" x2="1350" y2="164" stroke="#1A1D24" stroke-width="2"/>
+
+  <!-- Hero element -->
+  <g transform="translate(1260, 200)">
+    <circle cx="0" cy="0" r="70" fill="#8B7DB8" opacity="0.12" stroke="#8B7DB8" stroke-width="2"/>
+    <text x="0" y="16" text-anchor="middle" font-size="72">💤</text>
+  </g>
+
+  <!-- Key numbers -->
+  <rect x="55" y="178" width="860" height="110" rx="6" fill="white" stroke="#1A1D24" stroke-width="2" filter="url(#softShadow)"/>
+  <text x="95" y="214" font-size="13" fill="#5C6370">Harvey タスク完了率向上</text>
+  <text x="95" y="256" font-size="46" font-weight="900" fill="#8B7DB8">6倍</text>
+  <text x="95" y="276" font-size="11" fill="#9AA0AB">Dreaming適用後・法律AIタスク</text>
+  <line x1="310" y1="194" x2="310" y2="278" stroke="#E8E2D3" stroke-width="1"/>
+  <text x="340" y="214" font-size="13" fill="#5C6370">Wisedocs 文書レビュー時間削減</text>
+  <text x="340" y="256" font-size="46" font-weight="900" fill="#1A1D24">50%</text>
+  <text x="340" y="276" font-size="11" fill="#9AA0AB">医療文書レビュー・Dreaming適用後</text>
+  <line x1="600" y1="194" x2="600" y2="278" stroke="#E8E2D3" stroke-width="1"/>
+  <text x="630" y="214" font-size="13" fill="#5C6370">提供形態</text>
+  <text x="630" y="252" font-size="28" font-weight="900" fill="#1A1D24">リサーチプレビュー</text>
+  <text x="630" y="276" font-size="11" fill="#9AA0AB">開発者はアクセス申請が必要</text>
+
+  <!-- Dreaming mechanism diagram -->
+  <rect x="55" y="308" width="600" height="320" rx="6" fill="white" stroke="#1A1D24" stroke-width="2" filter="url(#softShadow)"/>
+  <text x="80" y="338" font-size="16" font-weight="700" fill="#1A1D24">Dreamingの動作メカニズム</text>
+  <line x1="80" y1="344" x2="400" y2="344" stroke="#8B7DB8" stroke-width="2"/>
+
+  <!-- Flow diagram -->
+  <!-- Session data -->
+  <rect x="80" y="360" width="170" height="52" rx="6" fill="#EDE0FF" stroke="#8B7DB8" stroke-width="2"/>
+  <text x="165" y="381" text-anchor="middle" font-size="12" fill="#1A1D24">過去のセッション記録</text>
+  <text x="165" y="400" text-anchor="middle" font-size="11" fill="#5C6370">会話・実行ログ・エラー</text>
+
+  <rect x="80" y="428" width="170" height="52" rx="6" fill="#EDE0FF" stroke="#8B7DB8" stroke-width="2"/>
+  <text x="165" y="449" text-anchor="middle" font-size="12" fill="#1A1D24">メモリーストア</text>
+  <text x="165" y="468" text-anchor="middle" font-size="11" fill="#5C6370">過去に記憶した情報群</text>
+
+  <!-- Arrows to Dreaming -->
+  <line x1="250" y1="386" x2="305" y2="430" stroke="#1A1D24" stroke-width="2"/>
+  <line x1="250" y1="454" x2="305" y2="440" stroke="#1A1D24" stroke-width="2"/>
+  <polygon points="300,426 310,434 300,442" fill="#1A1D24"/>
+
+  <!-- Dreaming box -->
+  <rect x="310" y="408" width="160" height="60" rx="6" fill="#8B7DB8" stroke="#1A1D24" stroke-width="2"/>
+  <text x="390" y="433" text-anchor="middle" font-size="14" font-weight="700" fill="white">💤 DREAMING</text>
+  <text x="390" y="455" text-anchor="middle" font-size="11" fill="#EDE0FF">スケジュール処理</text>
+
+  <!-- Arrow to output -->
+  <line x1="470" y1="438" x2="520" y2="438" stroke="#1A1D24" stroke-width="2"/>
+  <polygon points="516,432 526,438 516,444" fill="#1A1D24"/>
+
+  <!-- Output -->
+  <rect x="526" y="410" width="120" height="58" rx="6" fill="#D4F4E8" stroke="#5CA46E" stroke-width="2"/>
+  <text x="586" y="435" text-anchor="middle" font-size="12" fill="#1A1D24">再編成された</text>
+  <text x="586" y="452" text-anchor="middle" font-size="12" fill="#1A1D24">メモリー</text>
+  <text x="586" y="464" text-anchor="middle" font-size="10" fill="#5CA46E">✓ 人間レビュー</text>
+
+  <!-- What Dreaming does -->
+  <text x="80" y="510" font-size="13" font-weight="700" fill="#8B7DB8">Dreamingが行う処理:</text>
+  <text x="80" y="532" font-size="12" fill="#1A1D24">• 重複情報の統合・マージ</text>
+  <text x="80" y="550" font-size="12" fill="#1A1D24">• 古い・時代遅れエントリの削除</text>
+  <text x="80" y="568" font-size="12" fill="#1A1D24">• 繰り返しミスパターンのハイライト</text>
+  <text x="80" y="586" font-size="12" fill="#1A1D24">• チーム全体の共通好みの抽出</text>
+  <text x="80" y="604" font-size="12" fill="#1A1D24">• 個別セッションでは見えない洞察の浮上</text>
+
+  <!-- Comparison with competitors -->
+  <rect x="675" y="308" width="670" height="320" rx="6" fill="white" stroke="#1A1D24" stroke-width="2" filter="url(#softShadow)"/>
+  <text x="700" y="338" font-size="16" font-weight="700" fill="#1A1D24">AIメモリー技術の比較</text>
+  <line x1="700" y1="344" x2="1000" y2="344" stroke="#8B7DB8" stroke-width="2"/>
+
+  <!-- Header row -->
+  <rect x="700" y="356" width="620" height="32" rx="3" fill="#F5F5F5" stroke="#D0D0D0" stroke-width="1"/>
+  <text x="718" y="377" font-size="12" font-weight="700" fill="#1A1D24">製品</text>
+  <text x="830" y="377" font-size="12" font-weight="700" fill="#1A1D24">メモリー方式</text>
+  <text x="1050" y="377" font-size="12" font-weight="700" fill="#1A1D24">適用範囲</text>
+
+  <!-- ChatGPT Memory -->
+  <rect x="700" y="388" width="620" height="42" rx="0" fill="white" stroke="#E8E2D3" stroke-width="0.5"/>
+  <text x="718" y="413" font-size="12" fill="#1A1D24">ChatGPT Memory</text>
+  <text x="830" y="413" font-size="12" fill="#1A1D24">ユーザーが明示的に伝えた情報</text>
+  <text x="1050" y="413" font-size="12" fill="#9AA0AB">単一ユーザー</text>
+
+  <!-- Gemini Long-term -->
+  <rect x="700" y="430" width="620" height="42" rx="0" fill="white" stroke="#E8E2D3" stroke-width="0.5"/>
+  <text x="718" y="455" font-size="12" fill="#1A1D24">Gemini Long-term Memory</text>
+  <text x="830" y="455" font-size="12" fill="#1A1D24">会話の自動サマリー</text>
+  <text x="1050" y="455" font-size="12" fill="#9AA0AB">単一ユーザー</text>
+
+  <!-- Mem0 -->
+  <rect x="700" y="472" width="620" height="42" rx="0" fill="white" stroke="#E8E2D3" stroke-width="0.5"/>
+  <text x="718" y="497" font-size="12" fill="#1A1D24">Mem0 (OSS)</text>
+  <text x="830" y="497" font-size="12" fill="#1A1D24">グラフベース・自動抽出</text>
+  <text x="1050" y="497" font-size="12" fill="#5CA46E">マルチエージェント</text>
+
+  <!-- Anthropic Dreaming -->
+  <rect x="700" y="514" width="620" height="42" rx="0" fill="#EDE0FF" stroke="#8B7DB8" stroke-width="1.5"/>
+  <text x="718" y="539" font-size="12" font-weight="700" fill="#8B7DB8">Anthropic Dreaming ✦</text>
+  <text x="830" y="539" font-size="12" fill="#1A1D24">クロスセッション・パターン抽出</text>
+  <text x="1050" y="539" font-size="12" fill="#8B7DB8">チーム全体・横断的</text>
+
+  <!-- Key differentiator -->
+  <rect x="700" y="568" width="620" height="50" rx="4" fill="#FFF3CD" stroke="#F5A623" stroke-width="1.5"/>
+  <text x="720" y="590" font-size="13" font-weight="700" fill="#856404">Dreamingの最大の差別化点</text>
+  <text x="720" y="608" font-size="12" fill="#1A1D24">チームが使う複数エージェントをまたいだパターン抽出——「組織の暗黙知を自律習得」という企業用途への特化</text>
+
+  <!-- Sticky notes -->
+  <g transform="rotate(-1.5, 170, 680)" filter="url(#stickyShadow)">
+    <rect x="55" y="650" width="222" height="118" rx="3" fill="#EDE0FF" stroke="#1A1D24" stroke-width="1.5"/>
+    <text x="75" y="674" font-size="13" font-weight="700" fill="#1A1D24">🧠 REM睡眠との類比</text>
+    <text x="75" y="694" font-size="12" fill="#1A1D24">人間の記憶統合はREM</text>
+    <text x="75" y="710" font-size="12" fill="#1A1D24">睡眠中に海馬→大脳皮</text>
+    <text x="75" y="726" font-size="12" fill="#1A1D24">質へ転写。Dreamingは</text>
+    <text x="75" y="742" font-size="12" fill="#1A1D24">同一メカニズムを模倣</text>
+  </g>
+
+  <g transform="rotate(1.0, 390, 680)" filter="url(#stickyShadow)">
+    <rect x="292" y="650" width="222" height="118" rx="3" fill="#FFF9C4" stroke="#1A1D24" stroke-width="1.5"/>
+    <text x="312" y="674" font-size="13" font-weight="700" fill="#1A1D24">⚠️ 数字の注意点</text>
+    <text x="312" y="694" font-size="12" fill="#1A1D24">「6倍」はベースライン</text>
+    <text x="312" y="710" font-size="12" fill="#1A1D24">次第で簡単に出る数字。</text>
+    <text x="312" y="726" font-size="12" fill="#1A1D24">独立検証がない状態で</text>
+    <text x="312" y="742" font-size="12" fill="#1A1D24">の主張は割り引きが必要</text>
+  </g>
+
+  <g transform="rotate(-0.8, 610, 680)" filter="url(#stickyShadow)">
+    <rect x="530" y="650" width="222" height="118" rx="3" fill="#D4F4E8" stroke="#1A1D24" stroke-width="1.5"/>
+    <text x="550" y="674" font-size="13" font-weight="700" fill="#1A1D24">🔒 安全設計</text>
+    <text x="550" y="694" font-size="12" fill="#1A1D24">「人間レビュー必須」は</text>
+    <text x="550" y="710" font-size="12" fill="#1A1D24">EU AI Act Human-in-the-</text>
+    <text x="550" y="726" font-size="12" fill="#1A1D24">Loop要件への先手。</text>
+    <text x="550" y="742" font-size="12" fill="#1A1D24">誤学習のリスクを低減</text>
+  </g>
+
+  <g transform="rotate(1.3, 840, 680)" filter="url(#stickyShadow)">
+    <rect x="768" y="650" width="222" height="118" rx="3" fill="#FFE0CC" stroke="#1A1D24" stroke-width="1.5"/>
+    <text x="788" y="674" font-size="13" font-weight="700" fill="#1A1D24">🚀 Code with Claude</text>
+    <text x="788" y="694" font-size="12" fill="#1A1D24">Dreaming + Code Auto</text>
+    <text x="788" y="710" font-size="12" fill="#1A1D24">Mode + 金融エージェント</text>
+    <text x="788" y="726" font-size="12" fill="#1A1D24">10本。Anthropicの</text>
+    <text x="788" y="742" font-size="12" fill="#1A1D24">DevDay戦略が明確化</text>
+  </g>
+
+  <!-- Real world impact -->
+  <rect x="55" y="790" width="1290" height="224" rx="6" fill="white" stroke="#1A1D24" stroke-width="2" filter="url(#softShadow)"/>
+  <text x="80" y="820" font-size="16" font-weight="700" fill="#1A1D24">導入事例と業界別活用ポテンシャル</text>
+  <line x1="80" y1="826" x2="440" y2="826" stroke="#8B7DB8" stroke-width="2"/>
+
+  <!-- Case study cards -->
+  <rect x="80" y="838" width="380" height="90" rx="6" fill="#EDE0FF" stroke="#8B7DB8" stroke-width="1.5"/>
+  <text x="100" y="862" font-size="14" font-weight="700" fill="#8B7DB8">⚖️ Harvey（法律AI）</text>
+  <text x="100" y="882" font-size="13" fill="#1A1D24">タスク完了率: <tspan font-weight="900" fill="#8B7DB8">6倍向上</tspan></text>
+  <text x="100" y="900" font-size="12" fill="#5C6370">過去案件パターンからの自律的戦略最適化</text>
+  <text x="100" y="918" font-size="11" fill="#9AA0AB">契約審査・訴訟戦略・判例検索の改善</text>
+
+  <rect x="476" y="838" width="380" height="90" rx="6" fill="#EDE0FF" stroke="#8B7DB8" stroke-width="1.5"/>
+  <text x="496" y="862" font-size="14" font-weight="700" fill="#8B7DB8">🏥 Wisedocs（医療文書）</text>
+  <text x="496" y="882" font-size="13" fill="#1A1D24">レビュー時間: <tspan font-weight="900" fill="#8B7DB8">50%削減</tspan></text>
+  <text x="496" y="900" font-size="12" fill="#5C6370">医師の診察パターンを記憶し次回に活用</text>
+  <text x="496" y="918" font-size="11" fill="#9AA0AB">医療記録整理・請求コード分類が高速化</text>
+
+  <rect x="872" y="838" width="453" height="90" rx="6" fill="#F0F4FF" stroke="#5B8DEF" stroke-width="1.5"/>
+  <text x="892" y="862" font-size="14" font-weight="700" fill="#5B8DEF">🔮 今後の活用ポテンシャル</text>
+  <text x="892" y="882" font-size="12" fill="#1A1D24">ソフトウェア開発: コードスタイル・エラーパターンの組織横断学習</text>
+  <text x="892" y="900" font-size="12" fill="#1A1D24">カスタマーサポート: 頻出問題の解決策を全エージェントが共有</text>
+  <text x="892" y="918" font-size="12" fill="#1A1D24">研究: 仮説検証の試行錯誤から自律的に研究戦略を改善</text>
+
+  <!-- Memory types comparison -->
+  <rect x="80" y="938" width="1250" height="60" rx="4" fill="#F5F5F5" stroke="#D0D0D0" stroke-width="1"/>
+  <text x="700" y="962" text-anchor="middle" font-size="14" font-weight="700" fill="#1A1D24">Dreamingが解決する「メモリーの壁」</text>
+  <text x="700" y="982" text-anchor="middle" font-size="12" fill="#5C6370">単一セッション記憶（揮発性）→ 短期メモリー（会話内）→ 長期メモリー（ユーザー別）→ <tspan font-weight="700" fill="#8B7DB8">Dreaming（組織横断・自律進化）</tspan></text>
+
+  <!-- Footer -->
+  <line x1="55" y1="1032" x2="1345" y2="1032" stroke="#E8E2D3" stroke-width="1"/>
+  <text x="700" y="1046" text-anchor="middle" font-size="12" fill="#9AA0AB" font-style="italic">AI News · 2026-05-10 · Anthropic Dreaming: Claude Agents Learn from Past Sessions — Harvey 6x Completion Rate</text>
+</svg>

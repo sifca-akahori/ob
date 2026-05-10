@@ -1,0 +1,234 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1400 1050" font-family="-apple-system, 'Hiragino Sans', 'Yu Gothic', sans-serif">
+  <defs>
+    <pattern id="paperTex" patternUnits="userSpaceOnUse" width="100" height="100">
+      <rect width="100" height="100" fill="#FBF8F1"/>
+      <circle cx="18" cy="25" r="0.4" fill="#C4B389" opacity="0.3"/>
+      <circle cx="63" cy="47" r="0.5" fill="#C4B389" opacity="0.3"/>
+      <circle cx="35" cy="80" r="0.3" fill="#C4B389" opacity="0.3"/>
+    </pattern>
+    <filter id="stickyShadow">
+      <feGaussianBlur in="SourceAlpha" stdDeviation="3"/>
+      <feOffset dx="2" dy="3" result="offsetblur"/>
+      <feComponentTransfer><feFuncA type="linear" slope="0.25"/></feComponentTransfer>
+      <feMerge><feMergeNode/><feMergeNode in="SourceGraphic"/></feMerge>
+    </filter>
+    <filter id="softShadow">
+      <feGaussianBlur in="SourceAlpha" stdDeviation="2"/>
+      <feOffset dx="1" dy="2" result="offsetblur"/>
+      <feComponentTransfer><feFuncA type="linear" slope="0.18"/></feComponentTransfer>
+      <feMerge><feMergeNode/><feMergeNode in="SourceGraphic"/></feMerge>
+    </filter>
+    <linearGradient id="barPurple" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0%" stop-color="#8B7DB8"/>
+      <stop offset="100%" stop-color="#A99DD4"/>
+    </linearGradient>
+    <linearGradient id="barGray" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0%" stop-color="#9AA0AB"/>
+      <stop offset="100%" stop-color="#BCC3CC"/>
+    </linearGradient>
+  </defs>
+
+  <!-- Background -->
+  <rect width="1400" height="1050" fill="url(#paperTex)"/>
+  <rect width="1400" height="1050" fill="#FBF8F1" opacity="0.4"/>
+
+  <!-- Binding holes -->
+  <rect x="0" y="0" width="38" height="1050" fill="#E8E2D3" stroke="#D0C9B8" stroke-width="1"/>
+  <circle cx="19" cy="120" r="10" fill="#FBF8F1" stroke="#C4B8A0" stroke-width="1.5"/>
+  <circle cx="19" cy="280" r="10" fill="#FBF8F1" stroke="#C4B8A0" stroke-width="1.5"/>
+  <circle cx="19" cy="440" r="10" fill="#FBF8F1" stroke="#C4B8A0" stroke-width="1.5"/>
+  <circle cx="19" cy="600" r="10" fill="#FBF8F1" stroke="#C4B8A0" stroke-width="1.5"/>
+  <circle cx="19" cy="760" r="10" fill="#FBF8F1" stroke="#C4B8A0" stroke-width="1.5"/>
+  <circle cx="19" cy="920" r="10" fill="#FBF8F1" stroke="#C4B8A0" stroke-width="1.5"/>
+
+  <!-- Category tape -->
+  <g transform="rotate(-3, 1300, 42)">
+    <rect x="1182" y="18" width="180" height="36" rx="3" fill="#8B7DB8" opacity="0.88" stroke="#1A1D24" stroke-width="1.5"/>
+    <text x="1272" y="41" text-anchor="middle" font-size="15" font-weight="700" fill="white">#論文</text>
+  </g>
+
+  <!-- Date badge -->
+  <rect x="55" y="18" width="165" height="34" rx="4" fill="#2F3842" stroke="#1A1D24" stroke-width="1.5"/>
+  <text x="138" y="40" text-anchor="middle" font-size="14" font-weight="600" fill="white">2026-05-10</text>
+
+  <!-- Impact stars -->
+  <text x="260" y="42" font-size="20" fill="#F5A623">⭐⭐</text>
+
+  <!-- Header -->
+  <text x="55" y="90" font-size="36" font-weight="900" fill="#1A1D24">🔁 RLM（再帰言語モデル）：コンテキスト管理が次の戦場</text>
+  <text x="55" y="126" font-size="19" fill="#8B7DB8" font-weight="700">Prime Intellect「2026年のパラダイム」——コンテキスト長でなく管理能力で差がつく</text>
+  <text x="55" y="152" font-size="15" fill="#5C6370">Prime Intellect Blog / arXiv｜2026-05-10｜#論文 #RLM #アーキテクチャ #コンテキスト管理</text>
+  <line x1="55" y1="164" x2="1350" y2="164" stroke="#1A1D24" stroke-width="2"/>
+
+  <!-- Hero element -->
+  <g transform="translate(1260, 200)">
+    <circle cx="0" cy="0" r="68" fill="#8B7DB8" opacity="0.12" stroke="#8B7DB8" stroke-width="2"/>
+    <text x="0" y="16" text-anchor="middle" font-size="70">🔁</text>
+  </g>
+
+  <!-- Key numbers -->
+  <rect x="55" y="178" width="860" height="110" rx="6" fill="white" stroke="#1A1D24" stroke-width="2" filter="url(#softShadow)"/>
+  <text x="95" y="214" font-size="13" fill="#5C6370">コンテキスト処理能力向上</text>
+  <text x="95" y="256" font-size="42" font-weight="900" fill="#8B7DB8">100倍超</text>
+  <text x="95" y="276" font-size="11" fill="#9AA0AB">コンテキスト長の物理的上限を超えて処理</text>
+  <line x1="360" y1="196" x2="360" y2="278" stroke="#E8E2D3" stroke-width="1"/>
+  <text x="390" y="214" font-size="13" fill="#5C6370">vs 従来スキャフォールド（品質）</text>
+  <text x="390" y="256" font-size="42" font-weight="900" fill="#1A1D24">大幅超過</text>
+  <text x="390" y="276" font-size="11" fill="#9AA0AB">4種の長コンテキストタスクで一貫した優位</text>
+  <line x1="660" y1="196" x2="660" y2="278" stroke="#E8E2D3" stroke-width="1"/>
+  <text x="690" y="214" font-size="13" fill="#5C6370">コスト</text>
+  <text x="690" y="256" font-size="42" font-weight="900" fill="#1A1D24">同等</text>
+  <text x="690" y="276" font-size="11" fill="#9AA0AB">長コンテキスト処理より安価なケースも</text>
+
+  <!-- Architecture diagram -->
+  <rect x="55" y="308" width="620" height="310" rx="6" fill="white" stroke="#1A1D24" stroke-width="2" filter="url(#softShadow)"/>
+  <text x="80" y="338" font-size="16" font-weight="700" fill="#1A1D24">RLM vs 従来LLMのアーキテクチャ比較</text>
+  <line x1="80" y1="344" x2="460" y2="344" stroke="#8B7DB8" stroke-width="2"/>
+
+  <!-- Traditional LLM -->
+  <text x="180" y="370" text-anchor="middle" font-size="13" font-weight="700" fill="#9AA0AB">【従来LLM】</text>
+  <rect x="80" y="378" width="200" height="52" rx="4" fill="#F5F5F5" stroke="#9AA0AB" stroke-width="2"/>
+  <text x="180" y="400" text-anchor="middle" font-size="12" fill="#9AA0AB">巨大コンテキスト入力</text>
+  <text x="180" y="418" text-anchor="middle" font-size="11" fill="#9AA0AB">(100万トークン直接投入)</text>
+  <text x="180" y="448" text-anchor="middle" font-size="24">⬇️</text>
+  <rect x="80" y="458" width="200" height="52" rx="4" fill="#F5F5F5" stroke="#9AA0AB" stroke-width="2"/>
+  <text x="180" y="480" text-anchor="middle" font-size="12" fill="#9AA0AB">Neural Network</text>
+  <text x="180" y="498" text-anchor="middle" font-size="11" fill="#9AA0AB">(全トークン処理 = 高コスト)</text>
+  <text x="180" y="530" text-anchor="middle" font-size="11" fill="#E05252">問題: 文脈窓の限界・コスト爆発</text>
+
+  <!-- RLM -->
+  <text x="490" y="370" text-anchor="middle" font-size="13" font-weight="700" fill="#8B7DB8">【RLM】</text>
+  <rect x="380" y="378" width="255" height="52" rx="4" fill="#EDE0FF" stroke="#8B7DB8" stroke-width="2"/>
+  <text x="507" y="400" text-anchor="middle" font-size="12" fill="#1A1D24">Python REPL環境</text>
+  <text x="507" y="418" text-anchor="middle" font-size="11" fill="#5C6370">(入力を「環境」として管理)</text>
+  <text x="507" y="448" text-anchor="middle" font-size="24">⬇️</text>
+  <rect x="380" y="458" width="120" height="52" rx="4" fill="#8B7DB8" stroke="#1A1D24" stroke-width="1.5"/>
+  <text x="440" y="480" text-anchor="middle" font-size="11" font-weight="700" fill="white">Root LLM</text>
+  <text x="440" y="498" text-anchor="middle" font-size="10" fill="#EDE0FF">コンテキスト制御</text>
+
+  <!-- Sub-LLMs -->
+  <rect x="520" y="458" width="110" height="52" rx="4" fill="#8B7DB8" stroke="#1A1D24" stroke-width="1.5" opacity="0.7"/>
+  <text x="575" y="480" text-anchor="middle" font-size="11" fill="white">Sub LLM</text>
+  <text x="575" y="498" text-anchor="middle" font-size="10" fill="#EDE0FF">再帰呼び出し</text>
+  <line x1="500" y1="484" x2="520" y2="484" stroke="#1A1D24" stroke-width="1.5" stroke-dasharray="4,2"/>
+
+  <text x="507" y="528" text-anchor="middle" font-size="11" fill="#5CA46E">✓ 必要な部分のみ読み込み</text>
+  <text x="507" y="545" text-anchor="middle" font-size="11" fill="#5CA46E">✓ 情報損失なし・コスト最適</text>
+
+  <!-- Performance chart -->
+  <rect x="695" y="308" width="650" height="310" rx="6" fill="white" stroke="#1A1D24" stroke-width="2" filter="url(#softShadow)"/>
+  <text x="720" y="338" font-size="16" font-weight="700" fill="#1A1D24">RLMのパフォーマンス優位</text>
+  <line x1="720" y1="344" x2="1040" y2="344" stroke="#8B7DB8" stroke-width="2"/>
+
+  <!-- Horizontal bar chart: performance comparison -->
+  <!-- Task 1 -->
+  <text x="730" y="374" font-size="12" fill="#1A1D24">長文書理解タスク</text>
+  <text x="730" y="395" font-size="11" fill="#9AA0AB">標準LLM</text>
+  <rect x="840" y="384" width="120" height="18" rx="3" fill="url(#barGray)"/>
+  <text x="968" y="397" font-size="11" fill="#9AA0AB">48%</text>
+  <text x="730" y="416" font-size="11" fill="#8B7DB8">RLM</text>
+  <rect x="840" y="405" width="230" height="18" rx="3" fill="url(#barPurple)"/>
+  <text x="1078" y="418" font-size="11" font-weight="700" fill="#8B7DB8">82% ✦</text>
+
+  <!-- Task 2 -->
+  <text x="730" y="446" font-size="12" fill="#1A1D24">コードベース横断タスク</text>
+  <text x="730" y="467" font-size="11" fill="#9AA0AB">標準LLM</text>
+  <rect x="840" y="456" width="90" height="18" rx="3" fill="url(#barGray)"/>
+  <text x="938" y="469" font-size="11" fill="#9AA0AB">35%</text>
+  <text x="730" y="488" font-size="11" fill="#8B7DB8">RLM</text>
+  <rect x="840" y="477" width="196" height="18" rx="3" fill="url(#barPurple)"/>
+  <text x="1044" y="490" font-size="11" font-weight="700" fill="#8B7DB8">76% ✦</text>
+
+  <!-- Task 3 -->
+  <text x="730" y="518" font-size="12" fill="#1A1D24">科学論文群サマリー</text>
+  <text x="730" y="539" font-size="11" fill="#9AA0AB">標準LLM</text>
+  <rect x="840" y="528" width="105" height="18" rx="3" fill="url(#barGray)"/>
+  <text x="953" y="541" font-size="11" fill="#9AA0AB">41%</text>
+  <text x="730" y="560" font-size="11" fill="#8B7DB8">RLM</text>
+  <rect x="840" y="549" width="214" height="18" rx="3" fill="url(#barPurple)"/>
+  <text x="1062" y="562" font-size="11" font-weight="700" fill="#8B7DB8">83% ✦</text>
+
+  <!-- Key note -->
+  <rect x="720" y="588" width="600" height="22" rx="4" fill="#FFF3CD" stroke="#F5A623" stroke-width="1"/>
+  <text x="1020" y="604" text-anchor="middle" font-size="11" fill="#856404">※コスト（トークン消費）は従来と同等水準を維持</text>
+
+  <!-- Sticky notes -->
+  <g transform="rotate(-1.5, 170, 680)" filter="url(#stickyShadow)">
+    <rect x="55" y="640" width="222" height="118" rx="3" fill="#EDE0FF" stroke="#1A1D24" stroke-width="1.5"/>
+    <text x="75" y="664" font-size="13" font-weight="700" fill="#1A1D24">🍋 The Bitter Lesson</text>
+    <text x="75" y="684" font-size="12" fill="#1A1D24">Sutton原則に沿って</text>
+    <text x="75" y="700" font-size="12" fill="#1A1D24">コンテキスト管理を</text>
+    <text x="75" y="716" font-size="12" fill="#1A1D24">訓練で学習させる。</text>
+    <text x="75" y="732" font-size="12" fill="#1A1D24">汎用化の正しい方向</text>
+  </g>
+
+  <g transform="rotate(1.0, 390, 680)" filter="url(#stickyShadow)">
+    <rect x="292" y="640" width="222" height="118" rx="3" fill="#FFF9C4" stroke="#1A1D24" stroke-width="1.5"/>
+    <text x="312" y="664" font-size="13" font-weight="700" fill="#1A1D24">⚠️ デバッグ困難</text>
+    <text x="312" y="684" font-size="12" fill="#1A1D24">再帰コールグラフが</text>
+    <text x="312" y="700" font-size="12" fill="#1A1D24">複雑化。コスト爆発</text>
+    <text x="312" y="716" font-size="12" fill="#1A1D24">リスク。タイムアウト</text>
+    <text x="312" y="732" font-size="12" fill="#1A1D24">設定が実用上必須</text>
+  </g>
+
+  <g transform="rotate(-0.8, 610, 680)" filter="url(#stickyShadow)">
+    <rect x="530" y="640" width="222" height="118" rx="3" fill="#D4F4E8" stroke="#1A1D24" stroke-width="1.5"/>
+    <text x="550" y="664" font-size="13" font-weight="700" fill="#1A1D24">💼 実用候補</text>
+    <text x="550" y="684" font-size="12" fill="#1A1D24">①大規模コード移行</text>
+    <text x="550" y="700" font-size="12" fill="#1A1D24">②インシリコ創薬</text>
+    <text x="550" y="716" font-size="12" fill="#1A1D24">③データセット品質</text>
+    <text x="550" y="732" font-size="12" fill="#1A1D24">管理が初期適用先</text>
+  </g>
+
+  <g transform="rotate(1.3, 840, 680)" filter="url(#stickyShadow)">
+    <rect x="768" y="640" width="222" height="118" rx="3" fill="#FFE0CC" stroke="#1A1D24" stroke-width="1.5"/>
+    <text x="788" y="664" font-size="13" font-weight="700" fill="#1A1D24">⚡ ミドルウェアへの脅威</text>
+    <text x="788" y="684" font-size="12" fill="#1A1D24">LangChain / LlamaIndex</text>
+    <text x="788" y="700" font-size="12" fill="#1A1D24">等のオーケスト層が</text>
+    <text x="788" y="716" font-size="12" fill="#1A1D24">モデル内部に統合さ</text>
+    <text x="788" y="732" font-size="12" fill="#1A1D24">れる可能性を示唆</text>
+  </g>
+
+  <!-- Context management evolution -->
+  <rect x="55" y="778" width="1290" height="244" rx="6" fill="white" stroke="#1A1D24" stroke-width="2" filter="url(#softShadow)"/>
+  <text x="80" y="808" font-size="16" font-weight="700" fill="#1A1D24">コンテキスト管理技術の進化マップ</text>
+  <line x1="80" y1="814" x2="500" y2="814" stroke="#8B7DB8" stroke-width="2"/>
+
+  <!-- Evolution timeline -->
+  <line x1="100" y1="860" x2="1320" y2="860" stroke="#E8E2D3" stroke-width="2"/>
+
+  <circle cx="180" cy="860" r="10" fill="#9AA0AB" stroke="#1A1D24" stroke-width="2"/>
+  <text x="180" y="840" text-anchor="middle" font-size="11" fill="#9AA0AB">2020〜2022</text>
+  <text x="180" y="880" text-anchor="middle" font-size="11" fill="#9AA0AB">固定コンテキスト</text>
+  <text x="180" y="896" text-anchor="middle" font-size="11" fill="#9AA0AB">4K〜8Kトークン</text>
+
+  <circle cx="430" cy="860" r="10" fill="#5B8DEF" stroke="#1A1D24" stroke-width="2"/>
+  <text x="430" y="840" text-anchor="middle" font-size="11" fill="#5B8DEF">2023〜2024</text>
+  <text x="430" y="880" text-anchor="middle" font-size="11" fill="#5B8DEF">長コンテキスト競争</text>
+  <text x="430" y="896" text-anchor="middle" font-size="11" fill="#5B8DEF">100K〜1Mトークン</text>
+
+  <circle cx="680" cy="860" r="10" fill="#5CA46E" stroke="#1A1D24" stroke-width="2"/>
+  <text x="680" y="840" text-anchor="middle" font-size="11" fill="#5CA46E">2024〜2025</text>
+  <text x="680" y="880" text-anchor="middle" font-size="11" fill="#5CA46E">RAG・外部ストア</text>
+  <text x="680" y="896" text-anchor="middle" font-size="11" fill="#5CA46E">必要な時に検索</text>
+
+  <circle cx="930" cy="860" r="10" fill="#E8A87C" stroke="#1A1D24" stroke-width="2"/>
+  <text x="930" y="840" text-anchor="middle" font-size="11" fill="#E8A87C">2025〜2026</text>
+  <text x="930" y="880" text-anchor="middle" font-size="11" fill="#E8A87C">エージェント記憶</text>
+  <text x="930" y="896" text-anchor="middle" font-size="11" fill="#E8A87C">Dreaming・Mem0等</text>
+
+  <circle cx="1180" cy="860" r="12" fill="#8B7DB8" stroke="#1A1D24" stroke-width="2"/>
+  <text x="1180" y="836" text-anchor="middle" font-size="12" font-weight="700" fill="#8B7DB8">2026〜</text>
+  <text x="1180" y="880" text-anchor="middle" font-size="12" font-weight="700" fill="#8B7DB8">RLM・自律コンテキスト管理</text>
+  <text x="1180" y="896" text-anchor="middle" font-size="12" fill="#8B7DB8">「コンテキストは環境」</text>
+
+  <!-- Key insight banner -->
+  <rect x="80" y="916" width="1250" height="80" rx="4" fill="#EDE0FF" stroke="#8B7DB8" stroke-width="1.5"/>
+  <text x="700" y="944" text-anchor="middle" font-size="15" font-weight="700" fill="#1A1D24">RLMが問いかけるパラダイム転換</text>
+  <text x="700" y="966" text-anchor="middle" font-size="13" fill="#5C6370">"Context length is NOT the bottleneck — Context MANAGEMENT is." — Prime Intellect</text>
+  <text x="700" y="984" text-anchor="middle" font-size="12" fill="#8B7DB8">GPT-4o 128K → Gemini 2.0 2M → RLM ∞（管理能力次第）</text>
+
+  <!-- Footer -->
+  <line x1="55" y1="1032" x2="1345" y2="1032" stroke="#E8E2D3" stroke-width="1"/>
+  <text x="700" y="1046" text-anchor="middle" font-size="12" fill="#9AA0AB" font-style="italic">AI News · 2026-05-10 · Recursive Language Models (RLM): Prime Intellect's "Paradigm of 2026"</text>
+</svg>

@@ -1,0 +1,215 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1400 1050" font-family="-apple-system, 'Hiragino Sans', 'Yu Gothic', sans-serif">
+  <defs>
+    <pattern id="paperTex" patternUnits="userSpaceOnUse" width="100" height="100">
+      <rect width="100" height="100" fill="#FBF8F1"/>
+      <circle cx="18" cy="25" r="0.4" fill="#C4B389" opacity="0.3"/>
+      <circle cx="63" cy="47" r="0.5" fill="#C4B389" opacity="0.3"/>
+      <circle cx="35" cy="80" r="0.3" fill="#C4B389" opacity="0.3"/>
+    </pattern>
+    <filter id="stickyShadow">
+      <feGaussianBlur in="SourceAlpha" stdDeviation="3"/>
+      <feOffset dx="2" dy="3" result="offsetblur"/>
+      <feComponentTransfer><feFuncA type="linear" slope="0.25"/></feComponentTransfer>
+      <feMerge><feMergeNode/><feMergeNode in="SourceGraphic"/></feMerge>
+    </filter>
+    <filter id="softShadow">
+      <feGaussianBlur in="SourceAlpha" stdDeviation="2"/>
+      <feOffset dx="1" dy="2" result="offsetblur"/>
+      <feComponentTransfer><feFuncA type="linear" slope="0.18"/></feComponentTransfer>
+      <feMerge><feMergeNode/><feMergeNode in="SourceGraphic"/></feMerge>
+    </filter>
+    <linearGradient id="barGreen" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0%" stop-color="#5CA46E"/>
+      <stop offset="100%" stop-color="#7EC490"/>
+    </linearGradient>
+    <linearGradient id="barRed" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0%" stop-color="#E05252"/>
+      <stop offset="100%" stop-color="#F07070"/>
+    </linearGradient>
+  </defs>
+
+  <!-- Background -->
+  <rect width="1400" height="1050" fill="url(#paperTex)"/>
+  <rect width="1400" height="1050" fill="#FBF8F1" opacity="0.4"/>
+
+  <!-- Binding holes -->
+  <rect x="0" y="0" width="38" height="1050" fill="#E8E2D3" stroke="#D0C9B8" stroke-width="1"/>
+  <circle cx="19" cy="120" r="10" fill="#FBF8F1" stroke="#C4B8A0" stroke-width="1.5"/>
+  <circle cx="19" cy="280" r="10" fill="#FBF8F1" stroke="#C4B8A0" stroke-width="1.5"/>
+  <circle cx="19" cy="440" r="10" fill="#FBF8F1" stroke="#C4B8A0" stroke-width="1.5"/>
+  <circle cx="19" cy="600" r="10" fill="#FBF8F1" stroke="#C4B8A0" stroke-width="1.5"/>
+  <circle cx="19" cy="760" r="10" fill="#FBF8F1" stroke="#C4B8A0" stroke-width="1.5"/>
+  <circle cx="19" cy="920" r="10" fill="#FBF8F1" stroke="#C4B8A0" stroke-width="1.5"/>
+
+  <!-- Category tape -->
+  <g transform="rotate(-3, 1300, 42)">
+    <rect x="1182" y="18" width="180" height="36" rx="3" fill="#5CA46E" opacity="0.88" stroke="#1A1D24" stroke-width="1.5"/>
+    <text x="1272" y="41" text-anchor="middle" font-size="15" font-weight="700" fill="white">#ビジネス</text>
+  </g>
+
+  <!-- Date badge -->
+  <rect x="55" y="18" width="165" height="34" rx="4" fill="#2F3842" stroke="#1A1D24" stroke-width="1.5"/>
+  <text x="138" y="40" text-anchor="middle" font-size="14" font-weight="600" fill="white">2026-05-10</text>
+
+  <!-- Impact stars -->
+  <text x="260" y="42" font-size="20" fill="#F5A623">⭐⭐</text>
+
+  <!-- Header -->
+  <text x="55" y="90" font-size="36" font-weight="900" fill="#1A1D24">💔 Snap × Perplexity $4億提携が6ヶ月で崩壊</text>
+  <text x="55" y="126" font-size="19" fill="#E05252" font-weight="700">「Amicably ended」——プロダクト戦略断絶の裏に何があったのか</text>
+  <text x="55" y="152" font-size="15" fill="#5C6370">TechCrunch / Engadget｜2026-05-10｜#ビジネス #Snap #Perplexity #AIサーチ</text>
+  <line x1="55" y1="164" x2="1350" y2="164" stroke="#1A1D24" stroke-width="2"/>
+
+  <!-- Hero element -->
+  <g transform="translate(1260, 200)">
+    <circle cx="0" cy="0" r="68" fill="#E05252" opacity="0.10" stroke="#E05252" stroke-width="2"/>
+    <text x="0" y="16" text-anchor="middle" font-size="70">💔</text>
+  </g>
+
+  <!-- Key numbers -->
+  <rect x="55" y="178" width="860" height="110" rx="6" fill="white" stroke="#1A1D24" stroke-width="2" filter="url(#softShadow)"/>
+  <text x="95" y="214" font-size="13" fill="#5C6370">提携総額</text>
+  <text x="95" y="258" font-size="46" font-weight="900" fill="#E05252">$4億</text>
+  <text x="95" y="276" font-size="11" fill="#9AA0AB">現金+株式・12ヶ月で支払い予定</text>
+  <line x1="300" y1="196" x2="300" y2="278" stroke="#E8E2D3" stroke-width="1"/>
+  <text x="330" y="214" font-size="13" fill="#5C6370">提携期間</text>
+  <text x="330" y="258" font-size="46" font-weight="900" fill="#1A1D24">6ヶ月</text>
+  <text x="330" y="276" font-size="11" fill="#9AA0AB">2025年11月発表 → Q1 2026中に解消</text>
+  <line x1="570" y1="196" x2="570" y2="278" stroke="#E8E2D3" stroke-width="1"/>
+  <text x="600" y="214" font-size="13" fill="#5C6370">Snapchat MAU</text>
+  <text x="600" y="258" font-size="46" font-weight="900" fill="#1A1D24">9億人</text>
+  <text x="600" y="276" font-size="11" fill="#9AA0AB">Perplexityがアクセスを失った市場</text>
+
+  <!-- Deal timeline -->
+  <rect x="55" y="308" width="560" height="310" rx="6" fill="white" stroke="#1A1D24" stroke-width="2" filter="url(#softShadow)"/>
+  <text x="80" y="338" font-size="16" font-weight="700" fill="#1A1D24">提携の軌跡</text>
+  <line x1="80" y1="344" x2="300" y2="344" stroke="#E05252" stroke-width="2"/>
+
+  <!-- Timeline -->
+  <line x1="120" y1="362" x2="120" y2="596" stroke="#E8E2D3" stroke-width="3"/>
+
+  <circle cx="120" cy="378" r="12" fill="#5CA46E" stroke="#1A1D24" stroke-width="2"/>
+  <text x="145" y="374" font-size="12" font-weight="700" fill="#5CA46E">2025年11月</text>
+  <text x="145" y="391" font-size="12" fill="#1A1D24">Snap-Perplexity提携発表</text>
+  <text x="145" y="407" font-size="11" fill="#5C6370">$400M / Snapchat Chat UI統合計画</text>
+
+  <circle cx="120" cy="450" r="12" fill="#E8A87C" stroke="#1A1D24" stroke-width="2"/>
+  <text x="145" y="446" font-size="12" font-weight="700" fill="#E8A87C">2026年Q1前半</text>
+  <text x="145" y="463" font-size="12" fill="#1A1D24">「広範な展開への合意未達」公表</text>
+  <text x="145" y="479" font-size="11" fill="#5C6370">Snapが早期の問題を示唆</text>
+
+  <circle cx="120" cy="522" r="12" fill="#E05252" stroke="#1A1D24" stroke-width="2"/>
+  <text x="145" y="518" font-size="12" font-weight="700" fill="#E05252">2026年Q1終了</text>
+  <text x="145" y="535" font-size="12" fill="#1A1D24">提携解消（内密条件で決着）</text>
+  <text x="145" y="551" font-size="11" fill="#5C6370">Snap決算でAmicably endedと発表</text>
+
+  <circle cx="120" cy="580" r="12" fill="#9AA0AB" stroke="#1A1D24" stroke-width="2"/>
+  <text x="145" y="576" font-size="12" font-weight="700" fill="#9AA0AB">2026年Q2以降</text>
+  <text x="145" y="593" font-size="12" fill="#1A1D24">Perplexityからの売上ゼロを確認</text>
+  <text x="145" y="609" font-size="11" fill="#5C6370">Snap株価急落・慎重ガイダンス</text>
+
+  <!-- Why failed -->
+  <rect x="635" y="308" width="710" height="310" rx="6" fill="white" stroke="#1A1D24" stroke-width="2" filter="url(#softShadow)"/>
+  <text x="660" y="338" font-size="16" font-weight="700" fill="#1A1D24">崩壊の構造的理由</text>
+  <line x1="660" y1="344" x2="940" y2="344" stroke="#E05252" stroke-width="2"/>
+
+  <!-- Reason 1 -->
+  <rect x="660" y="356" width="660" height="56" rx="4" fill="#FFF0F0" stroke="#E05252" stroke-width="1.5"/>
+  <text x="680" y="376" font-size="13" font-weight="700" fill="#E05252">① ブランド主権の争奪</text>
+  <text x="680" y="396" font-size="12" fill="#1A1D24">SnapchatにPerplexityブランドのAIが入ることで「Snapchatが見え透く」</text>
+  <text x="680" y="404" font-size="12" fill="#1A1D24">→ SnapはMyAI（自社AI）のブランド確立を優先した可能性</text>
+
+  <!-- Reason 2 -->
+  <rect x="660" y="424" width="660" height="56" rx="4" fill="#FFF0F0" stroke="#E05252" stroke-width="1.5"/>
+  <text x="680" y="444" font-size="13" font-weight="700" fill="#E05252">② マネタイズモデルの不整合</text>
+  <text x="680" y="464" font-size="12" fill="#1A1D24">Perplexityは検索広告を志向、SnapchatはAR広告・ストーリー広告が主軸</text>
+  <text x="680" y="480" font-size="12" fill="#1A1D24">→ 検索型UXとソーシャル型UXの根本的な設計の違い</text>
+
+  <!-- Reason 3 -->
+  <rect x="660" y="492" width="660" height="56" rx="4" fill="#FFF0F0" stroke="#E05252" stroke-width="1.5"/>
+  <text x="680" y="512" font-size="13" font-weight="700" fill="#E05252">③ 地政学リスクによる優先順位変更</text>
+  <text x="680" y="532" font-size="12" fill="#1A1D24">中東ユーザー比率高いSnapが「地政学的不確実性」でコスト削減を優先</text>
+  <text x="680" y="548" font-size="12" fill="#1A1D24">→ $400M規模の外部支払いより事業縮小を選択した可能性</text>
+
+  <!-- Sticky notes -->
+  <g transform="rotate(-1.5, 170, 680)" filter="url(#stickyShadow)">
+    <rect x="55" y="638" width="222" height="118" rx="3" fill="#FFF9C4" stroke="#1A1D24" stroke-width="1.5"/>
+    <text x="75" y="662" font-size="13" font-weight="700" fill="#1A1D24">🔍 AIサーチ統合の壁</text>
+    <text x="75" y="682" font-size="12" fill="#1A1D24">Google + YouTube、Bing</text>
+    <text x="75" y="698" font-size="12" fill="#1A1D24">+ LinkedIn は同一企業。</text>
+    <text x="75" y="714" font-size="12" fill="#1A1D24">独立系AIとSNSの統合</text>
+    <text x="75" y="730" font-size="12" fill="#1A1D24">には構造的限界がある</text>
+  </g>
+
+  <g transform="rotate(1.0, 390, 680)" filter="url(#stickyShadow)">
+    <rect x="292" y="638" width="222" height="118" rx="3" fill="#D4F4E8" stroke="#1A1D24" stroke-width="1.5"/>
+    <text x="312" y="662" font-size="13" font-weight="700" fill="#1A1D24">💰 Perplexityは損？</text>
+    <text x="312" y="682" font-size="12" fill="#1A1D24">未払い$400Mは失わず。</text>
+    <text x="312" y="698" font-size="12" fill="#1A1D24">6ヶ月でSnapchat UX・</text>
+    <text x="312" y="714" font-size="12" fill="#1A1D24">ユーザー行動の学習は</text>
+    <text x="312" y="730" font-size="12" fill="#1A1D24">副産物として得た可能性</text>
+  </g>
+
+  <g transform="rotate(-0.8, 610, 680)" filter="url(#stickyShadow)">
+    <rect x="530" y="638" width="222" height="118" rx="3" fill="#EDE0FF" stroke="#1A1D24" stroke-width="1.5"/>
+    <text x="550" y="662" font-size="13" font-weight="700" fill="#1A1D24">🎯 次の提携先は？</text>
+    <text x="550" y="682" font-size="12" fill="#1A1D24">Apple Safari・Samsung</text>
+    <text x="550" y="698" font-size="12" fill="#1A1D24">AI Search・Android標準</text>
+    <text x="550" y="714" font-size="12" fill="#1A1D24">ウィジェットへの統合が</text>
+    <text x="550" y="730" font-size="12" fill="#1A1D24">最重要戦略課題へ</text>
+  </g>
+
+  <g transform="rotate(1.3, 840, 680)" filter="url(#stickyShadow)">
+    <rect x="768" y="638" width="222" height="118" rx="3" fill="#FFE0CC" stroke="#1A1D24" stroke-width="1.5"/>
+    <text x="788" y="662" font-size="13" font-weight="700" fill="#1A1D24">📉 Snap株への影響</text>
+    <text x="788" y="682" font-size="12" fill="#1A1D24">Q2ガイダンス：$1.45B</text>
+    <text x="788" y="698" font-size="12" fill="#1A1D24">〜$1.48B（Perplexity収</text>
+    <text x="788" y="714" font-size="12" fill="#1A1D24">益ゼロ想定）。中東不安</text>
+    <text x="788" y="730" font-size="12" fill="#1A1D24">も重なり株価急落</text>
+  </g>
+
+  <!-- AI Search market landscape -->
+  <rect x="55" y="774" width="1290" height="248" rx="6" fill="white" stroke="#1A1D24" stroke-width="2" filter="url(#softShadow)"/>
+  <text x="80" y="804" font-size="16" font-weight="700" fill="#1A1D24">AIサーチプレイヤーのプラットフォーム統合状況（2026年）</text>
+  <line x1="80" y1="810" x2="560" y2="810" stroke="#E05252" stroke-width="2"/>
+
+  <!-- Table -->
+  <rect x="80" y="822" width="1250" height="30" rx="3" fill="#F5F5F5" stroke="#D0D0D0" stroke-width="1"/>
+  <text x="100" y="842" font-size="12" font-weight="700" fill="#1A1D24">AIサーチ</text>
+  <text x="280" y="842" font-size="12" font-weight="700" fill="#1A1D24">主要プラットフォーム統合</text>
+  <text x="580" y="842" font-size="12" font-weight="700" fill="#1A1D24">MAUアクセス</text>
+  <text x="780" y="842" font-size="12" font-weight="700" fill="#1A1D24">ビジネスモデル</text>
+  <text x="1060" y="842" font-size="12" font-weight="700" fill="#1A1D24">統合の質</text>
+
+  <rect x="80" y="852" width="1250" height="36" rx="0" fill="#F0F8FF" stroke="#E0E0E0" stroke-width="0.5"/>
+  <text x="100" y="875" font-size="12" fill="#1A1D24">Bing AI / Copilot</text>
+  <text x="280" y="875" font-size="12" fill="#1A1D24">Windows・Office・Edge（同一企業MS）</text>
+  <text x="580" y="875" font-size="12" fill="#5CA46E">10億+</text>
+  <text x="780" y="875" font-size="12" fill="#1A1D24">Microsoft傘下・深統合</text>
+  <text x="1060" y="875" font-size="12" fill="#5CA46E">✅ 強固</text>
+
+  <rect x="80" y="888" width="1250" height="36" rx="0" fill="white" stroke="#E0E0E0" stroke-width="0.5"/>
+  <text x="100" y="911" font-size="12" fill="#1A1D24">Google AI Overviews</text>
+  <text x="280" y="911" font-size="12" fill="#1A1D24">Search・Chrome・Android（同一企業）</text>
+  <text x="580" y="911" font-size="12" fill="#5CA46E">40億+</text>
+  <text x="780" y="911" font-size="12" fill="#1A1D24">Google傘下・最深統合</text>
+  <text x="1060" y="911" font-size="12" fill="#5CA46E">✅ 最強</text>
+
+  <rect x="80" y="924" width="1250" height="36" rx="0" fill="white" stroke="#E0E0E0" stroke-width="0.5"/>
+  <text x="100" y="947" font-size="12" fill="#1A1D24">ChatGPT Search</text>
+  <text x="280" y="947" font-size="12" fill="#1A1D24">ChatGPT app（OpenAI独自）</text>
+  <text x="580" y="947" font-size="12" fill="#E8A87C">7億MAU</text>
+  <text x="780" y="947" font-size="12" fill="#1A1D24">独自プラットフォーム内</text>
+  <text x="1060" y="947" font-size="12" fill="#E8A87C">🟡 中</text>
+
+  <rect x="80" y="960" width="1250" height="36" rx="0" fill="#FFF0F0" stroke="#E0E0E0" stroke-width="0.5"/>
+  <text x="100" y="983" font-size="12" font-weight="700" fill="#E05252">Perplexity</text>
+  <text x="280" y="983" font-size="12" fill="#E05252">Snap破談 → 次の提携先を模索中</text>
+  <text x="580" y="983" font-size="12" fill="#E05252">独自（ARR $100M+）</text>
+  <text x="780" y="983" font-size="12" fill="#1A1D24">サブスク + 広告</text>
+  <text x="1060" y="983" font-size="12" fill="#E05252">❌ 未確定</text>
+
+  <!-- Footer -->
+  <line x1="55" y1="1032" x2="1345" y2="1032" stroke="#E8E2D3" stroke-width="1"/>
+  <text x="700" y="1046" text-anchor="middle" font-size="12" fill="#9AA0AB" font-style="italic">AI News · 2026-05-10 · Snap's $400M Perplexity AI Search Deal Collapses After 6 Months — "Amicably Ended"</text>
+</svg>

@@ -1,0 +1,227 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1400 1050" font-family="-apple-system, 'Hiragino Sans', 'Yu Gothic', sans-serif">
+  <defs>
+    <pattern id="paperTex" patternUnits="userSpaceOnUse" width="100" height="100">
+      <rect width="100" height="100" fill="#FBF8F1"/>
+      <circle cx="18" cy="25" r="0.4" fill="#C4B389" opacity="0.3"/>
+      <circle cx="63" cy="47" r="0.5" fill="#C4B389" opacity="0.3"/>
+      <circle cx="35" cy="80" r="0.3" fill="#C4B389" opacity="0.3"/>
+      <circle cx="85" cy="12" r="0.4" fill="#C4B389" opacity="0.25"/>
+    </pattern>
+    <filter id="stickyShadow">
+      <feGaussianBlur in="SourceAlpha" stdDeviation="3"/>
+      <feOffset dx="2" dy="3" result="offsetblur"/>
+      <feComponentTransfer><feFuncA type="linear" slope="0.25"/></feComponentTransfer>
+      <feMerge><feMergeNode/><feMergeNode in="SourceGraphic"/></feMerge>
+    </filter>
+    <filter id="softShadow">
+      <feGaussianBlur in="SourceAlpha" stdDeviation="2"/>
+      <feOffset dx="1" dy="2" result="offsetblur"/>
+      <feComponentTransfer><feFuncA type="linear" slope="0.18"/></feComponentTransfer>
+      <feMerge><feMergeNode/><feMergeNode in="SourceGraphic"/></feMerge>
+    </filter>
+    <linearGradient id="barOrange" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0%" stop-color="#E8A87C"/>
+      <stop offset="100%" stop-color="#F2C080"/>
+    </linearGradient>
+    <linearGradient id="barGray" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0%" stop-color="#9AA0AB"/>
+      <stop offset="100%" stop-color="#BCC3CC"/>
+    </linearGradient>
+  </defs>
+
+  <!-- Background -->
+  <rect width="1400" height="1050" fill="url(#paperTex)"/>
+  <rect width="1400" height="1050" fill="#FBF8F1" opacity="0.4"/>
+
+  <!-- Binding holes -->
+  <rect x="0" y="0" width="38" height="1050" fill="#E8E2D3" stroke="#D0C9B8" stroke-width="1"/>
+  <circle cx="19" cy="120" r="10" fill="#FBF8F1" stroke="#C4B8A0" stroke-width="1.5"/>
+  <circle cx="19" cy="280" r="10" fill="#FBF8F1" stroke="#C4B8A0" stroke-width="1.5"/>
+  <circle cx="19" cy="440" r="10" fill="#FBF8F1" stroke="#C4B8A0" stroke-width="1.5"/>
+  <circle cx="19" cy="600" r="10" fill="#FBF8F1" stroke="#C4B8A0" stroke-width="1.5"/>
+  <circle cx="19" cy="760" r="10" fill="#FBF8F1" stroke="#C4B8A0" stroke-width="1.5"/>
+  <circle cx="19" cy="920" r="10" fill="#FBF8F1" stroke="#C4B8A0" stroke-width="1.5"/>
+
+  <!-- Category tape -->
+  <g transform="rotate(-3, 1300, 42)">
+    <rect x="1182" y="18" width="180" height="36" rx="3" fill="#E8A87C" opacity="0.88" stroke="#1A1D24" stroke-width="1.5"/>
+    <text x="1272" y="41" text-anchor="middle" font-size="15" font-weight="700" fill="white">#SNS</text>
+  </g>
+
+  <!-- Date badge -->
+  <rect x="55" y="18" width="165" height="34" rx="4" fill="#2F3842" stroke="#1A1D24" stroke-width="1.5"/>
+  <text x="138" y="40" text-anchor="middle" font-size="14" font-weight="600" fill="white">2026-05-10</text>
+
+  <!-- Impact stars -->
+  <text x="260" y="42" font-size="20" fill="#F5A623">⭐⭐</text>
+
+  <!-- Header -->
+  <text x="55" y="90" font-size="34" font-weight="900" fill="#1A1D24">💼 「AIは仕事を奪わない」——役割が変形する</text>
+  <text x="55" y="124" font-size="20" fill="#E8A87C" font-weight="700">90%の技術者がAI活用済み・「ソフトウェアエンジニア」は2026年末消滅か</text>
+  <text x="55" y="150" font-size="15" fill="#5C6370">CNN Business｜2026-05-10｜#SNS #雇用 #役割変容 #Anthropic</text>
+  <line x1="55" y1="162" x2="1350" y2="162" stroke="#1A1D24" stroke-width="2"/>
+
+  <!-- Hero icon -->
+  <g transform="translate(1260, 200)">
+    <circle cx="0" cy="0" r="68" fill="#E8A87C" opacity="0.12" stroke="#E8A87C" stroke-width="2"/>
+    <text x="0" y="16" text-anchor="middle" font-size="70">💼</text>
+  </g>
+
+  <!-- Key numbers -->
+  <rect x="55" y="178" width="860" height="110" rx="6" fill="white" stroke="#1A1D24" stroke-width="2" filter="url(#softShadow)"/>
+  <text x="95" y="212" font-size="13" fill="#5C6370">AI業務活用率（技術者）</text>
+  <text x="95" y="256" font-size="46" font-weight="900" fill="#E8A87C">90%</text>
+  <text x="95" y="276" font-size="11" fill="#9AA0AB">Source: Google Research調査</text>
+  <line x1="310" y1="194" x2="310" y2="278" stroke="#E8E2D3" stroke-width="1"/>
+  <text x="340" y="212" font-size="13" fill="#5C6370">開発でAI使用・計画（SO調査）</text>
+  <text x="340" y="256" font-size="46" font-weight="900" fill="#1A1D24">84%</text>
+  <text x="340" y="276" font-size="11" fill="#9AA0AB">Source: Stack Overflow Developer Survey</text>
+  <line x1="590" y1="194" x2="590" y2="278" stroke="#E8E2D3" stroke-width="1"/>
+  <text x="620" y="212" font-size="13" fill="#5C6370">指標未更新企業（MS調査）</text>
+  <text x="620" y="252" font-size="36" font-weight="900" fill="#1A1D24">大多数</text>
+  <text x="620" y="276" font-size="11" fill="#9AA0AB">20カ国・20,000人規模調査（Microsoft）</text>
+
+  <!-- AI impact on roles chart -->
+  <rect x="55" y="308" width="570" height="310" rx="6" fill="white" stroke="#1A1D24" stroke-width="2" filter="url(#softShadow)"/>
+  <text x="80" y="338" font-size="16" font-weight="700" fill="#1A1D24">エンジニアの業務構成変化（AI導入後）</text>
+  <line x1="80" y1="344" x2="430" y2="344" stroke="#E8A87C" stroke-width="2"/>
+
+  <!-- Before AI -->
+  <text x="90" y="375" font-size="13" font-weight="700" fill="#5C6370">【AI導入前】</text>
+  <text x="90" y="400" font-size="12" fill="#1A1D24">コード執筆</text>
+  <rect x="200" y="388" width="300" height="22" rx="3" fill="url(#barOrange)" opacity="0.7"/>
+  <text x="508" y="404" font-size="11" fill="#9AA0AB">55%</text>
+
+  <text x="90" y="432" font-size="12" fill="#1A1D24">設計・思考</text>
+  <rect x="200" y="420" width="130" height="22" rx="3" fill="url(#barGray)"/>
+  <text x="338" y="436" font-size="11" fill="#9AA0AB">25%</text>
+
+  <text x="90" y="464" font-size="12" fill="#1A1D24">レビュー・QA</text>
+  <rect x="200" y="452" width="90" height="22" rx="3" fill="url(#barGray)"/>
+  <text x="298" y="468" font-size="11" fill="#9AA0AB">20%</text>
+
+  <!-- After AI -->
+  <text x="90" y="505" font-size="13" font-weight="700" fill="#E8A87C">【AI活用後】</text>
+  <text x="90" y="530" font-size="12" fill="#1A1D24">コード執筆</text>
+  <rect x="200" y="518" width="90" height="22" rx="3" fill="url(#barOrange)" opacity="0.4"/>
+  <text x="298" y="534" font-size="11" fill="#9AA0AB">≈15%</text>
+
+  <text x="90" y="562" font-size="12" fill="#1A1D24">設計・判断</text>
+  <rect x="200" y="550" width="230" height="22" rx="3" fill="url(#barOrange)"/>
+  <text x="438" y="566" font-size="11" fill="#9AA0AB">≈45%</text>
+
+  <text x="90" y="594" font-size="12" fill="#1A1D24">AI指示・評価</text>
+  <rect x="200" y="582" width="180" height="22" rx="3" fill="url(#barOrange)" opacity="0.8"/>
+  <text x="388" y="598" font-size="11" fill="#9AA0AB">≈40%</text>
+
+  <!-- Quote panel -->
+  <rect x="645" y="308" width="700" height="310" rx="6" fill="white" stroke="#1A1D24" stroke-width="2" filter="url(#softShadow)"/>
+  <text x="670" y="338" font-size="16" font-weight="700" fill="#1A1D24">注目の発言・データ</text>
+  <line x1="670" y1="344" x2="900" y2="344" stroke="#E8A87C" stroke-width="2"/>
+
+  <!-- Boris Cherny quote -->
+  <rect x="670" y="358" width="650" height="100" rx="4" fill="#FFF0E0" stroke="#E8A87C" stroke-width="1.5"/>
+  <text x="690" y="382" font-size="13" font-weight="700" fill="#E8A87C">Boris Cherny（Anthropic Claude Code責任者）</text>
+  <text x="690" y="403" font-size="13" fill="#1A1D24" font-style="italic">"The term 'software engineering' might go away by year-end."</text>
+  <text x="690" y="423" font-size="13" fill="#1A1D24" font-style="italic">"Builder is a more fitting title as the job expands"</text>
+  <text x="690" y="443" font-size="12" fill="#9AA0AB">（コードを書くことが中心から外れ、構築・判断が核心になる）</text>
+
+  <!-- Claude Code impact data -->
+  <rect x="670" y="470" width="310" height="70" rx="4" fill="#F0F8FF" stroke="#5B8DEF" stroke-width="1.5"/>
+  <text x="690" y="492" font-size="12" font-weight="700" fill="#5B8DEF">Claude Code効果（Anthropic社内）</text>
+  <text x="690" y="512" font-size="12" fill="#1A1D24">単純作業の削減率: <tspan font-weight="900" fill="#5B8DEF">80%以上</tspan></text>
+  <text x="690" y="530" font-size="12" fill="#1A1D24">1人で以前の5人分をこなすケースも報告</text>
+
+  <!-- Harvey data -->
+  <rect x="995" y="470" width="325" height="70" rx="4" fill="#F0FFF4" stroke="#5CA46E" stroke-width="1.5"/>
+  <text x="1015" y="492" font-size="12" font-weight="700" fill="#5CA46E">業界事例（法律AI）</text>
+  <text x="1015" y="512" font-size="12" fill="#1A1D24">Harvey：AI活用でタスク完了率 <tspan font-weight="900" fill="#5CA46E">6倍</tspan></text>
+  <text x="1015" y="530" font-size="12" fill="#1A1D24">Wisedocs：文書レビュー時間 <tspan font-weight="900" fill="#5CA46E">50%削減</tspan></text>
+
+  <!-- Microsoft survey result -->
+  <rect x="670" y="555" width="650" height="52" rx="4" fill="#FFF9C4" stroke="#F5A623" stroke-width="1.5"/>
+  <text x="690" y="575" font-size="13" font-weight="700" fill="#856404">Microsoft 20カ国・2万人調査の最大の発見</text>
+  <text x="690" y="597" font-size="12" fill="#1A1D24">「多くの企業がAI採用後も従業員評価指標・奨励策を変えていない」＝組織変革が技術変革に追いつかない</text>
+
+  <!-- Sticky notes -->
+  <g transform="rotate(-1.5, 170, 680)" filter="url(#stickyShadow)">
+    <rect x="55" y="638" width="222" height="118" rx="3" fill="#FFF9C4" stroke="#1A1D24" stroke-width="1.5"/>
+    <text x="75" y="662" font-size="13" font-weight="700" fill="#1A1D24">🔄 ATMの逆説</text>
+    <text x="75" y="682" font-size="12" fill="#1A1D24">ATMで銀行員は増えた。</text>
+    <text x="75" y="698" font-size="12" fill="#1A1D24">AIで「AIを使うエンジニ</text>
+    <text x="75" y="714" font-size="12" fill="#1A1D24">ア」の需要が増える——</text>
+    <text x="75" y="730" font-size="12" fill="#1A1D24">とは限らない点が今回の違い</text>
+  </g>
+
+  <g transform="rotate(1.0, 390, 680)" filter="url(#stickyShadow)">
+    <rect x="290" y="638" width="222" height="118" rx="3" fill="#EDE0FF" stroke="#1A1D24" stroke-width="1.5"/>
+    <text x="310" y="662" font-size="13" font-weight="700" fill="#1A1D24">📉 ジュニア不足問題</text>
+    <text x="310" y="682" font-size="12" fill="#1A1D24">エントリー職が消えると</text>
+    <text x="310" y="698" font-size="12" fill="#1A1D24">将来の熟練技術者を育て</text>
+    <text x="310" y="714" font-size="12" fill="#1A1D24">る場がなくなる。5〜10</text>
+    <text x="310" y="730" font-size="12" fill="#1A1D24">年後に深刻な不足が来る</text>
+  </g>
+
+  <g transform="rotate(-0.8, 610, 680)" filter="url(#stickyShadow)">
+    <rect x="530" y="638" width="222" height="118" rx="3" fill="#D4F4E8" stroke="#1A1D24" stroke-width="1.5"/>
+    <text x="550" y="662" font-size="13" font-weight="700" fill="#1A1D24">🇯🇵 日本への影響</text>
+    <text x="550" y="682" font-size="12" fill="#1A1D24">KPI「コミット数・バグ</text>
+    <text x="550" y="698" font-size="12" fill="#1A1D24">数」は無意味化。人事制</text>
+    <text x="550" y="714" font-size="12" fill="#1A1D24">度改革が避けられないが</text>
+    <text x="550" y="730" font-size="12" fill="#1A1D24">日本企業の対応は遅れる</text>
+  </g>
+
+  <g transform="rotate(1.3, 840, 680)" filter="url(#stickyShadow)">
+    <rect x="768" y="638" width="222" height="118" rx="3" fill="#FFE0CC" stroke="#1A1D24" stroke-width="1.5"/>
+    <text x="788" y="662" font-size="13" font-weight="700" fill="#1A1D24">💡 "builder" の意味</text>
+    <text x="788" y="682" font-size="12" fill="#1A1D24">Cherny発言は単なる</text>
+    <text x="788" y="698" font-size="12" fill="#1A1D24">言葉遊びでなく、採用・</text>
+    <text x="788" y="714" font-size="12" fill="#1A1D24">評価・教育の再設計を</text>
+    <text x="788" y="730" font-size="12" fill="#1A1D24">企業に突きつけている</text>
+  </g>
+
+  <!-- Industry sector comparison -->
+  <rect x="55" y="774" width="1290" height="248" rx="6" fill="white" stroke="#1A1D24" stroke-width="2" filter="url(#softShadow)"/>
+  <text x="80" y="804" font-size="16" font-weight="700" fill="#1A1D24">業界別AI採用と雇用影響の温度差</text>
+  <line x1="80" y1="810" x2="380" y2="810" stroke="#E8A87C" stroke-width="2"/>
+
+  <!-- Sectors table -->
+  <rect x="80" y="822" width="1250" height="32" rx="3" fill="#F5F5F5" stroke="#D0D0D0" stroke-width="1"/>
+  <text x="100" y="843" font-size="13" font-weight="700" fill="#1A1D24">業界</text>
+  <text x="260" y="843" font-size="13" font-weight="700" fill="#1A1D24">AI採用状況</text>
+  <text x="560" y="843" font-size="13" font-weight="700" fill="#1A1D24">雇用への影響</text>
+  <text x="860" y="843" font-size="13" font-weight="700" fill="#1A1D24">ボトルネック</text>
+  <text x="1120" y="843" font-size="13" font-weight="700" fill="#1A1D24">スピード</text>
+
+  <rect x="80" y="854" width="1250" height="36" rx="0" fill="#E8F5E9" stroke="#E0E0E0" stroke-width="0.5"/>
+  <text x="100" y="877" font-size="12" fill="#1A1D24">ゲーム</text>
+  <text x="260" y="877" font-size="12" fill="#1A1D24">積極的（アセット生成AI）</text>
+  <text x="560" y="877" font-size="12" fill="#E05252">アーティスト大規模リストラ進行中</text>
+  <text x="860" y="877" font-size="12" fill="#1A1D24">品質管理・クリエイティブ判断</text>
+  <text x="1120" y="877" font-size="12" fill="#E05252">🚀 最速</text>
+
+  <rect x="80" y="890" width="1250" height="36" rx="0" fill="white" stroke="#E0E0E0" stroke-width="0.5"/>
+  <text x="100" y="913" font-size="12" fill="#1A1D24">FinTech</text>
+  <text x="260" y="913" font-size="12" fill="#1A1D24">慎重（コンプライアンス重視）</text>
+  <text x="560" y="913" font-size="12" fill="#E8A87C">審査・分析職が変容中</text>
+  <text x="860" y="913" font-size="12" fill="#1A1D24">規制要件・監査可能性</text>
+  <text x="1120" y="913" font-size="12" fill="#E8A87C">🐢 慎重</text>
+
+  <rect x="80" y="926" width="1250" height="36" rx="0" fill="white" stroke="#E0E0E0" stroke-width="0.5"/>
+  <text x="100" y="949" font-size="12" fill="#1A1D24">医療</text>
+  <text x="260" y="949" font-size="12" fill="#1A1D24">試験的導入（Glasswing等）</text>
+  <text x="560" y="949" font-size="12" fill="#5CA46E">医師不足解消・業務補助</text>
+  <text x="860" y="949" font-size="12" fill="#1A1D24">安全性確認・責任の所在</text>
+  <text x="1120" y="949" font-size="12" fill="#5B8DEF">📋 中程度</text>
+
+  <rect x="80" y="962" width="1250" height="36" rx="0" fill="white" stroke="#E0E0E0" stroke-width="0.5"/>
+  <text x="100" y="985" font-size="12" fill="#1A1D24">ソフトウェア開発</text>
+  <text x="260" y="985" font-size="12" fill="#1A1D24">全面的（90%が活用中）</text>
+  <text x="560" y="985" font-size="12" fill="#E8A87C">役割定義の変容・ジュニア縮小</text>
+  <text x="860" y="985" font-size="12" fill="#1A1D24">評価指標の再設計</text>
+  <text x="1120" y="985" font-size="12" fill="#E8A87C">🔄 変容中</text>
+
+  <!-- Footer -->
+  <line x1="55" y1="1032" x2="1345" y2="1032" stroke="#E8E2D3" stroke-width="1"/>
+  <text x="700" y="1046" text-anchor="middle" font-size="12" fill="#9AA0AB" font-style="italic">AI News · 2026-05-10 · AI isn't actually 'taking' your job. Here's what's happening instead — CNN Business</text>
+</svg>

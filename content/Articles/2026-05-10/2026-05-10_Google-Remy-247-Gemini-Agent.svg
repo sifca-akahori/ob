@@ -1,0 +1,251 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1400 1050" font-family="-apple-system, 'Hiragino Sans', 'Yu Gothic', sans-serif">
+  <defs>
+    <pattern id="paperTex" patternUnits="userSpaceOnUse" width="100" height="100">
+      <rect width="100" height="100" fill="#FBF8F1"/>
+      <circle cx="18" cy="25" r="0.4" fill="#C4B389" opacity="0.3"/>
+      <circle cx="63" cy="47" r="0.5" fill="#C4B389" opacity="0.3"/>
+      <circle cx="35" cy="80" r="0.3" fill="#C4B389" opacity="0.3"/>
+      <circle cx="85" cy="12" r="0.4" fill="#C4B389" opacity="0.25"/>
+      <circle cx="52" cy="66" r="0.35" fill="#C4B389" opacity="0.2"/>
+    </pattern>
+    <filter id="stickyShadow">
+      <feGaussianBlur in="SourceAlpha" stdDeviation="3"/>
+      <feOffset dx="2" dy="3" result="offsetblur"/>
+      <feComponentTransfer><feFuncA type="linear" slope="0.25"/></feComponentTransfer>
+      <feMerge><feMergeNode/><feMergeNode in="SourceGraphic"/></feMerge>
+    </filter>
+    <filter id="softShadow">
+      <feGaussianBlur in="SourceAlpha" stdDeviation="2"/>
+      <feOffset dx="1" dy="2" result="offsetblur"/>
+      <feComponentTransfer><feFuncA type="linear" slope="0.18"/></feComponentTransfer>
+      <feMerge><feMergeNode/><feMergeNode in="SourceGraphic"/></feMerge>
+    </filter>
+    <linearGradient id="barBlue" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0%" stop-color="#5B8DEF"/>
+      <stop offset="100%" stop-color="#7BA7F7"/>
+    </linearGradient>
+    <linearGradient id="barGray" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0%" stop-color="#9AA0AB"/>
+      <stop offset="100%" stop-color="#BCC3CC"/>
+    </linearGradient>
+  </defs>
+
+  <!-- Background -->
+  <rect width="1400" height="1050" fill="url(#paperTex)"/>
+  <rect width="1400" height="1050" fill="#FBF8F1" opacity="0.4"/>
+
+  <!-- Binding holes -->
+  <rect x="0" y="0" width="38" height="1050" fill="#E8E2D3" stroke="#D0C9B8" stroke-width="1"/>
+  <circle cx="19" cy="120" r="10" fill="#FBF8F1" stroke="#C4B8A0" stroke-width="1.5"/>
+  <circle cx="19" cy="280" r="10" fill="#FBF8F1" stroke="#C4B8A0" stroke-width="1.5"/>
+  <circle cx="19" cy="440" r="10" fill="#FBF8F1" stroke="#C4B8A0" stroke-width="1.5"/>
+  <circle cx="19" cy="600" r="10" fill="#FBF8F1" stroke="#C4B8A0" stroke-width="1.5"/>
+  <circle cx="19" cy="760" r="10" fill="#FBF8F1" stroke="#C4B8A0" stroke-width="1.5"/>
+  <circle cx="19" cy="920" r="10" fill="#FBF8F1" stroke="#C4B8A0" stroke-width="1.5"/>
+
+  <!-- Category tape top-right -->
+  <g transform="rotate(-3, 1300, 42)">
+    <rect x="1170" y="18" width="200" height="36" rx="3" fill="#5B8DEF" opacity="0.88" stroke="#1A1D24" stroke-width="1.5"/>
+    <text x="1270" y="41" text-anchor="middle" font-size="15" font-weight="700" fill="white">#ビジネス</text>
+  </g>
+
+  <!-- Date badge -->
+  <rect x="55" y="18" width="165" height="34" rx="4" fill="#2F3842" stroke="#1A1D24" stroke-width="1.5"/>
+  <text x="138" y="40" text-anchor="middle" font-size="14" font-weight="600" fill="white">2026-05-10</text>
+
+  <!-- Impact stars -->
+  <text x="260" y="42" font-size="20" fill="#F5A623">⭐⭐⭐</text>
+
+  <!-- Header -->
+  <text x="55" y="90" font-size="36" font-weight="900" fill="#1A1D24">🤖 Google「Remy」：24/7 Gemini AIエージェント</text>
+  <text x="55" y="126" font-size="18" fill="#1A1D24" font-weight="700">購入・送信・予約を自律実行——Google I/O 2026（5/19）前哨戦</text>
+  <text x="55" y="150" font-size="16" fill="#5C6370">AndroidHeadlines / eWeek｜2026-05-10｜#ビジネス #AIエージェント #Gemini</text>
+  <line x1="55" y1="162" x2="1350" y2="162" stroke="#1A1D24" stroke-width="2"/>
+
+  <!-- Hero element: robot/agent icon -->
+  <g transform="translate(1260, 200)">
+    <circle cx="0" cy="0" r="70" fill="#5B8DEF" opacity="0.12" stroke="#5B8DEF" stroke-width="2"/>
+    <text x="0" y="16" text-anchor="middle" font-size="72">🤖</text>
+  </g>
+
+  <!-- Key numbers block -->
+  <rect x="55" y="178" width="860" height="110" rx="6" fill="white" stroke="#1A1D24" stroke-width="2" filter="url(#softShadow)"/>
+  <text x="95" y="212" font-size="13" fill="#5C6370">稼働形態</text>
+  <text x="95" y="255" font-size="42" font-weight="900" fill="#5B8DEF">24/7</text>
+  <text x="95" y="274" font-size="11" fill="#9AA0AB">自律常駐型エージェント</text>
+  <line x1="310" y1="194" x2="310" y2="278" stroke="#E8E2D3" stroke-width="1"/>
+  <text x="340" y="212" font-size="13" fill="#5C6370">連携サービス数</text>
+  <text x="340" y="255" font-size="42" font-weight="900" fill="#1A1D24">10+</text>
+  <text x="340" y="274" font-size="11" fill="#9AA0AB">Gmail/Cal/Drive/WhatsApp/Spotify他</text>
+  <line x1="590" y1="194" x2="590" y2="278" stroke="#E8E2D3" stroke-width="1"/>
+  <text x="620" y="212" font-size="13" fill="#5C6370">発表予定</text>
+  <text x="620" y="250" font-size="34" font-weight="900" fill="#1A1D24">Google I/O</text>
+  <text x="620" y="274" font-size="14" font-weight="700" fill="#5B8DEF">2026年5月19日</text>
+
+  <!-- Agent Capability Flow Diagram -->
+  <rect x="55" y="308" width="560" height="320" rx="6" fill="white" stroke="#1A1D24" stroke-width="2" filter="url(#softShadow)"/>
+  <text x="80" y="338" font-size="16" font-weight="700" fill="#1A1D24">Remyの自律実行フロー</text>
+  <line x1="80" y1="344" x2="350" y2="344" stroke="#5B8DEF" stroke-width="2"/>
+
+  <!-- Flow boxes -->
+  <!-- User -->
+  <rect x="80" y="358" width="120" height="44" rx="6" fill="#5B8DEF" stroke="#1A1D24" stroke-width="1.5"/>
+  <text x="140" y="386" text-anchor="middle" font-size="13" font-weight="700" fill="white">👤 ユーザー</text>
+  <!-- Arrow -->
+  <line x1="200" y1="380" x2="240" y2="380" stroke="#1A1D24" stroke-width="2"/>
+  <polygon points="240,374 250,380 240,386" fill="#1A1D24"/>
+  <!-- Remy -->
+  <rect x="250" y="358" width="120" height="44" rx="6" fill="#5B8DEF" stroke="#1A1D24" stroke-width="2"/>
+  <text x="310" y="386" text-anchor="middle" font-size="13" font-weight="700" fill="white">🤖 Remy</text>
+  <!-- Arrow down -->
+  <line x1="310" y1="402" x2="310" y2="440" stroke="#1A1D24" stroke-width="2"/>
+  <polygon points="304,440 310,450 316,440" fill="#1A1D24"/>
+
+  <!-- Action branches -->
+  <text x="80" y="472" font-size="13" font-weight="700" fill="#5B8DEF">自律実行アクション:</text>
+  <rect x="80" y="482" width="115" height="36" rx="4" fill="#EBF0FF" stroke="#5B8DEF" stroke-width="1.5"/>
+  <text x="137" y="506" text-anchor="middle" font-size="12" fill="#1A1D24">📧 メール送信</text>
+  <rect x="210" y="482" width="115" height="36" rx="4" fill="#EBF0FF" stroke="#5B8DEF" stroke-width="1.5"/>
+  <text x="267" y="506" text-anchor="middle" font-size="12" fill="#1A1D24">🛒 購入実行</text>
+  <rect x="340" y="482" width="115" height="36" rx="4" fill="#EBF0FF" stroke="#5B8DEF" stroke-width="1.5"/>
+  <text x="397" y="506" text-anchor="middle" font-size="12" fill="#1A1D24">📅 予定作成</text>
+  <rect x="80" y="530" width="115" height="36" rx="4" fill="#EBF0FF" stroke="#5B8DEF" stroke-width="1.5"/>
+  <text x="137" y="554" text-anchor="middle" font-size="12" fill="#1A1D24">📎 文書共有</text>
+  <rect x="210" y="530" width="115" height="36" rx="4" fill="#EBF0FF" stroke="#5B8DEF" stroke-width="1.5"/>
+  <text x="267" y="554" text-anchor="middle" font-size="12" fill="#1A1D24">🔔 監視・通知</text>
+  <rect x="340" y="530" width="115" height="36" rx="4" fill="#EBF0FF" stroke="#5B8DEF" stroke-width="1.5"/>
+  <text x="397" y="554" text-anchor="middle" font-size="12" fill="#1A1D24">🎵 Spotify操作</text>
+
+  <!-- Status -->
+  <rect x="80" y="580" width="500" height="36" rx="4" fill="#FFF3CD" stroke="#F5A623" stroke-width="1.5"/>
+  <text x="330" y="604" text-anchor="middle" font-size="13" fill="#856404">⚠️ 現状：従業員限定ドッグフード版・公式未発表</text>
+
+  <!-- Competitive landscape -->
+  <rect x="635" y="308" width="710" height="320" rx="6" fill="white" stroke="#1A1D24" stroke-width="2" filter="url(#softShadow)"/>
+  <text x="660" y="338" font-size="16" font-weight="700" fill="#1A1D24">個人AIエージェント競争（2026年）</text>
+  <line x1="660" y1="344" x2="920" y2="344" stroke="#5B8DEF" stroke-width="2"/>
+
+  <!-- Comparison table -->
+  <rect x="660" y="356" width="660" height="36" rx="3" fill="#F0F4FF" stroke="#D0D8F0" stroke-width="1"/>
+  <text x="680" y="379" font-size="13" font-weight="700" fill="#1A1D24">プレイヤー</text>
+  <text x="820" y="379" font-size="13" font-weight="700" fill="#1A1D24">製品名</text>
+  <text x="960" y="379" font-size="13" font-weight="700" fill="#1A1D24">アプローチ</text>
+  <text x="1180" y="379" font-size="13" font-weight="700" fill="#1A1D24">状況</text>
+
+  <!-- Row 1: Google -->
+  <rect x="660" y="392" width="660" height="40" rx="0" fill="#EBF0FF" stroke="#D0D8F0" stroke-width="0.5"/>
+  <text x="680" y="417" font-size="13" font-weight="700" fill="#5B8DEF">Google</text>
+  <text x="820" y="417" font-size="13" fill="#1A1D24">Remy</text>
+  <text x="960" y="417" font-size="12" fill="#1A1D24">Gemini統合・既存OS内</text>
+  <text x="1180" y="417" font-size="12" fill="#5B8DEF">🔬 社内テスト中</text>
+
+  <!-- Row 2: OpenAI -->
+  <rect x="660" y="432" width="660" height="40" rx="0" fill="white" stroke="#D0D8F0" stroke-width="0.5"/>
+  <text x="680" y="457" font-size="13" fill="#1A1D24">OpenAI</text>
+  <text x="820" y="457" font-size="13" fill="#1A1D24">AI Agent Phone</text>
+  <text x="960" y="457" font-size="12" fill="#1A1D24">専用デバイス・アプリレス</text>
+  <text x="1180" y="457" font-size="12" fill="#E8A87C">📱 2027年前半</text>
+
+  <!-- Row 3: Meta -->
+  <rect x="660" y="472" width="660" height="40" rx="0" fill="white" stroke="#D0D8F0" stroke-width="0.5"/>
+  <text x="680" y="497" font-size="13" fill="#1A1D24">Meta</text>
+  <text x="820" y="497" font-size="13" fill="#1A1D24">Hatch</text>
+  <text x="960" y="497" font-size="12" fill="#1A1D24">WhatsApp/IG統合</text>
+  <text x="1180" y="497" font-size="12" fill="#9AA0AB">🔒 未発表</text>
+
+  <!-- Row 4: Apple -->
+  <rect x="660" y="512" width="660" height="40" rx="0" fill="white" stroke="#D0D8F0" stroke-width="0.5"/>
+  <text x="680" y="537" font-size="13" fill="#1A1D24">Apple</text>
+  <text x="820" y="537" font-size="13" fill="#1A1D24">Apple Intelligence+</text>
+  <text x="960" y="537" font-size="12" fill="#1A1D24">iOS/macOS深統合</text>
+  <text x="1180" y="537" font-size="12" fill="#9AA0AB">📋 段階展開中</text>
+
+  <!-- Row 5: Anthropic -->
+  <rect x="660" y="552" width="660" height="40" rx="0" fill="white" stroke="#D0D8F0" stroke-width="0.5"/>
+  <text x="680" y="577" font-size="13" fill="#1A1D24">Anthropic</text>
+  <text x="820" y="577" font-size="13" fill="#1A1D24">Claude Managed Agents</text>
+  <text x="960" y="577" font-size="12" fill="#1A1D24">エンタープライズ特化</text>
+  <text x="1180" y="577" font-size="12" fill="#5CA46E">✅ 展開中</text>
+
+  <text x="660" y="613" font-size="11" fill="#9AA0AB">※個人向けエージェントの本格展開は2026-2027年が決戦</text>
+
+  <!-- Sticky notes row -->
+  <!-- Sticky 1 -->
+  <g transform="rotate(-1.2, 170, 680)" filter="url(#stickyShadow)">
+    <rect x="55" y="648" width="222" height="118" rx="3" fill="#FFF9C4" stroke="#1A1D24" stroke-width="1.5"/>
+    <text x="75" y="674" font-size="13" font-weight="700" fill="#1A1D24">🔑 差別化ポイント</text>
+    <text x="75" y="696" font-size="12" fill="#1A1D24">Googleは既存エコシステム</text>
+    <text x="75" y="712" font-size="12" fill="#1A1D24">（Android・Workspace）が</text>
+    <text x="75" y="728" font-size="12" fill="#1A1D24">最大の武器。配布済み端末</text>
+    <text x="75" y="744" font-size="12" fill="#1A1D24">30億台がRemy基盤になる</text>
+  </g>
+
+  <!-- Sticky 2 -->
+  <g transform="rotate(1.0, 390, 680)" filter="url(#stickyShadow)">
+    <rect x="292" y="648" width="222" height="118" rx="3" fill="#D4F4E8" stroke="#1A1D24" stroke-width="1.5"/>
+    <text x="312" y="674" font-size="13" font-weight="700" fill="#1A1D24">⚖️ 規制リスク</text>
+    <text x="312" y="696" font-size="12" fill="#1A1D24">EU AI Act Annex III</text>
+    <text x="312" y="712" font-size="12" fill="#1A1D24">「購入実行」は高リスク</text>
+    <text x="312" y="728" font-size="12" fill="#1A1D24">AIに分類される可能性。</text>
+    <text x="312" y="744" font-size="12" fill="#1A1D24">欧州展開に壁か</text>
+  </g>
+
+  <!-- Sticky 3 -->
+  <g transform="rotate(-0.5, 610, 680)" filter="url(#stickyShadow)">
+    <rect x="530" y="648" width="222" height="118" rx="3" fill="#FFE0CC" stroke="#1A1D24" stroke-width="1.5"/>
+    <text x="550" y="674" font-size="13" font-weight="700" fill="#1A1D24">📊 市場サイズ</text>
+    <text x="550" y="696" font-size="12" fill="#1A1D24">AIエージェント市場は</text>
+    <text x="550" y="712" font-size="12" fill="#1A1D24">2030年$470B超と予測。</text>
+    <text x="550" y="728" font-size="12" fill="#1A1D24">個人向けが半分以上を</text>
+    <text x="550" y="744" font-size="12" fill="#1A1D24">占める見通し</text>
+  </g>
+
+  <!-- Sticky 4 -->
+  <g transform="rotate(1.5, 840, 680)" filter="url(#stickyShadow)">
+    <rect x="768" y="648" width="222" height="118" rx="3" fill="#EDE0FF" stroke="#1A1D24" stroke-width="1.5"/>
+    <text x="788" y="674" font-size="13" font-weight="700" fill="#1A1D24">🔮 1年後の予測</text>
+    <text x="788" y="696" font-size="12" fill="#1A1D24">2027年Q1には「AIエー</text>
+    <text x="788" y="712" font-size="12" fill="#1A1D24">ジェントが暴走し購入」</text>
+    <text x="788" y="728" font-size="12" fill="#1A1D24">系ニュースが必ず出る。</text>
+    <text x="788" y="744" font-size="12" fill="#1A1D24">信頼設計が生死を分ける</text>
+  </g>
+
+  <!-- App integration visual -->
+  <rect x="55" y="782" width="1290" height="240" rx="6" fill="white" stroke="#1A1D24" stroke-width="2" filter="url(#softShadow)"/>
+  <text x="80" y="812" font-size="16" font-weight="700" fill="#1A1D24">Remy連携アプリ・サービスの全体像</text>
+  <line x1="80" y1="818" x2="380" y2="818" stroke="#5B8DEF" stroke-width="2"/>
+
+  <!-- Google apps -->
+  <text x="80" y="844" font-size="14" font-weight="700" fill="#5B8DEF">Googleファースト</text>
+  <rect x="80" y="854" width="105" height="40" rx="4" fill="#EBF0FF" stroke="#5B8DEF" stroke-width="1.5"/>
+  <text x="132" y="880" text-anchor="middle" font-size="12" fill="#1A1D24">📧 Gmail</text>
+  <rect x="198" y="854" width="105" height="40" rx="4" fill="#EBF0FF" stroke="#5B8DEF" stroke-width="1.5"/>
+  <text x="250" y="880" text-anchor="middle" font-size="12" fill="#1A1D24">📅 Calendar</text>
+  <rect x="316" y="854" width="105" height="40" rx="4" fill="#EBF0FF" stroke="#5B8DEF" stroke-width="1.5"/>
+  <text x="368" y="880" text-anchor="middle" font-size="12" fill="#1A1D24">📄 Docs</text>
+  <rect x="434" y="854" width="105" height="40" rx="4" fill="#EBF0FF" stroke="#5B8DEF" stroke-width="1.5"/>
+  <text x="486" y="880" text-anchor="middle" font-size="12" fill="#1A1D24">💾 Drive</text>
+  <rect x="552" y="854" width="105" height="40" rx="4" fill="#EBF0FF" stroke="#5B8DEF" stroke-width="1.5"/>
+  <text x="604" y="880" text-anchor="middle" font-size="12" fill="#1A1D24">📝 Keep</text>
+  <rect x="670" y="854" width="105" height="40" rx="4" fill="#EBF0FF" stroke="#5B8DEF" stroke-width="1.5"/>
+  <text x="722" y="880" text-anchor="middle" font-size="12" fill="#1A1D24">✅ Tasks</text>
+
+  <!-- Third party -->
+  <text x="800" y="844" font-size="14" font-weight="700" fill="#E8A87C">サードパーティ連携</text>
+  <rect x="800" y="854" width="105" height="40" rx="4" fill="#FFF0E0" stroke="#E8A87C" stroke-width="1.5"/>
+  <text x="852" y="880" text-anchor="middle" font-size="12" fill="#1A1D24">💬 WhatsApp</text>
+  <rect x="918" y="854" width="105" height="40" rx="4" fill="#FFF0E0" stroke="#E8A87C" stroke-width="1.5"/>
+  <text x="970" y="880" text-anchor="middle" font-size="12" fill="#1A1D24">🐙 GitHub</text>
+  <rect x="1036" y="854" width="105" height="40" rx="4" fill="#FFF0E0" stroke="#E8A87C" stroke-width="1.5"/>
+  <text x="1088" y="880" text-anchor="middle" font-size="12" fill="#1A1D24">🎵 Spotify</text>
+
+  <!-- Key capability banner -->
+  <rect x="80" y="908" width="1240" height="96" rx="4" fill="#F0F4FF" stroke="#5B8DEF" stroke-width="1.5"/>
+  <text x="700" y="940" text-anchor="middle" font-size="15" font-weight="700" fill="#1A1D24">Remyの核心的コンセプト</text>
+  <text x="700" y="964" text-anchor="middle" font-size="14" fill="#5B8DEF">"Not to chat with you. To have it do things for you in the background as a 24/7 digital partner"</text>
+  <text x="700" y="988" text-anchor="middle" font-size="12" fill="#9AA0AB">— Google内部コードに記載された設計思想（未確認・社内文書）</text>
+
+  <!-- Footer -->
+  <line x1="55" y1="1032" x2="1345" y2="1032" stroke="#E8E2D3" stroke-width="1"/>
+  <text x="700" y="1046" text-anchor="middle" font-size="12" fill="#9AA0AB" font-style="italic">AI News · 2026-05-10 · Google Remy: 24/7 Gemini Personal AI Agent</text>
+</svg>
