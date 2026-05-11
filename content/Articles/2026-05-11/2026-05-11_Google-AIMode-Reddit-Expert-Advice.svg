@@ -1,0 +1,177 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1400 1050" font-family="-apple-system, 'Hiragino Sans', 'Yu Gothic', sans-serif">
+  <defs>
+    <pattern id="paper" patternUnits="userSpaceOnUse" width="100" height="100">
+      <rect width="100" height="100" fill="#F8F5EE"/>
+      <circle cx="18" cy="45" r="0.4" fill="#C0A870" opacity="0.3"/>
+      <circle cx="72" cy="22" r="0.5" fill="#C0A870" opacity="0.25"/>
+      <circle cx="50" cy="80" r="0.3" fill="#C0A870" opacity="0.3"/>
+    </pattern>
+    <filter id="shadow">
+      <feGaussianBlur in="SourceAlpha" stdDeviation="3"/>
+      <feOffset dx="2" dy="3"/>
+      <feComponentTransfer><feFuncA type="linear" slope="0.2"/></feComponentTransfer>
+      <feMerge><feMergeNode/><feMergeNode in="SourceGraphic"/></feMerge>
+    </filter>
+    <filter id="softShadow">
+      <feGaussianBlur in="SourceAlpha" stdDeviation="2"/>
+      <feOffset dx="1" dy="2"/>
+      <feComponentTransfer><feFuncA type="linear" slope="0.15"/></feComponentTransfer>
+      <feMerge><feMergeNode/><feMergeNode in="SourceGraphic"/></feMerge>
+    </filter>
+  </defs>
+
+  <rect width="1400" height="1050" fill="url(#paper)"/>
+  <line x1="115" y1="20" x2="115" y2="1030" stroke="#D08080" stroke-width="1.2" opacity="0.4"/>
+  <g fill="#D4C494" opacity="0.5">
+    <circle cx="55" cy="100" r="12"/><circle cx="55" cy="350" r="12"/>
+    <circle cx="55" cy="600" r="12"/><circle cx="55" cy="850" r="12"/><circle cx="55" cy="980" r="12"/>
+  </g>
+  <g fill="#F8F5EE" opacity="0.9">
+    <circle cx="55" cy="100" r="7"/><circle cx="55" cy="350" r="7"/>
+    <circle cx="55" cy="600" r="7"/><circle cx="55" cy="850" r="7"/><circle cx="55" cy="980" r="7"/>
+  </g>
+
+  <rect x="130" y="22" width="200" height="36" rx="6" fill="#2F3842"/>
+  <text x="230" y="46" text-anchor="middle" fill="#F0E8D0" font-size="16" font-weight="700">2026-05-11</text>
+
+  <rect x="1060" y="5" width="240" height="42" rx="5" fill="#E8A87C" transform="rotate(-3, 1180, 26)" filter="url(#softShadow)"/>
+  <text x="1180" y="32" text-anchor="middle" fill="white" font-size="18" font-weight="800" transform="rotate(-3, 1180, 26)">#SNS / 検索</text>
+  <text x="1340" y="50" text-anchor="end" font-size="22">⭐⭐</text>
+
+  <!-- Title -->
+  <text x="140" y="100" font-size="32" font-weight="900" fill="#1A1D24">🔍 Google AI Mode「Expert Advice」：Reddit を専門家扱い</text>
+  <text x="140" y="143" font-size="22" font-weight="700" fill="#D84315">——ピザにボンド推薦AIの再来を危惧・FAQリッチリザルトも同週廃止</text>
+  <rect x="140" y="158" width="900" height="2" fill="#E8A87C" rx="1"/>
+  <text x="140" y="180" font-size="16" fill="#666">TechCrunch / Engadget / NYT  ·  2026-05-06〜11  ·  #Google #Reddit #情報品質 #AI検索</text>
+
+  <!-- Hero: Reddit alien -->
+  <g transform="translate(1230, 125)">
+    <circle cx="0" cy="0" r="65" fill="#FF5722" opacity="0.15" stroke="#FF5722" stroke-width="2"/>
+    <text x="0" y="-10" text-anchor="middle" font-size="55">🤖</text>
+    <text x="0" y="35" text-anchor="middle" font-size="15" font-weight="700" fill="#D84315">Reddit Bot</text>
+    <text x="0" y="53" text-anchor="middle" font-size="12" fill="#888">as "Expert"?</text>
+  </g>
+
+  <!-- Key numbers -->
+  <rect x="140" y="200" width="1180" height="110" rx="10" fill="#FFF3E0" stroke="#E8A87C" stroke-width="2.5" filter="url(#softShadow)"/>
+  <line x1="430" y1="215" x2="430" y2="295" stroke="#E8A87C" stroke-width="1" opacity="0.3"/>
+  <line x1="730" y1="215" x2="730" y2="295" stroke="#E8A87C" stroke-width="1" opacity="0.3"/>
+  <line x1="1030" y1="215" x2="1030" y2="295" stroke="#E8A87C" stroke-width="1" opacity="0.3"/>
+
+  <text x="285" y="265" text-anchor="middle" font-size="46" font-weight="900" fill="#D84315">10%+</text>
+  <text x="285" y="292" text-anchor="middle" font-size="13" fill="#555">AI Overviews 誤答率（NYT分析）</text>
+
+  <text x="580" y="265" text-anchor="middle" font-size="46" font-weight="900" fill="#E65100">90%</text>
+  <text x="580" y="292" text-anchor="middle" font-size="13" fill="#555">AI Overviews 正答率（裏返せば）</text>
+
+  <text x="880" y="265" text-anchor="middle" font-size="44" font-weight="900" fill="#2F3842">廃止</text>
+  <text x="880" y="292" text-anchor="middle" font-size="13" fill="#555">FAQリッチリザルト（同週廃止）</text>
+
+  <text x="1190" y="265" text-anchor="middle" font-size="44" font-weight="900" fill="#E8A87C">炎上中</text>
+  <text x="1190" y="292" text-anchor="middle" font-size="13" fill="#555">HN・X で大量コメント継続</text>
+
+  <!-- What changed -->
+  <text x="140" y="348" font-size="20" font-weight="800" fill="#1A1D24">🔄 何が変わったのか</text>
+  <line x1="140" y1="355" x2="760" y2="355" stroke="#E8A87C" stroke-width="2.5"/>
+
+  <rect x="140" y="365" width="740" height="170" rx="8" fill="white" stroke="#1A1D24" stroke-width="2" filter="url(#softShadow)"/>
+
+  <!-- Before/After -->
+  <rect x="155" y="380" width="340" height="140" rx="6" fill="#E8F4EC" stroke="#5CA46E" stroke-width="1.5"/>
+  <text x="325" y="405" text-anchor="middle" font-size="14" font-weight="800" fill="#1A3D1A">✅ 従来の AI Overviews</text>
+  <text x="325" y="428" text-anchor="middle" font-size="13" fill="#333">公式サイト・メディア記事</text>
+  <text x="325" y="448" text-anchor="middle" font-size="13" fill="#333">学術・専門機関の情報</text>
+  <text x="325" y="468" text-anchor="middle" font-size="13" fill="#333">Wikipedia 等検証済み情報</text>
+  <text x="325" y="488" text-anchor="middle" font-size="13" fill="#333">FAQリッチリザルトと併存</text>
+  <text x="325" y="508" text-anchor="middle" font-size="11" fill="#5CA46E">→ 信頼度高め・誤謬が限定的</text>
+
+  <text x="510" y="462" text-anchor="middle" font-size="28" fill="#D84315">→</text>
+
+  <rect x="520" y="380" width="340" height="140" rx="6" fill="#FFEBEE" stroke="#D32F2F" stroke-width="1.5"/>
+  <text x="690" y="405" text-anchor="middle" font-size="14" font-weight="800" fill="#B71C1C">❗ Expert Advice 追加後</text>
+  <text x="690" y="428" text-anchor="middle" font-size="13" fill="#333">+ Reddit 投稿（任意ユーザー）</text>
+  <text x="690" y="448" text-anchor="middle" font-size="13" fill="#333">+ ソーシャルメディア発言</text>
+  <text x="690" y="468" text-anchor="middle" font-size="13" fill="#333">+ 個人ブログ・WordPress</text>
+  <text x="690" y="488" text-anchor="middle" font-size="13" fill="#333">FAQリッチリザルトは廃止</text>
+  <text x="690" y="508" text-anchor="middle" font-size="11" fill="#D32F2F">→ 皮肉・ジョークを誤認するリスク</text>
+
+  <!-- Failure examples -->
+  <text x="900" y="348" font-size="20" font-weight="800" fill="#1A1D24">❌ 過去の失敗事例</text>
+  <line x1="900" y1="355" x2="1360" y2="355" stroke="#E8A87C" stroke-width="2.5"/>
+  <rect x="900" y="365" width="440" height="170" rx="8" fill="#FFF8F8" stroke="#D32F2F" stroke-width="2" filter="url(#softShadow)"/>
+  <text x="920" y="395" font-size="14" font-weight="700" fill="#D32F2F">🍕 ピザにボンドを塗れ</text>
+  <text x="920" y="413" font-size="12" fill="#555">Reddit のジョーク→「専門アドバイス」として引用</text>
+  <text x="920" y="440" font-size="14" font-weight="700" fill="#D32F2F">🪨 岩を1日1個食べよ</text>
+  <text x="920" y="458" font-size="12" fill="#555">The Onion（風刺サイト）をそのまま引用</text>
+  <text x="920" y="485" font-size="14" font-weight="700" fill="#D32F2F">🏥 医療・法律クエリのリスク</text>
+  <text x="920" y="503" font-size="12" fill="#555">r/medicine のコメント=「医師の意見」と同列に</text>
+  <text x="920" y="520" font-size="12" fill="#555">誤診・誤った法的判断のリスクが現実化する</text>
+
+  <!-- Impact on ecosystem -->
+  <text x="140" y="570" font-size="20" font-weight="800" fill="#1A1D24">🌐 パブリッシャーエコシステムへの影響</text>
+  <line x1="140" y1="577" x2="900" y2="577" stroke="#E8A87C" stroke-width="2.5"/>
+
+  <rect x="140" y="587" width="750" height="120" rx="8" fill="white" stroke="#1A1D24" stroke-width="2" filter="url(#softShadow)"/>
+
+  <rect x="155" y="600" width="220" height="90" rx="6" fill="#FFF3E0" stroke="#E8A87C" stroke-width="1.5"/>
+  <text x="265" y="625" text-anchor="middle" font-size="13" font-weight="700" fill="#E65100">📉 メディア流入減</text>
+  <text x="265" y="645" text-anchor="middle" font-size="12" fill="#555">専門記事への</text>
+  <text x="265" y="661" text-anchor="middle" font-size="12" fill="#555">クリックが激減</text>
+  <text x="265" y="677" text-anchor="middle" font-size="11" fill="#888">FAQリザルト廃止も重なる</text>
+
+  <text x="390" y="647" text-anchor="middle" font-size="22" fill="#E8A87C">→</text>
+
+  <rect x="405" y="600" width="220" height="90" rx="6" fill="#FFF3E0" stroke="#E8A87C" stroke-width="1.5"/>
+  <text x="515" y="625" text-anchor="middle" font-size="13" font-weight="700" fill="#E65100">♻️ データ枯渇</text>
+  <text x="515" y="645" text-anchor="middle" font-size="12" fill="#555">高品質コンテンツが</text>
+  <text x="515" y="661" text-anchor="middle" font-size="12" fill="#555">長期的に減少</text>
+  <text x="515" y="677" text-anchor="middle" font-size="11" fill="#888">「Googleが情報源を枯らす」</text>
+
+  <text x="640" y="647" text-anchor="middle" font-size="22" fill="#E8A87C">→</text>
+
+  <rect x="655" y="600" width="220" height="90" rx="6" fill="#FFEBEE" stroke="#D32F2F" stroke-width="1.5"/>
+  <text x="765" y="625" text-anchor="middle" font-size="13" font-weight="700" fill="#D32F2F">🔄 AI品質低下</text>
+  <text x="765" y="645" text-anchor="middle" font-size="12" fill="#555">学習データの品質が</text>
+  <text x="765" y="661" text-anchor="middle" font-size="12" fill="#555">低下する悪循環</text>
+  <text x="765" y="677" text-anchor="middle" font-size="11" fill="#888">自己破壊的エコシステム</text>
+
+  <!-- Reddit's interest -->
+  <rect x="910" y="587" width="430" height="120" rx="8" fill="#E8F4EC" stroke="#5CA46E" stroke-width="2" filter="url(#softShadow)"/>
+  <text x="1125" y="617" text-anchor="middle" font-size="15" font-weight="800" fill="#1A3D1A">🔶 Redditの利害</text>
+  <text x="1125" y="640" text-anchor="middle" font-size="13" fill="#333">2024年 Googleとの検索ライセンス契約</text>
+  <text x="1125" y="660" text-anchor="middle" font-size="13" fill="#333">引用増 → コンテンツ使用料収入増加</text>
+  <text x="1125" y="680" text-anchor="middle" font-size="13" fill="#555">ユーザーが「専門家扱い」に同意？</text>
+  <text x="1125" y="698" text-anchor="middle" font-size="12" fill="#888">GDPR下ではコンテンツ引用同意問題も</text>
+
+  <!-- Sticky notes -->
+  <rect x="140" y="740" width="265" height="115" rx="6" fill="#FFF9C4" stroke="#E0C840" stroke-width="1.5" transform="rotate(-1.5, 272, 797)" filter="url(#shadow)"/>
+  <text x="215" y="766" text-anchor="middle" font-size="12" font-weight="800" fill="#5A4A00" transform="rotate(-1.5, 272, 797)">🧠 根本問題</text>
+  <text x="215" y="783" text-anchor="middle" font-size="11" fill="#5A4A00" transform="rotate(-1.5, 272, 797)">「Redditのせい」は単純化</text>
+  <text x="215" y="799" text-anchor="middle" font-size="11" fill="#5A4A00" transform="rotate(-1.5, 272, 797)">本質はAIが皮肉・ユーモア・</text>
+  <text x="215" y="815" text-anchor="middle" font-size="11" fill="#5A4A00" transform="rotate(-1.5, 272, 797)">文脈を識別できないこと</text>
+  <text x="215" y="835" text-anchor="middle" font-size="11" fill="#5A4A00" transform="rotate(-1.5, 272, 797)">信頼校正の欠如が核心</text>
+
+  <rect x="430" y="740" width="265" height="115" rx="6" fill="#FFCCBC" stroke="#FF7043" stroke-width="1.5" transform="rotate(1.0, 562, 797)" filter="url(#shadow)"/>
+  <text x="507" y="766" text-anchor="middle" font-size="12" font-weight="800" fill="#3D0D00" transform="rotate(1.0, 562, 797)">⚖️ 法的リスク</text>
+  <text x="507" y="783" text-anchor="middle" font-size="11" fill="#3D0D00" transform="rotate(1.0, 562, 797)">医療・法律クエリでの誤回答</text>
+  <text x="507" y="799" text-anchor="middle" font-size="11" fill="#3D0D00" transform="rotate(1.0, 562, 797)">引用情報の検証義務訴訟へ</text>
+  <text x="507" y="815" text-anchor="middle" font-size="11" fill="#3D0D00" transform="rotate(1.0, 562, 797)">「Expert Adviceラベリング」が</text>
+  <text x="507" y="835" text-anchor="middle" font-size="11" fill="#3D0D00" transform="rotate(1.0, 562, 797)">虚偽表示として争点に</text>
+
+  <rect x="720" y="740" width="265" height="115" rx="6" fill="#C8E6C9" stroke="#4CAF50" stroke-width="1.5" transform="rotate(-0.8, 852, 797)" filter="url(#shadow)"/>
+  <text x="797" y="766" text-anchor="middle" font-size="12" font-weight="800" fill="#1A3D1A" transform="rotate(-0.8, 852, 797)">🔵 競合との比較</text>
+  <text x="797" y="783" text-anchor="middle" font-size="11" fill="#1A3D1A" transform="rotate(-0.8, 852, 797)">xAI Grok：X独占リアルタイム</text>
+  <text x="797" y="799" text-anchor="middle" font-size="11" fill="#1A3D1A" transform="rotate(-0.8, 852, 797)">Perplexity：ソーシャル積極活用</text>
+  <text x="797" y="815" text-anchor="middle" font-size="11" fill="#1A3D1A" transform="rotate(-0.8, 852, 797)">Google：横断プラットフォーム収集</text>
+  <text x="797" y="835" text-anchor="middle" font-size="11" fill="#1A3D1A" transform="rotate(-0.8, 852, 797)">「情報キュレーション」競争が本格化</text>
+
+  <rect x="1010" y="740" width="320" height="115" rx="6" fill="#E1BEE7" stroke="#9C27B0" stroke-width="1.5" transform="rotate(1.2, 1170, 797)" filter="url(#shadow)"/>
+  <text x="1087" y="766" text-anchor="middle" font-size="12" font-weight="800" fill="#2D003D" transform="rotate(1.2, 1170, 797)">📅 下半期予測</text>
+  <text x="1087" y="783" text-anchor="middle" font-size="11" fill="#2D003D" transform="rotate(1.2, 1170, 797)">誤回答が増えればRedditが</text>
+  <text x="1087" y="799" text-anchor="middle" font-size="11" fill="#2D003D" transform="rotate(1.2, 1170, 797)">「スケープゴート」にされる</text>
+  <text x="1087" y="815" text-anchor="middle" font-size="11" fill="#2D003D" transform="rotate(1.2, 1170, 797)">AI引用情報の検証義務訴訟発生</text>
+  <text x="1087" y="835" text-anchor="middle" font-size="11" fill="#2D003D" transform="rotate(1.2, 1170, 797)">Expert Adviceポリシーが法的試練へ</text>
+
+  <line x1="140" y1="890" x2="1340" y2="890" stroke="#C8BFA0" stroke-width="1"/>
+  <text x="740" y="910" text-anchor="middle" font-size="13" fill="#888" font-style="italic">AI News · 2026-05-11 · Google AI Mode Adds Reddit "Expert Advice" — Controversy Over Information Quality</text>
+</svg>

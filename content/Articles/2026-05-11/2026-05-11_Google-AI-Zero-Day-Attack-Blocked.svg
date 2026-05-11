@@ -1,0 +1,201 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1400 1050" font-family="-apple-system, 'Hiragino Sans', 'Yu Gothic', sans-serif">
+  <defs>
+    <pattern id="paper" patternUnits="userSpaceOnUse" width="100" height="100">
+      <rect width="100" height="100" fill="#F7F4EE"/>
+      <circle cx="25" cy="35" r="0.4" fill="#B0A48A" opacity="0.3"/>
+      <circle cx="70" cy="80" r="0.5" fill="#B0A48A" opacity="0.25"/>
+      <circle cx="55" cy="15" r="0.3" fill="#B0A48A" opacity="0.3"/>
+    </pattern>
+    <filter id="shadow" x="-10%" y="-10%" width="130%" height="130%">
+      <feGaussianBlur in="SourceAlpha" stdDeviation="3"/>
+      <feOffset dx="2" dy="3"/>
+      <feComponentTransfer><feFuncA type="linear" slope="0.2"/></feComponentTransfer>
+      <feMerge><feMergeNode/><feMergeNode in="SourceGraphic"/></feMerge>
+    </filter>
+    <filter id="softShadow">
+      <feGaussianBlur in="SourceAlpha" stdDeviation="2"/>
+      <feOffset dx="1" dy="2"/>
+      <feComponentTransfer><feFuncA type="linear" slope="0.15"/></feComponentTransfer>
+      <feMerge><feMergeNode/><feMergeNode in="SourceGraphic"/></feMerge>
+    </filter>
+    <linearGradient id="redGrad" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0%" stop-color="#D32F2F"/>
+      <stop offset="100%" stop-color="#E57373"/>
+    </linearGradient>
+    <linearGradient id="blueGrad" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0%" stop-color="#5B8DEF"/>
+      <stop offset="100%" stop-color="#7BAFF5"/>
+    </linearGradient>
+  </defs>
+
+  <rect width="1400" height="1050" fill="url(#paper)"/>
+  <line x1="115" y1="20" x2="115" y2="1030" stroke="#D08080" stroke-width="1.2" opacity="0.4"/>
+  <g fill="#D4C494" opacity="0.5">
+    <circle cx="55" cy="100" r="12"/><circle cx="55" cy="350" r="12"/>
+    <circle cx="55" cy="600" r="12"/><circle cx="55" cy="850" r="12"/>
+    <circle cx="55" cy="980" r="12"/>
+  </g>
+  <g fill="#F7F4EE" opacity="0.9">
+    <circle cx="55" cy="100" r="7"/><circle cx="55" cy="350" r="7"/>
+    <circle cx="55" cy="600" r="7"/><circle cx="55" cy="850" r="7"/>
+    <circle cx="55" cy="980" r="7"/>
+  </g>
+
+  <!-- Date badge -->
+  <rect x="130" y="22" width="200" height="36" rx="6" fill="#2F3842"/>
+  <text x="230" y="46" text-anchor="middle" fill="#F0E8D0" font-size="16" font-weight="700">2026-05-11</text>
+
+  <!-- Category tape - research -->
+  <rect x="1060" y="5" width="240" height="42" rx="5" fill="#5B8DEF" transform="rotate(-3, 1180, 26)" filter="url(#softShadow)"/>
+  <text x="1180" y="32" text-anchor="middle" fill="white" font-size="18" font-weight="800" transform="rotate(-3, 1180, 26)">#研究 / セキュリティ</text>
+
+  <!-- Impact -->
+  <text x="1340" y="50" text-anchor="end" font-size="22">⭐⭐⭐</text>
+
+  <!-- Title -->
+  <text x="140" y="105" font-size="36" font-weight="900" fill="#1A1D24">🛡️ Google、AI生成ゼロデイ攻撃を世界初ブロック</text>
+  <text x="140" y="148" font-size="26" font-weight="700" fill="#C62828">——「マス・エクスプロイテーション・イベント」の寸前で阻止</text>
+  <rect x="140" y="160" width="900" height="2" fill="#5B8DEF" rx="1"/>
+  <text x="140" y="182" font-size="16" fill="#666">Google Threat Intelligence / Bloomberg  ·  2026-05-11  ·  #ゼロデイ #AIサイバー攻撃</text>
+
+  <!-- Hero: shield icon -->
+  <g transform="translate(1230, 130)">
+    <polygon points="0,-70 60,-40 60,30 0,70 -60,30 -60,-40" fill="#E8F0FE" stroke="#5B8DEF" stroke-width="3"/>
+    <text x="0" y="15" text-anchor="middle" font-size="50">🛡️</text>
+    <text x="0" y="55" text-anchor="middle" font-size="16" font-weight="700" fill="#1A1D24">BLOCKED</text>
+  </g>
+
+  <!-- Key numbers -->
+  <rect x="140" y="200" width="1180" height="110" rx="10" fill="#FFF8F8" stroke="#D32F2F" stroke-width="2.5" filter="url(#softShadow)"/>
+  <line x1="430" y1="215" x2="430" y2="295" stroke="#D32F2F" stroke-width="1" opacity="0.3"/>
+  <line x1="730" y1="215" x2="730" y2="295" stroke="#D32F2F" stroke-width="1" opacity="0.3"/>
+  <line x1="1030" y1="215" x2="1030" y2="295" stroke="#D32F2F" stroke-width="1" opacity="0.3"/>
+
+  <text x="285" y="268" text-anchor="middle" font-size="44" font-weight="900" fill="#D32F2F">世界初</text>
+  <text x="285" y="292" text-anchor="middle" font-size="13" fill="#555">AI生成ゼロデイ攻撃の確認・阻止</text>
+
+  <text x="580" y="268" text-anchor="middle" font-size="44" font-weight="900" fill="#C62828">即日</text>
+  <text x="580" y="292" text-anchor="middle" font-size="13" fill="#555">従来44日→AI化で即日スキャン</text>
+
+  <text x="880" y="268" text-anchor="middle" font-size="44" font-weight="900" fill="#2F3842">OSSツール</text>
+  <text x="880" y="292" text-anchor="middle" font-size="13" fill="#555">広く使われるシステム管理ツールが標的</text>
+
+  <text x="1190" y="268" text-anchor="middle" font-size="44" font-weight="900" fill="#5B8DEF">阻止成功</text>
+  <text x="1190" y="292" text-anchor="middle" font-size="13" fill="#555">大規模被害を未然に防止</text>
+
+  <!-- Attack flow diagram -->
+  <text x="140" y="345" font-size="20" font-weight="800" fill="#1A1D24">🔴 AI生成攻撃のフロー（今回判明した手口）</text>
+  <line x1="140" y1="352" x2="820" y2="352" stroke="#D32F2F" stroke-width="2.5"/>
+
+  <rect x="140" y="362" width="820" height="130" rx="8" fill="white" stroke="#D32F2F" stroke-width="2" filter="url(#softShadow)"/>
+
+  <!-- Attack steps -->
+  <rect x="160" y="378" width="150" height="60" rx="6" fill="#FFEBEE" stroke="#D32F2F" stroke-width="1.5"/>
+  <text x="235" y="403" text-anchor="middle" font-size="12" font-weight="700" fill="#C62828">① AIによる</text>
+  <text x="235" y="420" text-anchor="middle" font-size="12" font-weight="700" fill="#C62828">脆弱性スキャン</text>
+  <text x="235" y="432" text-anchor="middle" font-size="10" fill="#888">OpenClaw等を使用</text>
+
+  <text x="320" y="415" text-anchor="middle" font-size="24" fill="#D32F2F">→</text>
+
+  <rect x="325" y="378" width="150" height="60" rx="6" fill="#FFEBEE" stroke="#D32F2F" stroke-width="1.5"/>
+  <text x="400" y="403" text-anchor="middle" font-size="12" font-weight="700" fill="#C62828">② ゼロデイ</text>
+  <text x="400" y="420" text-anchor="middle" font-size="12" font-weight="700" fill="#C62828">自動特定</text>
+  <text x="400" y="432" text-anchor="middle" font-size="10" fill="#888">未知の脆弱性発見</text>
+
+  <text x="485" y="415" text-anchor="middle" font-size="24" fill="#D32F2F">→</text>
+
+  <rect x="490" y="378" width="150" height="60" rx="6" fill="#FFEBEE" stroke="#D32F2F" stroke-width="1.5"/>
+  <text x="565" y="403" text-anchor="middle" font-size="12" font-weight="700" fill="#C62828">③ エクスプロイト</text>
+  <text x="565" y="420" text-anchor="middle" font-size="12" font-weight="700" fill="#C62828">自動生成</text>
+  <text x="565" y="432" text-anchor="middle" font-size="10" fill="#888">攻撃コード生成</text>
+
+  <text x="650" y="415" text-anchor="middle" font-size="24" fill="#D32F2F">→</text>
+
+  <rect x="655" y="378" width="150" height="60" rx="6" fill="#FFCDD2" stroke="#D32F2F" stroke-width="2"/>
+  <text x="730" y="403" text-anchor="middle" font-size="12" font-weight="700" fill="#C62828">④ 大規模攻撃</text>
+  <text x="730" y="420" text-anchor="middle" font-size="12" font-weight="700" fill="#C62828">（未遂）</text>
+  <text x="730" y="432" text-anchor="middle" font-size="10" fill="#888">Googleが阻止</text>
+
+  <!-- Block arrow showing Google stopped it -->
+  <text x="840" y="415" text-anchor="middle" font-size="36" fill="#5B8DEF">🛡️</text>
+
+  <!-- Speed comparison chart -->
+  <text x="140" y="525" font-size="20" font-weight="800" fill="#1A1D24">⏱️ 脆弱性悪用スピードの変化</text>
+  <line x1="140" y1="532" x2="640" y2="532" stroke="#D32F2F" stroke-width="2.5"/>
+
+  <rect x="140" y="542" width="480" height="160" rx="8" fill="white" stroke="#1A1D24" stroke-width="2" filter="url(#softShadow)"/>
+
+  <!-- Bar: Traditional -->
+  <text x="165" y="572" font-size="13" fill="#555">従来の攻撃（手作業）</text>
+  <rect x="165" y="580" width="400" height="28" rx="4" fill="#E0E0E0" stroke="#1A1D24" stroke-width="1"/>
+  <rect x="165" y="580" width="400" height="28" rx="4" fill="url(#blueGrad)"/>
+  <text x="580" y="599" text-anchor="end" font-size="14" font-weight="700" fill="#1A1D24">平均 44日</text>
+
+  <!-- Bar: AI-assisted -->
+  <text x="165" y="628" font-size="13" fill="#555">AI支援攻撃（今回）</text>
+  <rect x="165" y="636" width="400" height="28" rx="4" fill="#FFCDD2" stroke="#D32F2F" stroke-width="1"/>
+  <rect x="165" y="636" width="40" height="28" rx="4" fill="url(#redGrad)"/>
+  <text x="580" y="655" text-anchor="end" font-size="14" font-weight="700" fill="#D32F2F">即日〜数時間（推定）</text>
+
+  <text x="300" y="690" text-anchor="middle" font-size="13" fill="#888">* 従来CVE悪用44日 → AIで劇的短縮（Google報告より推定）</text>
+
+  <!-- Defense side -->
+  <text x="650" y="525" font-size="20" font-weight="800" fill="#1A1D24">🔵 Google防御側AIの機能</text>
+  <line x1="650" y1="532" x2="1150" y2="532" stroke="#5B8DEF" stroke-width="2.5"/>
+
+  <rect x="650" y="542" width="480" height="160" rx="8" fill="white" stroke="#5B8DEF" stroke-width="2" filter="url(#softShadow)"/>
+  <g>
+    <rect x="670" y="560" width="440" height="32" rx="5" fill="#E8F0FE"/>
+    <text x="680" y="581" font-size="13" fill="#1A1D24">🔍 攻撃者AIの異常スキャンパターンを検知</text>
+    <rect x="670" y="600" width="440" height="32" rx="5" fill="#F8F8F8"/>
+    <text x="680" y="621" font-size="13" fill="#1A1D24">🚫 エクスプロイト試行の即時ブロック</text>
+    <rect x="670" y="640" width="440" height="32" rx="5" fill="#E8F0FE"/>
+    <text x="680" y="661" font-size="13" fill="#1A1D24">📊 攻撃手法の詳細分析・公開（抑止目的）</text>
+    <rect x="670" y="680" width="440" height="16" rx="3" fill="#F8F8F8"/>
+    <text x="680" y="692" font-size="11" fill="#888">「AIが攻撃し、AIが防御する」構図がすでに開始</text>
+  </g>
+
+  <!-- Impact categories -->
+  <text x="1160" y="525" font-size="20" font-weight="800" fill="#1A1D24">🌐 波及影響</text>
+  <line x1="1160" y1="532" x2="1360" y2="532" stroke="#5B8DEF" stroke-width="2.5"/>
+  <rect x="1160" y="542" width="200" height="160" rx="8" fill="#E8F0FE" stroke="#5B8DEF" stroke-width="2"/>
+  <text x="1260" y="575" text-anchor="middle" font-size="13" font-weight="700" fill="#1A1D24">規制加速</text>
+  <text x="1260" y="595" text-anchor="middle" font-size="11" fill="#555">FDA型AI義務審査</text>
+  <text x="1260" y="615" text-anchor="middle" font-size="11" fill="#555">が前進する根拠に</text>
+  <line x1="1175" y1="625" x2="1345" y2="625" stroke="#5B8DEF" stroke-width="1" opacity="0.4"/>
+  <text x="1260" y="648" text-anchor="middle" font-size="13" font-weight="700" fill="#1A1D24">保険再設定</text>
+  <text x="1260" y="668" text-anchor="middle" font-size="11" fill="#555">サイバー保険料に</text>
+  <text x="1260" y="688" text-anchor="middle" font-size="11" fill="#555">「AI攻撃割増」発生</text>
+
+  <!-- Sticky notes -->
+  <rect x="140" y="730" width="270" height="115" rx="6" fill="#FFF9C4" stroke="#E0C840" stroke-width="1.5" transform="rotate(-1.5, 275, 787)" filter="url(#shadow)"/>
+  <text x="210" y="757" text-anchor="middle" font-size="12" font-weight="800" fill="#5A4A00" transform="rotate(-1.5, 275, 787)">🔓 防衛の逆説</text>
+  <text x="210" y="773" text-anchor="middle" font-size="11" fill="#5A4A00" transform="rotate(-1.5, 275, 787)">GoogleがAIで防いだ＝</text>
+  <text x="210" y="789" text-anchor="middle" font-size="11" fill="#5A4A00" transform="rotate(-1.5, 275, 787)">防御AIが先行しているが</text>
+  <text x="210" y="805" text-anchor="middle" font-size="11" fill="#5A4A00" transform="rotate(-1.5, 275, 787)">次の事例も同じとは限らない</text>
+  <text x="210" y="825" text-anchor="middle" font-size="11" fill="#5A4A00" transform="rotate(-1.5, 275, 787)">SIEMへのAIフィード統合が急務</text>
+
+  <rect x="435" y="730" width="270" height="115" rx="6" fill="#FFCCBC" stroke="#FF7043" stroke-width="1.5" transform="rotate(1.0, 570, 787)" filter="url(#shadow)"/>
+  <text x="505" y="757" text-anchor="middle" font-size="12" font-weight="800" fill="#3D0D00" transform="rotate(1.0, 570, 787)">⚖️ 法的問題</text>
+  <text x="505" y="773" text-anchor="middle" font-size="11" fill="#3D0D00" transform="rotate(1.0, 570, 787)">OpenClaw等の開発者責任は？</text>
+  <text x="505" y="789" text-anchor="middle" font-size="11" fill="#3D0D00" transform="rotate(1.0, 570, 787)">EU AI Act対象外の転用利用</text>
+  <text x="505" y="805" text-anchor="middle" font-size="11" fill="#3D0D00" transform="rotate(1.0, 570, 787)">Software Liability法案と絡む</text>
+  <text x="505" y="825" text-anchor="middle" font-size="11" fill="#3D0D00" transform="rotate(1.0, 570, 787)">2026年下半期の立法論争へ</text>
+
+  <rect x="730" y="730" width="270" height="115" rx="6" fill="#C8E6C9" stroke="#4CAF50" stroke-width="1.5" transform="rotate(-0.8, 865, 787)" filter="url(#shadow)"/>
+  <text x="800" y="757" text-anchor="middle" font-size="12" font-weight="800" fill="#1A3D1A" transform="rotate(-0.8, 865, 787)">🔗 Mythos遅延との連鎖</text>
+  <text x="800" y="773" text-anchor="middle" font-size="11" fill="#1A3D1A" transform="rotate(-0.8, 865, 787)">「Mythosより弱いツールでも」</text>
+  <text x="800" y="789" text-anchor="middle" font-size="11" fill="#1A3D1A" transform="rotate(-0.8, 865, 787)">現実の攻撃が成立した</text>
+  <text x="800" y="805" text-anchor="middle" font-size="11" fill="#1A3D1A" transform="rotate(-0.8, 865, 787)">FDA型義務審査の必要性に</text>
+  <text x="800" y="825" text-anchor="middle" font-size="11" fill="#1A3D1A" transform="rotate(-0.8, 865, 787)">新たな根拠が加わった</text>
+
+  <rect x="1025" y="730" width="290" height="115" rx="6" fill="#E1BEE7" stroke="#9C27B0" stroke-width="1.5" transform="rotate(1.2, 1170, 787)" filter="url(#shadow)"/>
+  <text x="1100" y="757" text-anchor="middle" font-size="12" font-weight="800" fill="#2D003D" transform="rotate(1.2, 1170, 787)">📅 2026年下半期予測</text>
+  <text x="1100" y="773" text-anchor="middle" font-size="11" fill="#2D003D" transform="rotate(1.2, 1170, 787)">AI生成ゼロデイ件数が急増</text>
+  <text x="1100" y="789" text-anchor="middle" font-size="11" fill="#2D003D" transform="rotate(1.2, 1170, 787)">サイバー保険の保険料再設定</text>
+  <text x="1100" y="805" text-anchor="middle" font-size="11" fill="#2D003D" transform="rotate(1.2, 1170, 787)">AI攻撃への国際帰責ルール策定</text>
+  <text x="1100" y="825" text-anchor="middle" font-size="11" fill="#2D003D" transform="rotate(1.2, 1170, 787)">Five Eyes ガイダンスが実効化</text>
+
+  <line x1="140" y1="878" x2="1340" y2="878" stroke="#C8BFA0" stroke-width="1"/>
+  <text x="740" y="898" text-anchor="middle" font-size="13" fill="#888" font-style="italic">AI News · 2026-05-11 · Google Thwarts First AI-Generated Zero-Day Exploit — Historic Cybersecurity Event</text>
+</svg>

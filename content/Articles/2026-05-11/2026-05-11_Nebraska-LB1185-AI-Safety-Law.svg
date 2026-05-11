@@ -1,0 +1,183 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1400 1050" font-family="-apple-system, 'Hiragino Sans', 'Yu Gothic', sans-serif">
+  <defs>
+    <pattern id="paper" patternUnits="userSpaceOnUse" width="100" height="100">
+      <rect width="100" height="100" fill="#F6F4F0"/>
+      <circle cx="40" cy="25" r="0.4" fill="#B8A878" opacity="0.3"/>
+      <circle cx="65" cy="72" r="0.5" fill="#B8A878" opacity="0.25"/>
+    </pattern>
+    <filter id="shadow">
+      <feGaussianBlur in="SourceAlpha" stdDeviation="3"/>
+      <feOffset dx="2" dy="3"/>
+      <feComponentTransfer><feFuncA type="linear" slope="0.2"/></feComponentTransfer>
+      <feMerge><feMergeNode/><feMergeNode in="SourceGraphic"/></feMerge>
+    </filter>
+    <filter id="softShadow">
+      <feGaussianBlur in="SourceAlpha" stdDeviation="2"/>
+      <feOffset dx="1" dy="2"/>
+      <feComponentTransfer><feFuncA type="linear" slope="0.15"/></feComponentTransfer>
+      <feMerge><feMergeNode/><feMergeNode in="SourceGraphic"/></feMerge>
+    </filter>
+    <linearGradient id="goldBar" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0%" stop-color="#F9A825"/>
+      <stop offset="100%" stop-color="#FBC02D"/>
+    </linearGradient>
+  </defs>
+
+  <rect width="1400" height="1050" fill="url(#paper)"/>
+  <line x1="115" y1="20" x2="115" y2="1030" stroke="#D08080" stroke-width="1.2" opacity="0.4"/>
+  <g fill="#D4C494" opacity="0.5">
+    <circle cx="55" cy="100" r="12"/><circle cx="55" cy="350" r="12"/>
+    <circle cx="55" cy="600" r="12"/><circle cx="55" cy="850" r="12"/><circle cx="55" cy="980" r="12"/>
+  </g>
+  <g fill="#F6F4F0" opacity="0.9">
+    <circle cx="55" cy="100" r="7"/><circle cx="55" cy="350" r="7"/>
+    <circle cx="55" cy="600" r="7"/><circle cx="55" cy="850" r="7"/><circle cx="55" cy="980" r="7"/>
+  </g>
+
+  <rect x="130" y="22" width="200" height="36" rx="6" fill="#2F3842"/>
+  <text x="230" y="46" text-anchor="middle" fill="#F0E8D0" font-size="16" font-weight="700">2026-05-11</text>
+
+  <rect x="1060" y="5" width="240" height="42" rx="5" fill="#5CA46E" transform="rotate(-3, 1180, 26)" filter="url(#softShadow)"/>
+  <text x="1180" y="32" text-anchor="middle" fill="white" font-size="18" font-weight="800" transform="rotate(-3, 1180, 26)">#ビジネス / 規制</text>
+  <text x="1340" y="50" text-anchor="end" font-size="22">⭐⭐</text>
+
+  <!-- Title -->
+  <text x="140" y="100" font-size="32" font-weight="900" fill="#1A1D24">⚖️ ネブラスカ州「対話型AI安全法」LB 1185 成立</text>
+  <text x="140" y="143" font-size="24" font-weight="700" fill="#2E7D32">——49-0 全会一致でチャットボット安全プロトコルを義務化</text>
+  <rect x="140" y="158" width="900" height="2" fill="#5CA46E" rx="1"/>
+  <text x="140" y="180" font-size="16" fill="#666">Gunderson Dettmer / AI Legislative Update  ·  2026-05-11  ·  #規制 #州法 #チャットボット</text>
+
+  <!-- Hero: scale/gavel icon -->
+  <g transform="translate(1230, 130)">
+    <rect x="-70" y="-65" width="140" height="130" rx="10" fill="#E8F5E9" stroke="#5CA46E" stroke-width="3"/>
+    <text x="0" y="10" text-anchor="middle" font-size="55">⚖️</text>
+    <text x="0" y="48" text-anchor="middle" font-size="13" font-weight="700" fill="#2E7D32">LB 1185</text>
+    <text x="0" y="62" text-anchor="middle" font-size="12" fill="#666">Nebraska Law</text>
+  </g>
+
+  <!-- Key numbers -->
+  <rect x="140" y="198" width="1180" height="115" rx="10" fill="#E8F5E9" stroke="#5CA46E" stroke-width="2.5" filter="url(#softShadow)"/>
+  <line x1="430" y1="213" x2="430" y2="298" stroke="#5CA46E" stroke-width="1" opacity="0.3"/>
+  <line x1="730" y1="213" x2="730" y2="298" stroke="#5CA46E" stroke-width="1" opacity="0.3"/>
+  <line x1="1030" y1="213" x2="1030" y2="298" stroke="#5CA46E" stroke-width="1" opacity="0.3"/>
+
+  <text x="285" y="268" text-anchor="middle" font-size="58" font-weight="900" fill="#2E7D32">49-0</text>
+  <text x="285" y="295" text-anchor="middle" font-size="13" fill="#555">全会一致可決（超党派コンセンサス）</text>
+
+  <text x="580" y="268" text-anchor="middle" font-size="46" font-weight="900" fill="#5CA46E">45州</text>
+  <text x="580" y="295" text-anchor="middle" font-size="13" fill="#555">AI法案提出済み（2026-03時点）</text>
+
+  <text x="880" y="268" text-anchor="middle" font-size="46" font-weight="900" fill="#2F3842">1,561件</text>
+  <text x="880" y="295" text-anchor="middle" font-size="13" fill="#555">AI関連法案（2024年全体を既に超過）</text>
+
+  <text x="1190" y="268" text-anchor="middle" font-size="46" font-weight="900" fill="#5CA46E">成立</text>
+  <text x="1190" y="295" text-anchor="middle" font-size="13" fill="#555">知事Pillen署名（4月17日）</text>
+
+  <!-- Law details -->
+  <text x="140" y="348" font-size="20" font-weight="800" fill="#1A1D24">📋 LB 1185 の主要要件</text>
+  <line x1="140" y1="355" x2="700" y2="355" stroke="#5CA46E" stroke-width="2.5"/>
+
+  <rect x="140" y="365" width="700" height="200" rx="8" fill="white" stroke="#5CA46E" stroke-width="2" filter="url(#softShadow)"/>
+  <!-- Header -->
+  <rect x="140" y="365" width="700" height="35" rx="6" fill="#2F3842"/>
+  <text x="490" y="388" text-anchor="middle" fill="white" font-size="14" font-weight="700">Conversational Artificial Intelligence Safety Act（LB 1185）</text>
+
+  <g>
+    <rect x="155" y="405" width="670" height="32" fill="#F0F8F0"/>
+    <text x="175" y="425" font-size="13" fill="#1A1D24">✅ AIチャットボット事業者に安全プロトコルの実装を義務付け</text>
+    <text x="175" y="458" font-size="13" fill="#1A1D24">✅ 未成年者保護（年齢確認・コンテンツフィルタリング）</text>
+    <rect x="155" y="467" width="670" height="32" fill="#F0F8F0"/>
+    <text x="175" y="487" font-size="13" fill="#1A1D24">✅ 自傷・自殺関連コンテンツの防止プロトコル</text>
+    <text x="175" y="520" font-size="13" fill="#1A1D24">✅ 医療行為の禁止・免許番号等の捏造禁止</text>
+    <rect x="155" y="529" width="670" height="32" fill="#F0F8F0"/>
+    <text x="175" y="549" font-size="13" fill="#1A1D24">📌 農業データプライバシー法に添付される形で可決</text>
+  </g>
+
+  <!-- US state map infographic -->
+  <text x="860" y="348" font-size="20" font-weight="800" fill="#1A1D24">🗺️ 米国AI法案の動向</text>
+  <line x1="860" y1="355" x2="1360" y2="355" stroke="#5CA46E" stroke-width="2.5"/>
+
+  <rect x="860" y="365" width="480" height="200" rx="8" fill="white" stroke="#1A1D24" stroke-width="2" filter="url(#softShadow)"/>
+  <!-- Bar chart: states -->
+  <text x="880" y="400" font-size="14" font-weight="700" fill="#2F3842">AI法案提出州数の推移</text>
+
+  <text x="880" y="430" font-size="13" fill="#555">2024年</text>
+  <rect x="960" y="416" width="320" height="22" rx="3" fill="#E0E0E0"/>
+  <rect x="960" y="416" width="320" height="22" rx="3" fill="#BDBDBD"/>
+  <text x="1295" y="432" text-anchor="end" font-size="13" fill="#666">全体</text>
+
+  <text x="880" y="465" font-size="13" fill="#555">2026年3月時点</text>
+  <rect x="960" y="451" width="380" height="22" rx="3" fill="#E8F5E9"/>
+  <rect x="960" y="451" width="380" height="22" rx="3" fill="url(#goldBar)"/>
+  <text x="1295" y="467" text-anchor="end" font-size="13" font-weight="700" fill="#E65100">1,561件（45州）</text>
+  <text x="1295" y="483" text-anchor="end" font-size="11" fill="#5CA46E">↑ 2024年全体を超過</text>
+
+  <text x="880" y="510" font-size="14" fill="#333">主な成立・施行州（2026年）</text>
+  <text x="880" y="530" font-size="13" fill="#1A1D24">🏛 Nebraska（LB 1185）· Maryland（AI価格法）</text>
+  <text x="880" y="550" font-size="13" fill="#555">⏸ Colorado AI Act（連邦地裁で施行停止中）</text>
+  <text x="880" y="567" font-size="13" fill="#555">📋 California / New York（包括法検討中）</text>
+
+  <!-- Impact matrix -->
+  <text x="140" y="598" font-size="20" font-weight="800" fill="#1A1D24">🎯 「狭い法律」戦略の優位性</text>
+  <line x1="140" y1="605" x2="760" y2="605" stroke="#5CA46E" stroke-width="2.5"/>
+
+  <rect x="140" y="615" width="700" height="115" rx="8" fill="#F9FBF9" stroke="#5CA46E" stroke-width="2" filter="url(#softShadow)"/>
+
+  <rect x="160" y="628" width="200" height="88" rx="6" fill="#E8F5E9" stroke="#5CA46E" stroke-width="1.5"/>
+  <text x="260" y="653" text-anchor="middle" font-size="13" font-weight="700" fill="#2E7D32">産業界の反発少</text>
+  <text x="260" y="671" text-anchor="middle" font-size="11" fill="#555">「安全プロトコル」という</text>
+  <text x="260" y="687" text-anchor="middle" font-size="11" fill="#555">具体的・限定的要求</text>
+  <text x="260" y="703" text-anchor="middle" font-size="11" fill="#555">→ OpenAI/Anthropicも容認</text>
+
+  <rect x="380" y="628" width="200" height="88" rx="6" fill="#E8F5E9" stroke="#5CA46E" stroke-width="1.5"/>
+  <text x="480" y="653" text-anchor="middle" font-size="13" font-weight="700" fill="#2E7D32">合憲性リスク低</text>
+  <text x="480" y="671" text-anchor="middle" font-size="11" fill="#555">Colorado包括法が訴訟で</text>
+  <text x="480" y="687" text-anchor="middle" font-size="11" fill="#555">停止→狭い範囲は回避</text>
+  <text x="480" y="703" text-anchor="middle" font-size="11" fill="#555">→ 連邦プリエンプション受けにくい</text>
+
+  <rect x="600" y="628" width="220" height="88" rx="6" fill="#E8F5E9" stroke="#5CA46E" stroke-width="1.5"/>
+  <text x="710" y="653" text-anchor="middle" font-size="13" font-weight="700" fill="#2E7D32">超党派合意形成</text>
+  <text x="710" y="671" text-anchor="middle" font-size="11" fill="#555">「子供の安全」は</text>
+  <text x="710" y="687" text-anchor="middle" font-size="11" fill="#555">左右を問わない合意軸</text>
+  <text x="710" y="703" text-anchor="middle" font-size="11" fill="#555">→ 49-0 という圧倒的支持</text>
+
+  <!-- Affected companies -->
+  <rect x="860" y="615" width="480" height="115" rx="8" fill="#FFF8E1" stroke="#F9A825" stroke-width="2" filter="url(#softShadow)"/>
+  <text x="1100" y="645" text-anchor="middle" font-size="15" font-weight="800" fill="#E65100">🏢 主な適用対象企業（推定）</text>
+  <text x="1100" y="668" text-anchor="middle" font-size="13" fill="#333">Character.AI · Replika · Snap My AI</text>
+  <text x="1100" y="688" text-anchor="middle" font-size="13" fill="#333">Meta AI（WhatsApp/Messenger）</text>
+  <text x="1100" y="708" text-anchor="middle" font-size="13" fill="#333">Claude / ChatGPT / Gemini（チャット機能）</text>
+  <text x="1100" y="724" text-anchor="middle" font-size="12" fill="#888">→ 全国展開事業者はNE法への対応コスト発生</text>
+
+  <!-- Sticky notes -->
+  <rect x="140" y="760" width="265" height="115" rx="6" fill="#FFF9C4" stroke="#E0C840" stroke-width="1.5" transform="rotate(-1.5, 272, 817)" filter="url(#shadow)"/>
+  <text x="215" y="786" text-anchor="middle" font-size="12" font-weight="800" fill="#5A4A00" transform="rotate(-1.5, 272, 817)">🌊 チャットボット安全法ドミノ</text>
+  <text x="215" y="803" text-anchor="middle" font-size="11" fill="#5A4A00" transform="rotate(-1.5, 272, 817)">NE法がテンプレートになり</text>
+  <text x="215" y="819" text-anchor="middle" font-size="11" fill="#5A4A00" transform="rotate(-1.5, 272, 817)">複数州が同様の法律を模倣</text>
+  <text x="215" y="835" text-anchor="middle" font-size="11" fill="#5A4A00" transform="rotate(-1.5, 272, 817)">年内に10州超が追随か</text>
+  <text x="215" y="855" text-anchor="middle" font-size="11" fill="#5A4A00" transform="rotate(-1.5, 272, 817)">「狭い法律」の国際標準化へ</text>
+
+  <rect x="430" y="760" width="265" height="115" rx="6" fill="#FFCCBC" stroke="#FF7043" stroke-width="1.5" transform="rotate(1.0, 562, 817)" filter="url(#shadow)"/>
+  <text x="507" y="786" text-anchor="middle" font-size="12" font-weight="800" fill="#3D0D00" transform="rotate(1.0, 562, 817)">⚖️ PA v. Character.AI との連動</text>
+  <text x="507" y="803" text-anchor="middle" font-size="11" fill="#3D0D00" transform="rotate(1.0, 562, 817)">「精神科医エミリー」免許番号捏造</text>
+  <text x="507" y="819" text-anchor="middle" font-size="11" fill="#3D0D00" transform="rotate(1.0, 562, 817)">がNE法の最悪ケース実例に</text>
+  <text x="507" y="835" text-anchor="middle" font-size="11" fill="#3D0D00" transform="rotate(1.0, 562, 817)">Character.AI等が最初の試練台に</text>
+  <text x="507" y="855" text-anchor="middle" font-size="11" fill="#3D0D00" transform="rotate(1.0, 562, 817)">刑事責任まで問われる可能性</text>
+
+  <rect x="720" y="760" width="265" height="115" rx="6" fill="#C8E6C9" stroke="#4CAF50" stroke-width="1.5" transform="rotate(-0.7, 852, 817)" filter="url(#shadow)"/>
+  <text x="797" y="786" text-anchor="middle" font-size="12" font-weight="800" fill="#1A3D1A" transform="rotate(-0.7, 852, 817)">🇪🇺 EU AI Act との比較</text>
+  <text x="797" y="803" text-anchor="middle" font-size="11" fill="#1A3D1A" transform="rotate(-0.7, 852, 817)">EU：高リスクAI義務が2027末まで延期</text>
+  <text x="797" y="819" text-anchor="middle" font-size="11" fill="#1A3D1A" transform="rotate(-0.7, 852, 817)">米国州法：先行展開で実質的義務化</text>
+  <text x="797" y="835" text-anchor="middle" font-size="11" fill="#1A3D1A" transform="rotate(-0.7, 852, 817)">「EU遅く・米国州法が速い」逆転現象</text>
+  <text x="797" y="855" text-anchor="middle" font-size="11" fill="#1A3D1A" transform="rotate(-0.7, 852, 817)">日本の金融庁・総務省も参照へ</text>
+
+  <rect x="1010" y="760" width="320" height="115" rx="6" fill="#E1BEE7" stroke="#9C27B0" stroke-width="1.5" transform="rotate(1.2, 1170, 817)" filter="url(#shadow)"/>
+  <text x="1087" y="786" text-anchor="middle" font-size="12" font-weight="800" fill="#2D003D" transform="rotate(1.2, 1170, 817)">📅 下半期予測</text>
+  <text x="1087" y="803" text-anchor="middle" font-size="11" fill="#2D003D" transform="rotate(1.2, 1170, 817)">OECD・ISO「チャットボット安全基準」策定へ</text>
+  <text x="1087" y="819" text-anchor="middle" font-size="11" fill="#2D003D" transform="rotate(1.2, 1170, 817)">AI法コンプライアンス自動化ツール市場急拡大</text>
+  <text x="1087" y="835" text-anchor="middle" font-size="11" fill="#2D003D" transform="rotate(1.2, 1170, 817)">企業の法務にAI法専門家採用が急増</text>
+  <text x="1087" y="855" text-anchor="middle" font-size="11" fill="#2D003D" transform="rotate(1.2, 1170, 817)">LegalTech AIコンプライアンス市場が開花</text>
+
+  <line x1="140" y1="905" x2="1340" y2="905" stroke="#C8BFA0" stroke-width="1"/>
+  <text x="740" y="925" text-anchor="middle" font-size="13" fill="#888" font-style="italic">AI News · 2026-05-11 · Nebraska LB 1185 Conversational AI Safety Act Signed — 49-0 Unanimous</text>
+</svg>

@@ -1,0 +1,190 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1400 1050" font-family="-apple-system, 'Hiragino Sans', 'Yu Gothic', sans-serif">
+  <defs>
+    <pattern id="paper" patternUnits="userSpaceOnUse" width="100" height="100">
+      <rect width="100" height="100" fill="#F5F2EF"/>
+      <circle cx="22" cy="55" r="0.4" fill="#8898B0" opacity="0.3"/>
+      <circle cx="78" cy="20" r="0.5" fill="#8898B0" opacity="0.25"/>
+      <circle cx="45" cy="88" r="0.3" fill="#8898B0" opacity="0.3"/>
+    </pattern>
+    <filter id="shadow">
+      <feGaussianBlur in="SourceAlpha" stdDeviation="3"/>
+      <feOffset dx="2" dy="3"/>
+      <feComponentTransfer><feFuncA type="linear" slope="0.2"/></feComponentTransfer>
+      <feMerge><feMergeNode/><feMergeNode in="SourceGraphic"/></feMerge>
+    </filter>
+    <filter id="softShadow">
+      <feGaussianBlur in="SourceAlpha" stdDeviation="2"/>
+      <feOffset dx="1" dy="2"/>
+      <feComponentTransfer><feFuncA type="linear" slope="0.15"/></feComponentTransfer>
+      <feMerge><feMergeNode/><feMergeNode in="SourceGraphic"/></feMerge>
+    </filter>
+    <linearGradient id="blueBar" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0%" stop-color="#5B8DEF"/>
+      <stop offset="100%" stop-color="#7BAFF5"/>
+    </linearGradient>
+    <linearGradient id="tealBar" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0%" stop-color="#00ACC1"/>
+      <stop offset="100%" stop-color="#26C6DA"/>
+    </linearGradient>
+  </defs>
+
+  <rect width="1400" height="1050" fill="url(#paper)"/>
+  <line x1="115" y1="20" x2="115" y2="1030" stroke="#D08080" stroke-width="1.2" opacity="0.4"/>
+  <g fill="#D4C494" opacity="0.5">
+    <circle cx="55" cy="100" r="12"/><circle cx="55" cy="350" r="12"/>
+    <circle cx="55" cy="600" r="12"/><circle cx="55" cy="850" r="12"/><circle cx="55" cy="980" r="12"/>
+  </g>
+  <g fill="#F5F2EF" opacity="0.9">
+    <circle cx="55" cy="100" r="7"/><circle cx="55" cy="350" r="7"/>
+    <circle cx="55" cy="600" r="7"/><circle cx="55" cy="850" r="7"/><circle cx="55" cy="980" r="7"/>
+  </g>
+
+  <rect x="130" y="22" width="200" height="36" rx="6" fill="#2F3842"/>
+  <text x="230" y="46" text-anchor="middle" fill="#F0E8D0" font-size="16" font-weight="700">2026-05-11</text>
+
+  <rect x="1030" y="5" width="275" height="42" rx="5" fill="#5B8DEF" transform="rotate(-3, 1167, 26)" filter="url(#softShadow)"/>
+  <text x="1167" y="32" text-anchor="middle" fill="white" font-size="17" font-weight="800" transform="rotate(-3, 1167, 26)">#研究 / Google I/Oリーク</text>
+  <text x="1340" y="50" text-anchor="end" font-size="22">⭐⭐⭐</text>
+
+  <!-- Title -->
+  <text x="140" y="100" font-size="34" font-weight="900" fill="#1A1D24">🔮 Gemini 4 Deep Think リーク</text>
+  <text x="140" y="143" font-size="25" font-weight="700" fill="#1A5CBA">ARC-AGI2 84.6% · Codeforces 3455 ELO · 2M+ トークン——Google I/O まで8日</text>
+  <rect x="140" y="158" width="900" height="2" fill="#5B8DEF" rx="1"/>
+  <text x="140" y="180" font-size="16" fill="#666">Android Authority / Saudi Shopper / Voxfor  ·  2026-05-11  ·  #Gemini4 #ARCAGI2 #GoogleIO</text>
+
+  <!-- Hero: rocket/gem icon -->
+  <g transform="translate(1230, 130)">
+    <circle cx="0" cy="0" r="72" fill="#E8F0FE" stroke="#5B8DEF" stroke-width="3"/>
+    <text x="0" y="-15" text-anchor="middle" font-size="48">💎</text>
+    <text x="0" y="30" text-anchor="middle" font-size="16" font-weight="900" fill="#1A5CBA">Gemini 4</text>
+    <text x="0" y="50" text-anchor="middle" font-size="13" fill="#666">Deep Think</text>
+  </g>
+
+  <!-- Key numbers -->
+  <rect x="140" y="198" width="1180" height="115" rx="10" fill="#E8F0FE" stroke="#5B8DEF" stroke-width="2.5" filter="url(#softShadow)"/>
+  <line x1="430" y1="213" x2="430" y2="298" stroke="#5B8DEF" stroke-width="1" opacity="0.3"/>
+  <line x1="730" y1="213" x2="730" y2="298" stroke="#5B8DEF" stroke-width="1" opacity="0.3"/>
+  <line x1="1030" y1="213" x2="1030" y2="298" stroke="#5B8DEF" stroke-width="1" opacity="0.3"/>
+
+  <text x="285" y="268" text-anchor="middle" font-size="58" font-weight="900" fill="#5B8DEF">84.6%</text>
+  <text x="285" y="295" text-anchor="middle" font-size="13" fill="#555">ARC-AGI2（抽象推論ベンチ）</text>
+
+  <text x="580" y="265" text-anchor="middle" font-size="50" font-weight="900" fill="#1A5CBA">3455</text>
+  <text x="580" y="285" text-anchor="middle" font-size="16" fill="#1A5CBA">ELO</text>
+  <text x="580" y="298" text-anchor="middle" font-size="13" fill="#555">Codeforces（世界上位0.2%）</text>
+
+  <text x="880" y="268" text-anchor="middle" font-size="52" font-weight="900" fill="#2F3842">2M+</text>
+  <text x="880" y="295" text-anchor="middle" font-size="13" fill="#555">トークンコンテキスト（全モデル最長タイ）</text>
+
+  <text x="1190" y="268" text-anchor="middle" font-size="46" font-weight="900" fill="#5B8DEF">&lt;300ms</text>
+  <text x="1190" y="295" text-anchor="middle" font-size="13" fill="#555">レイテンシ（最速クラス）</text>
+
+  <!-- ARC-AGI2 comparison chart -->
+  <text x="140" y="350" font-size="20" font-weight="800" fill="#1A1D24">📊 ARC-AGI2 スコア比較（推定）</text>
+  <line x1="140" y1="357" x2="760" y2="357" stroke="#5B8DEF" stroke-width="2.5"/>
+
+  <rect x="140" y="367" width="640" height="220" rx="8" fill="white" stroke="#1A1D24" stroke-width="2" filter="url(#softShadow)"/>
+
+  <!-- Bars -->
+  <text x="165" y="402" font-size="14" fill="#333">Gemini 4 Deep Think（リーク値）</text>
+  <rect x="165" y="410" width="580" height="26" rx="4" fill="#E8E8E8"/>
+  <rect x="165" y="410" width="580" height="26" rx="4" fill="url(#blueBar)"/>
+  <text x="758" y="428" text-anchor="end" font-size="15" font-weight="900" fill="#1A5CBA">84.6%</text>
+  <text x="758" y="445" text-anchor="end" font-size="11" fill="#5B8DEF">★ 公開モデル初の80%超（推定）</text>
+
+  <text x="165" y="463" font-size="14" fill="#333">現行フロンティアモデル最高（公開済）</text>
+  <rect x="165" y="471" width="348" height="26" rx="4" fill="#E8E8E8"/>
+  <rect x="165" y="471" width="348" height="26" rx="4" fill="url(#tealBar)"/>
+  <text x="758" y="490" text-anchor="end" font-size="15" font-weight="700" fill="#00838F">約50%（推定）</text>
+
+  <text x="165" y="515" font-size="14" fill="#333">Claude Mythos（非公開）</text>
+  <rect x="165" y="523" width="290" height="26" rx="4" fill="#E8E8E8"/>
+  <rect x="165" y="523" width="290" height="26" rx="4" fill="#BDBDBD"/>
+  <text x="758" y="542" text-anchor="end" font-size="14" font-weight="700" fill="#666">未公開（推定〜80%）</text>
+
+  <text x="165" y="567" font-size="14" fill="#333">GPT-5.5 Instant（公開）</text>
+  <rect x="165" y="575" width="232" height="26" rx="4" fill="#E8E8E8"/>
+  <rect x="165" y="575" width="232" height="26" rx="4" fill="#BDBDBD" opacity="0.7"/>
+  <text x="758" y="594" text-anchor="end" font-size="14" fill="#888">〜40%（推定）</text>
+
+  <!-- Context comparison -->
+  <text x="800" y="350" font-size="20" font-weight="800" fill="#1A1D24">📐 スペック比較</text>
+  <line x1="800" y1="357" x2="1360" y2="357" stroke="#5B8DEF" stroke-width="2.5"/>
+
+  <rect x="800" y="367" width="550" height="220" rx="8" fill="white" stroke="#5B8DEF" stroke-width="2" filter="url(#softShadow)"/>
+  <!-- Table header -->
+  <rect x="800" y="367" width="550" height="35" rx="6" fill="#2F3842"/>
+  <text x="940" y="389" text-anchor="middle" fill="white" font-size="14" font-weight="700">仕様</text>
+  <text x="1130" y="389" text-anchor="middle" fill="white" font-size="14" font-weight="700">Gemini 4</text>
+  <text x="1310" y="389" text-anchor="middle" fill="white" font-size="14" font-weight="700">GPT-5.4</text>
+  <line x1="1020" y1="367" x2="1020" y2="587" stroke="#E0D8C8" stroke-width="1"/>
+  <line x1="1220" y1="367" x2="1220" y2="587" stroke="#E0D8C8" stroke-width="1"/>
+
+  <rect x="800" y="402" width="550" height="32" fill="#F5F2EF"/>
+  <text x="940" y="422" text-anchor="middle" font-size="13" fill="#333">コンテキスト</text>
+  <text x="1130" y="422" text-anchor="middle" font-size="13" font-weight="700" fill="#5B8DEF">2M+ トークン</text>
+  <text x="1310" y="422" text-anchor="middle" font-size="13" fill="#555">1M トークン</text>
+
+  <text x="940" y="454" text-anchor="middle" font-size="13" fill="#333">レイテンシ</text>
+  <text x="1130" y="454" text-anchor="middle" font-size="13" font-weight="700" fill="#5B8DEF">&lt;300ms</text>
+  <text x="1310" y="454" text-anchor="middle" font-size="13" fill="#555">非公開</text>
+
+  <rect x="800" y="466" width="550" height="32" fill="#F5F2EF"/>
+  <text x="940" y="486" text-anchor="middle" font-size="13" fill="#333">コーディング</text>
+  <text x="1130" y="486" text-anchor="middle" font-size="13" font-weight="700" fill="#5B8DEF">3455 ELO</text>
+  <text x="1310" y="486" text-anchor="middle" font-size="13" fill="#555">OSWorld 75%</text>
+
+  <text x="940" y="518" text-anchor="middle" font-size="13" fill="#333">公開予定</text>
+  <text x="1130" y="518" text-anchor="middle" font-size="13" fill="#555">I/O preview→末〜2027初</text>
+  <text x="1310" y="518" text-anchor="middle" font-size="13" fill="#555">公開済（ChatGPT）</text>
+
+  <rect x="800" y="530" width="550" height="32" fill="#F5F2EF"/>
+  <text x="940" y="550" text-anchor="middle" font-size="13" fill="#333">ステータス</text>
+  <text x="1130" y="550" text-anchor="middle" font-size="13" fill="#FF6F00" font-weight="700">リーク（未確認）</text>
+  <text x="1310" y="550" text-anchor="middle" font-size="13" fill="#555">公式発表済</text>
+
+  <!-- Countdown to I/O -->
+  <rect x="140" y="620" width="420" height="90" rx="10" fill="#E8F0FE" stroke="#5B8DEF" stroke-width="2.5" filter="url(#softShadow)"/>
+  <text x="350" y="658" text-anchor="middle" font-size="16" font-weight="800" fill="#1A5CBA">📅 Google I/O 2026 まで</text>
+  <text x="350" y="690" text-anchor="middle" font-size="48" font-weight="900" fill="#5B8DEF">8日</text>
+  <text x="350" y="710" text-anchor="middle" font-size="14" fill="#888">2026-05-19 Mountain View</text>
+
+  <!-- Expected at I/O -->
+  <rect x="580" y="620" width="460" height="90" rx="8" fill="white" stroke="#1A1D24" stroke-width="2" filter="url(#softShadow)"/>
+  <text x="810" y="650" text-anchor="middle" font-size="15" font-weight="800" fill="#1A1D24">🎯 Google I/O で期待される発表</text>
+  <text x="810" y="672" text-anchor="middle" font-size="13" fill="#333">Gemini 4 正式プレビュー公開</text>
+  <text x="810" y="690" text-anchor="middle" font-size="13" fill="#333">Aluminium OS（AI内蔵デスクトップOS）</text>
+  <text x="810" y="708" text-anchor="middle" font-size="13" fill="#333">Veo 4（次世代AIビデオ生成）</text>
+
+  <!-- Sticky notes -->
+  <rect x="140" y="740" width="265" height="115" rx="6" fill="#FFF9C4" stroke="#E0C840" stroke-width="1.5" transform="rotate(-1.5, 272, 797)" filter="url(#shadow)"/>
+  <text x="215" y="766" text-anchor="middle" font-size="12" font-weight="800" fill="#5A4A00" transform="rotate(-1.5, 272, 797)">⚠️ リーク検証の注意</text>
+  <text x="215" y="783" text-anchor="middle" font-size="11" fill="#5A4A00" transform="rotate(-1.5, 272, 797)">3455 ELOは公式競技に存在しない</text>
+  <text x="215" y="799" text-anchor="middle" font-size="11" fill="#5A4A00" transform="rotate(-1.5, 272, 797)">レベル（合成問題の理論値）</text>
+  <text x="215" y="815" text-anchor="middle" font-size="11" fill="#5A4A00" transform="rotate(-1.5, 272, 797)">独立検証まで懐疑的に評価を</text>
+  <text x="215" y="835" text-anchor="middle" font-size="11" fill="#5A4A00" transform="rotate(-1.5, 272, 797)">マーケ数値リスクあり</text>
+
+  <rect x="430" y="740" width="265" height="115" rx="6" fill="#C8E6C9" stroke="#4CAF50" stroke-width="1.5" transform="rotate(0.8, 562, 797)" filter="url(#shadow)"/>
+  <text x="507" y="766" text-anchor="middle" font-size="12" font-weight="800" fill="#1A3D1A" transform="rotate(0.8, 562, 797)">🎯 Mythos vs Gemini 4</text>
+  <text x="507" y="783" text-anchor="middle" font-size="11" fill="#1A3D1A" transform="rotate(0.8, 562, 797)">Mythos：最強だが非公開</text>
+  <text x="507" y="799" text-anchor="middle" font-size="11" fill="#1A3D1A" transform="rotate(0.8, 562, 797)">Gemini 4：使えるスコアで公開予定</text>
+  <text x="507" y="815" text-anchor="middle" font-size="11" fill="#1A3D1A" transform="rotate(0.8, 562, 797)">エンタープライズ採用でGoogleが優位</text>
+  <text x="507" y="835" text-anchor="middle" font-size="11" fill="#1A3D1A" transform="rotate(0.8, 562, 797)">OpenAIはGPT-6で対抗か</text>
+
+  <rect x="720" y="740" width="265" height="115" rx="6" fill="#FFCCBC" stroke="#FF7043" stroke-width="1.5" transform="rotate(-0.7, 852, 797)" filter="url(#shadow)"/>
+  <text x="797" y="766" text-anchor="middle" font-size="12" font-weight="800" fill="#3D0D00" transform="rotate(-0.7, 852, 797)">💻 Aluminium OS の意味</text>
+  <text x="797" y="783" text-anchor="middle" font-size="11" fill="#3D0D00" transform="rotate(-0.7, 852, 797)">Gemini 4がOS層に統合</text>
+  <text x="797" y="799" text-anchor="middle" font-size="11" fill="#3D0D00" transform="rotate(-0.7, 852, 797)">2Mトークンが常時手元に</text>
+  <text x="797" y="815" text-anchor="middle" font-size="11" fill="#3D0D00" transform="rotate(-0.7, 852, 797)">MacOS Copilot+ に対抗</text>
+  <text x="797" y="835" text-anchor="middle" font-size="11" fill="#3D0D00" transform="rotate(-0.7, 852, 797)">エージェント実用性の真の戦場</text>
+
+  <rect x="1010" y="740" width="320" height="115" rx="6" fill="#E1BEE7" stroke="#9C27B0" stroke-width="1.5" transform="rotate(1.2, 1170, 797)" filter="url(#shadow)"/>
+  <text x="1087" y="766" text-anchor="middle" font-size="12" font-weight="800" fill="#2D003D" transform="rotate(1.2, 1170, 797)">📅 I/O後の連鎖反応</text>
+  <text x="1087" y="783" text-anchor="middle" font-size="11" fill="#2D003D" transform="rotate(1.2, 1170, 797)">LMArena・LiveBenchに即日投入</text>
+  <text x="1087" y="799" text-anchor="middle" font-size="11" fill="#2D003D" transform="rotate(1.2, 1170, 797)">Anthropicが5月中にClaude 5対抗</text>
+  <text x="1087" y="815" text-anchor="middle" font-size="11" fill="#2D003D" transform="rotate(1.2, 1170, 797)">フロンティア競争が5〜6月最激化</text>
+  <text x="1087" y="835" text-anchor="middle" font-size="11" fill="#2D003D" transform="rotate(1.2, 1170, 797)">予測市場：Claude 5が96%確率で登場</text>
+
+  <line x1="140" y1="890" x2="1340" y2="890" stroke="#C8BFA0" stroke-width="1"/>
+  <text x="740" y="910" text-anchor="middle" font-size="13" fill="#888" font-style="italic">AI News · 2026-05-11 · Gemini 4 Deep Think ARC-AGI2 84.6% Leaked Before Google I/O 2026</text>
+</svg>

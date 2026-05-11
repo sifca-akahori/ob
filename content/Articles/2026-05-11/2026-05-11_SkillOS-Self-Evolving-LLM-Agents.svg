@@ -1,0 +1,200 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1400 1050" font-family="-apple-system, 'Hiragino Sans', 'Yu Gothic', sans-serif">
+  <defs>
+    <pattern id="paper" patternUnits="userSpaceOnUse" width="100" height="100">
+      <rect width="100" height="100" fill="#F5F3F0"/>
+      <circle cx="30" cy="65" r="0.4" fill="#A8A090" opacity="0.3"/>
+      <circle cx="70" cy="30" r="0.5" fill="#A8A090" opacity="0.25"/>
+    </pattern>
+    <filter id="shadow">
+      <feGaussianBlur in="SourceAlpha" stdDeviation="3"/>
+      <feOffset dx="2" dy="3"/>
+      <feComponentTransfer><feFuncA type="linear" slope="0.2"/></feComponentTransfer>
+      <feMerge><feMergeNode/><feMergeNode in="SourceGraphic"/></feMerge>
+    </filter>
+    <filter id="softShadow">
+      <feGaussianBlur in="SourceAlpha" stdDeviation="2"/>
+      <feOffset dx="1" dy="2"/>
+      <feComponentTransfer><feFuncA type="linear" slope="0.15"/></feComponentTransfer>
+      <feMerge><feMergeNode/><feMergeNode in="SourceGraphic"/></feMerge>
+    </filter>
+    <linearGradient id="blueGrad" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0%" stop-color="#5B8DEF"/>
+      <stop offset="100%" stop-color="#7BAFF5"/>
+    </linearGradient>
+    <linearGradient id="greenGrad" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0%" stop-color="#5CA46E"/>
+      <stop offset="100%" stop-color="#7DC28D"/>
+    </linearGradient>
+  </defs>
+
+  <rect width="1400" height="1050" fill="url(#paper)"/>
+  <line x1="115" y1="20" x2="115" y2="1030" stroke="#D08080" stroke-width="1.2" opacity="0.4"/>
+  <g fill="#D4C494" opacity="0.5">
+    <circle cx="55" cy="100" r="12"/><circle cx="55" cy="350" r="12"/>
+    <circle cx="55" cy="600" r="12"/><circle cx="55" cy="850" r="12"/><circle cx="55" cy="980" r="12"/>
+  </g>
+  <g fill="#F5F3F0" opacity="0.9">
+    <circle cx="55" cy="100" r="7"/><circle cx="55" cy="350" r="7"/>
+    <circle cx="55" cy="600" r="7"/><circle cx="55" cy="850" r="7"/><circle cx="55" cy="980" r="7"/>
+  </g>
+
+  <rect x="130" y="22" width="200" height="36" rx="6" fill="#2F3842"/>
+  <text x="230" y="46" text-anchor="middle" fill="#F0E8D0" font-size="16" font-weight="700">2026-05-11</text>
+
+  <rect x="1060" y="5" width="240" height="42" rx="5" fill="#8B7DB8" transform="rotate(-3, 1180, 26)" filter="url(#softShadow)"/>
+  <text x="1180" y="32" text-anchor="middle" fill="white" font-size="18" font-weight="800" transform="rotate(-3, 1180, 26)">#論文 / エージェント</text>
+  <text x="1340" y="50" text-anchor="end" font-size="22">⭐⭐</text>
+
+  <!-- Title -->
+  <text x="140" y="100" font-size="32" font-weight="900" fill="#1A1D24">🧠 SkillOS：LLMエージェントが経験から自律進化</text>
+  <text x="140" y="143" font-size="23" font-weight="700" fill="#4A3A7A">——マルチタスク一貫超過・学習済みスキルが他バックボーンでも汎化</text>
+  <rect x="140" y="158" width="900" height="2" fill="#8B7DB8" rx="1"/>
+  <text x="140" y="180" font-size="16" fill="#666">arXiv 2605.06614 / HF Daily Papers  ·  2026-05-11  ·  #スキル学習 #強化学習 #自律エージェント</text>
+
+  <!-- Hero: brain/agent icon -->
+  <g transform="translate(1230, 130)">
+    <rect x="-70" y="-65" width="140" height="130" rx="12" fill="#EDE9F5" stroke="#8B7DB8" stroke-width="3"/>
+    <text x="0" y="-10" text-anchor="middle" font-size="45">🧠</text>
+    <text x="0" y="32" text-anchor="middle" font-size="13" font-weight="700" fill="#4A3A7A">SkillOS</text>
+    <text x="0" y="50" text-anchor="middle" font-size="11" fill="#666">Self-Evolving Agent</text>
+  </g>
+
+  <!-- Key comparison -->
+  <rect x="140" y="200" width="1180" height="100" rx="10" fill="#F0EDF8" stroke="#8B7DB8" stroke-width="2.5" filter="url(#softShadow)"/>
+  <line x1="565" y1="215" x2="565" y2="285" stroke="#8B7DB8" stroke-width="1" opacity="0.3"/>
+
+  <text x="352" y="248" text-anchor="middle" font-size="18" font-weight="900" fill="#8B7DB8">問題：「一発屋エージェント」</text>
+  <text x="352" y="272" text-anchor="middle" font-size="15" fill="#555">同じミスを繰り返す・スキルを引き継げない</text>
+  <text x="352" y="290" text-anchor="middle" font-size="14" fill="#888">→ LangChain/LlamaIndex の共通課題</text>
+
+  <text x="870" y="248" text-anchor="middle" font-size="18" font-weight="900" fill="#5CA46E">解決：経験ドリブンRLでスキル自動キュレーション</text>
+  <text x="870" y="272" text-anchor="middle" font-size="15" fill="#555">過去の経験→再利用可能スキル→SkillRepoに蓄積</text>
+  <text x="870" y="290" text-anchor="middle" font-size="14" fill="#888">→ マルチタスク・異なるLLMで一貫して効果</text>
+
+  <!-- Architecture diagram -->
+  <text x="140" y="340" font-size="20" font-weight="800" fill="#1A1D24">🏗️ SkillOS アーキテクチャ</text>
+  <line x1="140" y1="347" x2="700" y2="347" stroke="#8B7DB8" stroke-width="2.5"/>
+
+  <rect x="140" y="357" width="580" height="220" rx="8" fill="white" stroke="#8B7DB8" stroke-width="2" filter="url(#softShadow)"/>
+
+  <!-- Left: Task input -->
+  <rect x="160" y="375" width="120" height="50" rx="6" fill="#E8F0FE" stroke="#5B8DEF" stroke-width="1.5"/>
+  <text x="220" y="396" text-anchor="middle" font-size="12" font-weight="700" fill="#1A5CBA">タスク入力</text>
+  <text x="220" y="415" text-anchor="middle" font-size="11" fill="#555">（ストリーム）</text>
+
+  <!-- Arrow right -->
+  <text x="295" y="407" text-anchor="middle" font-size="18" fill="#8B7DB8">→</text>
+
+  <!-- Skill Curator (trainable) -->
+  <rect x="315" y="365" width="160" height="75" rx="6" fill="#EDE9F5" stroke="#8B7DB8" stroke-width="2"/>
+  <text x="395" y="388" text-anchor="middle" font-size="12" font-weight="800" fill="#4A3A7A">🎯 Skill Curator</text>
+  <text x="395" y="404" text-anchor="middle" font-size="11" fill="#4A3A7A">（学習可能）</text>
+  <text x="395" y="422" text-anchor="middle" font-size="10" fill="#888">RLで訓練・経験から学ぶ</text>
+
+  <!-- Arrow down from curator to SkillRepo -->
+  <text x="395" y="457" text-anchor="middle" font-size="18" fill="#8B7DB8">↕</text>
+
+  <!-- SkillRepo -->
+  <rect x="315" y="465" width="160" height="55" rx="6" fill="#D8ECD4" stroke="#5CA46E" stroke-width="1.5"/>
+  <text x="395" y="487" text-anchor="middle" font-size="12" font-weight="800" fill="#1A3D1A">📚 SkillRepo</text>
+  <text x="395" y="503" text-anchor="middle" font-size="11" fill="#555">（外部・動的更新）</text>
+
+  <!-- Arrow right from curator to executor -->
+  <text x="495" y="407" text-anchor="middle" font-size="18" fill="#8B7DB8">→</text>
+
+  <!-- Agent Executor (frozen) -->
+  <rect x="510" y="365" width="160" height="75" rx="6" fill="#F3F0F8" stroke="#8B7DB8" stroke-width="1.5"/>
+  <text x="590" y="388" text-anchor="middle" font-size="12" font-weight="800" fill="#4A3A7A">🤖 Agent Executor</text>
+  <text x="590" y="404" text-anchor="middle" font-size="11" fill="#888">（凍結・任意のLLM）</text>
+  <text x="590" y="422" text-anchor="middle" font-size="10" fill="#888">Claude/GPT/Gemini 等</text>
+
+  <!-- Feedback loop -->
+  <text x="395" y="545" text-anchor="middle" font-size="13" fill="#8B7DB8" font-weight="700">↑ 実行ログ→スキル更新フィードバック</text>
+
+  <!-- Performance chart -->
+  <text x="740" y="340" font-size="20" font-weight="800" fill="#1A1D24">📊 性能比較（マルチターンタスク）</text>
+  <line x1="740" y1="347" x2="1360" y2="347" stroke="#8B7DB8" stroke-width="2.5"/>
+
+  <rect x="740" y="357" width="600" height="220" rx="8" fill="white" stroke="#1A1D24" stroke-width="2" filter="url(#softShadow)"/>
+
+  <!-- Bar chart -->
+  <text x="760" y="390" font-size="14" fill="#333">SkillOS（提案手法）</text>
+  <rect x="760" y="398" width="520" height="26" rx="4" fill="#E8E4F0"/>
+  <rect x="760" y="398" width="520" height="26" rx="4" fill="url(#blueGrad)"/>
+  <text x="1294" y="416" text-anchor="end" font-size="14" font-weight="800" fill="#4A3A7A">BEST ✓</text>
+
+  <text x="760" y="443" font-size="14" fill="#333">Memory-based ベースライン</text>
+  <rect x="760" y="451" width="390" height="26" rx="4" fill="#E8E8E8"/>
+  <rect x="760" y="451" width="390" height="26" rx="4" fill="#9E9E9E"/>
+  <text x="1294" y="470" text-anchor="end" font-size="13" fill="#666">-25% vs SkillOS</text>
+
+  <text x="760" y="496" font-size="14" fill="#333">Memory-free ベースライン</text>
+  <rect x="760" y="504" width="268" height="26" rx="4" fill="#E8E8E8"/>
+  <rect x="760" y="504" width="268" height="26" rx="4" fill="#BDBDBD"/>
+  <text x="1294" y="523" text-anchor="end" font-size="13" fill="#888">-48% vs SkillOS</text>
+
+  <text x="760" y="549" font-size="14" fill="#333">異なるバックボーン（汎化テスト）</text>
+  <rect x="760" y="557" width="480" height="26" rx="4" fill="#E8E4F0"/>
+  <rect x="760" y="557" width="480" height="26" rx="4" fill="url(#greenGrad)"/>
+  <text x="1294" y="576" text-anchor="end" font-size="13" font-weight="700" fill="#5CA46E">汎化成功 ✓</text>
+
+  <!-- Key properties -->
+  <text x="140" y="618" font-size="20" font-weight="800" fill="#1A1D24">✨ SkillOS の4つの新しさ</text>
+  <line x1="140" y1="625" x2="800" y2="625" stroke="#8B7DB8" stroke-width="2.5"/>
+
+  <g>
+    <rect x="140" y="635" width="310" height="80" rx="8" fill="#EDE9F5" stroke="#8B7DB8" stroke-width="1.5" filter="url(#softShadow)"/>
+    <text x="295" y="660" text-anchor="middle" font-size="14" font-weight="800" fill="#4A3A7A">① 経験→スキルの内生的生成</text>
+    <text x="295" y="678" text-anchor="middle" font-size="12" fill="#555">外部APIではなく自己蓄積で</text>
+    <text x="295" y="696" text-anchor="middle" font-size="12" fill="#555">スキルを生み出す設計</text>
+
+    <rect x="470" y="635" width="310" height="80" rx="8" fill="#EDE9F5" stroke="#8B7DB8" stroke-width="1.5" filter="url(#softShadow)"/>
+    <text x="625" y="660" text-anchor="middle" font-size="14" font-weight="800" fill="#4A3A7A">② LLM凍結で小コスト学習</text>
+    <text x="625" y="678" text-anchor="middle" font-size="12" fill="#555">ベースモデル不要・キュレーター</text>
+    <text x="625" y="696" text-anchor="middle" font-size="12" fill="#555">のみをRLで学習</text>
+  </g>
+
+  <g>
+    <rect x="830" y="635" width="250" height="80" rx="8" fill="#D8ECD4" stroke="#5CA46E" stroke-width="1.5" filter="url(#softShadow)"/>
+    <text x="955" y="660" text-anchor="middle" font-size="14" font-weight="800" fill="#1A3D1A">③ バックボーン横断汎化</text>
+    <text x="955" y="678" text-anchor="middle" font-size="12" fill="#555">Claude→GPT でも</text>
+    <text x="955" y="696" text-anchor="middle" font-size="12" fill="#555">同じスキルが有効</text>
+
+    <rect x="1100" y="635" width="250" height="80" rx="8" fill="#D8ECD4" stroke="#5CA46E" stroke-width="1.5" filter="url(#softShadow)"/>
+    <text x="1225" y="660" text-anchor="middle" font-size="14" font-weight="800" fill="#1A3D1A">④ 推論・アジェンティック両立</text>
+    <text x="1225" y="678" text-anchor="middle" font-size="12" fill="#555">シングル・マルチターン</text>
+    <text x="1225" y="696" text-anchor="middle" font-size="12" fill="#555">どちらでも効果</text>
+  </g>
+
+  <!-- Sticky notes -->
+  <rect x="140" y="750" width="265" height="115" rx="6" fill="#FFF9C4" stroke="#E0C840" stroke-width="1.5" transform="rotate(-1.5, 272, 807)" filter="url(#shadow)"/>
+  <text x="215" y="776" text-anchor="middle" font-size="12" font-weight="800" fill="#5A4A00" transform="rotate(-1.5, 272, 807)">🔗 Google ADK との接続</text>
+  <text x="215" y="793" text-anchor="middle" font-size="11" fill="#5A4A00" transform="rotate(-1.5, 272, 807)">著者にGoogle Cloud AIが参画</text>
+  <text x="215" y="809" text-anchor="middle" font-size="11" fill="#5A4A00" transform="rotate(-1.5, 272, 807)">ADKのスキル管理理論基盤に</text>
+  <text x="215" y="825" text-anchor="middle" font-size="11" fill="#5A4A00" transform="rotate(-1.5, 272, 807)">なる可能性あり</text>
+  <text x="215" y="845" text-anchor="middle" font-size="11" fill="#5A4A00" transform="rotate(-1.5, 272, 807)">スキルApp Store化の布石</text>
+
+  <rect x="430" y="750" width="265" height="115" rx="6" fill="#C8E6C9" stroke="#4CAF50" stroke-width="1.5" transform="rotate(0.9, 562, 807)" filter="url(#shadow)"/>
+  <text x="507" y="776" text-anchor="middle" font-size="12" font-weight="800" fill="#1A3D1A" transform="rotate(0.9, 562, 807)">💡 npm/pip のAI版</text>
+  <text x="507" y="793" text-anchor="middle" font-size="11" fill="#1A3D1A" transform="rotate(0.9, 562, 807)">バックボーン非依存スキルが</text>
+  <text x="507" y="809" text-anchor="middle" font-size="11" fill="#1A3D1A" transform="rotate(0.9, 562, 807)">「中間言語」として機能</text>
+  <text x="507" y="825" text-anchor="middle" font-size="11" fill="#1A3D1A" transform="rotate(0.9, 562, 807)">Claude→GPTで使い回せる</text>
+  <text x="507" y="845" text-anchor="middle" font-size="11" fill="#1A3D1A" transform="rotate(0.9, 562, 807)">スキルマーケットの萌芽</text>
+
+  <rect x="720" y="750" width="265" height="115" rx="6" fill="#FFCCBC" stroke="#FF7043" stroke-width="1.5" transform="rotate(-0.7, 852, 807)" filter="url(#shadow)"/>
+  <text x="797" y="776" text-anchor="middle" font-size="12" font-weight="800" fill="#3D0D00" transform="rotate(-0.7, 852, 807)">⚠️ 限界と注意点</text>
+  <text x="797" y="793" text-anchor="middle" font-size="11" fill="#3D0D00" transform="rotate(-0.7, 852, 807)">評価の循環（別LLMが判定）</text>
+  <text x="797" y="809" text-anchor="middle" font-size="11" fill="#3D0D00" transform="rotate(-0.7, 852, 807)">スキルドリフト（不良蓄積）</text>
+  <text x="797" y="825" text-anchor="middle" font-size="11" fill="#3D0D00" transform="rotate(-0.7, 852, 807)">スケール時の競合・管理問題</text>
+  <text x="797" y="845" text-anchor="middle" font-size="11" fill="#3D0D00" transform="rotate(-0.7, 852, 807)">概念実証→本番化は追加工学が必要</text>
+
+  <rect x="1010" y="750" width="320" height="115" rx="6" fill="#E1BEE7" stroke="#9C27B0" stroke-width="1.5" transform="rotate(1.2, 1170, 807)" filter="url(#shadow)"/>
+  <text x="1087" y="776" text-anchor="middle" font-size="12" font-weight="800" fill="#2D003D" transform="rotate(1.2, 1170, 807)">📅 下半期の予測</text>
+  <text x="1087" y="793" text-anchor="middle" font-size="11" fill="#2D003D" transform="rotate(1.2, 1170, 807)">Anthropic Dreaming・Prime RLMと</text>
+  <text x="1087" y="809" text-anchor="middle" font-size="11" fill="#2D003D" transform="rotate(1.2, 1170, 807)">同じ方向性＝エージェント学習が主戦場</text>
+  <text x="1087" y="825" text-anchor="middle" font-size="11" fill="#2D003D" transform="rotate(1.2, 1170, 807)">スキル資産のロックイン競争が激化</text>
+  <text x="1087" y="845" text-anchor="middle" font-size="11" fill="#2D003D" transform="rotate(1.2, 1170, 807)">フレームワーク選択＝スキル帰属権問題</text>
+
+  <line x1="140" y1="900" x2="1340" y2="900" stroke="#C8BFA0" stroke-width="1"/>
+  <text x="740" y="920" text-anchor="middle" font-size="13" fill="#888" font-style="italic">AI News · 2026-05-11 · SkillOS: Experience-Driven Skill Curation for Self-Evolving LLM Agents (arXiv 2605.06614)</text>
+</svg>

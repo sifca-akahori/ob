@@ -1,0 +1,226 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1400 1050" font-family="-apple-system, 'Hiragino Sans', 'Yu Gothic', sans-serif">
+  <defs>
+    <pattern id="paper" patternUnits="userSpaceOnUse" width="100" height="100">
+      <rect width="100" height="100" fill="#F8F5EE"/>
+      <circle cx="20" cy="30" r="0.4" fill="#C4B89A" opacity="0.3"/>
+      <circle cx="60" cy="70" r="0.5" fill="#C4B89A" opacity="0.25"/>
+      <circle cx="80" cy="20" r="0.3" fill="#C4B89A" opacity="0.3"/>
+      <circle cx="40" cy="85" r="0.4" fill="#C4B89A" opacity="0.2"/>
+    </pattern>
+    <filter id="shadow" x="-10%" y="-10%" width="130%" height="130%">
+      <feGaussianBlur in="SourceAlpha" stdDeviation="3"/>
+      <feOffset dx="2" dy="3"/>
+      <feComponentTransfer><feFuncA type="linear" slope="0.2"/></feComponentTransfer>
+      <feMerge><feMergeNode/><feMergeNode in="SourceGraphic"/></feMerge>
+    </filter>
+    <filter id="softShadow" x="-10%" y="-10%" width="130%" height="130%">
+      <feGaussianBlur in="SourceAlpha" stdDeviation="2"/>
+      <feOffset dx="1" dy="2"/>
+      <feComponentTransfer><feFuncA type="linear" slope="0.15"/></feComponentTransfer>
+      <feMerge><feMergeNode/><feMergeNode in="SourceGraphic"/></feMerge>
+    </filter>
+    <linearGradient id="greenAccent" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0%" stop-color="#5CA46E"/>
+      <stop offset="100%" stop-color="#3D8B52"/>
+    </linearGradient>
+    <linearGradient id="barA" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0%" stop-color="#5CA46E"/>
+      <stop offset="100%" stop-color="#7DC28D"/>
+    </linearGradient>
+    <linearGradient id="barB" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0%" stop-color="#B0C8B8"/>
+      <stop offset="100%" stop-color="#C8DAD0"/>
+    </linearGradient>
+  </defs>
+
+  <!-- Background -->
+  <rect width="1400" height="1050" fill="url(#paper)"/>
+
+  <!-- Ruled lines -->
+  <g opacity="0.1" stroke="#8B7A5A" stroke-width="0.6">
+    <line x1="80" y1="195" x2="1330" y2="195"/>
+    <line x1="80" y1="235" x2="1330" y2="235"/>
+    <line x1="80" y1="275" x2="1330" y2="275"/>
+  </g>
+
+  <!-- Left margin line -->
+  <line x1="115" y1="20" x2="115" y2="1030" stroke="#D08080" stroke-width="1.2" opacity="0.4"/>
+
+  <!-- Binding holes -->
+  <g fill="#D4C494" opacity="0.5">
+    <circle cx="55" cy="100" r="12"/>
+    <circle cx="55" cy="350" r="12"/>
+    <circle cx="55" cy="600" r="12"/>
+    <circle cx="55" cy="850" r="12"/>
+    <circle cx="55" cy="980" r="12"/>
+  </g>
+  <g fill="#F8F5EE" opacity="0.9">
+    <circle cx="55" cy="100" r="7"/>
+    <circle cx="55" cy="350" r="7"/>
+    <circle cx="55" cy="600" r="7"/>
+    <circle cx="55" cy="850" r="7"/>
+    <circle cx="55" cy="980" r="7"/>
+  </g>
+
+  <!-- Date badge -->
+  <rect x="130" y="22" width="200" height="36" rx="6" fill="#2F3842"/>
+  <text x="230" y="46" text-anchor="middle" fill="#F0E8D0" font-size="16" font-weight="700">2026-05-11</text>
+
+  <!-- Category tape -->
+  <rect x="1080" y="5" width="220" height="42" rx="5" fill="#5CA46E" transform="rotate(-3, 1190, 26)" filter="url(#softShadow)"/>
+  <text x="1190" y="32" text-anchor="middle" fill="white" font-size="18" font-weight="800" transform="rotate(-3, 1190, 26)">#ビジネス</text>
+
+  <!-- Impact stars -->
+  <text x="1340" y="50" text-anchor="end" font-size="22">⭐⭐⭐</text>
+
+  <!-- Main title -->
+  <text x="140" y="105" font-size="38" font-weight="900" fill="#1A1D24">🏭 OpenAI Deployment Company 正式始動</text>
+  <text x="140" y="148" font-size="28" font-weight="700" fill="#2F3842">＋Tomoro買収：$40億・19社・150名FDEでエンタープライズAIを工業化</text>
+
+  <!-- Subline -->
+  <rect x="140" y="160" width="900" height="2" fill="#5CA46E" rx="1"/>
+  <text x="140" y="182" font-size="16" fill="#666">OpenAI / Bloomberg  ·  2026-05-11  ·  #エンタープライズ #JV #M&amp;A</text>
+
+  <!-- Hero icon - factory/building -->
+  <g transform="translate(1190, 130)">
+    <rect x="-70" y="-60" width="140" height="120" rx="8" fill="#F0EBE0" stroke="#1A1D24" stroke-width="2.5"/>
+    <rect x="-55" y="-40" width="30" height="40" rx="2" fill="white" stroke="#1A1D24" stroke-width="1.5"/>
+    <rect x="-10" y="-40" width="30" height="40" rx="2" fill="white" stroke="#1A1D24" stroke-width="1.5"/>
+    <rect x="25" y="-40" width="30" height="40" rx="2" fill="white" stroke="#1A1D24" stroke-width="1.5"/>
+    <rect x="-55" y="10" width="110" height="50" rx="2" fill="white" stroke="#1A1D24" stroke-width="1.5"/>
+    <rect x="-70" y="-70" width="140" height="15" rx="3" fill="#5CA46E" stroke="#1A1D24" stroke-width="2"/>
+    <text x="0" y="-57" text-anchor="middle" fill="white" font-size="11" font-weight="700">DeployCo</text>
+    <text x="0" y="43" text-anchor="middle" font-size="22">⚙️</text>
+  </g>
+
+  <!-- Big numbers block -->
+  <rect x="140" y="200" width="1180" height="110" rx="10" fill="#F0EBE0" stroke="#1A1D24" stroke-width="2.5" filter="url(#softShadow)"/>
+  <line x1="440" y1="215" x2="440" y2="295" stroke="#1A1D24" stroke-width="1.5" opacity="0.3"/>
+  <line x1="740" y1="215" x2="740" y2="295" stroke="#1A1D24" stroke-width="1.5" opacity="0.3"/>
+  <line x1="1040" y1="215" x2="1040" y2="295" stroke="#1A1D24" stroke-width="1.5" opacity="0.3"/>
+
+  <text x="290" y="265" text-anchor="middle" font-size="52" font-weight="900" fill="#5CA46E">$40億</text>
+  <text x="290" y="292" text-anchor="middle" font-size="14" fill="#555">初期出資額</text>
+
+  <text x="590" y="265" text-anchor="middle" font-size="52" font-weight="900" fill="#2F3842">19社</text>
+  <text x="590" y="292" text-anchor="middle" font-size="14" fill="#555">投資家・パートナー</text>
+
+  <text x="890" y="265" text-anchor="middle" font-size="52" font-weight="900" fill="#2F3842">150名</text>
+  <text x="890" y="292" text-anchor="middle" font-size="14" fill="#555">FDE（前日即確保）</text>
+
+  <text x="1190" y="265" text-anchor="middle" font-size="52" font-weight="900" fill="#5CA46E">2,000社+</text>
+  <text x="1190" y="292" text-anchor="middle" font-size="14" fill="#555">PE傘下企業（展開対象）</text>
+
+  <!-- Partner breakdown -->
+  <text x="140" y="345" font-size="20" font-weight="800" fill="#1A1D24">🤝 パートナー構成</text>
+  <line x1="140" y1="352" x2="700" y2="352" stroke="#5CA46E" stroke-width="2.5"/>
+
+  <!-- Partner cards row 1 -->
+  <rect x="140" y="360" width="320" height="90" rx="8" fill="#E8F4EC" stroke="#5CA46E" stroke-width="2" filter="url(#softShadow)"/>
+  <text x="300" y="390" text-anchor="middle" font-size="13" font-weight="800" fill="#1A1D24">🏆 リード投資家</text>
+  <text x="300" y="412" text-anchor="middle" font-size="14" fill="#2F3842">TPG（リード）</text>
+  <text x="300" y="432" text-anchor="middle" font-size="12" fill="#555">Advent · Bain Capital · Brookfield（共同）</text>
+
+  <rect x="480" y="360" width="320" height="90" rx="8" fill="#E8F4EC" stroke="#5CA46E" stroke-width="2" filter="url(#softShadow)"/>
+  <text x="640" y="390" text-anchor="middle" font-size="13" font-weight="800" fill="#1A1D24">💼 PE・VCファンド</text>
+  <text x="640" y="412" text-anchor="middle" font-size="12" fill="#2F3842">Goldman Sachs · SoftBank Corp.</text>
+  <text x="640" y="432" text-anchor="middle" font-size="12" fill="#555">Warburg Pincus · WCAS · BBVA ほか</text>
+
+  <rect x="820" y="360" width="320" height="90" rx="8" fill="#D4ECD9" stroke="#5CA46E" stroke-width="2.5" filter="url(#softShadow)"/>
+  <text x="980" y="390" text-anchor="middle" font-size="13" font-weight="800" fill="#1A1D24">🏢 コンサル・SI</text>
+  <text x="980" y="412" text-anchor="middle" font-size="14" fill="#2F3842" font-weight="700">McKinsey · Bain&amp;Co · Capgemini</text>
+  <text x="980" y="432" text-anchor="middle" font-size="12" fill="#555">戦略〜実装を一気通貫でカバー</text>
+
+  <rect x="1160" y="360" width="300" height="90" rx="8" fill="#F8F5EE" stroke="#1A1D24" stroke-width="2" filter="url(#softShadow)"/>
+  <text x="1310" y="390" text-anchor="middle" font-size="13" font-weight="800" fill="#1A1D24">🏴󠁧󠁢󠁳󠁣󠁴󠁿 Tomoro買収</text>
+  <text x="1310" y="412" text-anchor="middle" font-size="12" fill="#2F3842">エジンバラ/ロンドン発・2023設立</text>
+  <text x="1310" y="432" text-anchor="middle" font-size="12" fill="#555">150名FDE即確保</text>
+
+  <!-- Main chart: vs Anthropic JV comparison -->
+  <text x="140" y="490" font-size="20" font-weight="800" fill="#1A1D24">📊 OpenAI DeployCo vs Anthropic JV 比較</text>
+  <line x1="140" y1="497" x2="820" y2="497" stroke="#5CA46E" stroke-width="2.5"/>
+
+  <rect x="140" y="505" width="760" height="200" rx="8" fill="white" stroke="#1A1D24" stroke-width="2" filter="url(#softShadow)"/>
+  <!-- Header row -->
+  <rect x="140" y="505" width="760" height="35" rx="6" fill="#2F3842"/>
+  <text x="280" y="528" text-anchor="middle" fill="white" font-size="14" font-weight="700">項目</text>
+  <text x="580" y="528" text-anchor="middle" fill="white" font-size="14" font-weight="700">OpenAI DeployCo</text>
+  <text x="800" y="528" text-anchor="middle" fill="white" font-size="14" font-weight="700">Anthropic JV</text>
+  <line x1="440" y1="505" x2="440" y2="705" stroke="#E0D8C8" stroke-width="1"/>
+  <line x1="680" y1="505" x2="680" y2="705" stroke="#E0D8C8" stroke-width="1"/>
+  <!-- Rows -->
+  <rect x="140" y="540" width="760" height="32" fill="#F5F2EC"/>
+  <text x="290" y="561" text-anchor="middle" font-size="13" fill="#333">規模</text>
+  <text x="580" y="561" text-anchor="middle" font-size="13" font-weight="700" fill="#5CA46E">$40億・19社・2,000社超展開</text>
+  <text x="800" y="561" text-anchor="middle" font-size="13" fill="#555">$15億・少数精鋭常駐</text>
+
+  <text x="290" y="593" text-anchor="middle" font-size="13" fill="#333">戦略</text>
+  <text x="580" y="593" text-anchor="middle" font-size="13" fill="#333">広く・浅く・PE経由展開</text>
+  <text x="800" y="593" text-anchor="middle" font-size="13" fill="#333">深く・密着・常駐型</text>
+
+  <rect x="140" y="604" width="760" height="32" fill="#F5F2EC"/>
+  <text x="290" y="625" text-anchor="middle" font-size="13" fill="#333">コンサル提携</text>
+  <text x="580" y="625" text-anchor="middle" font-size="13" font-weight="700" fill="#5CA46E">McKinsey・Bain&amp;Co・Capgemini</text>
+  <text x="800" y="625" text-anchor="middle" font-size="13" fill="#555">Blackstone・Goldman（金融系）</text>
+
+  <text x="290" y="657" text-anchor="middle" font-size="13" fill="#333">FDE体制</text>
+  <text x="580" y="657" text-anchor="middle" font-size="13" font-weight="700" fill="#5CA46E">Tomoro買収で即150名</text>
+  <text x="800" y="657" text-anchor="middle" font-size="13" fill="#555">段階採用中</text>
+
+  <rect x="140" y="668" width="760" height="32" fill="#F5F2EC"/>
+  <text x="290" y="689" text-anchor="middle" font-size="13" fill="#333">収益モデル</text>
+  <text x="580" y="689" text-anchor="middle" font-size="13" fill="#333">プロジェクト型（AI EPC）</text>
+  <text x="800" y="689" text-anchor="middle" font-size="13" fill="#333">エンジニア常駐型</text>
+
+  <!-- Flow diagram: DeployCo model -->
+  <text x="940" y="490" font-size="20" font-weight="800" fill="#1A1D24">🔄 DeployCo 実装フロー</text>
+  <line x1="940" y1="497" x2="1340" y2="497" stroke="#5CA46E" stroke-width="2.5"/>
+
+  <rect x="940" y="510" width="380" height="195" rx="8" fill="white" stroke="#1A1D24" stroke-width="2" filter="url(#softShadow)"/>
+  <!-- Step boxes -->
+  <rect x="960" y="525" width="340" height="38" rx="6" fill="#E8F4EC" stroke="#5CA46E" stroke-width="1.5"/>
+  <text x="1130" y="549" text-anchor="middle" font-size="14" font-weight="700" fill="#1A1D24">① 課題特定（McKinsey・Bain&amp;Co）</text>
+
+  <text x="1130" y="580" text-anchor="middle" font-size="18" fill="#5CA46E">↓</text>
+
+  <rect x="960" y="585" width="340" height="38" rx="6" fill="#E8F4EC" stroke="#5CA46E" stroke-width="1.5"/>
+  <text x="1130" y="609" text-anchor="middle" font-size="14" font-weight="700" fill="#1A1D24">② ワークフロー再設計（FDE 150名）</text>
+
+  <text x="1130" y="640" text-anchor="middle" font-size="18" fill="#5CA46E">↓</text>
+
+  <rect x="960" y="645" width="340" height="38" rx="6" fill="#D4ECD9" stroke="#5CA46E" stroke-width="2"/>
+  <text x="1130" y="669" text-anchor="middle" font-size="14" font-weight="700" fill="#1A1D24">③ 定着・スケール（Capgemini SI）</text>
+
+  <!-- Sticky notes -->
+  <rect x="140" y="730" width="280" height="120" rx="6" fill="#FFF9C4" stroke="#E0C840" stroke-width="1.5" transform="rotate(-1.2, 280, 790)" filter="url(#shadow)"/>
+  <text x="215" y="760" text-anchor="middle" font-size="13" font-weight="800" fill="#5A4A00" transform="rotate(-1.2, 280, 790)">🔑 McKinsey参画の意味</text>
+  <text x="215" y="778" text-anchor="middle" font-size="11" fill="#5A4A00" transform="rotate(-1.2, 280, 790)">「どのAIを選ぶか」の意思決定に</text>
+  <text x="215" y="794" text-anchor="middle" font-size="11" fill="#5A4A00" transform="rotate(-1.2, 280, 790)">OpenAI寄りのアドバイザーが関与</text>
+  <text x="215" y="810" text-anchor="middle" font-size="11" fill="#5A4A00" transform="rotate(-1.2, 280, 790)">Anthropic・Google陣営と競合</text>
+  <text x="215" y="830" text-anchor="middle" font-size="11" fill="#5A4A00" transform="rotate(-1.2, 280, 790)">中立なコンサルが消滅するリスク</text>
+
+  <rect x="450" y="730" width="280" height="120" rx="6" fill="#C8E6C9" stroke="#4CAF50" stroke-width="1.5" transform="rotate(1.0, 590, 790)" filter="url(#shadow)"/>
+  <text x="525" y="760" text-anchor="middle" font-size="13" font-weight="800" fill="#1A3D1A" transform="rotate(1.0, 590, 790)">💡 Tomoroの意義</text>
+  <text x="525" y="778" text-anchor="middle" font-size="11" fill="#1A3D1A" transform="rotate(1.0, 590, 790)">FDE機能の内製化が完成</text>
+  <text x="525" y="794" text-anchor="middle" font-size="11" fill="#1A3D1A" transform="rotate(1.0, 590, 790)">APAC（SG/Syd/Melb）拠点も獲得</text>
+  <text x="525" y="810" text-anchor="middle" font-size="11" fill="#1A3D1A" transform="rotate(1.0, 590, 790)">Salesforce型の失敗を回避</text>
+  <text x="525" y="830" text-anchor="middle" font-size="11" fill="#1A3D1A" transform="rotate(1.0, 590, 790)">実装品質をOpenAIが直接管理</text>
+
+  <rect x="760" y="730" width="280" height="120" rx="6" fill="#FFCCBC" stroke="#FF7043" stroke-width="1.5" transform="rotate(-0.8, 900, 790)" filter="url(#shadow)"/>
+  <text x="835" y="760" text-anchor="middle" font-size="13" font-weight="800" fill="#3D0D00" transform="rotate(-0.8, 900, 790)">⚠️ リスク</text>
+  <text x="835" y="778" text-anchor="middle" font-size="11" fill="#3D0D00" transform="rotate(-0.8, 900, 790)">PE傘下企業への強制的AI採用懸念</text>
+  <text x="835" y="794" text-anchor="middle" font-size="11" fill="#3D0D00" transform="rotate(-0.8, 900, 790)">収益モデルが不透明（AI EPC型）</text>
+  <text x="835" y="810" text-anchor="middle" font-size="11" fill="#3D0D00" transform="rotate(-0.8, 900, 790)">Tomoro規制承認が数ヶ月かかる</text>
+  <text x="835" y="830" text-anchor="middle" font-size="11" fill="#3D0D00" transform="rotate(-0.8, 900, 790)">中小SIの淘汰が加速する</text>
+
+  <rect x="1070" y="730" width="280" height="120" rx="6" fill="#E1BEE7" stroke="#9C27B0" stroke-width="1.5" transform="rotate(1.3, 1210, 790)" filter="url(#shadow)"/>
+  <text x="1145" y="760" text-anchor="middle" font-size="13" font-weight="800" fill="#2D003D" transform="rotate(1.3, 1210, 790)">📈 半年後の展望</text>
+  <text x="1145" y="778" text-anchor="middle" font-size="11" fill="#2D003D" transform="rotate(1.3, 1210, 790)">エンタープライズAI実装が寡占化</text>
+  <text x="1145" y="794" text-anchor="middle" font-size="11" fill="#2D003D" transform="rotate(1.3, 1210, 790)">OpenAI ARRが$250B→$350B超へ</text>
+  <text x="1145" y="810" text-anchor="middle" font-size="11" fill="#2D003D" transform="rotate(1.3, 1210, 790)">Anthropic JVとの競争が本格化</text>
+  <text x="1145" y="830" text-anchor="middle" font-size="11" fill="#2D003D" transform="rotate(1.3, 1210, 790)">中小SIがいずれかに飲み込まれる</text>
+
+  <!-- Footer -->
+  <line x1="140" y1="878" x2="1340" y2="878" stroke="#C8BFA0" stroke-width="1"/>
+  <text x="740" y="898" text-anchor="middle" font-size="13" fill="#888" font-style="italic">AI News · 2026-05-11 · OpenAI Deployment Company Official Launch &amp; Tomoro Acquisition</text>
+</svg>
