@@ -1,0 +1,218 @@
+<svg viewBox="0 0 1400 1050" xmlns="http://www.w3.org/2000/svg" font-family="-apple-system, 'Hiragino Sans', 'Yu Gothic', sans-serif">
+  <defs>
+    <pattern id="paperTexture" x="0" y="0" width="4" height="4" patternUnits="userSpaceOnUse">
+      <rect width="4" height="4" fill="#FBF8F1"/>
+      <circle cx="1" cy="1" r="0.4" fill="#E8E2D3" opacity="0.5"/>
+      <circle cx="3" cy="3" r="0.3" fill="#E8E2D3" opacity="0.4"/>
+    </pattern>
+    <filter id="softShadow"><feDropShadow dx="2" dy="3" stdDeviation="4" flood-color="#1A1D24" flood-opacity="0.12"/></filter>
+    <filter id="stickyShadow"><feDropShadow dx="3" dy="4" stdDeviation="6" flood-color="#1A1D24" flood-opacity="0.18"/></filter>
+  </defs>
+  <rect width="1400" height="1050" fill="url(#paperTexture)"/>
+  <rect x="0" y="0" width="36" height="1050" fill="#F0EBE2" stroke="#E8E2D3" stroke-width="1"/>
+  <circle cx="18" cy="120" r="10" fill="#FBF8F1" stroke="#D0C9BC" stroke-width="2"/>
+  <circle cx="18" cy="260" r="10" fill="#FBF8F1" stroke="#D0C9BC" stroke-width="2"/>
+  <circle cx="18" cy="400" r="10" fill="#FBF8F1" stroke="#D0C9BC" stroke-width="2"/>
+  <circle cx="18" cy="540" r="10" fill="#FBF8F1" stroke="#D0C9BC" stroke-width="2"/>
+  <circle cx="18" cy="680" r="10" fill="#FBF8F1" stroke="#D0C9BC" stroke-width="2"/>
+  <circle cx="18" cy="820" r="10" fill="#FBF8F1" stroke="#D0C9BC" stroke-width="2"/>
+  <g transform="translate(1260, -8) rotate(3)">
+    <rect x="0" y="0" width="180" height="44" fill="#5B8DEF" stroke="#1A1D24" stroke-width="2" rx="3"/>
+    <text x="90" y="28" text-anchor="middle" font-size="16" font-weight="700" fill="white">#研究</text>
+  </g>
+  <rect x="50" y="22" width="190" height="38" rx="4" fill="#2F3842" filter="url(#softShadow)"/>
+  <text x="145" y="46" text-anchor="middle" font-size="16" font-weight="700" fill="white">2026-05-12 (火)</text>
+  <text x="260" y="50" font-size="22" fill="#F5A623">⭐⭐</text>
+
+  <text x="56" y="102" font-size="36" font-weight="900" fill="#1A1D24">📊 Stanford AI Index 2026：透明性スコア 58→40に急落</text>
+  <text x="56" y="146" font-size="19" font-weight="400" fill="#555">米中性能差が消滅・研究者流入-89%・GenAI普及53%——AIの社会実装フェーズ完全移行を確認</text>
+  <line x1="50" y1="160" x2="1360" y2="160" stroke="#1A1D24" stroke-width="2.5"/>
+
+  <!-- HERO: Book/report icon -->
+  <g transform="translate(1155, 178)" filter="url(#softShadow)">
+    <rect x="15" y="10" width="130" height="165" rx="6" fill="#5B8DEF" stroke="#1A1D24" stroke-width="2.5"/>
+    <rect x="25" y="10" width="14" height="165" rx="4" fill="#4070CC" stroke="#1A1D24" stroke-width="1.5"/>
+    <text x="95" y="70" text-anchor="middle" font-size="14" font-weight="700" fill="white">Stanford</text>
+    <text x="95" y="90" text-anchor="middle" font-size="11" fill="#D0E8FF">HAI</text>
+    <text x="95" y="120" text-anchor="middle" font-size="36" fill="white">AI</text>
+    <text x="95" y="148" text-anchor="middle" font-size="12" fill="#D0E8FF">Index</text>
+    <text x="95" y="165" text-anchor="middle" font-size="14" font-weight="700" fill="#FFE840">2026</text>
+    <!-- Pages effect -->
+    <rect x="150" y="16" width="5" height="153" rx="2" fill="#EEE" stroke="#DDD" stroke-width="1"/>
+    <rect x="156" y="20" width="4" height="145" rx="2" fill="#F5F5F5" stroke="#DDD" stroke-width="1"/>
+  </g>
+
+  <!-- KEY NUMBERS - 4 blocks -->
+  <rect x="50" y="178" width="240" height="128" rx="8" fill="white" stroke="#1A1D24" stroke-width="2.5" filter="url(#softShadow)"/>
+  <rect x="50" y="178" width="8" height="128" rx="4" fill="#E87070"/>
+  <text x="75" y="208" font-size="12" font-weight="700" fill="#555">透明性スコア急落</text>
+  <text x="75" y="248" font-size="40" font-weight="900" fill="#888">58</text>
+  <text x="140" y="240" font-size="28" fill="#888">→</text>
+  <text x="170" y="252" font-size="44" font-weight="900" fill="#E87070">40</text>
+  <text x="75" y="295" font-size="12" fill="#888">Foundation Model Transparency Index</text>
+
+  <rect x="306" y="178" width="240" height="128" rx="8" fill="white" stroke="#1A1D24" stroke-width="2.5" filter="url(#softShadow)"/>
+  <rect x="306" y="178" width="8" height="128" rx="4" fill="#E87070"/>
+  <text x="330" y="208" font-size="12" font-weight="700" fill="#555">AI研究者 米国流入</text>
+  <text x="330" y="260" font-size="50" font-weight="900" fill="#E87070">-89<tspan font-size="26">%</tspan></text>
+  <text x="330" y="295" font-size="12" fill="#888">2017年比（直近1年 -80%）</text>
+
+  <rect x="562" y="178" width="240" height="128" rx="8" fill="white" stroke="#1A1D24" stroke-width="2.5" filter="url(#softShadow)"/>
+  <rect x="562" y="178" width="8" height="128" rx="4" fill="#5B8DEF"/>
+  <text x="586" y="208" font-size="12" font-weight="700" fill="#555">GenAI 消費者採用率</text>
+  <text x="586" y="260" font-size="54" font-weight="900" fill="#5B8DEF">53<tspan font-size="26">%</tspan></text>
+  <text x="586" y="295" font-size="12" fill="#888">3年（PC・INTより速い普及）</text>
+
+  <rect x="818" y="178" width="250" height="128" rx="8" fill="white" stroke="#1A1D24" stroke-width="2.5" filter="url(#softShadow)"/>
+  <rect x="818" y="178" width="8" height="128" rx="4" fill="#5B8DEF"/>
+  <text x="842" y="208" font-size="12" font-weight="700" fill="#555">米国民間AI投資（2025）</text>
+  <text x="842" y="258" font-size="40" font-weight="900" fill="#5B8DEF">$2,859<tspan font-size="20">億</tspan></text>
+  <text x="842" y="292" font-size="12" fill="#888">中国（$124億）の 23倍</text>
+
+  <!-- MAIN VISUAL: Dashboard of key metrics -->
+  <rect x="50" y="330" width="700" height="240" rx="8" fill="white" stroke="#1A1D24" stroke-width="2" filter="url(#softShadow)"/>
+  <text x="70" y="362" font-size="16" font-weight="700" fill="#1A1D24">▌ パフォーマンス vs 透明性 ダッシュボード</text>
+  <line x1="70" y1="372" x2="730" y2="372" stroke="#E8E2D3" stroke-width="1"/>
+
+  <!-- Metric rows -->
+  <text x="80" y="398" font-size="13" font-weight="700" fill="#555">指標</text>
+  <text x="350" y="398" font-size="13" font-weight="700" fill="#555">2025年</text>
+  <text x="500" y="398" font-size="13" font-weight="700" fill="#555">2026年</text>
+  <text x="620" y="398" font-size="13" font-weight="700" fill="#555">方向</text>
+  <line x1="70" y1="404" x2="720" y2="404" stroke="#E8E2D3" stroke-width="1"/>
+
+  <!-- Row 1 -->
+  <rect x="70" y="408" width="640" height="36" rx="3" fill="#F0F9F2"/>
+  <text x="88" y="430" font-size="13" fill="#1A1D24" font-weight="600">SWE-bench Verified スコア</text>
+  <text x="350" y="430" font-size="14" font-weight="700" fill="#888">60%</text>
+  <text x="500" y="430" font-size="14" font-weight="700" fill="#5B8DEF">~100%</text>
+  <text x="625" y="430" font-size="16" fill="#5CA46E">↑↑</text>
+
+  <!-- Row 2 -->
+  <rect x="70" y="448" width="640" height="36" rx="3" fill="#FBF8F1"/>
+  <text x="88" y="470" font-size="13" fill="#1A1D24" font-weight="600">Humanity's Last Exam</text>
+  <text x="350" y="470" font-size="14" font-weight="700" fill="#888">~35%</text>
+  <text x="500" y="470" font-size="14" font-weight="700" fill="#5B8DEF">50%+</text>
+  <text x="625" y="470" font-size="16" fill="#5CA46E">↑</text>
+
+  <!-- Row 3 -->
+  <rect x="70" y="488" width="640" height="36" rx="3" fill="#F0F9F2"/>
+  <text x="88" y="510" font-size="13" fill="#1A1D24" font-weight="600">Transparency Index（平均）</text>
+  <text x="350" y="510" font-size="14" font-weight="700" fill="#5CA46E">58 pts</text>
+  <text x="500" y="510" font-size="14" font-weight="700" fill="#E87070">40 pts</text>
+  <text x="625" y="510" font-size="16" fill="#E87070">↓↓</text>
+
+  <!-- Row 4 -->
+  <rect x="70" y="528" width="640" height="36" rx="3" fill="#FBF8F1"/>
+  <text x="88" y="550" font-size="13" fill="#1A1D24" font-weight="600">企業AI採用率</text>
+  <text x="350" y="550" font-size="14" font-weight="700" fill="#888">72%</text>
+  <text x="500" y="550" font-size="14" font-weight="700" fill="#5B8DEF">88%</text>
+  <text x="625" y="550" font-size="16" fill="#5CA46E">↑</text>
+
+  <rect x="70" y="565" width="640" height="36" rx="3" fill="#F0F9F2"/>
+  <text x="88" y="587" font-size="13" fill="#1A1D24" font-weight="600">米国への外国人研究者流入（前年比）</text>
+  <text x="350" y="587" font-size="14" font-weight="700" fill="#5CA46E">-30%</text>
+  <text x="500" y="587" font-size="14" font-weight="700" fill="#E87070">-80%</text>
+  <text x="625" y="587" font-size="16" fill="#E87070">↓↓↓</text>
+
+  <!-- Right side: US-China competition -->
+  <rect x="766" y="330" width="592" height="240" rx="8" fill="white" stroke="#1A1D24" stroke-width="2" filter="url(#softShadow)"/>
+  <text x="786" y="362" font-size="15" font-weight="700" fill="#1A1D24">▌ 米中AI競争 性能スコア推移（模式図）</text>
+  <line x1="786" y1="372" x2="1340" y2="372" stroke="#E8E2D3" stroke-width="1"/>
+  <!-- Mock chart -->
+  <text x="800" y="406" font-size="12" fill="#888">MMLU-Pro総合ランキング（首位交代の頻度）</text>
+  <!-- US line (wavy) -->
+  <polyline points="800,450 870,430 940,445 1010,425 1080,440 1150,422 1220,435 1300,428" stroke="#5B8DEF" stroke-width="3" fill="none"/>
+  <!-- China line (wavy) -->
+  <polyline points="800,480 870,460 940,448 1010,438 1080,435 1150,430 1220,440 1300,435" stroke="#E87070" stroke-width="3" fill="none"/>
+  <text x="820" y="510" font-size="12" font-weight="700" fill="#5B8DEF">● 米国</text>
+  <text x="820" y="526" font-size="12" font-weight="700" fill="#E87070">● 中国</text>
+  <rect x="886" y="500" width="380" height="50" rx="6" fill="#FFF8E0"/>
+  <text x="1076" y="524" text-anchor="middle" font-size="13" font-weight="700" fill="#7A6800">💡 投資額23倍でも性能差が収束</text>
+  <text x="1076" y="542" text-anchor="middle" font-size="12" fill="#555">→ DeepSeekの効率的訓練が投資格差を部分的に無効化</text>
+
+  <!-- Key consumer value stat -->
+  <rect x="786" y="558" width="536" height="36" rx="4" fill="#EEF4FF"/>
+  <text x="806" y="580" font-size="14" fill="#1A1D24">💰 GenAI消費者価値（米国）: <tspan font-weight="900" fill="#5B8DEF">$1,720億/年</tspan>  ユーザー1人当たり価値認識が<tspan font-weight="900" fill="#5B8DEF">3倍</tspan>に</text>
+
+  <!-- CARDS -->
+  <rect x="50" y="590" width="320" height="148" rx="8" fill="white" stroke="#1A1D24" stroke-width="2" filter="url(#softShadow)"/>
+  <rect x="50" y="590" width="320" height="8" rx="4" fill="#5B8DEF"/>
+  <text x="210" y="624" text-anchor="middle" font-size="14" font-weight="700" fill="#1A1D24">🔓 透明性急落の背景</text>
+  <text x="68" y="646" font-size="13" fill="#444">フロンティアモデルが競争の</text>
+  <text x="68" y="664" font-size="13" fill="#444">核心になり開示が利益損失</text>
+  <text x="68" y="682" font-size="13" fill="#444">に直結するように。EU AI</text>
+  <text x="68" y="700" font-size="13" fill="#444">Act透明性要件と真っ向対立</text>
+  <text x="68" y="718" font-size="12" fill="#888">規制が審査手法を模索中</text>
+
+  <rect x="386" y="590" width="320" height="148" rx="8" fill="white" stroke="#1A1D24" stroke-width="2" filter="url(#softShadow)"/>
+  <rect x="386" y="590" width="320" height="8" rx="4" fill="#E87070"/>
+  <text x="546" y="624" text-anchor="middle" font-size="14" font-weight="700" fill="#1A1D24">🌍 人材流出の代償</text>
+  <text x="404" y="646" font-size="13" fill="#444">ビザ制限・研究費削減で</text>
+  <text x="404" y="664" font-size="13" fill="#444">優秀な研究者がロンドン・</text>
+  <text x="404" y="682" font-size="13" fill="#444">チューリッヒ・シンガポールへ。</text>
+  <text x="404" y="700" font-size="13" fill="#444">5〜10年後の技術力に</text>
+  <text x="404" y="718" font-size="12" fill="#888">黄信号が点灯。</text>
+
+  <rect x="722" y="590" width="320" height="148" rx="8" fill="white" stroke="#1A1D24" stroke-width="2" filter="url(#softShadow)"/>
+  <rect x="722" y="590" width="320" height="8" rx="4" fill="#5B8DEF"/>
+  <text x="882" y="624" text-anchor="middle" font-size="14" font-weight="700" fill="#1A1D24">💼 雇用影響が現実化</text>
+  <text x="740" y="646" font-size="13" fill="#444">SWE-bench ~100%達成で</text>
+  <text x="740" y="664" font-size="13" fill="#444">「中級エンジニア自動化可能」</text>
+  <text x="740" y="682" font-size="13" fill="#444">が技術的に実証。若年層が</text>
+  <text x="740" y="700" font-size="13" fill="#444">先に影響を受けているデータを</text>
+  <text x="740" y="718" font-size="12" fill="#888">Stanford AIが確認。</text>
+
+  <rect x="1058" y="590" width="300" height="148" rx="8" fill="white" stroke="#1A1D24" stroke-width="2" filter="url(#softShadow)"/>
+  <rect x="1058" y="590" width="300" height="8" rx="4" fill="#5B8DEF"/>
+  <text x="1208" y="624" text-anchor="middle" font-size="14" font-weight="700" fill="#1A1D24">📚 大学生80%がGenAI利用</text>
+  <text x="1076" y="646" font-size="13" fill="#444">教育現場での浸透が完了。</text>
+  <text x="1076" y="664" font-size="13" fill="#444">「AIを使う」から</text>
+  <text x="1076" y="682" font-size="13" fill="#444">「AIなしでは完遂できない」</text>
+  <text x="1076" y="700" font-size="13" fill="#444">という段階への移行を</text>
+  <text x="1076" y="718" font-size="12" fill="#888">示す数値。</text>
+
+  <!-- STICKY NOTES -->
+  <g transform="translate(58, 756) rotate(-1.2)" filter="url(#stickyShadow)">
+    <rect x="0" y="0" width="175" height="108" rx="3" fill="#FFF8C0" stroke="#E8D840" stroke-width="1.5"/>
+    <line x1="0" y1="26" x2="175" y2="26" stroke="#E8D840" stroke-width="1"/>
+    <text x="87" y="18" text-anchor="middle" font-size="11" font-weight="700" fill="#7A6800">📰 IEEE Spectrum評価</text>
+    <text x="10" y="44" font-size="11" fill="#444">"AIラボは競争圧力が</text>
+    <text x="10" y="60" font-size="11" fill="#444">増すほど透明性を失い、</text>
+    <text x="10" y="76" font-size="11" fill="#444">規制は透明性を求める</text>
+    <text x="10" y="92" font-size="11" fill="#444">——矛盾の連鎖"</text>
+  </g>
+
+  <g transform="translate(256, 768) rotate(1.2)" filter="url(#stickyShadow)">
+    <rect x="0" y="0" width="175" height="108" rx="3" fill="#D4F1FF" stroke="#7EC8E3" stroke-width="1.5"/>
+    <line x1="0" y1="26" x2="175" y2="26" stroke="#7EC8E3" stroke-width="1"/>
+    <text x="87" y="18" text-anchor="middle" font-size="11" font-weight="700" fill="#004A6E">🇨🇳 中国の効率戦略</text>
+    <text x="10" y="44" font-size="11" fill="#444">投資23倍でも性能接近。</text>
+    <text x="10" y="60" font-size="11" fill="#444">DeepSeekが証明した</text>
+    <text x="10" y="76" font-size="11" fill="#444">「計算力より知恵」で</text>
+    <text x="10" y="92" font-size="11" fill="#444">米国優位が揺らぐ。</text>
+  </g>
+
+  <g transform="translate(456, 756) rotate(-0.9)" filter="url(#stickyShadow)">
+    <rect x="0" y="0" width="175" height="108" rx="3" fill="#FFE8D5" stroke="#FFB07C" stroke-width="1.5"/>
+    <line x1="0" y1="26" x2="175" y2="26" stroke="#FFB07C" stroke-width="1"/>
+    <text x="87" y="18" text-anchor="middle" font-size="11" font-weight="700" fill="#7A3800">💡 GenAI価値の変化</text>
+    <text x="10" y="44" font-size="11" fill="#444">中間ユーザーの価値認識</text>
+    <text x="10" y="60" font-size="11" fill="#444">が1年で3倍に。「本当に</text>
+    <text x="10" y="76" font-size="11" fill="#444">役に立ち始めた」という</text>
+    <text x="10" y="92" font-size="11" fill="#444">質的転換の数値証拠。</text>
+  </g>
+
+  <g transform="translate(656, 768) rotate(1.3)" filter="url(#stickyShadow)">
+    <rect x="0" y="0" width="175" height="108" rx="3" fill="#E8DEFF" stroke="#B09EE8" stroke-width="1.5"/>
+    <line x1="0" y1="26" x2="175" y2="26" stroke="#B09EE8" stroke-width="1"/>
+    <text x="87" y="18" text-anchor="middle" font-size="11" font-weight="700" fill="#3A1A7A">📅 来年の焦点</text>
+    <text x="10" y="44" font-size="11" fill="#444">AI Index 2027では</text>
+    <text x="10" y="60" font-size="11" fill="#444">「Transparency Score」が</text>
+    <text x="10" y="76" font-size="11" fill="#444">規制コンプライアンス</text>
+    <text x="10" y="92" font-size="11" fill="#444">の代理指標になるか。</text>
+  </g>
+
+  <line x1="50" y1="882" x2="1350" y2="882" stroke="#D0C9BC" stroke-width="1"/>
+  <text x="700" y="902" text-anchor="middle" font-size="13" font-style="italic" fill="#888">AI News · 2026-05-12 · Stanford AI Index 2026 — Transparency Drops, US-China Gap Closes, Talent Exodus Accelerates</text>
+</svg>

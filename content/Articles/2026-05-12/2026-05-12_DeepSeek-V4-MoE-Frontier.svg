@@ -1,0 +1,207 @@
+<svg viewBox="0 0 1400 1050" xmlns="http://www.w3.org/2000/svg" font-family="-apple-system, 'Hiragino Sans', 'Yu Gothic', sans-serif">
+  <defs>
+    <pattern id="paperTexture" x="0" y="0" width="4" height="4" patternUnits="userSpaceOnUse">
+      <rect width="4" height="4" fill="#FBF8F1"/>
+      <circle cx="1" cy="1" r="0.4" fill="#E8E2D3" opacity="0.5"/>
+      <circle cx="3" cy="3" r="0.3" fill="#E8E2D3" opacity="0.4"/>
+    </pattern>
+    <filter id="softShadow"><feDropShadow dx="2" dy="3" stdDeviation="4" flood-color="#1A1D24" flood-opacity="0.12"/></filter>
+    <filter id="stickyShadow"><feDropShadow dx="3" dy="4" stdDeviation="6" flood-color="#1A1D24" flood-opacity="0.18"/></filter>
+  </defs>
+  <rect width="1400" height="1050" fill="url(#paperTexture)"/>
+  <rect x="0" y="0" width="36" height="1050" fill="#F0EBE2" stroke="#E8E2D3" stroke-width="1"/>
+  <circle cx="18" cy="120" r="10" fill="#FBF8F1" stroke="#D0C9BC" stroke-width="2"/>
+  <circle cx="18" cy="260" r="10" fill="#FBF8F1" stroke="#D0C9BC" stroke-width="2"/>
+  <circle cx="18" cy="400" r="10" fill="#FBF8F1" stroke="#D0C9BC" stroke-width="2"/>
+  <circle cx="18" cy="540" r="10" fill="#FBF8F1" stroke="#D0C9BC" stroke-width="2"/>
+  <circle cx="18" cy="680" r="10" fill="#FBF8F1" stroke="#D0C9BC" stroke-width="2"/>
+  <circle cx="18" cy="820" r="10" fill="#FBF8F1" stroke="#D0C9BC" stroke-width="2"/>
+  <g transform="translate(1260, -8) rotate(3)">
+    <rect x="0" y="0" width="180" height="44" fill="#8B7DB8" stroke="#1A1D24" stroke-width="2" rx="3"/>
+    <text x="90" y="28" text-anchor="middle" font-size="16" font-weight="700" fill="white">#論文</text>
+  </g>
+  <rect x="50" y="22" width="190" height="38" rx="4" fill="#2F3842" filter="url(#softShadow)"/>
+  <text x="145" y="46" text-anchor="middle" font-size="16" font-weight="700" fill="white">2026-04-24 公開</text>
+  <text x="260" y="50" font-size="22" fill="#F5A623">⭐⭐</text>
+
+  <text x="56" y="102" font-size="36" font-weight="900" fill="#1A1D24">🐳 DeepSeek V4：1.6Tパラメータ MoEでフロンティアに肉薄</text>
+  <text x="56" y="146" font-size="19" font-weight="400" fill="#555">49B活性化・1Mコンテキスト——「差が消えた」と独立研究者が報告、r/LocalLLaMAで沸騰中</text>
+  <line x1="50" y1="160" x2="1360" y2="160" stroke="#1A1D24" stroke-width="2.5"/>
+
+  <!-- HERO: Whale with circuits -->
+  <g transform="translate(1148, 176)" filter="url(#softShadow)">
+    <ellipse cx="85" cy="110" rx="75" ry="55" fill="#8B7DB8" stroke="#1A1D24" stroke-width="2.5"/>
+    <!-- Tail -->
+    <path d="M145,130 Q175,110 168,85 Q158,60 155,80" fill="#8B7DB8" stroke="#1A1D24" stroke-width="2.5"/>
+    <!-- Eye -->
+    <circle cx="42" cy="95" r="10" fill="white" stroke="#1A1D24" stroke-width="2"/>
+    <circle cx="42" cy="95" r="4" fill="#1A1D24"/>
+    <!-- Blow hole circuit -->
+    <line x1="85" y1="56" x2="85" y2="36" stroke="#1A1D24" stroke-width="2"/>
+    <text x="85" y="30" text-anchor="middle" font-size="20">💡</text>
+    <!-- Circuit lines on body -->
+    <line x1="60" y1="100" x2="110" y2="100" stroke="#D0C8FF" stroke-width="1.5" stroke-dasharray="4,2"/>
+    <line x1="80" y1="85" x2="80" y2="120" stroke="#D0C8FF" stroke-width="1.5" stroke-dasharray="4,2"/>
+    <circle cx="80" cy="100" r="5" fill="#D0C8FF" stroke="#8B7DB8" stroke-width="1.5"/>
+    <!-- V4 label -->
+    <text x="85" y="115" text-anchor="middle" font-size="20" font-weight="900" fill="white">V4</text>
+    <!-- Shine -->
+    <text x="158" y="70" font-size="18" fill="#8B7DB8">✦</text>
+    <text x="20" y="130" font-size="14" fill="#8B7DB8">✦</text>
+  </g>
+
+  <!-- KEY NUMBERS -->
+  <rect x="50" y="178" width="620" height="128" rx="8" fill="white" stroke="#1A1D24" stroke-width="2.5" filter="url(#softShadow)"/>
+  <rect x="50" y="178" width="8" height="128" rx="4" fill="#8B7DB8"/>
+  <text x="80" y="210" font-size="14" font-weight="700" fill="#555">DEEPSEEK V4 SPECS</text>
+  <text x="80" y="258" font-size="52" font-weight="900" fill="#8B7DB8">1.6T<tspan font-size="26">param</tspan></text>
+  <text x="80" y="294" font-size="14" font-weight="700" fill="#1A1D24">総パラメータ（49B活性化）/ 1Mコンテキスト</text>
+  <line x1="400" y1="192" x2="400" y2="298" stroke="#E8E2D3" stroke-width="1.5"/>
+  <text x="428" y="222" font-size="13" font-weight="700" fill="#555">V4-Flash スペック</text>
+  <text x="428" y="258" font-size="42" font-weight="900" fill="#1A1D24">284B<tspan font-size="20" font-weight="600">param</tspan></text>
+  <text x="428" y="294" font-size="13" fill="#888">（13B活性化）1Mトークン</text>
+
+  <!-- MAIN VISUAL: Benchmark comparison bar chart -->
+  <rect x="50" y="328" width="850" height="230" rx="8" fill="white" stroke="#1A1D24" stroke-width="2" filter="url(#softShadow)"/>
+  <text x="70" y="360" font-size="16" font-weight="700" fill="#1A1D24">▌ 主要推論ベンチマーク比較（2026年5月コミュニティ報告値）</text>
+  <line x1="70" y1="370" x2="880" y2="370" stroke="#E8E2D3" stroke-width="1"/>
+
+  <!-- Chart labels -->
+  <text x="90" y="398" font-size="13" font-weight="700" fill="#555">ベンチマーク</text>
+  <text x="380" y="398" font-size="13" font-weight="700" fill="#5B8DEF">GPT-5.5</text>
+  <text x="510" y="398" font-size="13" font-weight="700" fill="#8B7DB8">DeepSeek V4</text>
+  <text x="650" y="398" font-size="13" font-weight="700" fill="#5CA46E">Claude Opus 4.7</text>
+  <line x1="70" y1="404" x2="840" y2="404" stroke="#E8E2D3" stroke-width="1"/>
+
+  <!-- MATH-500 -->
+  <rect x="70" y="408" width="760" height="40" rx="3" fill="#F5F0FF"/>
+  <text x="88" y="432" font-size="13" fill="#1A1D24" font-weight="600">MATH-500</text>
+  <rect x="365" y="416" width="82" height="22" rx="3" fill="#5B8DEF"/>
+  <text x="406" y="432" text-anchor="middle" font-size="12" font-weight="700" fill="white">98.2%</text>
+  <rect x="497" y="416" width="82" height="22" rx="3" fill="#8B7DB8"/>
+  <text x="538" y="432" text-anchor="middle" font-size="12" font-weight="700" fill="white">97.8%</text>
+  <rect x="633" y="416" width="82" height="22" rx="3" fill="#5CA46E"/>
+  <text x="674" y="432" text-anchor="middle" font-size="12" font-weight="700" fill="white">98.1%</text>
+
+  <!-- GPQA Diamond -->
+  <rect x="70" y="452" width="760" height="40" rx="3" fill="#FBF8F1"/>
+  <text x="88" y="476" font-size="13" fill="#1A1D24" font-weight="600">GPQA Diamond</text>
+  <rect x="365" y="460" width="68" height="22" rx="3" fill="#5B8DEF"/>
+  <text x="399" y="476" text-anchor="middle" font-size="12" font-weight="700" fill="white">79.4%</text>
+  <rect x="497" y="460" width="62" height="22" rx="3" fill="#8B7DB8"/>
+  <text x="528" y="476" text-anchor="middle" font-size="12" font-weight="700" fill="white">77.1%</text>
+  <rect x="633" y="460" width="68" height="22" rx="3" fill="#5CA46E"/>
+  <text x="667" y="476" text-anchor="middle" font-size="12" font-weight="700" fill="white">80.2%</text>
+
+  <!-- AIME 2026 -->
+  <rect x="70" y="496" width="760" height="40" rx="3" fill="#F5F0FF"/>
+  <text x="88" y="520" font-size="13" fill="#1A1D24" font-weight="600">AIME 2026</text>
+  <rect x="365" y="504" width="60" height="22" rx="3" fill="#5B8DEF"/>
+  <text x="395" y="520" text-anchor="middle" font-size="12" font-weight="700" fill="white">72%</text>
+  <rect x="497" y="504" width="58" height="22" rx="3" fill="#8B7DB8"/>
+  <text x="526" y="520" text-anchor="middle" font-size="12" font-weight="700" fill="white">69%</text>
+  <rect x="633" y="504" width="60" height="22" rx="3" fill="#5CA46E"/>
+  <text x="663" y="520" text-anchor="middle" font-size="12" font-weight="700" fill="white">71%</text>
+
+  <!-- Note -->
+  <rect x="70" y="544" width="760" height="36" rx="4" fill="#EEF4FF"/>
+  <text x="88" y="568" font-size="13" fill="#555">⚠️ 注意：数値はコミュニティ報告値。SWE-bench・エージェント安定性の独立検証は不十分——過大評価リスクあり</text>
+
+  <!-- Right side: MoE explanation -->
+  <rect x="916" y="328" width="442" height="230" rx="8" fill="white" stroke="#1A1D24" stroke-width="2" filter="url(#softShadow)"/>
+  <text x="936" y="358" font-size="15" font-weight="700" fill="#1A1D24">▌ MoEアーキテクチャの効率性</text>
+  <line x1="936" y1="368" x2="1340" y2="368" stroke="#E8E2D3" stroke-width="1"/>
+  <!-- MoE diagram -->
+  <rect x="946" y="380" width="410" height="60" rx="6" fill="#F5F0FF" stroke="#8B7DB8" stroke-width="1.5"/>
+  <text x="1151" y="408" text-anchor="middle" font-size="13" font-weight="700" fill="#1A1D24">総パラメータ: 1.6 Trillion</text>
+  <text x="1151" y="428" text-anchor="middle" font-size="12" fill="#555">（保存・読み込みコスト: 1.6T相当）</text>
+  <!-- Arrow down -->
+  <text x="1151" y="458" text-anchor="middle" font-size="20" fill="#8B7DB8">↓ 推論時</text>
+  <rect x="1020" y="466" width="262" height="52" rx="6" fill="#8B7DB8" stroke="#1A1D24" stroke-width="2"/>
+  <text x="1151" y="494" text-anchor="middle" font-size="13" font-weight="900" fill="white">活性化: 49B のみ</text>
+  <text x="1151" y="510" text-anchor="middle" font-size="12" fill="#D0C8FF">（推論コスト: 49Bモデル相当）</text>
+  <!-- Efficiency -->
+  <rect x="946" y="526" width="410" height="30" rx="4" fill="#F0F9F2"/>
+  <text x="1151" y="546" text-anchor="middle" font-size="13" font-weight="700" fill="#5CA46E">✅ 大規模な知識 × 低推論コスト = 効率フロンティア</text>
+
+  <!-- CARDS -->
+  <rect x="50" y="578" width="305" height="148" rx="8" fill="white" stroke="#1A1D24" stroke-width="2" filter="url(#softShadow)"/>
+  <rect x="50" y="578" width="305" height="8" rx="4" fill="#8B7DB8"/>
+  <text x="202" y="612" text-anchor="middle" font-size="14" font-weight="700" fill="#1A1D24">🌐 地政学的採用障壁</text>
+  <text x="68" y="634" font-size="13" fill="#444">BIS規制・データプライバシー懸念</text>
+  <text x="68" y="652" font-size="13" fill="#444">で企業採用が進まず。主に</text>
+  <text x="68" y="670" font-size="13" fill="#444">ローカル展開・セルフホスト</text>
+  <text x="68" y="688" font-size="13" fill="#444">用途（r/LocalLLaMA）で</text>
+  <text x="68" y="706" font-size="13" fill="#888">活況。</text>
+
+  <rect x="371" y="578" width="305" height="148" rx="8" fill="white" stroke="#1A1D24" stroke-width="2" filter="url(#softShadow)"/>
+  <rect x="371" y="578" width="305" height="8" rx="4" fill="#8B7DB8"/>
+  <text x="523" y="612" text-anchor="middle" font-size="14" font-weight="700" fill="#1A1D24">🖥️ ローカル運用の夢</text>
+  <text x="389" y="634" font-size="13" fill="#444">V4-Flash（284B/13B活性化）</text>
+  <text x="389" y="652" font-size="13" fill="#444">は量子化でRTX 4090×</text>
+  <text x="389" y="670" font-size="13" fill="#444">2〜3枚での運用が視野に。</text>
+  <text x="389" y="688" font-size="13" fill="#444">「民主化フロンティア」として</text>
+  <text x="389" y="706" font-size="13" fill="#888">コミュニティが沸騰。</text>
+
+  <rect x="692" y="578" width="305" height="148" rx="8" fill="white" stroke="#1A1D24" stroke-width="2" filter="url(#softShadow)"/>
+  <rect x="692" y="578" width="305" height="8" rx="4" fill="#8B7DB8"/>
+  <text x="844" y="612" text-anchor="middle" font-size="14" font-weight="700" fill="#1A1D24">⚠️ 「差が縮まった」の限界</text>
+  <text x="710" y="634" font-size="13" fill="#444">MATH-500等での接近は</text>
+  <text x="710" y="652" font-size="13" fill="#444">「得意分野での接近」。</text>
+  <text x="710" y="670" font-size="13" fill="#444">SWE-bench・エージェント</text>
+  <text x="710" y="688" font-size="13" fill="#444">安定性での独立検証が</text>
+  <text x="710" y="706" font-size="13" fill="#888">不足——過大評価注意。</text>
+
+  <rect x="1013" y="578" width="345" height="148" rx="8" fill="white" stroke="#1A1D24" stroke-width="2" filter="url(#softShadow)"/>
+  <rect x="1013" y="578" width="345" height="8" rx="4" fill="#8B7DB8"/>
+  <text x="1185" y="612" text-anchor="middle" font-size="14" font-weight="700" fill="#1A1D24">🔮 V5は2026末〜2027Q1か</text>
+  <text x="1031" y="634" font-size="13" fill="#444">V3→V4が1年以内ならV5は</text>
+  <text x="1031" y="652" font-size="13" fill="#444">Gemini 4・GPT-5.5後継と</text>
+  <text x="1031" y="670" font-size="13" fill="#444">同世代に。米中輸出規制で</text>
+  <text x="1031" y="688" font-size="13" fill="#444">分断されたAIエコシステムが</text>
+  <text x="1031" y="706" font-size="13" fill="#888">2027年の最大リスク。</text>
+
+  <!-- STICKY NOTES -->
+  <g transform="translate(58, 744) rotate(-1.3)" filter="url(#stickyShadow)">
+    <rect x="0" y="0" width="175" height="108" rx="3" fill="#FFF8C0" stroke="#E8D840" stroke-width="1.5"/>
+    <line x1="0" y1="26" x2="175" y2="26" stroke="#E8D840" stroke-width="1"/>
+    <text x="87" y="18" text-anchor="middle" font-size="11" font-weight="700" fill="#7A6800">🐋 r/LocalLLaMA の声</text>
+    <text x="10" y="44" font-size="11" fill="#444">"V4-Flashは4090×2で</text>
+    <text x="10" y="60" font-size="11" fill="#444">実用推論が可能。GPT-5.5</text>
+    <text x="10" y="76" font-size="11" fill="#444">ProのAPIコスト払わずに</text>
+    <text x="10" y="92" font-size="11" fill="#444">同等が手元で動く"</text>
+  </g>
+
+  <g transform="translate(256, 756) rotate(1.2)" filter="url(#stickyShadow)">
+    <rect x="0" y="0" width="175" height="108" rx="3" fill="#D4F1FF" stroke="#7EC8E3" stroke-width="1.5"/>
+    <line x1="0" y1="26" x2="175" y2="26" stroke="#7EC8E3" stroke-width="1"/>
+    <text x="87" y="18" text-anchor="middle" font-size="11" font-weight="700" fill="#004A6E">📊 Stanford AI Index</text>
+    <text x="10" y="44" font-size="11" fill="#444">「投資23倍でも米中性能差</text>
+    <text x="10" y="60" font-size="11" fill="#444">が消滅」とのデータがV4の</text>
+    <text x="10" y="76" font-size="11" fill="#444">存在そのものによって</text>
+    <text x="10" y="92" font-size="11" fill="#444">裏付けられた形。</text>
+  </g>
+
+  <g transform="translate(456, 744) rotate(-0.8)" filter="url(#stickyShadow)">
+    <rect x="0" y="0" width="175" height="108" rx="3" fill="#FFE8D5" stroke="#FFB07C" stroke-width="1.5"/>
+    <line x1="0" y1="26" x2="175" y2="26" stroke="#FFB07C" stroke-width="1"/>
+    <text x="87" y="18" text-anchor="middle" font-size="11" font-weight="700" fill="#7A3800">🧪 GGUF変換が急速</text>
+    <text x="10" y="44" font-size="11" fill="#444">公開後数日内にGGUF・</text>
+    <text x="10" y="60" font-size="11" fill="#444">ollama対応・量子化版が</text>
+    <text x="10" y="76" font-size="11" fill="#444">コミュニティで整備される</text>
+    <text x="10" y="92" font-size="11" fill="#444">見通し。</text>
+  </g>
+
+  <g transform="translate(656, 756) rotate(1.4)" filter="url(#stickyShadow)">
+    <rect x="0" y="0" width="175" height="108" rx="3" fill="#E8DEFF" stroke="#B09EE8" stroke-width="1.5"/>
+    <line x1="0" y1="26" x2="175" y2="26" stroke="#B09EE8" stroke-width="1"/>
+    <text x="87" y="18" text-anchor="middle" font-size="11" font-weight="700" fill="#3A1A7A">⚡ MLA革新</text>
+    <text x="10" y="44" font-size="11" fill="#444">Multi-head Latent</text>
+    <text x="10" y="60" font-size="11" fill="#444">Attention（MLA）がKV</text>
+    <text x="10" y="76" font-size="11" fill="#444">cacheを最適化。長文脈</text>
+    <text x="10" y="92" font-size="11" fill="#444">処理の効率が大幅改善。</text>
+  </g>
+
+  <line x1="50" y1="874" x2="1350" y2="874" stroke="#D0C9BC" stroke-width="1"/>
+  <text x="700" y="894" text-anchor="middle" font-size="13" font-style="italic" fill="#888">AI News · 2026-05-12 · DeepSeek V4 — 1.6T MoE Frontier Model Closes Gap with Western Leaders</text>
+</svg>

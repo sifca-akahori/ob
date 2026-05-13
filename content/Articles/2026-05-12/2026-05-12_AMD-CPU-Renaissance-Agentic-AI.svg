@@ -1,0 +1,210 @@
+<svg viewBox="0 0 1400 1050" xmlns="http://www.w3.org/2000/svg" font-family="-apple-system, 'Hiragino Sans', 'Yu Gothic', sans-serif">
+  <defs>
+    <pattern id="paperTexture" x="0" y="0" width="4" height="4" patternUnits="userSpaceOnUse">
+      <rect width="4" height="4" fill="#FBF8F1"/>
+      <circle cx="1" cy="1" r="0.4" fill="#E8E2D3" opacity="0.5"/>
+      <circle cx="3" cy="3" r="0.3" fill="#E8E2D3" opacity="0.4"/>
+    </pattern>
+    <filter id="softShadow"><feDropShadow dx="2" dy="3" stdDeviation="4" flood-color="#1A1D24" flood-opacity="0.12"/></filter>
+    <filter id="stickyShadow"><feDropShadow dx="3" dy="4" stdDeviation="6" flood-color="#1A1D24" flood-opacity="0.18"/></filter>
+  </defs>
+  <rect width="1400" height="1050" fill="url(#paperTexture)"/>
+  <rect x="0" y="0" width="36" height="1050" fill="#F0EBE2" stroke="#E8E2D3" stroke-width="1"/>
+  <circle cx="18" cy="120" r="10" fill="#FBF8F1" stroke="#D0C9BC" stroke-width="2"/>
+  <circle cx="18" cy="260" r="10" fill="#FBF8F1" stroke="#D0C9BC" stroke-width="2"/>
+  <circle cx="18" cy="400" r="10" fill="#FBF8F1" stroke="#D0C9BC" stroke-width="2"/>
+  <circle cx="18" cy="540" r="10" fill="#FBF8F1" stroke="#D0C9BC" stroke-width="2"/>
+  <circle cx="18" cy="680" r="10" fill="#FBF8F1" stroke="#D0C9BC" stroke-width="2"/>
+  <circle cx="18" cy="820" r="10" fill="#FBF8F1" stroke="#D0C9BC" stroke-width="2"/>
+  <g transform="translate(1260, -8) rotate(3)">
+    <rect x="0" y="0" width="180" height="44" fill="#5B8DEF" stroke="#1A1D24" stroke-width="2" rx="3"/>
+    <text x="90" y="28" text-anchor="middle" font-size="16" font-weight="700" fill="white">#ビジネス</text>
+  </g>
+  <rect x="50" y="22" width="190" height="38" rx="4" fill="#2F3842" filter="url(#softShadow)"/>
+  <text x="145" y="46" text-anchor="middle" font-size="16" font-weight="700" fill="white">2026-05-12 (火)</text>
+  <text x="260" y="50" font-size="22" fill="#F5A623">⭐⭐</text>
+
+  <text x="56" y="102" font-size="36" font-weight="900" fill="#1A1D24">🖥️ AMD「エージェントAIでCPU:GPU比が1:8→1:1〜2へ」</text>
+  <text x="56" y="146" font-size="19" font-weight="400" fill="#555">サーバーCPU市場TAMを$60B→$120Bに倍増予測。VeniceとHeliosでNVIDIAに挑む</text>
+  <line x1="50" y1="160" x2="1360" y2="160" stroke="#1A1D24" stroke-width="2.5"/>
+
+  <!-- HERO: CPU chip -->
+  <g transform="translate(1148, 175)" filter="url(#softShadow)">
+    <rect x="20" y="20" width="130" height="130" rx="10" fill="#2F3842" stroke="#1A1D24" stroke-width="3"/>
+    <rect x="36" y="36" width="98" height="98" rx="6" fill="#5B8DEF" stroke="#1A1D24" stroke-width="2"/>
+    <text x="85" y="95" text-anchor="middle" font-size="36" font-weight="900" fill="white">CPU</text>
+    <!-- Pins top -->
+    <line x1="50" y1="20" x2="50" y2="4" stroke="#1A1D24" stroke-width="3"/>
+    <line x1="70" y1="20" x2="70" y2="4" stroke="#1A1D24" stroke-width="3"/>
+    <line x1="90" y1="20" x2="90" y2="4" stroke="#1A1D24" stroke-width="3"/>
+    <line x1="110" y1="20" x2="110" y2="4" stroke="#1A1D24" stroke-width="3"/>
+    <line x1="130" y1="20" x2="130" y2="4" stroke="#1A1D24" stroke-width="3"/>
+    <!-- Pins bottom -->
+    <line x1="50" y1="150" x2="50" y2="166" stroke="#1A1D24" stroke-width="3"/>
+    <line x1="70" y1="150" x2="70" y2="166" stroke="#1A1D24" stroke-width="3"/>
+    <line x1="90" y1="150" x2="90" y2="166" stroke="#1A1D24" stroke-width="3"/>
+    <line x1="110" y1="150" x2="110" y2="166" stroke="#1A1D24" stroke-width="3"/>
+    <line x1="130" y1="150" x2="130" y2="166" stroke="#1A1D24" stroke-width="3"/>
+    <!-- Pins left -->
+    <line x1="20" y1="50" x2="4" y2="50" stroke="#1A1D24" stroke-width="3"/>
+    <line x1="20" y1="70" x2="4" y2="70" stroke="#1A1D24" stroke-width="3"/>
+    <line x1="20" y1="90" x2="4" y2="90" stroke="#1A1D24" stroke-width="3"/>
+    <line x1="20" y1="110" x2="4" y2="110" stroke="#1A1D24" stroke-width="3"/>
+    <line x1="20" y1="130" x2="4" y2="130" stroke="#1A1D24" stroke-width="3"/>
+    <!-- Pins right -->
+    <line x1="150" y1="50" x2="166" y2="50" stroke="#1A1D24" stroke-width="3"/>
+    <line x1="150" y1="70" x2="166" y2="70" stroke="#1A1D24" stroke-width="3"/>
+    <line x1="150" y1="90" x2="166" y2="90" stroke="#1A1D24" stroke-width="3"/>
+    <line x1="150" y1="110" x2="166" y2="110" stroke="#1A1D24" stroke-width="3"/>
+    <line x1="150" y1="130" x2="166" y2="130" stroke="#1A1D24" stroke-width="3"/>
+    <!-- Up arrow (renaissance) -->
+    <text x="85" y="-15" text-anchor="middle" font-size="28" fill="#5B8DEF">↑</text>
+    <text x="85" y="-30" text-anchor="middle" font-size="12" font-weight="700" fill="#5B8DEF">再注目!</text>
+  </g>
+
+  <!-- KEY NUMBERS -->
+  <rect x="50" y="178" width="580" height="130" rx="8" fill="white" stroke="#1A1D24" stroke-width="2.5" filter="url(#softShadow)"/>
+  <rect x="50" y="178" width="8" height="130" rx="4" fill="#5B8DEF"/>
+  <text x="80" y="210" font-size="14" font-weight="700" fill="#555">AMD MARKET FORECAST</text>
+  <text x="80" y="258" font-size="44" font-weight="900" fill="#888">$60B</text>
+  <text x="218" y="252" font-size="32" font-weight="900" fill="#888">→</text>
+  <text x="258" y="264" font-size="50" font-weight="900" fill="#5B8DEF">$120B</text>
+  <text x="80" y="296" font-size="14" font-weight="700" fill="#1A1D24">サーバーCPU市場 TAM 2030年予測（倍増）</text>
+  <line x1="395" y1="192" x2="395" y2="300" stroke="#E8E2D3" stroke-width="1.5"/>
+  <text x="420" y="228" font-size="13" font-weight="700" fill="#555">Q2売上成長率ガイダンス</text>
+  <text x="420" y="266" font-size="50" font-weight="900" fill="#5B8DEF">70+<tspan font-size="22">%</tspan></text>
+  <text x="420" y="296" font-size="13" fill="#888">前四半期比（前Q比+50%）</text>
+
+  <!-- MAIN VISUAL: CPU:GPU ratio comparison -->
+  <rect x="50" y="330" width="860" height="240" rx="8" fill="white" stroke="#1A1D24" stroke-width="2" filter="url(#softShadow)"/>
+  <text x="70" y="362" font-size="16" font-weight="700" fill="#1A1D24">▌ AIデータセンターの CPU:GPU 比率 変化</text>
+  <line x1="70" y1="372" x2="890" y2="372" stroke="#E8E2D3" stroke-width="1"/>
+
+  <!-- Traditional AI -->
+  <text x="90" y="406" font-size="14" font-weight="700" fill="#555">従来型AI学習クラスター</text>
+  <!-- CPU bar (small) -->
+  <rect x="90" y="418" width="40" height="36" rx="4" fill="#5B8DEF" stroke="#1A1D24" stroke-width="1.5"/>
+  <text x="110" y="440" text-anchor="middle" font-size="11" font-weight="700" fill="white">CPU</text>
+  <text x="137" y="438" font-size="13" fill="#888">×1</text>
+  <!-- GPU bars -->
+  <rect x="162" y="418" width="36" height="36" rx="4" fill="#2F3842" stroke="#1A1D24" stroke-width="1.5"/>
+  <rect x="202" y="418" width="36" height="36" rx="4" fill="#2F3842" stroke="#1A1D24" stroke-width="1.5"/>
+  <rect x="242" y="418" width="36" height="36" rx="4" fill="#2F3842" stroke="#1A1D24" stroke-width="1.5"/>
+  <rect x="282" y="418" width="36" height="36" rx="4" fill="#2F3842" stroke="#1A1D24" stroke-width="1.5"/>
+  <rect x="322" y="418" width="36" height="36" rx="4" fill="#2F3842" stroke="#1A1D24" stroke-width="1.5"/>
+  <rect x="362" y="418" width="36" height="36" rx="4" fill="#2F3842" stroke="#1A1D24" stroke-width="1.5"/>
+  <rect x="402" y="418" width="36" height="36" rx="4" fill="#2F3842" stroke="#1A1D24" stroke-width="1.5"/>
+  <rect x="442" y="418" width="36" height="36" rx="4" fill="#2F3842" stroke="#1A1D24" stroke-width="1.5"/>
+  <text x="490" y="440" font-size="15" font-weight="700" fill="#888">GPU ×8</text>
+  <text x="560" y="440" font-size="16" font-weight="700" fill="#888">CPU : GPU = 1 : 4〜8</text>
+
+  <!-- Agentic AI -->
+  <text x="90" y="488" font-size="14" font-weight="700" fill="#5B8DEF">エージェントAI クラスター（2026〜）</text>
+  <!-- CPU bars (many) -->
+  <rect x="90" y="500" width="36" height="36" rx="4" fill="#5B8DEF" stroke="#1A1D24" stroke-width="1.5"/>
+  <rect x="130" y="500" width="36" height="36" rx="4" fill="#5B8DEF" stroke="#1A1D24" stroke-width="1.5"/>
+  <text x="174" y="520" font-size="15" font-weight="700" fill="#5B8DEF">CPU ×2</text>
+  <!-- GPU bar (small) -->
+  <rect x="240" y="500" width="36" height="36" rx="4" fill="#2F3842" stroke="#1A1D24" stroke-width="1.5"/>
+  <text x="286" y="520" font-size="15" font-weight="700" fill="#888">GPU ×1〜2</text>
+  <text x="440" y="520" font-size="16" font-weight="700" fill="#5B8DEF">CPU : GPU = 1:1〜2</text>
+  <text x="650" y="520" font-size="16" font-weight="700" fill="#5B8DEF">（4〜8倍のCPU増加）</text>
+
+  <!-- Arm estimate -->
+  <rect x="70" y="554" width="770" height="38" rx="6" fill="#EEF4FF" stroke="#5B8DEF" stroke-width="1.5"/>
+  <text x="90" y="577" font-size="14" fill="#1A1D24">💡 Arm試算: 1GW当たり必要CPUコア数が <tspan font-weight="900" fill="#5B8DEF">3,000万 → 1億2,000万</tspan>（4倍）にエージェントAI時代で急増</text>
+
+  <!-- Right: Helios platform -->
+  <rect x="926" y="330" width="432" height="240" rx="8" fill="white" stroke="#1A1D24" stroke-width="2" filter="url(#softShadow)"/>
+  <text x="946" y="360" font-size="15" font-weight="700" fill="#1A1D24">▌ Helios ラックスケールプラットフォーム</text>
+  <line x1="946" y1="370" x2="1340" y2="370" stroke="#E8E2D3" stroke-width="1"/>
+  <rect x="940" y="382" width="402" height="44" rx="6" fill="#5B8DEF" stroke="#1A1D24" stroke-width="2"/>
+  <text x="1141" y="409" text-anchor="middle" font-size="14" font-weight="700" fill="white">Venice CPU (5th gen EPYC)</text>
+  <rect x="940" y="434" width="402" height="44" rx="6" fill="#2F3842" stroke="#1A1D24" stroke-width="2"/>
+  <text x="1141" y="461" text-anchor="middle" font-size="14" font-weight="700" fill="white">MI455 GPU (next-gen Instinct)</text>
+  <rect x="940" y="486" width="402" height="44" rx="6" fill="#EEF4FF" stroke="#1A1D24" stroke-width="2"/>
+  <text x="1141" y="513" text-anchor="middle" font-size="14" font-weight="700" fill="#1A1D24">クラスター全体最適化レイヤー</text>
+  <text x="946" y="552" font-size="13" fill="#555">「チップ単体の最適化」から</text>
+  <text x="946" y="568" font-size="13" fill="#555">「ラック全体の効率最大化」へ戦略転換</text>
+
+  <!-- CARDS -->
+  <rect x="50" y="592" width="295" height="148" rx="8" fill="white" stroke="#1A1D24" stroke-width="2" filter="url(#softShadow)"/>
+  <rect x="50" y="592" width="295" height="8" rx="4" fill="#5B8DEF"/>
+  <text x="197" y="626" text-anchor="middle" font-size="14" font-weight="700" fill="#1A1D24">🤔 なぜCPUが再重要に</text>
+  <text x="68" y="648" font-size="13" fill="#444">エージェント処理は逐次</text>
+  <text x="68" y="666" font-size="13" fill="#444">制御ループが主。GPUの</text>
+  <text x="68" y="684" font-size="13" fill="#444">並列演算より低レイテンシの</text>
+  <text x="68" y="702" font-size="13" fill="#444">CPUが効率的な理由。</text>
+  <text x="68" y="720" font-size="12" fill="#888">コンテキスト管理＋ツール呼び出し</text>
+
+  <rect x="361" y="592" width="295" height="148" rx="8" fill="white" stroke="#1A1D24" stroke-width="2" filter="url(#softShadow)"/>
+  <rect x="361" y="592" width="295" height="8" rx="4" fill="#5B8DEF"/>
+  <text x="508" y="626" text-anchor="middle" font-size="14" font-weight="700" fill="#1A1D24">⚔️ Intel Clearwater Forest</text>
+  <text x="379" y="648" font-size="13" fill="#444">AMX命令セット・Gaudi</text>
+  <text x="379" y="666" font-size="13" fill="#444">AIアクセラレータで</text>
+  <text x="379" y="684" font-size="13" fill="#444">エージェントAI向けCPU</text>
+  <text x="379" y="702" font-size="13" fill="#444">市場でAMDに対抗。</text>
+  <text x="379" y="720" font-size="12" fill="#888">Foundry+チップレット戦略で差別化</text>
+
+  <rect x="672" y="592" width="295" height="148" rx="8" fill="white" stroke="#1A1D24" stroke-width="2" filter="url(#softShadow)"/>
+  <rect x="672" y="592" width="295" height="8" rx="4" fill="#5B8DEF"/>
+  <text x="819" y="626" text-anchor="middle" font-size="14" font-weight="700" fill="#1A1D24">💡 省電力効果</text>
+  <text x="690" y="648" font-size="13" fill="#444">CPU処理はGPU比で</text>
+  <text x="690" y="666" font-size="13" fill="#444">大幅に省電力。AIデータ</text>
+  <text x="690" y="684" font-size="13" fill="#444">センターの電力問題解決と</text>
+  <text x="690" y="702" font-size="13" fill="#444">AI拡大の両立に貢献。</text>
+  <text x="690" y="720" font-size="12" fill="#888">「環境×AIインフラ」の両立解に</text>
+
+  <rect x="983" y="592" width="375" height="148" rx="8" fill="white" stroke="#1A1D24" stroke-width="2" filter="url(#softShadow)"/>
+  <rect x="983" y="592" width="375" height="8" rx="4" fill="#5B8DEF"/>
+  <text x="1170" y="626" text-anchor="middle" font-size="14" font-weight="700" fill="#1A1D24">📊 NVIDIA Grace Blackwellとの比較</text>
+  <text x="1001" y="648" font-size="13" fill="#444">GB200はCPU+GPU統合で競合。</text>
+  <text x="1001" y="666" font-size="13" fill="#444">NVIDIAの優位はCUDAロックイン。</text>
+  <text x="1001" y="684" font-size="13" fill="#444">エージェント推論クラスターでは</text>
+  <text x="1001" y="702" font-size="13" fill="#444">汎用EPYCの費用対効果が勝つ</text>
+  <text x="1001" y="720" font-size="12" fill="#888">シナリオも現実的。</text>
+
+  <!-- STICKY NOTES -->
+  <g transform="translate(58, 758) rotate(-1.3)" filter="url(#stickyShadow)">
+    <rect x="0" y="0" width="175" height="108" rx="3" fill="#FFF8C0" stroke="#E8D840" stroke-width="1.5"/>
+    <line x1="0" y1="26" x2="175" y2="26" stroke="#E8D840" stroke-width="1"/>
+    <text x="87" y="18" text-anchor="middle" font-size="11" font-weight="700" fill="#7A6800">💬 Lisa Su コメント</text>
+    <text x="10" y="44" font-size="11" fill="#444">"新しいAI展開は</text>
+    <text x="10" y="60" font-size="11" fill="#444">GPUよりCPUに重点を</text>
+    <text x="10" y="76" font-size="11" fill="#444">移しており、エージェント</text>
+    <text x="10" y="92" font-size="11" fill="#444">AIがその推進力"</text>
+  </g>
+
+  <g transform="translate(256, 770) rotate(1.1)" filter="url(#stickyShadow)">
+    <rect x="0" y="0" width="175" height="108" rx="3" fill="#D4F1FF" stroke="#7EC8E3" stroke-width="1.5"/>
+    <line x1="0" y1="26" x2="175" y2="26" stroke="#7EC8E3" stroke-width="1"/>
+    <text x="87" y="18" text-anchor="middle" font-size="11" font-weight="700" fill="#004A6E">📐 2027設計図予測</text>
+    <text x="10" y="44" font-size="11" fill="#444">GPU密集型から</text>
+    <text x="10" y="60" font-size="11" fill="#444">「GPUクラスター＋CPU</text>
+    <text x="10" y="76" font-size="11" fill="#444">オーケストレーション層」</text>
+    <text x="10" y="92" font-size="11" fill="#444">の2層構造が標準化。</text>
+  </g>
+
+  <g transform="translate(456, 758) rotate(-1.0)" filter="url(#stickyShadow)">
+    <rect x="0" y="0" width="175" height="108" rx="3" fill="#FFE8D5" stroke="#FFB07C" stroke-width="1.5"/>
+    <line x1="0" y1="26" x2="175" y2="26" stroke="#FFB07C" stroke-width="1"/>
+    <text x="87" y="18" text-anchor="middle" font-size="11" font-weight="700" fill="#7A3800">🔑 Arm CPUの躍進</text>
+    <text x="10" y="44" font-size="11" fill="#444">AWS Graviton・Google</text>
+    <text x="10" y="60" font-size="11" fill="#444">Axion も同じトレンドで</text>
+    <text x="10" y="76" font-size="11" fill="#444">恩恵。x86 vs Arm の</text>
+    <text x="10" y="92" font-size="11" fill="#444">CPU競争も再加熱。</text>
+  </g>
+
+  <g transform="translate(656, 770) rotate(1.4)" filter="url(#stickyShadow)">
+    <rect x="0" y="0" width="175" height="108" rx="3" fill="#E8DEFF" stroke="#B09EE8" stroke-width="1.5"/>
+    <line x1="0" y1="26" x2="175" y2="26" stroke="#B09EE8" stroke-width="1"/>
+    <text x="87" y="18" text-anchor="middle" font-size="11" font-weight="700" fill="#3A1A7A">💰 単価革命</text>
+    <text x="10" y="44" font-size="11" fill="#444">CPU=大量普及品の</text>
+    <text x="10" y="60" font-size="11" fill="#444">低単価構造から脱却し</text>
+    <text x="10" y="76" font-size="11" fill="#444">AI向け高付加価値</text>
+    <text x="10" y="92" font-size="11" fill="#444">プレミアムCPU市場へ。</text>
+  </g>
+
+  <line x1="50" y1="882" x2="1350" y2="882" stroke="#D0C9BC" stroke-width="1"/>
+  <text x="700" y="902" text-anchor="middle" font-size="13" font-style="italic" fill="#888">AI News · 2026-05-12 · AMD CPU Renaissance — Agentic AI Shifts CPU:GPU Ratio, TAM Forecast Doubled to $120B</text>
+</svg>

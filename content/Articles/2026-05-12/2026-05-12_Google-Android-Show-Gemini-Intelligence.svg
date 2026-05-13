@@ -1,0 +1,210 @@
+<svg viewBox="0 0 1400 1050" xmlns="http://www.w3.org/2000/svg" font-family="-apple-system, 'Hiragino Sans', 'Yu Gothic', sans-serif">
+  <defs>
+    <pattern id="paperTexture" x="0" y="0" width="4" height="4" patternUnits="userSpaceOnUse">
+      <rect width="4" height="4" fill="#FBF8F1"/>
+      <circle cx="1" cy="1" r="0.4" fill="#E8E2D3" opacity="0.5"/>
+      <circle cx="3" cy="3" r="0.3" fill="#E8E2D3" opacity="0.4"/>
+    </pattern>
+    <filter id="softShadow" x="-5%" y="-5%" width="115%" height="115%">
+      <feDropShadow dx="2" dy="3" stdDeviation="4" flood-color="#1A1D24" flood-opacity="0.12"/>
+    </filter>
+    <filter id="stickyShadow" x="-5%" y="-5%" width="130%" height="130%">
+      <feDropShadow dx="3" dy="4" stdDeviation="6" flood-color="#1A1D24" flood-opacity="0.18"/>
+    </filter>
+  </defs>
+
+  <!-- Background -->
+  <rect width="1400" height="1050" fill="url(#paperTexture)"/>
+
+  <!-- Binding holes (left edge) -->
+  <rect x="0" y="0" width="36" height="1050" fill="#F0EBE2" stroke="#E8E2D3" stroke-width="1"/>
+  <circle cx="18" cy="120" r="10" fill="#FBF8F1" stroke="#D0C9BC" stroke-width="2"/>
+  <circle cx="18" cy="260" r="10" fill="#FBF8F1" stroke="#D0C9BC" stroke-width="2"/>
+  <circle cx="18" cy="400" r="10" fill="#FBF8F1" stroke="#D0C9BC" stroke-width="2"/>
+  <circle cx="18" cy="540" r="10" fill="#FBF8F1" stroke="#D0C9BC" stroke-width="2"/>
+  <circle cx="18" cy="680" r="10" fill="#FBF8F1" stroke="#D0C9BC" stroke-width="2"/>
+  <circle cx="18" cy="820" r="10" fill="#FBF8F1" stroke="#D0C9BC" stroke-width="2"/>
+
+  <!-- Category tape (top right, rotated) -->
+  <g transform="translate(1260, -8) rotate(3)">
+    <rect x="0" y="0" width="180" height="44" fill="#5CA46E" stroke="#1A1D24" stroke-width="2" rx="3"/>
+    <text x="90" y="28" text-anchor="middle" font-size="16" font-weight="700" fill="white" letter-spacing="1">#ビジネス</text>
+  </g>
+
+  <!-- Date badge (top left) -->
+  <rect x="50" y="22" width="190" height="38" rx="4" fill="#2F3842" filter="url(#softShadow)"/>
+  <text x="145" y="46" text-anchor="middle" font-size="16" font-weight="700" fill="white">2026-05-12 (火)</text>
+
+  <!-- Impact stars -->
+  <text x="260" y="50" font-size="22" fill="#F5A623">⭐⭐⭐</text>
+
+  <!-- HEADER -->
+  <text x="56" y="104" font-size="40" font-weight="900" fill="#1A1D24">📱 Gemini Intelligence：Android の神経系へ</text>
+  <text x="56" y="148" font-size="22" font-weight="400" fill="#555">Googlebook・vibe-coded widgets・自動フォーム入力——Android Show I/O Edition (5/12)</text>
+  <line x1="50" y1="162" x2="1360" y2="162" stroke="#1A1D24" stroke-width="2.5"/>
+
+  <!-- HERO: Android robot with Gemini glow -->
+  <g transform="translate(1180, 200)" filter="url(#softShadow)">
+    <ellipse cx="70" cy="140" rx="65" ry="20" fill="#D8F0DC" opacity="0.6"/>
+    <!-- Body -->
+    <rect x="20" y="55" width="100" height="80" rx="14" fill="#5CA46E" stroke="#1A1D24" stroke-width="2.5"/>
+    <!-- Arms -->
+    <rect x="-8" y="62" width="22" height="50" rx="8" fill="#5CA46E" stroke="#1A1D24" stroke-width="2.5"/>
+    <rect x="126" y="62" width="22" height="50" rx="8" fill="#5CA46E" stroke="#1A1D24" stroke-width="2.5"/>
+    <!-- Legs -->
+    <rect x="32" y="132" width="28" height="40" rx="8" fill="#5CA46E" stroke="#1A1D24" stroke-width="2.5"/>
+    <rect x="80" y="132" width="28" height="40" rx="8" fill="#5CA46E" stroke="#1A1D24" stroke-width="2.5"/>
+    <!-- Head -->
+    <rect x="22" y="8" width="96" height="50" rx="20" fill="#5CA46E" stroke="#1A1D24" stroke-width="2.5"/>
+    <!-- Antenna -->
+    <line x1="50" y1="8" x2="38" y2="-12" stroke="#1A1D24" stroke-width="2.5"/>
+    <circle cx="38" cy="-14" r="4" fill="#1A1D24"/>
+    <line x1="90" y1="8" x2="102" y2="-12" stroke="#1A1D24" stroke-width="2.5"/>
+    <circle cx="102" cy="-14" r="4" fill="#1A1D24"/>
+    <!-- Eyes -->
+    <circle cx="50" cy="30" r="7" fill="white" stroke="#1A1D24" stroke-width="1.5"/>
+    <circle cx="90" cy="30" r="7" fill="white" stroke="#1A1D24" stroke-width="1.5"/>
+    <circle cx="50" cy="30" r="3" fill="#1A1D24"/>
+    <circle cx="90" cy="30" r="3" fill="#1A1D24"/>
+    <!-- Gemini sparkle -->
+    <text x="70" y="75" text-anchor="middle" font-size="22" fill="white" font-weight="900">G</text>
+    <!-- Stars around -->
+    <text x="-20" y="30" font-size="16" fill="#5CA46E">✦</text>
+    <text x="148" y="20" font-size="14" fill="#5CA46E">✦</text>
+    <text x="60" y="-20" font-size="18" fill="#5CA46E">✦</text>
+  </g>
+
+  <!-- KEY NUMBERS BLOCK -->
+  <rect x="50" y="180" width="520" height="130" rx="8" fill="white" stroke="#1A1D24" stroke-width="2.5" filter="url(#softShadow)"/>
+  <rect x="50" y="180" width="8" height="130" rx="4" fill="#5CA46E"/>
+  <text x="80" y="212" font-size="15" font-weight="700" fill="#555" letter-spacing="1">KEY METRICS</text>
+  <text x="80" y="256" font-size="52" font-weight="900" fill="#5CA46E">10+</text>
+  <text x="195" y="256" font-size="20" font-weight="700" fill="#1A1D24">新機能発表</text>
+  <text x="80" y="292" font-size="14" fill="#888">Android Show I/O Edition (2026-05-12)</text>
+  <line x1="330" y1="195" x2="330" y2="300" stroke="#E8E2D3" stroke-width="1.5"/>
+  <text x="360" y="232" font-size="14" font-weight="700" fill="#555">Google I/Oまで</text>
+  <text x="360" y="268" font-size="46" font-weight="900" fill="#1A1D24">7<tspan font-size="20" font-weight="600">日</tspan></text>
+  <text x="360" y="295" font-size="13" fill="#888">Gemini 4発表へのカウントダウン</text>
+
+  <!-- MAIN VISUAL: Feature comparison chart -->
+  <rect x="50" y="330" width="760" height="320" rx="8" fill="white" stroke="#1A1D24" stroke-width="2" filter="url(#softShadow)"/>
+  <text x="70" y="362" font-size="17" font-weight="700" fill="#1A1D24">▌ Android 17 主要AI機能マップ</text>
+  <line x1="70" y1="372" x2="790" y2="372" stroke="#E8E2D3" stroke-width="1"/>
+
+  <!-- Feature rows -->
+  <g font-size="15">
+    <rect x="66" y="382" width="724" height="38" rx="4" fill="#F0F9F1"/>
+    <text x="86" y="407" fill="#1A1D24" font-weight="700">🧠 Gemini Intelligence</text>
+    <text x="400" y="407" fill="#555">バックグラウンドで予約・検索・整理を自律実行（OS統合型）</text>
+
+    <rect x="66" y="424" width="724" height="38" rx="4" fill="#FBF8F1"/>
+    <text x="86" y="449" fill="#1A1D24" font-weight="700">💻 Googlebook</text>
+    <text x="400" y="449" fill="#555">Acer/ASUS/Dell製AIノートPC、Glowbar付き（Copilot+競合）</text>
+
+    <rect x="66" y="466" width="724" height="38" rx="4" fill="#F0F9F1"/>
+    <text x="86" y="491" fill="#1A1D24" font-weight="700">🎨 vibe-coded widgets</text>
+    <text x="400" y="491" fill="#555">「高タンパクレシピを毎週3つ」→ ウィジェット自動生成</text>
+
+    <rect x="66" y="508" width="724" height="38" rx="4" fill="#FBF8F1"/>
+    <text x="86" y="533" fill="#1A1D24" font-weight="700">📝 自動フォーム入力</text>
+    <text x="400" y="533" fill="#555">複数アプリの情報を収集し複雑なフォームを自律入力</text>
+
+    <rect x="66" y="550" width="724" height="38" rx="4" fill="#F0F9F1"/>
+    <text x="86" y="575" fill="#1A1D24" font-weight="700">🎙️ Rambler（Gboard）</text>
+    <text x="400" y="575" fill="#555">口語・乱れた音声入力をクリーンな文字に自動整形</text>
+
+    <rect x="66" y="592" width="724" height="38" rx="4" fill="#FBF8F1"/>
+    <text x="86" y="617" fill="#1A1D24" font-weight="700">😊 Noto 3D絵文字</text>
+    <text x="400" y="617" fill="#555">Google初の3D絵文字コレクション、Android 17で全体展開</text>
+  </g>
+
+  <!-- 4 CARDS bottom area -->
+  <!-- Card 1 -->
+  <rect x="50" y="668" width="340" height="138" rx="8" fill="white" stroke="#1A1D24" stroke-width="2" filter="url(#softShadow)"/>
+  <rect x="50" y="668" width="340" height="8" rx="4" fill="#5CA46E"/>
+  <text x="220" y="704" text-anchor="middle" font-size="14" font-weight="700" fill="#1A1D24">🎯 OS統合 vs アプリ</text>
+  <text x="68" y="726" font-size="13" fill="#444">Geminiアプリ経由ではなく、</text>
+  <text x="68" y="744" font-size="13" fill="#444">Androidのカーネル近傍で処理。</text>
+  <text x="68" y="762" font-size="13" fill="#444">複数アプリをまたぐタスクが</text>
+  <text x="68" y="780" font-size="13" fill="#444">シームレスに自律実行される。</text>
+
+  <!-- Card 2 -->
+  <rect x="406" y="668" width="340" height="138" rx="8" fill="white" stroke="#1A1D24" stroke-width="2" filter="url(#softShadow)"/>
+  <rect x="406" y="668" width="340" height="8" rx="4" fill="#5CA46E"/>
+  <text x="576" y="704" text-anchor="middle" font-size="14" font-weight="700" fill="#1A1D24">💡 Googlebook の戦略</text>
+  <text x="424" y="726" font-size="13" fill="#444">Acer/ASUS/Dellと組む</text>
+  <text x="424" y="744" font-size="13" fill="#444">OEM戦略。Glowbarで</text>
+  <text x="424" y="762" font-size="13" fill="#444">差別化しつつ、クラウド型</text>
+  <text x="424" y="780" font-size="13" fill="#444">AIでCopilot+に挑む。</text>
+
+  <!-- Card 3 -->
+  <rect x="762" y="668" width="340" height="138" rx="8" fill="white" stroke="#1A1D24" stroke-width="2" filter="url(#softShadow)"/>
+  <rect x="762" y="668" width="340" height="8" rx="4" fill="#5CA46E"/>
+  <text x="932" y="704" text-anchor="middle" font-size="14" font-weight="700" fill="#1A1D24">🔮 vibe UI の含意</text>
+  <text x="780" y="726" font-size="13" fill="#444">自然言語でUIを生成する時代。</text>
+  <text x="780" y="744" font-size="13" fill="#444">ニッチアプリのDL動機が</text>
+  <text x="780" y="762" font-size="13" fill="#444">失われ、Playストア経済が</text>
+  <text x="780" y="780" font-size="13" fill="#444">根本から揺らぐ可能性。</text>
+
+  <!-- Card 4 -->
+  <rect x="1118" y="668" width="240" height="138" rx="8" fill="white" stroke="#1A1D24" stroke-width="2" filter="url(#softShadow)"/>
+  <rect x="1118" y="668" width="240" height="8" rx="4" fill="#5CA46E"/>
+  <text x="1238" y="704" text-anchor="middle" font-size="14" font-weight="700" fill="#1A1D24">📅 I/O前哨戦</text>
+  <text x="1136" y="726" font-size="13" fill="#444">5/19 Google I/Oで</text>
+  <text x="1136" y="744" font-size="13" fill="#444">Gemini 4本発表予定。</text>
+  <text x="1136" y="762" font-size="13" fill="#444">Android Showは期待値</text>
+  <text x="1136" y="780" font-size="13" fill="#444">形成の2段ロケット戦略。</text>
+
+  <!-- STICKY NOTES -->
+  <!-- Sticky 1 -->
+  <g transform="translate(820, 188) rotate(-1.5)" filter="url(#stickyShadow)">
+    <rect x="0" y="0" width="180" height="120" rx="3" fill="#FFF8C0" stroke="#E8D840" stroke-width="1.5"/>
+    <line x1="0" y1="28" x2="180" y2="28" stroke="#E8D840" stroke-width="1"/>
+    <text x="90" y="20" text-anchor="middle" font-size="12" font-weight="700" fill="#7A6800">💬 HN の声</text>
+    <text x="10" y="48" font-size="11" fill="#555">"Gemini が OS 自体に</text>
+    <text x="10" y="64" font-size="11" fill="#555">なるなら、次は何が</text>
+    <text x="10" y="80" font-size="11" fill="#555">アプリで、何がOS</text>
+    <text x="10" y="96" font-size="11" fill="#555">の一部か曖昧になる"</text>
+    <text x="10" y="112" font-size="10" fill="#888">— HN Top Comment</text>
+  </g>
+
+  <!-- Sticky 2 -->
+  <g transform="translate(1010, 175) rotate(1.2)" filter="url(#stickyShadow)">
+    <rect x="0" y="0" width="170" height="110" rx="3" fill="#D4F1FF" stroke="#7EC8E3" stroke-width="1.5"/>
+    <line x1="0" y1="26" x2="170" y2="26" stroke="#7EC8E3" stroke-width="1"/>
+    <text x="85" y="18" text-anchor="middle" font-size="11" font-weight="700" fill="#004A6E">📊 Android Auto</text>
+    <text x="10" y="44" font-size="11" fill="#333">カスタムウィジェット・</text>
+    <text x="10" y="58" font-size="11" fill="#333">動画再生・Dolby Atmos</text>
+    <text x="10" y="72" font-size="11" fill="#333">対応で全面刷新。</text>
+    <text x="10" y="88" font-size="11" fill="#333">CarPlay との競争が</text>
+    <text x="10" y="102" font-size="11" fill="#333">再加熱。</text>
+  </g>
+
+  <!-- Sticky 3 -->
+  <g transform="translate(830, 530) rotate(1.0)" filter="url(#stickyShadow)">
+    <rect x="0" y="0" width="170" height="115" rx="3" fill="#FFE8D5" stroke="#FFB07C" stroke-width="1.5"/>
+    <line x1="0" y1="26" x2="170" y2="26" stroke="#FFB07C" stroke-width="1"/>
+    <text x="85" y="18" text-anchor="middle" font-size="11" font-weight="700" fill="#7A3800">🏆 競合比較</text>
+    <text x="10" y="44" font-size="11" fill="#333">Apple Intelligence</text>
+    <text x="10" y="58" font-size="11" fill="#333">（iOS19）vs Gemini</text>
+    <text x="10" y="72" font-size="11" fill="#333">Intelligence。2027年に</text>
+    <text x="10" y="86" font-size="11" fill="#333">スマホのUIパラダイム</text>
+    <text x="10" y="100" font-size="11" fill="#333">が書き換わる。</text>
+  </g>
+
+  <!-- Sticky 4 -->
+  <g transform="translate(1010, 520) rotate(-0.8)" filter="url(#stickyShadow)">
+    <rect x="0" y="0" width="165" height="120" rx="3" fill="#E8DEFF" stroke="#B09EE8" stroke-width="1.5"/>
+    <line x1="0" y1="26" x2="165" y2="26" stroke="#B09EE8" stroke-width="1"/>
+    <text x="82" y="18" text-anchor="middle" font-size="11" font-weight="700" fill="#3A1A7A">🔒 プライバシー</text>
+    <text x="10" y="44" font-size="11" fill="#333">OS深部統合により</text>
+    <text x="10" y="58" font-size="11" fill="#333">データアクセス範囲が</text>
+    <text x="10" y="72" font-size="11" fill="#333">拡大。EU AI Act適合の</text>
+    <text x="10" y="86" font-size="11" fill="#333">透明性要件が欧州展開</text>
+    <text x="10" y="100" font-size="11" fill="#333">の障壁になり得る。</text>
+  </g>
+
+  <!-- FOOTER -->
+  <line x1="50" y1="826" x2="1350" y2="826" stroke="#D0C9BC" stroke-width="1"/>
+  <text x="700" y="848" text-anchor="middle" font-size="13" font-style="italic" fill="#888">AI News · 2026-05-12 · Google Android Show I/O Edition — Gemini Intelligence Announced</text>
+</svg>
