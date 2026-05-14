@@ -1,0 +1,279 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1400 1050" font-family="-apple-system, 'Hiragino Sans', 'Yu Gothic', sans-serif">
+  <defs>
+    <pattern id="paperTexture" patternUnits="userSpaceOnUse" width="100" height="100">
+      <rect width="100" height="100" fill="#FBF8F1"/>
+      <circle cx="15" cy="22" r="0.4" fill="#C4B389" opacity="0.3"/>
+      <circle cx="67" cy="44" r="0.5" fill="#C4B389" opacity="0.3"/>
+      <circle cx="33" cy="78" r="0.3" fill="#C4B389" opacity="0.3"/>
+      <circle cx="88" cy="88" r="0.4" fill="#C4B389" opacity="0.3"/>
+      <circle cx="50" cy="10" r="0.3" fill="#C4B389" opacity="0.25"/>
+    </pattern>
+    <linearGradient id="greenAccent" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0%" stop-color="#5CA46E"/>
+      <stop offset="100%" stop-color="#7BC48E"/>
+    </linearGradient>
+    <filter id="stickyShadow" x="-10%" y="-10%" width="130%" height="130%">
+      <feGaussianBlur in="SourceAlpha" stdDeviation="3"/>
+      <feOffset dx="2" dy="3"/>
+      <feComponentTransfer><feFuncA type="linear" slope="0.25"/></feComponentTransfer>
+      <feMerge><feMergeNode/><feMergeNode in="SourceGraphic"/></feMerge>
+    </filter>
+    <filter id="softShadow" x="-10%" y="-10%" width="120%" height="120%">
+      <feGaussianBlur in="SourceAlpha" stdDeviation="2"/>
+      <feOffset dx="1" dy="2"/>
+      <feComponentTransfer><feFuncA type="linear" slope="0.18"/></feComponentTransfer>
+      <feMerge><feMergeNode/><feMergeNode in="SourceGraphic"/></feMerge>
+    </filter>
+    <radialGradient id="satelliteGlow" cx="50%" cy="50%" r="50%">
+      <stop offset="0%" stop-color="#5CA46E" stop-opacity="0.3"/>
+      <stop offset="100%" stop-color="#5CA46E" stop-opacity="0"/>
+    </radialGradient>
+  </defs>
+
+  <!-- Background -->
+  <rect width="1400" height="1050" fill="url(#paperTexture)"/>
+
+  <!-- Ruled lines -->
+  <g opacity="0.1" stroke="#8B7A5A" stroke-width="0.6">
+    <line x1="80" y1="160" x2="1340" y2="160"/>
+    <line x1="80" y1="200" x2="1340" y2="200"/>
+    <line x1="80" y1="240" x2="1340" y2="240"/>
+  </g>
+
+  <!-- Left margin line -->
+  <line x1="110" y1="30" x2="110" y2="1020" stroke="#D88A8A" stroke-width="1.2" opacity="0.45"/>
+
+  <!-- Binding holes -->
+  <g fill="#E8E2D3"><circle cx="50" cy="100" r="11"/><circle cx="50" cy="340" r="11"/><circle cx="50" cy="580" r="11"/><circle cx="50" cy="820" r="11"/></g>
+  <g fill="#FBF8F1"><circle cx="50" cy="100" r="8"/><circle cx="50" cy="340" r="8"/><circle cx="50" cy="580" r="8"/><circle cx="50" cy="820" r="8"/></g>
+
+  <!-- Category tape (top right) -->
+  <g transform="rotate(-3, 1200, 55)">
+    <rect x="1080" y="30" width="250" height="46" fill="#5CA46E" stroke="#1A1D24" stroke-width="1.5"/>
+    <text x="1205" y="59" text-anchor="middle" font-size="18" font-weight="700" fill="white" letter-spacing="1">#ビジネス</text>
+  </g>
+
+  <!-- Date badge -->
+  <rect x="125" y="28" width="200" height="38" fill="#2F3842" rx="4"/>
+  <text x="225" y="52" text-anchor="middle" font-size="16" font-weight="600" fill="white">2026-05-13</text>
+
+  <!-- Impact stars -->
+  <text x="350" y="55" font-size="22" fill="#F5A623">⭐⭐⭐</text>
+
+  <!-- Main title -->
+  <text x="125" y="110" font-size="38" font-weight="900" fill="#1A1D24">🛰️ Google × SpaceX「軌道上データセンター」</text>
+  <text x="125" y="155" font-size="26" font-weight="700" fill="#2F3842">81衛星TPUクラスター＋100万基コンステレーション申請——AIコンピュートを宇宙へ</text>
+
+  <!-- Source subline -->
+  <text x="125" y="185" font-size="14" fill="#6B7280">TechCrunch · Data Center Dynamics · 2026-05-13 · #Google #SpaceX #OrbitalAI #インフラ</text>
+
+  <!-- Separator line -->
+  <line x1="125" y1="200" x2="1360" y2="200" stroke="#1A1D24" stroke-width="2"/>
+
+  <!-- ========== HERO MASCOT - Satellite in orbit ========== -->
+  <g transform="translate(1170, 300)">
+    <!-- Space backdrop -->
+    <circle cx="0" cy="0" r="110" fill="#1A1D24" opacity="0.06"/>
+    <!-- Orbit ring -->
+    <ellipse cx="0" cy="0" rx="85" ry="28" fill="none" stroke="#5CA46E" stroke-width="1.5" stroke-dasharray="6,4" opacity="0.6"/>
+    <!-- Earth -->
+    <circle cx="0" cy="0" r="36" fill="#3B82F6" stroke="#1A1D24" stroke-width="2"/>
+    <ellipse cx="-8" cy="-5" rx="12" ry="8" fill="#5CA46E" opacity="0.8"/>
+    <ellipse cx="10" cy="8" rx="8" ry="6" fill="#5CA46E" opacity="0.7"/>
+    <!-- Satellite body -->
+    <g transform="translate(75, -18)">
+      <rect x="-14" y="-10" width="28" height="20" fill="#E5E7EB" stroke="#1A1D24" stroke-width="2" rx="2"/>
+      <rect x="-26" y="-4" width="12" height="8" fill="#5CA46E" stroke="#1A1D24" stroke-width="1.5"/>
+      <rect x="14" y="-4" width="12" height="8" fill="#5CA46E" stroke="#1A1D24" stroke-width="1.5"/>
+      <circle cx="0" cy="0" r="4" fill="#F5A623" stroke="#1A1D24" stroke-width="1"/>
+    </g>
+    <!-- Label -->
+    <text x="0" y="90" text-anchor="middle" font-size="13" font-weight="700" fill="#5CA46E">Project Suncatcher</text>
+  </g>
+
+  <!-- ========== KEY NUMBERS ========== -->
+  <rect x="125" y="215" width="980" height="120" fill="white" stroke="#1A1D24" stroke-width="2" rx="6" filter="url(#softShadow)"/>
+  <line x1="370" y1="225" x2="370" y2="325" stroke="#E5E7EB" stroke-width="1.5"/>
+  <line x1="615" y1="225" x2="615" y2="325" stroke="#E5E7EB" stroke-width="1.5"/>
+  <line x1="860" y1="225" x2="860" y2="325" stroke="#E5E7EB" stroke-width="1.5"/>
+
+  <text x="247" y="270" text-anchor="middle" font-size="48" font-weight="900" fill="#5CA46E">81</text>
+  <text x="247" y="298" text-anchor="middle" font-size="13" fill="#6B7280">Google TPU衛星数</text>
+  <text x="247" y="316" text-anchor="middle" font-size="11" fill="#9CA3AF">（1km軌道クラスター）</text>
+
+  <text x="492" y="260" text-anchor="middle" font-size="36" font-weight="900" fill="#1A1D24">1M</text>
+  <text x="492" y="285" text-anchor="middle" font-size="14" fill="#6B7280">SpaceX FCC申請</text>
+  <text x="492" y="303" text-anchor="middle" font-size="13" fill="#5CA46E" font-weight="700">衛星コンステレーション</text>
+  <text x="492" y="320" text-anchor="middle" font-size="11" fill="#9CA3AF">（最大）</text>
+
+  <text x="737" y="260" text-anchor="middle" font-size="36" font-weight="900" fill="#1A1D24">$1.75T</text>
+  <text x="737" y="285" text-anchor="middle" font-size="14" fill="#6B7280">SpaceX IPOバリュエーション</text>
+  <text x="737" y="303" text-anchor="middle" font-size="13" fill="#5CA46E" font-weight="700">2026年後半予定</text>
+  <text x="737" y="320" text-anchor="middle" font-size="11" fill="#9CA3AF">（軌道AIが2本目の柱）</text>
+
+  <text x="990" y="260" text-anchor="middle" font-size="36" font-weight="900" fill="#1A1D24">2028</text>
+  <text x="990" y="285" text-anchor="middle" font-size="14" fill="#6B7280">商用展開目標年</text>
+  <text x="990" y="303" text-anchor="middle" font-size="13" fill="#5CA46E" font-weight="700">今年中にプロト2基打ち上げ</text>
+  <text x="990" y="320" text-anchor="middle" font-size="11" fill="#9CA3AF">（Google計画）</text>
+
+  <!-- ========== MAIN VISUAL - Infrastructure comparison ========== -->
+  <rect x="125" y="355" width="670" height="290" fill="white" stroke="#1A1D24" stroke-width="2" rx="6" filter="url(#softShadow)"/>
+  <rect x="125" y="355" width="670" height="36" fill="#1A1D24" rx="4"/>
+  <text x="460" y="379" text-anchor="middle" font-size="15" font-weight="700" fill="white">📊 地上 vs 軌道：AIコンピュートコスト比較（将来試算）</text>
+
+  <!-- Bar chart -->
+  <g transform="translate(145, 395)">
+    <!-- Y labels -->
+    <text x="0" y="20" font-size="11" fill="#6B7280">冷却コスト</text>
+    <text x="0" y="65" font-size="11" fill="#6B7280">電力調達</text>
+    <text x="0" y="110" font-size="11" fill="#6B7280">用地コスト</text>
+    <text x="0" y="155" font-size="11" fill="#6B7280">構築期間</text>
+    <text x="0" y="200" font-size="11" fill="#6B7280">グローバル展開</text>
+
+    <!-- Ground DC bars -->
+    <rect x="120" y="5" width="300" height="22" fill="#9CA3AF" stroke="#1A1D24" stroke-width="1" rx="2"/>
+    <text x="425" y="21" font-size="11" fill="#6B7280">地上 30〜40%</text>
+
+    <rect x="120" y="50" width="260" height="22" fill="#9CA3AF" stroke="#1A1D24" stroke-width="1" rx="2"/>
+    <text x="385" y="66" font-size="11" fill="#6B7280">地上 変動大</text>
+
+    <rect x="120" y="95" width="200" height="22" fill="#9CA3AF" stroke="#1A1D24" stroke-width="1" rx="2"/>
+    <text x="325" y="111" font-size="11" fill="#6B7280">地上 高騰中</text>
+
+    <rect x="120" y="140" width="180" height="22" fill="#9CA3AF" stroke="#1A1D24" stroke-width="1" rx="2"/>
+    <text x="305" y="156" font-size="11" fill="#6B7280">地上 2〜5年</text>
+
+    <rect x="120" y="185" width="240" height="22" fill="#9CA3AF" stroke="#1A1D24" stroke-width="1" rx="2"/>
+    <text x="365" y="201" font-size="11" fill="#6B7280">地上 地域制限</text>
+
+    <!-- Orbital bars -->
+    <rect x="120" y="5" width="20" height="22" fill="#5CA46E" stroke="#1A1D24" stroke-width="1" rx="2" opacity="0.8"/>
+    <text x="145" y="21" font-size="11" fill="#5CA46E" font-weight="700">≈0%（太陽光）</text>
+
+    <rect x="120" y="50" width="40" height="22" fill="#5CA46E" stroke="#1A1D24" stroke-width="1" rx="2" opacity="0.8"/>
+    <text x="165" y="66" font-size="11" fill="#5CA46E" font-weight="700">太陽光のみ</text>
+
+    <rect x="120" y="95" width="30" height="22" fill="#5CA46E" stroke="#1A1D24" stroke-width="1" rx="2" opacity="0.8"/>
+    <text x="155" y="111" font-size="11" fill="#5CA46E" font-weight="700">打上コスト</text>
+
+    <rect x="120" y="140" width="60" height="22" fill="#5CA46E" stroke="#1A1D24" stroke-width="1" rx="2" opacity="0.8"/>
+    <text x="185" y="156" font-size="11" fill="#5CA46E" font-weight="700">軌道 6〜18ヶ月</text>
+
+    <rect x="120" y="185" width="60" height="22" fill="#5CA46E" stroke="#1A1D24" stroke-width="1" rx="2" opacity="0.8"/>
+    <text x="185" y="201" font-size="11" fill="#5CA46E" font-weight="700">全球 低遅延</text>
+
+    <!-- Legend -->
+    <rect x="120" y="235" width="14" height="12" fill="#9CA3AF" stroke="#1A1D24" stroke-width="1"/>
+    <text x="138" y="245" font-size="11" fill="#6B7280">地上データセンター（現在）</text>
+    <rect x="320" y="235" width="14" height="12" fill="#5CA46E" stroke="#1A1D24" stroke-width="1"/>
+    <text x="338" y="245" font-size="11" fill="#5CA46E">軌道上（将来試算）</text>
+  </g>
+
+  <!-- ========== PARTNERSHIP TIMELINE ========== -->
+  <rect x="815" y="355" width="550" height="290" fill="white" stroke="#1A1D24" stroke-width="2" rx="6" filter="url(#softShadow)"/>
+  <rect x="815" y="355" width="550" height="36" fill="#2F3842" rx="4"/>
+  <text x="1090" y="379" text-anchor="middle" font-size="15" font-weight="700" fill="white">🚀 軌道AIインフラ タイムライン</text>
+
+  <g transform="translate(850, 400)">
+    <line x1="30" y1="0" x2="30" y2="220" stroke="#5CA46E" stroke-width="2"/>
+
+    <circle cx="30" cy="20" r="8" fill="#5CA46E" stroke="#1A1D24" stroke-width="2"/>
+    <text x="50" y="16" font-size="13" font-weight="700" fill="#1A1D24">2026年5月</text>
+    <text x="50" y="32" font-size="12" fill="#6B7280">Google×SpaceX協議判明</text>
+    <text x="50" y="47" font-size="11" fill="#5CA46E">Anthropic×SpaceX連携も同週発表</text>
+
+    <circle cx="30" cy="80" r="8" fill="#E5E7EB" stroke="#1A1D24" stroke-width="2"/>
+    <text x="50" y="76" font-size="13" font-weight="700" fill="#1A1D24">2026年後半</text>
+    <text x="50" y="92" font-size="12" fill="#6B7280">SpaceX IPO（$1.75T想定）</text>
+    <text x="50" y="107" font-size="11" fill="#9CA3AF">軌道AIが第2の収益柱として提示</text>
+
+    <circle cx="30" cy="140" r="8" fill="#E5E7EB" stroke="#1A1D24" stroke-width="2"/>
+    <text x="50" y="136" font-size="13" font-weight="700" fill="#1A1D24">2026年内</text>
+    <text x="50" y="152" font-size="12" fill="#6B7280">Suncatcher プロト衛星2基打ち上げ</text>
+    <text x="50" y="167" font-size="11" fill="#9CA3AF">TPU軌道推論の実証実験開始</text>
+
+    <circle cx="30" cy="200" r="8" fill="#E5E7EB" stroke="#1A1D24" stroke-width="2"/>
+    <text x="50" y="196" font-size="13" font-weight="700" fill="#1A1D24">2028〜</text>
+    <text x="50" y="212" font-size="12" fill="#6B7280">81衛星クラスター商用展開目標</text>
+    <text x="50" y="227" font-size="11" fill="#9CA3AF">地上比コスト競争力の実現が焦点</text>
+  </g>
+
+  <!-- ========== FEATURE CARDS ========== -->
+  <!-- Card 1 -->
+  <rect x="125" y="665" width="295" height="110" fill="white" stroke="#1A1D24" stroke-width="2" rx="6" filter="url(#softShadow)"/>
+  <rect x="125" y="665" width="295" height="4" fill="#5CA46E" rx="2"/>
+  <text x="272" y="695" text-anchor="middle" font-size="20">☀️</text>
+  <text x="272" y="715" text-anchor="middle" font-size="13" font-weight="700" fill="#1A1D24">冷却コストゼロ</text>
+  <text x="272" y="733" text-anchor="middle" font-size="12" fill="#6B7280">宇宙の真空環境と</text>
+  <text x="272" y="749" text-anchor="middle" font-size="12" fill="#6B7280">太陽光で電力・冷却をほぼ不要に</text>
+
+  <!-- Card 2 -->
+  <rect x="435" y="665" width="295" height="110" fill="white" stroke="#1A1D24" stroke-width="2" rx="6" filter="url(#softShadow)"/>
+  <rect x="435" y="665" width="295" height="4" fill="#5CA46E" rx="2"/>
+  <text x="582" y="695" text-anchor="middle" font-size="20">🌐</text>
+  <text x="582" y="715" text-anchor="middle" font-size="13" font-weight="700" fill="#1A1D24">全球カバレッジ</text>
+  <text x="582" y="733" text-anchor="middle" font-size="12" fill="#6B7280">Starlink 2.x連携で地球上</text>
+  <text x="582" y="749" text-anchor="middle" font-size="12" fill="#6B7280">どこでも低遅延アクセス</text>
+
+  <!-- Card 3 -->
+  <rect x="745" y="665" width="295" height="110" fill="white" stroke="#1A1D24" stroke-width="2" rx="6" filter="url(#softShadow)"/>
+  <rect x="745" y="665" width="295" height="4" fill="#5CA46E" rx="2"/>
+  <text x="892" y="695" text-anchor="middle" font-size="20">⚡</text>
+  <text x="892" y="715" text-anchor="middle" font-size="13" font-weight="700" fill="#1A1D24">用地制約なし</text>
+  <text x="892" y="733" text-anchor="middle" font-size="12" fill="#6B7280">電力不足・熱規制・</text>
+  <text x="892" y="749" text-anchor="middle" font-size="12" fill="#6B7280">土地問題をバイパス</text>
+
+  <!-- Card 4 -->
+  <rect x="1055" y="665" width="310" height="110" fill="white" stroke="#1A1D24" stroke-width="2" rx="6" filter="url(#softShadow)"/>
+  <rect x="1055" y="665" width="310" height="4" fill="#5CA46E" rx="2"/>
+  <text x="1210" y="695" text-anchor="middle" font-size="20">⚠️</text>
+  <text x="1210" y="715" text-anchor="middle" font-size="13" font-weight="700" fill="#1A1D24">現在の課題</text>
+  <text x="1210" y="733" text-anchor="middle" font-size="12" fill="#6B7280">打ち上げコスト・放射線劣化・</text>
+  <text x="1210" y="749" text-anchor="middle" font-size="12" fill="#6B7280">デブリリスク・法規制整備</text>
+
+  <!-- ========== STICKY NOTES ========== -->
+  <!-- Sticky 1 -->
+  <g transform="rotate(-1.5, 170, 820)" filter="url(#stickyShadow)">
+    <rect x="125" y="795" width="250" height="115" fill="#FEF9C3" stroke="#1A1D24" stroke-width="1.5" rx="2"/>
+    <text x="250" y="820" text-anchor="middle" font-size="13" font-weight="700" fill="#1A1D24">競合の動き</text>
+    <text x="145" y="840" font-size="11" fill="#374151">Microsoft Azure Orbital・</text>
+    <text x="145" y="856" font-size="11" fill="#374151">Amazon AWS も宇宙コンピュート</text>
+    <text x="145" y="872" font-size="11" fill="#374151">に投資拡大中。SpaceXが</text>
+    <text x="145" y="888" font-size="11" fill="#374151">Google独占にはならない。</text>
+  </g>
+
+  <!-- Sticky 2 -->
+  <g transform="rotate(1.2, 440, 820)" filter="url(#stickyShadow)">
+    <rect x="400" y="795" width="250" height="115" fill="#D1FAE5" stroke="#1A1D24" stroke-width="1.5" rx="2"/>
+    <text x="525" y="820" text-anchor="middle" font-size="13" font-weight="700" fill="#1A1D24">投資家の視点</text>
+    <text x="420" y="840" font-size="11" fill="#374151">SpaceX IPOドキュメントに</text>
+    <text x="420" y="856" font-size="11" fill="#374151">Google・Anthropicが顧客として</text>
+    <text x="420" y="872" font-size="11" fill="#374151">記載される可能性。</text>
+    <text x="420" y="888" font-size="11" fill="#374151">テック×宇宙の合流点。</text>
+  </g>
+
+  <!-- Sticky 3 -->
+  <g transform="rotate(-1.0, 710, 820)" filter="url(#stickyShadow)">
+    <rect x="680" y="795" width="250" height="115" fill="#FDE8D8" stroke="#1A1D24" stroke-width="1.5" rx="2"/>
+    <text x="805" y="820" text-anchor="middle" font-size="13" font-weight="700" fill="#1A1D24">技術的ハードル</text>
+    <text x="700" y="840" font-size="11" fill="#374151">衛星間レーザーリンク・</text>
+    <text x="700" y="856" font-size="11" fill="#374151">TPU宇宙放射線耐性・</text>
+    <text x="700" y="872" font-size="11" fill="#374151">温度-270℃〜+120℃対応。</text>
+    <text x="700" y="888" font-size="11" fill="#374151">技術実現は2028年以降。</text>
+  </g>
+
+  <!-- Sticky 4 -->
+  <g transform="rotate(1.5, 990, 820)" filter="url(#stickyShadow)">
+    <rect x="960" y="795" width="250" height="115" fill="#EDE9FE" stroke="#1A1D24" stroke-width="1.5" rx="2"/>
+    <text x="1085" y="820" text-anchor="middle" font-size="13" font-weight="700" fill="#1A1D24">HN コメント</text>
+    <text x="980" y="840" font-size="11" fill="#374151">「冷却タダは本当に？」</text>
+    <text x="980" y="856" font-size="11" fill="#374151">「放熱板の設計が最難関」</text>
+    <text x="980" y="872" font-size="11" fill="#374151">熱放散の問題が真空では</text>
+    <text x="980" y="888" font-size="11" fill="#374151">むしろ困難という指摘多数。</text>
+  </g>
+
+  <!-- Footer -->
+  <line x1="125" y1="932" x2="1360" y2="932" stroke="#1A1D24" stroke-width="1" opacity="0.3"/>
+  <text x="742" y="954" text-anchor="middle" font-size="12" font-style="italic" fill="#9CA3AF">AI News · 2026-05-13 · Google × SpaceX Orbital Data Center for AI Compute</text>
+  <text x="742" y="972" text-anchor="middle" font-size="11" fill="#9CA3AF">Sources: TechCrunch / Data Center Dynamics / Tom's Hardware / Technology.org</text>
+</svg>

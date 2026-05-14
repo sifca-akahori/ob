@@ -1,0 +1,189 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1400 1050" font-family="-apple-system, 'Hiragino Sans', 'Yu Gothic', sans-serif">
+  <defs>
+    <pattern id="paperTexture" patternUnits="userSpaceOnUse" width="100" height="100">
+      <rect width="100" height="100" fill="#FBF8F1"/>
+      <circle cx="15" cy="22" r="0.4" fill="#C4B389" opacity="0.3"/>
+      <circle cx="67" cy="44" r="0.5" fill="#C4B389" opacity="0.3"/>
+      <circle cx="33" cy="78" r="0.3" fill="#C4B389" opacity="0.25"/>
+    </pattern>
+    <filter id="stickyShadow" x="-10%" y="-10%" width="130%" height="130%">
+      <feGaussianBlur in="SourceAlpha" stdDeviation="3"/>
+      <feOffset dx="2" dy="3"/>
+      <feComponentTransfer><feFuncA type="linear" slope="0.25"/></feComponentTransfer>
+      <feMerge><feMergeNode/><feMergeNode in="SourceGraphic"/></feMerge>
+    </filter>
+    <filter id="softShadow" x="-10%" y="-10%" width="120%" height="120%">
+      <feGaussianBlur in="SourceAlpha" stdDeviation="2"/>
+      <feOffset dx="1" dy="2"/>
+      <feComponentTransfer><feFuncA type="linear" slope="0.18"/></feComponentTransfer>
+      <feMerge><feMergeNode/><feMergeNode in="SourceGraphic"/></feMerge>
+    </filter>
+  </defs>
+
+  <rect width="1400" height="1050" fill="url(#paperTexture)"/>
+  <line x1="110" y1="30" x2="110" y2="1020" stroke="#D88A8A" stroke-width="1.2" opacity="0.45"/>
+  <g fill="#E8E2D3"><circle cx="50" cy="100" r="11"/><circle cx="50" cy="340" r="11"/><circle cx="50" cy="580" r="11"/><circle cx="50" cy="820" r="11"/></g>
+  <g fill="#FBF8F1"><circle cx="50" cy="100" r="8"/><circle cx="50" cy="340" r="8"/><circle cx="50" cy="580" r="8"/><circle cx="50" cy="820" r="8"/></g>
+
+  <!-- Category tape -->
+  <g transform="rotate(-3, 1200, 55)">
+    <rect x="1080" y="30" width="250" height="46" fill="#5CA46E" stroke="#1A1D24" stroke-width="1.5"/>
+    <text x="1205" y="59" text-anchor="middle" font-size="18" font-weight="700" fill="white">#ビジネス / 規制</text>
+  </g>
+
+  <rect x="125" y="28" width="200" height="38" fill="#2F3842" rx="4"/>
+  <text x="225" y="52" text-anchor="middle" font-size="16" font-weight="600" fill="white">2026-05-13</text>
+  <text x="350" y="55" font-size="22" fill="#F5A623">⭐⭐</text>
+
+  <text x="125" y="108" font-size="36" font-weight="900" fill="#1A1D24">🏛️ トランプ政権AI監督論が内部対立で膠着</text>
+  <text x="125" y="152" font-size="23" font-weight="700" fill="#5CA46E">Mythosのサイバー能力が問題化→規制検討も担当省庁・手法で紛糾→業界自主規制が先行</text>
+  <text x="125" y="185" font-size="14" fill="#6B7280">Fortune · The Hacker News · 2026-05-13 · #AI規制 #トランプ政権 #国家安全保障 #自主規制</text>
+  <line x1="125" y1="200" x2="1360" y2="200" stroke="#1A1D24" stroke-width="2"/>
+
+  <!-- HERO: Capitol building icon -->
+  <g transform="translate(1185, 305)">
+    <circle cx="0" cy="0" r="90" fill="white" stroke="#1A1D24" stroke-width="2" opacity="0.9"/>
+    <!-- Capitol dome -->
+    <ellipse cx="0" cy="-20" rx="35" ry="25" fill="#E5E7EB" stroke="#1A1D24" stroke-width="2"/>
+    <rect x="-40" y="5" width="80" height="45" fill="#D1D5DB" stroke="#1A1D24" stroke-width="1.5"/>
+    <rect x="-55" y="48" width="110" height="10" fill="#9CA3AF" stroke="#1A1D24" stroke-width="1"/>
+    <!-- Flag on dome -->
+    <line x1="0" y1="-45" x2="0" y2="-68" stroke="#1A1D24" stroke-width="1.5"/>
+    <rect x="0" y="-68" width="16" height="10" fill="#DC2626"/>
+    <!-- Question mark over it -->
+    <text x="0" y="-78" text-anchor="middle" font-size="28" fill="#F59E0B" font-weight="900">?</text>
+    <text x="0" y="115" text-anchor="middle" font-size="11" font-weight="700" fill="#5CA46E">規制の方向性が不明</text>
+  </g>
+
+  <!-- KEY NUMBERS -->
+  <rect x="125" y="215" width="980" height="120" fill="white" stroke="#1A1D24" stroke-width="2" rx="6" filter="url(#softShadow)"/>
+  <line x1="370" y1="225" x2="370" y2="325" stroke="#E5E7EB" stroke-width="1.5"/>
+  <line x1="615" y1="225" x2="615" y2="325" stroke="#E5E7EB" stroke-width="1.5"/>
+  <line x1="860" y1="225" x2="860" y2="325" stroke="#E5E7EB" stroke-width="1.5"/>
+
+  <text x="247" y="262" text-anchor="middle" font-size="38" font-weight="900" fill="#F59E0B">膠着</text>
+  <text x="247" y="285" text-anchor="middle" font-size="13" fill="#6B7280">連邦AI規制立案の状況</text>
+  <text x="247" y="303" text-anchor="middle" font-size="11" fill="#9CA3AF">（担当省庁・手法が未決定）</text>
+
+  <text x="492" y="258" text-anchor="middle" font-size="32" font-weight="900" fill="#1A1D24">3省庁</text>
+  <text x="492" y="278" text-anchor="middle" font-size="13" fill="#6B7280">主導権を争う機関</text>
+  <text x="492" y="296" text-anchor="middle" font-size="13" fill="#DC2626" font-weight="700">NIST / 商務省 / NSA</text>
+  <text x="492" y="314" text-anchor="middle" font-size="11" fill="#9CA3AF">（+ DHS も関与）</text>
+
+  <text x="737" y="258" text-anchor="middle" font-size="30" font-weight="900" fill="#1A1D24">Mythos</text>
+  <text x="737" y="278" text-anchor="middle" font-size="13" fill="#6B7280">規制論再燃のトリガー</text>
+  <text x="737" y="296" text-anchor="middle" font-size="13" fill="#DC2626" font-weight="700">ゼロデイ大量発見能力</text>
+  <text x="737" y="314" text-anchor="middle" font-size="11" fill="#9CA3AF">（国家安全保障上の懸念）</text>
+
+  <text x="990" y="258" text-anchor="middle" font-size="24" font-weight="900" fill="#5CA46E">自主規制</text>
+  <text x="990" y="280" text-anchor="middle" font-size="13" fill="#6B7280">政府停滞中に先行</text>
+  <text x="990" y="298" text-anchor="middle" font-size="13" fill="#5CA46E" font-weight="700">Microsoft・xAI が早期共有合意</text>
+  <text x="990" y="316" text-anchor="middle" font-size="11" fill="#9CA3AF">（業界主導パターンの再現）</text>
+
+  <!-- TIMELINE of US AI Policy -->
+  <rect x="125" y="355" width="660" height="290" fill="white" stroke="#1A1D24" stroke-width="2" rx="6" filter="url(#softShadow)"/>
+  <rect x="125" y="355" width="660" height="36" fill="#1A1D24" rx="4"/>
+  <text x="455" y="379" text-anchor="middle" font-size="15" font-weight="700" fill="white">📅 米国AI政策タイムライン</text>
+
+  <g transform="translate(150, 400)">
+    <line x1="25" y1="0" x2="25" y2="230" stroke="#5CA46E" stroke-width="2"/>
+
+    <circle cx="25" cy="20" r="8" fill="#5B8DEF" stroke="#1A1D24" stroke-width="2"/>
+    <text x="45" y="16" font-size="12" font-weight="700" fill="#1A1D24">2023</text>
+    <text x="45" y="30" font-size="11" fill="#374151">Frontier Model Forum 設立（自主規制先行）</text>
+
+    <circle cx="25" cy="65" r="8" fill="#5B8DEF" stroke="#1A1D24" stroke-width="2"/>
+    <text x="45" y="61" font-size="12" font-weight="700" fill="#1A1D24">2024年10月</text>
+    <text x="45" y="75" font-size="11" fill="#374151">バイデン大統領令（EO 14110）でAI安全基準</text>
+
+    <circle cx="25" cy="110" r="8" fill="#DC2626" stroke="#1A1D24" stroke-width="2"/>
+    <text x="45" y="106" font-size="12" font-weight="700" fill="#DC2626">2025年1月</text>
+    <text x="45" y="120" font-size="11" fill="#DC2626">トランプがEO 14110廃止「規制より革新」</text>
+
+    <circle cx="25" cy="155" r="8" fill="#F59E0B" stroke="#1A1D24" stroke-width="2"/>
+    <text x="45" y="151" font-size="12" font-weight="700" fill="#F59E0B">2026年5月初</text>
+    <text x="45" y="165" font-size="11" fill="#374151">Mythosリスク懸念で規制再検討へ転換</text>
+
+    <circle cx="25" cy="200" r="8" fill="#9CA3AF" stroke="#1A1D24" stroke-width="2"/>
+    <text x="45" y="196" font-size="12" font-weight="700" fill="#6B7280">2026年5月13日</text>
+    <text x="45" y="210" font-size="11" fill="#6B7280">政権内対立で計画停滞・業界自主規制先行</text>
+  </g>
+
+  <!-- Stakeholder Positions -->
+  <rect x="805" y="355" width="560" height="290" fill="white" stroke="#1A1D24" stroke-width="2" rx="6" filter="url(#softShadow)"/>
+  <rect x="805" y="355" width="560" height="36" fill="#2F3842" rx="4"/>
+  <text x="1085" y="379" text-anchor="middle" font-size="15" font-weight="700" fill="white">🗺️ 各ステークホルダーの立場</text>
+
+  <g transform="translate(825, 408)">
+    <!-- NIST -->
+    <rect x="0" y="0" width="240" height="60" fill="#EFF6FF" stroke="#5B8DEF" stroke-width="1.5" rx="4"/>
+    <text x="120" y="22" text-anchor="middle" font-size="12" font-weight="700" fill="#1E40AF">🏛️ NIST</text>
+    <text x="120" y="40" text-anchor="middle" font-size="11" fill="#374151">技術的テスト標準の策定を主導したい</text>
+    <text x="120" y="56" text-anchor="middle" font-size="10" fill="#9CA3AF">→ 実施権限がなく「勧告のみ」の限界</text>
+
+    <rect x="0" y="70" width="240" height="60" fill="#FEE2E2" stroke="#DC2626" stroke-width="1.5" rx="4"/>
+    <text x="120" y="92" text-anchor="middle" font-size="12" font-weight="700" fill="#DC2626">⚔️ NSA / DoD</text>
+    <text x="120" y="110" text-anchor="middle" font-size="11" fill="#374151">安全保障上の機密テストを要求</text>
+    <text x="120" y="126" text-anchor="middle" font-size="10" fill="#9CA3AF">→ 民間企業のモデルを軍が評価？</text>
+
+    <rect x="0" y="140" width="240" height="60" fill="#F0FFF4" stroke="#5CA46E" stroke-width="1.5" rx="4"/>
+    <text x="120" y="162" text-anchor="middle" font-size="12" font-weight="700" fill="#166534">🤝 大手AI企業</text>
+    <text x="120" y="180" text-anchor="middle" font-size="11" fill="#374151">自主的な早期アクセス提供に合意</text>
+    <text x="120" y="196" text-anchor="middle" font-size="10" fill="#5CA46E">→ 規制を先回りして既成事実化</text>
+
+    <rect x="270" y="0" width="240" height="130" fill="#FEF3C7" stroke="#F59E0B" stroke-width="1.5" rx="4"/>
+    <text x="390" y="22" text-anchor="middle" font-size="12" font-weight="700" fill="#92400E">⚠️ 未解決の3大論点</text>
+    <text x="280" y="45" font-size="11" fill="#374151">1. どの省庁が正式に担当するか</text>
+    <text x="280" y="65" font-size="11" fill="#374151">2. テスト方法・評価指標をどう設計するか</text>
+    <text x="280" y="85" font-size="11" fill="#374151">3. 規制対象はフラッグシップのみか</text>
+    <text x="280" y="105" font-size="11" fill="#374151">   オープンウェイトも含むか</text>
+    <text x="280" y="125" font-size="11" fill="#DC2626" font-weight="700">→ これらが解決するまで政策は出ない</text>
+
+    <rect x="270" y="140" width="240" height="60" fill="#F3F4F6" stroke="#6B7280" stroke-width="1.5" rx="4"/>
+    <text x="390" y="162" text-anchor="middle" font-size="12" font-weight="700" fill="#374151">📊 EU AI Actとの比較</text>
+    <text x="390" y="180" text-anchor="middle" font-size="11" fill="#374151">EU：施行フェーズ・義務的</text>
+    <text x="390" y="196" text-anchor="middle" font-size="10" fill="#9CA3AF">米国：自主規制・任意・未定</text>
+  </g>
+
+  <!-- STICKY NOTES -->
+  <g transform="rotate(-1.5, 170, 820)" filter="url(#stickyShadow)">
+    <rect x="125" y="795" width="250" height="110" fill="#FEF9C3" stroke="#1A1D24" stroke-width="1.5" rx="2"/>
+    <text x="250" y="818" text-anchor="middle" font-size="13" font-weight="700" fill="#1A1D24">超党派合意の可能性</text>
+    <text x="145" y="838" font-size="11" fill="#374151">「AIサイバー安全保障」は</text>
+    <text x="145" y="854" font-size="11" fill="#374151">共和・民主双方が合意</text>
+    <text x="145" y="870" font-size="11" fill="#374151">しやすい数少ないテーマ。</text>
+    <text x="145" y="886" font-size="11" fill="#374151">CAISI法案が注目の焦点。</text>
+  </g>
+
+  <g transform="rotate(1.2, 440, 820)" filter="url(#stickyShadow)">
+    <rect x="405" y="795" width="250" height="110" fill="#D1FAE5" stroke="#1A1D24" stroke-width="1.5" rx="2"/>
+    <text x="530" y="818" text-anchor="middle" font-size="13" font-weight="700" fill="#1A1D24">自主規制の限界</text>
+    <text x="425" y="838" font-size="11" fill="#374151">業界自主規制は善意の</text>
+    <text x="425" y="854" font-size="11" fill="#374151">大手企業には効くが、</text>
+    <text x="425" y="870" font-size="11" fill="#374151">中国系・犯罪グループには</text>
+    <text x="425" y="886" font-size="11" fill="#374151">全く機能しない。</text>
+  </g>
+
+  <g transform="rotate(-0.8, 710, 820)" filter="url(#stickyShadow)">
+    <rect x="685" y="795" width="250" height="110" fill="#FDE8D8" stroke="#1A1D24" stroke-width="1.5" rx="2"/>
+    <text x="810" y="818" text-anchor="middle" font-size="13" font-weight="700" fill="#1A1D24">FDA型モデル審査論</text>
+    <text x="705" y="838" font-size="11" fill="#374151">「医薬品承認のように</text>
+    <text x="705" y="838" font-size="11" fill="#374151">フロンティアモデルを</text>
+    <text x="705" y="854" font-size="11" fill="#374151">公開前に審査すべき」という</text>
+    <text x="705" y="870" font-size="11" fill="#374151">議論が政権内外で再燃。</text>
+    <text x="705" y="886" font-size="11" fill="#374151">イノベーション阻害との兼ね合い。</text>
+  </g>
+
+  <g transform="rotate(1.5, 990, 820)" filter="url(#stickyShadow)">
+    <rect x="965" y="795" width="250" height="110" fill="#EDE9FE" stroke="#1A1D24" stroke-width="1.5" rx="2"/>
+    <text x="1090" y="818" text-anchor="middle" font-size="13" font-weight="700" fill="#1A1D24">1年先の予測</text>
+    <text x="985" y="838" font-size="11" fill="#374151">2027年初頭にCAISI的な</text>
+    <text x="985" y="854" font-size="11" fill="#374151">連邦AI安全法が成立する</text>
+    <text x="985" y="870" font-size="11" fill="#374151">可能性大。ただし骨抜き</text>
+    <text x="985" y="886" font-size="11" fill="#374151">バージョンになる見込み。</text>
+  </g>
+
+  <line x1="125" y1="932" x2="1360" y2="932" stroke="#1A1D24" stroke-width="1" opacity="0.3"/>
+  <text x="742" y="954" text-anchor="middle" font-size="12" font-style="italic" fill="#9CA3AF">AI News · 2026-05-13 · Trump Administration AI Oversight Plans Stall Amid Internal Disputes</text>
+  <text x="742" y="972" text-anchor="middle" font-size="11" fill="#9CA3AF">Sources: Fortune / The Hacker News / CIO Dive / Wilson Sonsini</text>
+</svg>

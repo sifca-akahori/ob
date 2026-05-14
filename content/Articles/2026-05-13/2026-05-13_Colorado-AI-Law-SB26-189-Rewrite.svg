@@ -1,0 +1,203 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1400 1050" font-family="-apple-system, 'Hiragino Sans', 'Yu Gothic', sans-serif">
+  <defs>
+    <pattern id="paperTexture" patternUnits="userSpaceOnUse" width="100" height="100">
+      <rect width="100" height="100" fill="#FBF8F1"/>
+      <circle cx="20" cy="30" r="0.4" fill="#C4B389" opacity="0.3"/>
+      <circle cx="70" cy="55" r="0.5" fill="#C4B389" opacity="0.3"/>
+      <circle cx="45" cy="80" r="0.3" fill="#C4B389" opacity="0.25"/>
+    </pattern>
+    <filter id="stickyShadow" x="-10%" y="-10%" width="130%" height="130%">
+      <feGaussianBlur in="SourceAlpha" stdDeviation="3"/>
+      <feOffset dx="2" dy="3"/>
+      <feComponentTransfer><feFuncA type="linear" slope="0.25"/></feComponentTransfer>
+      <feMerge><feMergeNode/><feMergeNode in="SourceGraphic"/></feMerge>
+    </filter>
+    <filter id="softShadow" x="-10%" y="-10%" width="120%" height="120%">
+      <feGaussianBlur in="SourceAlpha" stdDeviation="2"/>
+      <feOffset dx="1" dy="2"/>
+      <feComponentTransfer><feFuncA type="linear" slope="0.18"/></feComponentTransfer>
+      <feMerge><feMergeNode/><feMergeNode in="SourceGraphic"/></feMerge>
+    </filter>
+  </defs>
+
+  <rect width="1400" height="1050" fill="url(#paperTexture)"/>
+
+  <!-- Ruled lines -->
+  <g opacity="0.08" stroke="#8B7A5A" stroke-width="0.6">
+    <line x1="80" y1="160" x2="1340" y2="160"/>
+    <line x1="80" y1="200" x2="1340" y2="200"/>
+  </g>
+
+  <!-- Margin line -->
+  <line x1="110" y1="30" x2="110" y2="1020" stroke="#D88A8A" stroke-width="1.2" opacity="0.45"/>
+
+  <!-- Binding holes -->
+  <g fill="#E8E2D3"><circle cx="50" cy="100" r="11"/><circle cx="50" cy="340" r="11"/><circle cx="50" cy="580" r="11"/><circle cx="50" cy="820" r="11"/></g>
+  <g fill="#FBF8F1"><circle cx="50" cy="100" r="8"/><circle cx="50" cy="340" r="8"/><circle cx="50" cy="580" r="8"/><circle cx="50" cy="820" r="8"/></g>
+
+  <!-- Category tape -->
+  <g transform="rotate(-3, 1200, 55)">
+    <rect x="1080" y="30" width="250" height="46" fill="#5CA46E" stroke="#1A1D24" stroke-width="1.5"/>
+    <text x="1205" y="59" text-anchor="middle" font-size="18" font-weight="700" fill="white">#ビジネス / 規制</text>
+  </g>
+
+  <!-- Date badge -->
+  <rect x="125" y="28" width="200" height="38" fill="#2F3842" rx="4"/>
+  <text x="225" y="52" text-anchor="middle" font-size="16" font-weight="600" fill="white">2026-05-13</text>
+
+  <!-- Impact stars -->
+  <text x="350" y="55" font-size="22" fill="#F5A623">⭐⭐⭐</text>
+
+  <!-- Title -->
+  <text x="125" y="108" font-size="36" font-weight="900" fill="#1A1D24">⚖️ コロラド州 SB 26-189 成立：全米初AI法を丸ごと書き換え</text>
+  <text x="125" y="152" font-size="24" font-weight="700" fill="#DC2626">「アルゴリズム差別禁止」から「ADMT開示のみ」への大後退</text>
+
+  <!-- Source -->
+  <text x="125" y="185" font-size="14" fill="#6B7280">Consumer Finance Monitor · Colorado General Assembly · 2026-05-13 · #規制 #AI法 #SB26-189</text>
+
+  <line x1="125" y1="200" x2="1360" y2="200" stroke="#1A1D24" stroke-width="2"/>
+
+  <!-- HERO - Scale of Justice -->
+  <g transform="translate(1185, 310)">
+    <!-- Base -->
+    <rect x="-5" y="80" width="10" height="40" fill="#6B7280" stroke="#1A1D24" stroke-width="2"/>
+    <rect x="-40" y="118" width="80" height="10" fill="#6B7280" stroke="#1A1D24" stroke-width="1.5" rx="3"/>
+    <!-- Beam -->
+    <line x1="-5" y1="45" x2="-5" y2="82" stroke="#1A1D24" stroke-width="2"/>
+    <line x1="-90" y1="45" x2="80" y2="45" stroke="#1A1D24" stroke-width="2.5"/>
+    <!-- Left pan (heavy - old law) -->
+    <line x1="-90" y1="45" x2="-90" y2="68" stroke="#6B7280" stroke-width="1.5"/>
+    <path d="M -115 68 Q -90 88 -65 68" fill="#DC2626" stroke="#1A1D24" stroke-width="1.5" opacity="0.8"/>
+    <text x="-90" y="82" text-anchor="middle" font-size="9" fill="white" font-weight="700">旧法</text>
+    <!-- Right pan (light - new law, tilted up) -->
+    <line x1="80" y1="45" x2="80" y2="32" stroke="#6B7280" stroke-width="1.5"/>
+    <path d="M 55 32 Q 80 52 105 32" fill="#D1FAE5" stroke="#1A1D24" stroke-width="1.5" opacity="0.8"/>
+    <text x="80" y="46" text-anchor="middle" font-size="9" fill="#374151" font-weight="700">新法</text>
+    <!-- Labels -->
+    <text x="-90" y="100" text-anchor="middle" font-size="10" fill="#DC2626" font-weight="700">重い保護</text>
+    <text x="80" y="64" text-anchor="middle" font-size="10" fill="#5CA46E" font-weight="700">軽い開示</text>
+  </g>
+
+  <!-- ========== KEY NUMBERS ========== -->
+  <rect x="125" y="215" width="980" height="120" fill="white" stroke="#1A1D24" stroke-width="2" rx="6" filter="url(#softShadow)"/>
+  <line x1="370" y1="225" x2="370" y2="325" stroke="#E5E7EB" stroke-width="1.5"/>
+  <line x1="615" y1="225" x2="615" y2="325" stroke="#E5E7EB" stroke-width="1.5"/>
+  <line x1="860" y1="225" x2="860" y2="325" stroke="#E5E7EB" stroke-width="1.5"/>
+
+  <text x="247" y="265" text-anchor="middle" font-size="42" font-weight="900" fill="#DC2626">2年</text>
+  <text x="247" y="290" text-anchor="middle" font-size="13" fill="#6B7280">ロビー活動期間</text>
+  <text x="247" y="308" text-anchor="middle" font-size="11" fill="#9CA3AF">（3セッション·巨額支出）</text>
+
+  <text x="492" y="255" text-anchor="middle" font-size="38" font-weight="900" fill="#1A1D24">4本柱</text>
+  <text x="492" y="280" text-anchor="middle" font-size="14" fill="#6B7280">旧法の要件が</text>
+  <text x="492" y="298" text-anchor="middle" font-size="14" fill="#DC2626" font-weight="700">1行の開示義務に縮小</text>
+  <text x="492" y="316" text-anchor="middle" font-size="11" fill="#9CA3AF">（リスクアセスメント等すべて廃止）</text>
+
+  <text x="737" y="258" text-anchor="middle" font-size="38" font-weight="900" fill="#1A1D24">Jan 2027</text>
+  <text x="737" y="283" text-anchor="middle" font-size="14" fill="#6B7280">新法施行日</text>
+  <text x="737" y="301" text-anchor="middle" font-size="13" fill="#5CA46E" font-weight="700">知事署名待ち</text>
+  <text x="737" y="318" text-anchor="middle" font-size="11" fill="#9CA3AF">（立法セッション閉幕 5/13）</text>
+
+  <text x="990" y="258" text-anchor="middle" font-size="38" font-weight="900" fill="#1A1D24">45州</text>
+  <text x="990" y="283" text-anchor="middle" font-size="14" fill="#6B7280">米国AI法案提出数</text>
+  <text x="990" y="301" text-anchor="middle" font-size="13" fill="#DC2626" font-weight="700">1,561件のドミノ進行中</text>
+  <text x="990" y="318" text-anchor="middle" font-size="11" fill="#9CA3AF">（コロラド後退が悪例に）</text>
+
+  <!-- ========== BEFORE / AFTER COMPARISON ========== -->
+  <rect x="125" y="355" width="660" height="290" fill="#FEF2F2" stroke="#DC2626" stroke-width="2" rx="6" filter="url(#softShadow)"/>
+  <rect x="125" y="355" width="660" height="36" fill="#DC2626" rx="4"/>
+  <text x="455" y="379" text-anchor="middle" font-size="15" font-weight="700" fill="white">🗑️ SB 24-205（旧法）が持っていたもの</text>
+
+  <g transform="translate(145, 400)">
+    <circle cx="10" cy="12" r="5" fill="#DC2626"/>
+    <text x="25" y="18" font-size="13" fill="#374151">高リスクAIシステムの明確な定義</text>
+
+    <circle cx="10" cy="50" r="5" fill="#DC2626"/>
+    <text x="25" y="56" font-size="13" fill="#374151">アルゴリズム差別の禁止規定</text>
+
+    <circle cx="10" cy="88" r="5" fill="#DC2626"/>
+    <text x="25" y="94" font-size="13" fill="#374151">展開者のリスクアセスメント義務</text>
+
+    <circle cx="10" cy="126" r="5" fill="#DC2626"/>
+    <text x="25" y="132" font-size="13" fill="#374151">業界標準（NIST等）への適合要件</text>
+
+    <circle cx="10" cy="164" r="5" fill="#DC2626"/>
+    <text x="25" y="170" font-size="13" fill="#374151">消費者の不服申立権・是正要求権</text>
+
+    <circle cx="10" cy="202" r="5" fill="#DC2626"/>
+    <text x="25" y="208" font-size="13" fill="#374151">サードパーティ監査受入義務</text>
+
+    <text x="0" y="248" font-size="11" fill="#DC2626" font-weight="700">→ これらがすべて廃止</text>
+  </g>
+
+  <!-- After -->
+  <rect x="805" y="355" width="560" height="290" fill="#F0FFF4" stroke="#5CA46E" stroke-width="2" rx="6" filter="url(#softShadow)"/>
+  <rect x="805" y="355" width="560" height="36" fill="#5CA46E" rx="4"/>
+  <text x="1085" y="379" text-anchor="middle" font-size="15" font-weight="700" fill="white">✅ SB 26-189（新法）に残ったもの</text>
+
+  <g transform="translate(825, 400)">
+    <circle cx="10" cy="12" r="5" fill="#5CA46E"/>
+    <text x="25" y="18" font-size="13" fill="#374151">「ADMTが使われている」旨の開示</text>
+
+    <circle cx="10" cy="50" r="5" fill="#5CA46E"/>
+    <text x="25" y="56" font-size="13" fill="#374151">不利な決定後30日以内の</text>
+    <text x="25" y="72" font-size="13" fill="#374151">追加情報提供（消費者請求時のみ）</text>
+
+    <circle cx="10" cy="106" r="5" fill="#D1D5DB"/>
+    <text x="25" y="112" font-size="13" fill="#9CA3AF" text-decoration="line-through">リスクアセスメント義務</text>
+
+    <circle cx="10" cy="144" r="5" fill="#D1D5DB"/>
+    <text x="25" y="150" font-size="13" fill="#9CA3AF" text-decoration="line-through">差別禁止規定</text>
+
+    <circle cx="10" cy="182" r="5" fill="#D1D5DB"/>
+    <text x="25" y="188" font-size="13" fill="#9CA3AF" text-decoration="line-through">業界標準適合義務</text>
+
+    <text x="0" y="240" font-size="11" fill="#5CA46E" font-weight="700">施行 → 2027年1月1日</text>
+  </g>
+
+  <!-- ========== STICKY NOTES ========== -->
+  <g transform="rotate(-1.5, 170, 820)" filter="url(#stickyShadow)">
+    <rect x="125" y="665" width="260" height="120" fill="#FEF9C3" stroke="#1A1D24" stroke-width="1.5" rx="2"/>
+    <text x="255" y="690" text-anchor="middle" font-size="13" font-weight="700" fill="#1A1D24">EU AI Act との対比</text>
+    <text x="145" y="710" font-size="11" fill="#374151">EU AI Actは高リスクシステムに</text>
+    <text x="145" y="726" font-size="11" fill="#374151">CE認証・適合性評価・登録義務。</text>
+    <text x="145" y="742" font-size="11" fill="#374151">コロラドの新法との保護格差は</text>
+    <text x="145" y="758" font-size="11" fill="#374151">極めて大きい。</text>
+    <text x="145" y="775" font-size="11" fill="#DC2626" font-weight="700">米国の消費者は無防備な状態。</text>
+  </g>
+
+  <g transform="rotate(1.2, 450, 820)" filter="url(#stickyShadow)">
+    <rect x="415" y="665" width="260" height="120" fill="#D1FAE5" stroke="#1A1D24" stroke-width="1.5" rx="2"/>
+    <text x="545" y="690" text-anchor="middle" font-size="13" font-weight="700" fill="#1A1D24">企業への影響</text>
+    <text x="435" y="710" font-size="11" fill="#374151">旧法対応で計画していた</text>
+    <text x="435" y="726" font-size="11" fill="#374151">AI倫理委員会・監査受入が</text>
+    <text x="435" y="742" font-size="11" fill="#374151">ほぼ不要に。対応コスト</text>
+    <text x="435" y="758" font-size="11" fill="#374151">は最小限になった。ただし</text>
+    <text x="435" y="775" font-size="11" fill="#374151">開示システムの構築は必要。</text>
+  </g>
+
+  <g transform="rotate(-1.0, 730, 820)" filter="url(#stickyShadow)">
+    <rect x="705" y="665" width="260" height="120" fill="#FDE8D8" stroke="#1A1D24" stroke-width="1.5" rx="2"/>
+    <text x="835" y="690" text-anchor="middle" font-size="13" font-weight="700" fill="#1A1D24">ネブラスカとの対比</text>
+    <text x="725" y="710" font-size="11" fill="#374151">5/11成立のネブラスカLB1185は</text>
+    <text x="725" y="726" font-size="11" fill="#374151">「狭く絞った法律」戦略で</text>
+    <text x="725" y="742" font-size="11" fill="#374151">49-0可決に成功。コロラドの</text>
+    <text x="725" y="758" font-size="11" fill="#374151">広範な法律が失敗した教訓が</text>
+    <text x="725" y="775" font-size="11" fill="#374151">他州立法に影響を与える。</text>
+  </g>
+
+  <g transform="rotate(1.5, 1020, 820)" filter="url(#stickyShadow)">
+    <rect x="995" y="665" width="260" height="120" fill="#EDE9FE" stroke="#1A1D24" stroke-width="1.5" rx="2"/>
+    <text x="1125" y="690" text-anchor="middle" font-size="13" font-weight="700" fill="#1A1D24">次のシナリオ</text>
+    <text x="1015" y="710" font-size="11" fill="#374151">知事署名→2026年秋から</text>
+    <text x="1015" y="726" font-size="11" fill="#374151">実施規則整備→2027年施行。</text>
+    <text x="1015" y="742" font-size="11" fill="#374151">「開示だけ」の法律では</text>
+    <text x="1015" y="758" font-size="11" fill="#374151">執行力が弱く、有名無実化の</text>
+    <text x="1015" y="775" font-size="11" fill="#374151">可能性大。連邦規制に期待。</text>
+  </g>
+
+  <!-- Footer -->
+  <line x1="125" y1="932" x2="1360" y2="932" stroke="#1A1D24" stroke-width="1" opacity="0.3"/>
+  <text x="742" y="954" text-anchor="middle" font-size="12" font-style="italic" fill="#9CA3AF">AI News · 2026-05-13 · Colorado SB 26-189: AI Law Rewrite Strips Landmark Protections</text>
+  <text x="742" y="972" text-anchor="middle" font-size="11" fill="#9CA3AF">Sources: Consumer Finance Monitor / Colorado Newsline / ReedSmith / Clark Hill</text>
+</svg>

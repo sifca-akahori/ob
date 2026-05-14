@@ -1,0 +1,242 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1400 1050" font-family="-apple-system, 'Hiragino Sans', 'Yu Gothic', sans-serif">
+  <defs>
+    <pattern id="paperTexture" patternUnits="userSpaceOnUse" width="100" height="100">
+      <rect width="100" height="100" fill="#FBF8F1"/>
+      <circle cx="15" cy="22" r="0.4" fill="#C4B389" opacity="0.3"/>
+      <circle cx="67" cy="44" r="0.5" fill="#C4B389" opacity="0.3"/>
+      <circle cx="33" cy="78" r="0.3" fill="#C4B389" opacity="0.25"/>
+    </pattern>
+    <filter id="stickyShadow" x="-10%" y="-10%" width="130%" height="130%">
+      <feGaussianBlur in="SourceAlpha" stdDeviation="3"/>
+      <feOffset dx="2" dy="3"/>
+      <feComponentTransfer><feFuncA type="linear" slope="0.25"/></feComponentTransfer>
+      <feMerge><feMergeNode/><feMergeNode in="SourceGraphic"/></feMerge>
+    </filter>
+    <filter id="softShadow" x="-10%" y="-10%" width="120%" height="120%">
+      <feGaussianBlur in="SourceAlpha" stdDeviation="2"/>
+      <feOffset dx="1" dy="2"/>
+      <feComponentTransfer><feFuncA type="linear" slope="0.18"/></feComponentTransfer>
+      <feMerge><feMergeNode/><feMergeNode in="SourceGraphic"/></feMerge>
+    </filter>
+  </defs>
+
+  <rect width="1400" height="1050" fill="url(#paperTexture)"/>
+  <line x1="110" y1="30" x2="110" y2="1020" stroke="#D88A8A" stroke-width="1.2" opacity="0.45"/>
+  <g fill="#E8E2D3"><circle cx="50" cy="100" r="11"/><circle cx="50" cy="340" r="11"/><circle cx="50" cy="580" r="11"/><circle cx="50" cy="820" r="11"/></g>
+  <g fill="#FBF8F1"><circle cx="50" cy="100" r="8"/><circle cx="50" cy="340" r="8"/><circle cx="50" cy="580" r="8"/><circle cx="50" cy="820" r="8"/></g>
+
+  <!-- Category tape -->
+  <g transform="rotate(-3, 1200, 55)">
+    <rect x="1080" y="30" width="250" height="46" fill="#5B8DEF" stroke="#1A1D24" stroke-width="1.5"/>
+    <text x="1205" y="59" text-anchor="middle" font-size="18" font-weight="700" fill="white">#研究 / インフラ</text>
+  </g>
+
+  <rect x="125" y="28" width="200" height="38" fill="#2F3842" rx="4"/>
+  <text x="225" y="52" text-anchor="middle" font-size="16" font-weight="600" fill="white">2026-05-13</text>
+  <text x="350" y="55" font-size="22" fill="#F5A623">⭐⭐</text>
+
+  <text x="125" y="108" font-size="36" font-weight="900" fill="#1A1D24">⚡ Cloudflare「Unweight」LLM推論最適化</text>
+  <text x="125" y="152" font-size="23" font-weight="700" fill="#5B8DEF">ロスレス22%フットプリント削減＋プリフィル/デコード分離でKVキャッシュ命中率60%→80%</text>
+  <text x="125" y="185" font-size="14" fill="#6B7280">Cloudflare Blog · InfoQ · 2026-05-13 · #LLM推論 #エッジAI #Unweight #インフラ最適化</text>
+  <line x1="125" y1="200" x2="1360" y2="200" stroke="#1A1D24" stroke-width="2"/>
+
+  <!-- HERO: Cloudflare network node -->
+  <g transform="translate(1185, 305)">
+    <circle cx="0" cy="0" r="85" fill="#1A1D24" stroke="#5B8DEF" stroke-width="2.5"/>
+    <!-- Network nodes -->
+    <circle cx="0" cy="-55" r="8" fill="#5B8DEF"/>
+    <circle cx="48" cy="-25" r="8" fill="#5B8DEF"/>
+    <circle cx="48" cy="28" r="8" fill="#5B8DEF"/>
+    <circle cx="0" cy="58" r="8" fill="#5B8DEF"/>
+    <circle cx="-48" cy="28" r="8" fill="#5B8DEF"/>
+    <circle cx="-48" cy="-25" r="8" fill="#5B8DEF"/>
+    <!-- Connections -->
+    <line x1="0" y1="-47" x2="42" y2="-22" stroke="#5B8DEF" stroke-width="1" opacity="0.5"/>
+    <line x1="42" y1="-22" x2="42" y2="22" stroke="#5B8DEF" stroke-width="1" opacity="0.5"/>
+    <line x1="42" y1="22" x2="0" y2="50" stroke="#5B8DEF" stroke-width="1" opacity="0.5"/>
+    <line x1="0" y1="50" x2="-42" y2="22" stroke="#5B8DEF" stroke-width="1" opacity="0.5"/>
+    <line x1="-42" y1="22" x2="-42" y2="-22" stroke="#5B8DEF" stroke-width="1" opacity="0.5"/>
+    <line x1="-42" y1="-22" x2="0" y2="-47" stroke="#5B8DEF" stroke-width="1" opacity="0.5"/>
+    <!-- Center icon -->
+    <text x="0" y="8" text-anchor="middle" font-size="22" fill="white">⚡</text>
+    <text x="0" y="120" text-anchor="middle" font-size="12" font-weight="700" fill="#5B8DEF">310+ PoP エッジ推論</text>
+  </g>
+
+  <!-- KEY NUMBERS -->
+  <rect x="125" y="215" width="980" height="120" fill="white" stroke="#1A1D24" stroke-width="2" rx="6" filter="url(#softShadow)"/>
+  <line x1="370" y1="225" x2="370" y2="325" stroke="#E5E7EB" stroke-width="1.5"/>
+  <line x1="615" y1="225" x2="615" y2="325" stroke="#E5E7EB" stroke-width="1.5"/>
+  <line x1="860" y1="225" x2="860" y2="325" stroke="#E5E7EB" stroke-width="1.5"/>
+
+  <text x="247" y="265" text-anchor="middle" font-size="48" font-weight="900" fill="#5B8DEF">22%</text>
+  <text x="247" y="288" text-anchor="middle" font-size="13" fill="#6B7280">Unweight モデル削減率</text>
+  <text x="247" y="306" text-anchor="middle" font-size="11" fill="#9CA3AF">（ロスレス・精度低下なし）</text>
+
+  <text x="492" y="258" text-anchor="middle" font-size="38" font-weight="900" fill="#1A1D24">60%→80%</text>
+  <text x="492" y="280" text-anchor="middle" font-size="13" fill="#6B7280">KVキャッシュ命中率</text>
+  <text x="492" y="298" text-anchor="middle" font-size="13" fill="#5B8DEF" font-weight="700">プリフィル/デコード分離後</text>
+  <text x="492" y="315" text-anchor="middle" font-size="11" fill="#9CA3AF">（ピーク時）</text>
+
+  <text x="737" y="258" text-anchor="middle" font-size="38" font-weight="900" fill="#1A1D24">310+</text>
+  <text x="737" y="278" text-anchor="middle" font-size="13" fill="#6B7280">Cloudflare PoP数（都市）</text>
+  <text x="737" y="296" text-anchor="middle" font-size="13" fill="#5B8DEF" font-weight="700">エッジ低遅延推論の基盤</text>
+  <text x="737" y="314" text-anchor="middle" font-size="11" fill="#9CA3AF">（GPUクラスター不要の分散戦略）</text>
+
+  <text x="990" y="258" text-anchor="middle" font-size="30" font-weight="900" fill="#1A1D24">Workers AI</text>
+  <text x="990" y="278" text-anchor="middle" font-size="13" fill="#6B7280">API提供プラットフォーム</text>
+  <text x="990" y="296" text-anchor="middle" font-size="13" fill="#5B8DEF" font-weight="700">エッジLLM推論の商用展開中</text>
+  <text x="990" y="314" text-anchor="middle" font-size="11" fill="#9CA3AF">（Akamai競合と正面衝突）</text>
+
+  <!-- ARCHITECTURE DIAGRAM -->
+  <rect x="125" y="355" width="660" height="290" fill="white" stroke="#1A1D24" stroke-width="2" rx="6" filter="url(#softShadow)"/>
+  <rect x="125" y="355" width="660" height="36" fill="#1A1D24" rx="4"/>
+  <text x="455" y="379" text-anchor="middle" font-size="15" font-weight="700" fill="white">🏗️ Disaggregated Prefill/Decode アーキテクチャ</text>
+
+  <g transform="translate(145, 400)">
+    <!-- User -->
+    <rect x="10" y="80" width="80" height="50" fill="#DBEAFE" stroke="#1A1D24" stroke-width="1.5" rx="4"/>
+    <text x="50" y="103" text-anchor="middle" font-size="12" font-weight="700" fill="#1E40AF">ユーザー</text>
+    <text x="50" y="120" text-anchor="middle" font-size="11" fill="#374151">リクエスト</text>
+
+    <!-- Arrow right -->
+    <line x1="90" y1="105" x2="130" y2="105" stroke="#1A1D24" stroke-width="1.5"/>
+    <polygon points="128,100 138,105 128,110" fill="#1A1D24"/>
+
+    <!-- Prefill server -->
+    <rect x="140" y="60" width="140" height="90" fill="#EFF6FF" stroke="#5B8DEF" stroke-width="2" rx="4"/>
+    <text x="210" y="84" text-anchor="middle" font-size="13" font-weight="700" fill="#1E40AF">Prefill サーバー</text>
+    <text x="210" y="100" text-anchor="middle" font-size="11" fill="#374151">入力処理（計算集約）</text>
+    <text x="210" y="116" text-anchor="middle" font-size="11" fill="#374151">KVキャッシュ生成</text>
+    <text x="210" y="132" text-anchor="middle" font-size="10" fill="#5CA46E">ヒット率 80%達成</text>
+
+    <!-- Arrow - KV cache transfer -->
+    <line x1="280" y1="100" x2="335" y2="100" stroke="#5B8DEF" stroke-width="1.5" stroke-dasharray="4,3"/>
+    <polygon points="333,95 343,100 333,105" fill="#5B8DEF"/>
+    <text x="307" y="90" text-anchor="middle" font-size="9" fill="#5B8DEF">KV転送</text>
+
+    <!-- Decode server -->
+    <rect x="345" y="60" width="140" height="90" fill="#F0FFF4" stroke="#5CA46E" stroke-width="2" rx="4"/>
+    <text x="415" y="84" text-anchor="middle" font-size="13" font-weight="700" fill="#166534">Decode サーバー</text>
+    <text x="415" y="100" text-anchor="middle" font-size="11" fill="#374151">応答生成（帯域集約）</text>
+    <text x="415" y="116" text-anchor="middle" font-size="11" fill="#374151">トークン生成・ストリーム</text>
+    <text x="415" y="132" text-anchor="middle" font-size="10" fill="#5CA46E">Unweight 22%圧縮適用</text>
+
+    <!-- Arrow right to user -->
+    <line x1="485" y1="105" x2="560" y2="105" stroke="#1A1D24" stroke-width="1.5"/>
+    <polygon points="558,100 568,105 558,110" fill="#1A1D24"/>
+
+    <rect x="570" y="80" width="50" height="50" fill="#DBEAFE" stroke="#1A1D24" stroke-width="1.5" rx="4"/>
+    <text x="595" y="107" text-anchor="middle" font-size="11" fill="#1E40AF">出力</text>
+
+    <!-- vs Traditional -->
+    <text x="295" y="185" text-anchor="middle" font-size="13" font-weight="700" fill="#DC2626">従来（単一サーバー）との比較</text>
+    <rect x="140" y="195" width="340" height="60" fill="#FEF2F2" stroke="#DC2626" stroke-width="1.5" rx="4"/>
+    <text x="310" y="218" text-anchor="middle" font-size="11" fill="#DC2626">プリフィル＋デコードを同一GPU処理</text>
+    <text x="310" y="236" text-anchor="middle" font-size="11" fill="#374151">→ 特性の違いから非効率・KVキャッシュ利用率低</text>
+    <text x="310" y="252" text-anchor="middle" font-size="11" fill="#DC2626">KVキャッシュ命中率 60%止まり</text>
+  </g>
+
+  <!-- Unweight Comparison -->
+  <rect x="805" y="355" width="560" height="290" fill="white" stroke="#1A1D24" stroke-width="2" rx="6" filter="url(#softShadow)"/>
+  <rect x="805" y="355" width="560" height="36" fill="#2F3842" rx="4"/>
+  <text x="1085" y="379" text-anchor="middle" font-size="15" font-weight="700" fill="white">🗜️ Unweight vs 従来圧縮手法の比較</text>
+
+  <g transform="translate(820, 405)">
+    <rect x="0" y="0" width="130" height="32" fill="#F3F4F6" stroke="#E5E7EB" stroke-width="1"/>
+    <rect x="130" y="0" width="130" height="32" fill="#FEE2E2" stroke="#E5E7EB" stroke-width="1"/>
+    <rect x="260" y="0" width="130" height="32" fill="#FEF3C7" stroke="#E5E7EB" stroke-width="1"/>
+    <rect x="390" y="0" width="125" height="32" fill="#DBEAFE" stroke="#E5E7EB" stroke-width="1"/>
+    <text x="65" y="20" text-anchor="middle" font-size="11" font-weight="700" fill="#374151">項目</text>
+    <text x="195" y="20" text-anchor="middle" font-size="11" font-weight="700" fill="#DC2626">int8量子化</text>
+    <text x="325" y="20" text-anchor="middle" font-size="11" font-weight="700" fill="#92400E">fp4量子化</text>
+    <text x="452" y="20" text-anchor="middle" font-size="11" font-weight="700" fill="#1E40AF">Unweight</text>
+
+    <g font-size="11">
+      <rect x="0" y="32" width="130" height="32" fill="#FAFAFA" stroke="#E5E7EB" stroke-width="0.5"/>
+      <rect x="130" y="32" width="130" height="32" fill="white" stroke="#E5E7EB" stroke-width="0.5"/>
+      <rect x="260" y="32" width="130" height="32" fill="white" stroke="#E5E7EB" stroke-width="0.5"/>
+      <rect x="390" y="32" width="125" height="32" fill="white" stroke="#E5E7EB" stroke-width="0.5"/>
+      <text x="65" y="52" text-anchor="middle" fill="#374151">精度への影響</text>
+      <text x="195" y="52" text-anchor="middle" fill="#DC2626">有（最大2〜5%低下）</text>
+      <text x="325" y="52" text-anchor="middle" fill="#DC2626">有（顕著な低下）</text>
+      <text x="452" y="52" text-anchor="middle" fill="#5CA46E" font-weight="700">ゼロ（ロスレス）</text>
+
+      <rect x="0" y="64" width="130" height="32" fill="#FAFAFA" stroke="#E5E7EB" stroke-width="0.5"/>
+      <rect x="130" y="64" width="130" height="32" fill="white" stroke="#E5E7EB" stroke-width="0.5"/>
+      <rect x="260" y="64" width="130" height="32" fill="white" stroke="#E5E7EB" stroke-width="0.5"/>
+      <rect x="390" y="64" width="125" height="32" fill="white" stroke="#E5E7EB" stroke-width="0.5"/>
+      <text x="65" y="84" text-anchor="middle" fill="#374151">削減率</text>
+      <text x="195" y="84" text-anchor="middle" fill="#374151">50%</text>
+      <text x="325" y="84" text-anchor="middle" fill="#374151">75%</text>
+      <text x="452" y="84" text-anchor="middle" fill="#5B8DEF" font-weight="700">22%</text>
+
+      <rect x="0" y="96" width="130" height="32" fill="#FAFAFA" stroke="#E5E7EB" stroke-width="0.5"/>
+      <rect x="130" y="96" width="130" height="32" fill="white" stroke="#E5E7EB" stroke-width="0.5"/>
+      <rect x="260" y="96" width="130" height="32" fill="white" stroke="#E5E7EB" stroke-width="0.5"/>
+      <rect x="390" y="96" width="125" height="32" fill="white" stroke="#E5E7EB" stroke-width="0.5"/>
+      <text x="65" y="116" text-anchor="middle" fill="#374151">適用タイミング</text>
+      <text x="195" y="116" text-anchor="middle" fill="#374151">学習後（静的）</text>
+      <text x="325" y="116" text-anchor="middle" fill="#374151">学習後（静的）</text>
+      <text x="452" y="116" text-anchor="middle" fill="#5B8DEF" font-weight="700">推論時（動的）</text>
+
+      <rect x="0" y="128" width="130" height="32" fill="#FAFAFA" stroke="#E5E7EB" stroke-width="0.5"/>
+      <rect x="130" y="128" width="130" height="32" fill="white" stroke="#E5E7EB" stroke-width="0.5"/>
+      <rect x="260" y="128" width="130" height="32" fill="white" stroke="#E5E7EB" stroke-width="0.5"/>
+      <rect x="390" y="128" width="125" height="32" fill="white" stroke="#E5E7EB" stroke-width="0.5"/>
+      <text x="65" y="148" text-anchor="middle" fill="#374151">既存モデルへの適用</text>
+      <text x="195" y="148" text-anchor="middle" fill="#374151">要再学習</text>
+      <text x="325" y="148" text-anchor="middle" fill="#374151">要再学習</text>
+      <text x="452" y="148" text-anchor="middle" fill="#5CA46E" font-weight="700">即時適用可能</text>
+
+      <rect x="0" y="160" width="130" height="32" fill="#FAFAFA" stroke="#E5E7EB" stroke-width="0.5"/>
+      <rect x="130" y="160" width="130" height="32" fill="white" stroke="#E5E7EB" stroke-width="0.5"/>
+      <rect x="260" y="160" width="130" height="32" fill="white" stroke="#E5E7EB" stroke-width="0.5"/>
+      <rect x="390" y="160" width="125" height="32" fill="white" stroke="#E5E7EB" stroke-width="0.5"/>
+      <text x="65" y="180" text-anchor="middle" fill="#374151">フロンティアモデル適合</text>
+      <text x="195" y="180" text-anchor="middle" fill="#F59E0B">注意必要</text>
+      <text x="325" y="180" text-anchor="middle" fill="#DC2626">困難</text>
+      <text x="452" y="180" text-anchor="middle" fill="#5CA46E" font-weight="700">問題なし</text>
+    </g>
+  </g>
+
+  <!-- STICKY NOTES -->
+  <g transform="rotate(-1.5, 170, 820)" filter="url(#stickyShadow)">
+    <rect x="125" y="795" width="250" height="110" fill="#FEF9C3" stroke="#1A1D24" stroke-width="1.5" rx="2"/>
+    <text x="250" y="818" text-anchor="middle" font-size="13" font-weight="700" fill="#1A1D24">Akamai との競争</text>
+    <text x="145" y="838" font-size="11" fill="#374151">同週Akamaiが大型LLM</text>
+    <text x="145" y="854" font-size="11" fill="#374151">推論契約を獲得し株価急騰。</text>
+    <text x="145" y="870" font-size="11" fill="#374151">Cloudflare株は一時下落。</text>
+    <text x="145" y="886" font-size="11" fill="#374151">CDN事業者の推論競争激化。</text>
+  </g>
+
+  <g transform="rotate(1.2, 440, 820)" filter="url(#stickyShadow)">
+    <rect x="405" y="795" width="250" height="110" fill="#D1FAE5" stroke="#1A1D24" stroke-width="1.5" rx="2"/>
+    <text x="530" y="818" text-anchor="middle" font-size="13" font-weight="700" fill="#1A1D24">SubQとの相乗効果</text>
+    <text x="425" y="838" font-size="11" fill="#374151">Unweight+分離推論 ×</text>
+    <text x="425" y="854" font-size="11" fill="#374151">SubQ 12M文脈窓が</text>
+    <text x="425" y="870" font-size="11" fill="#374151">組み合わされば</text>
+    <text x="425" y="886" font-size="11" fill="#374151">エッジ超長文脈推論が現実に。</text>
+  </g>
+
+  <g transform="rotate(-0.8, 710, 820)" filter="url(#stickyShadow)">
+    <rect x="685" y="795" width="250" height="110" fill="#FDE8D8" stroke="#1A1D24" stroke-width="1.5" rx="2"/>
+    <text x="810" y="818" text-anchor="middle" font-size="13" font-weight="700" fill="#1A1D24">OSSの可能性</text>
+    <text x="705" y="838" font-size="11" fill="#374151">Unweightがオープンソース</text>
+    <text x="705" y="854" font-size="11" fill="#374151">化されれば全業界の</text>
+    <text x="705" y="870" font-size="11" fill="#374151">LLM推論コストが</text>
+    <text x="705" y="886" font-size="11" fill="#374151">一律下がる可能性がある。</text>
+  </g>
+
+  <g transform="rotate(1.5, 990, 820)" filter="url(#stickyShadow)">
+    <rect x="965" y="795" width="250" height="110" fill="#EDE9FE" stroke="#1A1D24" stroke-width="1.5" rx="2"/>
+    <text x="1090" y="818" text-anchor="middle" font-size="13" font-weight="700" fill="#1A1D24">第三のアプローチ</text>
+    <text x="985" y="838" font-size="11" fill="#374151">GPU密集クラスター vs</text>
+    <text x="985" y="854" font-size="11" fill="#374151">カスタムチップの二択に対し</text>
+    <text x="985" y="870" font-size="11" fill="#374151">分散エッジ効率化という</text>
+    <text x="985" y="886" font-size="11" fill="#374151">第三の戦略を Cloudflare が推進。</text>
+  </g>
+
+  <line x1="125" y1="932" x2="1360" y2="932" stroke="#1A1D24" stroke-width="1" opacity="0.3"/>
+  <text x="742" y="954" text-anchor="middle" font-size="12" font-style="italic" fill="#9CA3AF">AI News · 2026-05-13 · Cloudflare Unweight: Lossless 22% LLM Footprint Reduction at the Edge</text>
+  <text x="742" y="972" text-anchor="middle" font-size="11" fill="#9CA3AF">Sources: Cloudflare Blog / InfoQ / StartupHub.ai / The Register</text>
+</svg>

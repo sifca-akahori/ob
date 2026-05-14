@@ -1,0 +1,218 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1400 1050" font-family="-apple-system, 'Hiragino Sans', 'Yu Gothic', sans-serif">
+  <defs>
+    <pattern id="paperTexture" patternUnits="userSpaceOnUse" width="100" height="100">
+      <rect width="100" height="100" fill="#FBF8F1"/>
+      <circle cx="15" cy="22" r="0.4" fill="#C4B389" opacity="0.3"/>
+      <circle cx="67" cy="44" r="0.5" fill="#C4B389" opacity="0.3"/>
+      <circle cx="33" cy="78" r="0.3" fill="#C4B389" opacity="0.25"/>
+    </pattern>
+    <filter id="stickyShadow" x="-10%" y="-10%" width="130%" height="130%">
+      <feGaussianBlur in="SourceAlpha" stdDeviation="3"/>
+      <feOffset dx="2" dy="3"/>
+      <feComponentTransfer><feFuncA type="linear" slope="0.25"/></feComponentTransfer>
+      <feMerge><feMergeNode/><feMergeNode in="SourceGraphic"/></feMerge>
+    </filter>
+    <filter id="softShadow" x="-10%" y="-10%" width="120%" height="120%">
+      <feGaussianBlur in="SourceAlpha" stdDeviation="2"/>
+      <feOffset dx="1" dy="2"/>
+      <feComponentTransfer><feFuncA type="linear" slope="0.18"/></feComponentTransfer>
+      <feMerge><feMergeNode/><feMergeNode in="SourceGraphic"/></feMerge>
+    </filter>
+  </defs>
+
+  <rect width="1400" height="1050" fill="url(#paperTexture)"/>
+  <line x1="110" y1="30" x2="110" y2="1020" stroke="#D88A8A" stroke-width="1.2" opacity="0.45"/>
+  <g fill="#E8E2D3"><circle cx="50" cy="100" r="11"/><circle cx="50" cy="340" r="11"/><circle cx="50" cy="580" r="11"/><circle cx="50" cy="820" r="11"/></g>
+  <g fill="#FBF8F1"><circle cx="50" cy="100" r="8"/><circle cx="50" cy="340" r="8"/><circle cx="50" cy="580" r="8"/><circle cx="50" cy="820" r="8"/></g>
+
+  <!-- Category tape -->
+  <g transform="rotate(-3, 1200, 55)">
+    <rect x="1080" y="30" width="250" height="46" fill="#5B8DEF" stroke="#1A1D24" stroke-width="1.5"/>
+    <text x="1205" y="59" text-anchor="middle" font-size="18" font-weight="700" fill="white">#研究 / ベンチマーク</text>
+  </g>
+
+  <rect x="125" y="28" width="200" height="38" fill="#2F3842" rx="4"/>
+  <text x="225" y="52" text-anchor="middle" font-size="16" font-weight="600" fill="white">2026-05-13</text>
+  <text x="350" y="55" font-size="22" fill="#F5A623">⭐⭐</text>
+
+  <text x="125" y="108" font-size="36" font-weight="900" fill="#1A1D24">📊 ORCFLO Index：ビジネスAI評価の新標準</text>
+  <text x="125" y="152" font-size="23" font-weight="700" fill="#5B8DEF">40+ビジネスタスクでコスト・時間・品質を測定——学術ベンチから実務評価へのパラダイムシフト</text>
+  <text x="125" y="185" font-size="14" fill="#6B7280">ORCFLO / PR Newswire · 2026-05-13 · #ベンチマーク #ビジネスAI #評価 #ROI</text>
+  <line x1="125" y1="200" x2="1360" y2="200" stroke="#1A1D24" stroke-width="2"/>
+
+  <!-- HERO: Radar chart icon -->
+  <g transform="translate(1185, 305)">
+    <circle cx="0" cy="0" r="90" fill="white" stroke="#1A1D24" stroke-width="2" opacity="0.9"/>
+    <!-- Radar grid -->
+    <polygon points="0,-60 52,30 -52,30" fill="none" stroke="#E5E7EB" stroke-width="1"/>
+    <polygon points="0,-40 35,20 -35,20" fill="none" stroke="#E5E7EB" stroke-width="1"/>
+    <polygon points="0,-20 17,10 -17,10" fill="none" stroke="#E5E7EB" stroke-width="1"/>
+    <!-- Radar axes -->
+    <line x1="0" y1="0" x2="0" y2="-65" stroke="#9CA3AF" stroke-width="1"/>
+    <line x1="0" y1="0" x2="56" y2="33" stroke="#9CA3AF" stroke-width="1"/>
+    <line x1="0" y1="0" x2="-56" y2="33" stroke="#9CA3AF" stroke-width="1"/>
+    <!-- Data polygon -->
+    <polygon points="0,-55 40,25 -48,28" fill="#5B8DEF" opacity="0.3" stroke="#5B8DEF" stroke-width="2"/>
+    <!-- Labels -->
+    <text x="0" y="-70" text-anchor="middle" font-size="11" font-weight="700" fill="#374151">品質</text>
+    <text x="66" y="38" text-anchor="middle" font-size="11" font-weight="700" fill="#374151">コスト</text>
+    <text x="-66" y="38" text-anchor="middle" font-size="11" font-weight="700" fill="#374151">時間</text>
+    <text x="0" y="115" text-anchor="middle" font-size="11" font-weight="700" fill="#5B8DEF">ORCFLO 3軸評価</text>
+  </g>
+
+  <!-- KEY NUMBERS -->
+  <rect x="125" y="215" width="980" height="120" fill="white" stroke="#1A1D24" stroke-width="2" rx="6" filter="url(#softShadow)"/>
+  <line x1="370" y1="225" x2="370" y2="325" stroke="#E5E7EB" stroke-width="1.5"/>
+  <line x1="615" y1="225" x2="615" y2="325" stroke="#E5E7EB" stroke-width="1.5"/>
+  <line x1="860" y1="225" x2="860" y2="325" stroke="#E5E7EB" stroke-width="1.5"/>
+
+  <text x="247" y="265" text-anchor="middle" font-size="48" font-weight="900" fill="#5B8DEF">40+</text>
+  <text x="247" y="288" text-anchor="middle" font-size="13" fill="#6B7280">評価ビジネスタスク数</text>
+  <text x="247" y="306" text-anchor="middle" font-size="11" fill="#9CA3AF">（分析・執筆・要約等）</text>
+
+  <text x="492" y="255" text-anchor="middle" font-size="38" font-weight="900" fill="#1A1D24">3軸</text>
+  <text x="492" y="278" text-anchor="middle" font-size="14" fill="#6B7280">評価次元</text>
+  <text x="492" y="296" text-anchor="middle" font-size="13" fill="#5B8DEF" font-weight="700">コスト・時間・品質</text>
+  <text x="492" y="314" text-anchor="middle" font-size="11" fill="#9CA3AF">（学術ベンチにない実務視点）</text>
+
+  <text x="737" y="255" text-anchor="middle" font-size="30" font-weight="900" fill="#1A1D24">初の業界向け</text>
+  <text x="737" y="278" text-anchor="middle" font-size="13" fill="#6B7280">AIモデル実務評価</text>
+  <text x="737" y="296" text-anchor="middle" font-size="13" fill="#5B8DEF" font-weight="700">知識労働者タスク特化</text>
+  <text x="737" y="314" text-anchor="middle" font-size="11" fill="#9CA3AF">（既存ベンチはCS向け設計）</text>
+
+  <text x="990" y="255" text-anchor="middle" font-size="30" font-weight="900" fill="#1A1D24">ROI 計算</text>
+  <text x="990" y="278" text-anchor="middle" font-size="13" fill="#6B7280">可能な評価指標</text>
+  <text x="990" y="296" text-anchor="middle" font-size="13" fill="#5B8DEF" font-weight="700">企業調達の意思決定を変える</text>
+  <text x="990" y="314" text-anchor="middle" font-size="11" fill="#9CA3AF">（コスト比較が証拠ベースで可能に）</text>
+
+  <!-- BENCHMARK COMPARISON -->
+  <rect x="125" y="355" width="660" height="290" fill="white" stroke="#1A1D24" stroke-width="2" rx="6" filter="url(#softShadow)"/>
+  <rect x="125" y="355" width="660" height="36" fill="#1A1D24" rx="4"/>
+  <text x="455" y="379" text-anchor="middle" font-size="15" font-weight="700" fill="white">🔬 主要AIベンチマーク比較</text>
+
+  <g transform="translate(140, 400)">
+    <!-- Headers -->
+    <rect x="0" y="0" width="135" height="32" fill="#F3F4F6" stroke="#E5E7EB" stroke-width="1"/>
+    <rect x="135" y="0" width="100" height="32" fill="#F3F4F6" stroke="#E5E7EB" stroke-width="1"/>
+    <rect x="235" y="0" width="120" height="32" fill="#F3F4F6" stroke="#E5E7EB" stroke-width="1"/>
+    <rect x="355" y="0" width="280" height="32" fill="#F3F4F6" stroke="#E5E7EB" stroke-width="1"/>
+    <text x="67" y="20" text-anchor="middle" font-size="11" font-weight="700" fill="#374151">ベンチマーク</text>
+    <text x="185" y="20" text-anchor="middle" font-size="11" font-weight="700" fill="#374151">対象者</text>
+    <text x="295" y="20" text-anchor="middle" font-size="11" font-weight="700" fill="#374151">測定対象</text>
+    <text x="495" y="20" text-anchor="middle" font-size="11" font-weight="700" fill="#374151">限界</text>
+
+    <!-- Rows -->
+    <rect x="0" y="32" width="135" height="42" fill="#FAFAFA" stroke="#E5E7EB" stroke-width="0.5"/>
+    <rect x="135" y="32" width="100" height="42" fill="white" stroke="#E5E7EB" stroke-width="0.5"/>
+    <rect x="235" y="32" width="120" height="42" fill="white" stroke="#E5E7EB" stroke-width="0.5"/>
+    <rect x="355" y="32" width="280" height="42" fill="white" stroke="#E5E7EB" stroke-width="0.5"/>
+    <text x="67" y="53" text-anchor="middle" font-size="11" font-weight="700" fill="#374151">MMLU</text>
+    <text x="185" y="53" text-anchor="middle" font-size="11" fill="#374151">研究者</text>
+    <text x="295" y="53" text-anchor="middle" font-size="11" fill="#374151">知識・推論</text>
+    <text x="495" y="53" text-anchor="middle" font-size="11" fill="#9CA3AF">多肢選択のみ、実務≠</text>
+
+    <rect x="0" y="74" width="135" height="42" fill="#FAFAFA" stroke="#E5E7EB" stroke-width="0.5"/>
+    <rect x="135" y="74" width="100" height="42" fill="white" stroke="#E5E7EB" stroke-width="0.5"/>
+    <rect x="235" y="74" width="120" height="42" fill="white" stroke="#E5E7EB" stroke-width="0.5"/>
+    <rect x="355" y="74" width="280" height="42" fill="white" stroke="#E5E7EB" stroke-width="0.5"/>
+    <text x="67" y="95" text-anchor="middle" font-size="11" font-weight="700" fill="#374151">SWE-bench</text>
+    <text x="185" y="95" text-anchor="middle" font-size="11" fill="#374151">開発者</text>
+    <text x="295" y="95" text-anchor="middle" font-size="11" fill="#374151">コード修正</text>
+    <text x="495" y="95" text-anchor="middle" font-size="11" fill="#9CA3AF">エンジニア職限定、汎業種×</text>
+
+    <rect x="0" y="116" width="135" height="42" fill="#FAFAFA" stroke="#E5E7EB" stroke-width="0.5"/>
+    <rect x="135" y="116" width="100" height="42" fill="white" stroke="#E5E7EB" stroke-width="0.5"/>
+    <rect x="235" y="116" width="120" height="42" fill="white" stroke="#E5E7EB" stroke-width="0.5"/>
+    <rect x="355" y="116" width="280" height="42" fill="white" stroke="#E5E7EB" stroke-width="0.5"/>
+    <text x="67" y="137" text-anchor="middle" font-size="11" font-weight="700" fill="#374151">LMArena</text>
+    <text x="185" y="137" text-anchor="middle" font-size="11" fill="#374151">一般ユーザー</text>
+    <text x="295" y="137" text-anchor="middle" font-size="11" fill="#374151">好み（ELO）</text>
+    <text x="495" y="137" text-anchor="middle" font-size="11" fill="#9CA3AF">主観的・コスト非考慮</text>
+
+    <rect x="0" y="158" width="135" height="42" fill="#DBEAFE" stroke="#5B8DEF" stroke-width="1.5"/>
+    <rect x="135" y="158" width="100" height="42" fill="#DBEAFE" stroke="#5B8DEF" stroke-width="1.5"/>
+    <rect x="235" y="158" width="120" height="42" fill="#DBEAFE" stroke="#5B8DEF" stroke-width="1.5"/>
+    <rect x="355" y="158" width="280" height="42" fill="#DBEAFE" stroke="#5B8DEF" stroke-width="1.5"/>
+    <text x="67" y="179" text-anchor="middle" font-size="11" font-weight="700" fill="#1E40AF">ORCFLO Index</text>
+    <text x="185" y="179" text-anchor="middle" font-size="11" fill="#1E40AF" font-weight="700">企業・ビジネス</text>
+    <text x="295" y="179" text-anchor="middle" font-size="11" fill="#1E40AF">コスト×時間×品質</text>
+    <text x="495" y="179" text-anchor="middle" font-size="11" fill="#1E40AF">独立性・品質定義の検証が必要</text>
+
+    <text x="330" y="225" text-anchor="middle" font-size="11" fill="#5B8DEF" font-weight="700">→ ORCFLO Indexは「実務ROI」を初めて定量化する試み</text>
+  </g>
+
+  <!-- ROI EXAMPLE -->
+  <rect x="805" y="355" width="560" height="290" fill="white" stroke="#1A1D24" stroke-width="2" rx="6" filter="url(#softShadow)"/>
+  <rect x="805" y="355" width="560" height="36" fill="#2F3842" rx="4"/>
+  <text x="1085" y="379" text-anchor="middle" font-size="15" font-weight="700" fill="white">💡 ROI計算の例：文書要約タスク</text>
+
+  <g transform="translate(825, 408)">
+    <text x="240" y="20" text-anchor="middle" font-size="13" font-weight="700" fill="#374151">月間100件の法律文書要約（各50,000字）</text>
+
+    <!-- Model A -->
+    <rect x="0" y="35" width="240" height="140" fill="#FEF2F2" stroke="#DC2626" stroke-width="1.5" rx="4"/>
+    <text x="120" y="58" text-anchor="middle" font-size="13" font-weight="700" fill="#DC2626">モデルA（フラッグシップ）</text>
+    <text x="20" y="80" font-size="12" fill="#374151">品質スコア: 95/100</text>
+    <text x="20" y="100" font-size="12" fill="#374151">APIコスト: $1,200/月</text>
+    <text x="20" y="120" font-size="12" fill="#374151">処理時間: 45秒/件</text>
+    <text x="20" y="140" font-size="12" fill="#374151">総スコア: 業務コスト高い</text>
+    <text x="20" y="162" font-size="11" fill="#DC2626" font-weight="700">ORCFLO ROI: 中程度</text>
+
+    <!-- VS -->
+    <text x="250" y="115" text-anchor="middle" font-size="22" fill="#1A1D24">VS</text>
+
+    <!-- Model B -->
+    <rect x="270" y="35" width="240" height="140" fill="#F0FFF4" stroke="#5CA46E" stroke-width="1.5" rx="4"/>
+    <text x="390" y="58" text-anchor="middle" font-size="13" font-weight="700" fill="#166534">モデルB（中堅モデル）</text>
+    <text x="290" y="80" font-size="12" fill="#374151">品質スコア: 88/100</text>
+    <text x="290" y="100" font-size="12" fill="#374151">APIコスト: $180/月</text>
+    <text x="290" y="120" font-size="12" fill="#374151">処理時間: 12秒/件</text>
+    <text x="290" y="140" font-size="12" fill="#374151">総スコア: コスト大幅節約</text>
+    <text x="290" y="162" font-size="11" fill="#5CA46E" font-weight="700">ORCFLO ROI: 高い</text>
+
+    <!-- Conclusion -->
+    <rect x="0" y="190" width="510" height="40" fill="#EFF6FF" stroke="#5B8DEF" stroke-width="1.5" rx="4"/>
+    <text x="255" y="215" text-anchor="middle" font-size="12" fill="#1E40AF" font-weight="700">→ 品質7%差でコストが7倍違う。ROI視点ではモデルBが最適解</text>
+  </g>
+
+  <!-- STICKY NOTES -->
+  <g transform="rotate(-1.5, 170, 820)" filter="url(#stickyShadow)">
+    <rect x="125" y="795" width="250" height="110" fill="#FEF9C3" stroke="#1A1D24" stroke-width="1.5" rx="2"/>
+    <text x="250" y="818" text-anchor="middle" font-size="13" font-weight="700" fill="#1A1D24">業種別スコアの期待</text>
+    <text x="145" y="838" font-size="11" fill="#374151">法律・医療・金融等で</text>
+    <text x="145" y="854" font-size="11" fill="#374151">業種別ランキングが公開</text>
+    <text x="145" y="870" font-size="11" fill="#374151">されれば「最適モデルは</text>
+    <text x="145" y="886" font-size="11" fill="#374151">業種によって違う」を証明。</text>
+  </g>
+
+  <g transform="rotate(1.2, 440, 820)" filter="url(#stickyShadow)">
+    <rect x="405" y="795" width="250" height="110" fill="#D1FAE5" stroke="#1A1D24" stroke-width="1.5" rx="2"/>
+    <text x="530" y="818" text-anchor="middle" font-size="13" font-weight="700" fill="#1A1D24">SWE-benchとの共存</text>
+    <text x="425" y="838" font-size="11" fill="#374151">開発者向けSWE-bench ×</text>
+    <text x="425" y="854" font-size="11" fill="#374151">ビジネス向けORCFLO の</text>
+    <text x="425" y="870" font-size="11" fill="#374151">二軸評価がAI調達の</text>
+    <text x="425" y="886" font-size="11" fill="#374151">新スタンダードになる可能性。</text>
+  </g>
+
+  <g transform="rotate(-0.8, 710, 820)" filter="url(#stickyShadow)">
+    <rect x="685" y="795" width="250" height="110" fill="#FDE8D8" stroke="#1A1D24" stroke-width="1.5" rx="2"/>
+    <text x="810" y="818" text-anchor="middle" font-size="13" font-weight="700" fill="#1A1D24">独立性への疑念</text>
+    <text x="705" y="838" font-size="11" fill="#374151">評価機関とモデル提供社の</text>
+    <text x="705" y="854" font-size="11" fill="#374151">利益相反リスク。「品質」の</text>
+    <text x="705" y="870" font-size="11" fill="#374151">定義方法の透明性開示が</text>
+    <text x="705" y="886" font-size="11" fill="#374151">信頼性の鍵。</text>
+  </g>
+
+  <g transform="rotate(1.5, 990, 820)" filter="url(#stickyShadow)">
+    <rect x="965" y="795" width="250" height="110" fill="#EDE9FE" stroke="#1A1D24" stroke-width="1.5" rx="2"/>
+    <text x="1090" y="818" text-anchor="middle" font-size="13" font-weight="700" fill="#1A1D24">調達プロセスの変化</text>
+    <text x="985" y="838" font-size="11" fill="#374151">企業RFPに「ORCFLOスコア」</text>
+    <text x="985" y="854" font-size="11" fill="#374151">記載要件が追加される</text>
+    <text x="985" y="870" font-size="11" fill="#374151">シナリオ。SWE-benchの</text>
+    <text x="985" y="886" font-size="11" fill="#374151">ビジネス版として定着か。</text>
+  </g>
+
+  <line x1="125" y1="932" x2="1360" y2="932" stroke="#1A1D24" stroke-width="1" opacity="0.3"/>
+  <text x="742" y="954" text-anchor="middle" font-size="12" font-style="italic" fill="#9CA3AF">AI News · 2026-05-13 · ORCFLO Index: The First Business-Centric AI Benchmark for Knowledge Workers</text>
+  <text x="742" y="972" text-anchor="middle" font-size="11" fill="#9CA3AF">Sources: ORCFLO / PR Newswire · 2026-05-13</text>
+</svg>
